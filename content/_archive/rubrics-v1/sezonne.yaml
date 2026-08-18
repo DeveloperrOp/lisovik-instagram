@@ -1,0 +1,54 @@
+# Сезонне — прив'язка до пори року та інфоприводів.
+# Пікові дати (Чорна п'ятниця, Новий рік, 8 березня) додаються окремо
+# при складанні плану на відповідний місяць.
+rubric: sezonne
+items:
+
+  - headline: "СЕРПЕНЬ У ЛІСІ"
+    subline: "Час тихого полювання"
+    scene: >-
+      late summer forest floor, fern and moss, golden hour rays through
+      pine trunks, wicker basket blurred in the corner
+
+  - headline: "ВИХІДНІ У ЛІСІ"
+    subline: "Тиша, якої бракує"
+    scene: >-
+      wide forest clearing, soft sunlight, tall grass and ferns,
+      peaceful weekend mood
+
+  - headline: "ПЕРШІ ХОЛОДИ"
+    subline: "Дістаємо теплі горнятка"
+    scene: >-
+      misty cold morning, steaming cup on a windowsill, blanket edge,
+      cool light with warm accent
+
+  - headline: "ЗОЛОТА ОСІНЬ"
+    subline: "Найкраща пора для лісу"
+    scene: >-
+      autumn forest with yellow and orange foliage, warm low sun,
+      fallen leaves on a path, rich seasonal colour
+
+  - headline: "ЛИСТОПАД"
+    subline: "Ліс готується до зими"
+    scene: >-
+      bare branches and last leaves, grey-green misty forest,
+      quiet melancholic mood, muted palette
+
+  - headline: "ЗИМОВИЙ ЛІС"
+    subline: "Чага любить мороз"
+    scene: >-
+      snowy birch forest, black chaga on a white trunk,
+      cold blue light with one warm highlight
+    product_hint: "Чага"
+
+  - headline: "ВЕСНЯНЕ ПРОБУДЖЕННЯ"
+    subline: "Ліс оживає"
+    scene: >-
+      early spring forest with fresh green shoots and melting snow patches,
+      bright clear light, fresh optimistic palette
+
+  - headline: "ДОВГІ ВЕЧОРИ"
+    subline: "Сезон теплих напоїв"
+    scene: >-
+      dark evening interior, warm lamp, steaming cup and a blanket,
+      deep amber and green tones, cosy atmosphere

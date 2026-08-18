@@ -1,0 +1,37 @@
+# ПИТАННЯ — завжди вручну: через API стікер запитань недоступний.
+# Відповідає Ярик особисто.
+type: ask
+manual: true
+items:
+
+  - headline: "ЩО ОБРАТИ НОВАЧКУ?"
+    subline: "Питай — відповім особисто"
+    scene: "quiet forest path at blue hour, low mist, clean empty centre"
+
+  - headline: "ПИТАЙ ПРО ГРИБИ"
+    subline: "Відповім у наступних сторіс"
+    scene: "misty forest clearing, soft even light, calm and inviting"
+
+  - headline: "ПИТАННЯ ПРО ДОСТАВКУ?"
+    subline: "Розкажу, як усе працює"
+    scene: "dark table with a kraft parcel far out of focus, warm light"
+
+  - headline: "ЯК МИ ПРАЦЮЄМО"
+    subline: "Питай що завгодно"
+    scene: "tidy workspace corner heavily blurred, soft daylight"
+
+  - headline: "НЕ ЗНАЄШ, ЩО ОБРАТИ?"
+    subline: "Напиши — розберемось разом"
+    scene: "shelf with blurred containers, warm soft light, welcoming"
+
+  - headline: "ПРО СКЛАД І ЯКІСТЬ"
+    subline: "Питайте прямо"
+    scene: "clean neutral surface, bright even light, honest and simple"
+
+  - headline: "ЩО ВАМ ЦІКАВО?"
+    subline: "Збираю питання на тиждень"
+    scene: "blurred green forest bokeh, deep calm tones, empty centre"
+
+  - headline: "СПИТАЙ ПРО СВІЙ ВИПАДОК"
+    subline: "Підкажу без нав'язування"
+    scene: "quiet evening forest, soft mist, calm and open composition"

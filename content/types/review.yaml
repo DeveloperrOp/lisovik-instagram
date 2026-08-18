@@ -1,0 +1,58 @@
+# ВІДГУК — соцдоказ.
+#
+# ⚠️ ЦЕ ЗАГЛУШКИ. Ярик обіцяв дати справжні відгуки — замінити перед публікацією.
+# Правила для реальних текстів:
+#   • жодних медичних обіцянок: «вилікував», «пройшло», «допомогло від»
+#   • про смак, зручність, ритуал, доставку — можна
+#   • імена лишати тільки з дозволу клієнта
+type: review
+placeholder: true
+items:
+
+  - quote: "Замовляю втретє. Смак травʼяний, пʼю зранку замість звичного напою"
+    author: "Оксана, Львів"
+    scene: "soft dark green gradient with faint fern silhouettes at the edges"
+
+  - quote: "Прийшло на третій день, упаковано акуратно. Банка більша, ніж я думала"
+    author: "Ірина, Київ"
+    scene: "dark neutral background with subtle paper texture"
+
+  - quote: "Брала набір у подарунок мамі. Коробка виглядає дорого"
+    author: "Марія, Одеса"
+    scene: "dark warm background with soft light from one corner"
+
+  - quote: "Додаю в кашу щоранку. Зручно, що вже мелене"
+    author: "Андрій, Дніпро"
+    scene: "very dark blurred kitchen interior, warm low light"
+
+  - quote: "Порадила подруга. Тепер маю свій ритуал з вечірнім чаєм"
+    author: "Наталя, Харків"
+    scene: "dark cosy interior, single warm lamp glow far away"
+
+  - quote: "Питав у директі, відповіли за пʼять хвилин. Приємно"
+    author: "Сергій, Вінниця"
+    scene: "dark neutral gradient, calm and quiet, empty centre"
+
+  - quote: "Смак специфічний, але я звикла. Тепер без нього чогось бракує"
+    author: "Тетяна, Полтава"
+    scene: "dark green background with faint leaf shadows"
+
+  - quote: "Купую вже пів року. Подобається, що склад простий"
+    author: "Олег, Запоріжжя"
+    scene: "dark textured surface, soft even light, minimal"
+
+  - quote: "Замовляла капсули — зручно брати на роботу"
+    author: "Юлія, Чернівці"
+    scene: "dark blurred office-like interior, neutral cool tones"
+
+  - quote: "Чай гарно пахне, вдома одразу відчувається"
+    author: "Ольга, Ужгород"
+    scene: "dark warm interior with soft steam-like haze"
+
+  - quote: "Взяв набір, бо не знав що обрати. Виявилось зручно"
+    author: "Дмитро, Черкаси"
+    scene: "dark surface with a soft rectangle of light, empty"
+
+  - quote: "Друга банка вже. Витрачається повільно, вистачає надовго"
+    author: "Вікторія, Рівне"
+    scene: "dark neutral background, very soft vignette"

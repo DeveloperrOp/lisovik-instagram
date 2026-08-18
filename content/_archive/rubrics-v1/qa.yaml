@@ -1,0 +1,53 @@
+# Питання-відповідь — ЗАВЖДИ вручну (потрібен стікер запитань).
+# Відповідає Ярик особисто. Фон готуємо, стікер ставиться в застосунку.
+rubric: qa
+mode: manual
+items:
+
+  - headline: "ПИТАЙ ПРО ГРИБИ"
+    subline: "Відповім особисто"
+    scene: >-
+      quiet evening forest path, low mist, soft blue hour light,
+      calm and inviting, clean space in the middle
+
+  - headline: "ЩО ОБРАТИ НОВАЧКУ?"
+    subline: "Питай — підкажу"
+    scene: >-
+      soft evening light on a wooden table with several small jars,
+      inviting warm mood, shallow depth of field
+
+  - headline: "ПИТАННЯ ПРО ДОСТАВКУ?"
+    subline: "Розкажу, як усе працює"
+    scene: >-
+      kraft parcel box with twine on a plain table, morning light,
+      simple honest still life
+
+  - headline: "ЯК МИ ПРАЦЮЄМО"
+    subline: "Питай що завгодно"
+    scene: >-
+      tidy workspace corner with paper and a pen, soft daylight,
+      calm neutral tones, plenty of empty space
+
+  - headline: "НЕ ЗНАЄШ, ЩО ОБРАТИ?"
+    subline: "Напиши — розберемось"
+    scene: >-
+      several jars slightly out of focus on a light shelf,
+      warm soft light, welcoming and unhurried
+
+  - headline: "ЩО ВАС ЦІКАВИТЬ"
+    subline: "Збираю питання"
+    scene: >-
+      blurred green forest bokeh, deep calm tones,
+      large clean central area for a sticker
+
+  - headline: "ПРО СКЛАД І ЯКІСТЬ"
+    subline: "Питайте прямо"
+    scene: >-
+      clean neutral surface with a plain unlabelled jar,
+      bright even light, honest documentary style
+
+  - headline: "ВАШІ ПИТАННЯ"
+    subline: "Відповім у наступних сторіс"
+    scene: >-
+      cosy evening interior in soft focus, warm lamp glow,
+      dark green palette, empty middle area

@@ -1,0 +1,106 @@
+# Ранковий ритуал — лайфстайл. Настрій, а не продаж.
+# Тепло, спокій, повільний початок дня.
+rubric: ranok
+items:
+
+  - headline: "РАНКОВЕ ГОРНЯТКО"
+    subline: "Ранок без метушні"
+    scene: >-
+      ceramic cup of herbal tea on a wooden windowsill, steam rising,
+      soft morning light, linen cloth, dried linden flowers beside
+    product_hint: "Чай"
+
+  - headline: "ПЕРША ГОДИНА ДНЯ"
+    subline: "Тільки для себе"
+    scene: >-
+      quiet kitchen corner at sunrise, single cup on a wooden table,
+      long soft shadows, warm neutral palette, nobody around
+
+  - headline: "ТИХИЙ ПОЧАТОК"
+    subline: "Поки всі ще сплять"
+    scene: >-
+      dim early morning room, warm lamp and a steaming cup, open notebook,
+      cosy low light, calm atmosphere
+
+  - headline: "ВІВСЯНКА З ЛОЖКОЮ"
+    subline: "Просте додавання"
+    scene: >-
+      bowl of oatmeal with berries and a wooden spoon of fine dark powder,
+      bright breakfast table, fresh clean styling
+
+  - headline: "ЧАЙ ІЗ ЧАГИ"
+    subline: "Темний і теплий"
+    scene: >-
+      dark tea in a clay cup, birch chaga chunks on rough linen,
+      morning light through a window, rustic wooden table
+    product_hint: "Чага"
+
+  - headline: "РАНОК БІЛЯ ВІКНА"
+    subline: "Дощ не заважає"
+    scene: >-
+      rainy window with blurred green garden outside, cup on the sill,
+      water drops on glass, soft grey-green light, cosy mood
+
+  - headline: "ЛИПОВИЙ НАСТІЙ"
+    subline: "Запах літа в горнятку"
+    scene: >-
+      linden flower infusion in a glass cup, dried linden blossoms scattered
+      on pale wood, golden light, delicate and airy
+    product_hint: "Липа"
+
+  - headline: "ЗЕЛЕНИЙ РАНОК"
+    subline: "Ложка спіруліни"
+    scene: >-
+      bright morning kitchen, glass of green drink, spirulina powder in a
+      small bowl, fresh and energetic light palette
+    product_hint: "Спіруліна"
+
+  - headline: "БЕЗ ПОСПІХУ"
+    subline: "Найкращий темп"
+    scene: >-
+      slow morning still life, folded linen, cup and a sprig of herbs,
+      diffused daylight, minimal and unhurried
+
+  - headline: "ІВАН-ЧАЙ"
+    subline: "Ферментований, як годиться"
+    scene: >-
+      fireweed tea leaves and a poured cup on dark wood, warm side light,
+      traditional slavic tea aesthetic
+    product_hint: "Іван-чай"
+
+  - headline: "РАНОК У ЛІСІ"
+    subline: "Горнятко на пеньку"
+    scene: >-
+      enamel mug of herbal tea steaming on a tree stump in a misty forest
+      clearing, early light through trunks, outdoor calm
+
+  - headline: "ТЕПЛО В ДОЛОНЯХ"
+    subline: "Найпростіший ритуал"
+    scene: >-
+      close-up of a ceramic cup held in soft focus, warm steam,
+      knitted sleeve, cosy autumn palette
+
+  - headline: "СНІДАНОК БЕЗ ЕКРАНА"
+    subline: "П'ятнадцять хвилин тиші"
+    scene: >-
+      breakfast table with a plate, cup and a book, no devices,
+      natural window light, calm composition
+
+  - headline: "ЧОРНОБРИВЦІ"
+    subline: "Чай кольору осені"
+    scene: >-
+      marigold flower tea in a glass teapot, orange petals scattered,
+      warm amber light, rich autumn tones
+    product_hint: "чорнобривц"
+
+  - headline: "ПЕРЕД ВИХОДОМ"
+    subline: "Одне горнятко встигнеш"
+    scene: >-
+      cup on a hallway table beside keys and a scarf, morning light
+      from the doorway, everyday realism, warm tones
+
+  - headline: "ВИХІДНИЙ РАНОК"
+    subline: "Нікуди не треба"
+    scene: >-
+      unmade bed corner with a tray, cup and a book, soft daylight
+      through curtains, relaxed weekend mood

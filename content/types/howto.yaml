@@ -1,0 +1,136 @@
+# ЯК ВЖИВАТИ — три кроки. Знімає барʼєр «а що з цим робити».
+# Рівно три кроки: більше не влазить і не читається.
+# Без дозувань у грамах — тільки спосіб приготування.
+type: howto
+items:
+- headline: ЯК ЗАВАРИТИ ЧАГУ
+  steps:
+  - Залий окропом 80 °C
+  - Настоюй 15 хвилин
+  - Проціди і пий теплим
+  scene: dark wooden table, glass teapot far in the background, warm side light
+  product_hint: Чага
+- headline: ДОДАТИ В КАШУ
+  steps:
+  - Звари вівсянку як завжди
+  - Додай ложку порошку
+  - Розмішай і снідай
+  scene: bright kitchen counter, bowl and spoon out of focus, morning light
+- headline: ЗЕЛЕНЕ СМУЗІ
+  steps:
+  - Банан і жменя шпинату
+  - Ложка хлорели
+  - Збий блендером
+  scene: clean kitchen surface, blurred greenery, fresh bright light
+  product_hint: Хлорела
+- headline: ТРАВʼЯНИЙ ЧАЙ
+  steps:
+  - Ложка збору на горнятко
+  - Залий гарячою водою
+  - Накрий на 7 хвилин
+  scene: wooden tray with linen cloth, soft window light, empty centre
+  product_hint: Чай
+- headline: ХОЛОДНИЙ НАСТІЙ
+  steps:
+  - Заший сировину в банку
+  - Залий холодною водою
+  - Лиши на ніч у холодильнику
+  scene: glass jar on a windowsill in evening light, calm still life
+- headline: ГРИБНИЙ БУЛЬЙОН
+  steps:
+  - Замочи сушені гриби
+  - Провари 20 хвилин
+  - Проціди — основа готова
+  scene: kitchen stove corner, steam and warm light, dark tones
+  product_hint: Шиїтаке
+- headline: ДОДАТИ В ЙОГУРТ
+  steps:
+  - Насип йогурт у миску
+  - Додай ложку порошку
+  - Зверху ягоди й насіння
+  scene: bright breakfast table, overhead view, clean pale surface
+- headline: ЯК ПРИЙМАТИ КАПСУЛИ
+  steps:
+  - Запий склянкою води
+  - Краще під час їжі
+  - Тримай упаковку на видноті
+  scene: glass of water on a plain table, morning light, minimal
+- headline: ЗБЕРІГАННЯ
+  steps:
+  - Щільно закрий банку
+  - Прохолодне сухе місце
+  - Подалі від сонця
+  scene: wooden shelf in shade, soft light, calm neutral composition
+- headline: ЯК ЗАВАРИТИ ЛИСИЧКИ
+  steps:
+  - Залий теплою водою
+  - Лиши на 30 хвилин
+  - Використай і воду теж
+  scene: rustic wooden table with a bowl out of focus, warm light
+  product_hint: Лисичк
+- headline: СУП ІЗ ГРИБАМИ
+  steps:
+  - Обсмаж цибулю й моркву
+  - Додай грибний бульйон
+  - Вари 15 хвилин
+  scene: home kitchen, pot on the stove blurred, cosy warm tones
+- headline: ДОДАТИ У ВИПІЧКУ
+  steps:
+  - Просій борошно
+  - Додай ложку порошку
+  - Печи як завжди
+  scene: floury wooden table, soft daylight, homely composition
+- headline: РІДКИЙ ЕКСТРАКТ
+  steps:
+  - Струсни флакон
+  - Накрапай у воду або чай
+  - Випий одразу
+  scene: dark glass bottle silhouette on a plain surface, moody light
+  product_hint: екстракт
+- headline: ЯК ПОЧАТИ КУРС
+  steps:
+  - Обери одну ціль
+  - Тримай ритм щодня
+  - Не змішуй усе одразу
+  scene: calendar page and a pen on a desk, soft daylight, tidy
+- headline: ГРИБНА СІЛЬ
+  steps:
+  - Змели сушені гриби
+  - Змішай з морською сіллю
+  - Пересип у банку
+  scene: mortar and pestle on a wooden board, warm rustic light
+- headline: ВЕЧІРНЄ ГОРНЯТКО
+  steps:
+  - Завари рейші
+  - Додай трохи меду
+  - Пий за годину до сну
+  scene: dark cosy room, warm lamp glow, deep green and amber tones
+  product_hint: Рейші
+- headline: ЯК ЇСТИ ЇЖОВИК ЩОДНЯ
+  steps:
+  - Обери страву з жиром
+  - Додай ложку порошку
+  - Розмішай одразу, не потім
+  scene: bright kitchen counter blurred, bowl out of focus, morning light
+  product_hint: Їжовик
+- headline: КОЛИ ПИТИ КОРДИЦЕПС
+  steps:
+  - Зранку або до обіду
+  - Разом із їжею
+  - Ввечері краще не варто
+  scene: dark table with a glass of water far in the background, warm morning light
+  product_hint: Кордицепс
+- headline: ЯК ПИТИ АШВАГАНДУ
+  steps:
+  - Змішай із теплим молоком
+  - Додай мед або корицю
+  - Пий після їжі
+  scene: warm evening kitchen, mug and honey jar heavily blurred, cosy light
+  product_hint: Ашваганда
+- headline: ЯК ПРИЙМАТИ СПІРУЛІНУ
+  steps:
+  - Запий склянкою води
+  - Краще під час їжі
+  - Прополощи рот після прийому
+  scene: clean kitchen surface with a glass of water blurred, bright light
+  product_hint: Спіруліна

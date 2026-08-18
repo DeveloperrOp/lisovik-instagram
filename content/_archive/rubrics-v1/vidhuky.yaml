@@ -1,0 +1,76 @@
+# Відгуки — соцдоказ. Фон під картку відгуку, який накладається окремо.
+# ОБОВ'ЯЗКОВО: текст відгуку вичитує людина. Жодних медичних обіцянок.
+rubric: vidhuky
+items:
+
+  - headline: "ВАШІ ВІДГУКИ"
+    subline: "Дякуємо за довіру"
+    scene: >-
+      warm minimal background, soft green gradient with subtle leaf shadows,
+      large clean empty area in the centre
+
+  - headline: "ІСТОРІЇ КЛІЄНТІВ"
+    subline: "Ваш досвід — найкраще"
+    scene: >-
+      pale linen texture background with a few dried herbs at the edges,
+      generous empty space, soft daylight
+
+  - headline: "ПИШЕТЕ НАМ"
+    subline: "І це найцінніше"
+    scene: >-
+      soft blurred forest bokeh in deep green, very calm and out of focus,
+      large clean central area
+
+  - headline: "ДЯКУЄМО"
+    subline: "За кожне слово"
+    scene: >-
+      warm cream paper texture with subtle botanical embossing,
+      quiet elegant background, empty centre
+
+  - headline: "ЩИРО ВДЯЧНІ"
+    subline: "Ви робите нас кращими"
+    scene: >-
+      soft morning light on a plain wall with a shadow of leaves,
+      minimal and warm, plenty of empty space
+
+  - headline: "ВІДГУК ТИЖНЯ"
+    subline: "Обрали найтепліший"
+    scene: >-
+      cosy blurred interior with warm lamp light, deep bokeh,
+      dark green and amber palette, clean central area
+
+  - headline: "ВИ ПИТАЛИ — МИ ПОЧУЛИ"
+    subline: "Змінюємо на краще"
+    scene: >-
+      light neutral background with a subtle paper fold texture,
+      calm and clean, large empty space
+
+  - headline: "НАШІ ЛЮДИ"
+    subline: "Спільнота Лісовика"
+    scene: >-
+      soft forest green gradient with faint fern silhouettes at the corners,
+      empty middle, gentle and inviting
+
+  - headline: "ПОВЕРТАЄТЕСЬ"
+    subline: "І це найкраща оцінка"
+    scene: >-
+      warm wooden surface in soft focus, gentle side light,
+      calm neutral tones, clean central space
+
+  - headline: "ВАШІ ФОТО"
+    subline: "Показуємо з дозволу"
+    scene: >-
+      light textured background with a subtle frame shadow,
+      gallery-like presentation, empty centre
+
+  - headline: "ЧЕСНО ПРО НАС"
+    subline: "Публікуємо як є"
+    scene: >-
+      plain warm grey-green background with soft vignette,
+      honest and unpretentious, clean empty area
+
+  - headline: "ДО ЗУСТРІЧІ"
+    subline: "Дякуємо, що ви з нами"
+    scene: >-
+      quiet evening forest in soft focus, low mist, deep calm tones,
+      generous empty space in the middle

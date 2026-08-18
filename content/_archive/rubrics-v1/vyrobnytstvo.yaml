@@ -1,0 +1,29 @@
+# З лісу до банки — довіра і прозорість.
+# КРИТИЧНО: сировина імпортна. Пишемо ТІЛЬКИ «розфасовано в Україні».
+# Заборонено: «вирощено / виготовлено / зроблено в Україні».
+rubric: vyrobnytstvo
+items:
+
+  - headline: "РОЗФАСОВАНО В УКРАЇНІ"
+    subline: "Кожна партія — під контролем"
+    scene: >-
+      clean production table, sealed pouches in a neat row,
+      bright even light, white and pale wood tones
+
+  - headline: "ЯК МИ ПАКУЄМО"
+    subline: "Без зайвого пластику"
+    scene: >-
+      kraft pouches and paper packaging on a work table, scissors and twine,
+      natural daylight, honest workshop atmosphere
+
+  - headline: "КОНТРОЛЬ ЯКОСТІ"
+    subline: "Перевіряємо кожну партію"
+    scene: >-
+      neutral laboratory-adjacent still life, glass containers and a notebook
+      on a white surface, clean clinical light, no people
+
+  - headline: "ВАШЕ ЗАМОВЛЕННЯ"
+    subline: "Збираємо руками"
+    scene: >-
+      parcel being packed on a table, kraft box, tissue paper and jars,
+      warm workshop light, careful and tidy

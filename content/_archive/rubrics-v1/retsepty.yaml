@@ -1,0 +1,107 @@
+# Рецепти — як вживати. Практична рубрика, високе залучення.
+# Тільки спосіб приготування. Без дозувань і без обіцянок ефекту.
+rubric: retsepty
+items:
+
+  - headline: "СМУЗІ ЗІ СПІРУЛІНОЮ"
+    subline: "Зелений старт дня"
+    scene: >-
+      vibrant green smoothie in a tall glass, banana and spinach beside,
+      bright kitchen counter, fresh clean look
+    product_hint: "Спіруліна"
+
+  - headline: "ЯК ЗАВАРИТИ ЧАГУ"
+    subline: "Проста інструкція"
+    scene: >-
+      chaga chunks beside a glass teapot with dark infusion, warm kitchen
+      light, clean instructional composition
+    product_hint: "Чага"
+
+  - headline: "ДОДАТИ В КАШУ"
+    subline: "Найлінивіший спосіб"
+    scene: >-
+      porridge bowl with a spoonful of powder being stirred in,
+      overhead view, bright morning table, honest home cooking
+
+  - headline: "ГРИБНИЙ БУЛЬЙОН"
+    subline: "Основа для супу"
+    scene: >-
+      clear mushroom broth in a pot, dried shiitake and herbs beside,
+      steam rising, warm kitchen atmosphere
+    product_hint: "Шиїтаке"
+
+  - headline: "ХОЛОДНИЙ НАСТІЙ"
+    subline: "Заварюємо з вечора"
+    scene: >-
+      glass jar of cold brew herbal infusion on a windowsill, evening light,
+      herbs suspended in liquid, calm and simple
+
+  - headline: "ТАБЛЕТКИ ЧИ ПОРОШОК"
+    subline: "Кому що зручніше"
+    scene: >-
+      flat lay comparison on pale stone, small bowl of green powder next to
+      pressed tablets, even soft light, editorial clarity
+
+  - headline: "ЗЕЛЕНИЙ ЛИМОНАД"
+    subline: "Літня версія"
+    scene: >-
+      tall glass of green lemonade with ice, lemon slices and mint,
+      bright summer light, refreshing composition
+    product_hint: "Хлорела"
+
+  - headline: "ЩО ДОДАТИ В ЙОГУРТ"
+    subline: "Сніданок за хвилину"
+    scene: >-
+      yogurt bowl with berries, seeds and a spoon of powder,
+      overhead flat lay, fresh bright styling
+
+  - headline: "ВЕЧІРНЄ ГОРНЯТКО"
+    subline: "Рейші перед сном"
+    scene: >-
+      dark cosy evening, warm lamp, steaming cup on a book,
+      deep green and amber tones, restful mood
+    product_hint: "Рейші"
+
+  - headline: "ГРИБНА СІЛЬ"
+    subline: "Приправа своїми руками"
+    scene: >-
+      mortar with ground dried mushrooms and coarse salt, wooden board,
+      rustic kitchen light, hands-off still life
+
+  - headline: "ЗАПЕЧЕНІ ШИЇТАКЕ"
+    subline: "Проста вечеря"
+    scene: >-
+      roasted shiitake mushrooms on a baking tray with herbs and oil,
+      warm oven light, appetising home cooking
+    product_hint: "Шиїтаке"
+
+  - headline: "ТРАВ'ЯНИЙ ЗБІР"
+    subline: "Змішуємо свій чай"
+    scene: >-
+      several small bowls with different dried herbs and flowers,
+      overhead view, pale linen background, apothecary styling
+    product_hint: "Чай"
+
+  - headline: "СМУЗІ-БОУЛ"
+    subline: "Сніданок, який видно"
+    scene: >-
+      thick green smoothie bowl topped with seeds, banana slices and berries,
+      bright morning light, vibrant and appetising
+
+  - headline: "ГРИБНИЙ КРЕМ-СУП"
+    subline: "Обід у чотири кроки"
+    scene: >-
+      creamy mushroom soup in a deep bowl, dried mushrooms and thyme beside,
+      warm kitchen light, appetising home cooking
+
+  - headline: "ДОДАТИ У ВИПІЧКУ"
+    subline: "Ложка в тісто"
+    scene: >-
+      baking scene with flour, dough and a small bowl of dark powder on a
+      wooden table, warm daylight, homely and floury
+
+  - headline: "НАСТІЙ НА НІЧ"
+    subline: "Заварюємо звечора"
+    scene: >-
+      glass jar with herbal infusion steeping on a kitchen counter,
+      evening lamp light, calm and simple still life

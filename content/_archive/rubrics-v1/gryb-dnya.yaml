@@ -1,0 +1,159 @@
+# Гриб дня — освітня рубрика. Ботаніка, середовище, характер гриба.
+# Без ефектів, без дозувань, без обіцянок. Тільки природа і факт.
+rubric: gryb-dnya
+items:
+
+  - headline: "ЇЖОВИК ГРЕБІНЧАСТИЙ"
+    subline: "Білі голки на старому дереві"
+    scene: >-
+      lion's mane mushroom with cascading white spines on a mossy fallen log,
+      misty forest at dawn, warm amber backlight through birch trunks
+    product_hint: "Їжовик"
+
+  - headline: "КОРДИЦЕПС"
+    subline: "Помаранчевий на темному"
+    scene: >-
+      bright orange cordyceps militaris fruiting bodies on dark substrate,
+      macro shot, dramatic side light, deep shadows, scientific beauty
+    product_hint: "Кордицепс"
+
+  - headline: "БЕРЕЗОВА ЧАГА"
+    subline: "Росте лише на березі"
+    scene: >-
+      black cracked chaga conk on a white birch trunk, early spring forest,
+      cool light with one warm accent, textured bark detail
+    product_hint: "Чага"
+
+  - headline: "ШИЇТАКЕ"
+    subline: "Гриб на дубовій колоді"
+    scene: >-
+      shiitake mushrooms growing on an oak log, brown velvety caps,
+      forest shade, soft diffused light, rich earthy tones
+    product_hint: "Шиїтаке"
+
+  - headline: "МАЙТАКЕ"
+    subline: "Танцюючий гриб"
+    scene: >-
+      maitake cluster with layered overlapping fronds at the base of an oak,
+      autumn forest floor, dappled sunlight, warm brown and gold
+    product_hint: "Майтаке"
+
+  - headline: "РЕЙШІ"
+    subline: "Лакований капелюх"
+    scene: >-
+      reishi mushroom with glossy lacquered reddish cap on a dark stump,
+      deep forest, moody light, elegant and calm
+    product_hint: "Рейші"
+
+  - headline: "ТРЕМЕЛА"
+    subline: "Прозора, наче медуза"
+    scene: >-
+      translucent white tremella fungus with wavy gelatinous lobes on a branch,
+      backlit by soft daylight, delicate and otherworldly
+    product_hint: "Тремела"
+
+  - headline: "ЛИСИЧКИ"
+    subline: "Руді з-під ялини"
+    scene: >-
+      golden chanterelles among green moss and pine needles, forest floor,
+      warm sunlight, shallow depth of field
+    product_hint: "Лисичк"
+
+  - headline: "ВЕСЕЛКА"
+    subline: "Виростає за одну ніч"
+    scene: >-
+      phallus impudicus mushroom emerging from forest litter, morning dew,
+      soft green surroundings, natural documentary style
+    product_hint: "Веселка"
+
+  - headline: "ТРАМЕТЕС"
+    subline: "Різнобарвний трутовик"
+    scene: >-
+      turkey tail bracket fungus with concentric coloured rings on a fallen
+      branch, macro detail, natural blues browns and creams, wet forest
+    product_hint: "Траметес"
+
+  - headline: "АГАРІК"
+    subline: "Гриб бразильських полів"
+    scene: >-
+      agaricus blazei mushrooms with pale caps growing in grassy soil,
+      warm afternoon light, open field edge, clean natural look
+    product_hint: "Агарік"
+
+  - headline: "АШВАГАНДА"
+    subline: "Корінь, а не гриб"
+    scene: >-
+      ashwagandha root and dried berries on rough linen, earthy tones,
+      soft studio light, botanical still life
+    product_hint: "Ашваганда"
+
+  - headline: "ЖЕНЬШЕНЬ"
+    subline: "Корінь із характером"
+    scene: >-
+      ginseng root on dark wood with a few green leaves, moody light,
+      apothecary aesthetic, rich shadows
+    product_hint: "Женьшень"
+
+  - headline: "СПІРУЛІНА"
+    subline: "Найдавніша водорість"
+    scene: >-
+      deep emerald spirulina powder in a ceramic bowl, fine spiral texture
+      visible, teal water surface reflections in background
+    product_hint: "Спіруліна"
+
+  - headline: "ХЛОРЕЛА"
+    subline: "Зелена клітина води"
+    scene: >-
+      vivid green chlorella powder and pressed tablets on pale stone,
+      round bokeh light spots, fresh clean composition
+    product_hint: "Хлорела"
+
+  - headline: "ЧЕРВОНА ЩІТКА"
+    subline: "Росте серед каміння"
+    scene: >-
+      rhodiola quadrifida plant among grey rocks, alpine highland,
+      cool daylight, sparse and resilient landscape
+    product_hint: "Червона щітка"
+
+  - headline: "КВІТИ АРНІКИ"
+    subline: "Жовті зірки на схилах"
+    scene: >-
+      arnica flowers with yellow ray petals in a mountain meadow,
+      soft morning light, gentle wind movement, airy composition
+    product_hint: "Арніка"
+
+  - headline: "ЯК РОСТУТЬ ГРИБИ"
+    subline: "Міцелій під ногами"
+    scene: >-
+      cross section of forest floor showing white mycelium threads through
+      dark soil and roots, macro documentary photography, earthy palette
+
+  - headline: "ГРИБИ ПІСЛЯ ДОЩУ"
+    subline: "Чому саме тоді"
+    scene: >-
+      wet forest after rain, water drops on mushroom caps and moss,
+      fresh green light, glistening surfaces, alive atmosphere
+
+  - headline: "ТРУТОВИКИ"
+    subline: "Сторожі старих дерев"
+    scene: >-
+      layered bracket fungi on an old tree trunk, forest interior,
+      soft directional light, architectural natural forms
+
+  - headline: "СТАРІ ДЕРЕВА"
+    subline: "Найкращі сусіди грибів"
+    scene: >-
+      ancient oak trunk with deep bark texture and small fungi at the base,
+      forest interior, soft green light, sense of age and stillness
+
+  - headline: "ЛІСОВА ПІДСТИЛКА"
+    subline: "Там усе починається"
+    scene: >-
+      close-up of forest floor layers, fallen leaves, moss and twigs,
+      macro documentary photography, rich brown and green tones
+
+  - headline: "ГРИБИ ВЗИМКУ"
+    subline: "Не всі сплять"
+    scene: >-
+      winter forest with frost on branches, a bracket fungus on a snowy trunk,
+      cold blue light with a single warm highlight

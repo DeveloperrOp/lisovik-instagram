@@ -1,0 +1,148 @@
+# ЩО ОБРАТИ — два варіанти поруч. Допомагає визначитися й підводить до покупки.
+# Обидва варіанти подаємо чесно: у кожного своя перевага, поганих немає.
+type: compare
+items:
+- headline: ПОРОШОК ЧИ КАПСУЛИ
+  options:
+  - title: ПОРОШОК
+    points:
+    - Дешевше в перерахунку на порцію
+    - Легко додати в кашу чи смузі
+    - Сам регулюєш обʼєм
+    - Смак відчувається
+    - Фарбує руки й посуд
+  - title: КАПСУЛИ
+    points:
+    - Смаку немає взагалі
+    - Зручно брати з собою
+    - Нічого не відмірювати
+    - Дорожче за грам
+    - Не додаси у страву
+  scene: very dark blurred forest background, deep green tones, even texture
+- headline: ЦІЛІ ЧИ МЕЛЕНІ
+  options:
+  - title: ЦІЛІ
+    points:
+    - Зберігаються довше
+    - Можна заварювати повторно
+    - Видно, що саме ти купив
+    - Треба час на відвар
+  - title: МЕЛЕНІ
+    points:
+    - Готові до вживання одразу
+    - Легко вкинути в їжу
+    - Віддають усе за одне заварювання
+    - Швидше вбирають вологу
+  scene: dark neutral surface with soft shadow gradient, no objects
+- headline: ЕКСТРАКТ ЧИ СИРОВИНА
+  options:
+  - title: ЕКСТРАКТ
+    points:
+    - Концентрат — порція менша
+    - Банки вистачає надовше
+    - Дорожча за банку
+    - Смак насиченіший
+  - title: СИРОВИНА
+    points:
+    - Ближче до звичайної їжі
+    - Дешевша за банку
+    - Витрачається швидше
+    - Мʼякший смак
+  scene: deep shadowed forest floor, muted brown and green
+- headline: ЇЖОВИК ЧИ КОРДИЦЕПС
+  options:
+  - title: ЇЖОВИК
+    points:
+    - Мелені плодові тіла, не міцелій
+    - Нейтральніший смак у страві
+    - Беруть зранку або вдень
+    - Добре йде в кашу і смузі
+  - title: КОРДИЦЕПС
+    points:
+    - Вирощений на пшениці, вегетаріанський
+    - Яскраво-помаранчевий, ні з чим не сплутаєш
+    - Беруть до обіду, не на ніч
+    - Класика для активних днів
+  scene: dark split background, one side cooler one side warmer, abstract
+- headline: ЧАГА ЧИ ТРАВʼЯНИЙ ЧАЙ
+  options:
+  - title: ЧАГА
+    points:
+    - Один гриб, зібраний з берези
+    - Темний насичений настій
+    - Куски заварюють по кілька разів
+    - Потребує 60-80 °C і 15 хвилин
+  - title: ТРАВИ
+    points:
+    - Збір із кількох рослин
+    - Легший смак і більше аромату
+    - Заварюється за 5-7 хвилин
+    - Простіше пити щодня
+  scene: dark wooden table surface in low light, empty and calm
+- headline: ОКРЕМО ЧИ КУРСОМ
+  options:
+  - title: ОКРЕМО
+    text: Спробувати один гриб
+  - title: КУРСОМ
+    text: Готовий набір на місяць
+  scene: dim shelf with blurred containers, warm low light
+- headline: СПІРУЛІНА ЧИ ХЛОРЕЛА
+  options:
+  - title: СПІРУЛІНА
+    points:
+    - 68,6 г білка на 100 г
+    - Усі 9 незамінних амінокислот
+    - Стінка мʼяка — обробка не потрібна
+    - Смак мʼякший, простіше почати
+    - Дешевша за грам
+  - title: ХЛОРЕЛА
+    points:
+    - 55,6 г білка на 100 г
+    - Найбільше хлорофілу серед водоростей
+    - Стінка целюлозна — має бути розкрита
+    - Смак насиченіший, травʼяний
+    - Дорожча через обробку стінки
+  scene: deep teal to green gradient, abstract water texture
+- headline: ПОРОШОК ЧИ ТАБЛЕТКИ
+  options:
+  - title: ПОРОШОК
+    text: 'Гнучко: скільки треба, стільки й береш'
+  - title: ТАБЛЕТКИ
+    text: Нічого не відмірювати
+  scene: dark matte surface with soft side light, minimal
+- headline: РАНОК ЧИ ВЕЧІР
+  options:
+  - title: ЗРАНКУ
+    text: Їжовик, кордицепс, спіруліна
+  - title: УВЕЧЕРІ
+    text: Рейші, трави, чага
+  scene: dark background split between cool dawn and warm dusk tones
+- headline: СОБІ ЧИ В ПОДАРУНОК
+  options:
+  - title: СОБІ
+    text: Одна банка, спробувати
+  - title: У ПОДАРУНОК
+    text: Набір у коробці, гарно виглядає
+  scene: dark table with soft warm light from one side, empty centre
+- headline: ЩО БРАТИ ПЕРШИМ
+  options:
+  - title: ЇЖОВИК
+    text: Найпопулярніший вибір новачків
+  - title: ЧАГА
+    text: Найпростіше — просто заварити
+  scene: dark forest interior heavily blurred, quiet and even
+- headline: 50 Г ЧИ БІЛЬШЕ
+  options:
+  - title: 50 Г
+    text: Спробувати й зрозуміти смак
+  - title: БІЛЬШЕ
+    text: Вигідніше, якщо вже знаєш своє
+  scene: dark neutral studio background, soft gradient, no objects
+- headline: КОРДИЦЕПС ЗРАНКУ ЧИ ВВЕЧЕРІ
+  options:
+  - title: ЗРАНКУ
+    text: Класичний варіант — разом зі сніданком
+  - title: ВВЕЧЕРІ
+    text: 'Краще не варто: він радше бадьорить'
+  scene: dark background split between cool dawn and warm dusk tones
+  product_hint: Кордицепс

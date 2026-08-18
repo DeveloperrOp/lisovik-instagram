@@ -1,0 +1,52 @@
+# Міфи про гриби — науково-популярна рубрика.
+# Мухомор НЕ згадується навіть у розвінчуванні міфів. Жодних ефектів і дозувань.
+rubric: mify
+items:
+
+  - headline: "ЧИ ВСІ ГРИБИ ОДНАКОВІ?"
+    subline: "Коротко про різницю"
+    scene: >-
+      four different dried mushrooms arranged in a row on pale stone,
+      top-down view, even soft light, museum-like clarity
+
+  - headline: "ПОРОШОК ЧИ КАПСУЛИ?"
+    subline: "Розбираємо різницю"
+    scene: >-
+      flat lay on light stone, small glass jar of fine powder next to
+      empty vegetarian capsules, soft daylight, minimal styling
+
+  - headline: "ГРИБ ЧИ РОСЛИНА?"
+    subline: "Ні те, ні інше"
+    scene: >-
+      split composition, mushroom on one side and a green plant on the other,
+      neutral studio background, educational clarity
+
+  - headline: "ЩО ТАКЕ ЕКСТРАКТ"
+    subline: "Цифри 10:1 пояснюємо"
+    scene: >-
+      glass beaker with dark liquid extract beside dried mushroom pieces,
+      clean laboratory-adjacent styling, bright even light
+
+  - headline: "МІЦЕЛІЙ ЧИ ПЛОДОВЕ ТІЛО"
+    subline: "У чому різниця"
+    scene: >-
+      white mycelium threads in substrate next to a whole mushroom,
+      macro documentary photography, earthy natural palette
+
+  - headline: "ЧОМУ ГРИБИ СУШАТЬ"
+    subline: "Проста причина"
+    scene: >-
+      dried mushroom slices spread on a wooden drying rack,
+      warm daylight, traditional preservation aesthetic
+
+  - headline: "ЧИТАЄМО ЕТИКЕТКУ"
+    subline: "На що дивитися"
+    scene: >-
+      close-up of a plain product label area on kraft paper,
+      soft even light, no readable text, clean and instructional
+
+  - headline: "ЧОМУ «ДІЄТИЧНА ДОБАВКА»"
+    subline: "Пояснюємо формулювання"
+    scene: >-
+      neutral desk still life with a document and a pen, soft daylight,
+      calm official atmosphere, no readable text

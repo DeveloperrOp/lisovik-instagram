@@ -1,0 +1,144 @@
+# Спільні налаштування. Правляться тут, а не в згенерованому плані.
+
+cta: "Замовити → посилання в шапці профілю"
+
+disclaimer: "Дієтична добавка. Не замінює повноцінний раціон харчування. Не є лікарським засобом."
+
+# Обов'язковий негатив для КОЖНОЇ генерації.
+# Мухомор моделі домальовують самі — це дефолтний образ «лісового гриба».
+negative: >-
+  no red-and-white spotted mushrooms, no Amanita muscaria, no fly agaric,
+  no people, no faces, no hands,
+  no medical imagery, no pills, no blister packs, no pharmacy shelves,
+  no dosage numbers, no watermarks,
+  no text on packaging, no product labels with readable words,
+  no invented brand names, no real-world brands or logos of any company,
+  no lorem ipsum, no placeholder text, no captions, no signage,
+  no text panels or boxes behind the headline
+
+style: >-
+  premium editorial photography, Ukrainian forest mood, deep green and warm
+  cream palette, soft natural light, shallow depth of field, no clutter
+
+# Вікна публікації замість жорсткої хвилини:
+# світло вимикають, тривоги, плюс GitHub Actions cron сам по собі неточний
+slots:
+  morning: ["09:30", "11:00"]
+  day: ["13:30", "15:00"]
+  evening: ["17:30", "19:00"]
+  night: ["20:00", "21:30"]
+
+# КОЖЕН ДЕНЬ — ПРО ОДИН ПРОДУКТ.
+# Чотири сторіс дня працюють на нього: спершу пояснюємо, потім показуємо як
+# вживати, ввечері — сам товар, вночі — помилка, порівняння чи відгук.
+# Інакше виходить, що зранку розповідаємо про їжовик, а ввечері продаємо чагу.
+day_themes:
+  mon:
+    name: "Їжовик"
+    keys: [їжовик]
+    categories: [Їжовик]
+  tue:
+    name: "Чага"
+    keys: [чаг]
+    categories: [Чага]
+  wed:
+    name: "Спіруліна"
+    keys: [спіруліна]
+    categories: [Спіруліна]
+    # по тижнях чергується з хлорелою — один день, один продукт
+    rotate:
+      - {name: "Спіруліна", keys: [спіруліна], categories: [Спіруліна]}
+      - {name: "Хлорела",   keys: [хлорел],    categories: [Хлорела]}
+  thu:
+    name: "Кордицепс"
+    keys: [кордицепс]
+    categories: [Кордицепс]
+  fri:
+    name: "Ашваганда"
+    keys: [ашваганд]
+    categories: [Ашваганда]
+    # «Адаптогени» як група давали ту саму проблему, що «Кулінарні»:
+    # теми про ашваганду, а товар міг бути женьшенем
+    rotate:
+      - {name: "Ашваганда", keys: [ашваганд],           categories: [Ашваганда]}
+      - {name: "Женьшень",  keys: [женьшень, родіол],   categories: [Женьшень]}
+  sat:
+    name: "Рейші"
+    keys: [рейші]
+    categories: [Рейші]
+    # день-збірник не працює: теми виходили про рейші, а товар — лисички.
+    # Тому теж чергуємо по одному продукту на тиждень.
+    rotate:
+      - {name: "Рейші",   keys: [рейші],            categories: [Рейші]}
+      - {name: "Шиїтаке", keys: [шиітаке, шиїтаке], categories: [Шиїтаке]}
+      - {name: "Майтаке", keys: [майтаке],          categories: [Майтаке]}
+      - {name: "Лисички", keys: [лисичк],           categories: [Лисичк]}
+  sun:
+    name: "Чай"
+    keys: [чай, збір, трав]
+    categories: [Чай]
+    # день-збірник теж не працює: теми були загальні, а товар брався навмання
+    rotate:
+      - {name: "Чай",     keys: [чай, збір, трав], categories: [Чай]}
+      - {name: "Тремела", keys: [тремел],          categories: [Тремела]}
+
+# Порядок типів у дні. Ніч чергується по днях, щоб не було одноманітно.
+day_slots: [useful, howto, product, night]
+night_rotation:
+  mon: ask
+  tue: mistake
+  wed: compare
+  thu: myth
+  fri: ask
+  sat: mistake
+  sun: compare
+
+# За тиждень: product 7, useful 7, howto 7, ask 2, mistake 2, compare 2, review 1
+
+# Типи, які завжди публікуються руками (потрібен стікер)
+manual_types: [ask]
+
+# Reels тягнуть нову аудиторію, Stories працюють лише на наявних підписників
+reels_days: [mon, wed, fri]
+feed_days: [tue, thu, sat]
+
+# Заголовок-користь для товарних сторіс: категорія → обіцянка.
+# Без медичних обіцянок: «фокус» і «тонус» — це самопочуття, а не лікування.
+product_headlines:
+  "Їжовик": ["ФОКУС З РАНКУ", "ЯСНІСТЬ ДУМОК", "ДЛЯ ЗОСЕРЕДЖЕНИХ ДНІВ"]
+  "Кордицепс": ["ТОНУС НА ДЕНЬ", "ДЛЯ АКТИВНИХ", "СИЛА НА ТРЕНУВАННЯ"]
+  "Чага": ["ЧАГА У ЧАЙ", "ЛІСОВА КЛАСИКА", "ТЕМНИЙ НАСТІЙ"]
+  "Рейші": ["ВЕЧІРНІЙ РИТУАЛ", "ГРИБ СПОКОЮ"]
+  "Шиїтаке": ["СМАК СХІДНОГО ЛІСУ", "ДЛЯ СУПІВ І СОУСІВ"]
+  "Майтаке": ["ТАНЦЮЮЧИЙ ГРИБ", "МАЙТАКЕ ЩОДНЯ"]
+  "Спіруліна": ["ЗЕЛЕНА СИЛА", "ЛОЖКА ЗЕЛЕНІ ЩОДНЯ"]
+  "Хлорела": ["ЗЕЛЕНА КЛІТИНА", "ХЛОРЕЛА ЩОДНЯ"]
+  "Ашваганда": ["КОРІНЬ СПОКОЮ", "ДЛЯ РІВНИХ ВЕЧОРІВ"]
+  "Женьшень": ["КОРІНЬ ІЗ ХАРАКТЕРОМ", "ДАВНЯ КЛАСИКА"]
+  "Тремела": ["ГРИБ КРАСИ", "ДЛЯ ШКІРИ ТА ВОЛОССЯ"]
+  "Лисичк": ["РУДІ З-ПІД ЯЛИНИ", "ЛИСИЧКИ У БАНЦІ"]
+  "Веселка": ["РІДКІСНИЙ ГІСТЬ ЛІСУ", "ВЕСЕЛКА З ЛІСУ"]
+  "Траметес": ["РІЗНОБАРВНИЙ ТРУТОВИК", "ГРИБ-ВЕСЕЛКА"]
+  "Агарік": ["ГРИБ ТЕПЛИХ ПОЛІВ", "АГАРІК У БАНЦІ"]
+  "Чай": ["ТРАВИ У ГОРНЯТКУ", "ЧАЙ ІЗ ЛІСУ"]
+  "Рідкі екстракти": ["КРАПЛІ СИЛИ", "ЕКСТРАКТ У ФЛАКОНІ"]
+  "Вітекс": ["ВІТЕКС У КАПСУЛАХ"]
+  "Спірулина": ["ЗЕЛЕНА СИЛА"]
+  "Кульбаба": ["КОРІНЬ КУЛЬБАБИ"]
+  "Розторопша": ["РОЗТОРОПША У БАНЦІ"]
+  "Софора": ["СОФОРА ЯПОНСЬКА"]
+  "Гриб": ["ГРИБ ІЗ ЛІСУ", "ЛІСОВА КЛАСИКА"]
+  "Трійчатка": ["ТРАВ'ЯНИЙ ЗБІР", "ТРІЙЧАТКА У БАНЦІ"]
+  "Курс": ["МІСЯЦЬ У СВОЄМУ РИТМІ", "ГОТОВИЙ КУРС"]
+  "Набір": ["ВСЕ В ОДНІЙ КОРОБЦІ", "ГОТОВИЙ НАБІР"]
+  "Червона щітка": ["ГІРСЬКИЙ КОРІНЬ"]
+  "Арніка": ["ГІРСЬКІ КВІТИ"]
+
+# Сцени для товарних кадрів — підставляються по колу
+product_scenes:
+  - "soft morning forest clearing, moss and fern, warm low sun, shallow depth of field"
+  - "mossy fallen log in a misty forest, cool green light, dew on leaves"
+  - "flat stone surface among ferns, dappled sunlight through leaves"
+  - "wooden table by a window with forest visible outside, warm daylight"
+  - "birch grove in soft morning light, white bark and green undergrowth"
+  - "dark forest floor with pine needles, one warm shaft of light"

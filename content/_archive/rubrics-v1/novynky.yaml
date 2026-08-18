@@ -1,0 +1,58 @@
+# Новинки та набори — продуктова рубрика.
+# Назви товарів беруться ТІЛЬКИ з display_name (безпечні, без claim).
+rubric: novynky
+items:
+
+  - headline: "НАБІР «ПОВНИЙ СПЕКТР»"
+    subline: "Спіруліна та хлорела разом"
+    scene: >-
+      two matte pouches standing on a light oak table, soft studio light,
+      green botanical shadows on a cream wall behind
+    product_hint: "Повний спектр"
+
+  - headline: "КУРС FOCUS FLOW"
+    subline: "Місяць у своєму ритмі"
+    scene: >-
+      neat monthly set of jars on a light shelf, soft shadows,
+      calm beige and green palette, organised and premium
+    product_hint: "Focus Flow"
+
+  - headline: "РІДКІ ЕКСТРАКТИ"
+    subline: "Крапельниця у флаконі"
+    scene: >-
+      dark glass dropper bottles in a row on pale stone, soft reflections,
+      apothecary aesthetic, clean minimal styling
+    product_hint: "екстракт"
+
+  - headline: "КУРС ДЕТОКС"
+    subline: "Чага та трійчатка"
+    scene: >-
+      set of jars and a kraft box on a wooden table, warm side light,
+      tidy premium packaging composition
+    product_hint: "Детокс"
+
+  - headline: "ГРИБНИЙ ЧАЙ"
+    subline: "Сім різних зборів"
+    scene: >-
+      seven small paper tea packets arranged in a grid on linen,
+      overhead view, soft daylight, calm natural palette
+    product_hint: "Чай"
+
+  - headline: "КАПСУЛИ"
+    subline: "Коли смак не на часі"
+    scene: >-
+      vegetarian capsules in a glass jar on a pale surface,
+      clean product photography, soft even light
+
+  - headline: "ЩО У НАС НОВОГО"
+    subline: "Оновили полицю"
+    scene: >-
+      light wooden shelf with several jars and pouches, soft daylight,
+      shop-like tidy arrangement, warm neutral tones
+
+  - headline: "КУРС NIGHT BALANCE"
+    subline: "Вечірня серія"
+    scene: >-
+      jars on a bedside table with a warm lamp, evening light,
+      deep blue and amber palette, restful mood
+    product_hint: "Night Balance"

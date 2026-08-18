@@ -1,0 +1,25 @@
+# Секрети — ніколи в репозиторій
+.env
+*.key
+*-sa-key.json
+service-account*.json
+
+# Робочі файли генерації
+out/
+samples/*.png
+samples/*.jpg
+samples/*.json
+
+# Кеш каталогу — тягнеться з Horoshop за 10 секунд
+content/catalog_raw.json
+content/products.json
+
+
+__pycache__/
+*.pyc
+.venv/
+tmp/
+
+# Готові кадри — важкі й не потрібні для публікації: медіа вже в GCS
+ГОТОВІ СТОРІС/
+samples/

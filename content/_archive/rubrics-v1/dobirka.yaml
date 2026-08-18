@@ -1,0 +1,53 @@
+# Добірка — заміна рубрики «Промокод» (промокодів поки немає).
+# Допомагає обрати: підбірки за ситуацією, а не за «ефектом».
+# Формулювання нейтральні: «для тих, хто…», а не «допоможе при…».
+rubric: dobirka
+items:
+
+  - headline: "З ЧОГО ПОЧАТИ"
+    subline: "Три варіанти для новачка"
+    scene: >-
+      three jars arranged in a row on a light wooden surface,
+      soft studio light, clean and welcoming product still life
+
+  - headline: "ДЛЯ ТИХ, ХТО НЕ ЛЮБИТЬ СМАК"
+    subline: "Капсули замість порошку"
+    scene: >-
+      capsules in a small glass bowl beside a closed jar,
+      pale neutral background, soft even light
+
+  - headline: "ЯКЩО МАЛО ЧАСУ"
+    subline: "Готові набори"
+    scene: >-
+      kraft box with jars inside on a plain table, morning light,
+      tidy and practical composition
+
+  - headline: "ДЛЯ ЗНАЙОМСТВА З ГРИБАМИ"
+    subline: "Найпростіші варіанти"
+    scene: >-
+      four small paper packets on linen cloth, overhead flat lay,
+      soft daylight, calm natural palette
+
+  - headline: "ЩО ОБРАТИ У ПОДАРУНОК"
+    subline: "Гарно виглядає на столі"
+    scene: >-
+      gift-ready set with a kraft box and twine on a wooden table,
+      warm side light, cosy premium feel
+
+  - headline: "ЗЕЛЕНА ПОЛИЦЯ"
+    subline: "Спіруліна та хлорела"
+    scene: >-
+      green powders in two bowls with pouches behind, fresh bright light,
+      vivid green and cream palette
+
+  - headline: "ДЛЯ ЧАЙНОЇ ЦЕРЕМОНІЇ"
+    subline: "Збори та трави"
+    scene: >-
+      glass teapot, dried herbs and two cups on a wooden tray,
+      warm afternoon light, unhurried atmosphere
+
+  - headline: "НАЙПОПУЛЯРНІШЕ"
+    subline: "Що беруть найчастіше"
+    scene: >-
+      several jars grouped on a pale surface with one slightly forward,
+      soft studio light, clean retail styling
