@@ -96,7 +96,9 @@ night_rotation:
 # За тиждень: product 7, useful 7, howto 7, ask 2, mistake 2, compare 2, review 1
 
 # Типи, які завжди публікуються руками (потрібен стікер)
-manual_types: [ask]
+# Стікерів через API немає, тому «питання» йдуть автоматом
+# із прямим призивом писати в директ
+manual_types: []
 
 # Reels тягнуть нову аудиторію, Stories працюють лише на наявних підписників
 reels_days: [mon, wed, fri]

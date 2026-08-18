@@ -95,6 +95,15 @@ def main() -> int:
             skipped += 1
             continue
 
+        # Уже опубликованное не трогаем: повторная постановка в очередь
+        # сбрасывала статус, и сторис уходила в аккаунт второй раз
+        already = next((i for i in m["items"]
+                        if i["id"] == sid and i["status"] == "published"), None)
+        if already:
+            print(f"  — {sid}: вже опубліковано {already.get('published_at','')[:16]}")
+            skipped += 1
+            continue
+
         src = PENDING / f"{sid}.jpg"
         if not src.exists():
             print(f"  ✖ {sid}: немає файлу")

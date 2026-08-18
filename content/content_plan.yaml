@@ -72,10 +72,10 @@ stories:
   slot: night
   kind: ask
   theme: Їжовик
-  mode: manual
+  mode: auto
   scene: quiet forest path at blue hour, low mist, clean empty centre
   headline: ЩО ОБРАТИ НОВАЧКУ?
-  subline: Питай — відповім особисто
+  subline: Напиши в директ — підкажу
 - id: w1-tue-morning
   week: 1
   day: tue
@@ -293,10 +293,10 @@ stories:
   slot: night
   kind: ask
   theme: Ашваганда
-  mode: manual
+  mode: auto
   scene: misty forest clearing, soft even light, calm and inviting
   headline: ПИТАЙ ПРО ГРИБИ
-  subline: Відповім у наступних сторіс
+  subline: Напиши в директ, відповім особисто
 - id: w1-sat-morning
   week: 1
   day: sat
@@ -460,10 +460,10 @@ stories:
   slot: night
   kind: ask
   theme: Їжовик
-  mode: manual
+  mode: auto
   scene: dark table with a kraft parcel far out of focus, warm light
   headline: ПИТАННЯ ПРО ДОСТАВКУ?
-  subline: Розкажу, як усе працює
+  subline: Напиши в директ — розкажу
 - id: w2-tue-morning
   week: 2
   day: tue
@@ -680,10 +680,10 @@ stories:
   slot: night
   kind: ask
   theme: Женьшень
-  mode: manual
+  mode: auto
   scene: tidy workspace corner heavily blurred, soft daylight
   headline: ЯК МИ ПРАЦЮЄМО
-  subline: Питай що завгодно
+  subline: Питай у директі, відповідаю сам
 - id: w2-sat-morning
   week: 2
   day: sat
