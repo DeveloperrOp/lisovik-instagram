@@ -110,8 +110,9 @@ def main() -> int:
         print("✖ немає IG_ACCESS_TOKEN / IG_USER_ID в оточенні")
         return 1
 
-    tok = None if dry else mf.token()
-    m = mf.load(tok) if not dry else mf.load()
+    # gcloud тут не нужен: очередь лежит файлом в репозитории, а медиа
+    # уже залиты локально при постановке в очередь
+    m = mf.load()
     now = datetime.now(mf.KYIV)
 
     ready = mf.due(m, now)
@@ -127,7 +128,7 @@ def main() -> int:
 
     if not ready:
         if stale and not dry:
-            mf.save(m, tok)
+            mf.save(m)
         print("нічого публікувати")
         return 0
 
@@ -152,7 +153,7 @@ def main() -> int:
             print(f"  ✖ {item['id']}: {e}")
 
     if not dry:
-        mf.save(m, tok)
+        mf.save(m)
     print(f"\nопубліковано: {published}")
     return 0
 
