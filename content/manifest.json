@@ -99,9 +99,9 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-tue-night.jpg",
    "slot_start": "2026-08-19T20:00:00+03:00",
    "slot_end": "2026-08-19T21:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
+   "status": "published",
+   "published_at": "2026-08-19T20:20:39.426320+03:00",
+   "ig_media_id": "18072550070422097",
    "error": null
   },
   {
