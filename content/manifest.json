@@ -73,9 +73,9 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-tue-day.jpg",
    "slot_start": "2026-08-19T13:30:00+03:00",
    "slot_end": "2026-08-19T15:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
+   "status": "published",
+   "published_at": "2026-08-19T13:47:48.253515+03:00",
+   "ig_media_id": "17978265219096440",
    "error": null
   },
   {
