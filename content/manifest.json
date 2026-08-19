@@ -60,9 +60,9 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-tue-morning.jpg",
    "slot_start": "2026-08-19T09:30:00+03:00",
    "slot_end": "2026-08-19T11:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
+   "status": "published",
+   "published_at": "2026-08-19T09:54:56.596186+03:00",
+   "ig_media_id": "18075219458427124",
    "error": null
   },
   {
