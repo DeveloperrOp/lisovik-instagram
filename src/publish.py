@@ -103,8 +103,49 @@ def publish_item(item: dict) -> str:
     return r["id"]
 
 
+
+# ---------------------------------------------------------------- Facebook
+# Instagram і Facebook — різні стрічки: те, що йде в IG через API, у FB Stories
+# не зʼявляється саме по собі (перевірено: в IG дві сторіс, на сторінці нуль).
+# Тому дублюємо окремо.
+#
+# Флоу з документації Page Stories API — два кроки:
+#   POST /{page}/photos?published=false&url=...  -> photo_id
+#   POST /{page}/photo_stories  {photo_id}       -> публікація
+#
+# Потрібен PAGE access token і право pages_manage_posts.
+
+FB_PAGE_ID = os.environ.get("FB_PAGE_ID", "518163764713860")
+
+
+def page_token() -> str:
+    """Токен сторінки. Для публікації на Page потрібен саме він, не юзерський."""
+    r = api("me/accounts", {"fields": "id,access_token", "access_token": IG_TOKEN})
+    for pg in r.get("data", []):
+        if pg.get("id") == FB_PAGE_ID:
+            return pg.get("access_token", "")
+    data = r.get("data") or []
+    return data[0].get("access_token", "") if data else ""
+
+
+def publish_fb_story(media_url: str, ptoken: str) -> str:
+    """Публікує фото-сторіс на сторінку Facebook, повертає post_id."""
+    up = api(f"{FB_PAGE_ID}/photos",
+             {"url": media_url, "published": "false", "access_token": ptoken},
+             "POST")
+    photo_id = up.get("id")
+    if not photo_id:
+        raise RuntimeError(f"не отримали photo_id: {json.dumps(up)[:150]}")
+    st = api(f"{FB_PAGE_ID}/photo_stories",
+             {"photo_id": photo_id, "access_token": ptoken}, "POST")
+    if not st.get("success", True):
+        raise RuntimeError(f"photo_stories відмовив: {json.dumps(st)[:150]}")
+    return st.get("post_id") or photo_id
+
+
 def main() -> int:
     dry = "--dry-run" in sys.argv
+    skip_fb = "--no-fb" in sys.argv
 
     if not dry and (not IG_TOKEN or not IG_USER_ID):
         print("✖ немає IG_ACCESS_TOKEN / IG_USER_ID в оточенні")
@@ -144,9 +185,21 @@ def main() -> int:
             continue
         try:
             media_id = publish_item(item)
-            mf.mark(m, item["id"], "published",
-                    published_at=now.isoformat(), ig_media_id=media_id)
-            print(f"  ✔ {item['id']} → {media_id}")
+            fields = {"published_at": now.isoformat(), "ig_media_id": media_id}
+            print(f"  ✔ {item['id']} → IG {media_id}")
+
+            # Дубль у Facebook Stories. Якщо не вийшло — не валимо весь запуск:
+            # інстаграмна сторіс уже опублікована, і це головне.
+            if not skip_fb:
+                try:
+                    fb_id = publish_fb_story(item["media_url"], page_token())
+                    fields["fb_story_id"] = fb_id
+                    print(f"    ↳ FB {fb_id}")
+                except Exception as e:
+                    fields["fb_error"] = str(e)[:200]
+                    print(f"    ↳ FB не вийшло: {str(e)[:120]}")
+
+            mf.mark(m, item["id"], "published", **fields)
             published += 1
         except Exception as e:
             mf.mark(m, item["id"], "failed", error=str(e)[:300])
