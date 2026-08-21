@@ -27,11 +27,14 @@ HOROSHOP_ENV = Path(
 # должны быть публично читаемыми.
 GCS_BUCKET = os.environ.get("LISOVIK_BUCKET", "lisovik-ig-media")
 
-# Instagram Graph API. Токен живёт 60 дней, обновляется на 45-й.
+# Instagram Graph API. Токен системного пользователя — бессрочный
+# (проверено check_token.py: «спливає: ніколи»), обновлять по сроку не надо.
 # В GitHub Actions приходит из секретов, локально — из окружения.
+# Версию поднимаем осознанно: Meta гасит старые примерно за два года,
+# а v26.0 — верхняя живая (v27 Graph уже не понимает).
 IG_USER_ID = os.environ.get("IG_USER_ID", "")
 IG_TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
-GRAPH_VERSION = "v21.0"
+GRAPH_VERSION = "v26.0"
 
 # Vertex AI
 GCP_PROJECT = "project-b6733216-c1b5-4017-82e"
