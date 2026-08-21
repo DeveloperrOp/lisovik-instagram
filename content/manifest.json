@@ -166,10 +166,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-thu-morning.jpg",
    "slot_start": "2026-08-21T09:30:00+03:00",
    "slot_end": "2026-08-21T11:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-21T10:09:45.454651+03:00",
+   "ig_media_id": "18104025977463417",
+   "error": null,
+   "fb_story_id": "2859685864397487"
   },
   {
    "id": "w1-thu-day",
