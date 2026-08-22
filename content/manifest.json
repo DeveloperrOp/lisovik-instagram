@@ -222,10 +222,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-fri-morning.jpg",
    "slot_start": "2026-08-22T09:30:00+03:00",
    "slot_end": "2026-08-22T11:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-22T09:39:03.741347+03:00",
+   "ig_media_id": "18339702022270660",
+   "error": null,
+   "fb_story_id": "1071557955409519"
   },
   {
    "id": "w1-fri-day",
