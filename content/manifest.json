@@ -264,10 +264,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-fri-night.jpg",
    "slot_start": "2026-08-22T20:00:00+03:00",
    "slot_end": "2026-08-22T21:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-22T20:14:29.017549+03:00",
+   "ig_media_id": "18122266537874043",
+   "error": null,
+   "fb_story_id": "1806680154021062"
   },
   {
    "id": "w1-sat-morning",
