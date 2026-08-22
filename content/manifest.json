@@ -250,10 +250,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-fri-evening.jpg",
    "slot_start": "2026-08-22T17:30:00+03:00",
    "slot_end": "2026-08-22T19:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-22T17:41:02.370267+03:00",
+   "ig_media_id": "17962579038204661",
+   "error": null,
+   "fb_story_id": "1380653027543782"
   },
   {
    "id": "w1-fri-night",
