@@ -292,10 +292,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-sat-day.jpg",
    "slot_start": "2026-08-23T13:30:00+03:00",
    "slot_end": "2026-08-23T15:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-23T13:44:06.797767+03:00",
+   "ig_media_id": "17963661153164529",
+   "error": null,
+   "fb_story_id": "1048102354619355"
   },
   {
    "id": "w1-sat-evening",
