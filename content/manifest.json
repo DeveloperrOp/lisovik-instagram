@@ -320,10 +320,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-sat-night.jpg",
    "slot_start": "2026-08-23T20:00:00+03:00",
    "slot_end": "2026-08-23T21:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-23T20:15:08.374635+03:00",
+   "ig_media_id": "18011863844747522",
+   "error": null,
+   "fb_story_id": "1077958931552671"
   },
   {
    "id": "w1-sun-morning",
