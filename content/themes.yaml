@@ -1,0 +1,109 @@
+# Стилистический вайб недели.
+#
+# Каждая неделя выходит в своём настроении, но структура кадра не меняется:
+# та же сетка, тот же порядок блоков, тот же футер. Меняются палитра, свет,
+# гарнитура и сцена. Узнаваемость бренда держится на композиции, а не на
+# цвете, — если менять и её, лента рассыплется в лоскутное одеяло.
+#
+# Ротация по кругу: неделя N берёт тему N-1 по модулю. Пять тем — месяц с
+# лишним без повторов.
+#
+# ВАЖНО про шрифты. Проверено рендером, а не по названию:
+#   * Ebrima и Malgun Gothic украинских букв НЕ содержат — рисуют квадратики,
+#     хотя формально «поддерживают кириллицу». Не подставлять.
+#   * Bahnschrift — вариативный, PIL берёт светлое начертание, для заголовков
+#     слишком тонкий. Не подставлять.
+# Все гарнитуры ниже проверены на Ґ Є І Ї.
+
+themes:
+  - key: lisova-tysha
+    name: Лісова тиша
+    about: Базовий вайб. Туманний ліс, приглушена зелень, спокій.
+    fonts:
+      bold: segoeuib
+      semi: seguisb
+      reg: segoeui
+    cream: [247, 244, 236]
+    dim: [214, 210, 199]
+    accent: [143, 168, 106]
+    ink: [18, 24, 18]
+    tint: [10, 16, 12]
+    panel: [26, 44, 28]
+    veil: 0
+    style: >
+      premium editorial photography, Ukrainian forest mood, deep green and
+      warm cream palette, soft natural light, shallow depth of field, no clutter
+
+  - key: rankova-kuhnya
+    name: Ранкова кухня
+    about: Світлий високий ключ, тепле вікно, льон і дерево. Серифна подача.
+    fonts:
+      bold: georgiab
+      semi: georgia
+      reg: georgia
+    cream: [252, 248, 240]
+    dim: [228, 214, 194]
+    accent: [198, 124, 72]
+    ink: [44, 32, 24]
+    tint: [40, 28, 18]
+    panel: [74, 48, 30]
+    veil: -30
+    style: >
+      bright airy morning kitchen photography, warm daylight through a window,
+      pale linen and light wood, soft shadows, food-magazine editorial, high key,
+      generous negative space
+
+  - key: chystyi-stil
+    name: Чистий стіл
+    about: Холодний мінімалізм, рівне світло, багато повітря. Точність.
+    fonts:
+      bold: trebucbd
+      semi: trebucbd
+      reg: trebuc
+    cream: [238, 242, 246]
+    dim: [176, 190, 202]
+    accent: [92, 164, 196]
+    ink: [16, 24, 32]
+    tint: [12, 18, 26]
+    panel: [26, 38, 52]
+    veil: -15
+    style: >
+      clean minimal studio still life, neutral cool grey seamless background,
+      even soft light, precise and technical, no props, lots of negative space
+
+  - key: zemlya-i-hlyna
+    name: Земля і глина
+    about: Глина, льон, сухі трави. Тепла ремісничість, вечірнє бічне світло.
+    fonts:
+      bold: constanb
+      semi: constanb
+      reg: constan
+    cream: [245, 236, 220]
+    dim: [212, 194, 168]
+    accent: [186, 112, 58]
+    ink: [38, 26, 18]
+    tint: [32, 21, 14]
+    panel: [60, 38, 24]
+    veil: 5
+    style: >
+      rustic craft still life, unglazed clay and raw linen, dried herbs and
+      wooden boards, warm low side light, deep ochre and clay palette,
+      tactile textures
+
+  - key: nichnyi-lis
+    name: Нічний ліс
+    about: Майже темрява, одне джерело світла, кіношний контраст.
+    fonts:
+      bold: verdanab
+      semi: verdanab
+      reg: verdana
+    cream: [232, 238, 234]
+    dim: [158, 174, 166]
+    accent: [110, 150, 120]
+    ink: [8, 12, 10]
+    tint: [6, 10, 10]
+    panel: [14, 26, 20]
+    veil: 20
+    style: >
+      moody night forest photography, deep blue-green darkness, a single soft
+      light source, heavy atmosphere, minimal detail, cinematic, high contrast

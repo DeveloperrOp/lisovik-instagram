@@ -15,6 +15,7 @@ import yaml
 from PIL import Image
 
 import layouts
+import theme
 from config import CONTENT_DIR, OUT_DIR
 
 PLAN = CONTENT_DIR / "content_plan.yaml"
@@ -25,6 +26,11 @@ def compose(item: dict, defaults: dict) -> bool:
     src = PENDING / f"{item['id']}_bg.png"
     if not src.exists():
         return False
+
+    # Вайб недели включаем перед каждым кадром: в одном прогоне могут
+    # оказаться разные недели, а тема живёт в модульном состоянии layouts
+    if item.get("week"):
+        theme.apply(theme.for_week(item["week"]))
 
     bg = Image.open(src)
     try:

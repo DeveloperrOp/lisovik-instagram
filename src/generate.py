@@ -21,6 +21,7 @@ import urllib.request
 
 import yaml
 
+import theme
 from config import (CONTENT_DIR, GCP_LOCATION, GCP_PROJECT, IMAGE_MODEL,
                     IMAGE_SIZE, OUT_DIR)
 
@@ -95,6 +96,16 @@ def fetch_photo(url: str, article: str):
         return None
 
 
+def scene_style(item: dict, defaults: dict) -> str:
+    """Стиль сцены — из вайба недели. У разовых кадров недели нет."""
+    if item.get("week"):
+        try:
+            return theme.for_week(item["week"])["style"].strip()
+        except Exception as e:
+            print(f"    ⚠ тема тижня {item['week']} не зчиталась ({e}), беру базовий стиль")
+    return defaults["style"].strip()
+
+
 def build_parts(item: dict, defaults: dict):
     neg = defaults["negative"].strip()
     if item["kind"] == "product" and item.get("photo_url"):
@@ -108,7 +119,8 @@ def build_parts(item: dict, defaults: dict):
                     subline=item.get("subline", ""), negative=neg)},
             ]
     return [{"text": SCENE_PROMPT.format(
-        scene=item["scene"], style=defaults["style"].strip(), negative=neg)}]
+        scene=item["scene"], style=scene_style(item, defaults),
+        negative=neg)}]
 
 
 def generate(item: dict, defaults: dict, tok: str) -> bool:

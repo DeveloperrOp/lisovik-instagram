@@ -28,6 +28,41 @@ DIM = (214, 210, 199)
 MOSS = (143, 168, 106)
 INK = (18, 24, 18)
 
+# Значения ниже подменяет theme.apply() — у каждой недели свой вайб.
+# Здесь лежит базовая «Лісова тиша», она же поведение до появления тем.
+TINT = (10, 16, 12)      # чем тонируем вуаль и градиенты
+VEIL_SHIFT = 0           # светлее/темнее общего затемнения
+PANEL = (26, 44, 28)     # плашка под выводом
+
+# Типографские знаки есть не в каждой гарнитуре: Georgia, Trebuchet,
+# Constantia и Verdana не содержат «→» и рисуют вместо неё квадратик.
+# Проверено рендером, а не по названию шрифта — формально «поддержка
+# кириллицы» о наличии стрелки не говорит ничего.
+FALLBACKS = {"→": "·", "—": "-", "–": "-", "•": "·", "…": "...",
+             "×": "x", "«": '"', "»": '"'}
+_glyphs = {}
+
+
+def _has_glyph(fnt, ch: str) -> bool:
+    """Есть ли глиф на самом деле, а не квадратик вместо него."""
+    key = (getattr(fnt, "path", ""), ch)
+    if key not in _glyphs:
+        tofu = fnt.getmask("")          # приватная зона — заведомо нет
+        m = fnt.getmask(ch)
+        _glyphs[key] = not (m.size == tofu.size and bytes(m) == bytes(tofu))
+    return _glyphs[key]
+
+
+def safe_glyphs(text: str, fnt) -> str:
+    """Заменяет знаки, которых нет в гарнитуре, на безопасные."""
+    out = []
+    for ch in text:
+        code = ord(ch)
+        risky = code > 0x7F and not (0x0400 <= code <= 0x04FF)
+        out.append(ch if not risky or _has_glyph(fnt, ch)
+                   else FALLBACKS.get(ch, ""))
+    return "".join(out)
+
 
 def font(path, size):
     return ImageFont.truetype(path, size)
@@ -49,7 +84,7 @@ def fit_to_story(img: Image.Image) -> Image.Image:
 
 def veil(img: Image.Image, strength=150) -> Image.Image:
     """Равномерная затемняющая вуаль — чтобы текст читался поверх сцены."""
-    layer = Image.new("RGBA", (W, H), (10, 16, 12, strength))
+    layer = Image.new("RGBA", (W, H), TINT + (max(0, min(255, strength + VEIL_SHIFT)),))
     return Image.alpha_composite(img, layer)
 
 
@@ -63,14 +98,22 @@ def gradient(img: Image.Image, height=620, strength=225, top=False) -> Image.Ima
     if top:
         mask = mask.transpose(Image.FLIP_TOP_BOTTOM)
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    layer.paste(Image.new("RGBA", (W, height), (8, 14, 10, 255)),
+    # Градиент чуть глубже вуали — так было изначально: вуаль (10,16,12),
+    # градиент (8,14,10). Коэффициент воспроизводит эту пару в точности
+    # и переносит ту же разницу на любую тему.
+    deep = tuple(round(c * 0.85) for c in TINT)
+    layer.paste(Image.new("RGBA", (W, height), deep + (255,)),
                 (0, 0 if top else H - height), mask)
     return Image.alpha_composite(img, layer)
 
 
 def wrap(draw, text, fnt, max_w):
-    """Перенос по словам под заданную ширину."""
-    words, lines, cur = text.split(), [], ""
+    """Перенос по словам под заданную ширину.
+
+    Текст чистим ДО замеров: рисуется всё равно санитайзнутое, и если мерить
+    исходное, строка после подмены знаков поедет по ширине.
+    """
+    words, lines, cur = safe_glyphs(text, fnt).split(), [], ""
     for word in words:
         probe = f"{cur} {word}".strip()
         if draw.textlength(probe, font=fnt) <= max_w or not cur:
@@ -99,6 +142,7 @@ def fit(draw, text, path, size, max_w, min_size=34):
 
 
 def shadowed(d, xy, text, fnt, fill=CREAM, anchor="mm", blur=True):
+    text = safe_glyphs(text, fnt)
     if blur:
         d.text((xy[0] + 2, xy[1] + 3), text, font=fnt, fill=(0, 0, 0, 150), anchor=anchor)
     d.text(xy, text, font=fnt, fill=fill, anchor=anchor)
@@ -200,7 +244,7 @@ def useful(bg, item):
         tip_lines = wrap(d, item["tip"], f_t, W - 210)
         h = len(tip_lines) * 58 + 52
         top = H - 300 - h
-        panel = Image.new("RGBA", (W - 140, h), (26, 44, 28, 180))
+        panel = Image.new("RGBA", (W - 140, h), PANEL + (180,))
         img.alpha_composite(panel, (70, top))
         d = ImageDraw.Draw(img)
         ty = top + 26 + 29
