@@ -61,7 +61,11 @@ MUST NOT CONTAIN: {negative}
 
 
 def build(shot: dict, cfg: dict) -> str:
-    base = shot.get("style_override", cfg["base"]).strip()
+    # У мальованих кадрів своя база: телефонна прямо каже «фото», і з
+    # ботанічним нарисом це суперечить одне одному
+    default = (cfg.get("base_illustration") if shot.get("hero") == "illustration"
+               else cfg["base"])
+    base = shot.get("style_override", default).strip()
     rule = NO_TEXT + ROOM[shot.get("text", "none")]
     return TEMPLATE.format(
         base=base, moment=" ".join(shot["moment"].split()),
