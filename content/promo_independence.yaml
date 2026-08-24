@@ -1,0 +1,106 @@
+# Разовая акция: -20% на всё, 24-26 августа 2026, к 35-летию Независимости.
+#
+# Тон Ярик выбрал обычный акционный — значит ярко и понятно, но без
+# конфетти и клипарта: работает крупная типографика на спокойном фоне.
+#
+# Жёлто-синее берём цветом самого дизайна, а не флагом в кадре: буквальный
+# флаг в акционном креативе почти всегда выглядит дёшево, а жёлтая
+# типографика на глубоком синем даёт максимальный контраст из возможных.
+# Берёзы Ярик забраковал — сцены хвойные, и берёза вынесена в негатив,
+# потому что модель подсовывает её сама.
+#
+# Тексты подставляются после того, как Ярик их одобрит.
+
+defaults:
+  # Ярик выбрал из четырёх вариантов: лес перекрашен в сине-жёлтое
+  # плюс жёлтая плашка с цифрой во всю ширину — громко и цветно разом
+  design: band-duo
+  cta: "Замовити → посилання в шапці профілю"
+  disclaimer: "Дієтична добавка. Не замінює повноцінний раціон харчування. Не є лікарським засобом."
+  style: >
+    premium editorial photography, Ukrainian forest at golden hour,
+    deep blue twilight and warm golden light, soft natural light,
+    shallow depth of field, no clutter, calm and open composition
+  negative: >
+    no birch trees, no white bark, no flags, no flag colours as stripes, no banners, no bunting, no confetti,
+    no fireworks, no ribbons, no percent signs, no price tags, no sale badges,
+    no red-and-white spotted mushrooms, no Amanita muscaria, no fly agaric,
+    no people, no faces, no hands, no medical imagery, no pills, no blister packs,
+    no pharmacy shelves, no dosage numbers, no watermarks, no text on packaging,
+    no product labels with readable words, no invented brand names,
+    no real-world brands or logos of any company, no lorem ipsum,
+    no placeholder text, no captions, no signage,
+    no text panels or boxes behind the headline
+
+items:
+  # Пост в ленту. Кроппится из вертикали в 1080x1350, поэтому сцена
+  # спокойная и без сюжета по краям — вертикальный кроп ничего не срежет.
+  #
+  # «-20%» цифрой, а не словом «мінус»: на крупном кегле числительное
+  # читается мгновенно, и заголовок влезает в одну строку кеглем 140
+  # вместо 110. Для акции размер цифры — половина дела.
+  - id: promo-post
+    format: post
+    kicker: 35 років Незалежності
+    headline: "-20% НА ВСЕ"
+    subline: "Три дні: 24, 25 і 26 серпня"
+    note: Ціни на сайті вже знижені
+    scene: >
+      dense dark spruce forest at blue hour, deep blue twilight between
+      the trunks, a low band of warm golden light near the horizon,
+      calm empty centre, no birches
+
+  # Понедельник, сам праздник — поздравление выносим в кикер, а не прячем
+  # в мелкую сноску
+  - id: promo-24
+    format: story
+    kicker: З Днем Незалежності
+    headline: "-20% НА ВСЕ"
+    subline: "Три дні: 24, 25 і 26 серпня"
+    note: Ціни на сайті вже знижені
+    scene: >
+      dark pine forest at dusk, deep blue shadows between tall trunks,
+      warm golden light breaking low through the trees, calm empty centre,
+      no birches
+
+  - id: promo-25
+    format: story
+    kicker: Акція триває
+    headline: ЛИШИЛОСЬ ДВА ДНІ
+    subline: "-20% на все до 26 серпня"
+    note: Промокод вводити не треба
+    scene: >
+      misty pine forest at dawn, golden light breaking through the trunks,
+      deep blue shadows between the trees, calm empty centre
+
+  - id: promo-26
+    format: story
+    kicker: Фінал акції
+    headline: ОСТАННІЙ ДЕНЬ
+    subline: "-20% на все, сьогодні"
+    note: Завтра ціни повертаються
+    scene: >
+      forest edge at sunset, warm golden light on the treeline,
+      deep blue evening sky above, quiet and open composition
+
+# Подпись под постом. Цифра «понад 200» вместо точной: каталог живой,
+# за три дня что-то разберут, а формулировка должна остаться правдой.
+# На 21.08 в наличии 210 позиций из 308.
+caption: |
+  35 років Незалежності — і в нас три дні знижки.
+
+  Святкуємо так, як уміємо: мінус 20% на весь асортимент. Три дні — 24, 25 і 26 серпня. Далі ціни повертаються на місце.
+
+  Ціни на сайті вже знижені. Промокод вводити не треба, писати в директ теж: відкриваєш каталог і одразу бачиш нову ціну.
+
+  Знижка на все, а не на окремі позиції. Їжовик, кордицепс, чага, рейші, шиїтаке — уся грибна полиця. Трійчатка, ашваганда, женьшень, спіруліна, хлорела і трав'яні чаї — теж мінус 20%.
+
+  Понад 200 позицій у наявності.
+
+  Не знаєш, з чого почати — подивись трійчатку, їжовик і кордицепс. Та сама трійка, що в шапці профілю. Там же посилання на сайт.
+
+  Знижка діє по 26 серпня включно.
+
+  З Днем Незалежності.
+
+  Дієтична добавка. Не замінює повноцінний раціон харчування. Не є лікарським засобом.

@@ -378,6 +378,32 @@
    "published_at": null,
    "ig_media_id": null,
    "error": null
+  },
+  {
+   "id": "promo-25",
+   "kind": "STORIES",
+   "theme": "",
+   "headline": "ЛИШИЛОСЬ ДВА ДНІ",
+   "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/promo-25.jpg",
+   "slot_start": "2026-08-25T09:30:00+03:00",
+   "slot_end": "2026-08-25T11:00:00+03:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "promo-26",
+   "kind": "STORIES",
+   "theme": "",
+   "headline": "ОСТАННІЙ ДЕНЬ",
+   "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/promo-26.jpg",
+   "slot_start": "2026-08-26T09:30:00+03:00",
+   "slot_end": "2026-08-26T11:00:00+03:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
   }
  ]
 }
