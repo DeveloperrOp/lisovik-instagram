@@ -43,8 +43,11 @@ on the label. Do not redesign it, do not invent packaging, do not change
 any letters or numbers on the label.
 
 Place it standing naturally in this scene: {scene}
-Setting is a TEMPERATE UKRAINIAN forest — pine, birch, oak, fern, moss.
-No tropical plants, no palms, no jungle.
+Overall look and light of the shot: {style}
+Keep the product itself untouched — the look above applies to the setting,
+the light and the colour of the scene, never to the package.
+Setting stays TEMPERATE and UKRAINIAN — no tropical plants, no palms,
+no jungle.
 
 The product sits in the LOWER HALF and is clearly the hero.
 The upper third stays empty and calm — headline goes there later.
@@ -115,7 +118,8 @@ def build_parts(item: dict, defaults: dict):
                 {"inlineData": {"mimeType": "image/jpeg",
                                 "data": base64.b64encode(photo.read_bytes()).decode()}},
                 {"text": PRODUCT_PROMPT.format(
-                    scene=item["scene"], headline=item["headline"],
+                    scene=item["scene"], style=scene_style(item, defaults),
+                    headline=item["headline"],
                     subline=item.get("subline", ""), negative=neg)},
             ]
     return [{"text": SCENE_PROMPT.format(

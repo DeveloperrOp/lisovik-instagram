@@ -41,6 +41,16 @@ SAMPLE = {
         "headline": "ЯК ЗАВАРИТИ ЧАГУ",
         "steps": ["Залий окропом 80 °C", "Настоюй 15 хвилин", "Проціди і пий теплим"],
     },
+    "product": {
+        "kind": "product", "id": "sample",
+        "headline": "ЯСНІСТЬ ДУМОК",
+        "subline": "Мелений · 50 грам",
+        # Реальный товар из плана: продуктовая подложка рисуется по фото
+        # банки, поэтому артикул и ссылка должны быть настоящими
+        "article": 'LIS-469809',
+        "photo_url": 'https://lisovik.com.ua/content/images/20/27974660435805_+93e93e8232.jpg',
+        "scene": 'mossy fallen log in a misty forest, cool green light, dew on leaves',
+    },
     "compare": {
         "kind": "compare", "id": "sample",
         "headline": "ПОРОШОК ЧИ КАПСУЛИ",
@@ -94,11 +104,13 @@ def main() -> int:
 
     shots = []
     for n, t in enumerate(themes):
-        bg_path = OUTDIR / f"{t['key']}_bg.png"
+        bg_path = OUTDIR / f"{t['key']}_{kind}_bg.png"
         if not bg_path.exists() or "--force" in sys.argv:
             # generate пишет в out/pending/{id}_bg.png — подсовываем id темы
-            item = {"id": f"theme-{t['key']}", "kind": "mood", "scene": SCENE,
-                    "week": None}
+            item = dict(SAMPLE[kind])
+            item["id"] = f"theme-{t['key']}"
+            item.setdefault("scene", SCENE)
+            item["week"] = None
             fake = dict(defaults)
             fake["style"] = t["style"]
             if not gen.generate(item, fake, tok):
@@ -111,7 +123,7 @@ def main() -> int:
         theme.apply(t)
         img = layouts.render(kind, Image.open(bg_path), dict(SAMPLE[kind]),
                              defaults["cta"], defaults["disclaimer"])
-        dest = OUTDIR / f"{t['key']}.jpg"
+        dest = OUTDIR / f"{t['key']}_{kind}.jpg"
         img.save(dest, "JPEG", quality=92)
         print(f"  ✔ {t['name']:16} → {dest.name}")
         shots.append((t["name"], img))
