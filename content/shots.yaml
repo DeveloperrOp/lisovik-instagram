@@ -1,0 +1,149 @@
+# Кадры, собранные с нуля — от МОМЕНТА, а не от макета.
+#
+# Прошлый подход описывал вёрстку: «swiss poster», «editorial spread».
+# Модель честно рисовала макет, и десять стилей вышли на одно лицо —
+# крупный текст, под ним декорация. Пресно, потому что промпт был про
+# оформление, а не про то, что происходит в кадре.
+#
+# Здесь наоборот. Каждый кадр — это момент: что делают руки, откуда падает
+# свет, что лежит рядом неаккуратно. Ощущение — «снято на телефон секунду
+# назад», а не рекламная съёмка.
+#
+# Руки в кадре можно и нужно. Лица — нет: модель их ломает, и это сразу
+# видно. Это осознанное ограничение, а не привычка.
+#
+# ТЕКСТ МОДЕЛЬ НЕ ПИШЕТ ВООБЩЕ. Проверено: на длинной фразе она сделала
+# орфографическую ошибку («хвиляину» вместо «хвилину»), а вычитчик её НЕ
+# поймал — читающая модель молча исправляет опечатки при распознавании.
+# То есть орфографию в сгенерированном тексте проверить нечем.
+# Поэтому кадр — это чистое фото, а надпись кладётся поверх через PIL,
+# как в настоящих сторис. Поле text здесь оставлено только для того,
+# чтобы знать, сколько места под надпись нужно оставить в композиции.
+#
+# Ники и интерфейс в негативе не для красоты: модель трижды из восьми
+# подрисовала фальшивый интерфейс Instagram с чужим никнеймом.
+
+base: >
+  Vertical 9:16 photo, shot on a phone by an ordinary person.
+  NOT a studio photograph, NOT an advertisement, NOT a magazine layout.
+  Natural available light only. Slight handheld imperfection. Real room,
+  real mess, real surfaces. It should look like it was taken one second
+  ago and posted straight to Stories without editing.
+
+negative: >
+  no user interface, no app chrome, no Instagram interface, no avatars,
+  no profile pictures, no usernames, no @ handles, no timestamps,
+  no close buttons, no icons, no buttons, no progress bars, no emoji,
+  no measuring scales with numbers, no readable labels on jars or packets,
+  no faces, no eyes, no portraits, no studio lighting, no softbox,
+  no glossy advertising polish, no perfect styling, no flat lay symmetry,
+  no red-and-white spotted mushrooms, no Amanita muscaria, no pills,
+  no blister packs, no medical imagery, no pharmacy shelves,
+  no real-world brands or logos, no watermarks, no lorem ipsum,
+  no stock-photo feeling
+
+shots:
+  - key: ritual-chaga
+    about: Ритуал, много текста — руки заливают чагу
+    text: long
+    headline: ЧАГА ЛЮБИТЬ ТЕПЛО
+    body: Окріп руйнує частину сполук. Дай воді постояти хвилину після закипання
+    moment: >
+      two hands pouring hot water from a small kettle over dark chaga pieces
+      in a clear glass mug, steam rising and catching the light
+    camera: shot from just above and slightly to the side, close, phone height
+    light: cold morning light from a kitchen window on the left
+    imperfect: >
+      water drops on the table, a crumpled tea towel pushed aside,
+      a second unwashed mug out of focus behind
+
+  - key: ritual-porridge
+    about: Ритуал, средний текст — порошок в кашу
+    text: short
+    headline: ЛОЖКА В КАШУ — І ВСЕ
+    moment: >
+      a hand tapping a spoon of pale mushroom powder into a bowl of oat
+      porridge, a small cloud of powder still falling
+    camera: straight down from above, phone held over the bowl, close
+    light: overcast daylight from a window, soft and flat
+    imperfect: >
+      powder dusted on the table beside the bowl, spoon handle at an angle,
+      jar standing half out of frame
+
+  - key: product-window
+    about: Продукт крупно, мало текста — банка на подоконнике
+    text: short
+    headline: СТОЇТЬ НА ВИДНОТІ — ПʼЄШ ЩОДНЯ
+    moment: >
+      a plain glass jar of ground mushroom powder standing on a kitchen
+      windowsill, a hand just reaching into frame for it
+    camera: eye level, close, phone held casually, slightly off-centre
+    light: low warm sun through the window, long shadow across the sill
+    imperfect: >
+      dusty windowsill, a dying plant in the corner, fingerprints on the glass
+
+  - key: forest-birch
+    about: Природа, без текста — чага на берёзе
+    text: none
+    moment: >
+      a dark cracked chaga growth on the trunk of a living birch in the
+      forest, a hand resting on the bark beside it for scale
+    camera: close, from below, phone pointed up along the trunk
+    light: flat overcast forest light, damp air
+    imperfect: >
+      wet bark, dead leaves stuck to the trunk, a blurred branch crossing
+      the corner of the frame
+
+  - key: macro-powder
+    about: Макро продукта, мало текста — текстура в ложке
+    text: short
+    headline: ЦЕ МЕЛЕНІ ПЛОДОВІ ТІЛА
+    moment: >
+      extreme close-up of coarse mushroom powder heaped on a worn metal
+      teaspoon, individual particles visible
+    camera: macro, phone lens right up against the spoon, shallow focus
+    light: single warm lamp from the side, everything else dark
+    imperfect: >
+      spilled powder around the spoon, a fingerprint smudge on the metal
+
+  - key: evening-reishi
+    about: Вечерний ритуал, средний текст
+    text: short
+    headline: ЗА ГОДИНУ ДО СНУ
+    moment: >
+      two hands wrapped around a dark mug on a blanket, a small lamp behind,
+      evening indoors
+    camera: from the drinker's own point of view, looking down at their hands
+    light: one warm lamp, deep shadows, night outside the window
+    imperfect: >
+      creased blanket, a book left open face down, mug not centred
+
+  - key: smoothie-green
+    about: Смузи, мало текста
+    text: short
+    headline: ЛОЖКА В СМУЗІ
+    moment: >
+      a hand lifting a blender jug of thick green smoothie, spirulina powder
+      still swirling on the surface
+    camera: close, slightly tilted, phone in one hand
+    light: bright kitchen daylight, slightly blown out near the window
+    imperfect: >
+      green splashes on the counter, banana peel beside, chopping board
+      pushed to the edge
+
+  - key: diagram-botanical
+    about: Иллюстрация — отдельная эстетика, не телефон
+    text: long
+    headline: ДЕ РОСТЕ ЧАГА
+    body: Тільки на живій березі. З мертвого дерева гриб уже не той
+    style_override: >
+      hand-drawn botanical illustration in muted natural inks on warm paper,
+      loose confident linework, a few soft washes of colour, unhurried and
+      handmade, like a page from someone's field notebook
+    moment: >
+      a birch trunk with a chaga growth, drawn as a botanical study with a
+      simple cutaway showing where it grows
+    camera: flat illustration, no photographic depth
+    light: even, as on a page
+    imperfect: >
+      slightly uneven line weight, a faint pencil guide left visible

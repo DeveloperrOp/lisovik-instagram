@@ -69,9 +69,13 @@ def endpoint() -> str:
 
 
 def draw(head: str, body: str, style: str, tok: str, dest) -> bool:
+    return draw_raw(PROMPT.format(head=head, body=body, style=style), tok, dest)
+
+
+def draw_raw(prompt: str, tok: str, dest) -> bool:
+    """Рисует по готовому промпту. Нужен тем, кто собирает промпт сам."""
     payload = {
-        "contents": [{"role": "user", "parts": [{"text": PROMPT.format(
-            head=head, body=body, style=style)}]}],
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseModalities": ["TEXT", "IMAGE"],
             "imageConfig": {"aspectRatio": "9:16", "imageSize": IMAGE_SIZE},
