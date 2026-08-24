@@ -362,10 +362,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/w1-sun-evening.jpg",
    "slot_start": "2026-08-24T17:30:00+03:00",
    "slot_end": "2026-08-24T19:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-24T18:20:02.434513+03:00",
+   "ig_media_id": "17898161811593089",
+   "error": null,
+   "fb_story_id": "3237043136684333"
   },
   {
    "id": "w1-sun-night",
