@@ -1,0 +1,84 @@
+# Направления дизайна для кадров, которые модель рисует целиком.
+#
+# Ярик выбрал editorial и poster как направление, но попросил больше
+# вариантов — здесь по пять веток в каждую сторону.
+#
+# Один и тот же текст во всех стилях: сравнивать надо подачу, а не смысл.
+
+sample:
+  headline: ЧАГА ЛЮБИТЬ ТЕПЛО, А НЕ ОКРІП
+  body: Окріп руйнує частину сполук, заради яких чагу й заварюють
+
+styles:
+  # ---------------------------------------------------- журнальная ветка
+  editorial-serif:
+    about: Журнальный разворот, крупный серифный заголовок, много воздуха
+    prompt: >
+      premium magazine editorial layout, very large refined serif type,
+      generous white space, one small botanical engraving as the only image,
+      muted cream and deep green, elegant and quiet, fashion-magazine
+      typography hierarchy
+
+  editorial-swiss:
+    about: Швейцарская сетка, гротеск, один цветовой акцент
+    prompt: >
+      swiss international style editorial, strict typographic grid,
+      clean neutral grotesque type, generous margins, white background,
+      one single strong accent colour, thin hairline rules, no ornament
+
+  editorial-dark:
+    about: Тёмный журнальный разворот, тонкий серифный заголовок
+    prompt: >
+      dark editorial spread, deep charcoal background, thin elegant serif
+      headline in warm off-white, restrained golden accent, wide margins,
+      one dim atmospheric detail low in the frame, expensive and quiet
+
+  field-guide:
+    about: Страница ботанического определителя, гравюра и линейки
+    prompt: >
+      antique botanical field guide page, aged cream paper with subtle
+      texture, detailed engraved illustration of a birch fungus, fine
+      hairline rules and a plain typographic block, scholarly and precise
+
+  gallery:
+    about: Музейная этикетка — огромное пустое поле, мелкий текст
+    prompt: >
+      museum gallery wall, vast empty pale wall surface, one small precise
+      specimen photograph mounted, typography set small and calm with huge
+      surrounding emptiness, refined and minimal, soft even gallery light
+
+  # ------------------------------------------------------ плакатная ветка
+  poster-swiss:
+    about: Плоские цветовые блоки, огромный узкий гротеск
+    prompt: >
+      bold graphic poster, flat saturated colour blocks, enormous condensed
+      sans type as the main visual element, high contrast, swiss poster
+      tradition, no photography, strong geometric composition
+
+  poster-riso:
+    about: Ризограф, две-три краски, зерно и смещение
+    prompt: >
+      risograph print poster, two or three flat spot colours only, visible
+      paper grain and slight misregistration, coarse halftone texture,
+      bold simple shapes, warm ochre and deep blue, handmade print feeling
+
+  poster-bauhaus:
+    about: Геометрия, чистые формы, конструктивистская подача
+    prompt: >
+      bauhaus constructivist poster, pure geometric shapes — circles,
+      diagonals, rectangles, primary colour blocks with black, bold
+      confident typography integrated into the geometry, flat and graphic
+
+  poster-apothecary:
+    about: Старый аптечный плакат, охра, рамки, орнамент
+    prompt: >
+      vintage apothecary poster, aged ochre and deep green, ornamental
+      border frame, classic condensed display lettering, engraved botanical
+      motif, letterpress texture, old pharmacy signage feeling
+
+  poster-brutal:
+    about: Массивный гротеск во весь кадр, один акцент
+    prompt: >
+      brutalist typographic poster, massive heavy grotesque letterforms
+      filling the frame edge to edge, stark black and off-white with one
+      single vivid accent colour, raw and confident, minimal imagery
