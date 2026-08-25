@@ -232,7 +232,7 @@ def callout(img, s, data):
     W, H = img.size
     d = ImageDraw.Draw(img)
     ft = fnt(img, 0.034, False)
-    lines = ST.wrap(d, data["callout"], ft, int(W * 0.42))
+    lines = ST.wrap(d, data["callout"], ft, int(W * 0.40))
     bw = int(W * 0.50)
     bh = int(len(lines) * ft.size * 1.35 + ft.size * 0.9)
     bx, by = int(W * 0.07), int(H * 0.20)
@@ -359,6 +359,81 @@ DATA = {
     "scale_lo": "холодна",
     "scale_hi": "окріп",
 }
+
+
+def from_thought(t: dict) -> dict:
+    """Мысль из банка → данные для раскладки.
+
+    Никаких обрезаний по количеству символов: обрубленная посреди фразы
+    строка — ровно тот брак, ради которого всё и затевалось. Если текста
+    для раскладки нет, берём то поле, которое подходит целиком.
+    """
+    parts = [x.strip() for x in (t.get("extra") or "").split("|") if x.strip()]
+    lay = t.get("layout", "title_sub")
+    d = dict(t)
+    d["headline"] = t["claim"]
+    d["body"] = t["why"]
+    d["kicker"] = t.get("topic", "")
+
+    if lay == "steps":
+        d["steps"] = parts[:3]
+    elif lay == "bullets":
+        d["points"] = parts[:4]
+    elif lay == "stat":
+        d["stat"] = parts[0] if parts else ""
+        d["stat_note"] = t["why"]          # целиком, перенос сделает вёрстка
+    elif lay == "callout":
+        d["callout"] = t["do"]             # короткое и законченное само по себе
+    elif lay == "quote":
+        d["quote"] = t["why"]
+    elif lay == "versus":
+        cols = []
+        for pt in parts[:2]:
+            title, _, rest = pt.partition(":")
+            cols.append({"title": title.strip().upper(),
+                         "points": [rest.strip() or title.strip()]})
+        while len(cols) < 2:
+            cols.append({"title": "—", "points": ["—"]})
+        d["columns"] = cols
+    elif lay == "scale":
+        # «низ — верх»: подписи концов шкалы приходят одной строкой
+        lo, _, hi = (parts[0] if parts else "").partition("—")
+        d["scale_lo"], d["scale_hi"] = lo.strip(), hi.strip()
+        d["value"] = parts[1] if len(parts) > 1 else ""
+        d["range"] = (0.52, 0.82)
+    return d
+
+
+def takeaway(img, s, text):
+    """Вывод внизу кадра. Обязателен на КАЖДОМ кадре.
+
+    Требование владельца: одна законченная мысль на экран — значит
+    заключение должно быть видно, а не подразумеваться. Без него кадр
+    остаётся утверждением без ответа на «и что мне с этого».
+    """
+    if not text:
+        return img
+    W, H = img.size
+    d = ImageDraw.Draw(img)
+    f = fnt(img, 0.038)
+    lines = ST.wrap(d, text, f, int(W * 0.84))
+    h = int(len(lines) * f.size * 1.28 + f.size * 0.95)
+    top = H - h - int(H * 0.085)
+    img.alpha_composite(Image.new("RGBA", (W, h), ACCENT + (242,)), (0, top))
+    d = ImageDraw.Draw(img)
+    y = top + int(f.size * 0.45)
+    for ln in lines:
+        put(d, (W // 2, y), ln, f, INK, anchor="ma")
+        y += int(f.size * 1.28)
+    return img
+
+
+def render(img, data):
+    """Кадр целиком: раскладка плюс обязательный вывод."""
+    fn = LAYOUTS[data.get("layout", "title_sub")][0]
+    sch = scheme(img)
+    out = fn(img, sch, data)
+    return takeaway(out, sch, data.get("do", ""))
 
 
 def main() -> int:
