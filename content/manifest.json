@@ -390,10 +390,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/promo-25.jpg",
    "slot_start": "2026-08-25T09:30:00+03:00",
    "slot_end": "2026-08-25T11:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-25T10:10:38.364667+03:00",
+   "ig_media_id": "18111408643816031",
+   "error": null,
+   "fb_story_id": "1732426967995660"
   },
   {
    "id": "promo-26",
