@@ -1,0 +1,135 @@
+# Широкий забор визуальных языков.
+#
+# Ярик забраковал три подхода подряд: макеты вёрстки, потом «снято на
+# телефон» с руками и беспорядком, потом просто чистую кухню. Общая беда
+# была в том, что я каждый раз давал ВАРИАЦИИ одной эстетики, а не выбор.
+#
+# Здесь наоборот: четырнадцать разных миров. Предмет во всех один и тот же,
+# чтобы сравнивать подачу, а не сюжет. Половина — не фотография вовсе.
+#
+# Рук нет нигде: концепция с руками забракована.
+# Текста нет нигде: его кладёт PIL, у модели орфография ломается.
+
+subject: >
+  birch chaga — a dark, hard, cracked black chunk with a rust-orange
+  interior, and the deep amber infusion brewed from it
+
+negative: >
+  no hands, no arms, no people, no faces, no body parts,
+  no text, no letters, no numbers, no labels, no signage, no watermarks,
+  no user interface, no avatars, no usernames, no icons,
+  no red-and-white spotted mushrooms, no Amanita muscaria,
+  no pills, no blister packs, no medical imagery, no pharmacy shelves,
+  no real-world brands or logos, no clutter, no dirty dishes
+
+looks:
+  # ---------------------------------------------------------- фотография
+  - key: studio-dark
+    about: "Студійна предметка на чорному, спрямоване світло"
+    prompt: >
+      professional studio still life on a seamless deep black background,
+      one hard directed light from the side carving the subject out of the
+      dark, deep shadows, a thin rim of light along the edge, glass and
+      surface immaculate, advertising-grade craft, extremely sharp
+
+  - key: levitation
+    about: "Предмети зависли в повітрі на кольоровому тлі"
+    prompt: >
+      objects floating weightless in mid-air against a flat saturated
+      colour background, arranged at different depths, soft even light,
+      crisp shadowless edges, playful and precise, contemporary product
+      photography, nothing touching a surface
+
+  - key: splash
+    about: "Заморожена мить: сплеск, бризки, крапля"
+    prompt: >
+      high-speed photograph freezing liquid in motion: the amber infusion
+      caught mid-splash with separate droplets suspended in the air,
+      crown-shaped crest, ultra-fast flash, clean gradient background,
+      every droplet razor sharp
+
+  - key: knolling
+    about: "Розкладка зверху, все вирівняне до міліметра"
+    prompt: >
+      knolling flat lay seen perfectly straight down: every element laid
+      out parallel and evenly spaced on a plain coloured surface, obsessive
+      alignment, even shadowless light, graphic and orderly, museum
+      cataloguing feeling
+
+  - key: macro-texture
+    about: "Макро-текстура на весь кадр, майже абстракція"
+    prompt: >
+      extreme macro filling the entire frame with surface texture alone:
+      the cracked black crust and its rust-orange fracture read as
+      landscape, shallow plane of focus, raking light bringing out relief,
+      abstract and tactile
+
+  - key: nature-light
+    about: "Ліс, промінь крізь дерева, без предметів"
+    prompt: >
+      wide atmospheric nature photograph: a birch forest with a shaft of
+      light cutting through mist between the trunks, the fungus small in
+      the frame and found rather than staged, quiet grandeur, deep natural
+      colour
+
+  - key: cinematic-dark
+    about: "Кіношний кадр: дим, один промінь, глибокий контраст"
+    prompt: >
+      cinematic still, anamorphic feeling: a single hard beam through
+      darkness, drifting smoke catching the light, deep blacks and one
+      warm highlight, wide aspect composition, moody and expensive,
+      shot on cinema glass
+
+  # ------------------------------------------------------- не фотография
+  - key: botanical-plate
+    about: "Ботанічна таблиця: тонка туш і акварельні заливки"
+    prompt: >
+      antique-style botanical plate drawn by hand: precise ink linework
+      with restrained watercolour washes on warm paper, the specimen shown
+      whole with a magnified detail beside it, scientific and elegant,
+      no antique staining, clean and fresh
+
+  - key: riso-print
+    about: "Ризографія: дві фарби, зерно, зсув"
+    prompt: >
+      risograph print in exactly two spot inks, deep blue and warm orange,
+      visible paper grain and slight misregistration between the layers,
+      coarse halftone dots, bold simplified shapes, handmade print feeling
+
+  - key: cgi-glossy
+    about: "3D-рендер: глянець, м'які тіні, сучасна графіка"
+    prompt: >
+      contemporary 3D render: smooth matte and glossy forms on a soft
+      pastel backdrop, gentle ambient occlusion, subtle depth of field,
+      clean studio CGI lighting, tactile clay-like materials, modern brand
+      visual language
+
+  - key: ink-minimal
+    about: "Мінімалізм тушшю: кілька впевнених мазків і порожнеча"
+    prompt: >
+      minimal sumi-e ink painting: a few confident brush strokes on plain
+      off-white paper, enormous empty space, one small area of muted
+      colour, restrained and calm, the gesture visible in every stroke
+
+  - key: paper-collage
+    about: "Колаж із паперу: шари, тіні, вирізані форми"
+    prompt: >
+      cut-paper collage: layered matte paper shapes casting soft real
+      shadows, torn and cut edges, limited earthy palette, tactile and
+      handmade, photographed straight on with even light
+
+  - key: schematic
+    about: "Схема-інфографіка: чиста векторна графіка"
+    prompt: >
+      clean vector infographic illustration: simplified geometric shapes
+      and thin precise lines on a flat background, a cross-section style
+      diagram, restrained two-colour palette, modern editorial information
+      design, no shading
+
+  - key: microscopy
+    about: "Наукове зображення: структура під мікроскопом"
+    prompt: >
+      scientific microscopy image: the internal structure magnified into
+      an intricate cellular pattern, jewel-like colours from staining,
+      symmetrical organic geometry, dark field background, beautiful and
+      strange
