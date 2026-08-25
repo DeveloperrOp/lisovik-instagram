@@ -50,9 +50,7 @@ WHAT IS HAPPENING: {moment}
 
 CAMERA: {camera}
 LIGHT: {light}
-IMPERFECTIONS THAT MAKE IT REAL: {imperfect}
-
-Hands in frame are good. NEVER show a face.
+{life}{hands}
 
 {text_rule}
 
@@ -67,10 +65,19 @@ def build(shot: dict, cfg: dict) -> str:
                else cfg["base"])
     base = shot.get("style_override", default).strip()
     rule = NO_TEXT + ROOM[shot.get("text", "none")]
+    life = shot.get("life", "").strip()
+    # Руки — не загальне правило, а ознака конкретного кадру. Коли вони
+    # стояли в шаблоні для всіх, виходила «історія про руки»
+    hands = ("Hands are in frame and they are doing the action. "
+             "NEVER show a face." if shot.get("hands")
+             else "No hands, no arms, no people, no body parts anywhere "
+                  "in the frame.")
     return TEMPLATE.format(
         base=base, moment=" ".join(shot["moment"].split()),
-        camera=shot["camera"], light=shot["light"],
-        imperfect=" ".join(shot["imperfect"].split()),
+        camera=" ".join(shot["camera"].split()),
+        light=" ".join(shot["light"].split()),
+        life=("WHAT MOVES: " + " ".join(life.split()) + "\n\n" if life else ""),
+        hands=hands,
         text_rule=rule, negative=" ".join(cfg["negative"].split()))
 
 

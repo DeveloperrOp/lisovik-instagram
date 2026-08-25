@@ -5,12 +5,19 @@
 # крупный текст, под ним декорация. Пресно, потому что промпт был про
 # оформление, а не про то, что происходит в кадре.
 #
-# Здесь наоборот. Каждый кадр — это момент: что делают руки, откуда падает
-# свет, что лежит рядом неаккуратно. Ощущение — «снято на телефон секунду
-# назад», а не рекламная съёмка.
+# Здесь наоборот. Каждый кадр — это момент: что происходит, откуда падает
+# свет. Ощущение — «снято на телефон сегодня», а не рекламная съёмка.
 #
-# Руки в кадре можно и нужно. Лица — нет: модель их ломает, и это сразу
-# видно. Это осознанное ограничение, а не привычка.
+# ВАЖНО, добыто на браке. Первая версия просила «несовершенства»:
+# засохшее кольцо от кофе, немытую кружку, пыльный подоконник. Ярик
+# забраковал — вышла захламлённая кухня и ощущение старой плёнки.
+# Живость даёт не грязь, а движение: пар, падающий порошок, капля.
+# Поэтому поле называется life, а не imperfect, и в негативе стоит
+# запрет и на беспорядок, и на ретро.
+#
+# Руки — только там, где они делают что-то по сюжету (поле hands: true).
+# В общий шаблон их вписывать нельзя: получается «история про руки».
+# Лица не показываем никогда — модель их ломает.
 #
 # ТЕКСТ МОДЕЛЬ НЕ ПИШЕТ ВООБЩЕ. Проверено: на длинной фразе она сделала
 # орфографическую ошибку («хвиляину» вместо «хвилину»), а вычитчик её НЕ
@@ -24,36 +31,41 @@
 # подрисовала фальшивый интерфейс Instagram с чужим никнеймом.
 
 base: >
-  Vertical 9:16 photo, shot on a phone by an ordinary person.
-  NOT a studio photograph, NOT an advertisement, NOT a magazine layout.
-  Natural available light only. Slight handheld imperfection. Real room,
-  real mess, real surfaces. It should look like it was taken one second
-  ago and posted straight to Stories without editing.
+  Vertical 9:16 photo taken on a modern phone, today, in a clean bright
+  home. Crisp and sharp, true colours, neutral white balance, plenty of
+  daylight. Fresh and appetising, the way good food looks in a tidy
+  kitchen. Casual framing — an ordinary person took it, not a studio —
+  but the place itself is clean and the surfaces are clear.
+
 
 # Мальованим кадрам телефонна база не підходить: вона прямо каже «фото».
-# Тому в них своя.
 base_illustration: >
   Vertical 9:16 hand-drawn illustration. NOT a photograph, NOT a render,
-  NOT digital art with gradients. Drawn by a person on paper: honest
-  linework, visible hand, restrained natural colour, unhurried and warm.
+  NOT digital art with gradients. Drawn by a person on paper: clean
+  confident linework, restrained natural colour, fresh and modern,
+  not antique and not weathered.
+
 
 negative: >
-  no user interface, no app chrome, no Instagram interface, no avatars,
-  no profile pictures, no usernames, no @ handles, no timestamps,
-  no close buttons, no icons, no buttons, no progress bars, no emoji,
-  no measuring scales with numbers, no readable labels on jars or packets,
+  no clutter, no mess, no dirt, no crumbs, no stains, no spills,
+  no dirty dishes, no unwashed mugs, no dust, no grime, no worn scratched
+  surfaces, no vintage look, no retro, no film grain, no analogue film,
+  no sepia, no faded washed-out colours, no yellow cast, no heavy vignette,
+  no old-fashioned kitchen, no rustic shabby styling, no dim murky light,
+  no user interface, no app chrome, no avatars, no usernames, no icons,
+  no timestamps, no emoji, no readable labels on jars or packets,
   no faces, no eyes, no portraits, no studio lighting, no softbox,
-  no glossy advertising polish, no perfect styling, no flat lay symmetry,
+  no glossy advertising polish, no flat lay symmetry,
   no red-and-white spotted mushrooms, no Amanita muscaria, no pills,
   no blister packs, no medical imagery, no pharmacy shelves,
-  no real-world brands or logos, no watermarks, no lorem ipsum,
-  no stock-photo feeling
+  no real-world brands or logos, no watermarks, no lorem ipsum
 
 shots:
   - key: coffee-lionsmane
     hero: ritual
     about: "Ранкова кава на кухні: ложка їжовика йде просто в чорну каву, поки та ще гаряча."
     text: short
+    hands: true
     moment: >
       a hand taps a heaped spoon of pale brown lion's mane powder into a cup
       of black coffee; the powder sits on the crema for a second before it
@@ -63,22 +75,20 @@ shots:
       cm over the cup, close enough that the cup and both hands fill almost
       the whole frame
     light: >
-      hard low morning sun through a window on the right, a sharp-edged shadow
-      of the hand thrown across the tabletop
-    imperfect: >
-      a dried coffee ring already on the table, spilled grounds near the edge,
-      the jar lid lying upside down beside the cup, one knuckle drifting out
-      of focus
+      bright clean morning daylight from a window, crisp and fresh, true
+      colours
+    life: >
+      the powder still sitting on the crema before it sinks
 
   - key: desk-cordyceps
     hero: ritual
     about: "Робочий стіл по обіді: кордицепс розмішують у звичайній склянці води між справами."
     text: short
+    hands: false
     moment: >
-      a hand stirs a teaspoon fast in a glass of plain water on a working
-      desk, pale cordyceps powder still spiralling in the vortex and settling
-      at the bottom; the open jar stands right beside the glass with a trace
-      of spilled powder around it
+      pale cordyceps powder still spiralling in the vortex and settling at the
+      bottom; the open jar stands right beside the glass with a trace of
+      spilled powder around it
     camera: >
       vertical 9:16, seated point of view looking down at the desk from chest
       height, phone tilted about 40 degrees, the edge of a paper notebook
@@ -86,14 +96,14 @@ shots:
     light: >
       flat grey afternoon daylight from a side window, weak and low in
       contrast, no lamp switched on
-    imperfect: >
-      an old cup stain on the desk, crumbs and a chewed pen, a folded paper
-      half slid under the glass, dust specks floating on the water surface
+    life: >
+      a folded paper half slid under the glass
 
   - key: teapot-herbs
     hero: ritual
     about: "Вечір, скляний заварник: кришку знімають — і трави розкриваються в окропі. Кадр самодостатній без тексту."
     text: none
+    hands: true
     moment: >
       two hands lift the lid off a glass teapot standing on a kitchen table;
       steam rolls out over the fingers and inside the glass dried herb leaves
@@ -102,21 +112,19 @@ shots:
       vertical 9:16, eye level with the tabletop, straight on and close,
       elbows braced on the table so the steam stays sharp
     light: >
-      one warm kitchen lamp hanging low over the table, dark window behind,
-      the wet glass rimmed with light
-    imperfect: >
-      loose dry herbs scattered around the teapot, a wet spoon on a folded
-      napkin, one already poured cup cooling out of focus behind, a
-      fingerprint smeared on the hot glass
+      bright late daylight from a window, fresh and clear, steam lit from
+      behind
+    life: >
+      steam rolling out over the rim, leaves turning in the water
 
   - key: night-ashwagandha
     hero: ritual
     about: "Ніч біля плити: ашваганду вмішують у тепле молоко перед сном. Кадр самодостатній без тексту."
     text: none
+    hands: false
     moment: >
-      a hand whisks ashwagandha powder into warm milk in a small saucepan on
-      the stove; tiny bubbles gather at the rim and clumps of powder still
-      break apart and streak through the milk
+      tiny bubbles gather at the rim and clumps of powder still break apart
+      and streak through the milk
     camera: >
       vertical 9:16, from above and behind over the shoulder of the person
       cooking, phone held low and close over the pan, the shoulder blurred in
@@ -124,19 +132,16 @@ shots:
     light: >
       only the cooker hood lamp on, a narrow pool of warm light over the pan,
       the rest of the kitchen sunk in dark
-    imperfect: >
-      a milk splash drying on the hob, a used spoon left on the worktop, the
-      open jar standing with its lid missing, one dark clump not yet whisked
-      in
+    life: >
+      one dark clump not yet whisked in
 
   - key: shiitake-broth
     hero: ritual
     about: "Готують вечерю: замочені шиїтаке притискають пальцями під воду, вода вже темна."
     text: short
+    hands: false
     moment: >
-      fingers press dried shiitake caps down under the water in a bowl where
-      they have been soaking; the water is already dark brown and cloudy and
-      one cap floats slowly back up against the fingers
+
     camera: >
       vertical 9:16, close, from above at about 30 degrees off vertical, phone
       in the free hand, the bowl deliberately off-centre with bare worktop
@@ -144,14 +149,14 @@ shots:
     light: >
       late afternoon daylight bouncing off white tiles, bright but indirect, a
       single hard glint sliding on the water surface
-    imperfect: >
-      a wet worktop, chopped onion and a knife pushed aside, dark soaking
-      water splashed on the tiles behind, a damp sleeve shoved up the forearm
+    life: >
+      chopped onion and a knife pushed aside
 
   - key: chaga-hammer
     hero: ritual
     about: "Твердий шматок чаги колють молотком на дошці — тріски розлітаються."
     text: short
+    hands: true
     moment: >
       two hands break a rock-hard chunk of chaga on a scarred wooden chopping
       board: one hand pins the chunk down, the other swings a small kitchen
@@ -163,54 +168,52 @@ shots:
     light: >
       hard midday sun through a kitchen window, one bright band lying across
       the board, everything outside the band falling into shadow
-    imperfect: >
-      chaga splinters scattered past the board onto the counter, old knife
-      scars in the wood, dark dust stuck to the side of the palm, a bunched
-      tea towel half in frame
+    life: >
+      old knife scars in the wood
 
   - key: product-jar-scoop
     hero: product
     about: "Продукт крупно: відкрита банка порошку і мірна ложка з гіркою в сірому денному світлі. Кадр самодостатній без тексту."
     text: none
+    hands: false
     moment: >
-      a hand lifts a small measuring scoop out of an open glass jar of cream-
-      coloured mushroom powder, powder heaped over the edge of the scoop and a
-      clean crater left in the surface where it came from
+      an open glass jar of cream-coloured mushroom powder stands on a clean
+      pale worktop, a measuring scoop resting in the powder heaped over its
+      edge, a crisp crater left where it was pressed in
     camera: >
       vertical 9:16, from above at about 45 degrees rather than flat, phone
       held close over the jar so the jar is cut off by the bottom edge of the
       frame
     light: >
-      grey overcast daylight from a kitchen window, soft and almost
-      shadowless, the powder reading completely matte
-    imperfect: >
-      powder dusted on the jar rim and on the table, the lid lying upside down
-      beside it, a used spoon and an open bag of oats pushed to the back out
-      of focus
+      bright clean daylight from a large window, soft but luminous, colours
+      true and fresh
+    life: >
+      a fine dusting of powder on the scoop edge
 
   - key: product-reishi-slice
     hero: product
     about: "Суху скибку рейші тримають на просвіт біля вікна — видно річні кільця. Кадр самодостатній без тексту."
     text: none
+    hands: false
     moment: >
-      fingers hold a dried slice of reishi up against a window; the thin edge
-      glows translucent amber and the growth rings and woody grain show right
-      through the slice
+      the thin edge glows translucent amber and the growth rings and woody
+      grain show right through the slice
     camera: >
       vertical 9:16, eye level and close, phone held in the other hand, the
       slice slightly off-centre against the bright window
     light: >
       backlit by flat daylight through the glass, the room behind the hand
       almost dark, the hand reading as a near-silhouette
-    imperfect: >
-      smudged window glass, a blurred rooftop and bare branches outside, the
-      rest of the slices lying in a paper bag on the sill below, a hairline
-      crack running into one slice
+    life: >
+      a blurred rooftop and bare branches outside, the rest of the slices
+      lying in a paper bag on the sill below, a hairline crack running into
+      one slice
 
   - key: product-extract-drop
     hero: product
     about: "Крапля екстракту падає у склянку води і розкручується коричневою стрічкою."
     text: short
+    hands: true
     moment: >
       a hand squeezes a glass pipette over a plain glass of water on a kitchen
       table: one dark amber drop is mid-fall while an earlier drop already
@@ -223,41 +226,38 @@ shots:
       warm side light from a lamp on the left, the ribbon lit across its edge,
       the pale wall behind giving it something to read against, the tabletop
       in soft shadow
-    imperfect: >
+    life: >
       a plain unlabelled amber bottle standing open beside the glass with its
-      cap next to it, a wet ring on the wood, dark drop marks dried into the
-      table
+      cap next to it, a wet ring on the wood
 
   - key: powder-bloom-glass
     hero: product
     about: "Макро крізь стінку склянки: порошок щойно впав у гарячу воду і розходиться темною хмарою. Кадр самодостатній без тексту."
     text: none
+    hands: false
     moment: >
-      a spoonful of ground mushroom powder has just dropped into a glass of
-      hot water and is unfurling downward in a slow brown plume, a few grains
-      still hanging near the surface as the spoon is lifted out through the
-      top of the frame
+      seen through the side of a tall clear glass of hot water, a spoonful of
+      powder has just gone in and is unfurling downward in slow dark ribbons
+      through the clear water
     camera: >
       vertical 9:16, macro from the side with the lens almost touching the
       glass, the glass filling the whole frame, focus held on the plume and
       the room behind reduced to soft blur
     light: >
-      window light coming from directly behind the glass so the water glows
-      amber and the plume reads dark against it
-    imperfect: >
-      water droplets and a wet ring on the table, smudged fingerprints down
-      the side of the glass, one stray grain floating on the surface, the
-      glass not centred
+      bright daylight from behind the glass so the ribbons glow, clean white
+      background, colours true
+    life: >
+      the ribbons still spreading, fine bubbles rising along the glass
 
   - key: shelf-among-spices
     hero: product
     about: "Банка стоїть на кухонній полиці серед солі й олії — як звичайна їжа, а не добавка."
     text: short
+    hands: false
     moment: >
       a plain jar of mushroom powder stands in the middle of a working kitchen
       shelf among unlabelled jars, a salt box, an oil bottle and a wooden
-      pepper grinder, while a hand reaches in from the top of the frame,
-      closes around it and nudges the salt box aside
+      pepper grinder, closes around it and nudges the salt box aside
     camera: >
       vertical 9:16, phone pushed onto the shelf itself and shooting from
       shelf level, the nearest jars blurring into the edges and the wooden
@@ -265,20 +265,18 @@ shots:
     light: >
       warm evening kitchen bulb from above and to the right, deep shadow at
       the back of the shelf
-    imperfect: >
-      spice dust and a dried oil drip on the shelf boards, a lid sitting loose
-      on the neighbouring jar, crumbs in the corner, one jar pushed out of
-      line
+    life: >
+      a lid sitting loose on the neighbouring jar, one jar pushed out of line
 
   - key: chaga-in-palm
     hero: nature
     about: "Щойно відламаний шматок чаги у мокрій долоні — злам видно просто в лісі. Кадр самодостатній без тексту."
     text: none
+    hands: false
     moment: >
-      a wet open palm holds a piece of chaga just broken off a birch, black
-      cracked crust on one side and rusty-orange inner flesh on the fresh
-      break, dark crumbs still stuck to the fingers; the thumb of the other
-      hand rubs the broken edge and a folded canvas bag hangs from that wrist
+      a freshly broken piece of chaga lying on a flat wet stone in the forest,
+      the bright orange-brown inner break turned upward against the black
+      crust
     camera: >
       vertical 9:16, the person's own point of view looking down at their own
       hand, phone held in the other hand about 20 cm above the palm, the hand
@@ -286,7 +284,7 @@ shots:
     light: >
       flat damp overcast forest light, no direct sun, cold and even, the white
       bark behind bouncing a little pale light into the shadow of the palm
-    imperfect: >
+    life: >
       dirt in the palm creases and under two fingernails, a fresh scratch on
       the wrist, a dead leaf stuck to the wet sleeve, a touch of handheld
       softness in the focus, drizzle specks on the lens near the top edge
@@ -295,11 +293,10 @@ shots:
     hero: nature
     about: "Їжовик білими голками звисає з поваленого стовбура, рука підставлена знизу. Кадр самодостатній без тексту."
     text: none
+    hands: false
     moment: >
-      a large white lion's mane fungus hangs in soft icicle-like spines from
-      the underside of a fallen hardwood trunk; one bare hand is cupped
-      underneath it without touching, the person crouched and leaning in as if
-      they found it a second ago and stopped everything
+      a lion's mane fungus hanging in white cascading spines from a fallen
+      trunk, lit from one side so every spine separates
     camera: >
       vertical 9:16, crouched low, phone held one-handed close to the wood and
       angled up under the trunk, the fungus in the upper half of the frame,
@@ -308,15 +305,15 @@ shots:
       patches of late afternoon sun coming through the leaves from behind, the
       white spines glowing translucent at their tips, everything else in cool
       shade
-    imperfect: >
-      bark crumbs and moss on the sleeve, a blurred gnat caught in the
-      sunbeam, the tip of a thumb creeping into the bottom corner, one blown-
-      out sunspot burning through the top right
+    life: >
+      a blurred gnat caught in the sunbeam, one blown- out sunspot burning
+      through the top right
 
   - key: basket-on-leaves
     hero: nature
     about: "Кошик зі збором опускають на мокре листя, рука ще тримає ручку. Кадр самодостатній без тексту."
     text: none
+    hands: true
     moment: >
       two hands lower a worn wicker basket onto wet autumn leaves; the basket
       is half full of the day's forest harvest — dark chunks of chaga, a few
@@ -329,15 +326,15 @@ shots:
     light: >
       soft overcast light falling straight down, wet leaves matte and dark, no
       hard shadow anywhere
-    imperfect: >
-      mud smeared on the basket rim, a leaf stuck to the back of the hand,
-      slight motion blur in the moving arm, a bag strap swinging into the top
-      of the frame
+    life: >
+      a leaf stuck to the back of the hand, slight motion blur in the moving
+      arm, a bag strap swinging into the top of the frame
 
   - key: illo-hericium-plate
     hero: illustration
     about: "Ботанічний нарис їжовика на буковому стовбурі з винесеною деталлю голок."
     text: short
+    hands: false
     moment: >
       a botanical plate of Hericium erinaceus: one fruiting body clings to a
       broken beech trunk, its long white spines hanging down in a frozen
@@ -354,7 +351,7 @@ shots:
       flat even page light as in an old book scan; every bit of volume comes
       from ink hatching and from the darker pooled edges where a wash dried,
       never from a light source
-    imperfect: >
+    life: >
       uneven line weight where the nib ran dry mid-stroke, a faint pencil
       under-drawing left unerased along the trunk, one wash running a little
       past its outline, visible paper fibre and a soft brown foxing spot near
@@ -364,13 +361,12 @@ shots:
     hero: illustration
     about: "Сторінка польового щоденника з нашвидкуруч замальованим кордицепсом."
     text: short
+    hands: false
     moment: >
-      an open forager's notebook page: a cluster of bright orange club-shaped
-      Cordyceps militaris sketched three times at different sizes as the hand
-      kept trying to catch the shape, the first attempt crossed out with two
-      quick strokes; next to them a small drawing of the plain unlabelled
-      glass jar they were grown in on rice, a hasty arrow joining the two, and
-      a swatch of orange watercolour tested straight onto the margin
+      the first attempt crossed out with two quick strokes; next to them a
+      small drawing of the plain unlabelled glass jar they were grown in on
+      rice, a hasty arrow joining the two, and a swatch of orange watercolour
+      tested straight onto the margin
     camera: >
       not a photograph — a scanned notebook spread, graph-ruled paper, soft
       pencil with two or three coloured-pencil strokes laid over it, the page
@@ -379,7 +375,6 @@ shots:
     light: >
       flat scanner light across the whole page, slightly darker only where the
       paper curves into the binding
-    imperfect: >
-      a coffee cup ring on the corner, eraser crumbs left on the paper, a
-      pressed sprig of moss held down with yellowing tape, a thumb smudge
-      greying the pencil
+    life: >
+      a coffee cup ring on the corner, a pressed sprig of moss held down with
+      yellowing tape
