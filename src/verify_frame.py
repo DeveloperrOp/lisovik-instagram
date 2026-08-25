@@ -95,6 +95,9 @@ def read_frame(path: Path, tok: str) -> dict:
                 data = json.loads(r.read())
             break
         except urllib.error.HTTPError as e:
+            if e.code == 401 and attempt < 5:
+                tok = token()          # протух посреди пачки
+                continue
             if e.code in (429, 500, 503) and attempt < 5:
                 time.sleep(20 * attempt)
                 continue

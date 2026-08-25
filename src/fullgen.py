@@ -73,7 +73,12 @@ def draw(head: str, body: str, style: str, tok: str, dest) -> bool:
 
 
 def draw_raw(prompt: str, tok: str, dest) -> bool:
-    """Рисует по готовому промпту. Нужен тем, кто собирает промпт сам."""
+    """Рисует по готовому промпту. Нужен тем, кто собирает промпт сам.
+
+    Токен обновляем сами при 401: gcloud выдаёт его примерно на час, а
+    пачка из десятка кадров идёт дольше — иначе половина прогона летит
+    по причине, к качеству отношения не имеющей.
+    """
     payload = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -92,10 +97,14 @@ def draw_raw(prompt: str, tok: str, dest) -> bool:
                 data = json.loads(r.read())
             break
         except urllib.error.HTTPError as e:
+            if e.code == 401 and attempt < 5:
+                print("      токен протух, оновлюю", flush=True)
+                tok = gen.token()
+                continue
             if e.code in (429, 500, 503) and attempt < 5:
                 time.sleep(20 * attempt)
                 continue
-            print(f"      HTTP {e.code}")
+            print(f"      HTTP {e.code}", flush=True)
             return False
         except (TimeoutError, urllib.error.URLError, OSError):
             if attempt < 5:
