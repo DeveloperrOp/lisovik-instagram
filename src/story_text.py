@@ -63,8 +63,21 @@ def soft_shadow(img, lines, fnt, box, gap, align_x):
     return Image.alpha_composite(img, layer)
 
 
+def brightness(img, top, bottom):
+    """Средняя яркость полосы кадра, где ляжет надпись.
+
+    Нужна, чтобы не подбирать цвет текста руками: на чёрной предметке
+    работает белый, на кремовой раскладке он тонет.
+    """
+    W, H = img.size
+    band = img.convert("L").crop((0, max(0, int(H * top)), W,
+                                  min(H, int(H * bottom))))
+    px = list(band.getdata())
+    return sum(px) / len(px) if px else 128
+
+
 def draw(img: Image.Image, text: str, kind="box", pos=0.30,
-         accent=(255, 209, 45), scale=0.058) -> Image.Image:
+         accent=(255, 209, 45), scale=0.068) -> Image.Image:
     """Кладёт надпись на кадр. pos — доля высоты, где начинается блок.
 
     Кегль задаётся долей ШИРИНЫ кадра, а не пикселями: подложки приходят
@@ -75,6 +88,12 @@ def draw(img: Image.Image, text: str, kind="box", pos=0.30,
     W, H = img.size
     d = ImageDraw.Draw(img)
     max_w = int(W * 0.80)
+
+    # Светлый фон под надписью — значит текст должен быть тёмным, иначе
+    # белое по кремовому не читается вовсе
+    light_bg = brightness(img, pos - 0.02, pos + 0.16) > 140
+    ink_text, panel_rgb = ((INK, (250, 248, 244)) if light_bg
+                           else (WHITE, (18, 18, 20)))
 
     fnt = fit(d, text, FONT_BOLD, int(W * scale), max_w,
               floor=int(W * 0.030))
@@ -88,7 +107,7 @@ def draw(img: Image.Image, text: str, kind="box", pos=0.30,
         d = ImageDraw.Draw(img)
         y = top
         for line in lines:
-            d.text((cx, y), line, font=fnt, fill=WHITE, anchor="ma")
+            d.text((cx, y), line, font=fnt, fill=ink_text, anchor="ma")
             y += gap
         return img
 
@@ -115,13 +134,14 @@ def draw(img: Image.Image, text: str, kind="box", pos=0.30,
 
     panel = Image.new("RGBA", img.size, (0, 0, 0, 0))
     ImageDraw.Draw(panel).rounded_rectangle(
-        box, radius=int(fnt.size * 0.34), fill=(18, 18, 20, 205))
+        box, radius=int(fnt.size * 0.34), fill=panel_rgb + (205,))
     img = Image.alpha_composite(img, panel)
 
     d = ImageDraw.Draw(img)
     y = top
+    box_text = INK if light_bg else WHITE
     for line in lines:
-        d.text((cx, y), line, font=fnt, fill=WHITE, anchor="ma")
+        d.text((cx, y), line, font=fnt, fill=box_text, anchor="ma")
         y += gap
     return img
 
