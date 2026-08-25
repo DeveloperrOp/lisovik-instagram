@@ -16,6 +16,7 @@ import sys
 
 from PIL import Image, ImageDraw
 
+import check_thought as CT
 import story_text as ST
 from config import OUT_DIR
 
@@ -368,7 +369,11 @@ def from_thought(t: dict) -> dict:
     строка — ровно тот брак, ради которого всё и затевалось. Если текста
     для раскладки нет, берём то поле, которое подходит целиком.
     """
-    parts = [x.strip() for x in (t.get("extra") or "").split("|") if x.strip()]
+    # Режем ТЕМ ЖЕ разделителем, что и проверка. Пока здесь стояла одна
+    # вертикальная черта, проверка пропускала кадр как корректный, а
+    # вёрстка показывала один пункт вместо трёх — расхождение видно
+    # только глазами на готовом кадре.
+    parts = [x.strip() for x in CT.SPLIT.split(t.get("extra") or "") if x.strip()]
     lay = t.get("layout", "title_sub")
     d = dict(t)
     d["headline"] = t["claim"]
@@ -389,8 +394,16 @@ def from_thought(t: dict) -> dict:
     elif lay == "versus":
         cols = []
         for pt in parts[:2]:
-            title, _, rest = pt.partition(":")
-            cols.append({"title": title.strip().upper(),
+            # Заголовок колонки должен быть коротким, иначе он уезжает за
+            # край кадра. Берём то, что стоит до двоеточия или тире, а если
+            # разделителя нет — первые два слова.
+            title, sep, rest = pt.partition(":")
+            if not sep:
+                title, sep, rest = pt.partition(" — ")
+            if not sep:
+                words = pt.split()
+                title, rest = " ".join(words[:2]), " ".join(words[2:])
+            cols.append({"title": title.strip().upper()[:16],
                          "points": [rest.strip() or title.strip()]})
         while len(cols) < 2:
             cols.append({"title": "—", "points": ["—"]})
