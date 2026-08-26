@@ -140,7 +140,14 @@ def versus(img, s, data):
     d.line([(W // 2, top), (W // 2, bot)], fill=s["line"][:3], width=2)
     for side, col in enumerate(data["columns"]):
         cx = int(W * (0.27 if side == 0 else 0.73))
-        put(d, (cx, top), col["title"], fc, ACCENT, anchor="ma")
+        # Заголовок колонки не режем по символам — обрубок посеред слова
+        # («ЗЕРНО З ГРИБНИЦЕ») виглядає як брак верстки. Замість цього
+        # зменшуємо кегль, поки не влізе в свою колонку.
+        fct, size = fc, fc.size
+        while size > int(W * 0.022) and d.textlength(col["title"], font=fct) > W * 0.40:
+            size -= 2
+            fct = fnt(img, size / W)
+        put(d, (cx, top), col["title"], fct, ACCENT, anchor="ma")
         y = top + int(fc.size * 1.7)
         for p in col["points"]:
             for ln in ST.wrap(d, p, ft, int(W * 0.38)):
@@ -403,7 +410,7 @@ def from_thought(t: dict) -> dict:
             if not sep:
                 words = pt.split()
                 title, rest = " ".join(words[:2]), " ".join(words[2:])
-            cols.append({"title": title.strip().upper()[:16],
+            cols.append({"title": title.strip().upper(),
                          "points": [rest.strip() or title.strip()]})
         while len(cols) < 2:
             cols.append({"title": "—", "points": ["—"]})
