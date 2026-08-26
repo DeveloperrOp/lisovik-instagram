@@ -238,12 +238,16 @@ def bands(img, s, data):
 def callout(img, s, data):
     """Выноска со стрелкой к объекту — как подпись на схеме."""
     W, H = img.size
+    img = veil(img, 0.05, 0.22, 135, s["light"])
     d = ImageDraw.Draw(img)
-    ft = fnt(img, 0.034, False)
-    lines = ST.wrap(d, data["callout"], ft, int(W * 0.40))
-    bw = int(W * 0.50)
+    # Заголовок кадра рисуем и здесь: без него оставалась одна выноска,
+    # и главное утверждение пропадало с кадра совсем
+    head(d, img, s, data["headline"], 0.055)
+    ft = fnt(img, 0.032, False)
+    lines = ST.wrap(d, data["callout"], ft, int(W * 0.44))
+    bw = int(W * 0.54)
     bh = int(len(lines) * ft.size * 1.35 + ft.size * 0.9)
-    bx, by = int(W * 0.07), int(H * 0.20)
+    bx, by = int(W * 0.07), int(H * 0.26)
     panel = Image.new("RGBA", (bw, bh), (250, 248, 244, 240))
     img.alpha_composite(panel, (bx, by))
     d = ImageDraw.Draw(img)
@@ -395,7 +399,9 @@ def from_thought(t: dict) -> dict:
         d["stat"] = parts[0] if parts else ""
         d["stat_note"] = t["why"]          # целиком, перенос сделает вёрстка
     elif lay == "callout":
-        d["callout"] = t["do"]             # короткое и законченное само по себе
+        # Именно «why»: в выноске стоит механизм. Раньше сюда шло «do»,
+        # и кадр повторял вывод дважды — в выноске и в жёлтой полосе.
+        d["callout"] = t["why"]
     elif lay == "quote":
         d["quote"] = t["why"]
     elif lay == "versus":
