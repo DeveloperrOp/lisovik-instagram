@@ -196,7 +196,9 @@ def card(img, s, data):
     hlines = ST.wrap(d, data["headline"], fh, int(W * 0.78))
     h = int(len(hlines) * fh.size * 1.28 + len(lines) * ft.size * 1.42
             + H * 0.05)
-    top = H - h - int(H * 0.11)
+    # Отступ снизу считаем с запасом под жёлтую полосу вывода: она рисуется
+    # поверх и при отступе 0.11 срезала карточке последнюю строку
+    top = H - h - int(H * 0.22)
     panel = Image.new("RGBA", (int(W * 0.88), h), s["panel"] + (232,))
     img.alpha_composite(panel, (int(W * 0.06), top))
     d = ImageDraw.Draw(img)
