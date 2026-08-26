@@ -410,8 +410,11 @@ def from_thought(t: dict) -> dict:
             if not sep:
                 words = pt.split()
                 title, rest = " ".join(words[:2]), " ".join(words[2:])
+            # Если часть состоит из одного слова, оно уходит в заголовок,
+            # а подписи под ним нет. Иначе выходило «АДЕНОЗИН / аденозин» —
+            # колонка повторяла сама себя.
             cols.append({"title": title.strip().upper(),
-                         "points": [rest.strip() or title.strip()]})
+                         "points": [rest.strip()] if rest.strip() else []})
         while len(cols) < 2:
             cols.append({"title": "—", "points": ["—"]})
         d["columns"] = cols
