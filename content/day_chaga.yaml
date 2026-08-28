@@ -1,0 +1,84 @@
+# День чаги. Собран НЕ из головы, а из out/briefs/чага.json.
+#
+# Это проверка процесса: если день чаги выйдет похожим на день ежовика,
+# значит процесс не работает и уникальность бралась из старания.
+#
+# Возражения у чаги свои, ежовику они не подходят вообще:
+#   «Чага, нарост на дереве, паразит, и по таким ценам?!»
+#   «Не указано какой температуры должна быть вода. Что значит тёплая?»
+#   «Всем хороша, вот только заваривать замучаешься»
+#   «Хочешь чай из ГРИБКА ПАРАЗИТА? Звучит не очень АППЕТИТНО»
+#
+# Самая ценная строка нашлась в [tried]: «You can reuse chaga multiple
+# times. First steep an hour, second two hours, third four.» Один кусок
+# заваривают несколько раз — это прямой ответ на «по таким ценам».
+#
+# Формы сверены с каталогом: в наличии целая, молотая и капсулы.
+
+thoughts:
+- key: chaga-price
+  topic: Чага березова
+  day: tue
+  layout: poster
+  extra: ''
+  look: studio-dark
+  subject: >
+    one hard cracked black chunk of birch chaga with a rust-orange interior
+    on a seamless deep black background, hard side light carving out the
+    texture, advertising-grade still life
+  compound: ''
+  source: 'voice_lines objection: «і по таких цінах?!» + tried: багаторазове заварювання'
+  retell: один шматок працює не на одну чашку, тому ціна ділиться на місяці
+  claim: І ПО ТАКИХ ЦІНАХ?
+  why: Один шматок заварюють по кілька разів поспіль.
+  do: Бери цілу — вистачить надовго
+
+- key: chaga-temperature
+  topic: Чага березова
+  day: tue
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a thermos and a mug on a bright tidy kitchen counter, dark amber
+    infusion being poured, clean well-groomed hands, morning daylight
+  compound: ''
+  source: 'voice_lines objection: «не указано какой температуры должна быть вода»'
+  retell: людину збиває слово «тепла», і їй потрібна проста дія замість градусів
+  claim: ЯКОЇ ТЕМПЕРАТУРИ ВОДА?
+  why: Гарячої, не окропу. Далі кілька годин у термосі.
+  do: Залий увечері — вранці готово
+
+- key: chaga-too-much-work
+  topic: Чага березова
+  day: tue
+  layout: poster
+  extra: ''
+  look: knolling
+  subject: >
+    seen straight down on a plain surface: a whole hard black chaga chunk
+    beside a neat pile of the same fungus ground into coarse dark powder,
+    evenly spaced, even shadowless light
+  compound: ''
+  source: 'voice_lines drop: «заварювати замучаєшся», «деревʼяні булижники»'
+  retell: морока стосується цілого шматка, а не самого напою
+  claim: ЗАВАРЮВАТИ ЗАМУЧАЄШСЯ
+  why: Це про цілий шматок — його треба колоти.
+  do: Бери мелену, якщо часу мало
+
+- key: chaga-parasite
+  topic: Чага березова
+  day: tue
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of a broken chaga chunk: the black cracked crust on one
+    side and the bright rust-orange crumbly interior on the other, raking
+    light, tactile and beautiful
+  compound: ''
+  source: 'voice_lines word: «чай из ГРИБКА ПАРАЗИТА? не аппетитно»'
+  retell: чорна кірка лякає, а всередині гриб зовсім інший на вигляд
+  claim: ГРИБОК-ПАРАЗИТ? НЕ АПЕТИТНО
+  why: Чорна лише кірка. Всередині він рудий і кришиться.
+  do: Розломи шматок — побачиш руду серцевину

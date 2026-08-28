@@ -388,7 +388,12 @@ def poster(img, s, data):
         widest = max(probe.textlength(x, font=fh) for x in lines)
         orphan = (len(lines) > 1
                   and probe.textlength(lines[-1], font=fh) < widest * 0.42)
-        if len(lines) <= 3 and not orphan:
+        # Слово шире строки перенос не разбивает: «ГРИБОК-ПАРАЗИТ?» уехал
+        # за край кадра, потому что дефис для wrap не точка разрыва.
+        # Значит кегль обязан уступить самому длинному слову, а не средней
+        # строке — иначе заголовок обрезается на живом кадре.
+        fits = widest <= W * 0.86
+        if len(lines) <= 3 and not orphan and fits:
             break
         k -= 0.006
 
@@ -396,13 +401,28 @@ def poster(img, s, data):
     fb = fnt(img, 0.042, False)
     blines = ST.wrap(probe, body, fb, int(W * 0.80)) if body else []
 
+    # Название продукта над заголовком. Без него кадр не отвечает на
+    # вопрос «это вообще про что»: сторис смотрят вразнобой, по одной,
+    # и человек не обязан помнить, какой сегодня день недели у нас.
+    # Владелец посмотрел собранный день и спросил дословно: «это про
+    # чагу или ежовик?» — три кадра из четырёх продукт не называли.
+    kicker = (data.get("kicker") or "").upper()
+    fk = fnt(img, 0.030)
     top = int(H * 0.115)
+    if kicker:
+        top = int(H * 0.150)
     bottom = top + len(lines) * int(fh.size * 1.10)
     if blines:
         bottom += int(H * 0.024) + len(blines) * int(fb.size * 1.42)
 
     img = fade(img, bottom + int(H * 0.10), 175, s["light"])
     d = ImageDraw.Draw(img)
+
+    if kicker:
+        x = int(W * 0.08)
+        for c in kicker:
+            put(d, (x, int(H * 0.095)), c, fk, ACCENT)
+            x += d.textlength(c, font=fk) + fk.size * 0.16
 
     y = top
     for ln in lines:

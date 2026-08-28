@@ -33,7 +33,8 @@ thoughts:
     quiet unposed moment, neutral linen clothing
   compound: ''
   source: 'voice_lines drop: «Пропил 2 курса, ни каких изменений»'
-  claim: ПРОПИВ МІСЯЦЬ — І НІЧОГО
+  retell: людина чекає спалаху й не бачить тихої зміни, тому їй потрібна дата для порівняння
+  claim: МІСЯЦЬ ЇЖОВИКА — І НІЧОГО
   why: 'Зміна тиха: не спалах, а ясніша голова надвечір.'
   do: Постав позначку в календарі на 21-й день
 
@@ -44,13 +45,15 @@ thoughts:
   extra: ''
   look: macro-texture
   subject: >
-    a heaped wooden spoon of pale cream mushroom powder held above a plain
-    bowl of the same powder, soft fine texture clearly visible, clean
-    neutral background, close and appetising, no cracked earth or stone
+    a heaped wooden spoon of pale cream mushroom powder above a bowl of the
+    same powder, and beside them one whole dried white lion's mane mushroom
+    with its shaggy hanging spines clearly visible, clean neutral
+    background, close and appetising, no cracked earth or stone
   compound: ''
   source: 'voice_lines objection: «Сподіваюсь це не пресована макуха!»'
+  retell: страх про наповнювач знімає короткий перелік на етикетці
   claim: А РАПТОМ ТАМ НЕ ГРИБ
-  why: 'У складі один рядок: мелені плодові тіла їжовика.'
+  why: 'У складі один рядок: сам гриб, змелений.'
   do: Читай склад — він має бути коротким
 
 - key: mane-forget-to-take
@@ -61,12 +64,14 @@ thoughts:
   look: kitchen-morning
   subject: >
     a bright tidy kitchen counter in the morning: a plain unlabelled glass
-    jar of pale powder standing next to a kettle, clean well-groomed hands
-    reaching for it, daylight from a window
+    jar of pale powder next to a kettle, and beside the jar one whole white
+    lion's mane mushroom with shaggy hanging spines, clean well-groomed
+    hands reaching for the jar, daylight from a window
   compound: ''
   source: 'voice_lines drop: курс кидають на другому тижні'
+  retell: щоб курс не обірвався, банка має стояти там, куди рука тягнеться вранці сама
   claim: ЗАБУВАЮ ПИТИ ЩОДНЯ
-  why: Курс кидають на другому тижні саме через це.
+  why: Курс їжовика кидають на другому тижні саме через це.
   do: Постав банку біля чайника чи кавоварки
 
 - key: mane-can-i-drink-it
@@ -80,6 +85,7 @@ thoughts:
     side light, quiet and warm
   compound: ''
   source: 'voice_lines objection: смак і запах, 16 рядків'
+  retell: смак не стане перешкодою, бо в гарячому напої він губиться
   claim: А ЯКЩО НЕ ЗМОЖУ ПИТИ
-  why: Смак мʼякий, горіховий. У каві його майже не чути.
+  why: Їжовик мʼякий, горіховий. У каві його майже не чути.
   do: Розмішай ложку в ранковій каві
