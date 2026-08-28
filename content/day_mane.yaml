@@ -1,91 +1,85 @@
-# Один день целиком: ежовик гребенчатый, четыре кадра-плаката.
+# День ежовика, собранный из РЕАЛЬНЫХ возражений покупателей.
 #
-# ПОЧЕМУ ПЕРЕПИСАНО. Первая версия этого дня была верной по содержанию и
-# неверной по формату: тезис плюс абзац в 180 знаков плюс вывод. Это
-# вёрстка карусели, а не сторис. Сторис смотрят на свайпе, и абзац там не
-# читает никто. Цель трека — прогрев и доверие, значит кадр обязан
-# успеть прочитаться целиком, а не начаться.
+# ПОЧЕМУ ПЕРЕПИСАНО В ТРЕТИЙ РАЗ. Ярик: «главная претензия по прошлым
+# работам к текстам, а не к картинкам». Он прав, и диагноз нашёлся не в
+# моей голове, а в content/voice_lines.md — 167 строк живого языка, из
+# них 60 objection и 36 drop.
 #
-# Текст ужат втрое, кегль вырос вдвое. Мысль осталась замкнутой: крючок,
-# одна строка сути, одно действие.
+# Доминирующая боль звучит так: «Пропил 2 курса, никаких изменений. Что
+# пил, что не пил». Двадцать строк про то же самое. Человек не знает,
+# чего ждать и когда — поэтому бросает и решает, что не работает.
 #
-# ЧТО УБРАНО. Кадр «плодовое тело или мицелий» снят совсем. В памяти
-# проекта записано замечание владельца: сторис про плодовое тело рядом с
-# товаром «Міцелій їжовика» — прямое противоречие, и мицелий из-за этого
-# уже убирали из товарных кадров. У нас 6 позиций мицелия в наличии, и
-# кадр с выводом «бери плодовые тела» топит собственный товар.
-# Вместо него — кадр про то, как гриб растёт: та же работа на доверие,
-# но без стрельбы себе в ногу.
+# Второй по частоте страх: «Сподіваюсь це не пресована макуха!» — в банке
+# не гриб, а наполнитель.
 #
-# ЛЮДИ ВЕРНУЛИСЬ. Первые два кадра предметные, вторые два живые. Владелец
-# браковал конкретные руки — грязь и кривые ракурсы, — а не человека как
-# такового.
+# А я писал «ні шапки, ні ніжки» и «смолисті сполуки в осаді». Ботаника
+# вместо ответа на то, что человека реально держит от покупки.
+#
+# Теперь каждый кадр берёт одно возражение из отзывов и СНИМАЕТ его.
+# Не подтверждает, не обходит — снимает и ведёт к действию.
+#
+# Фото с сайта не используются: только генерация. Товар в кадре без
+# читаемой этикетки — на мелком тексте модель врёт.
 
 thoughts:
-- key: mane-what-inside
+- key: mane-what-to-notice
+  topic: Їжовик гребінчастий
+  day: mon
+  layout: poster
+  extra: ''
+  look: portrait-calm
+  subject: >
+    a calm person by a window at dusk with a warm cup, soft evening light,
+    quiet unposed moment, neutral linen clothing
+  compound: ''
+  source: 'voice_lines drop: «Пропил 2 курса, ни каких изменений»'
+  claim: ПРОПИВ МІСЯЦЬ — І НІЧОГО
+  why: 'Зміна тиха: не спалах, а ясніша голова надвечір.'
+  do: Постав позначку в календарі на 21-й день
+
+- key: mane-is-it-really-mushroom
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
   extra: ''
   look: macro-texture
   subject: >
-    extreme close-up of a white lion's mane mushroom: soft hanging spines
-    filling the frame like a white waterfall
-  compound: гериценони
-  source: гериценони плодового тіла Hericium erinaceus
-  claim: ЧОГО НЕМА В ПЕЧЕРИЦІ
-  why: Тут є окрема група сполук — їх звуть гериценонами.
-  do: Почни з меленого — це вся мʼякоть
-
-- key: mane-on-the-beech
-  topic: Їжовик гребінчастий
-  day: mon
-  layout: poster
-  extra: ''
-  look: nature-light
-  subject: >
-    one large white Hericium erinaceus growing straight out of the smooth
-    grey bark of an old beech trunk, a shaggy cascade of long soft white
-    hanging spines like a frozen waterfall, no cap and no stem, filling the
-    lower half of the frame, dense green beech forest behind, strictly no
-    birch trees and no white peeling bark anywhere in the frame, even
-    atmospheric light throughout with no hard horizontal band of brightness
-    or fog cutting across the frame
+    a heaped wooden spoon of pale cream mushroom powder held above a plain
+    bowl of the same powder, soft fine texture clearly visible, clean
+    neutral background, close and appetising, no cracked earth or stone
   compound: ''
-  source: будова плодового тіла Hericium erinaceus — гіменофор із шипів
-  # Походження сировини кадр НЕ називає навмисно: картка меленого каже
-  # «збирають у чистих лісах», картка цілого — «з екологічних ферм».
-  # Поки картки сперечаються між собою, сторіс не стає на жоден бік.
-  claim: НІ ШАПКИ, НІ НІЖКИ
-  why: Самі білі голки. Звідси й «левова грива».
-  do: Бери мелений — це той самий гриб
+  source: 'voice_lines objection: «Сподіваюсь це не пресована макуха!»'
+  claim: А РАПТОМ ТАМ НЕ ГРИБ
+  why: 'У складі один рядок: мелені плодові тіла їжовика.'
+  do: Читай склад — він має бути коротким
 
-- key: mane-keep-the-grounds
+- key: mane-forget-to-take
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
   extra: ''
   look: kitchen-morning
   subject: >
-    a spoon of pale cream mushroom powder being stirred into a cup of hot
-    water on a bright kitchen counter, fine sediment swirling
+    a bright tidy kitchen counter in the morning: a plain unlabelled glass
+    jar of pale powder standing next to a kettle, clean well-groomed hands
+    reaching for it, daylight from a window
   compound: ''
-  source: жиророзчинні сполуки мʼякоті лишаються в осаді
-  claim: ЗАВАРИВ — І ВИКИНУВ ГУЩУ?
-  why: Смолисті сполуки лишаються в осаді, а не у воді.
-  do: Розмішай і випий разом з осадом
+  source: 'voice_lines drop: курс кидають на другому тижні'
+  claim: ЗАБУВАЮ ПИТИ ЩОДНЯ
+  why: Курс кидають на другому тижні саме через це.
+  do: Постав банку біля чайника чи кавоварки
 
-- key: mane-taste
+- key: mane-can-i-drink-it
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
   extra: ''
   look: hands-hold
   subject: >
-    two hands cradling a warm cup of pale cream mushroom drink, steam
-    rising, soft side light
+    two clean hands cradling a mug of morning coffee, steam rising, soft
+    side light, quiet and warm
   compound: ''
-  source: кулінарний профіль Hericium erinaceus
-  claim: А СМАК? ЦЕ Ж ГРИБ
-  why: Мʼякий, горіховий, без гіркоти.
-  do: Розмішай ложку в теплому молоці
+  source: 'voice_lines objection: смак і запах, 16 рядків'
+  claim: А ЯКЩО НЕ ЗМОЖУ ПИТИ
+  why: Смак мʼякий, горіховий. У каві його майже не чути.
+  do: Розмішай ложку в ранковій каві
