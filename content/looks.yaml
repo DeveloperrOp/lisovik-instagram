@@ -4,25 +4,39 @@
 # телефон» с руками и беспорядком, потом просто чистую кухню. Общая беда
 # была в том, что я каждый раз давал ВАРИАЦИИ одной эстетики, а не выбор.
 #
-# Здесь наоборот: четырнадцать разных миров. Предмет во всех один и тот же,
+# Здесь наоборот: восемнадцать разных миров. Предмет во всех один и тот же,
 # чтобы сравнивать подачу, а не сюжет. Половина — не фотография вовсе.
 #
-# Рук нет нигде: концепция с руками забракована.
 # Текста нет нигде: его кладёт PIL, у модели орфография ломается.
+#
+# ЛЮДИ. Сначала я запретил их глобально — и это был перегиб. Ярик забраковал
+# КОНКРЕТНЫЕ руки: грязь, старое фото, кривые ракурсы. Он не просил убирать
+# человека вообще. А сторис — формат личный, предметка в нём читается как
+# реклама, и от рекламы свайпают. Поэтому запрет разделён надвое:
+#
+#   negative        — общий, действует всегда
+#   negative_still  — «людей нет», добавляется только предметным языкам
+#
+# У живых языков стоит people: true, и запрет на них не вешается. Зато в
+# самом промпте прописано то, чего не хватало забракованным кадрам:
+# ухоженные руки, светлая прибранная сцена, съёмка уровня редакции.
 
 subject: >
   birch chaga — a dark, hard, cracked black chunk with a rust-orange
   interior, and the deep amber infusion brewed from it
 
 negative: >
-  no hands, no arms, no people, no faces, no body parts,
   no text, no letters, no numbers, no labels, no signage, no watermarks,
   no user interface, no avatars, no usernames, no icons,
   no red-and-white spotted mushrooms, no Amanita muscaria,
   no pills, no blister packs, no medical imagery, no pharmacy shelves,
   no real-world brands or logos, no clutter, no dirty dishes,
+  no dirt, no grime, no stained surfaces, no chipped or dirty nails,
   no humanoid shapes, no figures resembling a human body,
   no anthropomorphic roots
+
+negative_still: >
+  no hands, no arms, no people, no faces, no body parts
 
 looks:
   # ---------------------------------------------------------- фотография
@@ -135,3 +149,40 @@ looks:
       an intricate cellular pattern, jewel-like colours from staining,
       symmetrical organic geometry, dark field background, beautiful and
       strange
+
+  # ------------------------------------------------------------ с человеком
+  - key: kitchen-morning
+    about: "Світла кухня, руки заварюють, ранкове світло"
+    people: true
+    prompt: >
+      editorial lifestyle photograph in a bright tidy kitchen: clean
+      well-groomed hands with short natural nails spooning the powder into
+      a cup, morning daylight from a window, uncluttered pale counter,
+      shallow depth of field, calm and premium, shot on a fast prime lens
+
+  - key: hands-hold
+    about: "Руки тримають чашку, тепле світло, м'який фон"
+    people: true
+    prompt: >
+      close editorial photograph of two clean well-groomed hands cradling a
+      warm cup, steam rising, soft window light from the side, muted knitted
+      sleeve, background thrown far out of focus, quiet and intimate,
+      magazine quality
+
+  - key: over-shoulder
+    about: "Кадр через плече на стіл — погляд самої людини"
+    people: true
+    prompt: >
+      over-the-shoulder point-of-view photograph looking down at a clean
+      table: the cup and the jar seen the way the person actually sees them,
+      a shoulder and forearm softly out of focus at the frame edge, even
+      daylight, tidy neutral surface, natural unposed moment
+
+  - key: portrait-calm
+    about: "Портрет біля вікна з чашкою, спокійний і теплий"
+    people: true
+    prompt: >
+      natural editorial portrait by a window: a calm person holding a warm
+      cup with both hands, looking away from the camera, soft directional
+      daylight, neutral linen clothing, plain warm interior far out of
+      focus, unposed and quiet, premium lifestyle photography

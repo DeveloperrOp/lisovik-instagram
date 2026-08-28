@@ -1,94 +1,85 @@
-# Один день целиком: ежовик гребенчатый, четыре кадра.
+# Один день целиком: ежовик гребенчатый, четыре кадра-плаката.
 #
-# День — не четыре случайных факта об одном грибе, а порядок, в котором
-# человек принимает решение:
+# ПОЧЕМУ ПЕРЕПИСАНО. Первая версия этого дня была верной по содержанию и
+# неверной по формату: тезис плюс абзац в 180 знаков плюс вывод. Это
+# вёрстка карусели, а не сторис. Сторис смотрят на свайпе, и абзац там не
+# читает никто. Цель трека — прогрев и доверие, значит кадр обязан
+# успеть прочитаться целиком, а не начаться.
 #
-#   1. чем этот гриб отличается от гриба из супа   → зачем он вообще
-#   2. плодовое тело или мицелий                   → что именно брать
-#   3. заварил и выбросил гущу                     → как не потерять товар
-#   4. а какой на вкус                             → снять последний страх
+# Текст ужат втрое, кегль вырос вдвое. Мысль осталась замкнутой: крючок,
+# одна строка сути, одно действие.
 #
-# Факты отобраны по правилу «без оговорки»: химия и ботаника, а не
-# клинические работы. У химии нет плацебо-группы, поэтому кадру не нужно
-# спорить с самим собой.
+# ЧТО УБРАНО. Кадр «плодовое тело или мицелий» снят совсем. В памяти
+# проекта записано замечание владельца: сторис про плодовое тело рядом с
+# товаром «Міцелій їжовика» — прямое противоречие, и мицелий из-за этого
+# уже убирали из товарных кадров. У нас 6 позиций мицелия в наличии, и
+# кадр с выводом «бери плодовые тела» топит собственный товар.
+# Вместо него — кадр про то, как гриб растёт: та же работа на доверие,
+# но без стрельбы себе в ногу.
 #
-# Формы сверены с catalog_raw.json: у нас в наличии и молотые плодовые
-# тела, и зерномицелий НА БУРОМ РИСЕ. Поэтому второй кадр не говорит
-# «бери плодовое тело, мицелий хуже» — он даёт человеку выбрать, и вывод
-# ведёт к товару, который реально стоит на складе.
-#
-# Визуальный язык у каждого кадра свой, и предмет описан отдельно: четыре
-# одинаковых белых гриба подряд читаются как один кадр.
+# ЛЮДИ ВЕРНУЛИСЬ. Первые два кадра предметные, вторые два живые. Владелец
+# браковал конкретные руки — грязь и кривые ракурсы, — а не человека как
+# такового.
 
 thoughts:
 - key: mane-what-inside
   topic: Їжовик гребінчастий
   day: mon
-  layout: title_sub
+  layout: poster
   extra: ''
   look: macro-texture
   subject: >
-    lion's mane mushroom: a white cascading cluster of soft hanging spines,
-    dense and coral-like, and pale cream powder ground from it
+    extreme close-up of a white lion's mane mushroom: soft hanging spines
+    filling the frame like a white waterfall
   compound: гериценони
   source: гериценони плодового тіла Hericium erinaceus
-  claim: «Гриби як гриби — чим цей інший?»
-  why: >-
-    Печерицю ти береш заради смаку. У мʼякоті цього гриба сидить окрема
-    група сполук, їх звуть гериценонами, і в печериці їх немає. Заради них
-    його й беруть.
-  do: Почни з меленого — це вся мʼякоть гриба
+  claim: ЧОГО НЕМА В ПЕЧЕРИЦІ
+  why: Тут є окрема група сполук — їх звуть гериценонами.
+  do: Почни з меленого — це вся мʼякоть
 
-- key: mane-body-vs-mycelium
+- key: mane-on-the-beech
   topic: Їжовик гребінчастий
   day: mon
-  layout: versus
-  extra: 'Плодове тіло: гериценони|Міцелій на рисі: еринацини'
-  look: knolling
+  layout: poster
+  extra: ''
+  look: nature-light
   subject: >
-    two neat piles side by side on a plain surface: a white lion's mane
-    fruiting body with hanging spines, and grains of brown rice overgrown
-    with white mycelium
-  compound: еринацини
-  source: хімія плодових тіл проти культивованого зерноміцелію
-  claim: «Плодове тіло чи міцелій — є різниця?»
-  why: >-
-    Різниця в самих речовинах. Мʼякоть гриба дає одну групу сполук, міцелій
-    на рисі — зовсім іншу, її звуть еринацинами. Це два різні набори, а не
-    більше й менше того самого.
-  do: Хочеш сам гриб — бери мелені плодові тіла
+    one large white Hericium erinaceus growing straight out of the bark of a
+    beech trunk, a shaggy cascade of long soft white hanging spines like a
+    frozen waterfall, no cap and no stem, close enough to fill half the
+    frame, bright forest daylight behind
+  compound: ''
+  source: Hericium erinaceus росте на живих і мертвих листяних деревах
+  claim: ТАК ВІН РОСТЕ НА БУКУ
+  why: Білі голки завдовжки з палець. Порошок — це вони.
+  do: Бери цілий сушений — побачиш сам
 
 - key: mane-keep-the-grounds
   topic: Їжовик гребінчастий
   day: mon
-  layout: card
+  layout: poster
   extra: ''
-  look: splash
+  look: kitchen-morning
   subject: >
-    a cup of pale cream mushroom infusion with fine sediment settling at the
-    bottom, a spoon of the same powder beside it
-  compound: бета-глюкан
-  source: водорозчинні полісахариди проти жиророзчинних сполук мʼякоті
-  claim: «Заварив — і викинув гущу?»
-  why: >-
-    Гаряча вода забирає з порошку довгі цукрові ланцюги, найвідоміший з них
-    зветься бета-глюканом. А смолисті сполуки мʼякоті осідають на дно —
-    вода бере їх слабко.
+    a spoon of pale cream mushroom powder being stirred into a cup of hot
+    water on a bright kitchen counter, fine sediment swirling
+  compound: ''
+  source: жиророзчинні сполуки мʼякоті лишаються в осаді
+  claim: ЗАВАРИВ — І ВИКИНУВ ГУЩУ?
+  why: Смолисте осідає на дно, вода бере його слабко.
   do: Розмішай і випий разом з осадом
 
 - key: mane-taste
   topic: Їжовик гребінчастий
   day: mon
-  layout: card
+  layout: poster
   extra: ''
-  look: cgi-glossy
+  look: hands-hold
   subject: >
-    pale cream mushroom powder being stirred into a glass of warm milk,
-    soft swirl in the liquid, calm pastel setting
+    two hands cradling a warm cup of pale cream mushroom drink, steam
+    rising, soft side light
   compound: ''
   source: кулінарний профіль Hericium erinaceus
-  claim: «А смак? Це ж гриб»
-  why: >-
-    Мʼякий, з горіховою ноткою — у кухні цим грибом замінюють морепродукти.
-    У помелі лишається легка солодкувата основа, а гіркоти немає зовсім.
-  do: Розмішай ложку в теплому молоці або какао
+  claim: А СМАК? ЦЕ Ж ГРИБ
+  why: Мʼякий, горіховий, без гіркоти.
+  do: Розмішай ложку в теплому молоці

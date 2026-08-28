@@ -69,7 +69,10 @@ def draw_bg(key: str, subject: str, look_key: str, cfg: dict, tok: str,
     prompt = L.TEMPLATE.format(
         subject=subject,
         look=" ".join(looks[look_key]["prompt"].split()),
-        negative=" ".join(cfg["negative"].split()))
+        # negative разделён на два поля (см. looks.yaml): здесь все языки
+        # предметные, поэтому «людей нет» добавляется всегда.
+        negative=" ".join((cfg["negative"] + " "
+                           + cfg.get("negative_still", "")).split()))
     for n in range(1, tries + 1):
         if not F.draw_raw(prompt, tok, dest):
             continue

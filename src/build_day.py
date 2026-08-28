@@ -35,10 +35,16 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
     if dest.exists():
         print(f"  · {t['key']}: підкладка вже є", flush=True)
         return True
+    # Запрет людей вешается только на предметные языки. У живых он снят:
+    # сторис — формат личный, и предметка в нём читается как реклама.
+    look = looks[t["look"]]
+    neg = cfg["negative"]
+    if not look.get("people"):
+        neg += " " + cfg.get("negative_still", "")
     prompt = L.TEMPLATE.format(
         subject=" ".join(t["subject"].split()),
-        look=" ".join(looks[t["look"]]["prompt"].split()),
-        negative=" ".join(cfg["negative"].split()))
+        look=" ".join(look["prompt"].split()),
+        negative=" ".join(neg.split()))
     for n in range(1, tries + 1):
         if not F.draw_raw(prompt, tok, dest):
             time.sleep(5)
