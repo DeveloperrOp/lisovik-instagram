@@ -333,6 +333,28 @@ def qa(img, s, data):
     return img
 
 
+def fade(img, height, strength=170, light=False):
+    """Затемнение сверху, уходящее в ноль книзу.
+
+    Прямоугольная вуаль с резким краем читается как ошибка вёрстки:
+    на кадре видно ступеньку поперёк леса, и первым это заметил владелец.
+    Поэтому нижняя треть заливки гаснет до прозрачной.
+    """
+    W, H = img.size
+    h = max(1, min(int(height), H))
+    rgb = (250, 248, 244) if light else (10, 10, 12)
+    layer = Image.new("RGBA", (W, h))
+    d = ImageDraw.Draw(layer)
+    # Хвост был 34%, и на контрастном фоне переход всё равно читался
+    # ступенькой поперёк кадра. Больше половины высоты — уже не видно.
+    soft = max(1, int(h * 0.58))
+    for y in range(h):
+        k = 1.0 if y < h - soft else 1.0 - (y - (h - soft)) / soft
+        d.line([(0, y), (W, y)], fill=rgb + (int(strength * k),))
+    img.alpha_composite(layer, (0, 0))
+    return img
+
+
 def poster(img, s, data):
     """Плакат: заголовок во весь экран, одна строка сути, вывод внизу.
 
@@ -344,31 +366,51 @@ def poster(img, s, data):
     Раскладка появилась после того, как владелец посмотрел собранный день
     и сказал, что «что-то не то». Не то было именно это: мы носили
     лекцию в формате, который её не держит.
+
+    Затемнение считается ПОСЛЕ раскладки, а не до неё. В первой версии
+    высота стояла фиксированной долей кадра, и подпись из двух строк
+    вылезала на светлый фон — на лесу её было не прочитать.
     """
     W, H = img.size
-    img = veil(img, 0.0, 0.44, 150, s["light"])
-    d = ImageDraw.Draw(img)
+    probe = ImageDraw.Draw(img)
 
     # Кегль подбираем под текст, а не текст под кегль: заголовок в четыре
     # строки перестаёт быть плакатом, поэтому он ужимается до трёх.
+    # Кегль подбирается по двум условиям сразу. Первое — не больше трёх
+    # строк. Второе — последняя строка не «сирота»: одинокое короткое
+    # слово под двумя полными («ЖИВЕ НА / СТАРОМУ / БУКУ») выглядит как
+    # недоверстанный макет, и владелец поймал это первым. Подгонять под
+    # это тексты руками бессмысленно — вылезет на следующем же кадре.
     k, fh, lines = 0.118, None, []
     while k > 0.068:
         fh = fnt(img, k)
-        lines = ST.wrap(d, data["headline"], fh, int(W * 0.84))
-        if len(lines) <= 3:
+        lines = ST.wrap(probe, data["headline"], fh, int(W * 0.84))
+        widest = max(probe.textlength(x, font=fh) for x in lines)
+        orphan = (len(lines) > 1
+                  and probe.textlength(lines[-1], font=fh) < widest * 0.42)
+        if len(lines) <= 3 and not orphan:
             break
         k -= 0.006
 
-    y = int(H * 0.115)
+    body = data.get("body") or ""
+    fb = fnt(img, 0.042, False)
+    blines = ST.wrap(probe, body, fb, int(W * 0.80)) if body else []
+
+    top = int(H * 0.115)
+    bottom = top + len(lines) * int(fh.size * 1.10)
+    if blines:
+        bottom += int(H * 0.024) + len(blines) * int(fb.size * 1.42)
+
+    img = fade(img, bottom + int(H * 0.10), 175, s["light"])
+    d = ImageDraw.Draw(img)
+
+    y = top
     for ln in lines:
         put(d, (int(W * 0.08), y), ln, fh, s["fg"])
         y += int(fh.size * 1.10)
-
-    body = data.get("body") or ""
-    if body:
-        fb = fnt(img, 0.042, False)
+    if blines:
         y += int(H * 0.024)
-        for ln in ST.wrap(d, body, fb, int(W * 0.80)):
+        for ln in blines:
             put(d, (int(W * 0.08), y), ln, fb, s["sub"])
             y += int(fb.size * 1.42)
     return img
