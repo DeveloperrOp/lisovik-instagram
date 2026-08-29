@@ -3,295 +3,589 @@ meta:
   lang: ua
   structure: день = один продукт, 6 кадрів
 stories:
-- id: w1-mon-dawn
-  week: 1
+- id: w3-mon-dawn
+  week: 3
   day: mon
   slot: dawn
   kind: useful
   mode: auto
   theme: Їжовик гребінчастий
-- id: w1-mon-evening
-  week: 1
+- id: w3-mon-evening
+  week: 3
   day: mon
   slot: evening
   kind: useful
   mode: auto
   theme: Їжовик гребінчастий
-- id: w1-mon-morning
-  week: 1
+- id: w3-mon-morning
+  week: 3
   day: mon
   slot: morning
   kind: useful
   mode: auto
   theme: Їжовик гребінчастий
-- id: w1-mon-night
-  week: 1
+- id: w3-mon-night
+  week: 3
   day: mon
   slot: night
   kind: offer
   mode: auto
   theme: Лісовик
-- id: w1-mon-noon
-  week: 1
+- id: w3-mon-noon
+  week: 3
   day: mon
   slot: noon
   kind: useful
   mode: auto
   theme: Їжовик гребінчастий
-- id: w1-mon-sell
-  week: 1
+- id: w3-mon-sell
+  week: 3
   day: mon
   slot: sell
   kind: offer
   mode: auto
   theme: Їжовик
-- id: w1-tue-dawn
-  week: 1
+- id: w3-tue-dawn
+  week: 3
   day: tue
   slot: dawn
   kind: useful
   mode: auto
   theme: Чага березова
-- id: w1-tue-evening
-  week: 1
+- id: w3-tue-evening
+  week: 3
   day: tue
   slot: evening
   kind: useful
   mode: auto
   theme: Чага березова
-- id: w1-tue-morning
-  week: 1
+- id: w3-tue-morning
+  week: 3
   day: tue
   slot: morning
   kind: useful
   mode: auto
   theme: Чага березова
-- id: w1-tue-night
-  week: 1
+- id: w3-tue-night
+  week: 3
   day: tue
   slot: night
   kind: offer
   mode: auto
   theme: Лісовик
-- id: w1-tue-noon
-  week: 1
+- id: w3-tue-noon
+  week: 3
   day: tue
   slot: noon
   kind: useful
   mode: auto
   theme: Чага березова
-- id: w1-tue-sell
-  week: 1
+- id: w3-tue-sell
+  week: 3
   day: tue
   slot: sell
   kind: offer
   mode: auto
   theme: Чага
-- id: w1-wed-dawn
-  week: 1
+- id: w3-wed-dawn
+  week: 3
   day: wed
   slot: dawn
   kind: useful
   mode: auto
   theme: Спіруліна
-- id: w1-wed-evening
-  week: 1
+- id: w3-wed-evening
+  week: 3
   day: wed
   slot: evening
   kind: useful
   mode: auto
   theme: Спіруліна
-- id: w1-wed-morning
-  week: 1
+- id: w3-wed-morning
+  week: 3
   day: wed
   slot: morning
   kind: useful
   mode: auto
   theme: Спіруліна
-- id: w1-wed-night
-  week: 1
+- id: w3-wed-night
+  week: 3
   day: wed
   slot: night
   kind: offer
   mode: auto
   theme: Лісовик
-- id: w1-wed-noon
-  week: 1
+- id: w3-wed-noon
+  week: 3
   day: wed
   slot: noon
   kind: useful
   mode: auto
   theme: Спіруліна
-- id: w1-wed-sell
-  week: 1
+- id: w3-wed-sell
+  week: 3
   day: wed
   slot: sell
   kind: offer
   mode: auto
   theme: Спіруліна
-- id: w1-thu-dawn
-  week: 1
+- id: w3-thu-dawn
+  week: 3
   day: thu
   slot: dawn
   kind: useful
   mode: auto
   theme: Кордицепс
-- id: w1-thu-evening
-  week: 1
+- id: w3-thu-evening
+  week: 3
   day: thu
   slot: evening
   kind: useful
   mode: auto
   theme: Кордицепс
-- id: w1-thu-morning
-  week: 1
+- id: w3-thu-morning
+  week: 3
   day: thu
   slot: morning
   kind: useful
   mode: auto
   theme: Кордицепс
-- id: w1-thu-night
-  week: 1
+- id: w3-thu-night
+  week: 3
   day: thu
   slot: night
   kind: offer
   mode: auto
   theme: Лісовик
-- id: w1-thu-noon
-  week: 1
+- id: w3-thu-noon
+  week: 3
   day: thu
   slot: noon
   kind: useful
   mode: auto
   theme: Кордицепс
-- id: w1-thu-sell
-  week: 1
+- id: w3-thu-sell
+  week: 3
   day: thu
   slot: sell
   kind: offer
   mode: auto
   theme: Кордицепс
-- id: w1-fri-dawn
-  week: 1
+- id: w3-fri-dawn
+  week: 3
   day: fri
   slot: dawn
   kind: useful
   mode: auto
   theme: Ашваганда
-- id: w1-fri-evening
-  week: 1
+- id: w3-fri-evening
+  week: 3
   day: fri
   slot: evening
   kind: useful
   mode: auto
   theme: Ашваганда
-- id: w1-fri-morning
-  week: 1
+- id: w3-fri-morning
+  week: 3
   day: fri
   slot: morning
   kind: useful
   mode: auto
   theme: Ашваганда
-- id: w1-fri-night
-  week: 1
+- id: w3-fri-night
+  week: 3
   day: fri
   slot: night
   kind: offer
   mode: auto
   theme: Лісовик
-- id: w1-fri-noon
-  week: 1
+- id: w3-fri-noon
+  week: 3
   day: fri
   slot: noon
   kind: useful
   mode: auto
   theme: Ашваганда
-- id: w1-fri-sell
-  week: 1
+- id: w3-fri-sell
+  week: 3
   day: fri
   slot: sell
   kind: offer
   mode: auto
   theme: Ашваганда
-- id: w1-sat-dawn
-  week: 1
+- id: w3-sat-dawn
+  week: 3
   day: sat
   slot: dawn
   kind: useful
   mode: auto
   theme: Рейші
-- id: w1-sat-evening
-  week: 1
+- id: w3-sat-evening
+  week: 3
   day: sat
   slot: evening
   kind: useful
   mode: auto
   theme: Рейші
-- id: w1-sat-morning
-  week: 1
+- id: w3-sat-morning
+  week: 3
   day: sat
   slot: morning
   kind: useful
   mode: auto
   theme: Рейші
-- id: w1-sat-night
-  week: 1
+- id: w3-sat-night
+  week: 3
   day: sat
   slot: night
   kind: offer
   mode: auto
   theme: Лісовик
-- id: w1-sat-noon
-  week: 1
+- id: w3-sat-noon
+  week: 3
   day: sat
   slot: noon
   kind: useful
   mode: auto
   theme: Рейші
-- id: w1-sat-sell
-  week: 1
+- id: w3-sat-sell
+  week: 3
   day: sat
   slot: sell
   kind: offer
   mode: auto
   theme: Рейші
-- id: w1-sun-dawn
-  week: 1
+- id: w3-sun-dawn
+  week: 3
   day: sun
   slot: dawn
   kind: useful
   mode: auto
   theme: Шиїтаке
-- id: w1-sun-evening
-  week: 1
+- id: w3-sun-evening
+  week: 3
   day: sun
   slot: evening
   kind: useful
   mode: auto
   theme: Шиїтаке
-- id: w1-sun-morning
-  week: 1
+- id: w3-sun-morning
+  week: 3
   day: sun
   slot: morning
   kind: useful
   mode: auto
   theme: Шиїтаке
-- id: w1-sun-night
-  week: 1
+- id: w3-sun-night
+  week: 3
   day: sun
   slot: night
   kind: offer
   mode: auto
   theme: Лісовик
-- id: w1-sun-noon
-  week: 1
+- id: w3-sun-noon
+  week: 3
   day: sun
   slot: noon
   kind: useful
   mode: auto
   theme: Шиїтаке
-- id: w1-sun-sell
-  week: 1
+- id: w3-sun-sell
+  week: 3
+  day: sun
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Шиїтаке
+- id: w4-mon-dawn
+  week: 4
+  day: mon
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Їжовик гребінчастий
+- id: w4-mon-evening
+  week: 4
+  day: mon
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Їжовик гребінчастий
+- id: w4-mon-morning
+  week: 4
+  day: mon
+  slot: morning
+  kind: useful
+  mode: auto
+  theme: Їжовик гребінчастий
+- id: w4-mon-night
+  week: 4
+  day: mon
+  slot: night
+  kind: offer
+  mode: auto
+  theme: Лісовик
+- id: w4-mon-noon
+  week: 4
+  day: mon
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Їжовик гребінчастий
+- id: w4-mon-sell
+  week: 4
+  day: mon
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Їжовик
+- id: w4-tue-dawn
+  week: 4
+  day: tue
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Чага березова
+- id: w4-tue-evening
+  week: 4
+  day: tue
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Чага березова
+- id: w4-tue-morning
+  week: 4
+  day: tue
+  slot: morning
+  kind: useful
+  mode: auto
+  theme: Чага березова
+- id: w4-tue-night
+  week: 4
+  day: tue
+  slot: night
+  kind: offer
+  mode: auto
+  theme: Лісовик
+- id: w4-tue-noon
+  week: 4
+  day: tue
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Чага березова
+- id: w4-tue-sell
+  week: 4
+  day: tue
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Чага
+- id: w4-wed-dawn
+  week: 4
+  day: wed
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Спіруліна
+- id: w4-wed-evening
+  week: 4
+  day: wed
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Спіруліна
+- id: w4-wed-morning
+  week: 4
+  day: wed
+  slot: morning
+  kind: useful
+  mode: auto
+  theme: Спіруліна
+- id: w4-wed-night
+  week: 4
+  day: wed
+  slot: night
+  kind: offer
+  mode: auto
+  theme: Лісовик
+- id: w4-wed-noon
+  week: 4
+  day: wed
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Спіруліна
+- id: w4-wed-sell
+  week: 4
+  day: wed
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Спіруліна
+- id: w4-thu-dawn
+  week: 4
+  day: thu
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Кордицепс
+- id: w4-thu-evening
+  week: 4
+  day: thu
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Кордицепс
+- id: w4-thu-morning
+  week: 4
+  day: thu
+  slot: morning
+  kind: useful
+  mode: auto
+  theme: Кордицепс
+- id: w4-thu-night
+  week: 4
+  day: thu
+  slot: night
+  kind: offer
+  mode: auto
+  theme: Лісовик
+- id: w4-thu-noon
+  week: 4
+  day: thu
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Кордицепс
+- id: w4-thu-sell
+  week: 4
+  day: thu
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Кордицепс
+- id: w4-fri-dawn
+  week: 4
+  day: fri
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Ашваганда
+- id: w4-fri-evening
+  week: 4
+  day: fri
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Ашваганда
+- id: w4-fri-morning
+  week: 4
+  day: fri
+  slot: morning
+  kind: useful
+  mode: auto
+  theme: Ашваганда
+- id: w4-fri-night
+  week: 4
+  day: fri
+  slot: night
+  kind: offer
+  mode: auto
+  theme: Лісовик
+- id: w4-fri-noon
+  week: 4
+  day: fri
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Ашваганда
+- id: w4-fri-sell
+  week: 4
+  day: fri
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Ашваганда
+- id: w4-sat-dawn
+  week: 4
+  day: sat
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Рейші
+- id: w4-sat-evening
+  week: 4
+  day: sat
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Рейші
+- id: w4-sat-morning
+  week: 4
+  day: sat
+  slot: morning
+  kind: useful
+  mode: auto
+  theme: Рейші
+- id: w4-sat-night
+  week: 4
+  day: sat
+  slot: night
+  kind: offer
+  mode: auto
+  theme: Лісовик
+- id: w4-sat-noon
+  week: 4
+  day: sat
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Рейші
+- id: w4-sat-sell
+  week: 4
+  day: sat
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Рейші
+- id: w4-sun-dawn
+  week: 4
+  day: sun
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Шиїтаке
+- id: w4-sun-evening
+  week: 4
+  day: sun
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Шиїтаке
+- id: w4-sun-morning
+  week: 4
+  day: sun
+  slot: morning
+  kind: useful
+  mode: auto
+  theme: Шиїтаке
+- id: w4-sun-night
+  week: 4
+  day: sun
+  slot: night
+  kind: offer
+  mode: auto
+  theme: Лісовик
+- id: w4-sun-noon
+  week: 4
+  day: sun
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Шиїтаке
+- id: w4-sun-sell
+  week: 4
   day: sun
   slot: sell
   kind: offer

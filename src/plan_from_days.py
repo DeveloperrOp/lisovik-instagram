@@ -19,6 +19,11 @@ content_plan.yaml и файлы из out/pending. Переписывать их 
 import shutil
 import sys
 
+
+def arg(name, default=None):
+    return (sys.argv[sys.argv.index(name) + 1]
+            if name in sys.argv else default)
+
 import yaml
 
 from config import CONTENT_DIR, OUT_DIR
@@ -54,7 +59,11 @@ def rows(week=1) -> list:
 
 def main() -> int:
     write = "--write" in sys.argv
-    data = rows()
+    # Кілька тижнів одразу: завтрашній день іде «хвостом» поточного
+    # тижня, а повний цикл стартує з понеділка. Id у них різні, тому в
+    # черзі вони не сплутаються.
+    weeks = [int(x) for x in (arg("--weeks", "1") or "1").split(",")]
+    data = [r for w in weeks for r in rows(w)]
     ready = [r for r in data if r["src"].exists()]
     missing = [r for r in data if not r["src"].exists()]
 
