@@ -12,6 +12,7 @@
     python post_week.py --fetch     # перечитати сторінку
     python post_week.py             # зібрати кадр і підпис
 """
+import difflib
 import io
 import re
 import subprocess
@@ -121,10 +122,30 @@ def draw(items: list) -> None:
         # бренд. Дрібний шрифт на етикетках читати не обовʼязково —
         # див. REF_MANY у build_day.
         import build_day as B
+        # Рівно ті товари, що в підбірці тижня. Кордицепс тут стояв
+        # помилково — його в акції немає, і показувати його означає
+        # обіцяти знижку, якої на нього не буде.
         refs = [OUT_DIR / "real" / "all" / n
-                for n in ("m9.jpg", "liq5.jpg", "cord.jpg")]
+                for n in ("manecaps.jpg", "mind.jpg", "ginkgo.jpg")]
         full = prompt + " " + " ".join(B.REF_MANY.split())
-        if not F.draw_ref(full, refs, gen.token(), bg, aspect="4:5"):
+        import verify_frame as V
+        tok = gen.token()
+        for n in range(1, 5):
+            if not F.draw_ref(full, refs, tok, bg, aspect="4:5"):
+                continue
+            # Пост у стрічці дивляться крупно, тому одруківка на етикетці
+            # тут помітна — на відміну від сторіс. Ганяємо ту саму
+            # перевірку на спотворене своє слово.
+            seen = V.check(bg, [], tok).get("seen", {})
+            words = " ".join(seen.get("text_lines", [])).lower()
+            bad = [w for w in re.findall(r"[а-яіїєґ]{5,}", words)
+                   if difflib.get_close_matches(w, B.EXACT_LABEL, 1, 0.80)
+                   and w not in B.EXACT_LABEL]
+            if not bad:
+                break
+            print(f"  ~ спотворене слово: {', '.join(bad[:3])}")
+            bg.unlink(missing_ok=True)
+        if not bg.exists():
             print("тло не намалювалось")
             return
 
