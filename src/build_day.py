@@ -221,12 +221,25 @@ def main() -> int:
     # Оферта дня подставляется из offers.yaml по дню недели. Раньше она
     # лежала в каждом файле дня одинаковым текстом — за неделю подписчик
     # видел бы один и тот же экран семь раз, и владелец поймал это первым.
-    items = [t for t in items if t.get("layout") != "offer"]
+    # Убираем ТОЛЬКО автоподставляемую оферту (слот night). Товарный кадр
+    # использует ту же раскладку, но пишется в файле дня руками и выкидывать
+    # его нельзя — иначе он молча исчезает из дня.
+    items = [t for t in items if t.get("slot") != "night"]
     day = items[0].get("day") if items else None
     offers = {o["day"]: o for o in yaml.safe_load(
         (CONTENT_DIR / "offers.yaml").read_text(encoding="utf-8"))["offers"]}
     if day in offers:
         o = offers[day]
+        # Оферта, привʼязана до конкретного продукту, не має права стояти
+        # в чужому дні. Власник спіймав це першим: у дні чаги останнім
+        # кадром стояв їжовик. Правило про «що стоїть поруч у межах дня»
+        # лежало в пам'яті проекту, а в коді його не було.
+        want = (o.get("product") or "").lower()
+        have = " ".join(t.get("topic", "") for t in items).lower()
+        if want and want[:5] not in have:
+            raise SystemExit(
+                f"оферта дня {day} показує «{o['product']}», а день про "
+                f"«{items[0].get('topic')}» — кадр суперечить дню")
         items.append(dict(o, key=f"{path.stem}-offer", layout="offer",
                           topic="Лісовик", slot="night", why="", compound="",
                           source="content/offers.yaml"))

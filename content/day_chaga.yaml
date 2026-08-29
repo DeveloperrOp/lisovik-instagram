@@ -89,3 +89,26 @@ thoughts:
   claim: СКІЛЬКИ ВОНА ЗАВАРЮЄТЬСЯ
   why: Кілька годин у термосі — і напій на весь день.
   do: Залий увечері, питимеш зранку
+
+- key: chaga-sell
+  topic: Чага
+  day: tue
+  slot: sell
+  layout: offer
+  product: Чага
+  ref: c9.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it — no glass stand, no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма й тривалість курсу з картки товару'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Мелена — заварюється як чай|Цілу треба колоти, мелену ні|Заварив увечері — пʼєш цілий день
+  why: ''
+  do: Замовляй у директі або на сайті

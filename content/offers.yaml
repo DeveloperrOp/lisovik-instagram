@@ -13,19 +13,7 @@
 
 offers:
 - day: mon
-  look: knolling
-  subject: >
-    seen straight down on a clean neutral surface: several small neat piles of
-    different mushroom and root powders — pale cream, deep brown, rust orange,
-    green — each beside a small wooden spoon, laid out parallel and evenly
-    spaced, even shadowless light
-  claim: ПОНАД 200 ПОЗИЦІЙ У НАЯВНОСТІ
-  extra: >-
-    Гриби, адаптогени, трави й готові курси|Інструкції та опис ефектів —
-    на сайті|Консультація і замовлення — пиши в директ
-  do: Сайт у шапці профілю
-
-- day: tue
+  product: Їжовик
   look: studio-dark
   # liq5.jpg — студійне фото рідкого екстракту їжовика. Пляшечка в кадрі
   # має бути наша, а не аптечна з фотостоку.
@@ -41,6 +29,19 @@ offers:
     Капсули — ковтнув і пішов|Мелений — дешевше на день|Краплі — для тих,
     хто хоче концентровану користь
   do: Обери форму на сайті
+
+- day: tue
+  look: knolling
+  subject: >
+    seen straight down on a clean neutral surface: several small neat piles of
+    different mushroom and root powders — pale cream, deep brown, rust orange,
+    green — each beside a small wooden spoon, laid out parallel and evenly
+    spaced, even shadowless light
+  claim: ПОНАД 200 ПОЗИЦІЙ У НАЯВНОСТІ
+  extra: >-
+    Гриби, адаптогени, трави й готові курси|Інструкції та опис ефектів —
+    на сайті|Консультація і замовлення — пиши в директ
+  do: Сайт у шапці профілю
 
 - day: wed
   look: studio-dark

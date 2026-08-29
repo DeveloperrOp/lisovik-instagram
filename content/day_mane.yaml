@@ -103,3 +103,26 @@ thoughts:
   claim: ЯК ЙОГО ПИТИ
   why: Ложка в каву, какао або тепле молоко.
   do: Розмішай ложку в ранковій каві
+
+- key: mane-sell
+  topic: Їжовик
+  day: mon
+  slot: sell
+  layout: offer
+  product: Їжовик
+  ref: m9.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it — no glass stand, no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма й тривалість курсу з картки товару'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Сам гриб, змелений, без домішок|Однієї банки вистачає на 25 днів|Ложка в каву або какао щоранку
+  why: ''
+  do: Замовляй у директі або на сайті
