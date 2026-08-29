@@ -59,8 +59,10 @@ reads as colour and shape rather than as a catalogue front. Part of it may
 be cropped or overlapped by another object — that is good, it means the jar
 lives in the room.
 
-Keep only the product design: squat proportions, tall white ribbed cap,
-terracotta label with the tree emblem and the two side windows. The studio
+Keep only the product design, exactly as the photo shows it: the same jar
+proportions, the same tall white ribbed cap, and the same label — its own
+colour, its own artwork, its own emblem and side windows. Do not recolour
+the label and do not borrow a label from another product. The studio
 backdrop, the glass stand and the studio lighting stay in the reference.
 
 Exactly ONE jar, cap on. Contemporary editorial photography shot today, not
@@ -108,12 +110,18 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
         # товара. Пока правило было общим, две годные попытки ушли в брак
         # именно за то, ради чего референс и прикладывали.
         if ref:
-            allowed = re.split(r"[\s,.–—-]+",
-                               (t.get("topic", "") + " лісовик мелений "
-                                "цілий капсули г").lower())
+            # Сверяем по КОРНЮ, а не по точному слову: у ежовика на
+            # этикетке «мелений», у чаги «мелена». Точное сравнение
+            # браковало вторую именно за род.
+            roots = [w[:5] for w in re.split(
+                r"[\s,.]+", (t.get("topic", "") + " лісовик мелений мелена "
+                             "цілий ціла капсули екстракт").lower()) if w]
+            def own(word):
+                return (word.isdigit() or len(word) < 2
+                        or any(word.startswith(r) for r in roots))
             lines = [x for x in lines
-                     if not all(w in allowed or w.isdigit()
-                                for w in re.split(r"[\s,.–—-]+", x.lower()) if w and not re.fullmatch(r"\d+\w?", w))]
+                     if not all(own(w) for w in re.split(
+                         r"[\s,.–—-]+", x.lower()) if w)]
         if not lines:
             print(f"  ✔ {t['key']:24} {t['look']:14} з {n}-ї спроби", flush=True)
             return True

@@ -1,84 +1,87 @@
-# День чаги. Собран НЕ из головы, а из out/briefs/чага.json.
+# День чаги. Пилот по той же механике, что и ежовик.
 #
-# Это проверка процесса: если день чаги выйдет похожим на день ежовика,
-# значит процесс не работает и уникальность бралась из старания.
+# ГЛАВНОЕ ОГРАНИЧЕНИЕ ЭТОЙ ТЕМЫ. У ежовика формулировки пользы взяты с
+# карточки владельца — там они безопасные («допомагає зосередитися»).
+# С карточкой чаги так НЕЛЬЗЯ: в ней стоят онкологические заявления
+# («профілактика злоякісних пухлин», «ризик новоутворень знижується»).
+# В Instagram это мгновенная блокировка, а по закону о добавках —
+# прямое нарушение. Поэтому польза здесь взята не с карточки.
 #
-# Возражения у чаги свои, ежовику они не подходят вообще:
-#   «Чага, нарост на дереве, паразит, и по таким ценам?!»
-#   «Не указано какой температуры должна быть вода. Что значит тёплая?»
-#   «Всем хороша, вот только заваривать замучаешься»
-#   «Хочешь чай из ГРИБКА ПАРАЗИТА? Звучит не очень АППЕТИТНО»
+# Безопасный и при этом сильный угол: в чаге НЕТ КОФЕИНА. Это факт о
+# самом грибе, не обещание эффекта, и он решает узнаваемую проблему —
+# вечерний кофе, после которого не спится.
 #
-# Самая ценная строка нашлась в [tried]: «You can reuse chaga multiple
-# times. First steep an hour, second two hours, third four.» Один кусок
-# заваривают несколько раз — это прямой ответ на «по таким ценам».
-#
-# Формы сверены с каталогом: в наличии целая, молотая и капсулы.
+# Суть дня та же, что у ежовика: что изменится в твоём дне → узнаёшь ли
+# себя → что увидишь сам → как пить.
 
 thoughts:
-- key: chaga-price
+- key: chaga-evening-coffee
+  topic: Чага березова
+  day: tue
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands cradling a mug of dark amber infusion at a table in the late
+    evening, warm lamp light, calm and quiet, dark tones
+  compound: ''
+  source: 'Inonotus obliquus кофеїну не містить — факт про сам гриб'
+  retell: вечірня кава краде сон, темний напій без кофеїну цю проблему знімає
+  claim: ТРЕТЯ КАВА — І СОН ЗІПСОВАНО
+  why: У чазі кофеїну немає зовсім.
+  do: Завари чагу замість вечірньої кави
+
+- key: chaga-who-its-for
+  topic: Чага березова
+  day: tue
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  # c9.jpg — студійне фото банки чаги. Етикетка в неї темна, не теракотова
+  ref: c9.jpg
+  subject: >
+    a bright tidy morning kitchen shot close over the counter: a mug of dark
+    infusion and a wooden spoon sharp in the foreground, a hard black chunk
+    of birch chaga beside them, and the product jar standing further back and
+    off to the side, turned at an angle and softly out of focus, daylight
+    from a window
+  compound: ''
+  source: 'voice_lines: кава весь день і проблеми зі сном'
+  retell: людина має впізнати свій власний день на каві без вечірнього гальма
+  claim: КОМУ ВОНА ЗАЙДЕ
+  why: Тим, хто пʼє каву весь день і потім не засинає.
+  do: Візьми мелену — заварюється як чай
+
+- key: chaga-why-so-dark
+  topic: Чага березова
+  day: tue
+  layout: poster
+  extra: ''
+  look: splash
+  subject: >
+    dark amber infusion caught mid-pour into a clear glass cup, separate
+    droplets suspended in the air, clean gradient background, every droplet
+    sharp
+  compound: меланіни
+  source: 'меланіни кірки чаги як джерело кольору настою'
+  retell: темний колір напою має просте пояснення й слугує перевіркою
+  claim: ЧОМУ НАСТІЙ ТАКИЙ ТЕМНИЙ
+  why: Колір дають темні барвники кірки — це меланіни.
+  do: Дивись на просвіт — має бути прозорим
+
+- key: chaga-how-long
   topic: Чага березова
   day: tue
   layout: poster
   extra: ''
   look: studio-dark
   subject: >
-    one hard cracked black chunk of birch chaga with a rust-orange interior
-    on a seamless deep black background, hard side light carving out the
-    texture, advertising-grade still life
+    a steel thermos and a dark hard chunk of birch chaga with rust-orange
+    interior on a seamless deep black background, one hard side light, deep
+    shadows, advertising-grade still life
   compound: ''
-  source: 'voice_lines objection: «і по таких цінах?!» + tried: багаторазове заварювання'
-  retell: один шматок працює не на одну чашку, тому ціна ділиться на місяці
-  claim: І ПО ТАКИХ ЦІНАХ?
-  why: Один шматок заварюють по кілька разів поспіль.
-  do: Бери цілу — вистачить надовго
-
-- key: chaga-temperature
-  topic: Чага березова
-  day: tue
-  layout: poster
-  extra: ''
-  look: kitchen-morning
-  subject: >
-    a thermos and a mug on a bright tidy kitchen counter, dark amber
-    infusion being poured, clean well-groomed hands, morning daylight
-  compound: ''
-  source: 'voice_lines objection: «не указано какой температуры должна быть вода»'
-  retell: людину збиває слово «тепла», і їй потрібна проста дія замість градусів
-  claim: ЯКОЇ ТЕМПЕРАТУРИ ВОДА?
-  why: Гарячої, не окропу. Далі кілька годин у термосі.
-  do: Залий увечері — вранці готово
-
-- key: chaga-too-much-work
-  topic: Чага березова
-  day: tue
-  layout: poster
-  extra: ''
-  look: knolling
-  subject: >
-    seen straight down on a plain surface: a whole hard black chaga chunk
-    beside a neat pile of the same fungus ground into coarse dark powder,
-    evenly spaced, even shadowless light
-  compound: ''
-  source: 'voice_lines drop: «заварювати замучаєшся», «деревʼяні булижники»'
-  retell: морока стосується цілого шматка, а не самого напою
-  claim: ЗАВАРЮВАТИ ЗАМУЧАЄШСЯ
-  why: Це про цілий шматок — його треба колоти.
-  do: Бери мелену, якщо часу мало
-
-- key: chaga-parasite
-  topic: Чага березова
-  day: tue
-  layout: poster
-  extra: ''
-  look: macro-texture
-  subject: >
-    extreme macro of a broken chaga chunk: the black cracked crust on one
-    side and the bright rust-orange crumbly interior on the other, raking
-    light, tactile and beautiful
-  compound: ''
-  source: 'voice_lines word: «чай из ГРИБКА ПАРАЗИТА? не аппетитно»'
-  retell: чорна кірка лякає, а всередині гриб зовсім інший на вигляд
-  claim: ГРИБОК-ПАРАЗИТ? НЕ АПЕТИТНО
-  why: Чорна лише кірка. Всередині він рудий і кришиться.
-  do: Розломи шматок — побачиш руду серцевину
+  source: 'voice_lines tried: термос, кілька годин, напій на весь день'
+  retell: заварювання не потребує уваги, бо працює вночі саме
+  claim: СКІЛЬКИ ВОНА ЗАВАРЮЄТЬСЯ
+  why: Кілька годин у термосі — і напій на весь день.
+  do: Залий увечері, питимеш зранку
