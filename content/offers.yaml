@@ -17,13 +17,17 @@ offers:
   look: studio-dark
   # liq5.jpg — студійне фото рідкого екстракту їжовика. Пляшечка в кадрі
   # має бути наша, а не аптечна з фотостоку.
-  ref: liq5.jpg
+  # Обидві упаковки з фото: банка меленого і пляшечка. Без банки кадр
+  # показував купку порошку — а форма продукту це саме банка.
+  ref: [m9.jpg, liq5.jpg]
   subject: >
     forms of lion's mane laid out in a row on a seamless deep black
-    background: a whole dried white shaggy mushroom, a heap of pale cream
-    powder, loose vegetarian capsules, and the dark dropper bottle from the
-    attached photo standing at the end of the row, one hard side light,
-    deep shadows
+    background: a whole dried white shaggy mushroom, then the jar of ground
+    powder from the attached photos, then loose vegetarian capsules, then the
+    dark dropper bottle, all standing directly on the dark surface with
+    nothing under them; the row occupies the LOWER HALF of the frame while
+    the upper half stays dark and empty for the headline; one hard side
+    light, deep shadows
   claim: ОДИН ГРИБ — КІЛЬКА ФОРМ
   extra: >-
     Капсули — ковтнув і пішов|Мелений — дешевше на день|Краплі — для тих,
