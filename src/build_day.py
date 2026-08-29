@@ -61,14 +61,21 @@ be cropped or overlapped by another object — that is good, it means the jar
 lives in the room.
 
 Keep only the product design, exactly as the photo shows it: the same
-container shape and proportions, the same closure, and the same label — its
-own colour, its own artwork, its own emblem. The reference may be a squat
-jar with a white cap or a tall dark dropper bottle: follow the photo, never
-a shape from another product. Do not recolour the label. The studio
+container shape and proportions, the same closure, and the same label.
+
+Reproduce the label IN FULL, not as a blank coloured band. Everything that
+is printed on it in the photo must be there: the white tree emblem with the
+face, the brand name under it, the product name below that, the two narrow
+side windows showing the raw ingredient, the faint background pattern of
+drawn mushrooms and plants, the small printed lines and the barcode strip.
+
+The small type does NOT have to be legible at this size — a viewer reading
+a story never reads it. It only has to be THERE, so the jar is recognisably
+this brand and not an unbranded container. A flat empty label is wrong. The studio
 backdrop, the glass stand and the studio lighting stay in the reference.
 
 Exactly ONE jar, cap on. Contemporary editorial photography shot today, not
-a 2000s catalogue composite. Add no lettering of your own anywhere.
+a 2000s catalogue composite. Add no lettering of your own anywhere in the SCENE — no captions, no signage, no invented labels on other objects.
 """
 
 
@@ -81,10 +88,14 @@ paste them in. Photograph these same products AGAIN inside the scene above,
 as one continuous photograph: one camera, one light, one depth of field.
 
 Every package in the frame must be one of the attached ones — same container
-shape, same closure, same label colour and artwork. Do not invent any extra
-package, do not put a blank or generic jar among them, and do not mix in a
-label from a different brand. If you need fewer objects, drop one of mine
-rather than adding an invented one.
+shape, same closure, same label. Reproduce each label IN FULL: the tree
+emblem, the brand and product names, the side windows, the background
+pattern, the small print. Small type need not be legible, but it must be
+there — a blank coloured band instead of a label is wrong.
+
+Do not invent any extra package, do not put a blank or generic jar among
+them, and do not mix in a label from a different brand. If you need fewer
+objects, drop one of mine rather than adding an invented one.
 
 The studio backdrops, the glass stands and the studio lighting stay in the
 references and must not appear. Contemporary editorial photography shot
@@ -172,12 +183,26 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
                 time.sleep(4)
                 continue
 
-            def own(word):
-                return (word.isdigit() or len(word) < 2
-                        or any(word.startswith(r) for r in roots))
-            lines = [x for x in lines
-                     if not all(own(w) for w in re.split(
-                         r"[\s,.–—-]+", x.lower()) if w)]
+            # Дрібний шрифт етикетки читач сторіс не читає, і вичитувач
+            # повертає його як кашу. Бракувати за це не можна — інакше
+            # модель, боячись літер, малює порожню заливку замість
+            # етикетки, і банка перестає бути нашою.
+            #
+            # Тому нерозбірлива КИРИЛИЦЯ пропускається, а ловиться те, що
+            # справді небезпечне: спотворений бренд (вище) і чужа латинка,
+            # якою модель підписує вигаданий бренд.
+            OURS_LAT = {"hericium", "erinaceus", "inonotus", "obliquus",
+                        "cordyceps", "militaris", "ganoderma", "lucidum",
+                        "withania", "somnifera", "lentinula", "edodes",
+                        "spirulina", "platensis", "chlorella", "vulgaris",
+                        "grifola", "frondosa", "tremella", "fuciformis",
+                        "lisovik"}
+            alien = []
+            for x in lines:
+                for w in re.findall(r"[a-z]{5,}", x.lower()):
+                    if w not in OURS_LAT:
+                        alien.append(w)
+            lines = alien
         if not lines:
             print(f"  ✔ {t['key']:24} {t['look']:14} з {n}-ї спроби", flush=True)
             return True
