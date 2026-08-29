@@ -1,0 +1,97 @@
+# Семь оферт — по одной на день недели.
+#
+# Ярик: «а последний кадр у нас всегда один и тот же? я бы сделал хотя бы
+# 7 шт, чтобы менять каждый день». Он прав: за неделю подписчик увидел бы
+# один и тот же экран семь раз и перестал бы его замечать.
+#
+# Каждая оферта стоит на своём факте из каталога, а не на общих словах:
+#   210 позиций в наличии из 308 в выгрузке
+#   формы: капсулы 99, молотый 31, целый 14, жидкий экстракт 8
+#   доставка Новой почтой 1-3 дня (из описаний карточек)
+#
+# Дозировок в кадрах нет намеренно — бренд-правило, и гейт это ловит.
+
+offers:
+- day: mon
+  look: knolling
+  subject: >
+    seen straight down on a clean neutral surface: several small neat piles of
+    different mushroom and root powders — pale cream, deep brown, rust orange,
+    green — each beside a small wooden spoon, laid out parallel and evenly
+    spaced, even shadowless light
+  claim: ПОНАД 200 ПОЗИЦІЙ У НАЯВНОСТІ
+  extra: >-
+    Гриби, адаптогени, трави й готові курси|Інструкції та опис ефектів —
+    на сайті|Консультація і замовлення — пиши в директ
+  do: Сайт у шапці профілю
+
+- day: tue
+  look: studio-dark
+  subject: >
+    four forms of the same mushroom laid out on a seamless deep black
+    background: a whole dried piece, a heap of fine powder, loose vegetarian
+    capsules and a small dropper bottle, one hard side light, deep shadows
+  claim: ОДИН ГРИБ — КІЛЬКА ФОРМ
+  extra: >-
+    Капсули, коли ніколи міряти|Мелений, коли хочеш дешевше|Цілий і рідкий
+    екстракт — для тих, хто заварює сам
+  do: Обери форму на сайті
+
+- day: wed
+  look: cgi-glossy
+  subject: >
+    a simple cardboard parcel and a small jar beside it on a soft pastel
+    backdrop, gentle ambient occlusion, clean studio CGI lighting, calm and
+    tactile, modern brand visual language
+  claim: НОВОЮ ПОШТОЮ ЗА 1–3 ДНІ
+  extra: >-
+    Відправляємо по всій країні|Замовлення приймаємо в директі|Питання про
+    доставку — теж туди
+  do: Напиши в директ — порахуємо
+
+- day: thu
+  look: hands-hold
+  subject: >
+    two clean hands holding a phone over a kitchen table with a mug and a
+    small jar out of focus behind it, warm daylight, quiet unposed moment
+  claim: НЕ ЗНАЄШ, З ЧОГО ПОЧАТИ
+  extra: >-
+    Напиши, що турбує — підкажемо форму|Порадимо, з чого починати
+    вперше|Відповідає жива людина, не бот
+  do: Пиши в директ — розберемось разом
+
+- day: fri
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a tidy table: an open notebook and a phone
+    showing a plain page, a mug beside them, warm daylight, natural unposed
+    moment
+  claim: ЯК ПРИЙМАТИ — УСЕ НА САЙТІ
+  extra: >-
+    Опис ефектів кожного продукту|Склад і спосіб вживання|Відгуки покупців
+    під кожною карткою
+  do: Сайт у шапці профілю
+
+- day: sat
+  look: macro-texture
+  subject: >
+    extreme macro split frame: loose vegetarian capsules on one side and fine
+    pale powder on the other, shallow plane of focus, raking light bringing
+    out texture, tactile and abstract
+  claim: КАПСУЛИ ЧИ МЕЛЕНИЙ
+  extra: >-
+    Капсули — ковтнув і пішов|Мелений — дешевше й гнучкіше в дозі|Смак
+    відчувається лише в меленому
+  do: Порівняй на сайті й обери
+
+- day: sun
+  look: levitation
+  subject: >
+    several small jars and spoons of different powders floating weightless in
+    mid-air against a flat warm colour background, arranged at different
+    depths, soft even light, crisp shadowless edges
+  claim: ЩО З ЧИМ ПОЄДНУЮТЬ
+  extra: >-
+    Одні беруть зранку, інші на вечір|Деякі поєднання зайві|Підкажемо, що
+    поставити поруч
+  do: Спитай у директі перед покупкою

@@ -169,6 +169,19 @@ def main() -> int:
     cfg = yaml.safe_load((CONTENT_DIR / "looks.yaml").read_text(encoding="utf-8"))
     looks = {x["key"]: x for x in cfg["looks"]}
 
+    # Оферта дня подставляется из offers.yaml по дню недели. Раньше она
+    # лежала в каждом файле дня одинаковым текстом — за неделю подписчик
+    # видел бы один и тот же экран семь раз, и владелец поймал это первым.
+    items = [t for t in items if t.get("layout") != "offer"]
+    day = items[0].get("day") if items else None
+    offers = {o["day"]: o for o in yaml.safe_load(
+        (CONTENT_DIR / "offers.yaml").read_text(encoding="utf-8"))["offers"]}
+    if day in offers:
+        o = offers[day]
+        items.append(dict(o, key=f"{path.stem}-offer", layout="offer",
+                          topic="Лісовик", slot="night", why="", compound="",
+                          source="content/offers.yaml"))
+
     outdir = OUT_DIR / path.stem
     outdir.mkdir(parents=True, exist_ok=True)
 
