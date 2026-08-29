@@ -46,12 +46,16 @@ offers:
   look: studio-dark
   # Усі пʼять упаковок — наші. Без референсів модель малює одну справжню
   # й чотири вигадані поруч, і кадр перетворюється на чужий бренд.
-  ref: [m9.jpg, c9.jpg, cord.jpg, ashwa.jpg, liq5.jpg]
+  # Пляшечки в груповому кадрі немає навмисно: на її дрібному тексті
+  # модель бреше числами — у спробах вийшло «екстракт 15:1» і «20мл»
+  # замість 10:1 і 30 мл. Вичитка це зловила й забракувала кадр.
+  ref: [m9.jpg, c9.jpg, cord.jpg, ashwa.jpg, reishi.jpg]
   subject: >
-    five of my product packages stacked and standing together in a tight
-    group on a dark surface: three jars stacked one on top of another, two
-    more standing beside the stack, an open cardboard parcel behind them,
-    one hard side light carving out the labels, deep shadows
+    five of my product packages grouped on a dark surface in front of an open
+    cardboard parcel: two jars stacked one on top of another and three
+    standing beside the stack, every package turned label-forward so its
+    label and white cap are clearly visible, none of them blank, one hard
+    side light carving out the labels, deep shadows
   claim: НОВОЮ ПОШТОЮ ЗА 1–3 ДНІ
   extra: >-
     Відправляємо по всій країні|Замовлення приймаємо в директі|Питання про
@@ -95,7 +99,10 @@ offers:
 
 - day: sun
   look: levitation
-  ref: [m9.jpg, c9.jpg, cord.jpg, ashwa.jpg, liq5.jpg]
+  # Пляшечки в груповому кадрі немає навмисно: на її дрібному тексті
+  # модель бреше числами — у спробах вийшло «екстракт 15:1» і «20мл»
+  # замість 10:1 і 30 мл. Вичитка це зловила й забракувала кадр.
+  ref: [m9.jpg, c9.jpg, cord.jpg, ashwa.jpg, reishi.jpg]
   subject: >
     five of my product packages floating weightless in mid-air against a flat
     warm colour background, arranged at different depths and slightly turned,
