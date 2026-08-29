@@ -196,7 +196,12 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
                         "withania", "somnifera", "lentinula", "edodes",
                         "spirulina", "platensis", "chlorella", "vulgaris",
                         "grifola", "frondosa", "tremella", "fuciformis",
-                        "lisovik"}
+                        # бренд транслітом — модель пише і так, і так
+                        "lisovik", "lisovyk", "lisovick",
+                        # звичайні слова, які законно стоять на упаковці
+                        "organic", "mushroom", "mushrooms", "natural",
+                        "extract", "powder", "capsules", "vegan", "weight",
+                        "ukraine", "product"}
             alien = []
             for x in lines:
                 for w in re.findall(r"[a-z]{5,}", x.lower()):
