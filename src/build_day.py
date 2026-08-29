@@ -43,29 +43,28 @@ from config import CONTENT_DIR, OUT_DIR
 # тень, масштаб и резкость подчиняются сцене. Запрет на текст оставлен
 # только для того, что НЕ является этикеткой товара.
 REF_NOTE = """
-The attached photo shows MY REAL PRODUCT, shot in a studio. Take ONLY the
-package from it. Everything else in that photo — its white backdrop, the
-glass stand under it, its studio lighting and its surface — belongs to the
-reference shot and must NOT appear here. The jar stands directly on the
-surface of the scene described above.
+The attached photo is a studio shot of my real product, given as a design
+reference only. Do not paste it into the scene.
 
-Reproduce this exact jar: same
-squat proportions, same tall white ribbed cap, same terracotta label with
-the same artwork, emblem and wording. Do not redesign the package.
+Photograph that product AGAIN inside the scene above, as one continuous
+photograph: same camera, same eye level, same three-quarter direction as
+everything else on the table, slightly turned and off-centre. It shares the
+scene's optics — same lens, same shallow depth of field, same grain and
+white balance — so its edges fall off softly like every other object. No
+crisp cut-out edge, no halo, no sticker flatness.
 
-But the jar must belong to the scene, not be pasted onto it. Relight it
-with the light of this scene: same direction, same softness, same colour
-temperature. Ground it with a real contact shadow where it meets the
-surface, and a faint reflection if the surface is glossy. Give it the same
-lens character as the rest of the frame — same depth of field, same focus
-falloff, same grain. Keep it in scale with the objects around it: this jar
-is small, roughly the height of a coffee cup beside it.
+The jar is NOT the hero of the frame. It stands a little back, beside or
+behind the main action, partly outside the plane of focus, so its label
+reads as colour and shape rather than as a catalogue front. Part of it may
+be cropped or overlapped by another object — that is good, it means the jar
+lives in the room.
 
-EXACTLY ONE jar appears in the frame — never two, never a duplicate held
-in a hand. Its white cap is on the jar unless the scene says otherwise.
+Keep only the product design: squat proportions, tall white ribbed cap,
+terracotta label with the tree emblem and the two side windows. The studio
+backdrop, the glass stand and the studio lighting stay in the reference.
 
-The only readable words in the whole frame are the ones already printed on
-that label. Add no other text, captions, signage or invented lettering.
+Exactly ONE jar, cap on. Contemporary editorial photography shot today, not
+a 2000s catalogue composite. Add no lettering of your own anywhere.
 """
 
 
@@ -114,7 +113,7 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
                                 "цілий капсули г").lower())
             lines = [x for x in lines
                      if not all(w in allowed or w.isdigit()
-                                for w in re.split(r"[\s,.–—-]+", x.lower()) if w)]
+                                for w in re.split(r"[\s,.–—-]+", x.lower()) if w and not re.fullmatch(r"\d+\w?", w))]
         if not lines:
             print(f"  ✔ {t['key']:24} {t['look']:14} з {n}-ї спроби", flush=True)
             return True
