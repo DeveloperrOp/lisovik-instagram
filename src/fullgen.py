@@ -72,7 +72,7 @@ def draw(head: str, body: str, style: str, tok: str, dest) -> bool:
     return draw_raw(PROMPT.format(head=head, body=body, style=style), tok, dest)
 
 
-def draw_raw(prompt: str, tok: str, dest) -> bool:
+def draw_raw(prompt: str, tok: str, dest, aspect="9:16") -> bool:
     """Рисует по готовому промпту. Нужен тем, кто собирает промпт сам.
 
     Токен обновляем сами при 401: gcloud выдаёт его примерно на час, а
@@ -83,7 +83,7 @@ def draw_raw(prompt: str, tok: str, dest) -> bool:
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseModalities": ["TEXT", "IMAGE"],
-            "imageConfig": {"aspectRatio": "9:16", "imageSize": IMAGE_SIZE},
+            "imageConfig": {"aspectRatio": aspect, "imageSize": IMAGE_SIZE},
         },
     }
     return _post(payload, tok, dest)
@@ -211,7 +211,8 @@ if __name__ == "__main__":
     sys.exit(main())
 
 
-def draw_ref(prompt: str, ref_path, tok: str, dest) -> bool:
+def draw_ref(prompt: str, ref_path, tok: str, dest,
+             aspect="9:16") -> bool:
     """Рисует по промпту ПЛЮС фото-референс товара.
 
     Владелец: «банка на фото не моя», потом — «дай референс». Описать
@@ -236,7 +237,7 @@ def draw_ref(prompt: str, ref_path, tok: str, dest) -> bool:
         "contents": [{"role": "user", "parts": parts + [{"text": prompt}]}],
         "generationConfig": {
             "responseModalities": ["TEXT", "IMAGE"],
-            "imageConfig": {"aspectRatio": "9:16", "imageSize": IMAGE_SIZE},
+            "imageConfig": {"aspectRatio": aspect, "imageSize": IMAGE_SIZE},
         },
     }
     return _post(payload, tok, dest)

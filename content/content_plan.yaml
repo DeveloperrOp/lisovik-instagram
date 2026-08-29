@@ -1,851 +1,299 @@
 meta:
-  weeks: 2
+  weeks: 1
   lang: ua
-  structure: день = один продукт
-defaults:
-  cta: Замовити → посилання в шапці профілю
-  disclaimer: Дієтична добавка. Не замінює повноцінний раціон харчування. Не є лікарським засобом.
-  negative: no red-and-white spotted mushrooms, no Amanita muscaria, no fly agaric, no people, no
-    faces, no hands, no medical imagery, no pills, no blister packs, no pharmacy shelves, no dosage
-    numbers, no watermarks, no text on packaging, no product labels with readable words, no invented
-    brand names, no real-world brands or logos of any company, no lorem ipsum, no placeholder text,
-    no captions, no signage, no text panels or boxes behind the headline
-  style: premium editorial photography, Ukrainian forest mood, deep green and warm cream palette,
-    soft natural light, shallow depth of field, no clutter
-  slots:
-    morning:
-    - 09:30
-    - '11:00'
-    day:
-    - '13:30'
-    - '15:00'
-    evening:
-    - '17:30'
-    - '19:00'
-    night:
-    - '20:00'
-    - '21:30'
+  structure: день = один продукт, 6 кадрів
 stories:
+- id: w1-mon-dawn
+  week: 1
+  day: mon
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Їжовик гребінчастий
+- id: w1-mon-evening
+  week: 1
+  day: mon
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Їжовик гребінчастий
 - id: w1-mon-morning
   week: 1
   day: mon
   slot: morning
   kind: useful
-  theme: Їжовик
   mode: auto
-  scene: very dark green gradient with faint fern silhouettes at the edges
-  headline: ЇЖОВИК У ПОРОШКУ НЕ КРАБ
-  body: 'Свіжий їжовик, порваний руками й підсмажений на маслі, справді нагадує краба — за це відповідає
-    та сама летка речовина, що дає аромат вареним креветкам. Але сушіння й помел цей профіль змінюють:
-    у порошку смак стає землистим, з легкою гіркуватістю. Це нормальна поведінка продукту, а не брак.'
-  tip: Не їж порошок окремо — ховай його у страву.
-- id: w1-mon-day
-  week: 1
-  day: mon
-  slot: day
-  kind: howto
-  theme: Їжовик
-  mode: auto
-  scene: bright kitchen counter blurred, bowl out of focus, morning light
-  headline: ЯК ЇСТИ ЇЖОВИК ЩОДНЯ
-  steps:
-  - Обери страву з жиром
-  - Додай ложку порошку
-  - Розмішай одразу, не потім
-  product_hint: Їжовик
-- id: w1-mon-evening
-  week: 1
-  day: mon
-  slot: evening
-  kind: product
-  theme: Їжовик
-  mode: auto
-  scene: mossy fallen log in a misty forest, cool green light, dew on leaves
-  headline: ЯСНІСТЬ ДУМОК
-  subline: Мелений · 50 грам
-  product_hint: Їжовик гребінчастий, мелений 50 г
-  article: LIS-469809
-  photo_url: https://lisovik.com.ua/content/images/20/27974660435805_+93e93e8232.jpg
+  theme: Їжовик гребінчастий
 - id: w1-mon-night
   week: 1
   day: mon
   slot: night
-  kind: ask
-  theme: Їжовик
+  kind: offer
   mode: auto
-  scene: quiet forest path at blue hour, low mist, clean empty centre
-  headline: ЩО ОБРАТИ НОВАЧКУ?
-  subline: Напиши в директ — підкажу
+  theme: Лісовик
+- id: w1-mon-noon
+  week: 1
+  day: mon
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Їжовик гребінчастий
+- id: w1-mon-sell
+  week: 1
+  day: mon
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Їжовик
+- id: w1-tue-dawn
+  week: 1
+  day: tue
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Чага березова
+- id: w1-tue-evening
+  week: 1
+  day: tue
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Чага березова
 - id: w1-tue-morning
   week: 1
   day: tue
   slot: morning
   kind: useful
-  theme: Чага
   mode: auto
-  scene: dark blurred forest interior, deep green tones, even texture, no focal point
-  headline: ЧАГУ НЕ ЗАЛИВАЮТЬ ОКРОПОМ
-  body: 'Чага — не пакетик чаю. Воду гріють приблизно до 60-80°C: це коли з чайника вже йде пара,
-    але він ще не закипів. Окріп робить настій мутнішим і помітно гіркішим, бо частина сполук у чазі
-    термочутлива. Тому просто зніми чайник трохи раніше або дай воді дві хвилини постояти після кипіння.'
-  tip: Закипіло — почекай дві хвилини, потім заливай.
-- id: w1-tue-day
-  week: 1
-  day: tue
-  slot: day
-  kind: howto
-  theme: Чага
-  mode: auto
-  scene: dark wooden table, glass teapot far in the background, warm side light
-  headline: ЯК ЗАВАРИТИ ЧАГУ
-  steps:
-  - Залий окропом 80 °C
-  - Настоюй 15 хвилин
-  - Проціди і пий теплим
-  product_hint: Чага
-- id: w1-tue-evening
-  week: 1
-  day: tue
-  slot: evening
-  kind: product
-  theme: Чага
-  mode: auto
-  scene: soft morning forest clearing, moss and fern, warm low sun, shallow depth of field
-  headline: ЧАГА У ЧАЙ
-  subline: Цілий · 50 грам
-  product_hint: Гриб Чага березова, ціла 50г
-  article: LIS-481438
-  photo_url: https://lisovik.com.ua/content/images/33/38552826814206_+4c2d1043dd.jpg
+  theme: Чага березова
 - id: w1-tue-night
   week: 1
   day: tue
   slot: night
-  kind: mistake
-  theme: Чага
+  kind: offer
   mode: auto
-  scene: deep shadowed forest floor, muted brown and green, calm and even
-  headline: ЗАВАРЮЮТЬ МЕЛЕНУ ЧАГУ ВДРУГЕ
-  wrong: Ллють окріп на вчорашню мелену чагу ще раз
-  right: Куски заварювати повторно, мелену — один раз і свіжу порцію
-  why: 'Дрібний помел віддає все за одне заварювання. Повторно працюють саме куски: у них смак виходить
-    повільно, і третя-четверта заварка часто найкраща.'
+  theme: Лісовик
+- id: w1-tue-noon
+  week: 1
+  day: tue
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Чага березова
+- id: w1-tue-sell
+  week: 1
+  day: tue
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Чага
+- id: w1-wed-dawn
+  week: 1
+  day: wed
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Спіруліна
+- id: w1-wed-evening
+  week: 1
+  day: wed
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Спіруліна
 - id: w1-wed-morning
   week: 1
   day: wed
   slot: morning
   kind: useful
-  theme: Спіруліна
   mode: auto
-  scene: dark stone surface with soft directional light, minimal and quiet
-  headline: ЗВІДКИ ВОДОРІСТЬ РОДОМ
-  body: 'Спіруліна й хлорела — біоакумулятори: вони вбирають з води все, що в ній є, включно з важкими
-    металами. Незалежне тестування знаходило перевищення норм по свинцю навіть у частини «органічних»
-    продуктів. Тому питання не в тому, органічна вона, а в тому, чи є лабораторні протоколи.'
-  tip: Питай у продавця протокол лабораторного тесту.
-- id: w1-wed-day
-  week: 1
-  day: wed
-  slot: day
-  kind: howto
   theme: Спіруліна
-  mode: auto
-  scene: clean kitchen surface with a glass of water blurred, bright light
-  headline: ЯК ПРИЙМАТИ СПІРУЛІНУ
-  steps:
-  - Запий склянкою води
-  - Краще під час їжі
-  - Прополощи рот після прийому
-  product_hint: Спіруліна
-- id: w1-wed-evening
-  week: 1
-  day: wed
-  slot: evening
-  kind: product
-  theme: Спіруліна
-  mode: auto
-  scene: soft morning forest clearing, moss and fern, warm low sun, shallow depth of field
-  headline: ЗЕЛЕНА СИЛА
-  subline: Таблетки · 500 грам
-  product_hint: Спіруліна у таблетках 500 г
-  article: LIS-486006
-  photo_url: https://lisovik.com.ua/content/images/24/spirulina-u-tabletkakh-500-h-41275363404901_+4677dc1e83.jpeg
 - id: w1-wed-night
   week: 1
   day: wed
   slot: night
-  kind: compare
-  theme: Спіруліна
+  kind: offer
   mode: auto
-  scene: deep teal to green gradient, abstract water texture
-  headline: СПІРУЛІНА ЧИ ХЛОРЕЛА
-  options:
-  - title: СПІРУЛІНА
-    points:
-    - 68,6 г білка на 100 г
-    - Усі 9 незамінних амінокислот
-    - Стінка мʼяка — обробка не потрібна
-    - Смак мʼякший, простіше почати
-    - Дешевша за грам
-  - title: ХЛОРЕЛА
-    points:
-    - 55,6 г білка на 100 г
-    - Найбільше хлорофілу серед водоростей
-    - Стінка целюлозна — має бути розкрита
-    - Смак насиченіший, травʼяний
-    - Дорожча через обробку стінки
+  theme: Лісовик
+- id: w1-wed-noon
+  week: 1
+  day: wed
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Спіруліна
+- id: w1-wed-sell
+  week: 1
+  day: wed
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Спіруліна
+- id: w1-thu-dawn
+  week: 1
+  day: thu
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Кордицепс
+- id: w1-thu-evening
+  week: 1
+  day: thu
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Кордицепс
 - id: w1-thu-morning
   week: 1
   day: thu
   slot: morning
   kind: useful
-  theme: Кордицепс
   mode: auto
-  scene: dark blurred forest interior, deep green tones, even texture, no focal point
-  headline: КОРДИЦЕПС РОСТЕ НА ЗЕРНІ
-  body: Картинка з гусеницею, яку всі бачили, стосується дикого Cordyceps sinensis з тибетських гір.
-    Комерційний мілітаріс вирощують на фермі на зерновому субстраті — рис або соя, — і жодна комаха
-    в процесі не бере участі. Саме тому він доступний за ціною і не викликає етичних питань у вегетаріанців.
-  tip: Мілітаріс — це ферма і зерно, без комах.
-- id: w1-thu-day
-  week: 1
-  day: thu
-  slot: day
-  kind: howto
   theme: Кордицепс
-  mode: auto
-  scene: dark table with a glass of water far in the background, warm morning light
-  headline: КОЛИ ПИТИ КОРДИЦЕПС
-  steps:
-  - Зранку або до обіду
-  - Разом із їжею
-  - Ввечері краще не варто
-  product_hint: Кордицепс
-- id: w1-thu-evening
-  week: 1
-  day: thu
-  slot: evening
-  kind: product
-  theme: Кордицепс
-  mode: auto
-  scene: soft morning forest clearing, moss and fern, warm low sun, shallow depth of field
-  headline: ТОНУС НА ДЕНЬ
-  subline: Мелений · 50 грам
-  product_hint: Кордицепс військовий, мелений 50г
-  article: LIS-469820
-  photo_url: https://lisovik.com.ua/content/images/30/70913557551439_+811cb9a0e9.jpg
 - id: w1-thu-night
   week: 1
   day: thu
   slot: night
-  kind: myth
-  theme: Кордицепс
+  kind: offer
   mode: auto
-  scene: dark blurred forest interior, deep green tones, even texture
-  headline: ГРИБ-ЗОМБІ З СЕРІАЛУ
-  why: Сюжет побудований на Ophiocordyceps unilateralis — грибі, який справді керує поведінкою мурах.
-    У добавках його немає в принципі. Це різні види одного роду, приблизно як вовк і домашній пес.
-  claim: Кордицепс керує людьми, як у The Last of Us
-  truth: У банці Cordyceps militaris із ферми
-  product_hint: Кордицепс
+  theme: Лісовик
+- id: w1-thu-noon
+  week: 1
+  day: thu
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Кордицепс
+- id: w1-thu-sell
+  week: 1
+  day: thu
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Кордицепс
+- id: w1-fri-dawn
+  week: 1
+  day: fri
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Ашваганда
+- id: w1-fri-evening
+  week: 1
+  day: fri
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Ашваганда
 - id: w1-fri-morning
   week: 1
   day: fri
   slot: morning
   kind: useful
-  theme: Ашваганда
   mode: auto
-  scene: dark blurred forest interior, deep green tones, even texture, no focal point
-  headline: ГІРКОТУ ЗНІМАЄ ЖИР
-  body: 'Порошок ашваганди гіркий, землистий і терпкий — новачки часто пробують його у воді й більше
-    до нього не повертаються. Річ у тім, що гіркі сполуки кореня жиророзчинні: вода й прозорий сік
-    їх не тримають. Тепле молоко, горіхова паста чи банан у смузі справляються з цим значно краще.'
-  tip: Розмішуй у чомусь жирному, а не у воді.
-- id: w1-fri-day
-  week: 1
-  day: fri
-  slot: day
-  kind: howto
   theme: Ашваганда
-  mode: auto
-  scene: warm evening kitchen, mug and honey jar heavily blurred, cosy light
-  headline: ЯК ПИТИ АШВАГАНДУ
-  steps:
-  - Змішай із теплим молоком
-  - Додай мед або корицю
-  - Пий після їжі
-  product_hint: Ашваганда
-- id: w1-fri-evening
-  week: 1
-  day: fri
-  slot: evening
-  kind: product
-  theme: Ашваганда
-  mode: auto
-  scene: soft morning forest clearing, moss and fern, warm low sun, shallow depth of field
-  headline: КОРІНЬ СПОКОЮ
-  subline: Мелений · 50 грам
-  product_hint: Ашваганда мелена 50 г
-  article: LIS-469840
-  photo_url: https://lisovik.com.ua/content/images/15/63978878934750_+0cd608e58b.jpg
 - id: w1-fri-night
   week: 1
   day: fri
   slot: night
-  kind: ask
-  theme: Ашваганда
+  kind: offer
   mode: auto
-  scene: misty forest clearing, soft even light, calm and inviting
-  headline: ПИТАЙ ПРО ГРИБИ
-  subline: Напиши в директ, відповім особисто
+  theme: Лісовик
+- id: w1-fri-noon
+  week: 1
+  day: fri
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Ашваганда
+- id: w1-fri-sell
+  week: 1
+  day: fri
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Ашваганда
+- id: w1-sat-dawn
+  week: 1
+  day: sat
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Рейші
+- id: w1-sat-evening
+  week: 1
+  day: sat
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Рейші
 - id: w1-sat-morning
   week: 1
   day: sat
   slot: morning
   kind: useful
-  theme: Рейші
   mode: auto
-  scene: dark kitchen counter heavily blurred, warm low light, empty middle
-  headline: РЕЙШІ НЕ СМАЖАТЬ
-  body: Рейші — не кулінарний гриб. Зрілий трутовик твердий, як деревина, і гіркий; порізати його
-    в сковорідку не вийде навіть фізично. Його беруть тільки як довгий відвар, порошок або екстракт.
-    Якщо десь трапляється рецепт «обсмажте рейші з часником» — автор рейші в руках точно не тримав.
-  tip: Рейші — у горнятко, а не на сковорідку.
-- id: w1-sat-day
-  week: 1
-  day: sat
-  slot: day
-  kind: howto
   theme: Рейші
-  mode: auto
-  scene: dark cosy room, warm lamp glow, deep green and amber tones
-  headline: ВЕЧІРНЄ ГОРНЯТКО
-  steps:
-  - Завари рейші
-  - Додай трохи меду
-  - Пий за годину до сну
-  product_hint: Рейші
-- id: w1-sat-evening
-  week: 1
-  day: sat
-  slot: evening
-  kind: product
-  theme: Рейші
-  mode: auto
-  scene: mossy fallen log in a misty forest, cool green light, dew on leaves
-  headline: ГРИБ СПОКОЮ
-  subline: Мелений · 50 грам
-  product_hint: Рейші/Трутовик лакований, мелені плодові тіла 50 г
-  article: LIS-481496
-  photo_url: https://lisovik.com.ua/content/images/33/57723113400321_+d9b0f9d60a.jpg
 - id: w1-sat-night
   week: 1
   day: sat
   slot: night
-  kind: mistake
-  theme: Рейші
+  kind: offer
   mode: auto
-  scene: dark matte surface with a soft pool of warm light on one side, no objects
-  headline: ЗАВАРЮЮТЬ РЕЙШІ ЯК ЧАЙ
-  wrong: Заливають рейші на п'ять хвилин, як звичайний чай
-  right: Томити на малому вогні від сорока хвилин до двох годин
-  why: Рейші щільний, як деревина, і за п'ять хвилин вода не встигає нічого з нього витягнути. Довге
-    томління — це не примха, а єдиний робочий спосіб.
+  theme: Лісовик
+- id: w1-sat-noon
+  week: 1
+  day: sat
+  slot: noon
+  kind: useful
+  mode: auto
+  theme: Рейші
+- id: w1-sat-sell
+  week: 1
+  day: sat
+  slot: sell
+  kind: offer
+  mode: auto
+  theme: Рейші
+- id: w1-sun-dawn
+  week: 1
+  day: sun
+  slot: dawn
+  kind: useful
+  mode: auto
+  theme: Шиїтаке
+- id: w1-sun-evening
+  week: 1
+  day: sun
+  slot: evening
+  kind: useful
+  mode: auto
+  theme: Шиїтаке
 - id: w1-sun-morning
   week: 1
   day: sun
   slot: morning
   kind: useful
-  theme: Чай
   mode: auto
-  scene: dark kitchen counter heavily blurred, warm low light, empty middle
-  headline: НА СКІЛЬКИ ВИСТАЧАЄ ПАКЕТА
-  body: 'Це варто порахувати ще до покупки. Звичайний пакет порошку — це приблизно шість десятків
-    порцій по рівній чайній ложці, тобто близько двох місяців щоденного вживання. Саме тому ціна
-    за пакет — так собі орієнтир: поділи її на кількість порцій, і стане видно, скільки насправді
-    коштує день.'
-  tip: Рахуй ціну за день, а не суму на ціннику.
-- id: w1-sun-day
-  week: 1
-  day: sun
-  slot: day
-  kind: howto
-  theme: Чай
-  mode: auto
-  scene: wooden tray with linen cloth, soft window light, empty centre
-  headline: ТРАВʼЯНИЙ ЧАЙ
-  steps:
-  - Ложка збору на горнятко
-  - Залий гарячою водою
-  - Накрий на 7 хвилин
-  product_hint: Чай
-- id: w1-sun-evening
-  week: 1
-  day: sun
-  slot: evening
-  kind: product
-  theme: Чай
-  mode: auto
-  scene: soft morning forest clearing, moss and fern, warm low sun, shallow depth of field
-  headline: ТРАВИ У ГОРНЯТКУ
-  subline: Чай трав'яний розсипний · 40 грам
-  product_hint: Чай Липа 40 г
-  article: LIS-CHAI-003
-  photo_url: https://lisovik.com.ua/content/images/14/chai-lypa-40-h-93714508461493_+2b292b9e50.png
+  theme: Шиїтаке
 - id: w1-sun-night
   week: 1
   day: sun
   slot: night
-  kind: compare
-  theme: Чай
+  kind: offer
   mode: auto
-  scene: very dark blurred forest background, deep green tones, even texture
-  headline: ПОРОШОК ЧИ КАПСУЛИ
-  options:
-  - title: ПОРОШОК
-    points:
-    - Дешевше в перерахунку на порцію
-    - Легко додати в кашу чи смузі
-    - Сам регулюєш обʼєм
-    - Смак відчувається
-    - Фарбує руки й посуд
-  - title: КАПСУЛИ
-    points:
-    - Смаку немає взагалі
-    - Зручно брати з собою
-    - Нічого не відмірювати
-    - Дорожче за грам
-    - Не додаси у страву
-- id: w2-mon-morning
-  week: 2
-  day: mon
-  slot: morning
-  kind: useful
-  theme: Їжовик
-  mode: auto
-  scene: dark blurred forest interior, deep green tones, even texture, no focal point
-  headline: ПОДВІЙНА ЕКСТРАКЦІЯ НЕ ВСІМ
-  body: Слово «подвійна» звучить як преміум, але сенс воно має не для кожного гриба. Рейші й чазі
-    спирт потрібен, бо їхні тритерпени у воді не розчиняються. А в їжовика й кордицепса головне —
-    водорозчинні бета-глюкани, і спирт частину з них просто осаджує та відфільтровує з готового продукту.
-  tip: Для їжовика й кордицепса шукай водну екстракцію.
-- id: w2-mon-day
-  week: 2
-  day: mon
-  slot: day
-  kind: howto
-  theme: Їжовик
-  mode: auto
-  scene: bright kitchen counter, bowl and spoon out of focus, morning light
-  headline: ДОДАТИ В КАШУ
-  steps:
-  - Звари вівсянку як завжди
-  - Додай ложку порошку
-  - Розмішай і снідай
-- id: w2-mon-evening
-  week: 2
-  day: mon
-  slot: evening
-  kind: product
-  theme: Їжовик
-  mode: auto
-  scene: wooden table by a window with forest visible outside, warm daylight
-  headline: ФОКУС З РАНКУ
-  subline: Молотий · 50 грам
-  product_hint: Екстракт Їжовика гребінчастого, мелений 50 г
-  article: LIS-485023
-  photo_url: https://lisovik.com.ua/content/images/8/16674720041300_+e0e806640c.jpg
-- id: w2-mon-night
-  week: 2
-  day: mon
-  slot: night
-  kind: ask
-  theme: Їжовик
-  mode: auto
-  scene: dark table with a kraft parcel far out of focus, warm light
-  headline: ПИТАННЯ ПРО ДОСТАВКУ?
-  subline: Напиши в директ — розкажу
-- id: w2-tue-morning
-  week: 2
-  day: tue
-  slot: morning
-  kind: useful
-  theme: Чага
-  mode: auto
-  scene: dark stone surface with soft directional light, minimal and quiet
-  headline: ЧАГУ ЗАВАРЮЮТЬ ПОВТОРНО
-  body: 'Кускову чагу не викидають після першої чашки. Джерела розходяться в цифрах — хтось каже
-    про два-три рази, українські гайди про п''ять, — але сходяться в головному: найнасиченішими часто
-    виходять третє й четверте заварювання. Орієнтир простий і чесний: заливай, поки настій дає колір.'
-  tip: Не викидай чагу, поки вона фарбує воду.
-- id: w2-tue-day
-  week: 2
-  day: tue
-  slot: day
-  kind: howto
-  theme: Чага
-  mode: auto
-  scene: glass jar on a windowsill in evening light, calm still life
-  headline: ХОЛОДНИЙ НАСТІЙ
-  steps:
-  - Заший сировину в банку
-  - Залий холодною водою
-  - Лиши на ніч у холодильнику
-- id: w2-tue-evening
-  week: 2
-  day: tue
-  slot: evening
-  kind: product
-  theme: Чага
-  mode: auto
-  scene: mossy fallen log in a misty forest, cool green light, dew on leaves
-  headline: ЛІСОВА КЛАСИКА
-  subline: Мелений · 50 грам
-  product_hint: Чага березова, мелена 50г натуральна добавка
-  article: LIS-481435
-  photo_url: https://lisovik.com.ua/content/images/19/98280781900966_+67306c9492.jpg
-- id: w2-tue-night
-  week: 2
-  day: tue
-  slot: night
-  kind: mistake
-  theme: Чага
-  mode: auto
-  scene: dark blurred forest interior, deep green tones, even texture, no focal point
-  headline: ЛІЗУТЬ У БАНКУ МОКРОЮ ЛОЖКОЮ
-  wrong: Беруть порошок вологою ложкою і тримають банку біля плити
-  right: Суха ложка, щільна кришка, сухе прохолодне місце без сонця
-  why: Порошок гігроскопічний і тягне вологу з повітря. Волога дає спочатку грудки, потім потемніння
-    кольору й запах, і продукт іде у смітник.
-- id: w2-wed-morning
-  week: 2
-  day: wed
-  slot: morning
-  kind: useful
-  theme: Хлорела
-  mode: auto
-  scene: dark matte surface with a soft pool of warm light on one side, no objects
-  headline: 'ХЛОРЕЛА: РОЗКРИТА СТІНКА'
-  body: 'Клітинна стінка хлорели зроблена з целюлози, а людина целюлозу не перетравлює. Тому якісну
-    хлорелу механічно «розкривають» — руйнують стінку перед фасуванням. Без цього чимала частина
-    того, за що ти платиш, проходить транзитом. Спіруліні така обробка не потрібна взагалі: у неї
-    стінка м''яка.'
-  tip: На упаковці має бути «розкрита клітинна стінка».
-- id: w2-wed-day
-  week: 2
-  day: wed
-  slot: day
-  kind: howto
-  theme: Хлорела
-  mode: auto
-  scene: clean kitchen surface, blurred greenery, fresh bright light
-  headline: ЗЕЛЕНЕ СМУЗІ
-  steps:
-  - Банан і жменя шпинату
-  - Ложка хлорели
-  - Збий блендером
-  product_hint: Хлорела
-- id: w2-wed-evening
-  week: 2
-  day: wed
-  slot: evening
-  kind: product
-  theme: Хлорела
-  mode: auto
-  scene: soft morning forest clearing, moss and fern, warm low sun, shallow depth of field
-  headline: ЗЕЛЕНА КЛІТИНА
-  subline: Порошок · 250 грам
-  product_hint: Хлорела у порошку 250 г
-  article: LIS-486008
-  photo_url: https://lisovik.com.ua/content/images/26/khlorela-u-poroshku-250-h-27986487114878_+04c4125d75.jpeg
-- id: w2-wed-night
-  week: 2
-  day: wed
-  slot: night
-  kind: compare
-  theme: Хлорела
-  mode: auto
-  scene: dark neutral surface with soft shadow gradient, no objects
-  headline: ЦІЛІ ЧИ МЕЛЕНІ
-  options:
-  - title: ЦІЛІ
-    points:
-    - Зберігаються довше
-    - Можна заварювати повторно
-    - Видно, що саме ти купив
-    - Треба час на відвар
-  - title: МЕЛЕНІ
-    points:
-    - Готові до вживання одразу
-    - Легко вкинути в їжу
-    - Віддають усе за одне заварювання
-    - Швидше вбирають вологу
-- id: w2-thu-morning
-  week: 2
-  day: thu
-  slot: morning
-  kind: useful
-  theme: Кордицепс
-  mode: auto
-  scene: dark kitchen counter heavily blurred, warm low light, empty middle
-  headline: НЕ ВСІ АДАПТОГЕНИ НА ВЕЧІР
-  body: Типова помилка — вважати всі адаптогени взаємозамінними. Ашваганду традиційно ставлять на
-    вечір, а родіолу й женьшень — на ранок чи першу половину дня, бо вони виражено тонізують. Якщо
-    переплутати їх місцями, ввечері отримаєш зовсім не те, чого чекав. Кордицепс теж радше ранкова
-    історія.
-  tip: Тонізуючі — зранку, ашваганду — ближче до вечора.
-- id: w2-thu-day
-  week: 2
-  day: thu
-  slot: day
-  kind: howto
-  theme: Кордицепс
-  mode: auto
-  scene: bright breakfast table, overhead view, clean pale surface
-  headline: ДОДАТИ В ЙОГУРТ
-  steps:
-  - Насип йогурт у миску
-  - Додай ложку порошку
-  - Зверху ягоди й насіння
-- id: w2-thu-evening
-  week: 2
-  day: thu
-  slot: evening
-  kind: product
-  theme: Кордицепс
-  mode: auto
-  scene: birch grove in soft morning light, white bark and green undergrowth
-  headline: ДЛЯ АКТИВНИХ
-  subline: Мелений · 50 грам
-  product_hint: Кордицепс військовий, екстракт 10:1 мелений 50 г
-  article: LIS-469828
-  photo_url: https://lisovik.com.ua/content/images/36/73451205874642_+f4191730da.jpg
-- id: w2-thu-night
-  week: 2
-  day: thu
-  slot: night
-  kind: myth
-  theme: Кордицепс
-  mode: auto
-  scene: dark mountain silhouettes heavily blurred, cold muted tones
-  headline: ДИКЕ ЗАВЖДИ КРАЩЕ
-  why: Дикий синенсис збирають вручну високо в горах, звідси й вартість. Культивований мілітаріс
-    містить у рази більше кордицепіну — ключової речовини роду. Дорожче тут не означає насиченіше.
-  claim: Дикий кордицепс із гір цінніший за вирощений
-  truth: Ціна дикого — про рідкість збору, а не про склад
-  product_hint: Кордицепс
-- id: w2-fri-morning
-  week: 2
-  day: fri
-  slot: morning
-  kind: useful
-  theme: Женьшень
-  mode: auto
-  scene: dark wooden table, glass teapot far in the background, warm side light, plenty of empty
-    dark space
-  headline: ПЛОДОВЕ ТІЛО ЧИ МІЦЕЛІЙ
-  body: Міцелій вирощують на зерні, і відділити його від зерна в промислових масштабах нереально
-    — мелють усе разом. Тому в такому порошку велика частина ваги це крохмаль субстрату, а не гриб.
-    Плодове тіло — це сам гриб, який виріс і який зібрали. Різниця у вмісті бета-глюканів там не
-    на відсотки, а в рази.
-  tip: Шукай на етикетці напис «плодове тіло».
-- id: w2-fri-day
-  week: 2
-  day: fri
-  slot: day
-  kind: howto
-  theme: Женьшень
-  mode: auto
-  scene: glass of water on a plain table, morning light, minimal
-  headline: ЯК ПРИЙМАТИ КАПСУЛИ
-  steps:
-  - Запий склянкою води
-  - Краще під час їжі
-  - Тримай упаковку на видноті
-- id: w2-fri-evening
-  week: 2
-  day: fri
-  slot: evening
-  kind: product
-  theme: Женьшень
-  mode: auto
-  scene: mossy fallen log in a misty forest, cool green light, dew on leaves
-  headline: ДАВНЯ КЛАСИКА
-  subline: Мелений · 50 грам
-  product_hint: «Для нього» Золотий корінь та Женьшень, мелена суміш 50 г
-  article: LIS-481898
-  photo_url: https://lisovik.com.ua/content/images/1/89877654840840_+718acb0b14.jpg
-- id: w2-fri-night
-  week: 2
-  day: fri
-  slot: night
-  kind: ask
-  theme: Женьшень
-  mode: auto
-  scene: tidy workspace corner heavily blurred, soft daylight
-  headline: ЯК МИ ПРАЦЮЄМО
-  subline: Питай у директі, відповідаю сам
-- id: w2-sat-morning
-  week: 2
-  day: sat
-  slot: morning
-  kind: useful
-  theme: Шиїтаке
-  mode: auto
-  scene: deep shadowed forest floor, muted brown and green, calm and even
-  headline: ШИІТАКЕ НЕ ЇДЯТЬ СИРИМ
-  body: 'Сушений шиітаке спершу замочують, а потім обовʼязково проварюють або просмажують — сирим
-    його не вживають, це кулінарне правило саме для цього гриба. Замочування дає ще й бонус: вода
-    з-під грибів стає готовою основою для бульйону чи соусу.'
-  tip: Замочив — провари, а воду не виливай.
-- id: w2-sat-day
-  week: 2
-  day: sat
-  slot: day
-  kind: howto
-  theme: Шиїтаке
-  mode: auto
-  scene: kitchen stove corner, steam and warm light, dark tones
-  headline: ГРИБНИЙ БУЛЬЙОН
-  steps:
-  - Замочи сушені гриби
-  - Провари 20 хвилин
-  - Проціди — основа готова
-  product_hint: Шиїтаке
-- id: w2-sat-evening
-  week: 2
-  day: sat
-  slot: evening
-  kind: product
-  theme: Шиїтаке
-  mode: auto
-  scene: mossy fallen log in a misty forest, cool green light, dew on leaves
-  headline: ДЛЯ СУПІВ І СОУСІВ
-  subline: Мелений · 50 грам
-  product_hint: Шиїтаке, мелений гриб 50г
-  article: LIS-481450
-  photo_url: https://lisovik.com.ua/content/images/26/23939317504401_+918601e20c.jpg
-- id: w2-sat-night
-  week: 2
-  day: sat
-  slot: night
-  kind: mistake
-  theme: Шиїтаке
-  mode: auto
-  scene: very dark green gradient with faint fern silhouettes at the edges
-  headline: ВИЛИВАЮТЬ ВОДУ З-ПІД ГРИБІВ
-  wrong: Зливають у раковину воду, в якій замочували сушені гриби
-  right: Процідити і використати цю воду як основу для бульйону чи соусу
-  why: Саме в цій воді збирається умамі сушеного шиітаке. Виливаючи її, людина викидає найсмачнішу
-    частину продукту, за яку щойно заплатила.
-- id: w2-sun-morning
-  week: 2
+  theme: Лісовик
+- id: w1-sun-noon
+  week: 1
   day: sun
-  slot: morning
+  slot: noon
   kind: useful
-  theme: Тремела
   mode: auto
-  scene: translucent white shapes on dark surface, soft backlight, abstract
-  headline: ТРЕМЕЛА — ГРИБ-ЖЕЛЕ
-  body: 'Її ще звуть сніжним грибом: у воді вона розбухає і стає майже прозорою, желейною. В азійській
-    кухні тремелу століттями кладуть у солодкі супи й десерти саме за текстуру. Смак у неї майже
-    нейтральний, тому вона не сперечається з іншими інгредієнтами.'
-  tip: Замочи в холодній воді — побачиш, як розкриється.
-  product_hint: Тремела
-- id: w2-sun-day
-  week: 2
+  theme: Шиїтаке
+- id: w1-sun-sell
+  week: 1
   day: sun
-  slot: day
-  kind: howto
-  theme: Тремела
+  slot: sell
+  kind: offer
   mode: auto
-  scene: wooden shelf in shade, soft light, calm neutral composition
-  headline: ЗБЕРІГАННЯ
-  steps:
-  - Щільно закрий банку
-  - Прохолодне сухе місце
-  - Подалі від сонця
-- id: w2-sun-evening
-  week: 2
-  day: sun
-  slot: evening
-  kind: product
-  theme: Тремела
-  mode: auto
-  scene: mossy fallen log in a misty forest, cool green light, dew on leaves
-  headline: ДЛЯ ШКІРИ ТА ВОЛОССЯ
-  subline: Капсули · 60 капсул
-  product_hint: Тремела/Сніжний гриб, капсули по 60 шт 0.5 г
-  article: LIS-481905
-  photo_url: https://lisovik.com.ua/content/images/12/85643997542811_+0337fc0d07.jpg
-- id: w2-sun-night
-  week: 2
-  day: sun
-  slot: night
-  kind: compare
-  theme: Тремела
-  mode: auto
-  scene: deep shadowed forest floor, muted brown and green
-  headline: ЕКСТРАКТ ЧИ СИРОВИНА
-  options:
-  - title: ЕКСТРАКТ
-    points:
-    - Концентрат — порція менша
-    - Банки вистачає надовше
-    - Дорожча за банку
-    - Смак насиченіший
-  - title: СИРОВИНА
-    points:
-    - Ближче до звичайної їжі
-    - Дешевша за банку
-    - Витрачається швидше
-    - Мʼякший смак
-reels:
-- id: w1-reel-mon
-  week: 1
-  day: mon
-  source: ''
-- id: w1-reel-wed
-  week: 1
-  day: wed
-  source: ''
-- id: w1-reel-fri
-  week: 1
-  day: fri
-  source: ''
-- id: w2-reel-mon
-  week: 2
-  day: mon
-  source: ''
-- id: w2-reel-wed
-  week: 2
-  day: wed
-  source: ''
-- id: w2-reel-fri
-  week: 2
-  day: fri
-  source: ''
-feed:
-- id: w1-feed-tue
-  week: 1
-  day: tue
-  headline: ''
-- id: w1-feed-thu
-  week: 1
-  day: thu
-  headline: ''
-- id: w1-feed-sat
-  week: 1
-  day: sat
-  headline: ''
-- id: w2-feed-tue
-  week: 2
-  day: tue
-  headline: ''
-- id: w2-feed-thu
-  week: 2
-  day: thu
-  headline: ''
-- id: w2-feed-sat
-  week: 2
-  day: sat
-  headline: ''
+  theme: Шиїтаке
