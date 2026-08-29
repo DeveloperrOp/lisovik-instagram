@@ -22,8 +22,8 @@ thoughts:
   source: 'кулінарне застосування Lentinula edodes'
   retell: 'це звичайний їстівний гриб, а не добавка з банки'
   claim: 'ЦЕ ГРИБ ДЛЯ ЇЖІ'
-  why: 'Його смажать і кладуть у суп, як звичайний.'
-  do: 'Кинь жменю в бульйон'
+  why: 'Мелений він стає приправою до будь-якої страви.'
+  do: 'Додай ложку в гарнір або суп'
 
 - key: shii-who
   topic: Шиїтаке
@@ -39,7 +39,7 @@ thoughts:
   retell: 'це про тих, хто готує вдома й хоче більше смаку'
   claim: 'КОМУ ВІН ЗАЙДЕ'
   why: 'Тим, хто готує вдома і хоче більше смаку.'
-  do: 'Візьми сушені — зберігаються місяцями'
+  do: 'Візьми мелений — зручніше додавати'
 
 - key: shii-umami
   topic: Шиїтаке
@@ -49,13 +49,13 @@ thoughts:
   extra: ''
   look: kitchen-morning
   subject: >
-    a hot cast-iron pan seen close: sliced shiitake mushrooms sizzling in butter, golden brown edges, a little steam, warm kitchen light, the mushrooms clearly recognisable as mushrooms
+    a plate of rice and vegetables on a kitchen table with a spoon of fine brown mushroom powder being sprinkled over it from above, warm daylight, appetising and simple
   compound: ''
   source: 'глутамати як джерело смаку умамі в Lentinula edodes'
   retell: 'сушіння робить смак насиченішим за свіжий гриб'
   claim: 'СМАК ЯК У МʼЯСА'
   why: 'Сушений дає густіший смак, ніж свіжий.'
-  do: 'Обсмаж на маслі до золотого'
+  do: 'Сипни ложку в гарнір наприкінці'
 
 - key: shii-how
   topic: Шиїтаке
@@ -92,6 +92,6 @@ thoughts:
   source: 'каталог: форма товару з картки'
   claim: ЩО БРАТИ ПЕРШИМ
   extra: >-
-    Сушені плодові тіла, цілі|Лежать місяцями без холодильника|Смажити або кинути в суп
+    Цілі сушені або мелені|Лежать місяцями без холодильника|Ложка меленого в будь-яку страву
   why: ''
   do: Замовляй у директі або на сайті
