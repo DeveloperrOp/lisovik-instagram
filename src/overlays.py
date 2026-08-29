@@ -453,8 +453,71 @@ def poster(img, s, data):
     return img
 
 
+def offer(img, s, data):
+    """Продающий кадр дня: ассортимент, консультация, где вся информация.
+
+    Четыре смысловых кадра ведут человека к продукту, но нигде не сказано,
+    КУДА идти и КАК заказать. Владелец поймал это первым: «у нас же должна
+    быть продажа». Поэтому день закрывается офертой.
+
+    Она устроена иначе, чем остальные кадры: не мысль с выводом, а три
+    строки-обещания и одно действие. Проверка мысли на неё не
+    распространяется — у оферты другая работа.
+    """
+    W, H = img.size
+    probe = ImageDraw.Draw(img)
+    fh = fnt(img, 0.070)
+    lines = ST.wrap(probe, data["headline"], fh, int(W * 0.84))
+    fp = fnt(img, 0.040, False)
+    points = [x.strip() for x in CT.SPLIT.split(data.get("extra") or "")
+              if x.strip()]
+
+    top = int(H * 0.150)
+    bottom = top + len(lines) * int(fh.size * 1.14) + int(H * 0.030)
+    for pt in points:
+        bottom += len(ST.wrap(probe, pt, fp, int(W * 0.74))) * int(fp.size * 1.34)
+        bottom += int(H * 0.014)
+
+    img = fade(img, bottom + int(H * 0.09), 210, s["light"],
+               tail=int(H * 0.09))
+    d = ImageDraw.Draw(img)
+
+    kicker = (data.get("kicker") or "").upper()
+    if kicker:
+        fk = fnt(img, 0.030)
+        track = fk.size * 0.16
+        wide = sum(d.textlength(c, font=fk) + track for c in kicker) - track
+        px, py = int(fk.size * 0.62), int(fk.size * 0.42)
+        x0, y0 = int(W * 0.08), int(H * 0.088)
+        d.rectangle([x0 - px, y0 - py, x0 + wide + px, y0 + fk.size + py],
+                    fill=ACCENT)
+        x = x0
+        for c in kicker:
+            put(d, (x, y0), c, fk, INK)
+            x += d.textlength(c, font=fk) + track
+
+    y = top
+    for ln in lines:
+        put(d, (int(W * 0.08), y), ln, fh, s["fg"])
+        y += int(fh.size * 1.14)
+
+    y += int(H * 0.030)
+    ink = s["fg"] if s["light"] else (238, 238, 240)
+    for pt in points:
+        wrapped = ST.wrap(probe, pt, fp, int(W * 0.74))
+        dot = int(fp.size * 0.30)
+        d.ellipse([int(W * 0.08), y + fp.size * 0.42,
+                   int(W * 0.08) + dot, y + fp.size * 0.42 + dot], fill=ACCENT)
+        for i, ln in enumerate(wrapped):
+            put(d, (int(W * 0.08) + int(dot * 2.4), y), ln, fp, ink)
+            y += int(fp.size * 1.34)
+        y += int(H * 0.014)
+    return img
+
+
 LAYOUTS = {
     "poster": (poster, "Плакат: заголовок на весь екран"),
+    "offer": (offer, "Оферта: асортимент, директ, сайт"),
     "line": (line, "Одна фраза на плашці"),
     "title_sub": (title_sub, "Заголовок і пояснення під ним"),
     "steps": (steps, "Кроки з номерами в кружечках"),

@@ -362,6 +362,25 @@ def check(t: dict) -> list:
     """Все претензии к кадру. Пусто — мысль закончена и голос выдержан."""
     bad = []
 
+    # Оферта — не мысль, а предложение: ассортимент, директ, сайт. Механику
+    # «утверждение → причина → вывод» к ней прикладывать бессмысленно,
+    # а вот запреты действуют все.
+    if t.get("layout") == "offer":
+        blob = " ".join(str(t.get(f, "")) for f in
+                        ("claim", "why", "do", "extra"))
+        for rx, what in ((CLAIMS, "медична обіцянка"), (DOSAGE, "дозування"),
+                         (EMPTY, "порожні слова"), (PROMISE, "обіцянка"),
+                         (HEDGE, "самопідрив")):
+            m = rx.search(blob)
+            if m:
+                bad.append(f"{what}: «{m.group(0)}»")
+        if not (t.get("do") or "").strip():
+            bad.append("оферта без дії: скажи, куди йти")
+        parts = [x for x in SPLIT.split(t.get("extra") or "") if x.strip()]
+        if len(parts) < 2:
+            bad.append("оферті потрібні щонайменше дві позиції в extra")
+        return bad
+
     for f in ("claim", "why", "do"):
         v = (t.get(f) or "").strip()
         if not v:
