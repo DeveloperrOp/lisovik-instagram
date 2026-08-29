@@ -22,7 +22,7 @@ thoughts:
   source: 'кулінарне застосування Lentinula edodes'
   retell: 'це звичайний їстівний гриб, а не добавка з банки'
   claim: 'ЦЕ ГРИБ ДЛЯ ЇЖІ'
-  why: 'Його кладуть у суп і смажать, як звичайний.'
+  why: 'Його смажать і кладуть у суп, як звичайний.'
   do: 'Кинь жменю в бульйон'
 
 - key: shii-who
@@ -33,13 +33,13 @@ thoughts:
   extra: ''
   look: kitchen-morning
   subject: >
-    a bright tidy kitchen counter: a bowl of soaking dried mushrooms, a chopping board and a knife, clean hands, daylight from a window
+    a bright tidy kitchen counter: dried shiitake caps in a bowl, a chopping board and a knife, clean hands, daylight from a window
   compound: ''
   source: 'voice_lines: смак і готування вдома'
   retell: 'це про тих, хто готує вдома й хоче більше смаку'
   claim: 'КОМУ ВІН ЗАЙДЕ'
   why: 'Тим, хто готує вдома і хоче більше смаку.'
-  do: 'Візьми сушені — розмочуються за годину'
+  do: 'Візьми сушені — зберігаються місяцями'
 
 - key: shii-umami
   topic: Шиїтаке
@@ -47,15 +47,15 @@ thoughts:
   slot: noon
   layout: poster
   extra: ''
-  look: macro-texture
+  look: kitchen-morning
   subject: >
-    extreme macro of the gills and cap texture of a dried shiitake mushroom, raking light bringing out relief, tactile and abstract
+    a hot cast-iron pan seen close: sliced shiitake mushrooms sizzling in butter, golden brown edges, a little steam, warm kitchen light, the mushrooms clearly recognisable as mushrooms
   compound: ''
   source: 'глутамати як джерело смаку умамі в Lentinula edodes'
-  retell: 'густий смак пояснюється власними речовинами гриба'
-  claim: 'ЗВІДКИ ТАКИЙ СМАК'
-  why: 'Умамі дають власні глутамати гриба.'
-  do: 'Додай воду після замочування у страву'
+  retell: 'сушіння робить смак насиченішим за свіжий гриб'
+  claim: 'СМАК ЯК У МʼЯСА'
+  why: 'Сушений дає густіший смак, ніж свіжий.'
+  do: 'Обсмаж на маслі до золотого'
 
 - key: shii-how
   topic: Шиїтаке
@@ -65,13 +65,13 @@ thoughts:
   extra: ''
   look: over-shoulder
   subject: >
-    over-the-shoulder view of a cutting board: soaked mushrooms being sliced, a pan warming behind, warm kitchen light
+    a glass jar of whole dried shiitake caps standing on a dry pantry shelf beside other jars, calm even light, orderly and clean
   compound: ''
   source: 'voice_lines: як готувати сушені'
-  retell: 'готування просте: замочити, нарізати, кинути в страву'
-  claim: 'ЯК ЙОГО ГОТУВАТИ'
-  why: 'Замочити, нарізати й кинути в страву.'
-  do: 'Замочи ввечері — вранці готовий'
+  retell: 'сушений беруть не через зручність, а через смак і строк'
+  claim: 'ЧОМУ СУШЕНИЙ, А НЕ СВІЖИЙ'
+  why: 'Він лежить місяцями й смак дає густіший.'
+  do: 'Тримай банку в сухому місці'
 
 - key: shiitake-sell
   topic: Шиїтаке
@@ -92,6 +92,6 @@ thoughts:
   source: 'каталог: форма товару з картки'
   claim: ЩО БРАТИ ПЕРШИМ
   extra: >-
-    Сушені плодові тіла, цілі|Розмочуються за годину|Воду після замочування не виливай
+    Сушені плодові тіла, цілі|Лежать місяцями без холодильника|Смажити або кинути в суп
   why: ''
   do: Замовляй у директі або на сайті
