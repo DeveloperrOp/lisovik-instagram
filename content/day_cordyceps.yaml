@@ -52,9 +52,9 @@ thoughts:
     slender bright orange club-shaped cordyceps fruiting bodies on a seamless deep black background, one hard side light, deep shadows
   compound: ''
   source: 'voice_lines: страх спробувати незнайоме'
-  retell: 'запах гриба лякає новачка, хоча він і має бути грибним'
-  claim: 'ЧОМУ ПАХНЕ ГРИБОМ'
-  why: 'Це сушені плодові тіла, без ароматизаторів.'
+  retell: 'різкий запах це ознака сушіння, а не браку партії'
+  claim: 'ЗАПАХ РІЗКИЙ — ЦЕ НОРМА?'
+  why: 'Так. Сушений гриб пахне сильніше за свіжий.'
   do: 'Понюхай перед тим, як мішати'
 
 - key: cord-when
