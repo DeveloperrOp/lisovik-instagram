@@ -41,8 +41,11 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
     neg = cfg["negative"]
     if not look.get("people"):
         neg += " " + cfg.get("negative_still", "")
+    # {jar} у subject → фірмова банка з looks.yaml. Без цього кожен кадр
+    # малює свій посуд, і в одному дні стоять три різні банки.
+    subject = t["subject"].replace("{jar}", cfg.get("jar", "a plain jar"))
     prompt = L.TEMPLATE.format(
-        subject=" ".join(t["subject"].split()),
+        subject=" ".join(subject.split()),
         look=" ".join(look["prompt"].split()),
         negative=" ".join(neg.split()))
     for n in range(1, tries + 1):

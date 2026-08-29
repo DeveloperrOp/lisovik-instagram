@@ -333,7 +333,7 @@ def qa(img, s, data):
     return img
 
 
-def fade(img, height, strength=170, light=False):
+def fade(img, height, strength=170, light=False, tail=None):
     """Затемнение сверху, уходящее в ноль книзу.
 
     Прямоугольная вуаль с резким краем читается как ошибка вёрстки:
@@ -347,7 +347,10 @@ def fade(img, height, strength=170, light=False):
     d = ImageDraw.Draw(layer)
     # Хвост был 34%, и на контрастном фоне переход всё равно читался
     # ступенькой поперёк кадра. Больше половины высоты — уже не видно.
-    soft = max(1, int(h * 0.58))
+    # Хвост считается от ЗАПАСА под текстом, а не от всей высоты вуали.
+    # Пока он был долей всей высоты, затемнение начинало гаснуть на
+    # середине подписи — и на светлом окне вторая строка пропадала.
+    soft = max(1, int(tail if tail else h * 0.58))
     for y in range(h):
         k = 1.0 if y < h - soft else 1.0 - (y - (h - soft)) / soft
         d.line([(0, y), (W, y)], fill=rgb + (int(strength * k),))
@@ -415,7 +418,8 @@ def poster(img, s, data):
     if blines:
         bottom += int(H * 0.024) + len(blines) * int(fb.size * 1.42)
 
-    img = fade(img, bottom + int(H * 0.10), 175, s["light"])
+    pad = int(H * 0.12)
+    img = fade(img, bottom + pad, 175, s["light"], tail=pad)
     d = ImageDraw.Draw(img)
 
     if kicker:

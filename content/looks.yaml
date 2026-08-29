@@ -35,6 +35,19 @@ negative: >
   no humanoid shapes, no figures resembling a human body,
   no anthropomorphic roots
 
+# Фірмова банка Лісовика, описана ОДИН раз і підставлена в subject
+# через {jar}. Раніше кожен кадр вигадував посуд сам, і на кухні
+# опинилася звичайна банка для консервації — власник спіймав це першим.
+#
+# Знята з реальних фото каталогу: кругла скляна банка, біла кришка,
+# крафтова етикетка на весь корпус. Читабельних слів на етикетці немає
+# навмисно: на дрібному тексті модель бреше, а вичитати її нічим.
+jar: >
+  a small round glass jar with a smooth white screw-on lid and a warm
+  rust-brown kraft paper label wrapped fully around the body, a simple
+  pale emblem centred on the label, pale cream powder visible inside,
+  the label bearing no readable words or letters at all
+
 negative_still: >
   no hands, no arms, no people, no faces, no body parts
 

@@ -48,9 +48,9 @@ thoughts:
   extra: ''
   look: kitchen-morning
   subject: >
-    a bright tidy morning kitchen: a mug of coffee, a plain unlabelled jar
-    of pale powder and a wooden spoon on the counter, a whole white lion's
-    mane mushroom beside them, daylight from a window
+    a bright tidy morning kitchen: a mug of coffee and a wooden spoon on the
+    counter, beside them {jar}, and one whole white lion's mane mushroom,
+    daylight from a window
   compound: ''
   source: 'картка Лісовика: «натуральний помічник для розуму та сил»'
   retell: людина має впізнати в описі свій власний робочий день
@@ -68,11 +68,16 @@ thoughts:
     a calm person by a window in soft evening light, holding a warm cup,
     looking out, unposed and quiet, neutral linen clothing
   compound: ''
-  source: 'voice_lines drop: «пропил 2 курса, ни каких изменений»'
-  retell: чекати спалаху марно, тому потрібна дата, з якою можна порівняти
-  claim: КОЛИ ПОМІТИШ ЗМІНУ
-  why: Зазвичай на третьому тижні. Не спалах, а рівний день.
-  do: Постав позначку в календарі на 21-й день
+  source: >
+    Docherty 2023, PMID 38004235: гостра точка — замір через 60 хвилин
+    після однієї порції, 41 здоровий дорослий. Швидкість у Струп-тесті
+    відрізнялася від плацебо. Другу половину тієї роботи в кадр НЕ беремо:
+    миттєве відтворення слів там вийшло гіршим за плацебо, і кадр, який
+    обіцяє «все й одразу», буде брехнею
+  retell: результату не треба чекати місяць, перша реакція швидка
+  claim: УВАГА ВІДГУКУЄТЬСЯ ПЕРШОЮ
+  why: Її перевіряли вже через годину після порції.
+  do: Випий зранку і подивись на свій вечір
 
 - key: mane-how-to-take
   topic: Їжовик гребінчастий
