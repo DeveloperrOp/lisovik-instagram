@@ -224,13 +224,16 @@ def draw_ref(prompt: str, ref_path, tok: str, dest) -> bool:
     """
     import base64
     from pathlib import Path
+    # ref_path может быть одним файлом или списком: для кадра со стопкой
+    # банок нужно показать модели все упаковки сразу, иначе она рисует
+    # одну настоящую и четыре выдуманные рядом.
+    refs = ref_path if isinstance(ref_path, (list, tuple)) else [ref_path]
+    parts = [{"inlineData": {"mimeType": "image/jpeg",
+                             "data": base64.b64encode(
+                                 Path(r).read_bytes()).decode()}}
+             for r in refs]
     payload = {
-        "contents": [{"role": "user", "parts": [
-            {"inlineData": {"mimeType": "image/jpeg",
-                            "data": base64.b64encode(
-                                Path(ref_path).read_bytes()).decode()}},
-            {"text": prompt},
-        ]}],
+        "contents": [{"role": "user", "parts": parts + [{"text": prompt}]}],
         "generationConfig": {
             "responseModalities": ["TEXT", "IMAGE"],
             "imageConfig": {"aspectRatio": "9:16", "imageSize": IMAGE_SIZE},

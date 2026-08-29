@@ -27,22 +27,31 @@ offers:
 
 - day: tue
   look: studio-dark
+  # liq5.jpg — студійне фото рідкого екстракту їжовика. Пляшечка в кадрі
+  # має бути наша, а не аптечна з фотостоку.
+  ref: liq5.jpg
   subject: >
-    four forms of the same mushroom laid out on a seamless deep black
-    background: a whole dried piece, a heap of fine powder, loose vegetarian
-    capsules and a small dropper bottle, one hard side light, deep shadows
+    forms of lion's mane laid out in a row on a seamless deep black
+    background: a whole dried white shaggy mushroom, a heap of pale cream
+    powder, loose vegetarian capsules, and the dark dropper bottle from the
+    attached photo standing at the end of the row, one hard side light,
+    deep shadows
   claim: ОДИН ГРИБ — КІЛЬКА ФОРМ
   extra: >-
-    Капсули, коли ніколи міряти|Мелений, коли хочеш дешевше|Цілий і рідкий
-    екстракт — для тих, хто заварює сам
+    Капсули — ковтнув і пішов|Мелений — дешевше на день|Краплі — для тих,
+    хто хоче концентровану користь
   do: Обери форму на сайті
 
 - day: wed
-  look: cgi-glossy
+  look: studio-dark
+  # Усі пʼять упаковок — наші. Без референсів модель малює одну справжню
+  # й чотири вигадані поруч, і кадр перетворюється на чужий бренд.
+  ref: [m9.jpg, c9.jpg, cord.jpg, ashwa.jpg, liq5.jpg]
   subject: >
-    a simple cardboard parcel and a small jar beside it on a soft pastel
-    backdrop, gentle ambient occlusion, clean studio CGI lighting, calm and
-    tactile, modern brand visual language
+    five of my product packages stacked and standing together in a tight
+    group on a dark surface: three jars stacked one on top of another, two
+    more standing beside the stack, an open cardboard parcel behind them,
+    one hard side light carving out the labels, deep shadows
   claim: НОВОЮ ПОШТОЮ ЗА 1–3 ДНІ
   extra: >-
     Відправляємо по всій країні|Замовлення приймаємо в директі|Питання про
@@ -86,10 +95,12 @@ offers:
 
 - day: sun
   look: levitation
+  ref: [m9.jpg, c9.jpg, cord.jpg, ashwa.jpg, liq5.jpg]
   subject: >
-    several small jars and spoons of different powders floating weightless in
-    mid-air against a flat warm colour background, arranged at different
-    depths, soft even light, crisp shadowless edges
+    five of my product packages floating weightless in mid-air against a flat
+    warm colour background, arranged at different depths and slightly turned,
+    a wooden spoon of powder beside two of them, soft even light, crisp
+    edges
   claim: ЩО З ЧИМ ПОЄДНУЮТЬ
   extra: >-
     Одні беруть зранку, інші на вечір|Деякі поєднання зайві|Підкажемо, що

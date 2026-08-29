@@ -53,20 +53,41 @@ scene's optics — same lens, same shallow depth of field, same grain and
 white balance — so its edges fall off softly like every other object. No
 crisp cut-out edge, no halo, no sticker flatness.
 
-The jar is NOT the hero of the frame. It stands a little back, beside or
+The product is NOT the hero of the frame. It stands a little back, beside or
 behind the main action, partly outside the plane of focus, so its label
 reads as colour and shape rather than as a catalogue front. Part of it may
 be cropped or overlapped by another object — that is good, it means the jar
 lives in the room.
 
-Keep only the product design, exactly as the photo shows it: the same jar
-proportions, the same tall white ribbed cap, and the same label — its own
-colour, its own artwork, its own emblem and side windows. Do not recolour
-the label and do not borrow a label from another product. The studio
+Keep only the product design, exactly as the photo shows it: the same
+container shape and proportions, the same closure, and the same label — its
+own colour, its own artwork, its own emblem. The reference may be a squat
+jar with a white cap or a tall dark dropper bottle: follow the photo, never
+a shape from another product. Do not recolour the label. The studio
 backdrop, the glass stand and the studio lighting stay in the reference.
 
 Exactly ONE jar, cap on. Contemporary editorial photography shot today, not
 a 2000s catalogue composite. Add no lettering of your own anywhere.
+"""
+
+
+
+# Когда референсов несколько: кадр со стопкой банок или витриной.
+# Одиночный REF_NOTE тут не годится — он говорит «ровно одна единица».
+REF_MANY = """
+The attached photos show MY REAL PRODUCTS, each shot in a studio. Do not
+paste them in. Photograph these same products AGAIN inside the scene above,
+as one continuous photograph: one camera, one light, one depth of field.
+
+Every package in the frame must be one of the attached ones — same container
+shape, same closure, same label colour and artwork. Do not invent any extra
+package, do not put a blank or generic jar among them, and do not mix in a
+label from a different brand. If you need fewer objects, drop one of mine
+rather than adding an invented one.
+
+The studio backdrops, the glass stands and the studio lighting stay in the
+references and must not appear. Contemporary editorial photography shot
+today, not a 2000s catalogue composite. Add no lettering of your own.
 """
 
 
@@ -94,11 +115,14 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
     # модель держит точно — механика та же, что на товарных кадрах.
     ref = t.get("ref")
     if ref:
-        prompt += " " + " ".join(REF_NOTE.split())
+        many = isinstance(ref, (list, tuple))
+        prompt += " " + " ".join((REF_MANY if many else REF_NOTE).split())
 
     for n in range(1, tries + 1):
-        ok = (F.draw_ref(prompt, OUT_DIR / "real" / "all" / ref, tok, dest)
-              if ref else F.draw_raw(prompt, tok, dest))
+        paths = ([OUT_DIR / "real" / "all" / r for r in ref] if many
+                 else OUT_DIR / "real" / "all" / ref) if ref else None
+        ok = (F.draw_ref(prompt, paths, tok, dest) if ref
+              else F.draw_raw(prompt, tok, dest))
         if not ok:
             time.sleep(5)
             continue
@@ -113,8 +137,10 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
             # Сверяем по КОРНЮ, а не по точному слову: у ежовика на
             # этикетке «мелений», у чаги «мелена». Точное сравнение
             # браковало вторую именно за род.
+            names = ("чага їжовик гребінчастий кордицепс військовий рейші "
+                     "ашваганда шиїтаке ") if many else t.get("topic", "")
             roots = [w[:5] for w in re.split(
-                r"[\s,.]+", (t.get("topic", "") + " лісовик мелений мелена "
+                r"[\s,.]+", (names + " лісовик мелений мелена "
                              "цілий ціла капсули екстракт").lower()) if w]
             def own(word):
                 return (word.isdigit() or len(word) < 2
