@@ -25,7 +25,10 @@ DEFAULTS = CONTENT_DIR / "defaults.yaml"
 PRODUCTS = CONTENT_DIR / "products.json"
 OUT = CONTENT_DIR / "content_plan.yaml"
 
-SLOT_NAMES = ["morning", "day", "evening", "night"]
+# Имена слотов больше не дублируются здесь списком: они берутся из
+# defaults.yaml, где заданы и времена. Пока список стоял хардкодом,
+# добавление пятого окна ломало нумерацию молча.
+SLOT_NAMES = []          # заполняется из конфига в main()
 DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 
 TEXT_FIELDS = ("headline", "body", "tip", "wrong", "right", "why",
@@ -183,6 +186,12 @@ def main():
     weeks = int(sys.argv[1]) if len(sys.argv) > 1 else 4
 
     defaults = yaml.safe_load(DEFAULTS.read_text(encoding="utf-8"))
+    global SLOT_NAMES
+    SLOT_NAMES = list(defaults["slots"])
+    if len(SLOT_NAMES) != len(defaults["day_slots"]):
+        raise SystemExit(
+            f"вікон {len(SLOT_NAMES)}, а типів у дні "
+            f"{len(defaults['day_slots'])} — вони мусять збігатися")
     themes = defaults["day_themes"]
     night_rot = defaults["night_rotation"]
     manual = set(defaults.get("manual_types") or [])

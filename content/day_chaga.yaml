@@ -16,6 +16,7 @@
 
 thoughts:
 - key: chaga-evening-coffee
+  slot: evening
   topic: Чага березова
   day: tue
   layout: poster
@@ -32,6 +33,7 @@ thoughts:
   do: Завари чагу замість вечірньої кави
 
 - key: chaga-who-its-for
+  slot: morning
   topic: Чага березова
   day: tue
   layout: poster
@@ -53,6 +55,7 @@ thoughts:
   do: Візьми мелену — заварюється як чай
 
 - key: chaga-why-so-dark
+  slot: dawn
   topic: Чага березова
   day: tue
   layout: poster
@@ -70,6 +73,7 @@ thoughts:
   do: Дивись на просвіт — має бути прозорим
 
 - key: chaga-how-long
+  slot: noon
   topic: Чага березова
   day: tue
   layout: poster
@@ -87,6 +91,7 @@ thoughts:
   do: Залий увечері, питимеш зранку
 
 - key: chaga-offer
+  slot: night
   topic: Лісовик
   day: tue
   layout: offer

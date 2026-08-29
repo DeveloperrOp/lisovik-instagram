@@ -25,6 +25,7 @@
 
 thoughts:
 - key: mane-what-changes
+  slot: dawn
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
@@ -42,6 +43,7 @@ thoughts:
   do: Бери мелений — це 25 днів курсу
 
 - key: mane-who-its-for
+  slot: morning
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
@@ -64,6 +66,7 @@ thoughts:
   do: Візьми мелений і подивись на собі
 
 - key: mane-when-youll-notice
+  slot: noon
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
@@ -85,6 +88,7 @@ thoughts:
   do: Випий зранку і подивись на свій вечір
 
 - key: mane-how-to-take
+  slot: evening
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
@@ -101,6 +105,7 @@ thoughts:
   do: Розмішай ложку в ранковій каві
 
 - key: mane-offer
+  slot: night
   topic: Лісовик
   day: mon
   layout: offer
