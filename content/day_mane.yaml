@@ -1,91 +1,91 @@
-# День ежовика, собранный из РЕАЛЬНЫХ возражений покупателей.
+# День ежовика. СУТЬ ПЕРЕСОБРАНА.
 #
-# ПОЧЕМУ ПЕРЕПИСАНО В ТРЕТИЙ РАЗ. Ярик: «главная претензия по прошлым
-# работам к текстам, а не к картинкам». Он прав, и диагноз нашёлся не в
-# моей голове, а в content/voice_lines.md — 167 строк живого языка, из
-# них 60 objection и 36 drop.
+# Ярик: «мне вообще не нравятся тексты, а может вообще суть того что ты
+# пишешь». Он прав, и вот две ошибки, которые я делал.
 #
-# Доминирующая боль звучит так: «Пропил 2 курса, никаких изменений. Что
-# пил, что не пил». Двадцать строк про то же самое. Человек не знает,
-# чего ждать и когда — поэтому бросает и решает, что не работает.
+# ОШИБКА ПЕРВАЯ. Я взял возражения из отзывов и построил на них ВЕСЬ
+# день: дорого, муторно заваривать, выглядит неаппетитно. Получилась
+# антиреклама — бренд четыре кадра подряд рассказывает, чем плох его
+# собственный товар. Возражение работает как заход, когда оно одно из
+# четырёх, а не когда оно все четыре.
 #
-# Второй по частоте страх: «Сподіваюсь це не пресована макуха!» — в банке
-# не гриб, а наполнитель.
+# ОШИБКА ВТОРАЯ, ГЛАВНАЯ. Ни один кадр не говорил, ЗАЧЕМ это пить. Весь
+# день был про логистику употребления — температура воды, осадок, гуща.
+# Это контент для того, кто УЖЕ купил. А аккаунт продаёт тем, кто ещё
+# нет. Я туда съехал, потому что боялся говорить про эффект.
 #
-# А я писал «ні шапки, ні ніжки» и «смолисті сполуки в осаді». Ботаника
-# вместо ответа на то, что человека реально держит от покупки.
+# А граница у владельца давно проведена, на его же карточках:
+#   «ноотроп від природи — допомагає зосередитися, краще памʼятати
+#    й не вигоряти»
+#   «натуральний помічник для розуму та сил»
+# Формулировки ниже держатся этой границы и не идут дальше неё.
 #
-# Теперь каждый кадр берёт одно возражение из отзывов и СНИМАЕТ его.
-# Не подтверждает, не обходит — снимает и ведёт к действию.
-#
-# Фото с сайта не используются: только генерация. Товар в кадре без
-# читаемой этикетки — на мелком тексте модель врёт.
+# НОВАЯ СУТЬ ДНЯ: что изменится в твоём дне → узнаёшь ли ты себя →
+# когда это заметишь → как начать. Товар в конце каждого кадра.
 
 thoughts:
-- key: mane-what-to-notice
+- key: mane-what-changes
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
   extra: ''
-  look: portrait-calm
+  look: over-shoulder
   subject: >
-    a calm person by a window at dusk with a warm cup, soft evening light,
-    quiet unposed moment, neutral linen clothing
+    over-the-shoulder view of a tidy desk in the late afternoon: an open
+    notebook, a laptop, a half-full mug, warm low sunlight across the table,
+    a shoulder softly out of focus at the frame edge
   compound: ''
-  source: 'voice_lines drop: «Пропил 2 курса, ни каких изменений»'
-  retell: людина чекає спалаху й не бачить тихої зміни, тому їй потрібна дата для порівняння
-  claim: МІСЯЦЬ ЇЖОВИКА — І НІЧОГО
-  why: 'Зміна тиха: не спалах, а ясніша голова надвечір.'
-  do: Постав позначку в календарі на 21-й день
+  source: 'картка Лісовика: «допомагає зосередитися, краще памʼятати й не вигоряти»'
+  retell: до вечора увага сідає, і саме тут гриб має свою роботу
+  claim: ДО ОБІДУ ДУМАЄШ, ПОТІМ ТУМАН
+  why: Їжовик допомагає зосередитись, коли день довгий.
+  do: Бери мелений — це 25 днів курсу
 
-- key: mane-is-it-really-mushroom
-  topic: Їжовик гребінчастий
-  day: mon
-  layout: poster
-  extra: ''
-  look: macro-texture
-  subject: >
-    a heaped wooden spoon of pale cream mushroom powder above a bowl of the
-    same powder, and beside them one whole dried white lion's mane mushroom
-    with its shaggy hanging spines clearly visible, clean neutral
-    background, close and appetising, no cracked earth or stone
-  compound: ''
-  source: 'voice_lines objection: «Сподіваюсь це не пресована макуха!»'
-  retell: страх про наповнювач знімає короткий перелік на етикетці
-  claim: А РАПТОМ ТАМ НЕ ГРИБ
-  why: 'У складі один рядок: сам гриб, змелений.'
-  do: Читай склад — він має бути коротким
-
-- key: mane-forget-to-take
+- key: mane-who-its-for
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
   extra: ''
   look: kitchen-morning
   subject: >
-    a bright tidy kitchen counter in the morning: a plain unlabelled glass
-    jar of pale powder next to a kettle, and beside the jar one whole white
-    lion's mane mushroom with shaggy hanging spines, clean well-groomed
-    hands reaching for the jar, daylight from a window
+    a bright tidy morning kitchen: a mug of coffee, a plain unlabelled jar
+    of pale powder and a wooden spoon on the counter, a whole white lion's
+    mane mushroom beside them, daylight from a window
   compound: ''
-  source: 'voice_lines drop: курс кидають на другому тижні'
-  retell: щоб курс не обірвався, банка має стояти там, куди рука тягнеться вранці сама
-  claim: ЗАБУВАЮ ПИТИ ЩОДНЯ
-  why: Курс їжовика кидають на другому тижні саме через це.
-  do: Постав банку біля чайника чи кавоварки
+  source: 'картка Лісовика: «натуральний помічник для розуму та сил»'
+  retell: людина має впізнати в описі свій власний робочий день
+  claim: КОМУ ВІН ЗАЙДЕ
+  why: Тим, хто вчиться, пише, рахує — і до вечора вигорає.
+  do: Візьми мелений і подивись на собі
 
-- key: mane-can-i-drink-it
+- key: mane-when-youll-notice
+  topic: Їжовик гребінчастий
+  day: mon
+  layout: poster
+  extra: ''
+  look: portrait-calm
+  subject: >
+    a calm person by a window in soft evening light, holding a warm cup,
+    looking out, unposed and quiet, neutral linen clothing
+  compound: ''
+  source: 'voice_lines drop: «пропил 2 курса, ни каких изменений»'
+  retell: чекати спалаху марно, тому потрібна дата, з якою можна порівняти
+  claim: КОЛИ ПОМІТИШ ЗМІНУ
+  why: Зазвичай на третьому тижні. Не спалах, а рівний день.
+  do: Постав позначку в календарі на 21-й день
+
+- key: mane-how-to-take
   topic: Їжовик гребінчастий
   day: mon
   layout: poster
   extra: ''
   look: hands-hold
   subject: >
-    two clean hands cradling a mug of morning coffee, steam rising, soft
-    side light, quiet and warm
+    two clean hands cradling a mug of morning coffee with a spoon of pale
+    powder being stirred in, steam rising, soft side light
   compound: ''
   source: 'voice_lines objection: смак і запах, 16 рядків'
-  retell: смак не стане перешкодою, бо в гарячому напої він губиться
-  claim: А ЯКЩО НЕ ЗМОЖУ ПИТИ
-  why: Їжовик мʼякий, горіховий. У каві його майже не чути.
+  retell: спосіб приймання має бути таким простим, щоб не було про що думати
+  claim: ЯК ЙОГО ПИТИ
+  why: Ложка в каву, какао або тепле молоко.
   do: Розмішай ложку в ранковій каві
