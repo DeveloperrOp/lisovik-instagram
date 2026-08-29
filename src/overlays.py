@@ -419,14 +419,24 @@ def poster(img, s, data):
         bottom += int(H * 0.024) + len(blines) * int(fb.size * 1.42)
 
     pad = int(H * 0.12)
-    img = fade(img, bottom + pad, 175, s["light"], tail=pad)
+    img = fade(img, bottom + pad, 205, s["light"], tail=pad)
     d = ImageDraw.Draw(img)
 
     if kicker:
-        x = int(W * 0.08)
+        # Жёлтым по светлому фону кикер не читается — владелец обвёл его
+        # красным первым же взглядом. Поэтому он теперь стоит НА жёлтой
+        # плашке тёмным: цвет бренда сохраняется, а контраст перестаёт
+        # зависеть от того, что модель нарисовала под текстом.
+        track = fk.size * 0.16
+        wide = sum(d.textlength(c, font=fk) + track for c in kicker) - track
+        px, py = int(fk.size * 0.62), int(fk.size * 0.42)
+        x0, y0 = int(W * 0.08), int(H * 0.088)
+        d.rectangle([x0 - px, y0 - py,
+                     x0 + wide + px, y0 + fk.size + py], fill=ACCENT)
+        x = x0
         for c in kicker:
-            put(d, (x, int(H * 0.095)), c, fk, ACCENT)
-            x += d.textlength(c, font=fk) + fk.size * 0.16
+            put(d, (x, y0), c, fk, INK)
+            x += d.textlength(c, font=fk) + track
 
     y = top
     for ln in lines:
@@ -434,8 +444,11 @@ def poster(img, s, data):
         y += int(fh.size * 1.10)
     if blines:
         y += int(H * 0.024)
+        # Приглушённый серый годится на ровном фоне, а на светлом окне
+        # он пропадает. Подпись несёт смысл кадра — она не декор.
+        sub = (32, 32, 36) if s["light"] else (238, 238, 240)
         for ln in blines:
-            put(d, (int(W * 0.08), y), ln, fb, s["sub"])
+            put(d, (int(W * 0.08), y), ln, fb, sub)
             y += int(fb.size * 1.42)
     return img
 

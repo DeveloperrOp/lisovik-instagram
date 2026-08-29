@@ -86,6 +86,10 @@ def draw_raw(prompt: str, tok: str, dest) -> bool:
             "imageConfig": {"aspectRatio": "9:16", "imageSize": IMAGE_SIZE},
         },
     }
+    return _post(payload, tok, dest)
+
+
+def _post(payload: dict, tok: str, dest) -> bool:
     for attempt in range(1, 6):
         req = urllib.request.Request(
             endpoint(), data=json.dumps(payload).encode("utf-8"),
@@ -205,3 +209,31 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+def draw_ref(prompt: str, ref_path, tok: str, dest) -> bool:
+    """Рисует по промпту ПЛЮС фото-референс товара.
+
+    Владелец: «банка на фото не моя», потом — «дай референс». Описать
+    упаковку словами не выходит: я трижды промахнулся по форме, крышке и
+    этикетке. Модель же держит пакет точно, когда он приложен картинкой —
+    это уже проверено на товарных кадрах в generate.py.
+
+    Фото товара идёт только как образец упаковки. В кадр оно не
+    публикуется: наружу уходит сгенерированная сцена.
+    """
+    import base64
+    from pathlib import Path
+    payload = {
+        "contents": [{"role": "user", "parts": [
+            {"inlineData": {"mimeType": "image/jpeg",
+                            "data": base64.b64encode(
+                                Path(ref_path).read_bytes()).decode()}},
+            {"text": prompt},
+        ]}],
+        "generationConfig": {
+            "responseModalities": ["TEXT", "IMAGE"],
+            "imageConfig": {"aspectRatio": "9:16", "imageSize": IMAGE_SIZE},
+        },
+    }
+    return _post(payload, tok, dest)

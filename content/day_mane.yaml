@@ -47,9 +47,12 @@ thoughts:
   layout: poster
   extra: ''
   look: kitchen-morning
+  # m9.jpg — студійне фото самої банки. Йде в модель як зразок
+  # упаковки, у кадр не публікується: назовні йде згенерована сцена.
+  ref: m9.jpg
   subject: >
     a bright tidy morning kitchen: a mug of coffee and a wooden spoon on the
-    counter, beside them {jar}, and one whole white lion's mane mushroom,
+    counter, beside them the jar from the attached photo, and one whole white lion's mane mushroom,
     daylight from a window
   compound: ''
   source: 'картка Лісовика: «натуральний помічник для розуму та сил»'

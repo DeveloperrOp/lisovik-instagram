@@ -14,6 +14,7 @@
 орфографию, а вычитать её нечем — вычитчик читает изображение той же
 моделью и её же опечатку не видит.
 """
+import re
 import sys
 import time
 from pathlib import Path
@@ -48,12 +49,36 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
         subject=" ".join(subject.split()),
         look=" ".join(look["prompt"].split()),
         negative=" ".join(neg.split()))
+    # Референс упаковки. Описать банку словами не вышло трижды: форма,
+    # крышка и этикетка каждый раз выходили чужими. Приложенное фото
+    # модель держит точно — механика та же, что на товарных кадрах.
+    ref = t.get("ref")
+    if ref:
+        prompt = (prompt + " The attached image is MY REAL PRODUCT: keep this "
+                  "exact jar — identical squat shape, identical white ribbed "
+                  "cap, identical terracotta label artwork and proportions. "
+                  "Do not redesign the package and do not invent a different "
+                  "jar. Render no readable letters anywhere in the frame.")
     for n in range(1, tries + 1):
-        if not F.draw_raw(prompt, tok, dest):
+        ok = (F.draw_ref(prompt, OUT_DIR / "real" / "all" / ref, tok, dest)
+              if ref else F.draw_raw(prompt, tok, dest))
+        if not ok:
             time.sleep(5)
             continue
         seen = V.check(dest, [], tok).get("seen", {})
         lines = [x for x in seen.get("text_lines", []) if x.strip()]
+        # На кадре с референсом этикетка ОБЯЗАНА нести свои слова: это
+        # настоящая упаковка, а не дорисовка. Браковать надо чужое —
+        # никнеймы, интерфейс, выдуманную латиницу, — а не название
+        # товара. Пока правило было общим, две годные попытки ушли в брак
+        # именно за то, ради чего референс и прикладывали.
+        if ref:
+            allowed = re.split(r"[\s,\-]+",
+                               (t.get("topic", "") + " лісовик мелений "
+                                "цілий капсули г").lower())
+            lines = [x for x in lines
+                     if not all(w in allowed or w.isdigit()
+                                for w in re.split(r"[\s,\-]+", x.lower()) if w)]
         if not lines:
             print(f"  ✔ {t['key']:24} {t['look']:14} з {n}-ї спроби", flush=True)
             return True
