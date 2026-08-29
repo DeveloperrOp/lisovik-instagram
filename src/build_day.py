@@ -30,6 +30,45 @@ import verify_frame as V
 from config import CONTENT_DIR, OUT_DIR
 
 
+
+# Что дописывается к промпту, когда у кадра есть фото-референс упаковки.
+#
+# Первая версия говорила только «сохрани эту банку и не рисуй читаемых
+# букв» — и получила два дефекта сразу. Банка выходила как наклейка:
+# студийный свет на ней, свет сцены вокруг, тени под ней нет. А запрет
+# на буквы прямо спорил с требованием сохранить этикетку, на которой
+# буквы есть.
+#
+# Поэтому здесь две вещи по отдельности: упаковка держится точно, а свет,
+# тень, масштаб и резкость подчиняются сцене. Запрет на текст оставлен
+# только для того, что НЕ является этикеткой товара.
+REF_NOTE = """
+The attached photo shows MY REAL PRODUCT, shot in a studio. Take ONLY the
+package from it. Everything else in that photo — its white backdrop, the
+glass stand under it, its studio lighting and its surface — belongs to the
+reference shot and must NOT appear here. The jar stands directly on the
+surface of the scene described above.
+
+Reproduce this exact jar: same
+squat proportions, same tall white ribbed cap, same terracotta label with
+the same artwork, emblem and wording. Do not redesign the package.
+
+But the jar must belong to the scene, not be pasted onto it. Relight it
+with the light of this scene: same direction, same softness, same colour
+temperature. Ground it with a real contact shadow where it meets the
+surface, and a faint reflection if the surface is glossy. Give it the same
+lens character as the rest of the frame — same depth of field, same focus
+falloff, same grain. Keep it in scale with the objects around it: this jar
+is small, roughly the height of a coffee cup beside it.
+
+EXACTLY ONE jar appears in the frame — never two, never a duplicate held
+in a hand. Its white cap is on the jar unless the scene says otherwise.
+
+The only readable words in the whole frame are the ones already printed on
+that label. Add no other text, captions, signage or invented lettering.
+"""
+
+
 def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
             tries=3) -> bool:
     dest = outdir / f"{t['key']}.png"
@@ -54,11 +93,8 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
     # модель держит точно — механика та же, что на товарных кадрах.
     ref = t.get("ref")
     if ref:
-        prompt = (prompt + " The attached image is MY REAL PRODUCT: keep this "
-                  "exact jar — identical squat shape, identical white ribbed "
-                  "cap, identical terracotta label artwork and proportions. "
-                  "Do not redesign the package and do not invent a different "
-                  "jar. Render no readable letters anywhere in the frame.")
+        prompt += " " + " ".join(REF_NOTE.split())
+
     for n in range(1, tries + 1):
         ok = (F.draw_ref(prompt, OUT_DIR / "real" / "all" / ref, tok, dest)
               if ref else F.draw_raw(prompt, tok, dest))
@@ -73,12 +109,12 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
         # товара. Пока правило было общим, две годные попытки ушли в брак
         # именно за то, ради чего референс и прикладывали.
         if ref:
-            allowed = re.split(r"[\s,\-]+",
+            allowed = re.split(r"[\s,.–—-]+",
                                (t.get("topic", "") + " лісовик мелений "
                                 "цілий капсули г").lower())
             lines = [x for x in lines
                      if not all(w in allowed or w.isdigit()
-                                for w in re.split(r"[\s,\-]+", x.lower()) if w)]
+                                for w in re.split(r"[\s,.–—-]+", x.lower()) if w)]
         if not lines:
             print(f"  ✔ {t['key']:24} {t['look']:14} з {n}-ї спроби", flush=True)
             return True
