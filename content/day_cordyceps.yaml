@@ -1,0 +1,97 @@
+# День кордицепса. Собран по брифу продукта: возражения из voice_lines,
+# формы в наличии из каталога, факты о самом предмете.
+#
+# 🚨 Формулировки пользы с карточки НЕ БЕРУТСЯ. В описаниях стоят
+# «профілактичний ефект проти онкологічних захворювань» і «депресивні стани».
+# В Instagram это блокировка, по закону о добавках — нарушение.
+#
+# Поэтому польза здесь — со стороны предмета: вкус, цвет, форма, время
+# приёма. Это правда, и она ничего не лечит.
+
+thoughts:
+- key: cord-colour
+  topic: Кордицепс
+  day: thu
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of bright orange cordyceps militaris powder filling the frame, fine texture, raking light
+  compound: ''
+  source: 'каротиноїди як джерело кольору Cordyceps militaris'
+  retell: 'яскравий колір це нормальний вигляд гриба, не барвник'
+  claim: 'ЧОМУ ВІН ТАКИЙ ПОМАРАНЧЕВИЙ'
+  why: 'Колір дають каротиноїди — ті самі, що в моркві.'
+  do: 'Насип ложку на біле блюдце'
+
+- key: cord-who
+  topic: Кордицепс
+  day: thu
+  slot: morning
+  layout: poster
+  extra: ''
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a tidy desk early in the morning: a mug, a notebook and a small jar, first daylight through the window
+  compound: ''
+  source: 'voice_lines: ранній підйом і довгий день'
+  retell: 'це про тих, у кого день починається рано й тягнеться довго'
+  claim: 'КОМУ ВІН ЗАЙДЕ'
+  why: 'Тим, хто рано встає і тягне довгий день.'
+  do: 'Візьми капсули, якщо смак лякає'
+
+- key: cord-smell
+  topic: Кордицепс
+  day: thu
+  slot: noon
+  layout: poster
+  extra: ''
+  look: studio-dark
+  subject: >
+    slender bright orange club-shaped cordyceps fruiting bodies on a seamless deep black background, one hard side light, deep shadows
+  compound: ''
+  source: 'voice_lines: страх спробувати незнайоме'
+  retell: 'запах гриба лякає новачка, хоча він і має бути грибним'
+  claim: 'ЧОМУ ПАХНЕ ГРИБОМ'
+  why: 'Це сушені плодові тіла, без ароматизаторів.'
+  do: 'Понюхай перед тим, як мішати'
+
+- key: cord-when
+  topic: Кордицепс
+  day: thu
+  slot: evening
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a bright tidy morning kitchen: a mug of coffee with orange powder being stirred in, a spoon and a small jar beside it, daylight
+  compound: ''
+  source: 'voice_lines: збудження в перші години після прийому'
+  retell: 'час прийому обирають зранку, щоб вечір лишався спокійним'
+  claim: 'КОЛИ ЙОГО ПИТИ'
+  why: 'Зранку або перед навантаженням, а не на ніч.'
+  do: 'Випий зранку, до обіду'
+
+- key: cordyceps-sell
+  topic: Кордицепс
+  day: thu
+  slot: sell
+  layout: offer
+  product: Кордицепс
+  ref: cord.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Сушені плодові тіла, мелені|Капсули — коли смак заважає|Ложка в каву або в бульйон
+  why: ''
+  do: Замовляй у директі або на сайті

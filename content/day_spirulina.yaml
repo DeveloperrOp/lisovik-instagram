@@ -1,0 +1,97 @@
+# День спіруліни. Собран по брифу продукта: возражения из voice_lines,
+# формы в наличии из каталога, факты о самом предмете.
+#
+# 🚨 Формулировки пользы с карточки НЕ БЕРУТСЯ. В описаниях стоят
+# загальні обіцянки про імунітет і очищення.
+# В Instagram это блокировка, по закону о добавках — нарушение.
+#
+# Поэтому польза здесь — со стороны предмета: вкус, цвет, форма, время
+# приёма. Это правда, и она ничего не лечит.
+
+thoughts:
+- key: spir-taste
+  topic: Спіруліна
+  day: wed
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of deep blue-green spirulina powder filling the frame, fine texture, raking light
+  compound: ''
+  source: 'voice_lines: різкий смак і погана розчинність'
+  retell: 'яскравий смак перебивається кислим соком, а не водою'
+  claim: 'ЗЕЛЕНИЙ СМАК ЛЯКАЄ'
+  why: 'Його перебиває кислий сік — яблучний або апельсиновий.'
+  do: 'Розмішай у соку, а не у воді'
+
+- key: spir-who
+  topic: Спіруліна
+  day: wed
+  slot: morning
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a bright tidy morning kitchen: a glass of green juice, a spoon of deep green powder and a small jar, daylight from a window
+  compound: ''
+  source: 'voice_lines: більше зелені в раціоні'
+  retell: 'це про людей, у яких у тарілці зелені майже немає'
+  claim: 'КОМУ ВОНА ЗАЙДЕ'
+  why: 'Тим, у кого в тарілці зелені майже немає.'
+  do: 'Візьми таблетки, якщо порошок важко пити'
+
+- key: spir-colour
+  topic: Спіруліна
+  day: wed
+  slot: noon
+  layout: poster
+  extra: ''
+  look: splash
+  subject: >
+    a glass of deep green drink caught mid-pour, separate droplets suspended in the air, clean gradient background
+  compound: ''
+  source: 'хлорофіл як джерело кольору Spirulina platensis'
+  retell: 'колір показує свіжість, і його можна перевірити оком'
+  claim: 'ЧОМУ ВОНА ТАКА ЗЕЛЕНА'
+  why: 'Колір дає зелений барвник — його звуть хлорофілом.'
+  do: 'Дивись на колір: він має бути темний'
+
+- key: spir-with-what
+  topic: Спіруліна
+  day: wed
+  slot: evening
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two clean hands holding a glass of green smoothie at a table, soft side light, calm and warm
+  compound: ''
+  source: 'voice_lines: з кавою не поєднується'
+  retell: 'напій добирають так, щоб смак не заважав пити щодня'
+  claim: 'З ЧИМ ЇЇ ПИТИ'
+  why: 'Сік, смузі або йогурт. З кавою вона не дружить.'
+  do: 'Розмішай у склянці соку зранку'
+
+- key: spirulina-sell
+  topic: Спіруліна
+  day: wed
+  slot: sell
+  layout: offer
+  product: Спіруліна
+  ref: spir.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Порошок або пресовані таблетки|Таблетки — коли смак заважає|Порошок — коли мішаєш у сік
+  why: ''
+  do: Замовляй у директі або на сайті

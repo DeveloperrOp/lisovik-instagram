@@ -1,0 +1,97 @@
+# День ашваганди. Собран по брифу продукта: возражения из voice_lines,
+# формы в наличии из каталога, факты о самом предмете.
+#
+# 🚨 Формулировки пользы с карточки НЕ БЕРУТСЯ. В описаниях стоят
+# «протипухлинні властивості», «знімає болі» і «стабілізує тиск».
+# В Instagram это блокировка, по закону о добавках — нарушение.
+#
+# Поэтому польза здесь — со стороны предмета: вкус, цвет, форма, время
+# приёма. Это правда, и она ничего не лечит.
+
+thoughts:
+- key: ashwa-when
+  topic: Ашваганда
+  day: fri
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: portrait-calm
+  subject: >
+    a calm person by a window in soft evening light holding a warm cup, unposed and quiet, neutral linen clothing
+  compound: ''
+  source: 'voice_lines: вечірній прийом і сон'
+  retell: 'час прийому вечірній, бо це не про бадьорість'
+  claim: 'КОЛИ ЇЇ ПИТИ'
+  why: 'Увечері: вона про спокій, а не про бадьорість.'
+  do: 'Випий за годину до сну'
+
+- key: ashwa-who
+  topic: Ашваганда
+  day: fri
+  slot: morning
+  layout: poster
+  extra: ''
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a bedside table at night: a lamp, a book and a mug of warm milk, soft warm light
+  compound: ''
+  source: 'voice_lines: думки крутяться після відбою'
+  retell: 'це про тих, у кого думки крутяться після відбою'
+  claim: 'КОМУ ВОНА ЗАЙДЕ'
+  why: 'Тим, у кого голова не вимикається ввечері.'
+  do: 'Візьми мелену — дешевше на день'
+
+- key: ashwa-bitter
+  topic: Ашваганда
+  day: fri
+  slot: noon
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of fine beige ashwagandha root powder filling the frame, dried woody root pieces beside it, raking light
+  compound: ''
+  source: 'гіркота кореня Withania somnifera'
+  retell: 'гіркота це ознака кореня, а не браку'
+  claim: 'ЧОМУ ВОНА ГІРКА'
+  why: 'Це корінь, а не ягода. Гіркота тут нормальна.'
+  do: 'Розмішай у теплому молоці з медом'
+
+- key: ashwa-with-what
+  topic: Ашваганда
+  day: fri
+  slot: evening
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two clean hands cradling a mug of warm milk at a table in the evening, soft lamp light, calm and quiet
+  compound: ''
+  source: 'voice_lines: з чим мішають'
+  retell: 'напій добирають теплий, щоб гіркота не заважала'
+  claim: 'З ЧИМ ЇЇ МІШАЮТЬ'
+  why: 'Тепле молоко, какао або кефір.'
+  do: 'Розмішай ложку в молоці ввечері'
+
+- key: ashwagandha-sell
+  topic: Ашваганда
+  day: fri
+  slot: sell
+  layout: offer
+  product: Ашваганда
+  ref: ashwa.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Мелений корінь, без домішок|Капсули — коли гіркота заважає|Ложка в тепле молоко ввечері
+  why: ''
+  do: Замовляй у директі або на сайті

@@ -1,0 +1,97 @@
+# День шиїтаке. Собран по брифу продукта: возражения из voice_lines,
+# формы в наличии из каталога, факты о самом предмете.
+#
+# 🚨 Формулировки пользы с карточки НЕ БЕРУТСЯ. В описаниях стоят
+# загальні обіцянки про імунітет і тиск.
+# В Instagram это блокировка, по закону о добавках — нарушение.
+#
+# Поэтому польза здесь — со стороны предмета: вкус, цвет, форма, время
+# приёма. Это правда, и она ничего не лечит.
+
+thoughts:
+- key: shii-food
+  topic: Шиїтаке
+  day: sun
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: knolling
+  subject: >
+    seen straight down on a plain surface: whole dried shiitake caps laid out parallel and evenly spaced beside a bowl and a knife, even shadowless light
+  compound: ''
+  source: 'кулінарне застосування Lentinula edodes'
+  retell: 'це звичайний їстівний гриб, а не добавка з банки'
+  claim: 'ЦЕ ГРИБ ДЛЯ ЇЖІ'
+  why: 'Його кладуть у суп і смажать, як звичайний.'
+  do: 'Кинь жменю в бульйон'
+
+- key: shii-who
+  topic: Шиїтаке
+  day: sun
+  slot: morning
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a bright tidy kitchen counter: a bowl of soaking dried mushrooms, a chopping board and a knife, clean hands, daylight from a window
+  compound: ''
+  source: 'voice_lines: смак і готування вдома'
+  retell: 'це про тих, хто готує вдома й хоче більше смаку'
+  claim: 'КОМУ ВІН ЗАЙДЕ'
+  why: 'Тим, хто готує вдома і хоче більше смаку.'
+  do: 'Візьми сушені — розмочуються за годину'
+
+- key: shii-umami
+  topic: Шиїтаке
+  day: sun
+  slot: noon
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of the gills and cap texture of a dried shiitake mushroom, raking light bringing out relief, tactile and abstract
+  compound: ''
+  source: 'глутамати як джерело смаку умамі в Lentinula edodes'
+  retell: 'густий смак пояснюється власними речовинами гриба'
+  claim: 'ЗВІДКИ ТАКИЙ СМАК'
+  why: 'Умамі дають власні глутамати гриба.'
+  do: 'Додай воду після замочування у страву'
+
+- key: shii-how
+  topic: Шиїтаке
+  day: sun
+  slot: evening
+  layout: poster
+  extra: ''
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a cutting board: soaked mushrooms being sliced, a pan warming behind, warm kitchen light
+  compound: ''
+  source: 'voice_lines: як готувати сушені'
+  retell: 'готування просте: замочити, нарізати, кинути в страву'
+  claim: 'ЯК ЙОГО ГОТУВАТИ'
+  why: 'Замочити, нарізати й кинути в страву.'
+  do: 'Замочи ввечері — вранці готовий'
+
+- key: shiitake-sell
+  topic: Шиїтаке
+  day: sun
+  slot: sell
+  layout: offer
+  product: Шиїтаке
+  ref: shii.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Сушені плодові тіла, цілі|Розмочуються за годину|Воду після замочування не виливай
+  why: ''
+  do: Замовляй у директі або на сайті

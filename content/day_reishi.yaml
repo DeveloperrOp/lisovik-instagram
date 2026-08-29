@@ -1,0 +1,97 @@
+# День рейші. Собран по брифу продукта: возражения из voice_lines,
+# формы в наличии из каталога, факты о самом предмете.
+#
+# 🚨 Формулировки пользы с карточки НЕ БЕРУТСЯ. В описаниях стоят
+# чотирнадцять місць із обіцянками про тиск, серце й память.
+# В Instagram это блокировка, по закону о добавках — нарушение.
+#
+# Поэтому польза здесь — со стороны предмета: вкус, цвет, форма, время
+# приёма. Это правда, и она ничего не лечит.
+
+thoughts:
+- key: reishi-bitter
+  topic: Рейші
+  day: sat
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: studio-dark
+  subject: >
+    a hard glossy kidney-shaped reishi bracket with concentric rings, dark red-brown, on a seamless deep black background, one hard side light
+  compound: ''
+  source: 'тритерпенова гіркота Ganoderma lucidum'
+  retell: 'гіркота це власний смак гриба, і її можна помʼякшити'
+  claim: 'ЧОМУ ВІН ТАКИЙ ГІРКИЙ'
+  why: 'Гіркота — це його власні смоли.'
+  do: 'Завари з медом або імбиром'
+
+- key: reishi-who
+  topic: Рейші
+  day: sat
+  slot: morning
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands cradling a mug of dark decoction in the evening, warm lamp light, calm and quiet, dark tones
+  compound: ''
+  source: 'voice_lines: вечірній напій'
+  retell: 'це про тих, кому потрібен вечірній ритуал без кофеїну'
+  claim: 'КОМУ ВІН ЗАЙДЕ'
+  why: 'Тим, хто хоче теплий напій на вечір.'
+  do: 'Візьми мелений — заварюється як чай'
+
+- key: reishi-evening
+  topic: Рейші
+  day: sat
+  slot: noon
+  layout: poster
+  extra: ''
+  look: cinematic-dark
+  subject: >
+    a single hard beam of light through darkness, drifting steam catching the light over a dark cup, deep blacks and one warm highlight
+  compound: ''
+  source: 'voice_lines: сонливість після прийому вдень'
+  retell: 'його місце у вечорі, а не в робочому дні'
+  claim: 'ЧОМУ ЙОГО ПʼЮТЬ УВЕЧЕРІ'
+  why: 'Він заспокоює, а не бадьорить.'
+  do: 'Завари після роботи'
+
+- key: reishi-brew
+  topic: Рейші
+  day: sat
+  slot: evening
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a thermos and a dark mug on a bright tidy kitchen counter, dark decoction being poured, clean hands, daylight from a window
+  compound: ''
+  source: 'voice_lines tried: кілька годин заварювання'
+  retell: 'заварювання довге, тому його роблять з вечора'
+  claim: 'ЯК ЙОГО ЗАВАРЮВАТИ'
+  why: 'Гаряча вода і кілька годин у термосі.'
+  do: 'Залий і забудь до вечора'
+
+- key: reishi-sell
+  topic: Рейші
+  day: sat
+  slot: sell
+  layout: offer
+  product: Рейші
+  ref: reishi.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Подрібнені плодові тіла|Заварюється як чай, кілька годин|Мед або імбир — якщо гірко
+  why: ''
+  do: Замовляй у директі або на сайті
