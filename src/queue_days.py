@@ -83,13 +83,14 @@ def main() -> int:
                 continue
             shutil.copy2(src, PENDING / f"{sid}.jpg")
             url = mf.upload_media(PENDING / f"{sid}.jpg", tok)
+            # status ОБОВʼЯЗКОВО передається явно. У mf.add за
+            # замовчуванням стоїть «pending» — стан для ручного схвалення
+            # через бота, а due() бере ТІЛЬКИ «approved». Саме через
+            # пропущений тут параметр черга 30.08 не публікувалась узагалі,
+            # тоді як queue_week.py працював: він передає його рядком 126.
             mf.add(m, {"id": sid, "theme": topic, "kind": "story"}, url,
-                   w_start.isoformat(), w_end.isoformat())
-            # mf.add ставить «pending» — це статус для ручного схвалення
-            # через бота. publish.py бачить ТІЛЬКИ «approved», тому черга
-            # в pending не публікується взагалі, скільки не чекай.
-            # Кадри вже схвалені власником, тому ставимо одразу.
-            mf.mark(m, sid, "approved")
+                   w_start.isoformat(), w_end.isoformat(),
+                   status="approved")
             print(f"  ✔ {w_start:%d.%m %H:%M}  {sid:26} {topic}")
             queued += 1
 
