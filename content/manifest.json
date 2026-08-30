@@ -457,10 +457,10 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0830-mane-evening.jpg",
    "slot_start": "2026-08-30T18:00:00+03:00",
    "slot_end": "2026-08-30T18:55:00+03:00",
-   "status": "approved",
+   "status": "failed",
    "published_at": null,
    "ig_media_id": null,
-   "error": null
+   "error": "вікно публікації минуло"
   },
   {
    "id": "0830-mane-sell",
@@ -470,10 +470,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0830-mane-sell.jpg",
    "slot_start": "2026-08-30T19:00:00+03:00",
    "slot_end": "2026-08-30T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-30T19:01:49.161269+03:00",
+   "ig_media_id": "18016236740730475",
+   "error": null,
+   "fb_story_id": "2382960812112901"
   },
   {
    "id": "0830-mane-night",
