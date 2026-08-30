@@ -85,6 +85,11 @@ def main() -> int:
             url = mf.upload_media(PENDING / f"{sid}.jpg", tok)
             mf.add(m, {"id": sid, "theme": topic, "kind": "story"}, url,
                    w_start.isoformat(), w_end.isoformat())
+            # mf.add ставить «pending» — це статус для ручного схвалення
+            # через бота. publish.py бачить ТІЛЬКИ «approved», тому черга
+            # в pending не публікується взагалі, скільки не чекай.
+            # Кадри вже схвалені власником, тому ставимо одразу.
+            mf.mark(m, sid, "approved")
             print(f"  ✔ {w_start:%d.%m %H:%M}  {sid:26} {topic}")
             queued += 1
 
