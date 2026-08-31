@@ -568,10 +568,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0831-chaga-night.jpg",
    "slot_start": "2026-08-31T20:00:00+03:00",
    "slot_end": "2026-08-31T22:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-31T20:00:02.466006+03:00",
+   "ig_media_id": "18128443732752320",
+   "error": null,
+   "fb_story_id": "1529760785620719"
   },
   {
    "id": "0901-spirulina-dawn",
