@@ -512,10 +512,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0831-chaga-morning.jpg",
    "slot_start": "2026-08-31T10:00:00+03:00",
    "slot_end": "2026-08-31T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-08-31T10:00:02.963540+03:00",
+   "ig_media_id": "18131629249637326",
+   "error": null,
+   "fb_story_id": "1165544986129087"
   },
   {
    "id": "0831-chaga-noon",
