@@ -652,10 +652,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0901-spirulina-night.jpg",
    "slot_start": "2026-09-01T20:00:00+03:00",
    "slot_end": "2026-09-01T22:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-01T20:00:14.813910+03:00",
+   "ig_media_id": "18125389508478667",
+   "error": null,
+   "fb_story_id": "1383080704018820"
   },
   {
    "id": "0902-cordyceps-dawn",
