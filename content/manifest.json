@@ -638,10 +638,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0901-spirulina-sell.jpg",
    "slot_start": "2026-09-01T19:00:00+03:00",
    "slot_end": "2026-09-01T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-01T19:00:15.886088+03:00",
+   "ig_media_id": "18146347423480907",
+   "error": null,
+   "fb_story_id": "2549918678859134"
   },
   {
    "id": "0901-spirulina-night",
