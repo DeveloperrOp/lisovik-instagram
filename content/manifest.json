@@ -708,10 +708,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0902-cordyceps-evening.jpg",
    "slot_start": "2026-09-02T18:00:00+03:00",
    "slot_end": "2026-09-02T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-02T18:00:17.554206+03:00",
+   "ig_media_id": "18109456000887084",
+   "error": null,
+   "fb_story_id": "922977727536972"
   },
   {
    "id": "0902-cordyceps-sell",
