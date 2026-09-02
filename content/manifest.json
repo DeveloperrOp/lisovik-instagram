@@ -736,10 +736,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0902-cordyceps-night.jpg",
    "slot_start": "2026-09-02T20:00:00+03:00",
    "slot_end": "2026-09-02T22:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-02T20:00:18.877238+03:00",
+   "ig_media_id": "18125142475798293",
+   "error": null,
+   "fb_story_id": "1543937010259987"
   },
   {
    "id": "0903-ashwagandha-dawn",
