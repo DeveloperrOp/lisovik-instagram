@@ -666,10 +666,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0902-cordyceps-dawn.jpg",
    "slot_start": "2026-09-02T07:00:00+03:00",
    "slot_end": "2026-09-02T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-02T07:00:12.343519+03:00",
+   "ig_media_id": "17906895465308940",
+   "error": null,
+   "fb_story_id": "28392044443760320"
   },
   {
    "id": "0902-cordyceps-morning",
