@@ -792,10 +792,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0903-ashwagandha-evening.jpg",
    "slot_start": "2026-09-03T18:00:00+03:00",
    "slot_end": "2026-09-03T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-03T18:00:14.409609+03:00",
+   "ig_media_id": "18097970816633105",
+   "error": null,
+   "fb_story_id": "1742519583506367"
   },
   {
    "id": "0903-ashwagandha-sell",
