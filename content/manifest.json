@@ -820,10 +820,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0903-ashwagandha-night.jpg",
    "slot_start": "2026-09-03T20:00:00+03:00",
    "slot_end": "2026-09-03T22:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-03T20:00:15.606171+03:00",
+   "ig_media_id": "17979797937090111",
+   "error": null,
+   "fb_story_id": "1805190634061812"
   },
   {
    "id": "0904-reishi-dawn",
