@@ -750,10 +750,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0903-ashwagandha-dawn.jpg",
    "slot_start": "2026-09-03T07:00:00+03:00",
    "slot_end": "2026-09-03T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-03T07:00:14.065051+03:00",
+   "ig_media_id": "18097932575372909",
+   "error": null,
+   "fb_story_id": "1071545558573115"
   },
   {
    "id": "0903-ashwagandha-morning",
