@@ -876,10 +876,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0904-reishi-evening.jpg",
    "slot_start": "2026-09-04T18:00:00+03:00",
    "slot_end": "2026-09-04T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-04T18:00:19.086910+03:00",
+   "ig_media_id": "18103489643621453",
+   "error": null,
+   "fb_story_id": "2896265444040619"
   },
   {
    "id": "0904-reishi-sell",
