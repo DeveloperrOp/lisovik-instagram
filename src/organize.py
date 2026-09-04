@@ -51,7 +51,10 @@ def frames() -> list:
     offers = {o["day"]: o for o in yaml.safe_load(
         (CONTENT_DIR / "offers.yaml").read_text(encoding="utf-8"))["offers"]}
     out = []
+    # Шиїтаке з публікацій виведено — у теку майбутніх він не потрапляє.
     for path in sorted(CONTENT_DIR.glob("day*.yaml")):
+        if "shiitake" in path.stem:
+            continue
         items = yaml.safe_load(path.read_text(encoding="utf-8"))["thoughts"]
         if not items:
             continue

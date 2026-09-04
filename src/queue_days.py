@@ -26,8 +26,9 @@ from config import CONTENT_DIR, OUT_DIR
 
 PENDING = OUT_DIR / "pending"
 DEFAULTS = CONTENT_DIR / "defaults.yaml"
-ORDER = ["mane", "chaga", "spirulina", "cordyceps", "ashwagandha",
-         "reishi", "shiitake"]
+# Шиїтаке виведено з ротації 31.08.2026 на вимогу власника. Файли днів
+# лишились у content, але в публікації не йдуть.
+ORDER = ["mane", "chaga", "spirulina", "cordyceps", "ashwagandha", "reishi"]
 
 
 def arg(name, default=None):
