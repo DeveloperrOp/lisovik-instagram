@@ -1,0 +1,84 @@
+# Тиждень 3. курс «Щоденна основа». Кадри стоять на складі й застосуванні:
+# під цю тему в voice_lines немає мови покупця, і вигадувати її не будемо.
+
+thoughts:
+- key: p2-what
+  topic: Щоденна основа
+  day: fri
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: knolling
+  subject: >
+    seen straight down on a plain surface: a jar of fish oil capsules and a jar of magnesium capsules laid out parallel, even shadowless light
+  compound: ''
+  source: 'каталог: омега-3 рибʼячий жир + магній гліцинат'
+  retell: 'набір складається з двох базових банок, не більше'
+  claim: 'ЩО ЦЕ ЗА НАБІР'
+  why: 'Омега-3 і магній — база на щодень.'
+  do: 'Бери набором — дешевше'
+
+- key: p2-why
+  topic: Щоденна основа
+  day: fri
+  slot: morning
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a bright kitchen counter at breakfast: a plate, a glass of water and two jars beside it, daylight from a window
+  compound: ''
+  source: 'каталог: щоденна база раціону'
+  retell: 'це те, з чого починають, а не те, чим доповнюють'
+  claim: 'З ЧОГО ПОЧАТИ ВЗАГАЛІ'
+  why: 'З цих двох, якщо береш уперше.'
+  do: 'Постав обидві банки на стіл'
+
+- key: p2-when
+  topic: Щоденна основа
+  day: fri
+  slot: noon
+  layout: poster
+  extra: ''
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a table at lunch: a plate of food, a glass of water and a jar of capsules beside it, warm daylight
+  compound: ''
+  source: 'омега з їжею, магній увечері'
+  retell: 'час прийому в них різний, і це легко запамʼятати'
+  claim: 'КОЛИ ЇХ ПРИЙМАТИ'
+  why: 'Омегу з їжею, магній увечері.'
+  do: 'Клади омегу поруч з тарілкою'
+
+- key: p2-howlong
+  topic: Щоденна основа
+  day: fri
+  slot: evening
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands holding a glass of water at a table in the evening beside a jar of capsules, soft lamp light
+  compound: ''
+  source: 'каталог: набір закриває місяць'
+  retell: 'набору вистачає рівно на місяць без дорахунків'
+  claim: 'НА СКІЛЬКИ ВИСТАЧАЄ'
+  why: 'Набір закриває повний місяць.'
+  do: 'Бери два, якщо береш курсом'
+
+- key: w3-osnova-sell
+  topic: Щоденна основа
+  day: fri
+  slot: sell
+  layout: offer
+  product: Щоденна основа
+  look: studio-dark
+  subject: >
+    two product jars standing together on a dark surface, turned slightly, one hard side light carving them out of the dark, deep shadows, the objects in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: склад і фасовка з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Омега-3 та магній гліцинат|База на щодень|Набором дешевше
+  why: ''
+  do: Замовляй у директі або на сайті

@@ -1,0 +1,84 @@
+# Тиждень 3. курс «Стійкий спокій». Кадри стоять на складі й застосуванні:
+# під цю тему в voice_lines немає мови покупця, і вигадувати її не будемо.
+
+thoughts:
+- key: p1-what
+  topic: Стійкий спокій
+  day: thu
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: knolling
+  subject: >
+    seen straight down on a plain surface: two product jars laid out parallel and evenly spaced beside a glass of water, even shadowless light
+  compound: ''
+  source: 'каталог: ашваганда + магній гліцинат'
+  retell: 'у курсі дві банки, і кожну можна назвати окремо'
+  claim: 'ЩО В ЦЬОМУ КУРСІ'
+  why: 'Ашваганда й магній гліцинат разом.'
+  do: 'Бери курсом — виходить дешевше'
+
+- key: p1-why
+  topic: Стійкий спокій
+  day: thu
+  slot: morning
+  layout: poster
+  extra: ''
+  look: portrait-calm
+  subject: >
+    a calm person by a window in soft evening light with a glass of water, unposed and quiet, neutral linen clothing
+  compound: ''
+  source: 'voice_lines objection: «чи можна разом з магнієм»'
+  retell: 'це поєднання питають найчастіше, і воно звичайне'
+  claim: 'ЧОМУ САМЕ РАЗОМ'
+  why: 'Їх і так найчастіше беруть в один вечір.'
+  do: 'Приймай обидві перед сном'
+
+- key: p1-form
+  topic: Стійкий спокій
+  day: thu
+  slot: noon
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of white capsules and beige root powder side by side, raking light bringing out texture
+  compound: ''
+  source: 'каталог: магній у формі гліцинату'
+  retell: 'форма магнію вказана на банці, і вона не випадкова'
+  claim: 'ЧОМУ ГЛІЦИНАТ'
+  why: 'Ця форма магнію мʼякша до шлунку.'
+  do: 'Читай форму на банці'
+
+- key: p1-howlong
+  topic: Стійкий спокій
+  day: thu
+  slot: evening
+  layout: poster
+  extra: ''
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a bedside table: two jars, a glass of water and a lamp, soft warm light
+  compound: ''
+  source: 'каталог: курс розрахований на місяць'
+  retell: 'курс має чіткий строк, і його видно наперед'
+  claim: 'ЯК ДОВГО ЙОГО ПИТИ'
+  why: 'Курс розрахований рівно на місяць.'
+  do: 'Постав позначку на 30-й день'
+
+- key: w3-spokij-sell
+  topic: Стійкий спокій
+  day: thu
+  slot: sell
+  layout: offer
+  product: Стійкий спокій
+  look: studio-dark
+  subject: >
+    two product jars standing together on a dark surface, turned slightly, one hard side light carving them out of the dark, deep shadows, the objects in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: склад і фасовка з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Ашваганда та магній гліцинат|Курс на місяць|Обидві банки ввечері
+  why: ''
+  do: Замовляй у директі або на сайті

@@ -1,0 +1,84 @@
+# Тиждень 3. чай «Карпатський бальзам». Кадри стоять на складі й застосуванні:
+# під цю тему в voice_lines немає мови покупця, і вигадувати її не будемо.
+
+thoughts:
+- key: t2-what
+  topic: Карпатський бальзам
+  day: tue
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: knolling
+  subject: >
+    seen straight down on a plain surface: dried mint, lemon balm, linden flowers and red rowan berries laid out in separate neat heaps, even light
+  compound: ''
+  source: 'каталог: мʼята, меліса, звіробій, липа, горобина'
+  retell: 'це суміш карпатських трав, кожну можна назвати'
+  claim: 'ЩО ВСЕРЕДИНІ'
+  why: 'Мʼята, меліса, липа й червона горобина.'
+  do: 'Завари ложку на чашку'
+
+- key: t2-smell
+  topic: Карпатський бальзам
+  day: tue
+  slot: morning
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of dried mint and lemon balm leaves mixed with linden flowers, raking light bringing out the dried leaf texture
+  compound: ''
+  source: 'меліса й мʼята як джерело аромату суміші'
+  retell: 'аромат чути ще до заварювання, і це проста перевірка'
+  claim: 'ЧОМУ ТАКИЙ АРОМАТ'
+  why: 'Меліса й мʼята віддають його одразу.'
+  do: 'Понюхай суху суміш перед заваркою'
+
+- key: t2-when
+  topic: Карпатський бальзам
+  day: tue
+  slot: noon
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands holding a warm cup of amber herbal tea at a table by a window, soft daylight, calm
+  compound: ''
+  source: 'травʼяна суміш без чайного листа'
+  retell: 'його можна пити вдень, бо він не бадьорить'
+  claim: 'КОЛИ ЙОГО ПИТИ'
+  why: 'Удень або надвечір — він не бадьорить.'
+  do: 'Завари після обіду'
+
+- key: t2-howlong
+  topic: Карпатський бальзам
+  day: tue
+  slot: evening
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a paper pouch of loose herbs and a glass jar on a bright kitchen shelf beside cups, daylight
+  compound: ''
+  source: 'каталог: фасовка 40 г'
+  retell: 'пачки вистачає приблизно на три тижні щоденних чашок'
+  claim: 'НА СКІЛЬКИ ВИСТАЧАЄ ПАЧКИ'
+  why: 'Приблизно на двадцять чашок.'
+  do: 'Бери дві, якщо пʼєш щодня'
+
+- key: w3-karpaty-sell
+  topic: Карпатський бальзам
+  day: tue
+  slot: sell
+  layout: offer
+  product: Карпатський бальзам
+  look: studio-dark
+  subject: >
+    a paper pouch of loose dried herbs standing on a dark surface with a small heap of the same herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: склад і фасовка з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Розсипні трави в пачці|Близько двадцяти чашок|Ложка на чашку
+  why: ''
+  do: Замовляй у директі або на сайті

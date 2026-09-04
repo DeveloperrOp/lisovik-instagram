@@ -1,0 +1,84 @@
+# Тиждень 3. іван-чай. Кадри стоять на складі й застосуванні:
+# під цю тему в voice_lines немає мови покупця, і вигадувати її не будемо.
+
+thoughts:
+- key: t3-ferment
+  topic: Іван-чай
+  day: wed
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of dark fermented willowherb leaf twists, deep brown colour, raking light bringing out the rolled texture
+  compound: ''
+  source: 'ферментація листа кипрію вузьколистого'
+  retell: 'темний колір листа означає ферментацію, а не підсмажування'
+  claim: 'ЩО ТАКЕ ФЕРМЕНТОВАНИЙ'
+  why: 'Лист підвʼялюють і дають йому дозріти.'
+  do: 'Дивись на колір — він темний'
+
+- key: t3-caffeine
+  topic: Іван-чай
+  day: wed
+  slot: morning
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands holding a cup of dark amber tea at a table in the evening, warm lamp light, calm tones
+  compound: ''
+  source: 'Chamerion angustifolium кофеїну не містить'
+  retell: 'це не чайний кущ, тому вечірня чашка не заважає'
+  claim: 'ЧОМУ БЕЗ КОФЕЇНУ'
+  why: 'Це лист іван-чаю, а не чайний кущ.'
+  do: 'Завари ввечері без побоювань'
+
+- key: t3-brew
+  topic: Іван-чай
+  day: wed
+  slot: noon
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    hot water being poured into a glass teapot with dark fermented leaves, steam rising, bright kitchen counter, daylight
+  compound: ''
+  source: 'спосіб заварювання ферментованого листа'
+  retell: 'заварюється як звичайний чай, нічого особливого'
+  claim: 'ЯК ЗАВАРЮВАТИ'
+  why: 'Гарячою водою, пʼять хвилин.'
+  do: 'Залий і накрий кришкою'
+
+- key: t3-again
+  topic: Іван-чай
+  day: wed
+  slot: evening
+  layout: poster
+  extra: ''
+  look: splash
+  subject: >
+    dark amber tea being poured from a glass teapot into a cup, mid-pour, clean bright background
+  compound: ''
+  source: 'ферментований лист витримує повторну заварку'
+  retell: 'той самий лист працює двічі, і це видно по кольору'
+  claim: 'СКІЛЬКИ РАЗІВ ЗАВАРЮВАТИ'
+  why: 'Той самий лист витримує другу заварку.'
+  do: 'Залий удруге — колір ще буде'
+
+- key: w3-ivan-sell
+  topic: Іван-чай
+  day: wed
+  slot: sell
+  layout: offer
+  product: Іван-чай
+  look: studio-dark
+  subject: >
+    a paper pouch of loose dried herbs standing on a dark surface with a small heap of the same herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: склад і фасовка з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Ферментований лист|Без кофеїну|Витримує дві заварки
+  why: ''
+  do: Замовляй у директі або на сайті
