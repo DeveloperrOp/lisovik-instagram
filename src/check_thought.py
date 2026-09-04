@@ -473,6 +473,31 @@ def check(t: dict) -> list:
     return bad + voice(t) + rhythm(t) + plain(t)
 
 
+# ------------------------------------------------- форма заголовка
+# Ярик: «що за бредовий текст, просто питання????». Замір показав 58
+# питальних заголовків із 84 — 69%. Механіка «заперечення → відповідь»
+# давала добрі кадри, і я застосував її до ВСЬОГО. Прийом перетворився
+# на шаблон, а стрічка — на список FAQ.
+#
+# Питання лишається там, де воно справді звучить у голові покупця
+# («МАГНІЙ І ТУАЛЕТ»), але не більше двох на день.
+QUESTION = re.compile(
+    r"^\s*«?\s*(що|чому|коли|як|скільки|кому|чи|де|навіщо|хто)\b|\?", re.I)
+
+
+def day_form(thoughts: list) -> list:
+    """Претензії до дня цілком, а не до окремого кадру."""
+    bad = []
+    claims = [t.get("claim", "") for t in thoughts
+              if t.get("layout") == "poster"]
+    qs = [c for c in claims if QUESTION.search(c)]
+    if len(qs) > 2:
+        bad.append(f"питальних заголовків {len(qs)} із {len(claims)} — "
+                   f"день читається як список FAQ. Ліміт 2, решту сказати "
+                   f"твердженням: {' | '.join(x[:24] for x in qs[:3])}")
+    return bad
+
+
 def main() -> int:
     path = Path(sys.argv[1] if len(sys.argv) > 1 else "content/thoughts.yaml")
     if not path.exists():
@@ -482,6 +507,11 @@ def main() -> int:
     thoughts = data["thoughts"] if isinstance(data, dict) else data
 
     bad_total = 0
+    for problem in day_form(thoughts):
+        bad_total += 1
+        print()
+        print("  ✖ ДЕНЬ ЦІЛКОМ")
+        print(f"      {problem}")
     for t in thoughts:
         problems = check(t)
         if problems:

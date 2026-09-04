@@ -47,7 +47,7 @@ thoughts:
   compound: ''
   source: 'Withania somnifera — мелений корінь'
   retell: 'у банці саме корінь, і це видно по волокну'
-  claim: 'ЩО САМЕ В БАНЦІ'
+  claim: 'У БАНЦІ ОДИН МЕЛЕНИЙ КОРІНЬ'
   why: 'Мелений корінь, більше нічого.'
   do: 'Читай склад — там один рядок'
 
@@ -62,9 +62,9 @@ thoughts:
     two hands cradling a mug of warm milk at a table in the evening, soft lamp light, calm and quiet
   compound: ''
   source: 'voice_lines drop: коли чекати змін'
-  retell: 'ефект накопичується, тому дивляться на місяць, а не на день'
-  claim: 'КОЛИ ЧЕКАТИ ЗМІН'
-  why: 'Дивись на місяць загалом, а не на окремий день.'
+  retell: 'окремий день нічого не покаже, орієнтир — весь курс'
+  claim: 'ДИВИСЬ НА МІСЯЦЬ, А НЕ НА ДЕНЬ'
+  why: 'Окремий день нічого не показує, місяць — показує.'
   do: 'Постав позначку на 30-й день'
 
 - key: w2-ashwagandha-sell
