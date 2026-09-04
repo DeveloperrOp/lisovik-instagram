@@ -20,8 +20,9 @@ from PIL import Image, ImageDraw
 
 from config import CONTENT_DIR, OUT_DIR
 
-DEST = OUT_DIR / ("ГОТОВЕ-2" if "--week2" in __import__("sys").argv
-                  else "ГОТОВЕ")
+import sys as _s
+DEST = OUT_DIR / ("ГОТОВЕ-3" if "--week3" in _s.argv else
+                  "ГОТОВЕ-2" if "--week2" in _s.argv else "ГОТОВЕ")
 DAYS = [("mon", "1-ПН"), ("tue", "2-ВТ"), ("wed", "3-СР"), ("thu", "4-ЧТ"),
         ("fri", "5-ПТ"), ("sat", "6-СБ"), ("sun", "7-НД")]
 
@@ -43,7 +44,8 @@ def main() -> int:
 
     slots = yaml.safe_load(
         (CONTENT_DIR / "defaults.yaml").read_text(encoding="utf-8"))["slots"]
-    prefix = "day2_" if "--week2" in sys.argv else "day_"
+    prefix = ("day3_" if "--week3" in sys.argv else
+              "day2_" if "--week2" in sys.argv else "day_")
     files = day_files(prefix)
     sheets, missing = [], []
 

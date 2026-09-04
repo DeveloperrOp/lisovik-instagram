@@ -280,12 +280,24 @@ def main() -> int:
         # в чужому дні. Власник спіймав це першим: у дні чаги останнім
         # кадром стояв їжовик. Правило про «що стоїть поруч у межах дня»
         # лежало в пам'яті проекту, а в коді його не було.
-        want = (o.get("product") or "").lower()
         have = " ".join(t.get("topic", "") for t in items).lower()
-        if want and want[:5] not in have:
-            raise SystemExit(
-                f"оферта дня {day} показує «{o['product']}», а день про "
-                f"«{items[0].get('topic')}» — кадр суперечить дню")
+
+        def fits(x):
+            w = (x.get("product") or "").lower()
+            return not w or w[:5] in have
+
+        # Оферта, привʼязана до продукту, не має права стояти в чужому дні.
+        # Але й падати через це не варто: беремо наступну, яка нічого
+        # конкретного не показує. Так тижні з іншими продуктами (чаї,
+        # курси) збираються самі, а протиріччя все одно не проходить.
+        if not fits(o):
+            spare = next((x for x in offers.values() if fits(x)), None)
+            if spare is None:
+                raise SystemExit(f"для дня {day} немає придатної оферти")
+            print(f"  · оферта дня {day} показує «{o['product']}», "
+                  f"а день про «{items[0].get('topic')}» — беру іншу",
+                  flush=True)
+            o = spare
         items.append(dict(o, key=f"{path.stem}-offer", layout="offer",
                           topic="Лісовик", slot="night", why="", compound="",
                           source="content/offers.yaml"))
