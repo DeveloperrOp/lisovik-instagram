@@ -208,6 +208,9 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
                         # бренд транслітом — модель пише і так, і так
                         "lisovik", "lisovyk", "lisovick",
                         # звичайні слова, які законно стоять на упаковці
+                        # маркування, яке реально стоїть на етикетці:
+                        # значки HACCP та ISO є на банці магнію
+                        "haccp", "netweight", "weight", "gross",
                         "organic", "mushroom", "mushrooms", "natural",
                         "extract", "powder", "capsules", "vegan", "weight",
                         "ukraine", "product"}
