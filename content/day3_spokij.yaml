@@ -8,6 +8,7 @@ thoughts:
   slot: dawn
   layout: poster
   extra: ''
+  ref: [ashwa.jpg, magnium.jpg]
   look: knolling
   subject: >
     seen straight down on a plain surface: two product jars laid out parallel and evenly spaced beside a glass of water, even shadowless light
@@ -56,6 +57,7 @@ thoughts:
   slot: evening
   layout: poster
   extra: ''
+  ref: [magnium.jpg]
   look: over-shoulder
   subject: >
     over-the-shoulder view of a bedside table: two jars, a glass of water and a lamp, soft warm light

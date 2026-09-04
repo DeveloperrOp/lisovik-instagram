@@ -24,6 +24,7 @@ thoughts:
   slot: morning
   layout: poster
   extra: ''
+  ref: [tribulus.jpg, maca.jpg]
   look: knolling
   subject: >
     seen straight down on a plain surface: two product jars laid out parallel and evenly spaced, even shadowless light
@@ -40,6 +41,7 @@ thoughts:
   slot: noon
   layout: poster
   extra: ''
+  ref: [tribulus.jpg]
   look: over-shoulder
   subject: >
     over-the-shoulder view of a breakfast table: a plate, a mug and a jar of capsules within reach, morning daylight
@@ -56,6 +58,7 @@ thoughts:
   slot: evening
   layout: poster
   extra: ''
+  ref: [tribulus.jpg, maca.jpg]
   look: kitchen-morning
   subject: >
     a bright kitchen counter: two jars of capsules beside a paper calendar page and a glass of water, daylight from a window

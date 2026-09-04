@@ -8,6 +8,7 @@ thoughts:
   slot: dawn
   layout: poster
   extra: ''
+  ref: [omega.jpg, magnium.jpg]
   look: knolling
   subject: >
     seen straight down on a plain surface: a jar of fish oil capsules and a jar of magnesium capsules laid out parallel, even shadowless light
@@ -24,6 +25,7 @@ thoughts:
   slot: morning
   layout: poster
   extra: ''
+  ref: [omega.jpg, magnium.jpg]
   look: kitchen-morning
   subject: >
     a bright kitchen counter at breakfast: a plate, a glass of water and two jars beside it, daylight from a window
@@ -40,6 +42,7 @@ thoughts:
   slot: noon
   layout: poster
   extra: ''
+  ref: [omega.jpg]
   look: over-shoulder
   subject: >
     over-the-shoulder view of a table at lunch: a plate of food, a glass of water and a jar of capsules beside it, warm daylight
@@ -56,6 +59,7 @@ thoughts:
   slot: evening
   layout: poster
   extra: ''
+  ref: [omega.jpg]
   look: hands-hold
   subject: >
     two hands holding a glass of water at a table in the evening beside a jar of capsules, soft lamp light

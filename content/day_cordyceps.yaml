@@ -31,6 +31,7 @@ thoughts:
   slot: morning
   layout: poster
   extra: ''
+  ref: [cord.jpg]
   look: over-shoulder
   subject: >
     over-the-shoulder view of a tidy desk early in the morning: a mug, a notebook and a small jar, first daylight through the window
@@ -63,6 +64,7 @@ thoughts:
   slot: evening
   layout: poster
   extra: ''
+  ref: [cord.jpg]
   look: kitchen-morning
   subject: >
     a bright tidy morning kitchen: a mug of coffee with orange powder being stirred in, a spoon and a small jar beside it, daylight

@@ -9,6 +9,7 @@ thoughts:
   slot: dawn
   layout: poster
   extra: ''
+  ref: [m9.jpg]
   look: kitchen-morning
   subject: >
     a bright tidy kitchen counter in the morning: a jar of pale powder, a spoon and a paper calendar page beside a mug, daylight from a window
@@ -41,6 +42,7 @@ thoughts:
   slot: noon
   layout: poster
   extra: ''
+  ref: [m9.jpg]
   look: over-shoulder
   subject: >
     over-the-shoulder view of a desk at midday: a mug, an open notebook and a small jar within reach, warm daylight
