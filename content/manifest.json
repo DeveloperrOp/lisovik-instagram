@@ -904,10 +904,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0904-reishi-night.jpg",
    "slot_start": "2026-09-04T20:00:00+03:00",
    "slot_end": "2026-09-04T22:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-04T20:00:15.433398+03:00",
+   "ig_media_id": "18078149156347692",
+   "error": null,
+   "fb_story_id": "1011647675241642"
   },
   {
    "id": "0905-shiitake-dawn",
