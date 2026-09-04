@@ -12,11 +12,11 @@ thoughts:
   subject: >
     a white frilly tremella mushroom, translucent and coral-like, on a seamless deep black background, one hard side light
   compound: ''
-  source: 'Tremella fuciformis — білий деревний гриб'
-  retell: 'тремела це гриб, і виглядає він зовсім не як гриб'
-  claim: 'ЩО ТАКЕ ТРЕМЕЛА'
-  why: 'Білий деревний гриб, майже без смаку.'
-  do: 'Глянь на фото — не сплутаєш'
+  source: 'voice_new word: «то ли медуза, то ли гриб!»'
+  retell: 'вигляд тремели дивує, але в банку йде вже інша форма'
+  claim: 'МЕДУЗА ЧИ ГРИБ?'
+  why: 'Гриб. Свіжий і справді схожий на медузу.'
+  do: 'Глянь на фото — сплутати важко'
 
 - key: p4-snow
   topic: Тремела
@@ -44,11 +44,11 @@ thoughts:
   subject: >
     two hands holding a glass of pale smoothie at a bright table, a spoon of white powder beside it, soft daylight
   compound: ''
-  source: 'каталог: спосіб вживання тремели'
-  retell: 'смаку в неї майже немає, тому вона ховається будь-де'
-  claim: 'ЯК ЇЇ ПИТИ'
-  why: 'Ложка в смузі, йогурт або какао.'
-  do: 'Додай у ранковий сніданок'
+  source: 'voice_new objection: «скользкие, со вкусом, непохожим ни на что»'
+  retell: 'слизької текстури в порошку немає, лишається сам смак'
+  claim: 'А ВОНА НЕ СЛИЗЬКА?'
+  why: 'Слизькою вона буває свіжою, не сушеною.'
+  do: 'Розмішай ложку в смузі й спробуй'
 
 - key: p4-course
   topic: Тремела

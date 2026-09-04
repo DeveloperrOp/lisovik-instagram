@@ -44,11 +44,11 @@ thoughts:
   subject: >
     extreme macro of white capsules and beige root powder side by side, raking light bringing out texture
   compound: ''
-  source: 'каталог: магній у формі гліцинату'
-  retell: 'форма магнію вказана на банці, і вона не випадкова'
-  claim: 'ЧОМУ ГЛІЦИНАТ'
-  why: 'Ця форма магнію мʼякша до шлунку.'
-  do: 'Читай форму на банці'
+  source: 'voice_new tried: «от оксида магния обязательно появлялся слабительный эффект»'
+  retell: 'форма магнію вирішує, як його перенесе шлунок'
+  claim: 'МАГНІЙ І ТУАЛЕТ — ЗНАЙОМА ІСТОРІЯ'
+  why: 'Це від оксиду. Гліцинат переноситься мʼякше.'
+  do: 'Читай форму магнію на банці'
 
 - key: p1-howlong
   topic: Стійкий спокій
@@ -60,11 +60,11 @@ thoughts:
   subject: >
     over-the-shoulder view of a bedside table: two jars, a glass of water and a lamp, soft warm light
   compound: ''
-  source: 'каталог: курс розрахований на місяць'
-  retell: 'курс має чіткий строк, і його видно наперед'
-  claim: 'ЯК ДОВГО ЙОГО ПИТИ'
-  why: 'Курс розрахований рівно на місяць.'
-  do: 'Постав позначку на 30-й день'
+  source: 'voice_new objection: «заявлено 400 мг, а по факту магния около 72 мг»'
+  retell: 'на банці має стояти чистий магній, а не вага сполуки'
+  claim: 'СКІЛЬКИ ТАМ МАГНІЮ НАСПРАВДІ'
+  why: 'Дивись на чистий магній, а не на вагу порошку.'
+  do: 'Знайди в складі рядок про добову норму'
 
 - key: w3-spokij-sell
   topic: Стійкий спокій

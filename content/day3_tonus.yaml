@@ -12,11 +12,11 @@ thoughts:
   subject: >
     extreme macro of pale yellow maca root powder and a piece of dried maca root beside it, raking light
   compound: ''
-  source: 'Lepidium meyenii — корінь з Перу'
-  retell: 'мака це коренеплід, а не екзотична витяжка'
-  claim: 'ЩО ТАКЕ МАКА'
-  why: 'Це корінь із Перу, схожий на редьку.'
-  do: 'Глянь на фото кореня на картці'
+  source: 'voice_new word: «запах жженых шерстяных носков»'
+  retell: 'запах кореня різкий, і капсула його ховає'
+  claim: 'МАКА ПАХНЕ ДИВНО'
+  why: 'Так, корінь різкий. У капсулі запаху немає.'
+  do: 'Бери капсули, якщо запах заважає'
 
 - key: p3-what
   topic: Тонус і витривалість
@@ -60,11 +60,11 @@ thoughts:
   subject: >
     a bright kitchen counter: two jars of capsules beside a paper calendar page and a glass of water, daylight from a window
   compound: ''
-  source: 'каталог: курс на місяць'
-  retell: 'приймають щодня цілий місяць, перерв усередині не роблять'
-  claim: 'ЯК ДОВГО ЙОГО ПИТИ'
-  why: 'Місяць поспіль, без перерв усередині.'
-  do: 'Постав нагадування на щоранку'
+  source: 'voice_new tried: «результат я стала наблюдать только спустя 2 недели»'
+  retell: 'перший тиждень тихий, і про це краще знати заздалегідь'
+  claim: 'ПЕРШИЙ ТИЖДЕНЬ ТИХИЙ'
+  why: 'Перші зміни помічають ближче до другого.'
+  do: 'Постав позначку на 14-й день'
 
 - key: w3-tonus-sell
   topic: Тонус і витривалість

@@ -44,11 +44,11 @@ thoughts:
   subject: >
     over-the-shoulder view of a table at lunch: a plate of food, a glass of water and a jar of capsules beside it, warm daylight
   compound: ''
-  source: 'омега з їжею, магній увечері'
-  retell: 'час прийому в них різний, і це легко запамʼятати'
-  claim: 'КОЛИ ЇХ ПРИЙМАТИ'
-  why: 'Омегу з їжею, магній увечері.'
-  do: 'Клади омегу поруч з тарілкою'
+  source: 'voice_new objection: «рыбная отрыжка преследует меня постоянно»'
+  retell: 'відрижку прибирає час прийому, а не марка'
+  claim: 'РИБНА ВІДРИЖКА ВІД ОМЕГИ'
+  why: 'Вона зникає, коли пити з їжею, а не натще.'
+  do: 'Клади капсулу поруч із тарілкою'
 
 - key: p2-howlong
   topic: Щоденна основа
@@ -60,11 +60,11 @@ thoughts:
   subject: >
     two hands holding a glass of water at a table in the evening beside a jar of capsules, soft lamp light
   compound: ''
-  source: 'каталог: набір закриває місяць'
-  retell: 'набору вистачає рівно на місяць без дорахунків'
-  claim: 'НА СКІЛЬКИ ВИСТАЧАЄ'
-  why: 'Набір закриває повний місяць.'
-  do: 'Бери два, якщо береш курсом'
+  source: 'voice_new objection: «1000 мг на этикетке — это масса рыбьего жира, а не омеги»'
+  retell: 'найпомітніше число на етикетці стосується не того, що шукають'
+  claim: 'НА БАНЦІ НЕ ТА ЦИФРА'
+  why: 'Велике число — це вага жиру, не омега.'
+  do: 'Знайди рядки EPA і DHA'
 
 - key: w3-osnova-sell
   topic: Щоденна основа

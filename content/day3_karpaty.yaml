@@ -28,11 +28,11 @@ thoughts:
   subject: >
     extreme macro of dried mint and lemon balm leaves mixed with linden flowers, raking light bringing out the dried leaf texture
   compound: ''
-  source: 'меліса й мʼята як джерело аромату суміші'
-  retell: 'аромат чути ще до заварювання, і це проста перевірка'
-  claim: 'ЧОМУ ТАКИЙ АРОМАТ'
-  why: 'Меліса й мʼята віддають його одразу.'
-  do: 'Понюхай суху суміш перед заваркою'
+  source: 'voice_new word: «жуткий больничный запах ромашки»'
+  retell: 'аромат суміші мʼякший за аптечний, і це головна відмінність'
+  claim: 'ПАХНЕ ЯК В АПТЕЦІ?'
+  why: 'Ні. Меліса й мʼята перебивають аптечну ноту.'
+  do: 'Понюхай перед тим, як заварювати'
 
 - key: t2-when
   topic: Карпатський бальзам

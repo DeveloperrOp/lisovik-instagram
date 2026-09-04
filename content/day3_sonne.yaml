@@ -12,11 +12,11 @@ thoughts:
   subject: >
     seen straight down on a plain surface: dried chamomile flowers, mint leaves, lavender and hawthorn laid out in separate neat heaps, even shadowless light
   compound: ''
-  source: 'каталог: ромашка, мʼята, лаванда, глід, верес'
-  retell: 'склад чаю можна перелічити на пальцях і впізнати очима'
-  claim: 'ЩО В ЦЬОМУ ЧАЇ'
-  why: 'Ромашка, мʼята, лаванда і цвіт глоду.'
-  do: 'Завари ложку ввечері'
+  source: 'voice_new drop: «Не ощутила аромат заявленных в чае растений»'
+  retell: 'склад перевіряється носом до першої заварки'
+  claim: 'ЧИ ВСЕ, ЩО НА ПАЧЦІ, ВСЕРЕДИНІ'
+  why: 'Ромашку, мʼяту й лаванду чути окремо.'
+  do: 'Понюхай суху суміш перед заваркою'
 
 - key: t1-when
   topic: Сонне зілля
@@ -44,11 +44,11 @@ thoughts:
   subject: >
     extreme macro of loose dried herb mixture: whole chamomile heads, lavender buds and leaf pieces, raking light bringing out texture
   compound: ''
-  source: 'розсипна суміш, не подрібнена в пил'
-  retell: 'цілі квіти видно оком, і це відрізняє від пакетика'
-  claim: 'ЧОМУ БЕЗ ПАКЕТИКІВ'
-  why: 'Тут цілі сушені квіти й листя.'
-  do: 'Візьми ложку на чашку'
+  source: 'voice_new drop: «Весь чай у них — пыль, к сожалению»'
+  retell: 'покупці бояться пилу в пачці, і це перевіряється оком'
+  claim: 'У ПАЧЦІ ПИЛ ЧИ ЛИСТ?'
+  why: 'Тут цілі суцвіття, їх видно оком.'
+  do: 'Розсип ложку на долоню й глянь'
 
 - key: t1-brew
   topic: Сонне зілля
