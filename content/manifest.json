@@ -848,10 +848,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0904-reishi-morning.jpg",
    "slot_start": "2026-09-04T10:00:00+03:00",
    "slot_end": "2026-09-04T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-04T10:00:13.779051+03:00",
+   "ig_media_id": "18074236745412808",
+   "error": null,
+   "fb_story_id": "1558476778705946"
   },
   {
    "id": "0904-reishi-noon",
