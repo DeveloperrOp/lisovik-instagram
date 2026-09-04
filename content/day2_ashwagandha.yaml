@@ -1,0 +1,91 @@
+# Тиждень 2. ашваганда: питання, які лишились у voice_lines після
+# першого тижня. Побічні ефекти з відгуків не транслюються — там, де тема
+# взята, кадр її знімає.
+
+thoughts:
+- key: a2-magnesium
+  topic: Ашваганда
+  day: fri
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: knolling
+  subject: >
+    seen straight down on a plain surface: a jar of beige root powder and a jar of capsules laid out parallel and evenly spaced, even shadowless light
+  compound: ''
+  source: 'voice_lines objection: «чи можна приймати разом з магнієм»'
+  retell: 'поєднання з магнієм питають найчастіше, і воно звичайне'
+  claim: 'ЧИ МОЖНА РАЗОМ З МАГНІЄМ'
+  why: 'Так, їх часто беруть в один вечір.'
+  do: 'Спитай у директі, що з чим поєднувати'
+
+- key: a2-sleepy
+  topic: Ашваганда
+  day: fri
+  slot: morning
+  layout: poster
+  extra: ''
+  look: portrait-calm
+  subject: >
+    a calm person by a window in soft morning light holding a warm cup, unposed and quiet, neutral linen clothing
+  compound: ''
+  source: 'voice_lines: сонливість у перші дні прийому'
+  retell: 'перші дні можуть тягнути в сон, і це вирішує час прийому'
+  claim: 'ПЕРШІ ДНІ ХИЛИТЬ У СОН'
+  why: 'Тому її й пʼють увечері, а не зранку.'
+  do: 'Перенеси прийом на годину перед сном'
+
+- key: a2-root
+  topic: Ашваганда
+  day: fri
+  slot: noon
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of dried woody ashwagandha root pieces and fine beige powder beside them, raking light bringing out fibre
+  compound: ''
+  source: 'Withania somnifera — мелений корінь'
+  retell: 'у банці саме корінь, і це видно по волокну'
+  claim: 'ЩО САМЕ В БАНЦІ'
+  why: 'Мелений корінь, більше нічого.'
+  do: 'Читай склад — там один рядок'
+
+- key: a2-howlong
+  topic: Ашваганда
+  day: fri
+  slot: evening
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands cradling a mug of warm milk at a table in the evening, soft lamp light, calm and quiet
+  compound: ''
+  source: 'voice_lines drop: коли чекати змін'
+  retell: 'ефект накопичується, тому дивляться на місяць, а не на день'
+  claim: 'КОЛИ ЧЕКАТИ ЗМІН'
+  why: 'Дивись на місяць загалом, а не на окремий день.'
+  do: 'Постав позначку на 30-й день'
+
+- key: w2-ashwagandha-sell
+  topic: Ашваганда
+  day: fri
+  slot: sell
+  layout: offer
+  product: Ашваганда
+  ref: ashwa.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Мелений корінь або капсули|Капсули — коли гіркота заважає|Ложка в тепле молоко ввечері
+  why: ''
+  do: Замовляй у директі або на сайті

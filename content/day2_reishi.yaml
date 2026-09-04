@@ -1,0 +1,91 @@
+# Тиждень 2. рейші: питання, які лишились у voice_lines після
+# першого тижня. Побічні ефекти з відгуків не транслюються — там, де тема
+# взята, кадр її знімає.
+
+thoughts:
+- key: r2-hard
+  topic: Рейші
+  day: sat
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: studio-dark
+  subject: >
+    a hard glossy kidney-shaped reishi bracket with concentric rings on a seamless deep black background, one hard side light, deep shadows
+  compound: ''
+  source: 'будова плодового тіла Ganoderma lucidum'
+  retell: 'твердість гриба пояснює, чому його довго заварюють'
+  claim: 'ЧОМУ ВІН ТВЕРДИЙ ЯК ДЕРЕВО'
+  why: 'Це деревний гриб, він і росте на стовбурах.'
+  do: 'Бери подрібнений — швидше віддає'
+
+- key: r2-thermos
+  topic: Рейші
+  day: sat
+  slot: morning
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a thermos and a dark mug on a bright kitchen counter, dark decoction being poured, clean hands, daylight from a window
+  compound: ''
+  source: 'voice_lines: довге заварювання'
+  retell: 'термос робить усю роботу, поки людина зайнята іншим'
+  claim: 'ТРЕБА СТОЯТИ НАД ПЛИТОЮ?'
+  why: 'Ні. Термос зробить усе сам за ніч.'
+  do: 'Залий на ніч — вранці готово'
+
+- key: r2-when
+  topic: Рейші
+  day: sat
+  slot: noon
+  layout: poster
+  extra: ''
+  look: cinematic-dark
+  subject: >
+    a single hard beam of light through darkness, steam rising from a dark cup, deep blacks and one warm highlight
+  compound: ''
+  source: 'voice_lines: сонливість після денного прийому'
+  retell: 'його місце ввечері, і від цього залежить враження'
+  claim: 'ЧОМУ НЕ ВРАНЦІ'
+  why: 'Він розслабляє, тому місце йому у вечорі.'
+  do: 'Завари після роботи'
+
+- key: r2-mix
+  topic: Рейші
+  day: sat
+  slot: evening
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands holding a mug of dark decoction with a slice of ginger and honey jar beside it on a table, warm lamp light
+  compound: ''
+  source: 'voice_lines: чим помʼякшити смак'
+  retell: 'гіркоту прибирають медом або імбиром, а не цукром'
+  claim: 'ЧИМ ПОМʼЯКШИТИ СМАК'
+  why: 'Мед або шматочок імбиру.'
+  do: 'Додай ложку меду в теплий настій'
+
+- key: w2-reishi-sell
+  topic: Рейші
+  day: sat
+  slot: sell
+  layout: offer
+  product: Рейші
+  ref: reishi.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Подрібнені плодові тіла|Заварюється кілька годин|Мед або імбир — якщо гірко
+  why: ''
+  do: Замовляй у директі або на сайті

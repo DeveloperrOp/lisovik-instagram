@@ -1,0 +1,91 @@
+# Тиждень 2. їжовик: питання, які лишились у voice_lines після
+# першого тижня. Побічні ефекти з відгуків не транслюються — там, де тема
+# взята, кадр її знімає.
+
+thoughts:
+- key: m2-howlong
+  topic: Їжовик гребінчастий
+  day: mon
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a bright tidy kitchen counter in the morning: a jar of pale powder, a spoon and a paper calendar page beside a mug, daylight from a window
+  compound: ''
+  source: 'voice_lines: скільки триває банка'
+  retell: 'одна банка закриває майже місяць, і це видно наперед'
+  claim: 'НА СКІЛЬКИ ВИСТАЧАЄ БАНКИ'
+  why: 'Ложка на день — це двадцять пʼять днів.'
+  do: 'Постав нагадування на кінець місяця'
+
+- key: m2-colour
+  topic: Їжовик гребінчастий
+  day: mon
+  slot: morning
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of pale cream lion's mane powder filling the frame, fine soft texture, raking light
+  compound: ''
+  source: 'колір плодового тіла Hericium erinaceus'
+  retell: 'колір порошку показує, що всередині саме цей гриб'
+  claim: 'ЧОМУ ВІН ТАКИЙ БЛІДИЙ'
+  why: 'Гриб росте білим і таким лишається в помелі.'
+  do: 'Дивись на колір — він має бути кремовим'
+
+- key: m2-daily
+  topic: Їжовик гребінчастий
+  day: mon
+  slot: noon
+  layout: poster
+  extra: ''
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a desk at midday: a mug, an open notebook and a small jar within reach, warm daylight
+  compound: ''
+  source: 'voice_lines: чи можна щодня'
+  retell: 'перерв робити не треба, це звичайна їжа'
+  claim: 'ЧИ МОЖНА ЩОДНЯ'
+  why: 'Так, його їдять як звичайний гриб.'
+  do: 'Додавай ложку щоранку без перерв'
+
+- key: m2-missed
+  topic: Їжовик гребінчастий
+  day: mon
+  slot: evening
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands cradling a warm mug at a table in the evening, soft lamp light, calm and quiet
+  compound: ''
+  source: 'voice_lines drop: пропущені дні'
+  retell: 'пропущений день нічого не ламає, курс іде далі'
+  claim: 'ПРОПУСТИВ ДЕНЬ — СТРАШНО?'
+  why: 'Нічого страшного. Продовжуй наступного дня.'
+  do: 'Постав банку туди, де бачиш щоранку'
+
+- key: w2-mane-sell
+  topic: Їжовик гребінчастий
+  day: mon
+  slot: sell
+  layout: offer
+  product: Їжовик гребінчастий
+  ref: m9.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Мелений або капсули|Однієї банки на 25 днів|Ложка в каву щоранку
+  why: ''
+  do: Замовляй у директі або на сайті

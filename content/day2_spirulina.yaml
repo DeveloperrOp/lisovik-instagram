@@ -1,0 +1,91 @@
+# Тиждень 2. спіруліна: питання, які лишились у voice_lines після
+# першого тижня. Побічні ефекти з відгуків не транслюються — там, де тема
+# взята, кадр її знімає.
+
+thoughts:
+- key: s2-real
+  topic: Спіруліна
+  day: wed
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of deep blue-green spirulina powder, fine texture and intense colour, raking light
+  compound: ''
+  source: 'колір як ознака якості Spirulina platensis'
+  retell: 'колір і запах підказують, що в банці справжня сировина'
+  claim: 'ЯК ВІДРІЗНИТИ СПРАВЖНЮ'
+  why: 'Колір насичений, майже синій. Тьмяна — стара.'
+  do: 'Порівняй колір із фото на картці'
+
+- key: s2-howlong
+  topic: Спіруліна
+  day: wed
+  slot: morning
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a bright kitchen counter: a jar of deep green powder, a measuring spoon and a glass of juice, daylight from a window
+  compound: ''
+  source: 'voice_lines: на скільки вистачає банки'
+  retell: 'банка закриває приблизно половину місяця'
+  claim: 'НА СКІЛЬКИ ВИСТАЧАЄ'
+  why: 'Ложка на день — це приблизно два тижні.'
+  do: 'Бери дві банки, якщо береш курсом'
+
+- key: s2-start
+  topic: Спіруліна
+  day: wed
+  slot: noon
+  layout: poster
+  extra: ''
+  look: splash
+  subject: >
+    a glass of green drink being stirred with a spoon, swirl visible, clean bright background
+  compound: ''
+  source: 'voice_lines: перші дні прийому'
+  retell: 'починати краще з малого, щоб тіло звикло спокійно'
+  claim: 'З ЧОГО ПОЧИНАТИ'
+  why: 'З половини ложки в перші дні.'
+  do: 'Додай повну ложку з четвертого дня'
+
+- key: s2-taste
+  topic: Спіруліна
+  day: wed
+  slot: evening
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two clean hands holding a tall glass of green smoothie at a table, soft side light, warm and calm
+  compound: ''
+  source: 'voice_lines: чим перебити смак'
+  retell: 'смак ховається у фруктовому, а не у воді'
+  claim: 'ЧИМ ПЕРЕБИТИ СМАК'
+  why: 'Банан, яблучний сік або какао.'
+  do: 'Змішай у блендері з бананом'
+
+- key: w2-spirulina-sell
+  topic: Спіруліна
+  day: wed
+  slot: sell
+  layout: offer
+  product: Спіруліна
+  ref: spir.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Порошок або таблетки|Таблетки — коли смак заважає|Порошок — коли мішаєш у сік
+  why: ''
+  do: Замовляй у директі або на сайті

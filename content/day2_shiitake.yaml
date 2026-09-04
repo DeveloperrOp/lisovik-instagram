@@ -1,0 +1,91 @@
+# Тиждень 2. шиїтаке: питання, які лишились у voice_lines після
+# першого тижня. Побічні ефекти з відгуків не транслюються — там, де тема
+# взята, кадр її знімає.
+
+thoughts:
+- key: h2-store
+  topic: Шиїтаке
+  day: sun
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: knolling
+  subject: >
+    seen straight down on a plain surface: whole dried shiitake caps beside a closed glass jar, laid out parallel and evenly spaced, even shadowless light
+  compound: ''
+  source: 'сушені плодові тіла зберігаються без холодильника'
+  retell: 'сушений гриб не вимагає холодильника й місця в ньому'
+  claim: 'ДЕ ЙОГО ЗБЕРІГАТИ'
+  why: 'У сухій банці на полиці, без холодильника.'
+  do: 'Пересип у банку з кришкою'
+
+- key: h2-howmuch
+  topic: Шиїтаке
+  day: sun
+  slot: morning
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a bright kitchen counter: a pot of soup, a spoon of brown mushroom powder above it, dried caps beside, daylight from a window
+  compound: ''
+  source: 'voice_lines: скільки додавати'
+  retell: 'починають з малого, бо смак густий і швидко чути'
+  claim: 'СКІЛЬКИ ДОДАВАТИ'
+  why: 'Половини ложки на каструлю досить.'
+  do: 'Почни з половини — смак густий'
+
+- key: h2-what
+  topic: Шиїтаке
+  day: sun
+  slot: noon
+  layout: poster
+  extra: ''
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a plate of rice and vegetables with mushroom powder being sprinkled over it, warm daylight
+  compound: ''
+  source: 'кулінарне застосування Lentinula edodes'
+  retell: 'він підходить майже до всього, крім солодкого'
+  claim: 'ДО ЧОГО ВІН ПІДХОДИТЬ'
+  why: 'До супу, рису, мʼяса й овочів.'
+  do: 'Сипни в наступну вечерю'
+
+- key: h2-whole
+  topic: Шиїтаке
+  day: sun
+  slot: evening
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of a whole dried shiitake cap, its cracked surface and gills, raking light bringing out relief
+  compound: ''
+  source: 'voice_lines: цілі чи мелені'
+  retell: 'цілі беруть заради шматочків у страві, мелені заради смаку'
+  claim: 'ЦІЛІ ЧИ МЕЛЕНІ'
+  why: 'Шматочки видно в тарілці, помел лише чути.'
+  do: 'Бери мелені, якщо готуєш швидко'
+
+- key: w2-shiitake-sell
+  topic: Шиїтаке
+  day: sun
+  slot: sell
+  layout: offer
+  product: Шиїтаке
+  ref: shii.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Цілі сушені або мелені|Лежать місяцями|Ложка меленого в страву
+  why: ''
+  do: Замовляй у директі або на сайті

@@ -1,0 +1,91 @@
+# Тиждень 2. чага: питання, які лишились у voice_lines після
+# першого тижня. Побічні ефекти з відгуків не транслюються — там, де тема
+# взята, кадр її знімає.
+
+thoughts:
+- key: c2-crust
+  topic: Чага березова
+  day: tue
+  slot: dawn
+  layout: poster
+  extra: ''
+  look: macro-texture
+  subject: >
+    extreme macro of a broken chaga chunk: black cracked crust on one side, bright rust-orange crumbly interior on the other, raking light
+  compound: ''
+  source: 'будова нароста Inonotus obliquus'
+  retell: 'чорна кірка це захист, а не бруд і не пліснява'
+  claim: 'ЧОМУ КІРКА ЧОРНА'
+  why: 'Це захист гриба від морозу й сонця.'
+  do: 'Розломи шматок — усередині руда'
+
+- key: c2-again
+  topic: Чага березова
+  day: tue
+  slot: morning
+  layout: poster
+  extra: ''
+  look: kitchen-morning
+  subject: >
+    a bright kitchen counter: a thermos, a mug of dark infusion and a used chunk of chaga on a saucer, daylight from a window
+  compound: ''
+  source: 'voice_lines tried: багаторазове заварювання'
+  retell: 'один шматок працює довше, ніж здається на перший раз'
+  claim: 'СКІЛЬКИ РАЗІВ ЗАВАРЮВАТИ'
+  why: 'Один шматок витримує кілька заварок поспіль.'
+  do: 'Залий удруге — колір ще буде'
+
+- key: c2-water
+  topic: Чага березова
+  day: tue
+  slot: noon
+  layout: poster
+  extra: ''
+  look: splash
+  subject: >
+    hot water being poured from a kettle into a glass teapot with dark chaga pieces, steam rising, clean bright background
+  compound: ''
+  source: 'voice_lines objection: «якої температури вода»'
+  retell: 'окріп не потрібен, вистачає просто гарячої води'
+  claim: 'ЯКА ВОДА ПОТРІБНА'
+  why: 'Гаряча, але не окріп.'
+  do: 'Дай чайнику постояти хвилину'
+
+- key: c2-bitter
+  topic: Чага березова
+  day: tue
+  slot: evening
+  layout: poster
+  extra: ''
+  look: hands-hold
+  subject: >
+    two hands holding a mug of very dark infusion at a table in the evening, warm lamp light, dark tones
+  compound: ''
+  source: 'voice_lines: гіркуватий смак міцного настою'
+  retell: 'гіркота залежить від міцності, і її легко зменшити'
+  claim: 'ЧОМУ ГІРЧИТЬ'
+  why: 'Міцний настій завжди гіркуватий.'
+  do: 'Розбав водою або додай мед'
+
+- key: w2-chaga-sell
+  topic: Чага березова
+  day: tue
+  slot: sell
+  layout: offer
+  product: Чага березова
+  ref: c9.jpg
+  look: studio-dark
+  subject: >
+    the product package standing alone as the hero on a seamless deep black
+    background, turned slightly so its label and its printed name face the
+    camera, sharp; it stands directly on the dark surface with nothing under
+    it, no glass stand and no plinth; it occupies the LOWER HALF of the frame
+    while the upper half stays dark and empty for the headline; one hard side
+    light carving it out of the dark, a thin rim of light along the edge
+  compound: ''
+  source: 'каталог: форма товару з картки'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Ціла або мелена|Заварюється як чай|Один шматок на кілька заварок
+  why: ''
+  do: Замовляй у директі або на сайті
