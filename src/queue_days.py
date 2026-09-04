@@ -34,13 +34,14 @@ def arg(name, default=None):
     return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else default
 
 
-def frames(stem: str) -> list:
+def frames(stem: str, prefix="day_") -> list:
     """Кадри одного дня в порядку слотів плюс оферта."""
-    path = CONTENT_DIR / f"day_{stem}.yaml"
+    path = CONTENT_DIR / f"{prefix}{stem}.yaml"
     items = yaml.safe_load(path.read_text(encoding="utf-8"))["thoughts"]
-    out = [(t["slot"], OUT_DIR / f"day_{stem}" / f"{t['key']}.jpg",
+    out = [(t["slot"], OUT_DIR / f"{prefix}{stem}" / f"{t['key']}.jpg",
             t.get("topic", "")) for t in items]
-    out.append(("night", OUT_DIR / f"day_{stem}" / f"day_{stem}-offer.jpg",
+    out.append(("night", OUT_DIR / f"{prefix}{stem}" /
+            f"{prefix}{stem}-offer.jpg",
                 "Лісовик"))
     return out
 
@@ -58,6 +59,7 @@ def main() -> int:
         return 0
 
     slots = yaml.safe_load(DEFAULTS.read_text(encoding="utf-8"))["slots"]
+    prefix = "day2_" if "--week2" in sys.argv else "day_"
     order = (arg("--order") or ",".join(ORDER)).split(",")
     start = datetime.fromisoformat(
         arg("--start") or datetime.now(mf.KYIV).strftime("%Y-%m-%d"))
@@ -72,7 +74,7 @@ def main() -> int:
     queued = late = 0
     for n, stem in enumerate(order):
         date = start + timedelta(days=n)
-        for slot, src, topic in frames(stem):
+        for slot, src, topic in frames(stem, prefix):
             if not src.exists():
                 print(f"  ✖ {stem}/{slot}: немає файлу")
                 continue

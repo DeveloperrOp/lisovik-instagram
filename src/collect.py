@@ -20,15 +20,16 @@ from PIL import Image, ImageDraw
 
 from config import CONTENT_DIR, OUT_DIR
 
-DEST = OUT_DIR / "ГОТОВЕ"
+DEST = OUT_DIR / ("ГОТОВЕ-2" if "--week2" in __import__("sys").argv
+                  else "ГОТОВЕ")
 DAYS = [("mon", "1-ПН"), ("tue", "2-ВТ"), ("wed", "3-СР"), ("thu", "4-ЧТ"),
         ("fri", "5-ПТ"), ("sat", "6-СБ"), ("sun", "7-НД")]
 
 
-def day_files() -> dict:
+def day_files(prefix="day_") -> dict:
     """Какому дню какой файл соответствует."""
     out = {}
-    for path in sorted(CONTENT_DIR.glob("day_*.yaml")):
+    for path in sorted(CONTENT_DIR.glob(f"{prefix}*.yaml")):
         items = yaml.safe_load(path.read_text(encoding="utf-8"))["thoughts"]
         if items:
             out[items[0].get("day")] = path
@@ -42,7 +43,8 @@ def main() -> int:
 
     slots = yaml.safe_load(
         (CONTENT_DIR / "defaults.yaml").read_text(encoding="utf-8"))["slots"]
-    files = day_files()
+    prefix = "day2_" if "--week2" in sys.argv else "day_"
+    files = day_files(prefix)
     sheets, missing = [], []
 
     for day, label in DAYS:
