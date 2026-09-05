@@ -31,10 +31,10 @@ thoughts:
     a bright kitchen counter at breakfast: a plate, a glass of water and two jars beside it, daylight from a window
   compound: ''
   source: 'каталог: щоденна база раціону'
-  retell: 'це те, з чого починають, а не те, чим доповнюють'
-  claim: 'З ЦИХ ДВОХ ПОЧИНАЮТЬ'
-  why: 'З цих двох, якщо береш уперше.'
-  do: 'Постав обидві банки на стіл'
+  retell: 'почати можна з пари банок різного типу, а не з повної полиці'
+  claim: 'ДВІ БАНКИ, А НЕ ДЕСЯТЬ'
+  why: 'В одній жир, у другій мінерал.'
+  do: 'Постав обидві там, де снідаєш'
 
 - key: p2-when
   topic: Щоденна основа
@@ -48,10 +48,10 @@ thoughts:
     over-the-shoulder view of a table at lunch: a plate of food, a glass of water and a jar of capsules beside it, warm daylight
   compound: ''
   source: 'voice_new objection: «рыбная отрыжка преследует меня постоянно»'
-  retell: 'відрижку прибирає час прийому, а не марка'
-  claim: 'РИБНА ВІДРИЖКА ВІД ОМЕГИ'
-  why: 'Вона зникає, коли пити з їжею, а не натще.'
-  do: 'Клади капсулу поруч із тарілкою'
+  retell: 'слід від жиру зʼявляється лише на голодний шлунок, а разом з обідом зникає'
+  claim: 'РИБИ В РОТІ НЕ ЛИШИТЬСЯ'
+  why: 'Натще жир спливає — звідси й присмак.'
+  do: 'Випий капсулу під час обіду'
 
 - key: p2-howlong
   topic: Щоденна основа

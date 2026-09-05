@@ -45,10 +45,10 @@ thoughts:
     hot water being poured into a glass teapot with dark fermented leaves, steam rising, bright kitchen counter, daylight
   compound: ''
   source: 'спосіб заварювання ферментованого листа'
-  retell: 'заварюється як звичайний чай, нічого особливого'
-  claim: 'ЗАЛИЙ І НАКРИЙ НА ПʼЯТЬ ХВИЛИН'
-  why: 'Гарячою водою, пʼять хвилин.'
-  do: 'Залий і накрий кришкою'
+  retell: 'кришка тримає аромат усередині, поки лист віддає його воді'
+  claim: 'ЗАПАХ ТІКАЄ РАЗОМ ІЗ ПАРОЮ'
+  why: 'Під кришкою він лишається в чаї.'
+  do: 'Накрий чайник одразу після окропу'
 
 - key: t3-again
   topic: Іван-чай
@@ -75,7 +75,7 @@ thoughts:
   ref: [tea_ivan.jpg]
   look: studio-dark
   subject: >
-    a paper pouch of loose dried herbs standing on a dark surface with a small heap of the same herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame
+    a flat printed cardboard carton box of tea standing upright on a dark surface with a small heap of loose dried herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: склад і фасовка з картки'
   claim: ЩО БРАТИ ПЕРШИМ

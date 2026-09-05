@@ -13,10 +13,10 @@ thoughts:
     seen straight down on a plain surface: dried chamomile flowers, mint leaves, lavender and hawthorn laid out in separate neat heaps, even shadowless light
   compound: ''
   source: 'voice_new drop: «Не ощутила аромат заявленных в чае растений»'
-  retell: 'склад перевіряється носом до першої заварки'
-  claim: 'РОМАШКУ Й ЛАВАНДУ ЧУТИ ОКРЕМО'
-  why: 'Кожну траву чути окремо, а не суцільним запахом.'
-  do: 'Понюхай суху суміш перед заваркою'
+  retell: 'на знімку чотири рослини окремими купками; ягода відповідає за терпкий бік смаку, а квітки — за аромат'
+  claim: 'РОМАШКА, МʼЯТА, ЛАВАНДА, ГЛІД'
+  why: 'Терпкість — від ягоди, запах — від цвіту.'
+  do: 'Понюхай суху жменю перед заваркою'
 
 - key: t1-when
   topic: Сонне зілля
@@ -75,11 +75,11 @@ thoughts:
   ref: [tea_sonne.jpg]
   look: studio-dark
   subject: >
-    a paper pouch of loose dried herbs standing on a dark surface with a small heap of the same herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame
+    a flat printed cardboard carton box of tea standing upright on a dark surface with a small heap of loose dried herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: склад і фасовка з картки'
   claim: ЩО БРАТИ ПЕРШИМ
   extra: >-
-    Розсипні трави в пачці|Ложка на чашку|Пʼять хвилин під кришкою
+    Розсипні трави в пачці|Ложка на чашку|Вечірній, без чайного листа
   why: ''
   do: Замовляй у директі або на сайті

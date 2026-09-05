@@ -14,6 +14,8 @@
 """
 import sys
 
+from itertools import combinations
+
 from PIL import Image, ImageDraw
 
 import check_thought as CT
@@ -358,6 +360,39 @@ def fade(img, height, strength=170, light=False, tail=None):
     return img
 
 
+def balanced(probe, text, font, max_w, limit=4):
+    """Перенос, у якому рядки виходять приблизно однакової довжини.
+
+    Звичайний перенос жадібний: набиває перший рядок під зав'язку, а що
+    лишилось — у наступний. На заголовку «РИБИ В РОТІ НЕ ЛИШИТЬСЯ» це
+    дало «РИБИ В РОТІ / НЕ / ЛИШИТЬСЯ» — середній рядок з одного слова
+    на пів екрана. Захист від сироти дивився тільки на ОСТАННІЙ рядок,
+    тож середину пропускав.
+
+    Тут для кожної кількості рядків перебираються всі місця розриву й
+    береться те, де різниця між найширшим і найвужчим рядком найменша.
+    Слів у заголовку одиниці, тому перебір дешевший за будь-яку хитрість.
+    """
+    words = ST.safe(text).split() if hasattr(ST, "safe") else text.split()
+    n = len(words)
+    if n < 2:
+        return [" ".join(words)] if words else [""]
+    for k in range(1, min(limit, n) + 1):
+        best = None
+        for cuts in combinations(range(1, n), k - 1):
+            idx = (0,) + cuts + (n,)
+            lines = [" ".join(words[idx[i]:idx[i + 1]]) for i in range(k)]
+            w = [probe.textlength(x, font=font) for x in lines]
+            if max(w) > max_w:
+                continue
+            score = max(w) - min(w)
+            if best is None or score < best[0]:
+                best = (score, lines)
+        if best:
+            return best[1]
+    return ST.wrap(probe, text, font, max_w)
+
+
 def poster(img, s, data):
     """Плакат: заголовок во весь экран, одна строка сути, вывод внизу.
 
@@ -387,7 +422,7 @@ def poster(img, s, data):
     k, fh, lines = 0.118, None, []
     while k > 0.068:
         fh = fnt(img, k)
-        lines = ST.wrap(probe, data["headline"], fh, int(W * 0.84))
+        lines = balanced(probe, data["headline"], fh, int(W * 0.84))
         widest = max(probe.textlength(x, font=fh) for x in lines)
         orphan = (len(lines) > 1
                   and probe.textlength(lines[-1], font=fh) < widest * 0.42)

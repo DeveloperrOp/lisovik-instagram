@@ -47,10 +47,10 @@ thoughts:
     over-the-shoulder view of a breakfast table: a plate, a mug and a jar of capsules within reach, morning daylight
   compound: ''
   source: 'каталог: прийом зранку'
-  retell: 'це ранковий курс, вечірнього прийому він не потребує'
-  claim: 'ПРИЙМАЮТЬ ЗРАНКУ'
-  why: 'Зранку або перед навантаженням.'
-  do: 'Випий після сніданку'
+  retell: 'усе випивають за ранковим столом, а банка стоїть на видноті'
+  claim: 'ВЕЧІРНЬОЇ ПОРЦІЇ ТУТ НЕМАЄ'
+  why: 'Пʼють один раз, за сніданком.'
+  do: 'Тримай банку біля тарілки'
 
 - key: p3-howlong
   topic: Тонус і витривалість

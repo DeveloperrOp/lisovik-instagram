@@ -45,10 +45,10 @@ thoughts:
     two hands holding a warm cup of amber herbal tea at a table by a window, soft daylight, calm
   compound: ''
   source: 'травʼяна суміш без чайного листа'
-  retell: 'його можна пити вдень, бо він не бадьорить'
-  claim: 'ЙОГО ПʼЮТЬ УДЕНЬ'
-  why: 'Удень або надвечір — він не бадьорить.'
-  do: 'Завари після обіду'
+  retell: 'по обіді його беруть на місце кави, бо в суміші лише трави й розганяти нічим'
+  claim: 'ЗАМІСТЬ ТРЕТЬОЇ КАВИ'
+  why: 'Чайного листа тут немає — будити нічим.'
+  do: 'Постав чайник після обіду'
 
 - key: t2-howlong
   topic: Карпатський бальзам
@@ -59,13 +59,13 @@ thoughts:
   ref: [tea_karp.jpg]
   look: kitchen-morning
   subject: >
-    a paper pouch of loose herbs and a glass jar on a bright kitchen shelf beside cups, daylight
+    an opened printed cardboard carton box of tea and a glass jar on a bright kitchen shelf beside cups, daylight
   compound: ''
   source: 'каталог: фасовка 40 г'
-  retell: 'пачки вистачає приблизно на три тижні щоденних чашок'
-  claim: 'ДВАДЦЯТЬ ЧАШОК З ОДНІЄЇ ПАЧКИ'
-  why: 'Приблизно на двадцять чашок.'
-  do: 'Бери дві, якщо пʼєш щодня'
+  retell: 'відкритий пакет стоїть на полиці тижнями, тому суміш краще пересипати у скло'
+  claim: 'ВІДКРИТА ПАЧКА СТОЇТЬ ТРИ ТИЖНІ'
+  why: 'Скло тримає запах краще за папір.'
+  do: 'Пересип у банку й закрий'
 
 - key: w3-karpaty-sell
   topic: Карпатський бальзам
@@ -76,7 +76,7 @@ thoughts:
   ref: [tea_karp.jpg]
   look: studio-dark
   subject: >
-    a paper pouch of loose dried herbs standing on a dark surface with a small heap of the same herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame
+    a flat printed cardboard carton box of tea standing upright on a dark surface with a small heap of loose dried herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: склад і фасовка з картки'
   claim: ЩО БРАТИ ПЕРШИМ
