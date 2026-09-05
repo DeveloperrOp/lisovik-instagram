@@ -47,11 +47,11 @@ thoughts:
   subject: >
     over-the-shoulder view of a table at lunch: a plate of food, a glass of water and a jar of capsules beside it, warm daylight
   compound: ''
-  source: 'voice_new objection: «рыбная отрыжка преследует меня постоянно»'
-  retell: 'слід від жиру зʼявляється лише на голодний шлунок, а разом з обідом зникає'
-  claim: 'РИБИ В РОТІ НЕ ЛИШИТЬСЯ'
-  why: 'Натще жир спливає — звідси й присмак.'
-  do: 'Випий капсулу під час обіду'
+  source: 'спосіб вживання: під час їди'
+  retell: 'поруч із жирною стравою вона працює найкраще'
+  claim: 'ОМЕГА ЛЮБИТЬ ЖИРНУ ЇЖУ'
+  why: 'З рибою чи олією засвоюється краще.'
+  do: 'Випий її разом з обідом'
 
 - key: p2-howlong
   topic: Щоденна основа
