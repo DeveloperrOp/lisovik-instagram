@@ -12,6 +12,7 @@
 
     out/АРХІВ/
       0_ОГЛЯД.jpg              весь тиждень однією картинкою
+      0-НА-ЗАТВЕРДЖЕННЯ/       поставлене на дати, але чекає твого «так»
       1-ОПУБЛІКОВАНО/          що вже вийшло в акаунт, з датою виходу
       2-У-ЧЕРЗІ/               що піде само, з датою й часом
       3-ГОТОВЕ-ЧЕКАЄ/          намальоване, але в чергу не поставлене
@@ -36,8 +37,8 @@ import manifest as mf
 from config import CONTENT_DIR, OUT_DIR
 
 DEST = OUT_DIR / "АРХІВ"
-FOLDERS = ["1-ОПУБЛІКОВАНО", "2-У-ЧЕРЗІ", "3-ГОТОВЕ-ЧЕКАЄ", "4-ПОСТИ",
-           "5-ВІДКЛАДЕНО"]
+FOLDERS = ["0-НА-ЗАТВЕРДЖЕННЯ", "1-ОПУБЛІКОВАНО", "2-У-ЧЕРЗІ",
+           "3-ГОТОВЕ-ЧЕКАЄ", "4-ПОСТИ", "5-ВІДКЛАДЕНО"]
 
 
 def safe(text: str) -> str:
@@ -98,7 +99,7 @@ def main() -> int:
     # тема в маніфесті писалась по-різному («Чага» і «Чага березова»),
     # а стара тема «Чай» — це взагалі збірний кадр, не іван-чай.
     seen = set()
-    published, queued = {}, {}
+    published, queued, waiting = {}, {}, {}
     for i in m["items"]:
         stem, slot = parts(i["id"])
         if not stem:
@@ -108,6 +109,8 @@ def main() -> int:
             seen.add(stem)
         elif i["status"] == "approved":
             queued[(stem, slot)] = i
+        elif i["status"] == "pending":
+            waiting[(stem, slot)] = i
 
     counts = dict.fromkeys(FOLDERS, 0)
     sheets = {}
@@ -120,14 +123,17 @@ def main() -> int:
         # цілком, інакше другий набір не впізнається як уже виданий.
         stem = re.sub(r"^day\d*_", "", fr["set"])
         pub = published.get((stem, fr["slot"])) if first else None
-        que = queued.get((stem, fr["slot"])) if first else None
+        # Відкладені перевіряємо ДО черги: другий набір має ті самі stem,
+        # що й перший, і без цього його кадри читались би як поставлені.
         if pub:
             folder, when = "1-ОПУБЛІКОВАНО", (pub.get("published_at")
                                               or pub["slot_start"])[:10]
-        elif que:
-            folder, when = "2-У-ЧЕРЗІ", que["slot_start"][:10]
-        elif stem in seen:
+        elif stem in seen and not first:
             folder, when = "5-ВІДКЛАДЕНО", ""
+        elif (que := queued.get((stem, fr["slot"]))):
+            folder, when = "2-У-ЧЕРЗІ", que["slot_start"][:10]
+        elif (wait := waiting.get((stem, fr["slot"]))):
+            folder, when = "0-НА-ЗАТВЕРДЖЕННЯ", wait["slot_start"][:10]
         else:
             folder, when = "3-ГОТОВЕ-ЧЕКАЄ", ""
         d = f"{when[8:10]}.{when[5:7]}_" if when else ""
