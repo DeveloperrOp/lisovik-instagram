@@ -974,10 +974,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0905-shiitake-sell.jpg",
    "slot_start": "2026-09-05T19:00:00+03:00",
    "slot_end": "2026-09-05T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-05T19:00:14.200057+03:00",
+   "ig_media_id": "18163453504486965",
+   "error": null,
+   "fb_story_id": "2529545800868702"
   },
   {
    "id": "0905-shiitake-night",
