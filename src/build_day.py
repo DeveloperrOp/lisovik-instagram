@@ -140,6 +140,21 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
     if ref:
         many = isinstance(ref, (list, tuple))
         prompt += " " + " ".join((REF_MANY if many else REF_NOTE).split())
+        # Напис на упаковці словами. Без нього модель або вигадує латиницю,
+        # або, коли вичитка кілька разів поспіль бракує кадр, лишає пачку
+        # взагалі порожньою — так вийшла коробка іван-чаю без назви.
+        # Тому слова, які МАЮТЬ стояти на упаковці, називаємо прямо; беремо
+        # їх із поля «label» кадру, вигадувати їх код не має права.
+        lab = t.get("label")
+        if lab:
+            words = ", ".join(f"«{w}»" for w in lab)
+            prompt += (" The package carries printed wording. Spell it "
+                       f"letter for letter: {words}. These words must be "
+                       "present and legible. Ignore the earlier instruction "
+                       "about small print: draw NO small print, no ingredient "
+                       "paragraphs, no barcode digits, no QR captions. Leave "
+                       "those areas as clean printed colour and pattern. "
+                       "Only the words named above appear as text.")
 
     for n in range(1, tries + 1):
         paths = ([OUT_DIR / "real" / "all" / r for r in ref] if many
@@ -214,10 +229,16 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
                         "organic", "mushroom", "mushrooms", "natural",
                         "extract", "powder", "capsules", "vegan", "weight",
                         "ukraine", "product"}
+            # Латинка з нашого ж напису — не чужа. Кадр «Тремела й
+            # формула WOMEN» тричі пішов у брак за «women | power |
+            # formula», хоча ці слова стоять у label і на справжній банці.
+            own = set(OURS_LAT)
+            for w in (t.get("label") or []):
+                own |= {x for x in re.findall(r"[a-z]{3,}", w.lower())}
             alien = []
             for x in lines:
                 for w in re.findall(r"[a-z]{5,}", x.lower()):
-                    if w not in OURS_LAT:
+                    if w not in own:
                         alien.append(w)
             lines = alien
         if not lines:

@@ -59,10 +59,16 @@ thoughts:
   slot: evening
   layout: poster
   extra: ''
-  ref: [tremella.jpg]
+  ref: [tremella.jpg, women.jpg]
+  label:
+  - 'ЛІСОВИК'
+  - 'ТРЕМЕЛА'
+  - 'ЦІЛІ ГРИБИ - 50 Г'
+  - 'WOMEN'
+  - 'NATURAL POWER FORMULA'
   look: knolling
   subject: >
-    seen straight down on a plain surface: a jar of white powder and a jar of capsules laid out parallel and evenly spaced, even shadowless light
+    seen straight down on a plain surface: a kraft stand-up pouch with a printed label and a white capsule jar with a pink label, laid out parallel and evenly spaced, even shadowless light
   compound: ''
   source: 'каталог: тремела + WOMEN Natural Power Formula'
   retell: 'курс складається з двох частин, і обидві названі'
@@ -76,10 +82,16 @@ thoughts:
   slot: sell
   layout: offer
   product: Тремела
-  ref: [tremella.jpg]
+  ref: [tremella.jpg, women.jpg]
+  label:
+  - 'ЛІСОВИК'
+  - 'ТРЕМЕЛА'
+  - 'ЦІЛІ ГРИБИ - 50 Г'
+  - 'WOMEN'
+  - 'NATURAL POWER FORMULA'
   look: studio-dark
   subject: >
-    two product jars standing together on a dark surface, turned slightly, one hard side light carving them out of the dark, deep shadows, the objects in the LOWER HALF of the frame
+    a kraft stand-up pouch with a printed label and a white capsule jar with a pink label standing together on a dark surface, turned slightly, one hard side light carving them out of the dark, deep shadows, the objects in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: склад і фасовка з картки'
   claim: ЩО БРАТИ ПЕРШИМ

@@ -73,6 +73,11 @@ thoughts:
   layout: offer
   product: Сонне зілля
   ref: [tea_sonne.jpg]
+  label:
+  - 'ЛІСОВИК'
+  - 'ЧАЙ'
+  - 'СОННЕ ЗІЛЛЯ'
+  - '100% СУМІШІ ТРАВ - 40 Г'
   look: studio-dark
   subject: >
     a flat printed cardboard carton box of tea standing upright on a dark surface with a small heap of loose dried herbs beside it, one hard side light, deep shadows, the objects in the LOWER HALF of the frame

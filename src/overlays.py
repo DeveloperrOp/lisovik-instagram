@@ -513,7 +513,10 @@ def offer(img, s, data):
         bottom += len(ST.wrap(probe, pt, fp, int(W * 0.74))) * int(fp.size * 1.34)
         bottom += int(H * 0.014)
 
-    img = fade(img, bottom + int(H * 0.09), 210, s["light"],
+    # Вуаль на товарному кадрі щільніша за решту: пачка чаю світла й
+    # висока, і при 210 верх коробки просвічував рівно там, де лежить
+    # третій рядок списку — білі літери на світлому картоні.
+    img = fade(img, bottom + int(H * 0.09), 236, s["light"],
                tail=int(H * 0.09))
     d = ImageDraw.Draw(img)
 
