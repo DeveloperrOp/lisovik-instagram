@@ -16,6 +16,7 @@
       2-У-ЧЕРЗІ/               що піде само, з датою й часом
       3-ГОТОВЕ-ЧЕКАЄ/          намальоване, але в чергу не поставлене
       4-ПОСТИ/                 пости у стрічку
+      5-ВІДКЛАДЕНО/            продукт уже виходив в акаунт, чекає ротації
 
 Імена файлів кажуть усе без відкривання:
     31.08_19-00_Чага_ЩО-БРАТИ-ПЕРШИМ.jpg
@@ -35,7 +36,8 @@ import manifest as mf
 from config import CONTENT_DIR, OUT_DIR
 
 DEST = OUT_DIR / "АРХІВ"
-FOLDERS = ["1-ОПУБЛІКОВАНО", "2-У-ЧЕРЗІ", "3-ГОТОВЕ-ЧЕКАЄ", "4-ПОСТИ"]
+FOLDERS = ["1-ОПУБЛІКОВАНО", "2-У-ЧЕРЗІ", "3-ГОТОВЕ-ЧЕКАЄ", "4-ПОСТИ",
+           "5-ВІДКЛАДЕНО"]
 
 
 def safe(text: str) -> str:
@@ -88,6 +90,14 @@ def main() -> int:
         bits = item_id.split("-")
         return (bits[1] if len(bits) > 2 else "", bits[-1])
 
+    # Продукти, які вже виходили в акаунт. Ярик 05.09: «в цій папці
+    # продукти що вже публікували, збери в окрему папку, ми їх поки
+    # відкладемо» — другий тиждень намальований на ті самі сім грибів,
+    # і в теці майбутнього їм робити нічого, поки не пройде ротація.
+    # Продукт беремо з id («0905-reishi-night» → reishi), а не з теми:
+    # тема в маніфесті писалась по-різному («Чага» і «Чага березова»),
+    # а стара тема «Чай» — це взагалі збірний кадр, не іван-чай.
+    seen = set()
     published, queued = {}, {}
     for i in m["items"]:
         stem, slot = parts(i["id"])
@@ -95,6 +105,7 @@ def main() -> int:
             continue
         if i["status"] == "published":
             published[(stem, slot)] = i
+            seen.add(stem)
         elif i["status"] == "approved":
             queued[(stem, slot)] = i
 
@@ -105,7 +116,9 @@ def main() -> int:
         # мають ті самі назви продуктів, і без цієї перевірки їхні кадри
         # зараховувались би як опубліковані.
         first = fr["set"].startswith("day_")
-        stem = fr["set"].replace("day_", "")
+        # «day_mane» і «day2_mane» — один продукт: префікс тижня знімаємо
+        # цілком, інакше другий набір не впізнається як уже виданий.
+        stem = re.sub(r"^day\d*_", "", fr["set"])
         pub = published.get((stem, fr["slot"])) if first else None
         que = queued.get((stem, fr["slot"])) if first else None
         if pub:
@@ -113,6 +126,8 @@ def main() -> int:
                                               or pub["slot_start"])[:10]
         elif que:
             folder, when = "2-У-ЧЕРЗІ", que["slot_start"][:10]
+        elif stem in seen:
+            folder, when = "5-ВІДКЛАДЕНО", ""
         else:
             folder, when = "3-ГОТОВЕ-ЧЕКАЄ", ""
         d = f"{when[8:10]}.{when[5:7]}_" if when else ""
