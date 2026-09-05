@@ -29,6 +29,10 @@ DEFAULTS = CONTENT_DIR / "defaults.yaml"
 # Шиїтаке виведено з ротації 31.08.2026 на вимогу власника. Файли днів
 # лишились у content, але в публікації не йдуть.
 ORDER = ["mane", "chaga", "spirulina", "cordyceps", "ashwagandha", "reishi"]
+# Третій набір — не гриби, а чаї й готові курси. Порядок від найширшого
+# за попитом продукту до вужчого, щоб тиждень відкривався тим, що бере
+# найбільше людей.
+ORDER3 = ["osnova", "spokij", "tonus", "sonne", "ivan", "karpaty", "krasa"]
 
 
 def arg(name, default=None):
@@ -60,8 +64,10 @@ def main() -> int:
         return 0
 
     slots = yaml.safe_load(DEFAULTS.read_text(encoding="utf-8"))["slots"]
-    prefix = "day2_" if "--week2" in sys.argv else "day_"
-    order = (arg("--order") or ",".join(ORDER)).split(",")
+    prefix = ("day3_" if "--week3" in sys.argv else
+              "day2_" if "--week2" in sys.argv else "day_")
+    order = (arg("--order") or ",".join(
+        ORDER3 if "--week3" in sys.argv else ORDER)).split(",")
     start = datetime.fromisoformat(
         arg("--start") or datetime.now(mf.KYIV).strftime("%Y-%m-%d"))
     start = start.replace(tzinfo=mf.KYIV)
