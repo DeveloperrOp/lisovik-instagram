@@ -1015,10 +1015,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0906-osnova-morning.jpg",
    "slot_start": "2026-09-06T10:00:00+03:00",
    "slot_end": "2026-09-06T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-06T10:00:15.588984+03:00",
+   "ig_media_id": "17950972761261756",
+   "error": null,
+   "fb_story_id": "1660678158788903"
   },
   {
    "id": "0906-osnova-noon",
