@@ -1057,10 +1057,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0906-osnova-sell.jpg",
    "slot_start": "2026-09-06T19:00:00+03:00",
    "slot_end": "2026-09-06T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-06T19:00:13.273163+03:00",
+   "ig_media_id": "18625314148056262",
+   "error": null,
+   "fb_story_id": "2508326562972198"
   },
   {
    "id": "0906-osnova-night",
