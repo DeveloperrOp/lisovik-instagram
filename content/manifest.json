@@ -1155,10 +1155,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0907-spokij-night.jpg",
    "slot_start": "2026-09-07T20:00:00+03:00",
    "slot_end": "2026-09-07T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-07T20:00:14.633390+03:00",
+   "ig_media_id": "18082640777702674",
+   "error": null,
+   "fb_story_id": "824064920766035"
   },
   {
    "id": "0908-tonus-dawn",
