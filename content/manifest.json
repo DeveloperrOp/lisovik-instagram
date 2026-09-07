@@ -1127,10 +1127,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0907-spokij-evening.jpg",
    "slot_start": "2026-09-07T18:00:00+03:00",
    "slot_end": "2026-09-07T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-07T18:00:13.336048+03:00",
+   "ig_media_id": "18088401149368808",
+   "error": null,
+   "fb_story_id": "1821082602387718"
   },
   {
    "id": "0907-spokij-sell",
