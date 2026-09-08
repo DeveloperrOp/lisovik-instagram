@@ -1211,10 +1211,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0908-tonus-evening.jpg",
    "slot_start": "2026-09-08T18:00:00+03:00",
    "slot_end": "2026-09-08T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-08T18:00:15.381902+03:00",
+   "ig_media_id": "17907402360545753",
+   "error": null,
+   "fb_story_id": "1097525149523822"
   },
   {
    "id": "0908-tonus-sell",
