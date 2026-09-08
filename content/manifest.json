@@ -1169,10 +1169,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0908-tonus-dawn.jpg",
    "slot_start": "2026-09-08T07:00:00+03:00",
    "slot_end": "2026-09-08T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-08T07:00:14.619650+03:00",
+   "ig_media_id": "18118649009316885",
+   "error": null,
+   "fb_story_id": "4656119954711252"
   },
   {
    "id": "0908-tonus-morning",
