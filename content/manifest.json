@@ -1239,10 +1239,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0908-tonus-night.jpg",
    "slot_start": "2026-09-08T20:00:00+03:00",
    "slot_end": "2026-09-08T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-08T20:00:13.671869+03:00",
+   "ig_media_id": "18124866544840912",
+   "error": null,
+   "fb_story_id": "1635355874616141"
   },
   {
    "id": "0909-sonne-dawn",
