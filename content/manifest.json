@@ -1323,10 +1323,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0909-sonne-night.jpg",
    "slot_start": "2026-09-09T20:00:00+03:00",
    "slot_end": "2026-09-09T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-09T20:00:14.515483+03:00",
+   "ig_media_id": "18190623856392406",
+   "error": null,
+   "fb_story_id": "2090053544920400"
   },
   {
    "id": "0910-ivan-dawn",
