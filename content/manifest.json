@@ -1281,10 +1281,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0909-sonne-noon.jpg",
    "slot_start": "2026-09-09T12:00:00+03:00",
    "slot_end": "2026-09-09T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-09T12:00:14.748060+03:00",
+   "ig_media_id": "18129367534802664",
+   "error": null,
+   "fb_story_id": "1090108827076877"
   },
   {
    "id": "0909-sonne-evening",
