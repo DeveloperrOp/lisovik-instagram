@@ -143,12 +143,36 @@ def main() -> int:
         counts[folder] += 1
         sheets.setdefault(folder, []).append(DEST / folder / name)
 
+    # Каруселі у стрічку: кожен набір лягає своєю підтекою, кадри
+    # нумеруються порядком гортання, поруч — підпис.
+    for y in sorted(CONTENT_DIR.glob("post_*.yaml")):
+        items = yaml.safe_load(y.read_text(encoding="utf-8"))["thoughts"]
+        src = OUT_DIR / y.stem
+        if not src.exists():
+            continue
+        folder = DEST / "4-ПОСТИ" / f"Карусель_{safe(items[0].get('topic', y.stem))}"
+        folder.mkdir(parents=True, exist_ok=True)
+        for n, t in enumerate(items, 1):
+            jpg = src / f"{t['key']}.jpg"
+            if jpg.exists():
+                shutil.copy2(jpg, folder / f"{n}_{safe(t['claim'])}.jpg")
+                counts["4-ПОСТИ"] += 1
+        cap = src / "caption.txt"
+        if cap.exists():
+            shutil.copy2(cap, folder / "0_підпис.txt")
+
     post = OUT_DIR / "post_week" / "post_week.jpg"
     if post.exists():
-        shutil.copy2(post, DEST / "4-ПОСТИ" / "Товар-тижня_-20-ясна-голова.jpg")
+        # Ім'я з першого рядка підпису: тема тижня змінюється, а хардкод
+        # «ясна голова» перезаписував би архів чужою назвою.
         cap = OUT_DIR / "post_week" / "caption.txt"
+        tag = ""
         if cap.exists():
-            shutil.copy2(cap, DEST / "4-ПОСТИ" / "Товар-тижня_підпис.txt")
+            first = cap.read_text(encoding="utf-8").strip().splitlines()[0]
+            tag = "_" + safe(first.split(":", 1)[-1].strip())[:40]
+        shutil.copy2(post, DEST / "4-ПОСТИ" / f"Товар-тижня{tag}.jpg")
+        if cap.exists():
+            shutil.copy2(cap, DEST / "4-ПОСТИ" / f"Товар-тижня{tag}_підпис.txt")
         counts["4-ПОСТИ"] += 1
 
     # оглядовий лист: по рядку на стан

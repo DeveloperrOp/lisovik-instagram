@@ -115,7 +115,8 @@ EXACT_LABEL = {"лісовик", "їжовик", "гребінчастий", "ч
 
 
 def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
-            tries=3) -> bool:
+            tries=3, aspect="9:16") -> bool:
+    """Підкладка кадру. aspect: «9:16» для сторіс, «4:5» для стрічки."""
     dest = outdir / f"{t['key']}.png"
     if dest.exists():
         print(f"  · {t['key']}: підкладка вже є", flush=True)
@@ -159,8 +160,8 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
     for n in range(1, tries + 1):
         paths = ([OUT_DIR / "real" / "all" / r for r in ref] if many
                  else OUT_DIR / "real" / "all" / ref) if ref else None
-        ok = (F.draw_ref(prompt, paths, tok, dest) if ref
-              else F.draw_raw(prompt, tok, dest))
+        ok = (F.draw_ref(prompt, paths, tok, dest, aspect=aspect) if ref
+              else F.draw_raw(prompt, tok, dest, aspect=aspect))
         if not ok:
             time.sleep(5)
             continue
@@ -241,6 +242,25 @@ def draw_bg(t: dict, cfg: dict, looks: dict, outdir: Path, tok: str,
                     if w not in own:
                         alien.append(w)
             lines = alien
+        # Порожня етикетка — теж брак, і найпідступніший: вичитка ловила
+        # СПОТВОРЕНІ написи, а коли модель не малювала на банці нічого,
+        # претензій не було й кадр проходив. Так у карусель потрапили три
+        # кадри з білими болванками замість наших банок.
+        #
+        # Перевіряємо тільки там, де ми САМІ назвали слова етикетки: на
+        # кадрі, де банка стоїть далеко й дрібно, вичитувач її напису не
+        # прочитає, і вимагати його означало б бракувати годні кадри.
+        lab = t.get("label") or []
+        if ref and lab:
+            got = " ".join(seen.get("text_lines", [])).lower()
+            roots = [w.lower()[:5] for w in lab if len(w) > 4]
+            if roots and not any(r in got for r in roots):
+                print(f"  ~ {t['key']}: на упаковці немає жодного нашого "
+                      f"напису — порожня етикетка", flush=True)
+                dest.unlink(missing_ok=True)
+                time.sleep(4)
+                continue
+
         if not lines:
             print(f"  ✔ {t['key']:24} {t['look']:14} з {n}-ї спроби", flush=True)
             return True

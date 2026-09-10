@@ -1,0 +1,175 @@
+# Карусель у стрічку: курс «Щоденна основа» (омега-3 + магній гліцинат).
+# https://lisovik.com.ua/kurs-shchodenna-osnova-omeha-3-i-mahnii-1-misiats/
+#
+# Сім кадрів 4:5. Ярик 10.09: «7 кадрів — подробно», ціна тільки на
+# останньому, дозування (EPA/DHA/мг магнію) — ТІЛЬКИ в підписі під постом,
+# на картинках цифр складу немає, як і в сторіс.
+#
+# Банки наші в кожному кадрі: ref стоїть скрізь, не лише на товарному.
+
+product: Курс «Щоденна основа»
+url: https://lisovik.com.ua/kurs-shchodenna-osnova-omeha-3-i-mahnii-1-misiats/
+price: 1030
+
+# Підпис під постом. Дозування живуть ТІЛЬКИ тут: Ярик 10.09 дозволив
+# цифри складу в тексті, але не на картинках.
+caption: |
+  Щоденна основа: омега-3 і магній гліцинат на місяць
+
+  Дві добавки, з яких починають, коли досі не пив нічого. Не екзотика,
+  а те, чого найчастіше бракує у звичайному раціоні: жирна морська риба
+  на столі буває рідко, а магній витрачається швидше, ніж здається.
+
+  Що в наборі:
+  • Омега-3 риб'ячий жир — EPA 368 мг + DHA 248 мг
+  • Магній гліцинат — 208 мг магнію, це 55% добової норми
+
+  Як приймати: чотири капсули на день, по дві з кожної банки, за їжею.
+  У кожній банці 60 капсул, тож обидві закінчаться рівно через місяць —
+  наступний набір береш одразу, без перерви.
+
+  1030 грн за обидві банки. Посилання на курс — у шапці профілю.
+  Питання і замовлення — пиши в директ.
+
+  Дієтична добавка. Не замінює повноцінний раціон харчування. Не є
+  лікарським засобом. Не рекомендовано дітям до 18 років, вагітним
+  і жінкам у період лактації.
+
+
+thoughts:
+- key: c1-cover
+  topic: Щоденна основа
+  slot: cover
+  layout: poster
+  extra: ''
+  ref: [omega.jpg, magnium.jpg]
+  label:
+  - "ЛІСОВИК"
+  - "ОМЕГА-3 РИБ'ЯЧИЙ ЖИР"
+  - "МАГНІЙ ГЛІЦИНАТ"
+  look: studio-dark
+  subject: >
+    two product jars standing side by side on a dark surface, turned slightly, one hard side light carving them out of the dark, deep shadows, the objects in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: курс із двох банок на місяць'
+  retell: 'перша добавка, яку радять узяти, це не екзотика, а проста пара'
+  claim: 'БАЗА, З ЯКОЇ ПОЧИНАЮТЬ'
+  why: 'Дві добавки замість повної полиці банок.'
+  do: 'Дивись, що в наборі'
+
+- key: c2-inside
+  topic: Щоденна основа
+  slot: inside
+  layout: poster
+  extra: ''
+  ref: [omega.jpg, magnium.jpg]
+  label:
+  - "ЛІСОВИК"
+  - "ОМЕГА-3 РИБ'ЯЧИЙ ЖИР"
+  - "МАГНІЙ ГЛІЦИНАТ"
+  look: knolling
+  subject: >
+    seen straight down on a plain light surface: a jar of fish oil capsules and a jar of magnesium capsules laid out parallel and evenly spaced, even shadowless light
+  compound: ''
+  source: 'каталог: склад курсу'
+  retell: 'у наборі дві різні банки, і кожної вистачає рівно на місяць'
+  claim: 'ОМЕГА-3 І МАГНІЙ ГЛІЦИНАТ'
+  why: 'Кожної банки стає на тридцять днів.'
+  do: 'Читай склад на картці'
+
+- key: c3-why
+  topic: Щоденна основа
+  slot: why
+  layout: poster
+  extra: ''
+  ref: [omega.jpg]
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a dinner table: a plate with baked fish and vegetables, a glass of water and a jar of capsules beside it, warm daylight
+  compound: ''
+  source: 'спосіб вживання: щоденна база раціону'
+  retell: 'жирна морська риба на столі буває нечасто, тому цю частину додають окремо'
+  claim: 'РИБА НА СТОЛІ БУВАЄ РІДКО'
+  why: 'Двічі на тиждень — уже добре.'
+  do: 'Порахуй свої вечері за тиждень'
+
+- key: c4-who
+  topic: Щоденна основа
+  slot: who
+  layout: poster
+  extra: ''
+  ref: [omega.jpg, magnium.jpg]
+  label:
+  - "ЛІСОВИК"
+  - "ОМЕГА-3 РИБ'ЯЧИЙ ЖИР"
+  - "МАГНІЙ ГЛІЦИНАТ"
+  look: kitchen-morning
+  subject: >
+    a bright kitchen counter in the morning: two jars of capsules beside a glass of water and a plate, daylight from a window
+  compound: ''
+  source: 'каталог: набір для першого кроку'
+  retell: 'той, хто нічого раніше не пив, бере спершу цю пару, а не рідкісні гриби'
+  claim: 'ЯКЩО БЕРЕШ УПЕРШЕ'
+  why: 'З цієї пари починають, а не з рідкісного.'
+  do: 'Бери набором, не окремо'
+
+- key: c5-how
+  topic: Щоденна основа
+  slot: how
+  layout: poster
+  extra: ''
+  ref: [omega.jpg, magnium.jpg]
+  label:
+  - "ЛІСОВИК"
+  - "ОМЕГА-3 РИБ'ЯЧИЙ ЖИР"
+  - "МАГНІЙ ГЛІЦИНАТ"
+  look: hands-hold
+  subject: >
+    two clean hands over a table holding a glass of water, two jars of capsules standing beside a plate, soft daylight
+  compound: ''
+  source: 'інструкція: чотири капсули на добу, по дві з кожної банки'
+  retell: 'щодня беруть по дві штуки з кожної банки, разом виходить чотири'
+  claim: 'ЧОТИРИ КАПСУЛИ НА ДЕНЬ'
+  why: 'По дві з кожної банки, за їжею.'
+  do: 'Постав обидві біля тарілки'
+
+- key: c6-month
+  topic: Щоденна основа
+  slot: month
+  layout: poster
+  extra: ''
+  ref: [omega.jpg, magnium.jpg]
+  label:
+  - "ЛІСОВИК"
+  - "ОМЕГА-3 РИБ'ЯЧИЙ ЖИР"
+  - "МАГНІЙ ГЛІЦИНАТ"
+  look: knolling
+  subject: >
+    seen straight down on a plain surface: two jars of capsules beside a plain paper wall calendar, even shadowless light
+  compound: ''
+  source: 'інструкція: курс розрахований на 30 днів'
+  retell: 'обидві упаковки вичерпуються в один день, тому наступний набір беруть одразу'
+  claim: 'ОБИДВІ ЗАКІНЧАТЬСЯ РАЗОМ'
+  why: 'Курс складений рівно на місяць.'
+  do: 'Признач день, коли почнеш'
+
+- key: c7-offer
+  topic: Щоденна основа
+  slot: offer
+  layout: offer
+  product: Щоденна основа
+  ref: [omega.jpg, magnium.jpg]
+  label:
+  - "ЛІСОВИК"
+  - "ОМЕГА-3 РИБ'ЯЧИЙ ЖИР"
+  - "МАГНІЙ ГЛІЦИНАТ"
+  look: studio-dark
+  subject: >
+    two product jars standing together on a dark surface, turned slightly, one hard side light carving them out of the dark, deep shadows, the objects in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: ціна курсу'
+  claim: НАБОРОМ ДЕШЕВШЕ
+  extra: >-
+    Омега-3 та магній гліцинат|Курс рівно на місяць|1030 грн за обидві банки
+  why: ''
+  do: Замовляй у директі або на сайті
