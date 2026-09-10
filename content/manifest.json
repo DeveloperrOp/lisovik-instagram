@@ -1365,10 +1365,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0910-ivan-noon.jpg",
    "slot_start": "2026-09-10T12:00:00+03:00",
    "slot_end": "2026-09-10T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-10T12:00:17.925766+03:00",
+   "ig_media_id": "17928232227162911",
+   "error": null,
+   "fb_story_id": "3811575472317963"
   },
   {
    "id": "0910-ivan-evening",
