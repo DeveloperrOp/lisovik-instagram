@@ -29,17 +29,39 @@ MAX_ITEMS = 10          # ліміт каруселі в Instagram
 
 
 def frames(stem: str) -> list:
-    """Кадри набору в порядку файлу — обкладинка перша."""
+    """Кадри набору в порядку гортання.
+
+    Якщо для набору є файл змісту — порядок беремо з нього. Якщо кадри
+    зроблені окремим збирачем і yaml немає, беремо файли з теки за іменем:
+    вони починаються з номера («1_обкладинка»), а службові — з «bg_», «_»
+    або «0_» — у карусель не йдуть.
+    """
     path = CONTENT_DIR / f"{stem}.yaml"
-    items = yaml.safe_load(path.read_text(encoding="utf-8"))["thoughts"]
-    out = []
-    for t in items:
-        jpg = OUT_DIR / stem / f"{t['key']}.jpg"
-        if jpg.exists():
-            out.append(jpg)
-        else:
-            print(f"  ✖ немає кадру {jpg.name}")
-    return out
+    folder = OUT_DIR / stem
+    if path.exists():
+        items = yaml.safe_load(path.read_text(encoding="utf-8"))["thoughts"]
+        out = []
+        for t in items:
+            jpg = folder / f"{t['key']}.jpg"
+            if jpg.exists():
+                out.append(jpg)
+            else:
+                print(f"  ✖ немає кадру {jpg.name}")
+        return out
+
+    files, seen = [], set()
+    for p in sorted(folder.iterdir()):
+        if p.suffix.lower() not in (".jpg", ".jpeg", ".png"):
+            continue
+        if not p.stem[:1].isdigit() or p.stem.startswith("0_"):
+            continue
+        # Поруч може лежати і PNG, і його JPEG-копія з минулої заливки —
+        # у карусель кадр має піти один раз.
+        if p.stem in seen:
+            continue
+        seen.add(p.stem)
+        files.append(p)
+    return files
 
 
 def publish_ig(urls: list, caption: str) -> str:
@@ -111,7 +133,26 @@ def main() -> int:
         return 1
 
     tok = mf.token()
-    urls = [mf.upload_media(p, tok) for p in imgs]
+    # Instagram приймає лише JPEG: на PNG Graph API відповідає
+    # «Only photo or video can be accepted as media type» (code 9004).
+    # Збирачі кадрів віддають PNG, тому конвертуємо перед заливкою.
+    # Два обмеження Instagram, обидва ловляться однією й тією ж помилкою
+    # «Only photo or video can be accepted as media type» (code 9004):
+    #   · приймається лише JPEG, а збирачі кадрів віддають PNG;
+    #   · адреса файлу має бути латиницею — наші імена кирилицею
+    #     («1_обкладинка.jpg») перетворюються на посилання, яке Meta
+    #     просто не може завантажити.
+    # Тому перед заливкою кадр перекладається в JPEG і кладеться під
+    # латинським ім'ям.
+    from PIL import Image
+    tmp = OUT_DIR / stem / "_upload"
+    tmp.mkdir(exist_ok=True)
+    ready = []
+    for i, p in enumerate(imgs, 1):
+        dst = tmp / f"{stem}-{i:02d}.jpg"
+        Image.open(p).convert("RGB").save(dst, "JPEG", quality=92)
+        ready.append(dst)
+    urls = [mf.upload_media(p, tok) for p in ready]
     print(f"залито в сховище: {len(urls)}")
 
     mid = publish_ig(urls, caption)
