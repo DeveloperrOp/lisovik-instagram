@@ -148,7 +148,7 @@ def build(tag, bg):
  rgba(18,28,14,.35) 84%,rgba(18,28,14,.6) 100%)}
 .col{position:absolute;left:6.4%;right:6.4%;top:11%;text-align:center}
 h1{font-size:104px}
-h2{font-size:30px;font-weight:600;margin-top:16px;letter-spacing:.22em}
+h2{font-size:36px;font-weight:600;margin-top:18px;letter-spacing:.22em}
 """
         body = ("<div class='sh'></div>" + counter(n) +
                 "<div class='col'><h1>Трібулус</h1>"
@@ -157,65 +157,62 @@ h2{font-size:30px;font-weight:600;margin-top:16px;letter-spacing:.22em}
     elif tag.startswith("2"):
         css = base(bg) + """
 .col{position:absolute;left:6.4%;top:11%;width:52%}
-h1{font-size:66px;color:#2f4a2c}
+h1{font-size:78px;color:#2f4a2c}
 .rule{width:150px;background:#c8951f}
-p{font-size:31px}
+p{font-size:40px}
 """
         body = (counter(n) +
                 "<div class='col'><h1>Якірці<br>сланкі</h1>"
                 "<div class='rule'></div>"
-                "<p>Колюча трава, що стелиться по сухій землі. "
-                "У справі — не листя й не квітка, а те, що з них виварюють.</p>"
-                "</div>")
+                "<p>Колюча трава, що стелиться по сухій землі. У банці — тільки її екстракт і рослинна оболонка. Без желатину й наповнювачів: склад у один рядок.</p></div>")
 
     elif tag.startswith("3"):
         css = base(bg) + """
 .col{position:absolute;left:6.4%;top:15%;width:42%}
-.big{font-weight:800;font-size:170px;color:#2f4a2c;line-height:.82;
+.big{font-weight:800;font-size:190px;color:#2f4a2c;line-height:.82;
  letter-spacing:-8px}
-h2{font-size:40px;margin-top:14px}
+h2{font-size:46px;margin-top:16px}
 .rule{width:150px;background:#c8951f}
-p{font-size:30px}
+p{font-size:40px}
 """
         body = (counter(n) +
                 "<div class='col'><div class='big'>10:1</div>"
                 "<h2>десять до одного</h2><div class='rule'></div>"
-                "<p>Десять частин трави випарюють, щоб лишилась одна. "
-                "Тому це екстракт, а не мелена сировина в капсулі.</p></div>")
+                "<p>Стільки трави випарюють, щоб лишилась одна частина. У капсулі концентрат, а не мелений бурʼян.</p></div>")
 
     elif tag.startswith("4"):
         css = base(bg) + """
 .top{position:absolute;left:8%;right:8%;top:11%;text-align:center}
-h1{font-size:62px;color:#2f4a2c}
-.sub{font-weight:600;font-size:25px;letter-spacing:.2em;text-transform:uppercase;
+h1{font-size:74px;color:#2f4a2c}
+.sub{font-weight:600;font-size:30px;letter-spacing:.2em;text-transform:uppercase;
  color:#5c5f52;margin-top:14px}
 .bot{position:absolute;left:8%;right:8%;bottom:9%;display:flex;text-align:center}
 .b{flex:1}
-.b b{display:block;font-weight:800;font-size:46px;color:#2f4a2c;letter-spacing:-1px}
-.b span{display:block;font-weight:500;font-size:23px;color:#5c5f52;margin-top:6px}
+.b b{display:block;font-weight:800;font-size:58px;color:#2f4a2c;letter-spacing:-1px}
+.b span{display:block;font-weight:500;font-size:28px;color:#5c5f52;margin-top:6px}
 .b+.b{border-left:1px solid rgba(47,74,44,.2)}
 """
         body = (counter(n) +
-                "<div class='top'><h1>Стандартизований</h1>"
-                "<div class='sub'>кожна партія однакова</div></div>"
+                "<div class='top'><h1>Виміряно,<br>а не обіцяно</h1>"
+                "<div class='sub'>у траві сапонінів то більше, то менше — в екстракті їх фіксують числом</div></div>"
                 "<div class='bot'>"
                 "<div class='b'><b>90%</b><span>сапонінів у екстракті</span></div>"
-                "<div class='b'><b>0,6 г</b><span>вага капсули</span></div>"
+                "<div class='b'><b>1200 мг</b><span>екстракту на добу</span></div>"
                 "<div class='b'><b>120</b><span>капсул у банці</span></div>"
                 "</div>")
 
     elif tag.startswith("5"):
         css = base(bg) + """
 .col{position:absolute;left:6.4%;top:12%;width:48%}
-h1{font-size:64px;color:#2f4a2c}
+h1{font-size:78px;color:#2f4a2c}
 .rule{width:150px;background:#c8951f}
 .s{display:flex;align-items:flex-start;margin-bottom:24px}
-.s em{flex:0 0 52px;height:52px;border:2px solid #2f4a2c;border-radius:50%;
- font-style:normal;font-weight:800;font-size:24px;color:#2f4a2c;
+.s em{flex:0 0 62px;height:62px;border:2px solid #2f4a2c;border-radius:50%;
+ font-style:normal;font-weight:800;font-size:29px;color:#2f4a2c;
  display:flex;align-items:center;justify-content:center;margin-right:18px}
-.s b{display:block;font-weight:800;font-size:32px;text-transform:uppercase;
+.s b{display:block;font-weight:800;font-size:40px;text-transform:uppercase;
  letter-spacing:-.3px}
-.s span{display:block;font-weight:500;font-size:25px;color:#5c5f52;margin-top:3px}
+.s span{display:block;font-weight:500;font-size:31px;color:#5c5f52;margin-top:3px}
 """
         body = (counter(n) +
                 "<div class='col'><h1>Як приймати</h1><div class='rule'></div>"
@@ -231,9 +228,9 @@ h1{font-size:64px;color:#2f4a2c}
 .col{position:absolute;left:6.4%;top:16%;width:40%}
 .big{font-weight:800;font-size:200px;color:#2f4a2c;line-height:.82;
  letter-spacing:-10px}
-h2{font-size:44px;margin-top:12px}
+h2{font-size:50px;margin-top:14px}
 .rule{width:150px;background:#c8951f}
-p{font-size:30px}
+p{font-size:40px}
 """
         body = (counter(n) +
                 "<div class='col'><div class='big'>60</div>"
@@ -244,9 +241,9 @@ p{font-size:30px}
     else:
         css = base(bg) + """
 .col{position:absolute;left:6.4%;top:12%;width:50%}
-h1{font-size:60px;color:#2f4a2c}
+h1{font-size:74px;color:#2f4a2c}
 .rule{width:150px;background:#c8951f}
-.row{font-weight:600;font-size:25px;color:#5c5f52;line-height:1.7}
+.row{font-weight:600;font-size:31px;color:#5c5f52;line-height:1.7}
 .phone{position:absolute;right:4%;bottom:5%;width:33%;
  border-radius:30px;overflow:hidden;border:8px solid #23241f;
  box-shadow:0 24px 56px rgba(20,22,16,.3)}
