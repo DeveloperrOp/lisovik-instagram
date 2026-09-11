@@ -59,45 +59,39 @@ SCENES = {
         "The TOP QUARTER of the frame is calm flowers only, no jar there."
         + TAIL + LABEL, JAR),
 
-    "2_що-це": (
-        PATTERN + "Macro photograph: a single dried spiny Tribulus fruit — a "
-        "small woody star with sharp thorns — and one yellow flower with five "
-        "petals, lying together on the paper, very large and sharp, side by "
-        "side, positioned in the LOWER THIRD of the frame. No product, no "
-        "packaging, no jar in this frame. The UPPER TWO THIRDS are bare "
-        "patterned paper, completely empty." + TAIL, None),
+    "2_біль": (
+        "Editorial photograph, no product and no packaging at all: a man's gym "
+        "bag dropped on a bench in a dim locker room in the evening, a towel "
+        "and an empty water bottle beside it, nobody in the frame, tired quiet "
+        "light. The TOP HALF stays dark and empty for text." + TAIL, None),
 
-    "3_екстракт": (
+    "3_що-дає": (
+        PATTERN + "EXACTLY ONE jar from the attached photo stands in the LOWER "
+        "RIGHT corner of the frame, seen straight on, partly cropped by the "
+        "bottom edge, with two yellow Tribulus flowers at its base. The whole "
+        "LEFT SIDE and the TOP of the frame are bare patterned paper, "
+        "completely empty." + TAIL + LABEL, JAR),
+
+    "4_дев-яносто": (
         PATTERN + "EXACTLY ONE jar from the attached photo stands on the RIGHT "
-        "side of the frame, seen straight on. Beside its base lies a small neat "
-        "heap of dried crushed green herb, and next to that a single capsule. "
-        "Everything stays strictly right of the vertical centre line. The LEFT "
-        "HALF is bare patterned paper, completely empty." + TAIL + LABEL, JAR),
+        "side, seen straight on, and beside its base lies a small heap of dried "
+        "crushed green herb. Everything stays strictly right of the vertical "
+        "centre line. The LEFT HALF is bare patterned paper, completely empty."
+        + TAIL + LABEL, JAR),
 
-    "4_сапоніни": (
-        PATTERN + "EXACTLY ONE jar from the attached photo stands exactly in "
-        "the CENTRE of the frame, alone, seen straight on, SMALLER than usual so "
-        "that it occupies only the middle third of the height, with three "
-        "yellow Tribulus flowers lying at its base. The TOP THIRD and the "
-        "BOTTOM THIRD of the frame are bare patterned paper, completely "
-        "empty — the jar and its shadow must not reach into them." + TAIL + LABEL, JAR),
+    "5_без-гормонів": (
+        PATTERN + "Macro photograph: three yellow Tribulus flowers and a few "
+        "green spiny leaves lying loosely on the paper in the LOWER THIRD of "
+        "the frame, large and sharp. No product, no packaging, no jar. The "
+        "UPPER TWO THIRDS are bare patterned paper, completely empty."
+        + TAIL, None),
 
-    "5_як-приймати": (
+    "6_ціна-дня": (
         PATTERN + "A tall glass of water stands on the paper in the morning "
         "light, and in front of it two capsules lie side by side on a linen "
         "napkin. The jar from the attached photo stands behind, slightly out of "
         "focus and CROPPED by the right edge of the frame. The TOP HALF is bare "
         "patterned paper, completely empty." + TAIL + LABEL, JAR),
-
-    "6_на-скільки": (
-        PATTERN + "Seen straight down: many small identical CAPSULES — plain "
-        "beige gelatin capsules, each about the size of a bean — laid out on "
-        "the paper in neat even rows like a calendar grid, filling the RIGHT "
-        "HALF of the frame. EXACTLY ONE jar from the attached photo lies on "
-        "its side in the BOTTOM RIGHT corner, partly cropped by the edge. "
-        "There is only ONE jar in the whole frame — no second bottle, no "
-        "duplicates, no rows of bottles. The LEFT HALF is bare patterned "
-        "paper, completely empty." + TAIL + LABEL, JAR),
 
     "7_фінал": (
         PATTERN + "EXACTLY ONE jar from the attached photo stands in the LOWER "
@@ -106,7 +100,6 @@ SCENES = {
         "Tribulus flowers at its base. The RIGHT HALF and the TOP THIRD are "
         "bare patterned paper, completely empty." + TAIL + LABEL, JAR),
 }
-
 FONTS = ("<link rel='preconnect' href='https://fonts.gstatic.com'>"
          "<link href='https://fonts.googleapis.com/css2?"
          "family=Montserrat:wght@400;500;600;700;800&display=swap' rel='stylesheet'>")
@@ -145,115 +138,119 @@ def build(tag, bg):
     if tag.startswith("1"):
         css = base(bg, dark=True) + """
 .sh{position:absolute;inset:0;background:linear-gradient(180deg,
- rgba(18,28,14,.78) 0%,rgba(18,28,14,.32) 26%,rgba(18,28,14,0) 46%,
- rgba(18,28,14,.35) 84%,rgba(18,28,14,.6) 100%)}
-.col{position:absolute;left:6.4%;right:6.4%;top:11%;text-align:center}
+ rgba(18,28,14,.82) 0%,rgba(18,28,14,.34) 28%,rgba(18,28,14,0) 48%,
+ rgba(18,28,14,.4) 84%,rgba(18,28,14,.66) 100%)}
+.col{position:absolute;left:6.4%;right:6.4%;top:10%;text-align:center}
 h1{font-size:104px}
-h2{font-size:36px;font-weight:600;margin-top:18px;letter-spacing:.22em}
+h2{font-size:38px;font-weight:600;margin-top:18px;letter-spacing:.1em}
 """
         body = ("<div class='sh'></div>" + counter(n) +
                 "<div class='col'><h1>Трібулус</h1>"
-                "<h2>екстракт 10:1</h2></div>")
+                "<h2>90% сапонінів · 1200 мг на добу</h2></div>")
 
     elif tag.startswith("2"):
-        css = base(bg) + """
-.col{position:absolute;left:6.4%;top:9.5%;width:47%}
-h1{font-size:78px;color:#2f4a2c}
+        css = base(bg, dark=True) + """
+.sh{position:absolute;inset:0;background:linear-gradient(180deg,
+ rgba(8,10,8,.93) 0%,rgba(8,10,8,.8) 40%,rgba(8,10,8,.3) 62%,
+ rgba(8,10,8,0) 82%)}
+.col{position:absolute;left:6.4%;top:11%;width:60%}
+h1{font-size:70px}
 .rule{width:150px;background:#c8951f}
-p{font-size:40px}
+p{font-size:38px;opacity:.94}
 """
-        body = (counter(n) +
-                "<div class='col'><h1>Якірці<br>сланкі</h1>"
+        body = ("<div class='sh'></div>" + counter(n) +
+                "<div class='col'><h1>Тренування є,<br>а результату<br>наче й ні</h1>"
                 "<div class='rule'></div>"
-                "<p>Колюча трава, що стелиться по сухій землі. У банці — тільки її екстракт і рослинна оболонка. Без желатину й наповнювачів: склад у один рядок.</p></div>")
+                "<p>Після залу решта дня викреслена. Зранку тіло важке. "
+                "І щотижня все більше здається, що це вік, а не втома.</p></div>")
 
     elif tag.startswith("3"):
         css = base(bg) + """
-.col{position:absolute;left:6.4%;top:15%;width:42%}
-.big{font-weight:800;font-size:190px;color:#2f4a2c;line-height:.82;
- letter-spacing:-8px}
-h2{font-size:46px;margin-top:16px}
+.col{position:absolute;left:6.4%;top:9%;width:62%}
+h1{font-size:72px;color:#2f4a2c}
 .rule{width:150px;background:#c8951f}
-p{font-size:40px}
+.f{margin-bottom:24px}
+.f b{display:block;font-weight:800;font-size:40px;letter-spacing:-.4px}
+.f span{display:block;font-weight:500;font-size:31px;color:#5c5f52;margin-top:4px}
 """
         body = (counter(n) +
-                "<div class='col'><div class='big'>10:1</div>"
-                "<h2>десять до одного</h2><div class='rule'></div>"
-                "<p>Стільки трави випарюють, щоб лишилась одна частина. У капсулі концентрат, а не мелений бурʼян.</p></div>")
+                "<div class='col'><h1>Що дає<br>курс</h1><div class='rule'></div>"
+                "<div class='f'><b>Легше тримати навантаження</b>"
+                "<span>тренування перестає бути тим, після чого решта дня "
+                "викреслена</span></div>"
+                "<div class='f'><b>Швидше відновлення</b>"
+                "<span>наступний день після залу дається легше</span></div>"
+                "<div class='f'><b>Стабільний тонус удень</b>"
+                "<span>енергія тримається рівно, без ям між прийомами їжі</span>"
+                "</div></div>")
 
     elif tag.startswith("4"):
         css = base(bg) + """
-.top{position:absolute;left:8%;right:8%;top:11%;text-align:center}
-h1{font-size:74px;color:#2f4a2c}
-.sub{font-weight:600;font-size:30px;letter-spacing:.2em;text-transform:uppercase;
- color:#5c5f52;margin-top:14px}
-.bot{position:absolute;left:8%;right:8%;bottom:9%;display:flex;text-align:center}
-.b{flex:1}
-.b b{display:block;font-weight:800;font-size:58px;color:#2f4a2c;letter-spacing:-1px}
-.b span{display:block;font-weight:500;font-size:28px;color:#5c5f52;margin-top:6px}
-.b+.b{border-left:1px solid rgba(47,74,44,.2)}
+.col{position:absolute;left:6.4%;top:12%;width:46%}
+.big{font-weight:800;font-size:180px;color:#2f4a2c;line-height:.82;
+ letter-spacing:-8px}
+h2{font-size:44px;margin-top:14px}
+.rule{width:150px;background:#c8951f}
+p{font-size:38px}
 """
         body = (counter(n) +
-                "<div class='top'><h1>Виміряно,<br>а не обіцяно</h1>"
-                "<div class='sub'>у траві сапонінів то більше, то менше — в екстракті їх фіксують числом</div></div>"
-                "<div class='bot'>"
-                "<div class='b'><b>90%</b><span>сапонінів у екстракті</span></div>"
-                "<div class='b'><b>1200 мг</b><span>екстракту на добу</span></div>"
-                "<div class='b'><b>120</b><span>капсул у банці</span></div>"
+                "<div class='col'><div class='big'>90%</div>"
+                "<h2>сапонінів</h2><div class='rule'></div>"
+                "<p>Типовий екстракт на ринку — 40–60%. Цю цифру майже ніхто "
+                "не дивиться, а саме вона й відрізняє банки одна від одної.</p>"
                 "</div>")
 
     elif tag.startswith("5"):
         css = base(bg) + """
-.col{position:absolute;left:6.4%;top:12%;width:48%}
-h1{font-size:78px;color:#2f4a2c}
+.col{position:absolute;left:6.4%;top:11%;width:60%}
+h1{font-size:76px;color:#2f4a2c}
 .rule{width:150px;background:#c8951f}
-.s{display:flex;align-items:flex-start;margin-bottom:24px}
-.s em{flex:0 0 62px;height:62px;border:2px solid #2f4a2c;border-radius:50%;
- font-style:normal;font-weight:800;font-size:29px;color:#2f4a2c;
- display:flex;align-items:center;justify-content:center;margin-right:18px}
-.s b{display:block;font-weight:800;font-size:40px;text-transform:uppercase;
- letter-spacing:-.3px}
-.s span{display:block;font-weight:500;font-size:31px;color:#5c5f52;margin-top:3px}
+p{font-size:38px}
 """
         body = (counter(n) +
-                "<div class='col'><h1>Як приймати</h1><div class='rule'></div>"
-                "<div class='s'><em>2</em><div><b>Капсули</b>"
-                "<span>один раз на день</span></div></div>"
-                "<div class='s'><em>1</em><div><b>Склянка води</b>"
-                "<span>повна, не пів</span></div></div>"
-                "<div class='s'><em>∅</em><div><b>Без прив'язки</b>"
-                "<span>до їжі та години</span></div></div></div>")
+                "<div class='col'><h1>Без<br>гормонів</h1>"
+                "<div class='rule'></div>"
+                "<p>Це рослинний екстракт, а не гормональний препарат. "
+                "Дія накопичувальна: ефект збирається курсом на 4–8 тижнів.</p>"
+                "</div>")
 
     elif tag.startswith("6"):
         css = base(bg) + """
-.col{position:absolute;left:6.4%;top:16%;width:40%}
-.big{font-weight:800;font-size:200px;color:#2f4a2c;line-height:.82;
- letter-spacing:-10px}
-h2{font-size:50px;margin-top:14px}
+.col{position:absolute;left:6.4%;top:10%;width:52%}
+h1{font-size:72px;color:#2f4a2c}
 .rule{width:150px;background:#c8951f}
-p{font-size:40px}
+.s{display:flex;align-items:flex-start;margin-bottom:22px}
+.s em{flex:0 0 62px;height:62px;border:2px solid #2f4a2c;border-radius:50%;
+ font-style:normal;font-weight:800;font-size:29px;color:#2f4a2c;
+ display:flex;align-items:center;justify-content:center;margin-right:18px}
+.s b{display:block;font-weight:800;font-size:40px;letter-spacing:-.3px}
+.s span{display:block;font-weight:500;font-size:31px;color:#5c5f52;margin-top:3px}
 """
         body = (counter(n) +
-                "<div class='col'><div class='big'>60</div>"
-                "<h2>днів з однієї<br>банки</h2><div class='rule'></div>"
-                "<p>120 капсул, по дві на добу. Менша банка на 60 капсул "
-                "закриває рівно місяць.</p></div>")
+                "<div class='col'><h1>Дві капсули<br>на день</h1>"
+                "<div class='rule'></div>"
+                "<div class='s'><em>1</em><div><b>Один прийом</b>"
+                "<span>1200 мг екстракту, будь-коли</span></div></div>"
+                "<div class='s'><em>60</em><div><b>Днів з банки</b>"
+                "<span>120 капсул на два місяці</span></div></div>"
+                "<div class='s'><em>₴</em><div><b>10,67 на день</b>"
+                "<span>стільки коштує доба курсу</span></div></div></div>")
 
     else:
         css = base(bg) + """
-.col{position:absolute;left:6.4%;top:12%;width:50%}
-h1{font-size:74px;color:#2f4a2c}
+.col{position:absolute;left:6.4%;top:11%;width:50%}
+h1{font-size:66px;color:#2f4a2c}
 .rule{width:150px;background:#c8951f}
-.row{font-weight:600;font-size:31px;color:#5c5f52;line-height:1.7}
+.row{font-weight:600;font-size:33px;color:#5c5f52;line-height:1.6}
 .phone{position:absolute;right:4%;bottom:5%;width:33%;
  border-radius:30px;overflow:hidden;border:8px solid #23241f;
  box-shadow:0 24px 56px rgba(20,22,16,.3)}
 .phone img{display:block;width:100%}
 """
         body = (counter(n) +
-                "<div class='col'><h1>Дві фасовки</h1><div class='rule'></div>"
-                "<div class='row'>120 капсул · 60 днів<br>"
-                "60 капсул · 30 днів</div></div>"
+                "<div class='col'><h1>Дві<br>фасовки</h1><div class='rule'></div>"
+                "<div class='row'>120 капсул — 60 днів<br>"
+                "60 капсул — 30 днів<br>екстракт у них однаковий</div></div>"
                 "<div class='phone'><img src='%s'></div>" % data_uri(CARD))
     return page(css, body)
 
