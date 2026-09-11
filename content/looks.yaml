@@ -96,6 +96,14 @@ looks:
       landscape, shallow plane of focus, raking light bringing out relief,
       abstract and tactile
 
+  - key: golden-field
+    about: Золота година в літньому лузі, світле небо вгорі під заголовок
+    people: false
+    prompt: >
+      editorial product photograph taken at golden hour in a summer meadow:
+      tall grasses and wild herbs, low warm sun behind the subject, creamy
+      luminous bokeh, the sky pale and empty in the UPPER THIRD of the frame,
+      shallow depth of field, natural unstaged look
   - key: nature-light
     about: "Ліс, промінь крізь дерева, без предметів"
     prompt: >
