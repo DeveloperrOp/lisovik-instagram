@@ -1463,10 +1463,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0911-karpaty-evening.jpg",
    "slot_start": "2026-09-11T18:00:00+03:00",
    "slot_end": "2026-09-11T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-11T18:00:14.001997+03:00",
+   "ig_media_id": "17901902490589345",
+   "error": null,
+   "fb_story_id": "1807631600262339"
   },
   {
    "id": "0911-karpaty-sell",
