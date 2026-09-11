@@ -63,8 +63,9 @@ SCENES = {
         PATTERN + "Macro photograph: a single dried spiny Tribulus fruit — a "
         "small woody star with sharp thorns — and one yellow flower with five "
         "petals, lying together on the paper, very large and sharp, side by "
-        "side. No product, no packaging, no jar in this frame. The TOP HALF is "
-        "bare patterned paper, completely empty." + TAIL, None),
+        "side, positioned in the LOWER THIRD of the frame. No product, no "
+        "packaging, no jar in this frame. The UPPER TWO THIRDS are bare "
+        "patterned paper, completely empty." + TAIL, None),
 
     "3_екстракт": (
         PATTERN + "EXACTLY ONE jar from the attached photo stands on the RIGHT "
@@ -156,7 +157,7 @@ h2{font-size:36px;font-weight:600;margin-top:18px;letter-spacing:.22em}
 
     elif tag.startswith("2"):
         css = base(bg) + """
-.col{position:absolute;left:6.4%;top:11%;width:52%}
+.col{position:absolute;left:6.4%;top:9.5%;width:47%}
 h1{font-size:78px;color:#2f4a2c}
 .rule{width:150px;background:#c8951f}
 p{font-size:40px}
