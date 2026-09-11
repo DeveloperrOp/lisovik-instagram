@@ -1407,10 +1407,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0910-ivan-night.jpg",
    "slot_start": "2026-09-10T20:00:00+03:00",
    "slot_end": "2026-09-10T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-10T20:00:15.157371+03:00",
+   "ig_media_id": "17873006988582376",
+   "error": null,
+   "fb_story_id": "1433384298656750"
   },
   {
    "id": "0911-karpaty-dawn",
@@ -1420,10 +1421,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0911-karpaty-dawn.jpg",
    "slot_start": "2026-09-11T07:00:00+03:00",
    "slot_end": "2026-09-11T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-11T07:00:12.725184+03:00",
+   "ig_media_id": "17909295411533105",
+   "error": null,
+   "fb_story_id": "1829593855066505"
   },
   {
    "id": "0911-karpaty-morning",
@@ -1433,10 +1435,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0911-karpaty-morning.jpg",
    "slot_start": "2026-09-11T10:00:00+03:00",
    "slot_end": "2026-09-11T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-11T10:00:12.971992+03:00",
+   "ig_media_id": "18101294249104940",
+   "error": null,
+   "fb_story_id": "5009499259276771"
   },
   {
    "id": "0911-karpaty-noon",
@@ -1446,10 +1449,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0911-karpaty-noon.jpg",
    "slot_start": "2026-09-11T12:00:00+03:00",
    "slot_end": "2026-09-11T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-11T12:00:16.955161+03:00",
+   "ig_media_id": "18173107354452980",
+   "error": null,
+   "fb_story_id": "28598637293065619"
   },
   {
    "id": "0911-karpaty-evening",
@@ -1459,10 +1463,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0911-karpaty-evening.jpg",
    "slot_start": "2026-09-11T18:00:00+03:00",
    "slot_end": "2026-09-11T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-11T18:00:14.001997+03:00",
+   "ig_media_id": "17901902490589345",
+   "error": null,
+   "fb_story_id": "1807631600262339"
   },
   {
    "id": "0911-karpaty-sell",
