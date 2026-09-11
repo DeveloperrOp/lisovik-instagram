@@ -31,9 +31,9 @@ import build_day as B
 from render_html import shot, data_uri
 
 OUT = ROOT / "out" / "post_spokij"
-ASHWA = [ROOT / "out" / "real" / "all" / "ashwa_caps.jpg"]
+ASHWA = [ROOT / "out" / "real" / "all" / "ashwa_ext.jpg"]
 MAG = [ROOT / "out" / "real" / "all" / "magnium.jpg"]
-BOTH = [ROOT / "out" / "real" / "all" / "ashwa_caps.jpg",
+BOTH = [ROOT / "out" / "real" / "all" / "ashwa_ext.jpg",
         ROOT / "out" / "real" / "all" / "magnium.jpg"]
 CARD = SCR / "card.png"
 
@@ -47,8 +47,11 @@ PATTERN = ("plain off-white paper background (RGB 246 245 238) with a faint "
            "leaves and roots, barely visible. ")
 TAIL = (" Soft natural shadows, clean catalogue look, no dark corners. NO TEXT "
         "anywhere in the image except wording printed on the product packaging.")
-LABEL = (" The jars keep their own printed labels: ЛІСОВИК, АШВАГАНДА, "
-         "МАГНІЙ ГЛІЦИНАТ. Draw no other small print on them.")
+LABEL = (" The jars keep their own printed labels exactly as in the photos: "
+         "ЛІСОВИК, АШВАГАНДА, МАГНІЙ ГЛІЦИНАТ, and the small round badge "
+         "ЕКСТРАКТ 10:1 on the ashwagandha jar. The ashwagandha jar is an "
+         "opaque WHITE bottle with a deep plum label — not a transparent "
+         "jar with visible capsules. Draw no other small print on them.")
 
 SCENES = {
     "1_обкладинка": (
@@ -97,7 +100,7 @@ SCENES = {
 
     "7_фінал": (
         PATTERN + "Both jars from the attached photos stand together in the "
-        "LOWER LEFT part of the frame, seen straight on, with a wide soft "
+        "LOWER LEFT CORNER of the frame, both fully inside the left half, seen straight on, with a wide soft "
         "watercolour blot behind them — plum purple blending into navy. A few "
         "grey crystals and dried roots lie at their base. The RIGHT HALF and "
         "the TOP THIRD are bare patterned paper, completely empty."
@@ -185,9 +188,9 @@ p{font-size:31px}
 """
         body = (counter(n) +
                 "<div class='col'><h1>Ашваганда</h1>"
-                "<h2>екстракт кореня</h2><div class='rule'></div>"
-                "<p>Корінь, який в аюрведі вживали тисячоліттями. "
-                "У капсулі — концентрований екстракт, не мелений порошок.</p>"
+                "<h2>екстракт кореня 10:1</h2><div class='rule'></div>"
+                "<p>Десять частин кореня, випарених до однієї. "
+                "У курсі стоїть саме екстракт, а не мелений корінь.</p>"
                 "</div>")
 
     elif tag.startswith("4"):
@@ -261,7 +264,7 @@ p{font-size:31px;opacity:.9;max-width:86%}
 h1{font-size:62px}
 .rule{width:140px;background:#7b812b}
 .row{font-weight:600;font-size:25px;color:#5c5f52;line-height:1.7}
-.phone{position:absolute;right:5%;bottom:6%;width:39%;
+.phone{position:absolute;right:4%;bottom:5%;width:33%;
  border-radius:34px;overflow:hidden;border:9px solid #23241f;
  box-shadow:0 26px 60px rgba(20,22,16,.3)}
 .phone img{display:block;width:100%}
