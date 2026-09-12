@@ -1533,10 +1533,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0912-krasa-noon.jpg",
    "slot_start": "2026-09-12T12:00:00+03:00",
    "slot_end": "2026-09-12T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-12T12:00:19.885206+03:00",
+   "ig_media_id": "18077499335374651",
+   "error": null,
+   "fb_story_id": "1565804054767182"
   },
   {
    "id": "0912-krasa-evening",
