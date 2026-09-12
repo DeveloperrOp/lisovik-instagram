@@ -52,7 +52,10 @@ PAPER = ("plain off-white paper background (RGB 246 245 238) with a faint "
 SANDBG = ("plain warm sand-terracotta seamless surface, even soft light, no "
           "pattern. ")
 TAIL = (" NO TEXT anywhere in the image except wording printed on the product "
-        "packaging. Soft natural shadows, clean catalogue look.")
+        "packaging. No stamps, seals, round badges, certification marks or "
+        "logos anywhere in the background or on the surface: the product's own "
+        "label is the ONLY printed thing in the frame. "
+        "Soft natural shadows, clean catalogue look.")
 
 # Друга банка в кадрі — найчастіший брак цього макета, тому заборона
 # формулюється окремо й прямо.
