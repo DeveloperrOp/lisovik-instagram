@@ -1,0 +1,88 @@
+# Тиждень 4, день 2: MEN Natural Power Formula.
+# Головний аргумент із картки: «це не мультивітамін, у якому всього потроху».
+thoughts:
+- key: m4-not
+  topic: MEN Formula
+  day: tue
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [men.jpg]
+  look: knolling
+  subject: >
+    seen straight down on plain warm paper: one jar of capsules alone in the lower half, a few loose capsules beside it, even shadowless light
+  compound: ''
+  source: 'картка: не мультивітамін, у якому всього потроху'
+  retell: 'усередині не набір усього потроху, а пʼять робочих позицій'
+  claim: 'НЕ МУЛЬТИВІТАМІН'
+  why: 'Тут пʼять позицій, а не двадцять по крихті.'
+  do: 'Порівняй зі своєю банкою'
+
+- key: m4-zinc
+  topic: MEN Formula
+  day: tue
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [men.jpg]
+  look: macro-texture
+  subject: >
+    extreme macro of a few capsules lying on a dark stone surface, one jar out of focus behind them, hard side light
+  compound: ''
+  source: 'картка: цинк 90% норми проти 15-25% у звичайних'
+  retell: 'цинку тут майже повна добова норма, а не сліди для галочки'
+  claim: 'ЦИНКУ 90% НОРМИ'
+  why: 'Звичайні банки дають 15-25 відсотків.'
+  do: 'Знайди цифру на своїй етикетці'
+
+- key: m4-three
+  topic: MEN Formula
+  day: tue
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [men.jpg]
+  look: knolling
+  subject: >
+    seen straight down: one jar of capsules and three small heaps of dried root material around it — maca root, tribulus herb and ashwagandha root, even light
+  compound: ''
+  source: 'каталог: трібулус 510 мг, мака 405 мг, ашваганда 308 мг'
+  retell: 'три рослини зібрані в одну добову порцію, рахувати нічого не треба'
+  claim: 'ТРИ РОСЛИНИ В ОДНІЙ ПОРЦІЇ'
+  why: 'Трібулус, мака й ашваганда вже відміряні.'
+  do: 'Читай склад на банці'
+
+- key: m4-day
+  topic: MEN Formula
+  day: tue
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [men.jpg]
+  look: hands-hold
+  subject: >
+    two hands holding a glass of water at a table in the evening beside a jar of capsules, soft lamp light
+  compound: ''
+  source: 'картка: 120 шт — близько 20 грн за день'
+  retell: 'доба курсу коштує приблизно як стаканчик кави на заправці'
+  claim: 'ДВАДЦЯТЬ ГРИВЕНЬ ЗА ДОБУ'
+  why: 'Велика банка виходить дешевшою за малу.'
+  do: 'Порахуй свій місяць'
+
+- key: w4-men-sell
+  topic: MEN Formula
+  day: tue
+  slot: sell
+  layout: offer
+  product: MEN Formula
+  ref: [men.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, the object in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: ціна й фасовка'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Трібулус, мака, ашваганда|Цинк і магній|455 грн за банку
+  why: ''
+  do: Замовляй у директі або на сайті

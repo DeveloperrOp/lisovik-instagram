@@ -1,0 +1,88 @@
+# Тиждень 4, день 7: Вітекс священний, екстракт плодів 10:1.
+# З картки: дозволені плід, листок і насіння — ми свідомо беремо тільки плід.
+thoughts:
+- key: v4-fruit
+  topic: Вітекс
+  day: sun
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [vitex.jpg]
+  look: knolling
+  subject: >
+    seen straight down on plain warm paper: one jar of capsules beside a small heap of dark round dried vitex berries, even shadowless light
+  compound: ''
+  source: 'картка: беремо тільки плід, хоча дозволені й лист, і насіння'
+  retell: 'дозволено кілька частин рослини, а взяли навмисно одну'
+  claim: 'ВЗЯЛИ ТІЛЬКИ ЯГОДУ'
+  why: 'Лист і насіння теж можна, але їх тут немає.'
+  do: 'Спитай, яку частину взяли'
+
+- key: v4-ten
+  topic: Вітекс
+  day: sun
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [vitex.jpg]
+  look: macro-texture
+  subject: >
+    extreme macro of dried vitex berries filling the frame, fine texture visible, soft even light
+  compound: ''
+  source: 'каталог: екстракт плодів 10:1'
+  retell: 'десять жмень ягоди зводять до однієї жмені витяжки'
+  claim: 'ДЕСЯТЬ ЖМЕНЬ В ОДНІЙ'
+  why: 'Саме стільки ягоди йде на витяжку.'
+  do: 'Шукай напис 10:1 на банці'
+
+- key: v4-one
+  topic: Вітекс
+  day: sun
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [vitex.jpg]
+  look: kitchen-morning
+  subject: >
+    a bright kitchen counter in the morning: a jar of capsules beside a glass of water, daylight from a window
+  compound: ''
+  source: 'інструкція: схема проста, один прийом на добу'
+  retell: 'приймають зранку, один раз, і про банку можна забути до завтра'
+  claim: 'ЗРАНКУ І ВСЕ'
+  why: 'Один прийом на добу, далі вільно.'
+  do: 'Постав банку біля чашки'
+
+- key: v4-day
+  topic: Вітекс
+  day: sun
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [vitex.jpg]
+  look: hands-hold
+  subject: >
+    two hands holding a warm cup at a table in the evening beside a jar of capsules, soft lamp light
+  compound: ''
+  source: 'картка: 120 шт — 4,92 грн за день'
+  retell: 'доба курсу коштує менше за пʼять гривень'
+  claim: 'ПʼЯТЬ ГРИВЕНЬ ЗА ДОБУ'
+  why: 'Велика банка тримається чотири місяці.'
+  do: 'Бери більшу банку'
+
+- key: w4-vitex-sell
+  topic: Вітекс
+  day: sun
+  slot: sell
+  layout: offer
+  product: Вітекс
+  ref: [vitex.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, dried berries at its base, the object in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: ціна й фасовка'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Витяжка з плодів вітексу|Один прийом на добу|390 грн за банку
+  why: ''
+  do: Замовляй у директі або на сайті

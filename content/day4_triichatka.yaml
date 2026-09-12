@@ -1,0 +1,88 @@
+# Тиждень 4, день 1: Трійчатка в капсулах (пижмо, полин, гвоздика).
+# Зміст узято з живої картки: блок «Що дає курс трійчатки».
+thoughts:
+- key: t4-what
+  topic: Трійчатка
+  day: mon
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [triichatka.jpg]
+  look: knolling
+  subject: >
+    seen straight down on plain warm paper: one jar of capsules and three small heaps of raw material beside it — yellow dried tansy flowers, silvery wormwood and dark clove buds, even shadowless light
+  compound: ''
+  source: 'каталог: склад — пижмо, полин, гвоздика'
+  retell: 'усередині лише три трави, кожну видно окремо'
+  claim: 'ПИЖМО, ПОЛИН, ГВОЗДИКА'
+  why: 'Три трави й більше нічого.'
+  do: 'Бери курс на місяць'
+
+- key: t4-season
+  topic: Трійчатка
+  day: mon
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [triichatka.jpg]
+  look: kitchen-morning
+  subject: >
+    a bright kitchen table in the morning: a jar of capsules, a glass of water and a plate with breakfast, daylight from a window
+  compound: ''
+  source: 'картка: сезонне очищення навесні та восени'
+  retell: 'курс беруть двічі на рік, коли міняється сезон'
+  claim: 'ВЕСНА І ОСІНЬ'
+  why: 'Два рази на рік, коли тіло перебудовується.'
+  do: 'Признач місяць у календарі'
+
+- key: t4-how
+  topic: Трійчатка
+  day: mon
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [triichatka.jpg]
+  look: hands-hold
+  subject: >
+    a glass of water and a jar of capsules standing side by side on a plain table, two capsules lying in front of them, nobody in the frame, soft daylight
+  compound: ''
+  source: 'інструкція: по дві капсули двічі на день'
+  retell: 'приймають ранком і ввечері, разом чотири штуки'
+  claim: 'ДВІЧІ НА ДЕНЬ'
+  why: 'По дві капсули зранку та ввечері.'
+  do: 'Постав банку біля чайника'
+
+- key: t4-food
+  topic: Трійчатка
+  day: mon
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [triichatka.jpg]
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a dinner table with a hearty meal, a glass of water and a jar of capsules beside the plate, warm evening light
+  compound: ''
+  source: 'картка: менше важкості після жирної їжі'
+  retell: 'після ситної вечері в шлунку буває важко, курс цей стан помʼякшує'
+  claim: 'ПІСЛЯ ВАЖКОЇ ВЕЧЕРІ'
+  why: 'Живіт відпускає швидше, ніж зазвичай.'
+  do: 'Пий курсом, а не разово'
+
+- key: w4-triichatka-sell
+  topic: Трійчатка
+  day: mon
+  slot: sell
+  layout: offer
+  product: Трійчатка
+  ref: [triichatka.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, dried tansy and clove buds at its base, the object in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: ціна й фасовка'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Пижмо, полин і гвоздика|Курс на місяць|630 грн за банку
+  why: ''
+  do: Замовляй у директі або на сайті

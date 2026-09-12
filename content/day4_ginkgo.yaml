@@ -1,0 +1,88 @@
+# Тиждень 4, день 4: Гінкго білоба, екстракт листя.
+# Головна думка картки: без стандартизації щоразу приймаєш трохи інше.
+thoughts:
+- key: g4-same
+  topic: Гінкго білоба
+  day: thu
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [ginkgo.jpg]
+  look: knolling
+  subject: >
+    seen straight down on plain warm paper: one jar of capsules beside two dried ginkgo leaves with their fan shape clearly visible, even shadowless light
+  compound: ''
+  source: 'картка: сировина від партії до партії гуляє за вмістом сполук'
+  retell: 'трава з різних партій різна, а тут кожна банка однакова'
+  claim: 'КОЖНА БАНКА ОДНАКОВА'
+  why: 'Трава з різних партій — ні.'
+  do: 'Порівняй дві свої упаковки'
+
+- key: g4-flav
+  topic: Гінкго білоба
+  day: thu
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [ginkgo.jpg]
+  look: macro-texture
+  subject: >
+    extreme macro of a single fan-shaped ginkgo leaf filling the frame, fine veins visible, soft even light
+  compound: ''
+  source: 'каталог: стандартизований за флавоноїдами 24%'
+  retell: 'на банці стоїть виміряне число, а не просто назва рослини'
+  claim: 'ДВАДЦЯТЬ ЧОТИРИ ВІДСОТКИ'
+  why: 'Стільки флавоноїдів у кожній капсулі.'
+  do: 'Шукай це число на етикетці'
+
+- key: g4-leaf
+  topic: Гінкго білоба
+  day: thu
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [ginkgo.jpg]
+  look: knolling
+  subject: >
+    seen straight down: one jar of capsules on the left and a small heap of crushed dried leaf on the right, on plain paper, even light
+  compound: ''
+  source: 'картка: у капсулі не мелене листя, а екстракт'
+  retell: 'усередині витяжка, а не подрібнений лист у капсулі'
+  claim: 'НЕ МЕЛЕНИЙ ЛИСТ'
+  why: 'Усередині витяжка з нього.'
+  do: 'Читай перший рядок складу'
+
+- key: g4-day
+  topic: Гінкго білоба
+  day: thu
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [ginkgo.jpg]
+  look: hands-hold
+  subject: >
+    two hands holding a glass of water at a table in the evening beside a jar of capsules, soft lamp light
+  compound: ''
+  source: 'картка: 120 шт — близько 8 грн за день'
+  retell: 'доба курсу дешевша за будь-яку каву на виніс'
+  claim: 'ВІСІМ ГРИВЕНЬ ЗА ДОБУ'
+  why: 'Велика банка вигідніша за малу.'
+  do: 'Порівняй ціну за день'
+
+- key: w4-ginkgo-sell
+  topic: Гінкго білоба
+  day: thu
+  slot: sell
+  layout: offer
+  product: Гінкго білоба
+  ref: [ginkgo.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, dried ginkgo leaves at its base, the object in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: ціна й фасовка'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Екстракт листя гінкго|Флавоноїди 24%|330 грн за банку
+  why: ''
+  do: Замовляй у директі або на сайті

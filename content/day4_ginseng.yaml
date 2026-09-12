@@ -1,0 +1,88 @@
+# Тиждень 4, день 5: Женьшень, екстракт 10:1.
+# Ефекти взято з блоку «Що дає курс женьшеню» на живій картці.
+thoughts:
+- key: j4-evening
+  topic: Женьшень
+  day: fri
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [ginseng.jpg]
+  look: kitchen-morning
+  subject: >
+    a bright kitchen in the early morning: a jar of capsules beside a glass of water on the counter, first daylight through the window
+  compound: ''
+  source: 'картка: менше втоми до вечора'
+  retell: 'до кінця дня лишається сила не тільки на диван'
+  claim: 'ВДОМА ЩЕ ЛИШАЄТЬСЯ СИЛА'
+  why: 'День перестає закінчуватись на нулі.'
+  do: 'Пий курсом два місяці'
+
+- key: j4-coffee
+  topic: Женьшень
+  day: fri
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [ginseng.jpg]
+  look: over-shoulder
+  subject: >
+    over-the-shoulder view of a desk with a cup of coffee pushed aside, a glass of water and a jar of capsules beside the keyboard, daylight
+  compound: ''
+  source: 'картка: не підстьобує, як кава, і не дає провалу'
+  retell: 'ефект рівний, без злету й падіння, як від чашки кави'
+  claim: 'НЕ ПІДСТЬОБУЄ, ЯК КАВА'
+  why: 'Тримає рівно, без провалу через годину.'
+  do: 'Прибери третю чашку зі столу'
+
+- key: j4-one
+  topic: Женьшень
+  day: fri
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [ginseng.jpg]
+  look: macro-texture
+  subject: >
+    extreme macro of a single capsule lying beside a piece of dried ginseng root on a dark surface, hard side light
+  compound: ''
+  source: 'інструкція: одна капсула на добу'
+  retell: 'схема найпростіша з можливих — одна штука на день'
+  claim: 'ОДНА КАПСУЛА НА ДОБУ'
+  why: 'Схема, яку важко забути.'
+  do: 'Клади банку біля щітки'
+
+- key: j4-root
+  topic: Женьшень
+  day: fri
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [ginseng.jpg]
+  look: knolling
+  subject: >
+    seen straight down on plain paper: one jar of capsules beside a whole dried ginseng root with its long fibres, even shadowless light
+  compound: ''
+  source: 'каталог: екстракт кореня 10:1'
+  retell: 'десять частин кореня зводять до однієї частини витяжки'
+  claim: 'ДЕСЯТЬ ЧАСТИН КОРЕНЯ В ОДНІЙ'
+  why: 'Саме це й означає напис 10:1.'
+  do: 'Шукай цей напис на банці'
+
+- key: w4-ginseng-sell
+  topic: Женьшень
+  day: fri
+  slot: sell
+  layout: offer
+  product: Женьшень
+  ref: [ginseng.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, a dried root at its base, the object in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: ціна й фасовка'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Екстракт кореня 10:1|Одна капсула на добу|370 грн за банку
+  why: ''
+  do: Замовляй у директі або на сайті

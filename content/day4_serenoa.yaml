@@ -1,0 +1,88 @@
+# Тиждень 4, день 6: Пальма сереноа, екстракт плодів.
+# Головне з картки: у добавку йде тільки плід, і витяжка тут жирна, не водна.
+thoughts:
+- key: s4-fruit
+  topic: Пальма сереноа
+  day: sat
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [serenoa.jpg]
+  look: knolling
+  subject: >
+    seen straight down on plain warm paper: one jar of capsules beside a small heap of dark dried serenoa berries, even shadowless light
+  compound: ''
+  source: 'картка: у добавку йде тільки плід, не листя й не корінь'
+  retell: 'з усієї рослини беруть лише ягоду, решту не чіпають'
+  claim: 'ТІЛЬКИ ПЛІД'
+  why: 'Ні листя, ні кореня в банці немає.'
+  do: 'Дивись, яку частину взяли'
+
+- key: s4-fat
+  topic: Пальма сереноа
+  day: sat
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [serenoa.jpg]
+  look: macro-texture
+  subject: >
+    extreme macro of dark oily serenoa berries with a faint sheen on a dark surface, one hard side light
+  compound: ''
+  source: 'картка: ліпостеролова витяжка, головна фракція жирна'
+  retell: 'корисне тут ховається в жирі, а не у воді'
+  claim: 'КОРИСНЕ ТУТ У ЖИРІ'
+  why: 'Водою таке з ягоди не витягнеш.'
+  do: 'Пий під час їжі'
+
+- key: s4-dose
+  topic: Пальма сереноа
+  day: sat
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [serenoa.jpg]
+  look: hands-hold
+  subject: >
+    two hands over a table holding a glass of water beside a jar of capsules and two loose capsules, soft daylight
+  compound: ''
+  source: 'інструкція: 1200 мг на добу'
+  retell: 'добова порція вже порахована, ділити нічого не треба'
+  claim: 'ДВІ КАПСУЛИ — І ВСЕ'
+  why: 'Це вже повна порція на добу.'
+  do: 'Пий разом, одним прийомом'
+
+- key: s4-day
+  topic: Пальма сереноа
+  day: sat
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [serenoa.jpg]
+  look: kitchen-morning
+  subject: >
+    a bright kitchen counter in the evening: a jar of capsules beside a plate and a glass of water, warm lamp light
+  compound: ''
+  source: 'картка: 120 шт — близько 12 грн за день'
+  retell: 'доба курсу коштує приблизно як булка в пекарні'
+  claim: 'ДВАНАДЦЯТЬ ГРИВЕНЬ ЗА ДОБУ'
+  why: 'Велика банка виходить дешевшою.'
+  do: 'Бери одразу на два місяці'
+
+- key: w4-serenoa-sell
+  topic: Пальма сереноа
+  day: sat
+  slot: sell
+  layout: offer
+  product: Пальма сереноа
+  ref: [serenoa.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, dried berries at its base, the object in the LOWER HALF of the frame
+  compound: ''
+  source: 'каталог: ціна й фасовка'
+  claim: ЩО БРАТИ ПЕРШИМ
+  extra: >-
+    Витяжка з плодів сереноа|Дві капсули на добу|445 грн за банку
+  why: ''
+  do: Замовляй у директі або на сайті
