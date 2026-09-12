@@ -561,9 +561,42 @@ QUESTION = re.compile(
     r"^\s*«?\s*(що|чому|коли|як|скільки|кому|чи|де|навіщо|хто)\b|\?", re.I)
 
 
+# Два кадри одного дня не мають нести ту саму думку. Ярик ловив це тричі:
+# «ТРИ ТРАВИ, А НЕ ОДНА» поруч із «ТРИ ТРАВИ, ОДИН КУРС», «ОДНА БАНКА
+# ЗАМІСТЬ ПʼЯТИ» поруч із «ПʼЯТЬ ПОЗИЦІЙ В ОДНІЙ БАНЦІ». Порівнюємо по
+# трибуквених основах, бо однакове слово стоїть у різних формах: ОДНА
+# й ОДНІЙ, БАНКА й БАНЦІ.
+#
+# Правило бере тільки буквальний збіг. Ту саму думку, сказану іншими
+# словами («ОДИН СТАН ЗАМІСТЬ ДВОХ» і «ОДИН РІВНИЙ МІСЯЦЬ»), воно не
+# побачить — це лишається на очі.
+TWIN_STOP = {"на", "не", "що", "це", "так", "уже", "вже", "ще", "але", "або",
+             "для", "від", "про", "без", "під", "над", "той", "там", "тут",
+             "як"}
+
+
+def roots(claim: str) -> set:
+    ws = [w.lower() for w in re.findall(r"[\w'ʼ]+", claim or "") if len(w) >= 3]
+    return {w[:3] for w in ws if w not in TWIN_STOP}
+
+
+def twins(thoughts: list) -> list:
+    bad = []
+    rows = [(t.get("key", "?"), t.get("claim", "")) for t in thoughts
+            if t.get("claim")]
+    for i, (k1, c1) in enumerate(rows):
+        for k2, c2 in rows[i + 1:]:
+            common = roots(c1) & roots(c2)
+            if len(common) >= 2:
+                bad.append(f"кадри {k1} і {k2} кажуть те саме: «{c1}» та "
+                           f"«{c2}» — переписати один із них")
+    return bad
+
+
 def day_form(thoughts: list) -> list:
     """Претензії до дня цілком, а не до окремого кадру."""
     bad = []
+    bad += twins(thoughts)
     claims = [t.get("claim", "") for t in thoughts
               if t.get("layout") == "poster"]
     qs = [c for c in claims if QUESTION.search(c)]
