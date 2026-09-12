@@ -22,6 +22,7 @@ import sys
 from pathlib import Path
 
 import yaml
+from PIL import Image
 
 import build_day as B
 import fullgen as F
@@ -89,8 +90,13 @@ def scene_for(t: dict, jar_hint: str) -> str:
 
 def page(css: str, uri: str, body: str) -> str:
     return ("<html><head>%s<style>*{margin:0;padding:0;box-sizing:border-box}"
+            # Сіре згладжування замість субпіксельного: інакше по краю
+            # кожного вертикального штриха лягає кольорова бахрома —
+            # (241,195,110) там, де літера темно-сіра. Оку вона майже не
+            # видно, а check_readable рахував ту бахрому за штрих і
+            # звітував про нечитабельний текст на чистому білому папері.
             "body{width:%dpx;height:%dpx;font-family:Montserrat;overflow:hidden;"
-            "position:relative}"
+            "position:relative;-webkit-font-smoothing:antialiased}"
             ".bg{position:absolute;inset:0;background:url('%s') center/cover}"
             "h1{font-weight:800;text-transform:uppercase;letter-spacing:-2px;"
             "line-height:.95}"
@@ -192,6 +198,11 @@ def main() -> int:
 
     outdir = OUT_DIR / path.stem
     outdir.mkdir(parents=True, exist_ok=True)
+    # PNG-пара для чекера читабельності живе окремо від кадрів,
+    # які йдуть у публікацію.
+    chk = outdir / "_chk"
+    blank = chk / "_blank"
+    blank.mkdir(parents=True, exist_ok=True)
     tok = None if "--compose" in sys.argv else gen.token()
 
     for t in items:
@@ -206,7 +217,25 @@ def main() -> int:
                 ok = F.draw_raw(prompt, tok, bg, aspect="9:16")
             print(("  ✔ фон " if ok else "  ✖ фон ") + t["key"], flush=True)
         if bg.exists():
-            shot(render(t, bg), outdir / f"{t['key']}.jpg", w=W, h=H)
+            html = render(t, bg)
+            # Знімаємо в PNG, а JPEG робимо конвертацією. Playwright пише
+            # jpeg якістю 80, і навколо великих літер лишається ореол;
+            # check_readable порівнює кадр із підкладкою піксель у піксель
+            # і бачив той ореол як темний фон під літерою — чистий кадр
+            # із контрастом 9 показувало як 1.35.
+            png = chk / f"{t['key']}.png"
+            shot(html, png, w=W, h=H)
+            # Підкладка без тексту — щоб чекер знайшов літери й заміряв,
+            # на чому вони лежать. Ховаємо САМІ ЛІТЕРИ, а не блоки: у
+            # кнопки .do є своя темна плашка, і visibility:hidden прибирав
+            # її разом із текстом — тоді білі літери мірялись проти
+            # фотографії, а не проти плашки, на якій вони лежать.
+            shot(html.replace("</style>",
+                              ".col,.col *,.do{color:transparent!important}"
+                              "</style>"),
+                 blank / f"{t['key']}.png", w=W, h=H)
+            Image.open(png).convert("RGB").save(
+                outdir / f"{t['key']}.jpg", "JPEG", quality=92)
             print("  ✔ кадр", t["key"], flush=True)
 
     print("тека:", outdir)

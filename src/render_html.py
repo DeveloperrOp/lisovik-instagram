@@ -32,7 +32,13 @@ def shot(html: str, dest: Path, w=W, h=H, wait=1200) -> Path:
     dest = Path(dest)
     dest.parent.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as p:
-        br = p.chromium.launch()
+        # --disable-lcd-text: на Windows Chromium малює шрифт із
+        # субпіксельним згладжуванням, і по краю кожного вертикального
+        # штриха лягає кольорова бахрома — (241,195,110) там, де літера
+        # темно-сіра. Оку вона майже не видно, а check_readable рахував
+        # ту бахрому за штрих і бракував чистий текст на білому папері.
+        # CSS-властивість -webkit-font-smoothing тут не діє, вона для macOS.
+        br = p.chromium.launch(args=["--disable-lcd-text"])
         pg = br.new_page(viewport={"width": w, "height": h},
                          device_scale_factor=1)
         pg.set_content(html, wait_until="networkidle")
