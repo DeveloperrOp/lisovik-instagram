@@ -34,6 +34,17 @@ offers:
     хто хоче концентровану користь
   do: Обери форму на сайті
 
+- day: mon2
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even
+    light, nothing else in the frame
+  claim: ЕФЕКТ ЗБИРАЄТЬСЯ КУРСОМ
+  extra: >-
+    Перші зміни — за два-три тижні|Повніше розкривається до восьмого|Разова
+    капсула не дає нічого
+  do: Бери курс, а не пробник
+
 - day: tue
   look: knolling
   subject: >
@@ -93,6 +104,7 @@ offers:
   do: Сайт у шапці профілю
 
 - day: sat
+  product: Їжовик
   look: macro-texture
   subject: >
     extreme macro split frame: loose vegetarian capsules on one side and fine
@@ -103,6 +115,17 @@ offers:
     Капсули — ковтнув і пішов|Мелений — дешевше й гнучкіше в дозі|Смак
     відчувається лише в меленому
   do: Порівняй на сайті й обери
+
+- day: sat2
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even
+    light, nothing else in the frame
+  claim: ВІДГУКИ ПІД КОЖНОЮ КАРТКОЮ
+  extra: >-
+    Пишуть ті, хто вже пропив курс|Під кожним товаром окремо|Питання став у
+    директі
+  do: Почитай перед замовленням
 
 - day: sun
   look: levitation

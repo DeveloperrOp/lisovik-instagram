@@ -87,8 +87,10 @@ def scene_for(t: dict, jar_hint: str) -> str:
                 "paper, completely empty." + TAIL)
     return (PAPER + "EXACTLY ONE jar stands in the LOWER HALF, centred, seen "
             "straight on, with a wide soft watercolour blot behind it in deep "
-            "forest green. The TOP 45% of the frame is bare patterned paper, completely "
-            "empty." + TAIL)
+            "forest green. The jar and the blot TOGETHER occupy only the BOTTOM "
+            "HALF of the frame — imagine the image split in two across the "
+            "middle: the entire upper half is bare patterned paper, no blot, "
+            "no jar, no shadow, nothing at all." + TAIL)
 
 
 def page(css: str, uri: str, body: str) -> str:
@@ -193,7 +195,14 @@ def main() -> int:
             return not w or w[:5] in have
 
         if not fits(o):
-            o = next((x for x in offers.values() if fits(x)), o)
+            # Спершу шукаємо запасну оферту ЦЬОГО Ж дня (ключ на кшталт
+            # sat2), і лише потім будь-яку іншу. Інакше субота, у якої
+            # «капсули чи мелений» не підходить пальмі, забирала оферту
+            # вівторка — і та сама плашка стояла двічі за тиждень.
+            same = [x for k, x in offers.items()
+                    if k.startswith(day) and k != day and fits(x)]
+            o = same[0] if same else next(
+                (x for x in offers.values() if fits(x)), o)
         items = items + [dict(o, key=f"{path.stem}-offer", slot="night",
                               topic=items[0].get("topic", ""),
                               ref=items[0].get("ref"), why="", compound="",
