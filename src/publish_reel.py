@@ -118,7 +118,13 @@ def main() -> int:
         print("✖ немає файлу", video)
         return 1
 
-    cap_file = arg("--caption")
+    # Підпис береться з однойменного .txt поруч із відео, якщо --caption
+    # не заданий. Без цього 12.09 рілс пішов у стрічку зовсім без опису:
+    # прапорець забувся, а Instagram підпис опублікованого медіа міняти
+    # не дає — ні оновити, ні видалити через API.
+    cap_file = arg("--caption") or (
+        str(Path(args[0]).with_suffix(".txt"))
+        if args and Path(args[0]).with_suffix(".txt").exists() else None)
     caption = (Path(cap_file).read_text(encoding="utf-8").strip()
                if cap_file and Path(cap_file).exists() else "")
 
