@@ -1519,10 +1519,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0912-krasa-morning.jpg",
    "slot_start": "2026-09-12T10:00:00+03:00",
    "slot_end": "2026-09-12T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-12T10:00:13.488864+03:00",
+   "ig_media_id": "18139861807608142",
+   "error": null,
+   "fb_story_id": "1117924370566025"
   },
   {
    "id": "0912-krasa-noon",
