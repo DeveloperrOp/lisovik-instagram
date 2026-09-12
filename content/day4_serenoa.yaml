@@ -10,13 +10,13 @@ thoughts:
   ref: [serenoa.jpg]
   look: knolling
   subject: >
-    seen straight down on plain warm paper: one jar of capsules beside a small heap of dark dried serenoa berries, even shadowless light
+    one jar of capsules with two loose capsules and a few dark dried saw palmetto berries in front of it
   compound: ''
-  source: 'картка: у добавку йде тільки плід, не листя й не корінь'
-  retell: 'з усієї рослини беруть лише ягоду, решту не чіпають'
-  claim: 'ТІЛЬКИ ПЛІД'
-  why: 'Ні листя, ні кореня в банці немає.'
-  do: 'Дивись, яку частину взяли'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'день іде рівно, без провальних годин'
+  claim: 'ДОБА БІЛЬШЕ НЕ ДІЛИТЬСЯ'
+  why: 'Ні на «нормально», ні на «терпимо».'
+  do: 'Пий курсом два місяці'
 
 - key: s4-fat
   topic: Пальма сереноа
@@ -27,13 +27,13 @@ thoughts:
   ref: [serenoa.jpg]
   look: macro-texture
   subject: >
-    extreme macro of dark oily serenoa berries with a faint sheen on a dark surface, one hard side light
+    one jar of capsules in the centre with a small heap of dark dried saw palmetto berries and a dried palm frond laid beside it
   compound: ''
-  source: 'картка: ліпостеролова витяжка, головна фракція жирна'
-  retell: 'корисне тут ховається в жирі, а не у воді'
-  claim: 'КОРИСНЕ ТУТ У ЖИРІ'
-  why: 'Водою таке з ягоди не витягнеш.'
-  do: 'Пий під час їжі'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'чоловіки зрілого віку беруть її понад століття'
+  claim: 'ПРО ЦЕ НЕ ГОВОРЯТЬ УГОЛОС'
+  why: 'Саме через це беруть цю пальму.'
+  do: 'Читай, кому вона підходить'
 
 - key: s4-dose
   topic: Пальма сереноа
@@ -44,13 +44,13 @@ thoughts:
   ref: [serenoa.jpg]
   look: hands-hold
   subject: >
-    two hands over a table holding a glass of water beside a jar of capsules and two loose capsules, soft daylight
+    one jar of capsules beside a small glass bowl of golden oil with a few dark dried berries next to it
   compound: ''
-  source: 'інструкція: 1200 мг на добу'
-  retell: 'добова порція вже порахована, ділити нічого не треба'
-  claim: 'ДВІ КАПСУЛИ — І ВСЕ'
-  why: 'Це вже повна порція на добу.'
-  do: 'Пий разом, одним прийомом'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'діюча частина жирна, тому пʼють з їжею'
+  claim: 'КОРИСНЕ ТУТ У ЖИРІ'
+  why: 'Водою таке з ягоди не витягнеш.'
+  do: 'Пий під час їжі'
 
 - key: s4-day
   topic: Пальма сереноа
@@ -61,13 +61,13 @@ thoughts:
   ref: [serenoa.jpg]
   look: kitchen-morning
   subject: >
-    a bright kitchen counter in the evening: a jar of capsules beside a plate and a glass of water, warm lamp light
+    one jar of capsules in the centre with exactly two capsules laid in a neat pair beside it and a small heap of dried berries above them
   compound: ''
-  source: 'картка: 120 шт — близько 12 грн за день'
-  retell: 'доба курсу коштує приблизно як булка в пекарні'
-  claim: 'ДВАНАДЦЯТЬ ГРИВЕНЬ ЗА ДОБУ'
-  why: 'Велика банка виходить дешевшою.'
-  do: 'Бери одразу на два місяці'
+  source: 'інструкція: дві капсули на добу'
+  retell: 'добова порція відміряна, ділити не треба'
+  claim: 'ДВІ КАПСУЛИ — І ВСЕ'
+  why: 'Це вже повна порція на добу.'
+  do: 'Пий разом, одним прийомом'
 
 - key: w4-serenoa-sell
   topic: Пальма сереноа

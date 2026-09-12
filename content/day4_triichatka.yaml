@@ -10,12 +10,12 @@ thoughts:
   ref: [triichatka.jpg]
   look: knolling
   subject: >
-    seen straight down on plain warm paper: one jar of capsules and three small heaps of raw material beside it — yellow dried tansy flowers, silvery wormwood and dark clove buds, even shadowless light
+    one jar of capsules with two loose capsules and a scatter of dark clove buds in front of it
   compound: ''
-  source: 'каталог: склад — пижмо, полин, гвоздика'
-  retell: 'усередині лише три трави, кожну видно окремо'
-  claim: 'ПИЖМО, ПОЛИН, ГВОЗДИКА'
-  why: 'Три трави й більше нічого.'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'після ситної їжі живіт відпускає раніше'
+  claim: 'ПІСЛЯ ЖИРНОЇ ВЕЧЕРІ ЛЕГШЕ'
+  why: 'Важкість минає швидше, ніж зазвичай.'
   do: 'Бери курс на місяць'
 
 - key: t4-season
@@ -27,12 +27,12 @@ thoughts:
   ref: [triichatka.jpg]
   look: kitchen-morning
   subject: >
-    a bright kitchen table in the morning: a jar of capsules, a glass of water and a plate with breakfast, daylight from a window
+    one jar of capsules in the centre, a small heap of fresh green leaves on its left and a small heap of dry brown autumn leaves on its right
   compound: ''
-  source: 'картка: сезонне очищення навесні та восени'
-  retell: 'курс беруть двічі на рік, коли міняється сезон'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'курс беруть двічі на рік, на зміні сезонів'
   claim: 'ВЕСНА І ОСІНЬ'
-  why: 'Два рази на рік, коли тіло перебудовується.'
+  why: 'Двічі на рік, коли тіло перебудовується.'
   do: 'Признач місяць у календарі'
 
 - key: t4-how
@@ -44,13 +44,13 @@ thoughts:
   ref: [triichatka.jpg]
   look: hands-hold
   subject: >
-    a glass of water and a jar of capsules standing side by side on a plain table, two capsules lying in front of them, nobody in the frame, soft daylight
+    one jar of capsules and three small heaps of raw material — yellow dried tansy flowers, silvery wormwood and dark clove buds
   compound: ''
-  source: 'інструкція: по дві капсули двічі на день'
-  retell: 'приймають ранком і ввечері, разом чотири штуки'
-  claim: 'ДВІЧІ НА ДЕНЬ'
-  why: 'По дві капсули зранку та ввечері.'
-  do: 'Постав банку біля чайника'
+  source: 'каталог: склад — пижмо, полин, гвоздика'
+  retell: 'у банці три трави, і жодна не працює наодинці'
+  claim: 'ТРИ ТРАВИ ПРАЦЮЮТЬ РАЗОМ'
+  why: 'Пижмо, полин і гвоздика — повний набір.'
+  do: 'Читай склад на етикетці'
 
 - key: t4-food
   topic: Трійчатка
@@ -61,13 +61,13 @@ thoughts:
   ref: [triichatka.jpg]
   look: over-shoulder
   subject: >
-    over-the-shoulder view of a dinner table with a hearty meal, a glass of water and a jar of capsules beside the plate, warm evening light
+    one jar of capsules in the centre, a neat pair of capsules laid on its left and another neat pair on its right, a small coffee cup at the top edge
   compound: ''
-  source: 'картка: менше важкості після жирної їжі'
-  retell: 'після ситної вечері в шлунку буває важко, курс цей стан помʼякшує'
-  claim: 'ПІСЛЯ ВАЖКОЇ ВЕЧЕРІ'
-  why: 'Живіт відпускає швидше, ніж зазвичай.'
-  do: 'Пий курсом, а не разово'
+  source: 'інструкція: по дві капсули двічі на день'
+  retell: 'схема проста: ранок і вечір, по дві штуки'
+  claim: 'ДВІЧІ НА ДЕНЬ'
+  why: 'По дві капсули зранку та ввечері.'
+  do: 'Постав банку біля чайника'
 
 - key: w4-triichatka-sell
   topic: Трійчатка

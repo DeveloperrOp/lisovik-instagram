@@ -10,13 +10,13 @@ thoughts:
   ref: [vitex.jpg]
   look: knolling
   subject: >
-    seen straight down on plain warm paper: one jar of capsules beside a small heap of dark round dried vitex berries, even shadowless light
+    one jar of capsules with two loose capsules and a few dark dried vitex berries in front of it
   compound: ''
-  source: 'картка: беремо тільки плід, хоча дозволені й лист, і насіння'
-  retell: 'дозволено кілька частин рослини, а взяли навмисно одну'
-  claim: 'ВЗЯЛИ ТІЛЬКИ ЯГОДУ'
-  why: 'Лист і насіння теж можна, але їх тут немає.'
-  do: 'Спитай, яку частину взяли'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'у другій половині циклу реакція гостріша'
+  claim: 'ДРІБНИЦІ ПОЧИНАЮТЬ ДРАТУВАТИ'
+  why: 'Після середини місяця все чіпляє сильніше.'
+  do: 'Пий щодня, без пропусків'
 
 - key: v4-ten
   topic: Вітекс
@@ -27,13 +27,13 @@ thoughts:
   ref: [vitex.jpg]
   look: macro-texture
   subject: >
-    extreme macro of dried vitex berries filling the frame, fine texture visible, soft even light
+    one jar of capsules lying in the centre of an open paper month calendar, a small heap of dried vitex berries at its corner
   compound: ''
-  source: 'каталог: екстракт плодів 10:1'
-  retell: 'десять жмень ягоди зводять до однієї жмені витяжки'
-  claim: 'ДЕСЯТЬ ЖМЕНЬ В ОДНІЙ'
-  why: 'Саме стільки ягоди йде на витяжку.'
-  do: 'Шукай напис 10:1 на банці'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'перепади в кінці циклу згладжуються'
+  claim: 'ДРУГА ПОЛОВИНА БЕЗ ГОЙДАЛОК'
+  why: 'Настрій не стрибає від дрібниць.'
+  do: 'Признач день старту'
 
 - key: v4-one
   topic: Вітекс
@@ -44,13 +44,13 @@ thoughts:
   ref: [vitex.jpg]
   look: kitchen-morning
   subject: >
-    a bright kitchen counter in the morning: a jar of capsules beside a glass of water, daylight from a window
+    one jar of capsules with exactly one capsule lying in front of it and a white coffee cup behind
   compound: ''
-  source: 'інструкція: схема проста, один прийом на добу'
-  retell: 'приймають зранку, один раз, і про банку можна забути до завтра'
-  claim: 'ЗРАНКУ І ВСЕ'
-  why: 'Один прийом на добу, далі вільно.'
-  do: 'Постав банку біля чашки'
+  source: 'інструкція: одна капсула в першій половині дня'
+  retell: 'приймають раз на день, у першій половині'
+  claim: 'ОДНА КАПСУЛА ЗРАНКУ'
+  why: 'Далі про банку можна забути.'
+  do: 'Постав її біля чашки'
 
 - key: v4-day
   topic: Вітекс
@@ -61,9 +61,9 @@ thoughts:
   ref: [vitex.jpg]
   look: hands-hold
   subject: >
-    two hands holding a warm cup at a table in the evening beside a jar of capsules, soft lamp light
+    one jar of capsules in the centre with a paper coffee cup and a small heap of dried vitex berries laid beside it
   compound: ''
-  source: 'картка: 120 шт — 4,92 грн за день'
+  source: 'каталог: ціна великої банки за добу прийому'
   retell: 'доба курсу коштує менше за пʼять гривень'
   claim: 'ПʼЯТЬ ГРИВЕНЬ ЗА ДОБУ'
   why: 'Велика банка тримається чотири місяці.'

@@ -10,13 +10,13 @@ thoughts:
   ref: [women.jpg]
   look: knolling
   subject: >
-    seen straight down on plain warm paper: one jar of capsules in the centre, three empty spaces around it marked by small dried herb sprigs, even shadowless light
+    one jar of capsules with two loose capsules and a few dark dried berries in front of it
   compound: ''
-  source: 'картка: одна банка замість трьох упаковок'
-  retell: 'замість трьох окремих банок на полиці стоїть одна'
-  claim: 'ОДНА БАНКА ЗАМІСТЬ ТРЬОХ'
-  why: 'Ашваганда, вітекс і магній уже разом.'
-  do: 'Прибери зайві банки з полиці'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'у другій половині циклу дрібниці чіпляють сильніше'
+  claim: 'НАЧЕ ХТОСЬ ПІДКРУТИВ ГУЧНІСТЬ'
+  why: 'Півмісяця ти — це ти, а далі дратує все.'
+  do: 'Пий рівним курсом'
 
 - key: w4-schemes
   topic: WOMEN Formula
@@ -27,13 +27,13 @@ thoughts:
   ref: [women.jpg]
   look: kitchen-morning
   subject: >
-    a bright kitchen counter in the morning: a jar of capsules beside a glass of water and a notebook, daylight from a window
+    one jar of capsules lying in the centre on an open paper month calendar, a small heap of dark dried berries at its corner
   compound: ''
-  source: 'картка: не треба тримати в голові три схеми й три дозування'
-  retell: 'нічого не треба запамʼятовувати: порція вже відміряна'
-  claim: 'НІЧОГО НЕ ТРЕБА ПАМʼЯТАТИ'
-  why: 'Порція відміряна, схема одна.'
-  do: 'Постав банку там, де снідаєш'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'найважчі дні місяця проходять мʼякше'
+  claim: 'РІВНІША ДРУГА ПОЛОВИНА'
+  why: 'Ті самі дні минають спокійніше.'
+  do: 'Признач день старту'
 
 - key: w4-mag
   topic: WOMEN Formula
@@ -44,13 +44,13 @@ thoughts:
   ref: [women.jpg]
   look: macro-texture
   subject: >
-    extreme macro of grey mineral salt crystals and a few capsules on a pale surface, soft even light
+    one jar of capsules with two loose capsules and a few pieces of pale dried ashwagandha root in front of it
   compound: ''
-  source: 'каталог: магній у формі бісгліцинату'
-  retell: 'мінерал тут у мʼякій формі, яку переносять легше за оксид'
-  claim: 'МАГНІЙ У МʼЯКІЙ ФОРМІ'
-  why: 'Бісгліцинат переноситься легше за оксид.'
-  do: 'Читай форму магнію на етикетці'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'вечір закінчується сном, а не думками'
+  claim: 'ЛЕГШЕ ЗАСИНАТИ'
+  why: 'За це у формулі відповідає ашваганда.'
+  do: 'Постав банку біля ліжка'
 
 - key: w4-day
   topic: WOMEN Formula
@@ -61,13 +61,13 @@ thoughts:
   ref: [women.jpg]
   look: hands-hold
   subject: >
-    two hands holding a warm cup at a table in the evening beside a jar of capsules, soft lamp light
+    one jar of capsules in the centre with three separate small heaps laid in a row beside it — dark dried vitex berries, pale ashwagandha root pieces and white magnesium powder
   compound: ''
-  source: 'картка: 120 шт — близько 12 грн за день'
-  retell: 'доба курсу коштує дешевше за проїзд у транспорті'
-  claim: 'ДВАНАДЦЯТЬ ГРИВЕНЬ ЗА ДОБУ'
-  why: 'Це менше, ніж проїзд у маршрутці.'
-  do: 'Порахуй свої два місяці'
+  source: 'каталог: вітекс, ашваганда й магній в одній формулі'
+  retell: 'не треба тримати в голові три схеми'
+  claim: 'ОДНА БАНКА ЗАМІСТЬ ТРЬОХ'
+  why: 'Вітекс, ашваганда й магній уже разом.'
+  do: 'Прибери зайві банки з полиці'
 
 - key: w4-women-sell
   topic: WOMEN Formula
