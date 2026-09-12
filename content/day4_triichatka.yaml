@@ -10,12 +10,12 @@ thoughts:
   ref: [triichatka.jpg]
   look: knolling
   subject: >
-    one jar of capsules with two loose capsules and a scatter of dark clove buds in front of it
+    one jar of capsules with two loose capsules and a silvery sprig of dried wormwood in front of them
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'після ситної їжі живіт відпускає раніше'
-  claim: 'ПІСЛЯ ЖИРНОЇ ВЕЧЕРІ ЛЕГШЕ'
-  why: 'Важкість минає швидше, ніж зазвичай.'
+  retell: 'полин у капсулі не гіркий на смак'
+  claim: 'ГІРКОТИ НЕ ВІДЧУЄШ'
+  why: 'Капсула ховає смак полину повністю.'
   do: 'Бери курс на місяць'
 
 - key: t4-season
@@ -27,13 +27,13 @@ thoughts:
   ref: [triichatka.jpg]
   look: kitchen-morning
   subject: >
-    one jar of capsules in the centre, a small heap of fresh green leaves on its left and a small heap of dry brown autumn leaves on its right
+    one jar of capsules in the centre, a small heap of dried tansy flowers on its left and a small heap of clove buds on its right, a clean empty plate at the bottom edge
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'курс беруть двічі на рік, на зміні сезонів'
-  claim: 'ВЕСНА І ОСІНЬ'
-  why: 'Двічі на рік, коли тіло перебудовується.'
-  do: 'Признач місяць у календарі'
+  retell: 'після ситної вечері важкість менша'
+  claim: 'ВЕЧІР БЕЗ ВАЖКОСТІ'
+  why: 'Після жирного живіт лишається легшим.'
+  do: 'Пий перед їдою'
 
 - key: t4-how
   topic: Трійчатка
@@ -47,9 +47,9 @@ thoughts:
     one jar of capsules and three small heaps of raw material — yellow dried tansy flowers, silvery wormwood and dark clove buds
   compound: ''
   source: 'каталог: склад — пижмо, полин, гвоздика'
-  retell: 'у банці три трави, і жодна не працює наодинці'
-  claim: 'ТРИ ТРАВИ ПРАЦЮЮТЬ РАЗОМ'
-  why: 'Пижмо, полин і гвоздика — повний набір.'
+  retell: 'склад читається в три рядки, без домішок'
+  claim: 'ТРИ ТРАВИ, А НЕ ОДНА'
+  why: 'Пижмо, полин і гвоздика — класична трійка.'
   do: 'Читай склад на етикетці'
 
 - key: t4-food
@@ -61,13 +61,13 @@ thoughts:
   ref: [triichatka.jpg]
   look: over-shoulder
   subject: >
-    one jar of capsules in the centre, a neat pair of capsules laid on its left and another neat pair on its right, two small heaps of dried herbs lying below the jar
+    one jar of capsules in the centre, a small heap of fresh green leaves on its left and a small heap of dry brown autumn leaves on its right
   compound: ''
-  source: 'інструкція: по дві капсули двічі на день'
-  retell: 'схема проста: ранок і вечір, по дві штуки'
-  claim: 'ДВІЧІ НА ДЕНЬ'
-  why: 'По дві капсули зранку та ввечері.'
-  do: 'Постав банку біля чайника'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'курс беруть навесні та восени'
+  claim: 'ДВІЧІ НА РІК'
+  why: 'Весна й осінь — час на перезапуск.'
+  do: 'Признач місяць у календарі'
 
 - key: w4-triichatka-sell
   topic: Трійчатка
@@ -81,8 +81,8 @@ thoughts:
     one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, dried tansy and clove buds at its base, the object in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: ціна й фасовка'
-  claim: ЩО БРАТИ ПЕРШИМ
+  claim: 'ТРИ ТРАВИ, ОДИН КУРС'
   extra: >-
     Пижмо, полин і гвоздика|Курс на місяць|630 грн за банку
   why: ''
-  do: Замовляй у директі або на сайті
+  do: 'Замовляй у директі або на сайті'

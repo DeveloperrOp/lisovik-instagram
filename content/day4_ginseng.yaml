@@ -32,7 +32,7 @@ thoughts:
   source: 'жива картка: блок «Що дає курс»'
   retell: 'енергія рівна, без злету й падіння'
   claim: 'НЕ ПІДСТЬОБУЄ, ЯК КАВА'
-  why: 'Тримає рівно, без провалу через годину.'
+  why: 'І не дає провалу через годину.'
   do: 'Прибери третю чашку зі столу'
 
 - key: j4-one
@@ -47,10 +47,10 @@ thoughts:
     one jar of capsules standing on the corner of an open paper notebook with a pen lying across it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'щойно почуте не зникає за хвилину'
-  claim: 'ЛЕГШЕ ТРИМАТИ В ГОЛОВІ'
-  why: 'Менше повертаєшся до нотаток.'
-  do: 'Постав банку біля ноутбука'
+  retell: 'ефект збирається поступово, не за день'
+  claim: 'ПОВНІСТЮ — НА ВОСЬМОМУ ТИЖНІ'
+  why: 'Це не таблетка на сьогодні, а курс.'
+  do: 'Признач день старту'
 
 - key: j4-root
   topic: Женьшень
@@ -63,11 +63,11 @@ thoughts:
   subject: >
     one jar of capsules in the centre with exactly one capsule laid beside it, a glass of water and a small heap of dried ginseng root pieces
   compound: ''
-  source: 'інструкція: одна капсула на добу'
-  retell: 'приймають раз на день, і це вся схема'
-  claim: 'ОДНА КАПСУЛА НА ДОБУ'
-  why: 'Схема, яку важко забути.'
-  do: 'Постав банку на видноті'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'щойно почуте не зникає за хвилину'
+  claim: 'ЛЕГШЕ ТРИМАТИ В ГОЛОВІ'
+  why: 'Менше повертаєшся до нотаток.'
+  do: 'Постав банку біля ноутбука'
 
 - key: w4-ginseng-sell
   topic: Женьшень
@@ -81,8 +81,8 @@ thoughts:
     one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, a dried root at its base, the object in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: ціна й фасовка'
-  claim: ЩО БРАТИ ПЕРШИМ
+  claim: 'ОДНА КАПСУЛА НА ДОБУ'
   extra: >-
     Екстракт кореня 10:1|Одна капсула на добу|370 грн за банку
   why: ''
-  do: Замовляй у директі або на сайті
+  do: 'Замовляй у директі або на сайті'

@@ -10,12 +10,12 @@ thoughts:
   ref: [ginkgo.jpg]
   look: knolling
   subject: >
-    one jar of capsules with two loose capsules and a few green ginkgo leaves in front of it
+    one jar of capsules with two loose TRANSPARENT clear gelatin capsules of ordinary capsule shape, the packed powder plainly visible through the colourless shell, and a few green ginkgo leaves in front of it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'голова працює чіткіше, ніж у сірі дні'
-  claim: 'ЯСНІСТЬ ДУМКИ'
-  why: 'Саме по неї до гінкго й приходять.'
+  retell: 'говорити й думати легше, ніж у сірі дні'
+  claim: 'СЛОВА ЗНАХОДЯТЬСЯ ШВИДШЕ'
+  why: 'Думка йде рівніше — по це до гінкго й ідуть.'
   do: 'Пий курсом два місяці'
 
 - key: g4-flav
@@ -30,10 +30,10 @@ thoughts:
     one jar of capsules in the centre with a warm ceramic cup of tea, a knitted woollen glove and a small heap of dried ginkgo leaves laid around it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'руки мерзнуть менше, ніж зазвичай'
-  claim: 'ТЕПЛО В ПАЛЬЦЯХ'
-  why: 'Друга річ, заради якої беруть цю банку.'
-  do: 'Почни восени'
+  retell: 'руки мерзнуть менше, бо кровообіг рівніший'
+  claim: 'РУКИ ТЕПЛІШІ'
+  why: 'Гінкго працює з кровообігом — звідси й тепло.'
+  do: 'Почни з першими холодами'
 
 - key: g4-leaf
   topic: Гінкго білоба
@@ -44,13 +44,13 @@ thoughts:
   ref: [ginkgo.jpg]
   look: knolling
   subject: >
-    one jar of capsules with several loose capsules laid out in an even row in front of it, all identical
+    one jar of capsules with several large fan-shaped ginkgo leaves lying on the surface around it, none of them covering the jar or its label
   compound: ''
-  source: 'каталог: стандартизований екстракт, а не мелений лист'
-  retell: 'сировина гуляє, а тут число фіксоване'
-  claim: 'КОЖНА БАНКА ОДНАКОВА'
-  why: 'Трава з різних партій — ні.'
-  do: 'Порівняй дві свої упаковки'
+  source: 'каталог: гінкголіди й білобалід — тільки в цій рослині'
+  retell: 'ці сполуки є тільки в гінкго'
+  claim: 'ТАКОГО НЕМАЄ БІЛЬШЕ НІДЕ'
+  why: 'Гінкголіди не синтезує жодна інша рослина.'
+  do: 'Почитай, що це за сполуки'
 
 - key: g4-day
   topic: Гінкго білоба
@@ -63,11 +63,11 @@ thoughts:
   subject: >
     one jar of capsules in the centre with a paper coffee cup and a small heap of dried ginkgo leaves laid beside it
   compound: ''
-  source: 'каталог: ціна великої банки за добу прийому'
-  retell: 'доба курсу дешевша за каву на виніс'
-  claim: 'ВІСІМ ГРИВЕНЬ ЗА ДОБУ'
-  why: 'Велика банка вигідніша за малу.'
-  do: 'Порівняй ціну за день'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'після обіду голова ще працює'
+  claim: 'ДРУГА ПОЛОВИНА ДНЯ РОБОЧА'
+  why: 'Не витрачається на боротьбу із собою.'
+  do: 'Тримай банку на столі'
 
 - key: w4-ginkgo-sell
   topic: Гінкго білоба
@@ -80,9 +80,9 @@ thoughts:
   subject: >
     one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, dried ginkgo leaves at its base, the object in the LOWER HALF of the frame
   compound: ''
-  source: 'каталог: ціна й фасовка'
-  claim: ЩО БРАТИ ПЕРШИМ
+  source: 'каталог: ціна великої банки за добу прийому'
+  claim: 'ВІСІМ ГРИВЕНЬ ЗА ДОБУ'
   extra: >-
     Екстракт листя гінкго|Флавоноїди 24%|330 грн за банку
   why: ''
-  do: Замовляй у директі або на сайті
+  do: 'Замовляй у директі або на сайті'

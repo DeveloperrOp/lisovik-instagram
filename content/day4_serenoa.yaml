@@ -10,13 +10,13 @@ thoughts:
   ref: [serenoa.jpg]
   look: knolling
   subject: >
-    one jar of capsules with two loose capsules and a few dark dried saw palmetto berries in front of it
+    one jar of capsules with two loose TRANSPARENT clear gelatin capsules of ordinary capsule shape, the packed powder plainly visible through the colourless shell, and a few dark dried saw palmetto berries in front of it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'день іде рівно, без провальних годин'
-  claim: 'ДОБА БІЛЬШЕ НЕ ДІЛИТЬСЯ'
-  why: 'Ні на «нормально», ні на «терпимо».'
-  do: 'Пий курсом два місяці'
+  retell: 'чоловіча тема, яку не обговорюють'
+  claim: 'ПРО ЦЕ НЕ ГОВОРЯТЬ УГОЛОС'
+  why: 'Але саме через це беруть цю пальму.'
+  do: 'Читай, кому вона підходить'
 
 - key: s4-fat
   topic: Пальма сереноа
@@ -30,10 +30,10 @@ thoughts:
     one jar of capsules in the centre with a small heap of dark dried saw palmetto berries and a dried palm frond laid beside it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'чоловіки зрілого віку беруть її понад століття'
-  claim: 'ПРО ЦЕ НЕ ГОВОРЯТЬ УГОЛОС'
-  why: 'Саме через це беруть цю пальму.'
-  do: 'Читай, кому вона підходить'
+  retell: 'справи не доводиться підганяти під стан'
+  claim: 'ПЛАНИ НЕ ПІДЛАШТОВУЄШ'
+  why: 'Звичні справи перестають залежати від самопочуття.'
+  do: 'Пий курсом два місяці'
 
 - key: s4-dose
   topic: Пальма сереноа
@@ -44,13 +44,13 @@ thoughts:
   ref: [serenoa.jpg]
   look: hands-hold
   subject: >
-    one jar of capsules beside a small glass bowl of golden oil with a few dark dried berries next to it
+    one jar of capsules beside a small glass bowl of golden oil, two loose TRANSPARENT clear gelatin capsules of ordinary capsule shape, the packed powder plainly visible through the colourless shell, and a few dark dried berries next to them
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'діюча частина жирна, тому пʼють з їжею'
-  claim: 'КОРИСНЕ ТУТ У ЖИРІ'
-  why: 'Водою таке з ягоди не витягнеш.'
-  do: 'Пий під час їжі'
+  retell: 'день іде рівно, без провальних годин'
+  claim: 'НОРМАЛЬНО І ТЕРПИМО'
+  why: 'Доба перестає ділитись на ці дві частини.'
+  do: 'Постав банку на видноті'
 
 - key: s4-day
   topic: Пальма сереноа
@@ -61,13 +61,13 @@ thoughts:
   ref: [serenoa.jpg]
   look: kitchen-morning
   subject: >
-    one jar of capsules in the centre with exactly two capsules laid in a neat pair beside it and a small heap of dried berries above them
+    one jar of capsules in the centre with a dried palm frond and two small heaps of dark dried berries laid beside it
   compound: ''
-  source: 'інструкція: дві капсули на добу'
-  retell: 'добова порція відміряна, ділити не треба'
-  claim: 'ДВІ КАПСУЛИ — І ВСЕ'
-  why: 'Це вже повна порція на добу.'
-  do: 'Пий разом, одним прийомом'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'цю пальму беруть уже понад сто років'
+  claim: 'ПОНАД СТОЛІТТЯ В ОБІГУ'
+  why: 'Чоловіки зрілого віку беруть її не перший рік.'
+  do: 'Бери курс на два місяці'
 
 - key: w4-serenoa-sell
   topic: Пальма сереноа
@@ -81,8 +81,8 @@ thoughts:
     one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, dried berries at its base, the object in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: ціна й фасовка'
-  claim: ЩО БРАТИ ПЕРШИМ
+  claim: 'ДВІ КАПСУЛИ РАЗ НА ДЕНЬ'
   extra: >-
     Витяжка з плодів сереноа|Дві капсули на добу|445 грн за банку
   why: ''
-  do: Замовляй у директі або на сайті
+  do: 'Замовляй у директі або на сайті'

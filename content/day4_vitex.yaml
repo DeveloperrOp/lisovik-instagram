@@ -13,9 +13,9 @@ thoughts:
     one jar of capsules with two loose capsules and a few dark dried vitex berries in front of it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'у другій половині циклу реакція гостріша'
-  claim: 'ДРІБНИЦІ ПОЧИНАЮТЬ ДРАТУВАТИ'
-  why: 'Після середини місяця все чіпляє сильніше.'
+  retell: 'перепади настрою слабшають'
+  claim: 'ГОЙДАЛКИ МЕНШОЇ АМПЛІТУДИ'
+  why: 'Настрій не кидає з краю в край.'
   do: 'Пий щодня, без пропусків'
 
 - key: v4-ten
@@ -30,9 +30,9 @@ thoughts:
     one jar of capsules lying in the centre of an open paper planner with an empty ruled grid and NO numbers anywhere, a small heap of dried vitex berries at its corner
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'перепади в кінці циклу згладжуються'
-  claim: 'ДРУГА ПОЛОВИНА БЕЗ ГОЙДАЛОК'
-  why: 'Настрій не стрибає від дрібниць.'
+  retell: 'найважчі дні проходять спокійніше'
+  claim: 'ТІ САМІ ДНІ — РІВНІШЕ'
+  why: 'Друга половина місяця дається легше.'
   do: 'Признач день старту'
 
 - key: v4-one
@@ -44,13 +44,13 @@ thoughts:
   ref: [vitex.jpg]
   look: kitchen-morning
   subject: >
-    one jar of capsules with exactly one capsule lying in front of it and a white coffee cup behind
+    one jar of capsules with exactly one capsule lying in front of it and a small round hand mirror behind
   compound: ''
-  source: 'інструкція: одна капсула в першій половині дня'
-  retell: 'приймають раз на день, у першій половині'
-  claim: 'ОДНА КАПСУЛА ЗРАНКУ'
-  why: 'Далі про банку можна забути.'
-  do: 'Постав її біля чашки'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'шкіра поводиться передбачувано'
+  claim: 'ШКІРА БЕЗ СЮРПРИЗІВ'
+  why: 'Саме в ті дні, коли зазвичай навпаки.'
+  do: 'Пий два місяці поспіль'
 
 - key: v4-day
   topic: Вітекс
@@ -63,10 +63,10 @@ thoughts:
   subject: >
     one jar of capsules in the centre with a paper coffee cup and a small heap of dried vitex berries laid beside it
   compound: ''
-  source: 'каталог: ціна великої банки за добу прийому'
-  retell: 'доба курсу коштує менше за пʼять гривень'
-  claim: 'ПʼЯТЬ ГРИВЕНЬ ЗА ДОБУ'
-  why: 'Велика банка тримається чотири місяці.'
+  source: 'каталог: велика фасовка й ціна за добу'
+  retell: 'великої банки вистачає на чотири місяці'
+  claim: 'ЧОТИРИ МІСЯЦІ З ОДНІЄЇ БАНКИ'
+  why: 'Виходить менше пʼяти гривень за добу.'
   do: 'Бери більшу банку'
 
 - key: w4-vitex-sell
@@ -81,8 +81,8 @@ thoughts:
     one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, dried berries at its base, the object in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: ціна й фасовка'
-  claim: ЩО БРАТИ ПЕРШИМ
+  claim: 'ОДНА КАПСУЛА ЗРАНКУ'
   extra: >-
     Витяжка з плодів вітексу|Один прийом на добу|390 грн за банку
   why: ''
-  do: Замовляй у директі або на сайті
+  do: 'Замовляй у директі або на сайті'

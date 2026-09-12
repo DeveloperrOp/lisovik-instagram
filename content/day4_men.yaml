@@ -10,13 +10,13 @@ thoughts:
   ref: [men.jpg]
   look: knolling
   subject: >
-    one jar of capsules with three loose capsules in front of it and a rolled sports wristband lying behind
+    one jar of capsules with a few loose capsules and dark dried root pieces lying around them
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'формат для тих, хто суміщає роботу із залом'
-  claim: 'РОБОТА ПЛЮС ТРЕНУВАННЯ'
-  why: 'Режим, у якому на вечір уже нічого не лишається.'
-  do: 'Пий курсом, не разово'
+  source: 'каталог: вміст цинку 90% референсної норми'
+  retell: 'цинку тут майже повна норма'
+  claim: 'ЦИНКУ 90% НОРМИ'
+  why: 'У звичайних банках 15-25 відсотків.'
+  do: 'Знайди цифру на своїй етикетці'
 
 - key: m4-zinc
   topic: MEN Formula
@@ -30,9 +30,9 @@ thoughts:
     one jar of capsules in the centre with a folded grey sports towel, a steel water bottle and a coiled skipping rope laid around it in a neat row
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'навантаження переносяться легше, ніж без курсу'
-  claim: 'ДОВШЕ ТРИМАЄШ ТЕМП'
-  why: 'Три витяжки працюють на витривалість.'
+  retell: 'тонус рівний, без збудження'
+  claim: 'ТОНУС БЕЗ СМИКАНИНИ'
+  why: 'Ашваганда тримає рівно — це не енергетик.'
   do: 'Бери банку в зал'
 
 - key: m4-three
@@ -44,13 +44,13 @@ thoughts:
   ref: [men.jpg]
   look: knolling
   subject: >
-    one jar of capsules with a few loose capsules and dark dried root pieces lying around them
+    one jar of capsules with three loose capsules in front of it and a rolled sports wristband lying behind
   compound: ''
-  source: 'каталог: вміст цинку у добовій порції'
-  retell: 'цинку тут майже повна норма, а не сліди'
-  claim: 'ЦИНКУ 90% НОРМИ'
-  why: 'Звичайні банки дають 15-25 відсотків.'
-  do: 'Знайди цифру на своїй етикетці'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'формат для періодів підвищеного навантаження'
+  claim: 'КОЛИ ТІЛО ПРАЦЮЄ НА МЕЖІ'
+  why: 'Три витяжки саме для таких періодів.'
+  do: 'Пий курсом, не разово'
 
 - key: m4-day
   topic: MEN Formula
@@ -61,12 +61,12 @@ thoughts:
   ref: [men.jpg]
   look: hands-hold
   subject: >
-    one jar of capsules in the centre with exactly three capsules laid in a neat row beside it and three small heaps of different dried roots above them
+    one jar of capsules in the centre with five small heaps of different raw material laid in a neat row beside it
   compound: ''
-  source: 'інструкція: три капсули на добу'
-  retell: 'не треба рахувати, скільки чого випив'
-  claim: 'ТРИ КАПСУЛИ НА ДОБУ'
-  why: 'Одна банка замість трьох окремих.'
+  source: 'каталог: склад — три екстракти й два мінерали'
+  retell: 'пʼять позицій зібрані в одну банку'
+  claim: 'ОДНА БАНКА ЗАМІСТЬ ПʼЯТИ'
+  why: 'Трібулус, мака, ашваганда, цинк, магній.'
   do: 'Порівняй зі своєю полицею'
 
 - key: w4-men-sell
@@ -81,8 +81,8 @@ thoughts:
     one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, the object in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: ціна й фасовка'
-  claim: ЩО БРАТИ ПЕРШИМ
+  claim: 'ПʼЯТЬ ПОЗИЦІЙ В ОДНІЙ БАНЦІ'
   extra: >-
     Трібулус, мака, ашваганда|Цинк і магній|455 грн за банку
   why: ''
-  do: Замовляй у директі або на сайті
+  do: 'Замовляй у директі або на сайті'

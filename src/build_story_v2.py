@@ -77,17 +77,17 @@ def scene_for(t: dict, jar_hint: str) -> str:
     if kind == "D":
         return (PAPER + "Extreme macro: " + own + " The objects fill the MIDDLE "
                 "of the frame, enormous and razor sharp. " + ONEJAR +
-                " The TOP THIRD is bare patterned paper, completely empty." + TAIL)
+                " The TOP 45% of the frame is bare patterned paper, completely empty." + TAIL)
     if kind == "E":
         return (SANDBG + "Seen straight down: " + own + " The raw material is "
                 "laid out in neat small heaps. " + ONEJAR +
-                " The TOP THIRD is bare empty surface." + TAIL)
+                " The TOP 45% of the frame is bare empty surface." + TAIL)
     if kind == "S":
-        return (PAPER + own + " " + ONEJAR + " The TOP THIRD is bare patterned "
+        return (PAPER + own + " " + ONEJAR + " The TOP 45% of the frame is bare patterned "
                 "paper, completely empty." + TAIL)
     return (PAPER + "EXACTLY ONE jar stands in the LOWER HALF, centred, seen "
             "straight on, with a wide soft watercolour blot behind it in deep "
-            "forest green. The TOP THIRD is bare patterned paper, completely "
+            "forest green. The TOP 45% of the frame is bare patterned paper, completely "
             "empty." + TAIL)
 
 
@@ -119,14 +119,14 @@ def render(t: dict, bg: Path) -> str:
 
     if kind in ("D", "S"):
         css = """
-h1{font-size:86px;color:%s}
-.eye{font-weight:600;font-size:30px;color:%s;letter-spacing:.2em;
- text-transform:uppercase;margin-bottom:18px}
-p{font-weight:400;font-size:40px;line-height:1.34;color:%s;margin-top:26px;
- max-width:88%%}
+h1{font-size:108px;color:%s}
+.eye{font-weight:600;font-size:34px;color:%s;letter-spacing:.2em;
+ text-transform:uppercase;margin-bottom:20px}
+p{font-weight:500;font-size:50px;line-height:1.3;color:%s;margin-top:30px;
+ max-width:92%%}
 .col{position:absolute;left:7%%;right:7%%;top:6%%}
-.do{position:absolute;left:7%%;bottom:5.5%%;font-weight:700;font-size:34px;
- color:#fdfbf4;background:%s;padding:20px 34px;border-radius:999px;
+.do{position:absolute;left:7%%;bottom:5.5%%;font-weight:700;font-size:40px;
+ color:#fdfbf4;background:%s;padding:24px 40px;border-radius:999px;
  text-transform:uppercase}
 """ % (FOREST, OLIVE, INK, FOREST)
         body = ("<div class='col'><div class='eye'>%s</div><h1>%s</h1>"
@@ -138,15 +138,15 @@ p{font-weight:400;font-size:40px;line-height:1.34;color:%s;margin-top:26px;
         # літери на ньому зливались із фоном — заміряно (243,200,168) проти
         # (244,205,176), тобто контрасту не було взагалі.
         css = """
-h1{font-size:82px;color:%s}
-.eye{font-weight:600;font-size:29px;color:rgba(47,74,44,.75);
- letter-spacing:.2em;text-transform:uppercase;margin-bottom:16px}
-p{font-weight:400;font-size:38px;line-height:1.34;color:%s;
- margin-top:24px;max-width:86%%}
+h1{font-size:104px;color:%s}
+.eye{font-weight:600;font-size:33px;color:rgba(47,74,44,.75);
+ letter-spacing:.2em;text-transform:uppercase;margin-bottom:18px}
+p{font-weight:500;font-size:48px;line-height:1.3;color:%s;
+ margin-top:28px;max-width:92%%}
 .col{position:absolute;left:7%%;right:7%%;top:6.5%%}
 .do{position:absolute;left:7%%;right:7%%;bottom:5.5%%;text-align:center;
- font-weight:800;font-size:34px;color:#fdfbf4;background:%s;padding:24px;
- border-radius:16px;text-transform:uppercase}
+ font-weight:800;font-size:40px;color:#fdfbf4;background:%s;padding:28px;
+ border-radius:18px;text-transform:uppercase}
 """ % (FOREST, INK, FOREST)
         body = ("<div class='col'><div class='eye'>%s</div><h1>%s</h1>"
                 "<p>%s</p></div><div class='do'>%s</div>"
@@ -156,14 +156,14 @@ p{font-weight:400;font-size:38px;line-height:1.34;color:%s;
         parts = [x.strip() for x in (t.get("extra") or "").split("|") if x.strip()]
         rows = "".join("<li>%s</li>" % esc(x) for x in parts)
         css = """
-h1{font-size:80px;color:%s;text-align:center}
+h1{font-size:96px;color:%s;text-align:center}
 .col{position:absolute;left:8%%;right:8%%;top:7%%}
 ul{list-style:none;margin-top:26px}
-li{font-weight:600;font-size:33px;line-height:1.28;color:%s;text-align:center;
- padding:13px 0;border-bottom:1px solid rgba(47,74,44,.2)}
+li{font-weight:600;font-size:42px;line-height:1.26;color:%s;text-align:center;
+ padding:18px 0;border-bottom:1px solid rgba(47,74,44,.2)}
 .do{position:absolute;left:7%%;right:7%%;bottom:5.5%%;text-align:center;
- font-weight:800;font-size:34px;color:#fdfbf4;background:%s;padding:24px;
- border-radius:16px;text-transform:uppercase}
+ font-weight:800;font-size:40px;color:#fdfbf4;background:%s;padding:28px;
+ border-radius:18px;text-transform:uppercase}
 """ % (FOREST, INK, FOREST)
         body = ("<div class='col'><h1>%s</h1><ul>%s</ul></div>"
                 "<div class='do'>%s</div>" % (claim, rows, do))

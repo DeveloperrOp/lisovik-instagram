@@ -13,9 +13,9 @@ thoughts:
     one jar of capsules with two loose capsules and a few dark dried berries in front of it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'у другій половині циклу дрібниці чіпляють сильніше'
-  claim: 'НАЧЕ ХТОСЬ ПІДКРУТИВ ГУЧНІСТЬ'
-  why: 'Півмісяця ти — це ти, а далі дратує все.'
+  retell: 'у другій половині циклу все чіпляє сильніше'
+  claim: 'ПІВМІСЯЦЯ ТИ — ЦЕ ТИ'
+  why: 'Потім наче хтось підкручує гучність.'
   do: 'Пий рівним курсом'
 
 - key: w4-schemes
@@ -27,13 +27,13 @@ thoughts:
   ref: [women.jpg]
   look: kitchen-morning
   subject: >
-    one jar of capsules lying in the centre on an open paper planner with an empty ruled grid and NO numbers anywhere, a small heap of dark dried berries at its corner
+    one jar of capsules in the centre with a folded soft blanket, a warm cup and a small heap of dark dried berries laid around it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'найважчі дні місяця проходять мʼякше'
-  claim: 'РІВНІША ДРУГА ПОЛОВИНА'
-  why: 'Ті самі дні минають спокійніше.'
-  do: 'Признач день старту'
+  retell: 'мʼязи не стиснуті з ранку до ночі'
+  claim: 'ПЛЕЧІ НАРЕШТІ ОПУСКАЮТЬСЯ'
+  why: 'Тіло перестає тримати напругу цілий день.'
+  do: 'Постав банку на видноті'
 
 - key: w4-mag
   topic: WOMEN Formula
@@ -47,9 +47,9 @@ thoughts:
     one jar of capsules with two loose capsules and a few pieces of pale dried ashwagandha root in front of it
   compound: ''
   source: 'жива картка: блок «Що дає курс»'
-  retell: 'вечір закінчується сном, а не думками'
-  claim: 'ЛЕГШЕ ЗАСИНАТИ'
-  why: 'За це у формулі відповідає ашваганда.'
+  retell: 'засинати легше, ніж зазвичай'
+  claim: 'ВЕЧІР ВІДПУСКАЄ'
+  why: 'Сон приходить без боротьби з думками.'
   do: 'Постав банку біля ліжка'
 
 - key: w4-day
@@ -61,13 +61,13 @@ thoughts:
   ref: [women.jpg]
   look: hands-hold
   subject: >
-    one jar of capsules in the centre with three separate small heaps laid in a row beside it — dark dried vitex berries, pale ashwagandha root pieces and white magnesium powder
+    one jar of capsules lying in the centre on an open paper planner with an empty ruled grid and NO numbers anywhere, a small heap of dark dried berries at its corner
   compound: ''
-  source: 'каталог: вітекс, ашваганда й магній в одній формулі'
-  retell: 'не треба тримати в голові три схеми'
-  claim: 'ОДНА БАНКА ЗАМІСТЬ ТРЬОХ'
-  why: 'Вітекс, ашваганда й магній уже разом.'
-  do: 'Прибери зайві банки з полиці'
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'місяць перестає ділитись навпіл'
+  claim: 'ОДИН СТАН ЗАМІСТЬ ДВОХ'
+  why: 'Рівний фон весь місяць, а не дві половини.'
+  do: 'Пий два місяці поспіль'
 
 - key: w4-women-sell
   topic: WOMEN Formula
@@ -81,8 +81,8 @@ thoughts:
     one product jar standing on a dark surface, turned slightly, one hard side light carving it out of the dark, the object in the LOWER HALF of the frame
   compound: ''
   source: 'каталог: ціна й фасовка'
-  claim: ЩО БРАТИ ПЕРШИМ
+  claim: 'ОДИН РІВНИЙ МІСЯЦЬ'
   extra: >-
     Ашваганда та вітекс|Магній бісгліцинат|440 грн за банку
   why: ''
-  do: Замовляй у директі або на сайті
+  do: 'Замовляй у директі або на сайті'
