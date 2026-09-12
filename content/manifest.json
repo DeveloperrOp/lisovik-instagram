@@ -1547,10 +1547,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0912-krasa-evening.jpg",
    "slot_start": "2026-09-12T18:00:00+03:00",
    "slot_end": "2026-09-12T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-12T18:00:13.184709+03:00",
+   "ig_media_id": "17966941544960101",
+   "error": null,
+   "fb_story_id": "1597034225132349"
   },
   {
    "id": "0912-krasa-sell",
