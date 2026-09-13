@@ -1588,10 +1588,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0913-triichatka-dawn.jpg",
    "slot_start": "2026-09-13T10:20:00+03:00",
    "slot_end": "2026-09-13T11:15:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-13T10:30:12.958935+03:00",
+   "ig_media_id": "17980060167094222",
+   "error": null,
+   "fb_story_id": "1462782482356288"
   },
   {
    "id": "0913-triichatka-morning",
