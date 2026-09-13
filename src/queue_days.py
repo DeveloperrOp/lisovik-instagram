@@ -16,6 +16,7 @@ build_day; вона теж їде разом зі своїм днем.
 Порядок за замовчуванням — від їжовика, як просив власник.
 """
 import shutil
+import subprocess
 import sys
 from datetime import datetime, timedelta
 
@@ -61,7 +62,11 @@ def main() -> int:
     m = mf.load(tok)
 
     if "--show" in sys.argv:
-        q = sorted([i for i in m["items"] if i["status"] == "pending"],
+        # Публікується «approved»; «pending» — стан ручного схвалення
+        # через бота. Показувати лише pending означало звітувати
+        # «у черзі 0» при сорока двох поставлених кадрах.
+        q = sorted([i for i in m["items"]
+                    if i["status"] in ("approved", "pending")],
                    key=lambda i: i["slot_start"])
         print(f"у черзі: {len(q)}")
         for i in q[:14]:
@@ -112,6 +117,26 @@ def main() -> int:
 
     mf.save(m, tok)
     print(f"\nу черзі: {queued}" + (f" | вікно вже минуло: {late}" if late else ""))
+
+    # Черга живе не в цьому файлі, а на сервері: публікує GitHub Actions,
+    # і бачить він тільки те, що запушене. 13.09 черга тижня простояла
+    # ніч у локальному коміті — Actions відпрацював усі запуски успішно,
+    # але бачив стару чергу й публікувати не мав чого. Тому відправка
+    # тепер частина постановки, а не окремий крок, який можна забути.
+    if queued and "--no-push" not in sys.argv:
+        msg = f"queue: {prefix.rstrip('_')} від {start:%Y-%m-%d}, кадрів {queued}"
+        for cmd in (["git", "add", "content/manifest.json"],
+                    ["git", "commit", "-q", "-m", msg],
+                    ["git", "push", "-q"]):
+            r = subprocess.run(cmd, cwd=str(CONTENT_DIR.parent),
+                               capture_output=True, text=True)
+            if r.returncode:
+                print(f"  ✖ {' '.join(cmd[:2])}: "
+                      f"{(r.stderr or r.stdout).strip()[:120]}")
+                print("  ⚠ ЧЕРГА НЕ НА СЕРВЕРІ — відправ маніфест руками, "
+                      "інакше публікації не буде")
+                return 1
+        print("  ✔ маніфест відправлено на сервер")
     return 0
 
 
