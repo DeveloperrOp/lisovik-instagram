@@ -1658,10 +1658,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0913-triichatka-night.jpg",
    "slot_start": "2026-09-13T19:00:00+03:00",
    "slot_end": "2026-09-13T22:00:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-13T19:00:12.681821+03:00",
+   "ig_media_id": "18111368858029485",
+   "error": null,
+   "fb_story_id": "2297897034298466"
   },
   {
    "id": "0914-men-dawn",
