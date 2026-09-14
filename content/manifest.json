@@ -1741,10 +1741,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0914-men-night.jpg",
    "slot_start": "2026-09-14T20:00:00+03:00",
    "slot_end": "2026-09-14T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-14T20:00:15.506940+03:00",
+   "ig_media_id": "17991518571109257",
+   "error": null,
+   "fb_story_id": "2106258043587690"
   },
   {
    "id": "0915-women-dawn",
