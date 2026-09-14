@@ -1672,10 +1672,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0914-men-dawn.jpg",
    "slot_start": "2026-09-14T07:00:00+03:00",
    "slot_end": "2026-09-14T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-14T07:00:14.724854+03:00",
+   "ig_media_id": "18097407065563170",
+   "error": null,
+   "fb_story_id": "1103297615566642"
   },
   {
    "id": "0914-men-morning",
