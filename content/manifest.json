@@ -1699,10 +1699,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0914-men-noon.jpg",
    "slot_start": "2026-09-14T12:00:00+03:00",
    "slot_end": "2026-09-14T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-14T12:00:16.087965+03:00",
+   "ig_media_id": "18407860453082231",
+   "error": null,
+   "fb_story_id": "1062635600020025"
   },
   {
    "id": "0914-men-evening",
