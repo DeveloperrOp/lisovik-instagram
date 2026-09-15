@@ -1811,10 +1811,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0915-women-sell.jpg",
    "slot_start": "2026-09-15T19:00:00+03:00",
    "slot_end": "2026-09-15T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-15T19:00:14.126250+03:00",
+   "ig_media_id": "18102637682369067",
+   "error": null,
+   "fb_story_id": "1084852344029001"
   },
   {
    "id": "0915-women-night",
