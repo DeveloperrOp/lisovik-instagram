@@ -1909,10 +1909,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0916-ginkgo-night.jpg",
    "slot_start": "2026-09-16T20:00:00+03:00",
    "slot_end": "2026-09-16T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-16T20:00:14.475341+03:00",
+   "ig_media_id": "18077277893422224",
+   "error": null,
+   "fb_story_id": "962469996897812"
   },
   {
    "id": "0917-ginseng-dawn",
