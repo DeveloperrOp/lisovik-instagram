@@ -1839,10 +1839,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0916-ginkgo-dawn.jpg",
    "slot_start": "2026-09-16T07:00:00+03:00",
    "slot_end": "2026-09-16T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-16T07:00:20.817652+03:00",
+   "ig_media_id": "18088965296221409",
+   "error": null,
+   "fb_story_id": "1103554822040306"
   },
   {
    "id": "0916-ginkgo-morning",
