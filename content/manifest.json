@@ -1923,10 +1923,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0917-ginseng-dawn.jpg",
    "slot_start": "2026-09-17T07:00:00+03:00",
    "slot_end": "2026-09-17T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-17T07:00:13.764567+03:00",
+   "ig_media_id": "18019852931864138",
+   "error": null,
+   "fb_story_id": "1876036773374904"
   },
   {
    "id": "0917-ginseng-morning",
