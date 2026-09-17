@@ -1979,10 +1979,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0917-ginseng-sell.jpg",
    "slot_start": "2026-09-17T19:00:00+03:00",
    "slot_end": "2026-09-17T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-17T19:00:15.683229+03:00",
+   "ig_media_id": "18057305756794751",
+   "error": null,
+   "fb_story_id": "2327870544418971"
   },
   {
    "id": "0917-ginseng-night",
