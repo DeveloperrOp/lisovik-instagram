@@ -1951,10 +1951,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0917-ginseng-noon.jpg",
    "slot_start": "2026-09-17T12:00:00+03:00",
    "slot_end": "2026-09-17T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-17T12:00:14.908592+03:00",
+   "ig_media_id": "18496665184101369",
+   "error": null,
+   "fb_story_id": "2076305576318107"
   },
   {
    "id": "0917-ginseng-evening",
