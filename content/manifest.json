@@ -2146,10 +2146,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0919-vitex-sell.jpg",
    "slot_start": "2026-09-19T19:00:00+03:00",
    "slot_end": "2026-09-19T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-19T19:00:13.210948+03:00",
+   "ig_media_id": "18069757733772493",
+   "error": null,
+   "fb_story_id": "1540576298109828"
   },
   {
    "id": "0919-vitex-night",
