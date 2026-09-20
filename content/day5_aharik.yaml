@@ -14,10 +14,10 @@ thoughts:
   subject: >
     one jar of capsules with a few whole dried agaricus mushrooms lying at its base
   compound: ''
-  source: 'каталог: склад і фасовка'
-  retell: 'грибна матриця щодня, а не від випадку'
-  claim: 'ГРИБІВ У ТАРІЛЦІ МАЙЖЕ НЕМА'
-  why: 'Курс повертає їх у щоденний раціон.'
+  source: 'загальновідома історія гриба'
+  retell: 'агарік помітили в бразильській глибинці'
+  claim: 'ЗНАЙШЛИ В ПʼЄДАДЕ'
+  why: 'Містечко під Сан-Паулу, шістдесяті роки.'
   do: 'Бери курс на два місяці'
 
 - key: a5-ten
@@ -29,12 +29,12 @@ thoughts:
   ref: [aharik.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules lying flat with several capsules laid out in a neat fan beside it
+    a few whole dried agaricus mushrooms and a folded paper map lying flat on the surface, one jar of capsules beside them
   compound: ''
-  source: 'каталог: склад і фасовка'
-  retell: 'агарік спокійно поєднується з іншими грибами'
-  claim: 'СУСІДАМ ПО ПОЛИЦІ НЕ ЗАВАЖАЄ'
-  why: 'Його тримають поруч із кордицепсом чи рейші.'
+  source: 'загальновідома історія гриба'
+  retell: 'з Бразилії гриб потрапив до японських ферм'
+  claim: 'ЗВІДТИ ВІН ПОЇХАВ У ЯПОНІЮ'
+  why: 'Там його почали вирощувати першими.'
   do: 'Постав поруч зі своїми банками'
 
 - key: a5-soil
@@ -48,7 +48,7 @@ thoughts:
   subject: >
     a small heap of whole dried agaricus mushrooms and their broken caps, NO jar and NO packaging anywhere in the frame
   compound: ''
-  source: 'каталог: склад і фасовка'
+  source: 'жива картка й стаття блогу'
   retell: 'у банці сам гриб, а не витяжка з нього'
   claim: 'У КАПСУЛІ САМ ГРИБ'
   why: 'Сушений і мелений, без витяжок.'
@@ -65,10 +65,10 @@ thoughts:
   subject: >
     one jar of capsules with exactly two capsules laid apart from each other beside it
   compound: ''
-  source: 'каталог: склад і фасовка'
-  retell: 'курс тримає ритм, коли тиждень наступає на тиждень'
-  claim: 'РІВНИЙ РИТМ У ЩІЛЬНИЙ ТИЖДЕНЬ'
-  why: 'Та сама звичка зранку й увечері.'
+  source: 'жива картка й стаття блогу'
+  retell: 'агарік беруть рівно, день за днем'
+  claim: 'ЩОДЕННА ГРИБНА ЗВИЧКА'
+  why: 'Так його традиційно і тримають — курсом.'
   do: 'Постав банку біля чайника'
 
 - key: w5-aharik-sell
@@ -83,7 +83,7 @@ thoughts:
     one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
   compound: ''
   source: 'каталог: склад і фасовка'
-  claim: 'ДВІ КАПСУЛИ ЗРАНКУ Й УВЕЧЕРІ'
+  claim: 'ГРИБ ІЗ БРАЗИЛЬСЬКОЇ ГЛИБИНКИ'
   extra: >-
     Сам гриб, а не витяжка|Курс на місяць|775 грн за велику банку
   why: ''

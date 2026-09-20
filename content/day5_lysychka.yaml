@@ -12,12 +12,12 @@ thoughts:
   ref: [lysychka.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with a few whole dried golden chanterelle mushrooms lying beside it
+    one jar of capsules with a few whole dried golden chanterelle mushrooms lying at its base
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'лисичка не буває червивою, і це видно в лісі'
-  claim: 'ГРИБ, ЯКОГО НЕ ЇДЯТЬ ЧЕРВИ'
-  why: 'Хіноманноза — його власний захист.'
+  source: 'жива картка й стаття блогу'
+  retell: 'лисичку можна брати навіть у спеку, вона чиста'
+  claim: 'ЧЕРВИ ЇЇ ОБХОДЯТЬ'
+  why: 'Через це її й несли з лісу останньою.'
   do: 'Читай склад на етикетці'
 
 - key: l5-carot
@@ -29,12 +29,12 @@ thoughts:
   ref: [lysychka.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with two fresh carrots and a handful of golden chanterelles laid around it
+    a few whole dried golden chanterelles and a piece of coarse linen cloth lying flat on the surface, one jar of capsules beside them
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'за каротином гриб обходить моркву'
-  claim: 'КАРОТИНУ БІЛЬШЕ, НІЖ У МОРКВІ'
-  why: 'Той самий провітамін А для зору.'
+  source: 'загальновідома історія гриба'
+  retell: 'сушена лисичка лежала в хаті до весни'
+  claim: 'ЇЇ СУШИЛИ НА ЗИМУ'
+  why: 'Найстаріший спосіб зберегти лісовий гриб.'
   do: 'Бери курс на місяць'
 
 - key: l5-flora
@@ -46,12 +46,12 @@ thoughts:
   ref: [lysychka.jpg]
   look: studio-dark
   subject: >
-    a glass bowl of live yogurt with a wooden spoon resting in it and a few dried golden chanterelle pieces scattered beside it, NO jar and NO packaging anywhere in the frame
+    a large heap of whole golden chanterelle mushrooms, NO jar and NO packaging anywhere in the frame
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'кишкова флора після курсу ціла'
-  claim: 'СВОЇ БАКТЕРІЇ ЛИШАЮТЬСЯ'
-  why: 'Гриб їх підтримує, а синтетика вимиває.'
+  source: 'загальновідома історія гриба'
+  retell: "у кожній країні в неї своє ім'я, і скрізь про колір"
+  claim: 'ЗОЛОТА ПО ВСІЙ ЄВРОПІ'
+  why: 'Французи звуть її жироль, німці — пфіферлінг.'
   do: 'Тримай курс до кінця банки'
 
 - key: l5-mono
@@ -65,10 +65,10 @@ thoughts:
   subject: >
     one jar of capsules with three loose capsules and a small heap of dried chanterelle pieces
   compound: ''
-  source: 'каталог: склад і фасовка'
-  retell: 'у складі одне слово — сам гриб'
-  claim: 'СТО ВІДСОТКІВ ГРИБ'
-  why: 'Ні домішок, ні барвників, ні хімії.'
+  source: 'жива картка й стаття блогу'
+  retell: 'лисичку здавна застосовували для природного очищення'
+  claim: 'БРАЛИ ДЛЯ ОЧИЩЕННЯ'
+  why: 'Традиція, старша за будь-яку аптеку.'
   do: 'Порівняй зі своєю банкою'
 
 - key: w5-lysychka-sell
@@ -83,7 +83,7 @@ thoughts:
     one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
   compound: ''
   source: 'каталог: склад і фасовка'
-  claim: 'ОДИН ГРИБ — ЧОТИРИ ЗАДАЧІ'
+  claim: 'ГРИБ, ЯКИЙ ЗНАЛИ ЗАВЖДИ'
   extra: >-
     Вітамін D2, мідь, цинк і селен|Сто відсотків гриб у капсулі|720 грн за банку на місяць
   why: ''

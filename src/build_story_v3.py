@@ -69,7 +69,7 @@ def scene_for(t: dict) -> str:
     many = own.lower().startswith("three jars")
     one = "" if many else ONEJAR
 
-    if slot == "morning":
+    if slot == "morning" and "lying flat" in own.lower():
         return (DARK + "FLAT LAY, camera directly overhead looking straight "
                 "down at the surface: " + own + " Every object LIES FLAT on "
                 "the surface, nothing stands upright, and the whole "

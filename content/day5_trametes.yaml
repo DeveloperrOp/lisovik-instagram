@@ -12,12 +12,12 @@ thoughts:
   ref: [trametes_ext.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with a small brass alarm clock standing beside it
+    one jar of capsules with a few colourful striped bracket fungus pieces beside it
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'восьма ранку й сьома вечора відчуваються так само'
-  claim: 'РАНОК І ВЕЧІР ОДНАКОВІ'
-  why: 'Сенс не в ривку, а в рівності.'
+  source: 'загальновідома історія гриба'
+  retell: "європейська назва гриба — за схожість із пір'ям"
+  claim: 'ХВІСТ ІНДИКА'
+  why: 'Так його звуть за смугастий край.'
   do: 'Пий курсом два місяці'
 
 - key: t5-slow
@@ -29,12 +29,12 @@ thoughts:
   ref: [trametes_ext.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with a few colourful bracket fungus pieces laid beside it
+    several colourful striped bracket fungus pieces and a small porcelain cup lying flat on the surface, one jar of capsules beside them
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'ефект збирається тижнями, не за раз'
-  claim: 'НАБИРАЄ СВОЄ ПОВОЛІ'
-  why: 'Міряй його курсом, а не порціями.'
+  source: 'загальновідома історія гриба'
+  retell: 'у Китаї його звуть хмарним за смуги'
+  claim: 'ЮНЬ ЧЖИ — ХМАРНИЙ ГРИБ'
+  why: 'Китайська назва за візерунок на краю.'
   do: 'Признач день старту'
 
 - key: t5-dark
@@ -48,10 +48,10 @@ thoughts:
   subject: >
     a short lit candle and a few colourful bracket fungus pieces lying beside it, NO jar and NO packaging anywhere in the frame
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'курс заходить на осінь і зиму'
-  claim: 'ТЕМНА ПОЛОВИНА РОКУ'
-  why: 'Саме на неї траметес і ставлять.'
+  source: 'жива картка й стаття блогу'
+  retell: 'ці плодові тіла пили як відвар дуже давно'
+  claim: 'ЗАВАРЮВАЛИ СТОЛІТТЯМИ'
+  why: 'У Китаї та Японії — не одне століття поспіль.'
   do: 'Тримай банку на столі'
 
 - key: t5-five
@@ -63,12 +63,12 @@ thoughts:
   ref: [trametes_ext.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with five identical capsules laid in an even row beside it
+    one jar of capsules standing beside a piece of dark bark covered with striped bracket fungus
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'тиждень іде без ударного дня і провального'
-  claim: 'СИЛИ НА ВСІ ПʼЯТЬ ДНІВ'
-  why: 'Ресурс розкладається рівно, а не в один день.'
+  source: 'загальновідома історія гриба'
+  retell: 'траметес знаходять на старій деревині будь-якої пори'
+  claim: 'РОСТЕ НА ПЕНЬКАХ'
+  why: 'Його видно в лісі цілий рік.'
   do: 'Бери курс на два місяці'
 
 - key: w5-trametes-sell
@@ -83,7 +83,7 @@ thoughts:
     one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
   compound: ''
   source: 'каталог: склад і фасовка'
-  claim: 'ЧОТИРИ КАПСУЛИ, ДВА ПРИЙОМИ'
+  claim: 'ГРИБ, ЯКИЙ ЗАВАРЮВАЛИ ВІКАМИ'
   extra: >-
     Екстракт десять до одного|Курс від двох місяців|950 грн за велику банку
   why: ''

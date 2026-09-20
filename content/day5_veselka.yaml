@@ -14,10 +14,10 @@ thoughts:
   subject: >
     one jar of capsules with a glass of warm water standing beside it
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'капсула ховає і смак, і запах гриба'
-  claim: 'СМАКУ ТИ НЕ ВІДЧУЄШ'
-  why: 'Оболонка розкривається вже після ковтка.'
+  source: 'загальновідома історія гриба'
+  retell: 'веселка витягується на очах, за годину-дві'
+  claim: 'РОСТЕ ШВИДШЕ ЗА ВСІ ГРИБИ'
+  why: 'Кілька годин — і вона вже зовсім інша.'
   do: 'Запий теплою водою'
 
 - key: v5-fiber
@@ -29,12 +29,12 @@ thoughts:
   ref: [veselka.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with a small heap of dried mushroom pieces and a few wheat stalks beside it
+    a few whole white egg-shaped young mushrooms lying flat on the surface beside one jar of capsules
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'у воду вона не переходить, тому працює як волокна з їжі'
-  claim: 'ЇЖА ДЛЯ СВОЇХ БАКТЕРІЙ'
-  why: 'Грибна клітковина доходить до товстої цілою.'
+  source: 'загальновідома історія гриба'
+  retell: 'у справу йде молода веселка, ще в оболонці'
+  claim: 'БЕРУТЬ ТІЛЬКИ ЯЙЦЕ'
+  why: 'Стадію до того, як гриб розкриється.'
   do: 'Пий щодня, без пропусків'
 
 - key: v5-old
@@ -48,10 +48,10 @@ thoughts:
   subject: >
     an old open book with yellowed pages and a few dried mushroom pieces resting on it, NO jar and NO packaging anywhere in the frame
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
+  source: 'жива картка й стаття блогу'
   retell: 'веселку брали задовго до моди на гриби'
-  claim: 'НЕ ТРЕНД, А СТАРА ЗВИЧКА'
-  why: 'Її записали серед шести грибів народної практики.'
+  claim: 'ШІСТЬ ГРИБІВ НАРОДНОЇ ПРАКТИКИ'
+  why: 'Етноботаніка 2024 року записала її серед них.'
   do: 'Почитай, звідки вона'
 
 - key: v5-season
@@ -65,10 +65,10 @@ thoughts:
   subject: >
     one jar of capsules with a few dry brown autumn leaves and a bare twig laid beside it
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'курс ставлять саме на холодні місяці'
-  claim: 'ОСІНЬ І ЗИМА'
-  why: 'Класичний час грибного курсу.'
+  source: 'загальновідома історія гриба'
+  retell: 'веселку шукали у вологому лісі наприкінці літа'
+  claim: 'ЗБИРАЛИ ПІСЛЯ ДОЩІВ'
+  why: 'Кінець літа й осінь — її час у лісі.'
   do: 'Признач місяць у календарі'
 
 - key: w5-veselka-sell

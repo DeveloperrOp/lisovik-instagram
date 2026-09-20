@@ -12,12 +12,12 @@ thoughts:
   ref: [maitake.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules standing beside an empty espresso cup turned upside down
+    one jar of capsules standing beside a few dried maitake fronds
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'це не кава: звикання не виникає'
-  claim: 'ЗВИКАТИ НЕМА ДО ЧОГО'
-  why: 'Кофеїну в грибі немає взагалі.'
+  source: 'жива картка й стаття блогу'
+  retell: 'японці звуть майтаке танцюючим грибом'
+  claim: 'ТАНЦЮЮЧИЙ ГРИБ'
+  why: 'Так його звуть японці: mai — танець.'
   do: 'Пий зранку і ввечері'
 
 - key: m5-even
@@ -29,12 +29,12 @@ thoughts:
   ref: [maitake.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with a small heap of dried maitake mushroom fronds beside it
+    EXACTLY ONE jar of capsules STANDING UPRIGHT on the surface, seen straight on, its label flat and fully readable, with a scatter of small tarnished silver coins and two dried maitake fronds lying on the surface around its base
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'немає ні ривка зранку, ні ями пополудні'
-  claim: 'БЕЗ РОЗГОНУ Й ПРОВАЛУ'
-  why: 'День тримається на рівному фоні.'
+  source: 'загальновідома історія гриба'
+  retell: 'у феодальній Японії за майтаке платили сріблом'
+  claim: 'ЗА ПЕРЕКАЗОМ ДАВАЛИ СРІБЛО'
+  why: 'Стільки, скільки важив знайдений гриб.'
   do: 'Бери курс на місяць'
 
 - key: m5-gut
@@ -46,12 +46,12 @@ thoughts:
   ref: [maitake.jpg]
   look: studio-dark
   subject: >
-    a used dinner plate with a fork resting on it and a few dried maitake fronds beside it, NO jar and NO packaging anywhere in the frame
+    a large cluster of layered maitake mushroom fronds, NO jar and NO packaging anywhere in the frame
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'травлення на курсі стає спокійнішим'
-  claim: 'ПІСЛЯ ЩІЛЬНОЇ ВЕЧЕРІ ТИХІШЕ'
-  why: 'Частина гриба дістається твоїм бактеріям.'
+  source: 'жива картка й стаття блогу'
+  retell: 'майтаке шукають під старими дубами'
+  claim: 'ГРИБ-БАРАН'
+  why: 'Друга назва: він росте купою при дубі.'
   do: 'Пий під час їжі'
 
 - key: m5-cold
@@ -63,12 +63,12 @@ thoughts:
   ref: [maitake.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with frost-covered twigs and a knitted scarf edge beside it
+    one jar of capsules with dried maitake fronds and a dark oak leaf beside it
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'японський гриб ставлять у щоденний ритм саме на холод'
-  claim: 'ХОЛОДНИЙ СЕЗОН'
-  why: 'Осінь і зима вимагають від тіла більше.'
+  source: 'жива картка й стаття блогу'
+  retell: 'гриб застосовували в Азії століттями'
+  claim: 'ЦІНУВАЛИ ЗДАВНА'
+  why: 'Народна практика Азії, а не новинка.'
   do: 'Почни завчасно'
 
 - key: w5-maitake-sell
@@ -83,7 +83,7 @@ thoughts:
     one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
   compound: ''
   source: 'каталог: склад і фасовка'
-  claim: 'ЕКСТРАКТ, А НЕ МЕЛЕНИЙ ГРИБ'
+  claim: 'ЕКСТРАКТ, А НЕ МЕЛЕНИЙ'
   extra: >-
     Концентрат десять до одного|Одна капсула зранку й увечері|600 грн за банку
   why: ''
