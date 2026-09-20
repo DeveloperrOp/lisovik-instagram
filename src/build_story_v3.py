@@ -113,12 +113,27 @@ h1{font-weight:800;text-transform:uppercase;letter-spacing:-2px}
 # Заголовок на золотій плашці: box-decoration-break:clone дає плашку по
 # кожному рядку окремо, а не один прямокутник на весь блок.
 FILL = """
-h1{font-size:96px;color:@INK@;background:@GOLD@;display:inline;
+h1{font-size:@H1@px;color:@INK@;background:@GOLD@;display:inline;
  box-decoration-break:clone;-webkit-box-decoration-break:clone;
  padding:14px 22px;line-height:1.26;margin-left:7%}
-p{font-weight:500;font-size:46px;line-height:1.3;margin:34px 7% 0;
- max-width:80%;color:rgba(244,241,230,.92)}
+p{font-weight:500;font-size:@P@px;line-height:1.32;margin:@PT@px 7% 0;
+ max-width:86%;color:rgba(244,241,230,.92)}
 """
+
+
+def sizes(claim: str, why: str) -> dict:
+    """Кегль під довжину тексту.
+
+    Ярик 20.09: «трохи не вистачає символів для розкриття, давай те, що
+    зараз, буде мінімум, але за потреби втричі більше». Підпис у три рази
+    довший фіксованим кеглем 46px з'їдає пів кадру й лізе на продукт,
+    тому розмір падає сходинками, а поля лишаються ті самі.
+    """
+    n = len(why)
+    p = 46 if n <= 70 else 42 if n <= 110 else 38 if n <= 160 else 34
+    top = 34 if n <= 70 else 30 if n <= 160 else 26
+    h1 = 96 if len(claim) <= 26 else 88 if len(claim) <= 34 else 80
+    return {"@P@": str(p), "@PT@": str(top), "@H1@": str(h1)}
 
 LIST = """
 h1{font-size:82px;color:@INK@;background:@GOLD@;display:inline;
@@ -142,6 +157,8 @@ def render(t: dict, bg: Path) -> str:
                 "<h1>" + claim + "</h1><ul>" + rows + "</ul></div>")
     else:
         css = HEAD + FILL
+        for k, v in sizes(claim, why).items():
+            css = css.replace(k, v)
         body = ("<div class='col'><div class='eye'>" + topic + "</div>"
                 "<h1>" + claim + "</h1><p>" + why + "</p></div>")
 
