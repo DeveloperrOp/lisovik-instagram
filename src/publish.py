@@ -46,6 +46,7 @@ GRAPH = f"https://graph.facebook.com/{GRAPH_VERSION}"
 POLL_TRIES = 30
 POLL_WAIT = 5          # сек между проверками готовности контейнера
 MAX_PER_RUN = 5        # предохранитель от лавины публикаций при сбое расписания
+MAX_TRIES = 6          # сколько раз пробовать кадр, пока окно открыто
 
 
 def api(path: str, params: dict, method="GET") -> dict:
@@ -202,8 +203,22 @@ def main() -> int:
             mf.mark(m, item["id"], "published", **fields)
             published += 1
         except Exception as e:
-            mf.mark(m, item["id"], "failed", error=str(e)[:300])
-            print(f"  ✖ {item['id']}: {e}")
+            # Помилка Meta на одному запуску ще не означає, що кадр пропав.
+            # 9007 «Media ID is not available» і 24 «медіафайл не знайдено» —
+            # тимчасові: контейнер не встиг обробитись. Поки вікно відкрите,
+            # лишаємо кадр у черзі, і наступний запуск Actions за 15 хвилин
+            # спробує ще раз. 19.09 ранкова сторіс згоріла саме так, маючи
+            # попереду ще майже три години вікна й одинадцять запусків.
+            tries = int(item.get("tries") or 0) + 1
+            win_end = datetime.fromisoformat(item["slot_end"])
+            if now < win_end and tries < MAX_TRIES:
+                mf.mark(m, item["id"], "approved", tries=tries,
+                        error=str(e)[:300])
+                print(f"  ↻ {item['id']} (спроба {tries}): {str(e)[:110]}")
+            else:
+                mf.mark(m, item["id"], "failed", tries=tries,
+                        error=str(e)[:300])
+                print(f"  ✖ {item['id']}: {e}")
 
     if not dry:
         mf.save(m)
