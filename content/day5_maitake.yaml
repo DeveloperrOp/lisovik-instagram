@@ -1,0 +1,89 @@
+# Тиждень 5, 3 день: Майтаке.
+# Зміст узято з живої картки, блок «Що дає курс».
+thoughts:
+
+- key: m5-coffee
+  topic: Майтаке
+  day: wed
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [maitake.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules standing beside an empty espresso cup turned upside down
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'це не кава: звикання не виникає'
+  claim: 'ЗВИКАТИ НЕМА ДО ЧОГО'
+  why: 'Кофеїну в грибі немає взагалі.'
+  do: 'Пий зранку і ввечері'
+
+- key: m5-even
+  topic: Майтаке
+  day: wed
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [maitake.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with a small heap of dried maitake mushroom fronds beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'немає ні ривка зранку, ні ями пополудні'
+  claim: 'БЕЗ РОЗГОНУ Й ПРОВАЛУ'
+  why: 'День тримається на рівному фоні.'
+  do: 'Бери курс на місяць'
+
+- key: m5-gut
+  topic: Майтаке
+  day: wed
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [maitake.jpg]
+  look: studio-dark
+  subject: >
+    a used dinner plate with a fork resting on it and a few dried maitake fronds beside it, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'травлення на курсі стає спокійнішим'
+  claim: 'ПІСЛЯ ЩІЛЬНОЇ ВЕЧЕРІ ТИХІШЕ'
+  why: 'Частина гриба дістається твоїм бактеріям.'
+  do: 'Пий під час їжі'
+
+- key: m5-cold
+  topic: Майтаке
+  day: wed
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [maitake.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with frost-covered twigs and a knitted scarf edge beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'японський гриб ставлять у щоденний ритм саме на холод'
+  claim: 'ХОЛОДНИЙ СЕЗОН'
+  why: 'Осінь і зима вимагають від тіла більше.'
+  do: 'Почни завчасно'
+
+- key: w5-maitake-sell
+  topic: Майтаке
+  day: wed
+  slot: sell
+  layout: offer
+  product: Майтаке
+  ref: [maitake.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  claim: 'ЕКСТРАКТ, А НЕ МЕЛЕНИЙ ГРИБ'
+  extra: >-
+    Концентрат десять до одного|Одна капсула зранку й увечері|600 грн за банку
+  why: ''
+  do: Замовляй у директі або на сайті

@@ -1,0 +1,89 @@
+# Тиждень 5, 4 день: Агарік бразильський.
+# Зміст узято з живої картки, блок «Що дає курс».
+thoughts:
+
+- key: a5-far
+  topic: Агарік бразильський
+  day: thu
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [aharik.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules standing beside a few large glossy tropical leaves
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'гриб тропічний, а не карпатський'
+  claim: 'ГРИБ НЕ З ЦИХ ЛІСІВ'
+  why: 'Його збирають у диких куточках Бразилії.'
+  do: 'Бери курс на два місяці'
+
+- key: a5-ten
+  topic: Агарік бразильський
+  day: thu
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [aharik.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with a large heap of dried mushroom pieces on one side and a tiny heap on the other
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'це концентрат, а не мелений гриб'
+  claim: 'ДЕСЯТЬ ДО ОДНОГО'
+  why: 'Стільки сировини стиснуто в капсулу.'
+  do: 'Шукай цифру на етикетці'
+
+- key: a5-soil
+  topic: Агарік бразильський
+  day: thu
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [aharik.jpg]
+  look: studio-dark
+  subject: >
+    dark damp earth covered with green moss and a few dried mushroom pieces lying on it, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'сировина росте там, де їй найкраще'
+  claim: 'ВОЛОГІСТЬ І ҐРУНТ ТРОПІКІВ'
+  why: 'Там гриб набирає свій максимум.'
+  do: 'Пий курсом, не разово'
+
+- key: a5-day
+  topic: Агарік бразильський
+  day: thu
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [aharik.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with exactly two capsules laid apart from each other beside it
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'схема проста і не збивається'
+  claim: 'ОДНА ЗРАНКУ, ОДНА ВВЕЧЕРІ'
+  why: 'Дві капсули, розкладені по дню.'
+  do: 'Постав банку біля чайника'
+
+- key: w5-aharik-sell
+  topic: Агарік бразильський
+  day: thu
+  slot: sell
+  layout: offer
+  product: Агарік бразильський
+  ref: [aharik.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  claim: 'ТРОПІКИ В ОДНІЙ БАНЦІ'
+  extra: >-
+    Дикий збір у Бразилії|Екстракт десять до одного|950 грн за велику банку
+  why: ''
+  do: Замовляй у директі або на сайті

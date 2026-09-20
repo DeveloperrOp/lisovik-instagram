@@ -1,0 +1,89 @@
+# Тиждень 5, 7 день: Хлорела.
+# Зміст узято з живої картки, блок «Що дає курс».
+thoughts:
+
+- key: h5-b12
+  topic: Хлорела
+  day: sun
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [khlorela.jpg]
+  look: studio-dark
+  subject: >
+    a jar of green powder standing beside a small pile of green tablets of another kind
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'псевдо-B12 організм не бере'
+  claim: 'У СПІРУЛІНИ B12 НЕСПРАВЖНІЙ'
+  why: 'У хлорели — активна форма.'
+  do: 'Порівняй дві етикетки'
+
+- key: h5-prot
+  topic: Хлорела
+  day: sun
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [khlorela.jpg]
+  look: studio-dark
+  subject: >
+    a jar of green powder with a full measuring spoon of powder and a glass of green smoothie beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'рідкісний рівень білка серед рослин'
+  claim: 'ПОВНОЦІННИЙ РОСЛИННИЙ БІЛОК'
+  why: 'Усі девʼять незамінних амінокислот.'
+  do: 'Додай ложку у смузі'
+
+- key: h5-iron
+  topic: Хлорела
+  day: sun
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [khlorela.jpg]
+  look: studio-dark
+  subject: >
+    a wooden spoon heaped with vivid green powder and a small scattered heap of the same powder beside it, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'органічно звʼязане залізо засвоюється легше'
+  claim: 'МЕНШЕ ВТОМИ'
+  why: 'Залізо працює на транспорт кисню.'
+  do: 'Пий щодня, без пропусків'
+
+- key: h5-one
+  topic: Хлорела
+  day: sun
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [khlorela.jpg]
+  look: studio-dark
+  subject: >
+    a jar of green powder with a small heap of the powder poured beside it on plain paper
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'ні наповнювачів, ні домішок'
+  claim: 'ОДНЕ СЛОВО У СКЛАДІ'
+  why: 'Хлорела — і більше нічого.'
+  do: 'Бери меншу фасовку на пробу'
+
+- key: w5-khlorela-sell
+  topic: Хлорела
+  day: sun
+  slot: sell
+  layout: offer
+  product: Хлорела
+  ref: [khlorela.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  claim: 'ЛОЖКА НА ДЕНЬ'
+  extra: >-
+    Активний B12, не псевдо|Білок з девʼятьма амінокислотами|1190 грн за 250 грамів
+  why: ''
+  do: Замовляй у директі або на сайті

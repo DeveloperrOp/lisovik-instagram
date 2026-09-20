@@ -1,0 +1,89 @@
+# Тиждень 5, 1 день: Лисичка справжня.
+# Зміст узято з живої картки, блок «Що дає курс».
+thoughts:
+
+- key: l5-worm
+  topic: Лисичка справжня
+  day: mon
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [lysychka.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with a few whole dried golden chanterelle mushrooms lying beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'лисичка не буває червивою, і це видно в лісі'
+  claim: 'ГРИБ, ЯКОГО НЕ ЇДЯТЬ ЧЕРВИ'
+  why: 'Хіноманноза — його власний захист.'
+  do: 'Читай склад на етикетці'
+
+- key: l5-carot
+  topic: Лисичка справжня
+  day: mon
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [lysychka.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with two fresh carrots and a handful of golden chanterelles laid around it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'за каротином гриб обходить моркву'
+  claim: 'КАРОТИНУ БІЛЬШЕ, НІЖ У МОРКВІ'
+  why: 'Той самий провітамін А для зору.'
+  do: 'Бери курс на місяць'
+
+- key: l5-flora
+  topic: Лисичка справжня
+  day: mon
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [lysychka.jpg]
+  look: studio-dark
+  subject: >
+    a glass bowl of live yogurt with a wooden spoon resting in it and a few dried golden chanterelle pieces scattered beside it, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'кишкова флора після курсу ціла'
+  claim: 'СВОЇ БАКТЕРІЇ ЛИШАЮТЬСЯ'
+  why: 'Гриб їх підтримує, а синтетика вимиває.'
+  do: 'Тримай курс до кінця банки'
+
+- key: l5-mono
+  topic: Лисичка справжня
+  day: mon
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [lysychka.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with three loose capsules and a small heap of dried chanterelle pieces
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'у складі одне слово — сам гриб'
+  claim: 'СТО ВІДСОТКІВ ГРИБ'
+  why: 'Ні домішок, ні барвників, ні хімії.'
+  do: 'Порівняй зі своєю банкою'
+
+- key: w5-lysychka-sell
+  topic: Лисичка справжня
+  day: mon
+  slot: sell
+  layout: offer
+  product: Лисичка справжня
+  ref: [lysychka.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  claim: 'ОДИН ГРИБ — ЧОТИРИ ЗАДАЧІ'
+  extra: >-
+    Вітамін D2, мідь, цинк і селен|Сто відсотків гриб у капсулі|720 грн за банку на місяць
+  why: ''
+  do: Замовляй у директі або на сайті

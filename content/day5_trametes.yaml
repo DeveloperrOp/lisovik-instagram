@@ -1,0 +1,89 @@
+# Тиждень 5, 5 день: Траметес різнобарвний.
+# Зміст узято з живої картки, блок «Що дає курс».
+thoughts:
+
+- key: t5-even
+  topic: Траметес різнобарвний
+  day: fri
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [trametes_ext.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with a small brass alarm clock standing beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'восьма ранку й сьома вечора відчуваються так само'
+  claim: 'РАНОК І ВЕЧІР ОДНАКОВІ'
+  why: 'Сенс не в ривку, а в рівності.'
+  do: 'Пий курсом два місяці'
+
+- key: t5-slow
+  topic: Траметес різнобарвний
+  day: fri
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [trametes_ext.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with a few colourful bracket fungus pieces laid beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'ефект збирається тижнями, не за раз'
+  claim: 'НАБИРАЄ СВОЄ ПОВОЛІ'
+  why: 'Міряй його курсом, а не порціями.'
+  do: 'Признач день старту'
+
+- key: t5-dark
+  topic: Траметес різнобарвний
+  day: fri
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [trametes_ext.jpg]
+  look: studio-dark
+  subject: >
+    a short lit candle and a few colourful bracket fungus pieces lying beside it, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'курс заходить на осінь і зиму'
+  claim: 'ТЕМНА ПОЛОВИНА РОКУ'
+  why: 'Саме на неї траметес і ставлять.'
+  do: 'Тримай банку на столі'
+
+- key: t5-five
+  topic: Траметес різнобарвний
+  day: fri
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [trametes_ext.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with five identical capsules laid in an even row beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'тиждень іде без ударного дня і провального'
+  claim: 'СИЛИ НА ВСІ ПʼЯТЬ ДНІВ'
+  why: 'Ресурс розкладається рівно, а не в один день.'
+  do: 'Бери курс на два місяці'
+
+- key: w5-trametes-sell
+  topic: Траметес різнобарвний
+  day: fri
+  slot: sell
+  layout: offer
+  product: Траметес різнобарвний
+  ref: [trametes_ext.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  claim: 'ЧОТИРИ КАПСУЛИ, ДВА ПРИЙОМИ'
+  extra: >-
+    Екстракт десять до одного|Курс від двох місяців|950 грн за велику банку
+  why: ''
+  do: Замовляй у директі або на сайті

@@ -1,0 +1,89 @@
+# Тиждень 5, 2 день: Веселка.
+# Зміст узято з живої картки, блок «Що дає курс».
+thoughts:
+
+- key: v5-taste
+  topic: Веселка
+  day: tue
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [veselka.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with a glass of warm water standing beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'капсула ховає і смак, і запах гриба'
+  claim: 'СМАКУ ТИ НЕ ВІДЧУЄШ'
+  why: 'Оболонка розкривається вже після ковтка.'
+  do: 'Запий теплою водою'
+
+- key: v5-fiber
+  topic: Веселка
+  day: tue
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [veselka.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with a small heap of dried mushroom pieces and a few wheat stalks beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'у воду вона не переходить, тому працює як волокна з їжі'
+  claim: 'ЇЖА ДЛЯ СВОЇХ БАКТЕРІЙ'
+  why: 'Грибна клітковина доходить до товстої цілою.'
+  do: 'Пий щодня, без пропусків'
+
+- key: v5-old
+  topic: Веселка
+  day: tue
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [veselka.jpg]
+  look: studio-dark
+  subject: >
+    an old open book with yellowed pages and a few dried mushroom pieces resting on it, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'веселку брали задовго до моди на гриби'
+  claim: 'НЕ ТРЕНД, А СТАРА ЗВИЧКА'
+  why: 'Її записали серед шести грибів народної практики.'
+  do: 'Почитай, звідки вона'
+
+- key: v5-season
+  topic: Веселка
+  day: tue
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [veselka.jpg]
+  look: studio-dark
+  subject: >
+    one jar of capsules with a few dry brown autumn leaves and a bare twig laid beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'курс ставлять саме на холодні місяці'
+  claim: 'ОСІНЬ І ЗИМА'
+  why: 'Класичний час грибного курсу.'
+  do: 'Признач місяць у календарі'
+
+- key: w5-veselka-sell
+  topic: Веселка
+  day: tue
+  slot: sell
+  layout: offer
+  product: Веселка
+  ref: [veselka.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  claim: 'ДОЗА ВЖЕ ВІДМІРЯНА'
+  extra: >-
+    Нуль п'ять грама в капсулі|Ні ваг, ні ложок|900 грн за велику банку
+  why: ''
+  do: Замовляй у директі або на сайті

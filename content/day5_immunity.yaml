@@ -1,0 +1,89 @@
+# Тиждень 5, 6 день: Immunity Guard.
+# Зміст узято з живої картки, блок «Що дає курс».
+thoughts:
+
+- key: i5-three
+  topic: Immunity Guard
+  day: sat
+  slot: dawn
+  layout: poster
+  extra: ''
+  ref: [immunity.jpg]
+  look: studio-dark
+  subject: >
+    three jars standing side by side in a row on a plain surface
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'три гриби працюють не однаково, а доповнюють одне одного'
+  claim: 'ТРИ ОПОРИ ЗАМІСТЬ ОДНІЄЇ'
+  why: 'Гриби заходять різними шляхами.'
+  do: 'Бери готовий набір'
+
+- key: i5-three-pm
+  topic: Immunity Guard
+  day: sat
+  slot: morning
+  layout: poster
+  extra: ''
+  ref: [immunity.jpg]
+  look: studio-dark
+  subject: >
+    three jars standing in a row with an empty coffee cup pushed aside
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'після обіду тонус не сідає'
+  claim: 'НЕМА ПРОВАЛУ ПІСЛЯ ТРЕТЬОЇ'
+  why: 'Того, коли день тримається на самій каві.'
+  do: 'Прибери каву з другої половини'
+
+- key: i5-season
+  topic: Immunity Guard
+  day: sat
+  slot: noon
+  layout: poster
+  extra: ''
+  ref: [immunity.jpg]
+  look: studio-dark
+  subject: >
+    three jars standing in a row with green leaves on one side and dry brown leaves on the other
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'зміна погоди не вибиває на два тижні'
+  claim: 'МІЖСЕЗОННЯ НЕ ЗБИВАЄ З РИТМУ'
+  why: 'Перехід із тепла в холод іде рівніше.'
+  do: 'Почни до холодів'
+
+- key: i5-what
+  topic: Immunity Guard
+  day: sat
+  slot: evening
+  layout: poster
+  extra: ''
+  ref: [immunity.jpg]
+  look: studio-dark
+  subject: >
+    three jars standing in a row with a small heap of dried mushroom pieces in front of each
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'у коробці лише гриби, без домішок'
+  claim: 'РЕЙШІ, МАЙТАКЕ, ЧАГА'
+  why: 'Три гриби і жодної трави.'
+  do: 'Порівняй зі своєю полицею'
+
+- key: w5-immunity-sell
+  topic: Immunity Guard
+  day: sat
+  slot: sell
+  layout: offer
+  product: Immunity Guard
+  ref: [immunity.jpg]
+  look: studio-dark
+  subject: >
+    one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  claim: 'КУРС НА МІСЯЦЬ, БЕЗ ПІДБОРУ'
+  extra: >-
+    Чага, майтаке, екстракт рейші|Курс на місяць|1650 грн за коробку
+  why: ''
+  do: Замовляй у директі або на сайті
