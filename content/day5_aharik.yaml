@@ -1,5 +1,6 @@
 # Тиждень 5, 4 день: Агарік бразильський.
 # Зміст узято з живої картки, блок «Що дає курс».
+# product: https://lisovik.com.ua/aharik-brazylskyi-kapsuly-120-sht-po-0.5-h/
 thoughts:
 
 - key: a5-far
@@ -11,12 +12,12 @@ thoughts:
   ref: [aharik.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules standing beside a few large glossy tropical leaves
+    one jar of capsules with a few whole dried agaricus mushrooms lying at its base
   compound: ''
   source: 'каталог: склад і фасовка'
-  retell: 'гриб тропічний, а не карпатський'
-  claim: 'ГРИБ НЕ З ЦИХ ЛІСІВ'
-  why: 'Його збирають у диких куточках Бразилії.'
+  retell: 'грибна матриця щодня, а не від випадку'
+  claim: 'ГРИБІВ У ТАРІЛЦІ МАЙЖЕ НЕМА'
+  why: 'Курс повертає їх у щоденний раціон.'
   do: 'Бери курс на два місяці'
 
 - key: a5-ten
@@ -28,13 +29,13 @@ thoughts:
   ref: [aharik.jpg]
   look: studio-dark
   subject: >
-    one jar of capsules with a large heap of dried mushroom pieces on one side and a tiny heap on the other
+    one jar of capsules lying flat with several capsules laid out in a neat fan beside it
   compound: ''
   source: 'каталог: склад і фасовка'
-  retell: 'це концентрат, а не мелений гриб'
-  claim: 'ДЕСЯТЬ ДО ОДНОГО'
-  why: 'Стільки сировини стиснуто в капсулу.'
-  do: 'Шукай цифру на етикетці'
+  retell: 'агарік спокійно поєднується з іншими грибами'
+  claim: 'СУСІДАМ ПО ПОЛИЦІ НЕ ЗАВАЖАЄ'
+  why: 'Його тримають поруч із кордицепсом чи рейші.'
+  do: 'Постав поруч зі своїми банками'
 
 - key: a5-soil
   topic: Агарік бразильський
@@ -45,13 +46,13 @@ thoughts:
   ref: [aharik.jpg]
   look: studio-dark
   subject: >
-    dark damp earth covered with green moss and a few dried mushroom pieces lying on it, NO jar and NO packaging anywhere in the frame
+    a small heap of whole dried agaricus mushrooms and their broken caps, NO jar and NO packaging anywhere in the frame
   compound: ''
   source: 'каталог: склад і фасовка'
-  retell: 'сировина росте там, де їй найкраще'
-  claim: 'ВОЛОГІСТЬ І ҐРУНТ ТРОПІКІВ'
-  why: 'Там гриб набирає свій максимум.'
-  do: 'Пий курсом, не разово'
+  retell: 'у банці сам гриб, а не витяжка з нього'
+  claim: 'У КАПСУЛІ САМ ГРИБ'
+  why: 'Сушений і мелений, без витяжок.'
+  do: 'Читай, що всередині'
 
 - key: a5-day
   topic: Агарік бразильський
@@ -65,9 +66,9 @@ thoughts:
     one jar of capsules with exactly two capsules laid apart from each other beside it
   compound: ''
   source: 'каталог: склад і фасовка'
-  retell: 'схема проста і не збивається'
-  claim: 'ОДНА ЗРАНКУ, ОДНА ВВЕЧЕРІ'
-  why: 'Дві капсули, розкладені по дню.'
+  retell: 'курс тримає ритм, коли тиждень наступає на тиждень'
+  claim: 'РІВНИЙ РИТМ У ЩІЛЬНИЙ ТИЖДЕНЬ'
+  why: 'Та сама звичка зранку й увечері.'
   do: 'Постав банку біля чайника'
 
 - key: w5-aharik-sell
@@ -82,8 +83,8 @@ thoughts:
     one product jar standing on a plain surface, seen straight on, calm even light, nothing else in the frame
   compound: ''
   source: 'каталог: склад і фасовка'
-  claim: 'ТРОПІКИ В ОДНІЙ БАНЦІ'
+  claim: 'ДВІ КАПСУЛИ ЗРАНКУ Й УВЕЧЕРІ'
   extra: >-
-    Дикий збір у Бразилії|Екстракт десять до одного|950 грн за велику банку
+    Сам гриб, а не витяжка|Курс на місяць|775 грн за велику банку
   why: ''
   do: Замовляй у директі або на сайті
