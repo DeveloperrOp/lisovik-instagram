@@ -2244,10 +2244,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0921-lysychka-night.jpg",
    "slot_start": "2026-09-21T20:00:00+03:00",
    "slot_end": "2026-09-21T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-21T20:00:14.829121+03:00",
+   "ig_media_id": "18123870898807641",
+   "error": null,
+   "fb_story_id": "1689245498840103"
   },
   {
    "id": "0922-veselka-dawn",
