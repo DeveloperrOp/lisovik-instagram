@@ -2188,10 +2188,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0921-lysychka-morning.jpg",
    "slot_start": "2026-09-21T10:00:00+03:00",
    "slot_end": "2026-09-21T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-21T10:00:13.371902+03:00",
+   "ig_media_id": "18430992637180144",
+   "error": null,
+   "fb_story_id": "1734067024487532"
   },
   {
    "id": "0921-lysychka-noon",
