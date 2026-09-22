@@ -2272,10 +2272,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0922-veselka-morning.jpg",
    "slot_start": "2026-09-22T10:00:00+03:00",
    "slot_end": "2026-09-22T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-22T10:00:13.835850+03:00",
+   "ig_media_id": "18036644375834009",
+   "error": null,
+   "fb_story_id": "1836786177685936"
   },
   {
    "id": "0922-veselka-noon",
