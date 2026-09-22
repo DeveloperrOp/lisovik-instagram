@@ -2300,10 +2300,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0922-veselka-evening.jpg",
    "slot_start": "2026-09-22T18:00:00+03:00",
    "slot_end": "2026-09-22T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-22T18:00:14.472623+03:00",
+   "ig_media_id": "18011003363761677",
+   "error": null,
+   "fb_story_id": "1037480999350079"
   },
   {
    "id": "0922-veselka-sell",
