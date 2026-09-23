@@ -2342,10 +2342,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0923-maitake-dawn.jpg",
    "slot_start": "2026-09-23T07:00:00+03:00",
    "slot_end": "2026-09-23T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-23T07:00:14.592062+03:00",
+   "ig_media_id": "18022074767920945",
+   "error": null,
+   "fb_story_id": "1776527520158765"
   },
   {
    "id": "0923-maitake-morning",
