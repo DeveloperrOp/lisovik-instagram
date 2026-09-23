@@ -2384,10 +2384,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0923-maitake-evening.jpg",
    "slot_start": "2026-09-23T18:00:00+03:00",
    "slot_end": "2026-09-23T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-23T18:00:15.256014+03:00",
+   "ig_media_id": "17993063606842833",
+   "error": null,
+   "fb_story_id": "2103012417009073"
   },
   {
    "id": "0923-maitake-sell",
