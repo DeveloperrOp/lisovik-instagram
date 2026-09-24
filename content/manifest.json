@@ -2444,7 +2444,8 @@
    "status": "approved",
    "published_at": null,
    "ig_media_id": null,
-   "error": null
+   "error": "Graph API 400: {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"\\u041c\\u0435\\u0434\\u0456\\u0430\\u0444\\u0430\\u0439\\u043b \\u043d\\u0435 \\u0437\\u043d\\u0430\\u0439\\u0434\\u0435\\u043d\\u043e\",\"error_u",
+   "tries": 1
   },
   {
    "id": "0924-aharik-noon",
