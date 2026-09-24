@@ -2427,10 +2427,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0924-aharik-dawn.jpg",
    "slot_start": "2026-09-24T07:00:00+03:00",
    "slot_end": "2026-09-24T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-24T07:00:13.364309+03:00",
+   "ig_media_id": "17909590986536960",
+   "error": null,
+   "fb_story_id": "2009721459686853"
   },
   {
    "id": "0924-aharik-morning",
