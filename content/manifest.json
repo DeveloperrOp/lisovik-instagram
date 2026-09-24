@@ -2498,11 +2498,12 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0924-aharik-night.jpg",
    "slot_start": "2026-09-24T20:00:00+03:00",
    "slot_end": "2026-09-24T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
+   "status": "published",
+   "published_at": "2026-09-24T20:15:14.889466+03:00",
+   "ig_media_id": "18093912908401522",
    "error": "Graph API 400: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"\\u041d\\u0435\\u043c\\u043e\\u0436\\u043b\\u0438\\u0432\\u043e \\u043e\\u043f\\u0443\\u0431\\u043b\\u0456\\u043a\\u0443\\u0432\\u0430\\u0442\\u0438\",\"error_",
-   "tries": 1
+   "tries": 1,
+   "fb_story_id": "1826756645166787"
   },
   {
    "id": "0925-trametes-dawn",
