@@ -2501,7 +2501,8 @@
    "status": "approved",
    "published_at": null,
    "ig_media_id": null,
-   "error": null
+   "error": "Graph API 400: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"\\u041d\\u0435\\u043c\\u043e\\u0436\\u043b\\u0438\\u0432\\u043e \\u043e\\u043f\\u0443\\u0431\\u043b\\u0456\\u043a\\u0443\\u0432\\u0430\\u0442\\u0438\",\"error_",
+   "tries": 1
   },
   {
    "id": "0925-trametes-dawn",
