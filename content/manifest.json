@@ -2583,10 +2583,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0925-trametes-night.jpg",
    "slot_start": "2026-09-25T20:00:00+03:00",
    "slot_end": "2026-09-25T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-25T20:00:15.211674+03:00",
+   "ig_media_id": "18030469802886963",
+   "error": null,
+   "fb_story_id": "1438097458198069"
   },
   {
    "id": "0926-immunity-dawn",
