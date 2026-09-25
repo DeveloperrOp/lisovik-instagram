@@ -2541,10 +2541,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0925-trametes-noon.jpg",
    "slot_start": "2026-09-25T12:00:00+03:00",
    "slot_end": "2026-09-25T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-25T12:00:15.358203+03:00",
+   "ig_media_id": "18088358168300206",
+   "error": null,
+   "fb_story_id": "1102407855703395"
   },
   {
    "id": "0925-trametes-evening",
