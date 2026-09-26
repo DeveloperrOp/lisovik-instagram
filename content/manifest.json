@@ -2667,10 +2667,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0926-immunity-night.jpg",
    "slot_start": "2026-09-26T20:00:00+03:00",
    "slot_end": "2026-09-26T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-26T20:00:12.656422+03:00",
+   "ig_media_id": "17970869631159037",
+   "error": null,
+   "fb_story_id": "1114423031400712"
   },
   {
    "id": "0927-khlorela-dawn",
