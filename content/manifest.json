@@ -2597,10 +2597,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0926-immunity-dawn.jpg",
    "slot_start": "2026-09-26T07:00:00+03:00",
    "slot_end": "2026-09-26T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-26T07:00:15.498965+03:00",
+   "ig_media_id": "18108565736232332",
+   "error": null,
+   "fb_story_id": "2148717582660405"
   },
   {
    "id": "0926-immunity-morning",
