@@ -131,6 +131,17 @@ def check(frame: Path, bg: Path, step=2):
                        round(share, 2)) for share, k in hot if share > 0.02]}
 
 
+def blank_for(f: Path):
+    """Підкладка того ж кадру без тексту. Лежить або поруч у _blank, або в
+    _chk/_blank; сторіс збережений у jpg, а підкладка до нього — png."""
+    for d in (f.parent / "_blank", f.parent / "_chk" / "_blank"):
+        for ext in (f.suffix, ".png", ".jpg"):
+            cand = d / (f.stem + ext)
+            if cand.exists():
+                return cand
+    return None
+
+
 def main() -> int:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else "../out/post_blot")
     # Карусель віддає png, сторіс — jpg; перевіряти треба і те, і те.
@@ -140,11 +151,12 @@ def main() -> int:
     if not frames:
         print("немає кадрів у", root)
         return 1
-    worst_frames = []
+    worst_frames, skipped = [], []
     for f in frames:
-        bg = f.parent / "_blank" / f.name
-        if not bg.exists():
-            print(f"  ? {f.stem}: немає підкладки, пропускаю")
+        bg = blank_for(f)
+        if bg is None:
+            print(f"  ? {f.stem}: немає підкладки")
+            skipped.append(f.stem)
             continue
         r = check(f, bg)
         worst_cell = max((s for _, s in r["cells"]), default=0.0)
@@ -158,8 +170,14 @@ def main() -> int:
         if not ok:
             worst_frames.append(f.stem)
     print()
+    if skipped:
+        # Пропущений кадр — не перевірений кадр. Тиждень 6 так і проїхав:
+        # підкладки лежали в _chk/_blank, перевірка шукала в _blank і
+        # рапортувала «читається на всіх», не глянувши ні на один.
+        print("НЕ ПЕРЕВІРЕНО (немає підкладки):", ", ".join(skipped))
     if worst_frames:
         print("переробити:", ", ".join(worst_frames))
+    if skipped or worst_frames:
         return 1
     print("текст читається на всіх кадрах")
     return 0
