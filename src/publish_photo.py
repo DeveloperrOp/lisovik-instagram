@@ -17,6 +17,7 @@
 конвертується в JPEG під латинською назвою ще до заливки.
 """
 import sys
+import time
 from pathlib import Path
 
 from PIL import Image
@@ -30,10 +31,33 @@ def arg(name, default=None):
     return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else default
 
 
+def ready(cid: str, tries: int = 20) -> bool:
+    """Контейнер готовий до публікації.
+
+    Instagram приймає фото в контейнер миттєво, а тягне його до себе вже
+    потім. Публікація одразу після створення падає з 9007 «Media ID is
+    not available» — саме так упав пост «Краса восени» 27.09. Тому
+    спершу питаємо status_code і чекаємо FINISHED.
+    """
+    for n in range(tries):
+        st = P.api(cid, {"fields": "status_code,status",
+                         "access_token": P.IG_TOKEN}).get("status_code")
+        if st == "FINISHED":
+            return True
+        if st == "ERROR":
+            return False
+        time.sleep(3)
+        if n == 0:
+            print("  очікую готовності контейнера…", flush=True)
+    return False
+
+
 def publish_ig(url: str, caption: str) -> str:
     cid = P.api(f"{P.IG_USER_ID}/media",
                 {"image_url": url, "caption": caption,
                  "access_token": P.IG_TOKEN}, "POST")["id"]
+    if not ready(cid):
+        raise RuntimeError(f"контейнер {cid} не дійшов до FINISHED")
     r = P.api(f"{P.IG_USER_ID}/media_publish",
               {"creation_id": cid, "access_token": P.IG_TOKEN}, "POST")
     return r.get("id", "")
