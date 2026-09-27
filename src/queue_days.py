@@ -43,6 +43,11 @@ ORDER4 = ["triichatka", "men", "women", "ginkgo", "ginseng", "serenoa",
 # Порядок погоджений із власником 20.09.2026.
 ORDER5 = ["lysychka", "veselka", "maitake", "aharik", "trametes",
           "immunity", "khlorela"]
+# Шостий набір — те, чого ще не постили: рідкі екстракти, чаї й готові
+# курси. Порядок зашитий у поле day кожного файлу, бо по ньому
+# підбирається оферта дня: mind=пн, gastro=вт, focus=ср, beauty=чт,
+# heart=пт, intuit=сб, tea=нд.
+ORDER6 = ["mind", "gastro", "focus", "beauty", "heart", "intuit", "tea"]
 
 
 def arg(name, default=None):
@@ -78,11 +83,13 @@ def main() -> int:
         return 0
 
     slots = yaml.safe_load(DEFAULTS.read_text(encoding="utf-8"))["slots"]
-    prefix = ("day5_" if "--week5" in sys.argv else
+    prefix = ("day6_" if "--week6" in sys.argv else
+              "day5_" if "--week5" in sys.argv else
               "day4_" if "--week4" in sys.argv else
               "day3_" if "--week3" in sys.argv else
               "day2_" if "--week2" in sys.argv else "day_")
     order = (arg("--order") or ",".join(
+        ORDER6 if "--week6" in sys.argv else
         ORDER5 if "--week5" in sys.argv else
         ORDER4 if "--week4" in sys.argv else
         ORDER3 if "--week3" in sys.argv else ORDER)).split(",")
