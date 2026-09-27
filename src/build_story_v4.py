@@ -84,8 +84,10 @@ def scene_for(t: dict) -> str:
         return (WHITE + own + " Seen slightly from the side, one long soft "
                 "shadow falling to the right across the white." + one + EMPTY +
                 TAIL + KEEP)
-    return (WHITE + own + " SMALL, standing in the BOTTOM CENTRE of the frame, "
-            "seen straight on." + one + EMPTY + TAIL + KEEP)
+    return (WHITE + own + " SMALL, standing in the LOWER MIDDLE of the frame "
+            "but clearly ABOVE the bottom edge, with a clear empty gap of "
+            "white between the object and the bottom of the frame, seen "
+            "straight on." + one + EMPTY + TAIL + KEEP)
 
 
 def esc(s: str) -> str:

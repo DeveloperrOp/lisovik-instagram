@@ -11,14 +11,14 @@ thoughts:
   ref: [liq_gastro.jpg]
   look: white-min
   subject: >
-    a dark dropper bottle standing beside a used dinner plate and a fork
+    a dark dropper bottle standing beside a few dried shiitake mushrooms and a piece of cut log
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'після ситного вечір не викреслюється'
-  claim: 'ВЕЧЕРЯ ПЕРЕСТАЄ БУТИ ПОДІЄЮ ДНЯ'
-  why: 'Ти знаєш це відчуття: сів після ситної вечері — і вечір скінчився. На курсі важкість після жирного відступає, і вечір лишається твоїм.'
+  source: 'загальновідома історія компонента'
+  retell: 'шиїтаке перший гриб, який навчилися вирощувати'
+  claim: 'ШИЇТАКЕ: ПЕРШИЙ ОДОМАШНЕНИЙ'
+  why: 'З нього починалося грибівництво: шиїтаке навчилися вирощувати на колодах раніше за будь-який інший гриб. Надрубували стовбур, залишали в лісі — і чекали рік.'
   extra: ''
-  do: 'Капни перед вечерею'
+  do: 'Дивись решту складу'
 
 - key: g6-morning
   topic: Рідкий екстракт GASTRO
@@ -28,14 +28,14 @@ thoughts:
   ref: [liq_gastro.jpg]
   look: white-min
   subject: >
-    a dark dropper bottle lying flat beside a glass of water and a linen napkin in morning light
+    a dark dropper bottle lying flat beside a cluster of layered maitake fronds
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'ранок не починається з учорашньої вечері'
-  claim: 'РАНОК ІЗ ЧИСТОГО АРКУША'
-  why: 'Прокидаєшся без відчуття, що вчорашня вечеря досі при тобі. Перші дві години дня йдуть на справи, а не на очікування.'
+  source: 'загальновідома історія компонента'
+  retell: 'майтаке росте купою під старими дубами'
+  claim: 'МАЙТАКЕ: ГРИБ-БАРАН'
+  why: 'Другий гриб. Росте не поодинці, а великою зрощеною купою біля кореня старого дуба — одна знахідка тягне на кілька кілограмів. За вигляд його й прозвали бараном.'
   extra: ''
-  do: 'Постав пляшечку на кухні'
+  do: 'Читай, що ще в пляшці'
 
 - key: g6-four
   topic: Рідкий екстракт GASTRO
@@ -45,14 +45,14 @@ thoughts:
   ref: [liq_gastro.jpg]
   look: white-min
   subject: >
-    a few dried shiitake mushrooms lying on a piece of dark tree bark, NO bottle and NO packaging anywhere in the frame
+    a rough dark chunk of birch chaga split open to show its golden inner layer, NO bottle and NO packaging anywhere in the frame
   compound: ''
   source: 'загальновідома історія компонента'
-  retell: 'назва шиїтаке складена з дерева й гриба'
-  claim: 'ШИЇТАКЕ РОСТЕ НА ДЕРЕВІ ШІЇ'
-  why: "Звідти й ім'я: shii — дерево, take — гриб. Японці вирощують його на колодах уже понад тисячу років, і спосіб відтоді майже не змінився."
+  retell: 'чага це наріст на березі, а не звичайний гриб'
+  claim: 'ЧАГА: ЧОРНА ЗЗОВНІ, РУДА ВСЕРЕДИНІ'
+  why: 'Третій гриб. Те, що зрізають із берези, — щільний наріст завбільшки з кулак. Під чорною кіркою він рудий, і саме ця частина йде у справу.'
   extra: ''
-  do: 'Читай склад на етикетці'
+  do: 'Почитай про четвертий'
 
 - key: g6-drops
   topic: Рідкий екстракт GASTRO
@@ -62,14 +62,14 @@ thoughts:
   ref: [liq_gastro.jpg]
   look: white-min
   subject: >
-    a dark dropper bottle standing beside a tall glass of water with a single drop falling into it
+    a dark dropper bottle standing beside one glossy dark red reishi mushroom cap
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'краплі просто розводять водою'
-  claim: 'КРАПЛІ РОЗЧИНЯЮТЬ У ВОДІ'
-  why: 'Піпетка відміряє порцію, склянка води розводить. Ні ложок, ні ваг, ні розрахунків — і смак гриба майже не чути.'
+  source: 'загальновідома історія компонента'
+  retell: 'рейші звуть лакованим трутовиком за блиск'
+  claim: 'РЕЙШІ: ЛАКОВАНИЙ ТРУТОВИК'
+  why: "Четвертий гриб. Його друге ім'я — за блискучу поверхню, наче вкриту лаком. Росте на пнях і твердий настільки, що взяти з нього щось можна тільки витяжкою."
   extra: ''
-  do: 'Розведи у склянці води'
+  do: 'Глянь повний склад'
 
 - key: w6-gastro-sell
   topic: Рідкий екстракт GASTRO

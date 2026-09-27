@@ -11,14 +11,14 @@ thoughts:
   ref: [liq_mind.jpg]
   look: white-min
   subject: >
-    a dark dropper bottle standing upright with its glass pipette lying beside it
+    a dark dropper bottle standing beside one large shaggy white lion's mane mushroom
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'рідку форму тримають під язиком, а не ковтають'
-  claim: 'КРАПАЮТЬ, А НЕ КОВТАЮТЬ'
-  why: 'Краплю кладуть під язик і тримають кілька секунд. Слизова тонка, і настоянка заходить звідти, минаючи довгий шлях капсули через шлунок.'
+  source: 'загальновідома історія компонента'
+  retell: 'їжовик названий за схожість із гривою'
+  claim: 'ЇЖОВИК: ЛЕВОВА ГРИВА'
+  why: "Перший гриб настоянки. Звисає білими голками, звідси й ім'я. Японці звуть його ямабушитаке — на честь ченців-самітників, що жили в горах і знаходили його на старих деревах."
   extra: ''
-  do: 'Капни під язик'
+  do: 'Дивись решту складу'
 
 - key: x6-four
   topic: Рідкий екстракт MIND
@@ -28,14 +28,14 @@ thoughts:
   ref: [liq_mind.jpg]
   look: white-min
   subject: >
-    a dark dropper bottle lying flat beside one large shaggy white lion's mane mushroom
+    a dark dropper bottle lying flat beside one glossy dark red reishi mushroom cap
   compound: ''
   source: 'загальновідома історія компонента'
-  retell: "їжовик отримав ім'я за схожість із гривою"
-  claim: 'ЛЕВОВА ГРИВА'
-  why: 'Так звуть їжовика за вигляд: він звисає білими голками. У Японії його називають ямабушитаке — на честь ченців ямабуші, що жили в горах.'
+  retell: "рейші беруть тільки витяжкою, бо він дерев'янистий"
+  claim: 'РЕЙШІ: ТВЕРДИЙ, ЯК ДЕРЕВО'
+  why: "Другий гриб. Його не жують і не варять супом: він дерев'янистий, і взяти з нього щось можна тільки витяжкою. Тому рейші майже завжди трапляється в рідкій або капсульній формі."
   extra: ''
-  do: 'Постав пляшечку на видноті'
+  do: 'Читай, що ще в пляшці'
 
 - key: x6-fog
   topic: Рідкий екстракт MIND
@@ -45,14 +45,14 @@ thoughts:
   ref: [liq_mind.jpg]
   look: white-min
   subject: >
-    a large dried lion's mane mushroom, shaggy and white, NO bottle and NO packaging anywhere in the frame
+    a few dried shiitake mushrooms lying on a piece of dark tree bark, NO bottle and NO packaging anywhere in the frame
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'голова працює чіткіше, без туману'
-  claim: 'БЕЗ МЕНТАЛЬНОГО ТУМАНУ'
-  why: 'Саме по це до їжовика й приходять. Думка доходить до кінця з першого разу, а не розсипається на півдорозі.'
+  source: 'загальновідома історія компонента'
+  retell: 'назва шиїтаке складена з дерева й гриба'
+  claim: 'ШИЇТАКЕ: ГРИБ ІЗ ДЕРЕВА ШІЇ'
+  why: "Третій. Ім'я складене з двох слів: shii — дерево, take — гриб. Японці вирощують його на колодах понад тисячу років, і спосіб відтоді майже не змінився."
   extra: ''
-  do: 'Постав пляшечку біля ноутбука'
+  do: 'Почитай про четвертий'
 
 - key: x6-ml
   topic: Рідкий екстракт MIND
@@ -66,10 +66,10 @@ thoughts:
   compound: ''
   source: 'жива картка товару'
   retell: 'чагу не вирощують, її шукають у лісі'
-  claim: 'ЧАГУ ЗНАХОДЯТЬ, А НЕ САДЯТЬ'
-  why: 'Вона росте на живій березі, і плантацій чаги у світі просто немає. Тому кожна партія приходить із лісу.'
+  claim: 'ЧАГУ НЕ ВИРОЩУЮТЬ'
+  why: 'Четвертий гриб настоянки, і єдиний, якого немає на жодній фермі. Він росте наростом на живій березі — тому кожна партія приходить із лісу.'
   extra: ''
-  do: 'Бери більший флакон'
+  do: 'Глянь повний склад'
 
 - key: w6-mind-sell
   topic: Рідкий екстракт MIND

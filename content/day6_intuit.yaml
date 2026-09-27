@@ -11,14 +11,14 @@ thoughts:
   ref: [intuitive.jpg]
   look: white-min
   subject: >
-    three jars standing side by side in a row with a sprig of dried wormwood beside them
+    three jars standing side by side in a row beside a silvery sprig of dried wormwood
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'гіркі трави готують шлунок заздалегідь'
-  claim: 'ГІРКОТА ПРАЦЮЄ ЩЕ ДО ЇЖІ'
-  why: 'Полин і пижмо традиційно посилюють виділення травних соків. Тому приймають за пʼятнадцять хвилин до столу.'
+  source: 'загальновідома історія компонента'
+  retell: "полин отримав ім'я від імені богині"
+  claim: 'ПОЛИН: ІМʼЯ АРТЕМІДИ'
+  why: 'Перша банка — трійчатка, і полин у ній головний. Латиною він Artemisia, на честь грецької богині. Гіркоту цієї трави знає кожен, хто хоч раз куштував її листок.'
   extra: ''
-  do: 'Пий за пʼятнадцять хвилин до їжі'
+  do: 'Дивись, що ще в коробці'
 
 - key: i6-stone
   topic: Курс Intuitive Eating
@@ -28,14 +28,14 @@ thoughts:
   ref: [intuitive.jpg]
   look: white-min
   subject: >
-    three jars lying flat in a row beside a silvery sprig of dried wormwood
+    three jars lying flat in a row beside a heap of dark dried clove buds
   compound: ''
   source: 'загальновідома історія компонента'
-  retell: "полин отримав ім'я від імені богині"
-  claim: 'ПОЛИН НОСИТЬ ІМʼЯ АРТЕМІДИ'
-  why: 'Латиною він Artemisia — на честь грецької богині. Гіркоту цієї трави знали всі, хто колись куштував її листок.'
+  retell: 'гвоздику везли здалеку, і вона була дорогою'
+  claim: 'ГВОЗДИКА: ЗА НЕЮ ЙШЛИ КОРАБЛІ'
+  why: 'Третя складова трійчатки. Ці бутони везли з Молуккських островів, і колись вони коштували дорожче за срібло тієї ж ваги. Тепер вони просто стоять у зборі.'
   extra: ''
-  do: 'Постав коробку біля столу'
+  do: 'Читай про другу банку'
 
 - key: i6-clove
   topic: Курс Intuitive Eating
@@ -45,14 +45,14 @@ thoughts:
   ref: [intuitive.jpg]
   look: white-min
   subject: >
-    a heap of dark dried clove buds, NO jar and NO packaging anywhere in the frame
+    a heap of whole golden chanterelle mushrooms, NO jar and NO packaging anywhere in the frame
   compound: ''
   source: 'загальновідома історія компонента'
-  retell: 'гвоздику везли здалеку, і вона була дорогою'
-  claim: 'ЗА ГВОЗДИКОЮ ЙШЛИ КОРАБЛІ'
-  why: 'Ці бутони везли з Молуккських островів, і колись вони коштували дорожче за срібло тієї ж ваги. Тепер вони просто стоять у зборі.'
+  retell: 'лисичка не буває червивою'
+  claim: 'ЛИСИЧКА: ЧЕРВИ ЇЇ ОБХОДЯТЬ'
+  why: "Друга банка. Личинки комах цей гриб не чіпають через хіноманнозу в м'якуші. Тому навіть у теплий серпень лисичка лежить у кошику ціла."
   extra: ''
-  do: 'Читай склад на коробці'
+  do: 'Глянь повний склад'
 
 - key: i6-three
   topic: Курс Intuitive Eating
@@ -62,14 +62,14 @@ thoughts:
   ref: [intuitive.jpg]
   look: white-min
   subject: >
-    three jars standing in a row with a small heap of dried herbs in front of each
+    three jars standing in a row beside a cluster of layered maitake fronds
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'у коробці трави й два гриби'
-  claim: 'ТРАВИ І ДВА ГРИБИ'
-  why: 'Гіркий збір закриває травний комфорт, а лисичка з майтаке працюють на кишківник і печінку. 180 капсул на місяць.'
+  source: 'загальновідома історія компонента'
+  retell: 'майтаке росте купою під дубами'
+  claim: 'МАЙТАКЕ: ГРИБ-БАРАН'
+  why: 'Третя банка. Росте зрощеною купою біля кореня старого дуба, і одна знахідка тягне на кілька кілограмів. За цей вигляд його й прозвали бараном.'
   extra: ''
-  do: 'Порівняй зі своєю полицею'
+  do: 'Пий за пʼятнадцять хвилин до їжі'
 
 - key: w6-intuit-sell
   topic: Курс Intuitive Eating
