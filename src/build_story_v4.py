@@ -55,7 +55,8 @@ TAIL = (" NO TEXT anywhere in the image except wording printed on the product "
 KEEP = (" The product keeps its own printed label exactly as in the attached "
         "photo. Draw no other small print on it.")
 EMPTY = (" The UPPER TWO THIRDS of the frame are empty white — no object, no "
-         "shadow, nothing at all.")
+         "shadow, nothing at all. The BOTTOM TENTH of the frame is empty "
+         "white too: nothing reaches the lower edge.")
 
 # Другий екземпляр товару в кадрі — найчастіший брак; для наборів із
 # трьох банок заборона знімається.
@@ -125,13 +126,7 @@ def sizes(claim: str, why: str) -> dict:
     n = len(why)
     p = 44 if n <= 70 else 40 if n <= 110 else 37 if n <= 160 else 34
     top = 34 if n <= 70 else 30 if n <= 160 else 26
-    h1 = 128 if len(claim) <= 22 else 112 if len(claim) <= 30 else 96
-    longest = max((len(w) for w in claim.split()), default=0)
-    if longest >= 11:
-        h1 = min(h1, 96)
-    elif longest >= 9:
-        h1 = min(h1, 112)
-    return {"@P@": str(p), "@PT@": str(top), "@H1@": str(h1)}
+    return {"@P@": str(p), "@PT@": str(top), "@H1@": "96"}
 
 
 def render(t: dict, bg: Path) -> str:

@@ -28,14 +28,14 @@ thoughts:
   ref: [beautyglow.jpg]
   look: white-min
   subject: >
-    three jars lying flat in a row with a dark chunk of birch chaga beside them
+    three jars lying flat in a row beside one pale translucent cloud-like tremella mushroom
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'чага тут у концентрованій формі'
-  claim: 'ЧАГУ ЗВУТЬ ГРИБОМ ЖІНОЧОЇ КРАСИ'
-  why: 'Так її називають здавна. У курсі вона стоїть у концентрованій формі: одна капсула дорівнює десяти капсулам порошку.'
+  source: 'загальновідома історія компонента'
+  retell: 'тремелу в Китаї звуть срібним вухом'
+  claim: 'ТРЕМЕЛУ ЗВУТЬ СРІБНИМ ВУХОМ'
+  why: 'Китайська назва — інь ер: гриб схожий на прозоре вухо й світиться білим. Його подавали при дворі, і коштував він як коштовність.'
   extra: ''
-  do: 'Шукай позначку 10:1'
+  do: 'Шукай тремелу в складі'
 
 - key: b6-nails
   topic: Курс Beauty Glow
@@ -45,12 +45,12 @@ thoughts:
   ref: [beautyglow.jpg]
   look: white-min
   subject: >
-    a pale cloud-like tremella mushroom, soft and translucent, NO jar and NO packaging anywhere in the frame
+    a rough dark chunk of birch chaga with its golden inner layer visible, NO jar and NO packaging anywhere in the frame
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'нігтям потрібен час, щоб відрости'
-  claim: 'НІГТІ РОСТУТЬ ПОВІЛЬНО'
-  why: 'Тому догляд за ними — історія місяця, а не тижня. Результат видно, коли відросте нова пластина.'
+  source: 'жива картка товару'
+  retell: "чагу здавна пов'язують із доглядом за собою"
+  claim: 'ГРИБ ЖІНОЧОЇ КРАСИ'
+  why: 'Так чагу називають здавна. Її беруть у періоди, коли втома читається на обличчі раніше, ніж ти сам її визнаєш.'
   extra: ''
   do: 'Признач день старту'
 

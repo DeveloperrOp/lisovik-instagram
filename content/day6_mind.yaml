@@ -28,14 +28,14 @@ thoughts:
   ref: [liq_mind.jpg]
   look: white-min
   subject: >
-    a dark dropper bottle lying flat with four small heaps of different dried mushrooms laid in a row beside it
+    a dark dropper bottle lying flat beside one large shaggy white lion's mane mushroom
   compound: ''
-  source: 'жива картка: блок «Що дає курс»'
-  retell: 'чотири гриби зібрані в один флакон'
-  claim: 'ЧОТИРИ ГРИБИ В ОДНІЙ ПЛЯШЦІ'
-  why: 'Їжовик, рейші, шиїтаке й чага зведені в одну настоянку. Окремо це чотири банки й чотири схеми, тут — одна піпетка.'
+  source: 'загальновідома історія компонента'
+  retell: "їжовик отримав ім'я за схожість із гривою"
+  claim: 'ЛЕВОВА ГРИВА'
+  why: 'Так звуть їжовика за вигляд: він звисає білими голками. У Японії його називають ямабушитаке — на честь ченців ямабуші, що жили в горах.'
   extra: ''
-  do: 'Порівняй зі своєю полицею'
+  do: 'Постав пляшечку на видноті'
 
 - key: x6-fog
   topic: Рідкий екстракт MIND
@@ -62,12 +62,12 @@ thoughts:
   ref: [liq_mind.jpg]
   look: white-min
   subject: >
-    a dark dropper bottle standing beside a smaller bottle of the same kind
+    a dark dropper bottle standing beside a rough dark chunk of birch chaga and a piece of birch bark
   compound: ''
-  source: 'каталог: склад і фасовка'
-  retell: 'у великому флаконі повний курс'
-  claim: 'ПʼЯТДЕСЯТ МІЛІЛІТРІВ'
-  why: 'Флакон розрахований на повний курс. Менший, на тридцять, беруть, щоб спершу спробувати формат.'
+  source: 'жива картка товару'
+  retell: 'чагу не вирощують, її шукають у лісі'
+  claim: 'ЧАГУ ЗНАХОДЯТЬ, А НЕ САДЯТЬ'
+  why: 'Вона росте на живій березі, і плантацій чаги у світі просто немає. Тому кожна партія приходить із лісу.'
   extra: ''
   do: 'Бери більший флакон'
 
