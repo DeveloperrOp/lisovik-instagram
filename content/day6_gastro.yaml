@@ -1,0 +1,90 @@
+# Тиждень 6, 2 день: Рідкий екстракт GASTRO.
+# Зміст узято з живої картки товару.
+# product: https://lisovik.com.ua/kompleks-ridkykh-ekstraktiv-gastro-dlia-pokrashchennia-roboty-shkt-50-ml/
+thoughts:
+
+- key: g6-evening
+  topic: Рідкий екстракт GASTRO
+  day: tue
+  slot: dawn
+  layout: poster
+  ref: [liq_gastro.jpg]
+  look: white-min
+  subject: >
+    a dark dropper bottle standing beside a used dinner plate and a fork
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'після ситного вечір не викреслюється'
+  claim: 'ВЕЧЕРЯ ПЕРЕСТАЄ БУТИ ПОДІЄЮ ДНЯ'
+  why: 'Ти знаєш це відчуття: сів після ситної вечері — і вечір скінчився. На курсі важкість після жирного відступає, і вечір лишається твоїм.'
+  extra: ''
+  do: 'Капни перед вечерею'
+
+- key: g6-morning
+  topic: Рідкий екстракт GASTRO
+  day: tue
+  slot: morning
+  layout: poster
+  ref: [liq_gastro.jpg]
+  look: white-min
+  subject: >
+    a dark dropper bottle lying flat beside a glass of water and a linen napkin in morning light
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'ранок не починається з учорашньої вечері'
+  claim: 'РАНОК ІЗ ЧИСТОГО АРКУША'
+  why: 'Прокидаєшся без відчуття, що вчорашня вечеря досі при тобі. Перші дві години дня йдуть на справи, а не на очікування.'
+  extra: ''
+  do: 'Постав пляшечку на кухні'
+
+- key: g6-four
+  topic: Рідкий екстракт GASTRO
+  day: tue
+  slot: noon
+  layout: poster
+  ref: [liq_gastro.jpg]
+  look: white-min
+  subject: >
+    four small heaps of different dried mushrooms laid in a row, NO bottle and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'у флаконі чотири гриби разом'
+  claim: 'ШИЇТАКЕ, МАЙТАКЕ, ЧАГА, РЕЙШІ'
+  why: 'Чотири гриби, і кожен закриває свою частину задачі. Поодинці це чотири банки, тут вони вже зведені в краплю.'
+  extra: ''
+  do: 'Читай склад на етикетці'
+
+- key: g6-drops
+  topic: Рідкий екстракт GASTRO
+  day: tue
+  slot: evening
+  layout: poster
+  ref: [liq_gastro.jpg]
+  look: white-min
+  subject: >
+    a dark dropper bottle standing beside a tall glass of water with a single drop falling into it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'краплі просто розводять водою'
+  claim: 'КРАПЛІ РОЗЧИНЯЮТЬ У ВОДІ'
+  why: 'Піпетка відміряє порцію, склянка води розводить. Ні ложок, ні ваг, ні розрахунків — і смак гриба майже не чути.'
+  extra: ''
+  do: 'Розведи у склянці води'
+
+- key: w6-gastro-sell
+  topic: Рідкий екстракт GASTRO
+  day: tue
+  slot: sell
+  layout: offer
+  ref: [liq_gastro.jpg]
+  look: white-min
+  subject: >
+    one dropper bottle standing on a plain surface, seen straight on
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  product: Рідкий екстракт GASTRO
+  claim: 'ЧОТИРИ ГРИБИ ДЛЯ ТРАВЛЕННЯ'
+  extra: >-
+    Шиїтаке, майтаке, чага, рейші|Піпетка замість капсули|625 грн за великий флакон
+  why: ''
+  do: 'Замовляй у директі або на сайті'

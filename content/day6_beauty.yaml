@@ -1,0 +1,90 @@
+# Тиждень 6, 4 день: Курс Beauty Glow.
+# Зміст узято з живої картки товару.
+# product: https://lisovik.com.ua/kurs-beauty-glow-dlia-shkiry-volos-ta-nihtiv-1-misiats/
+thoughts:
+
+- key: b6-water
+  topic: Курс Beauty Glow
+  day: thu
+  slot: dawn
+  layout: poster
+  ref: [beautyglow.jpg]
+  look: white-min
+  subject: >
+    three jars standing side by side in a row with a glass bowl of water beside them
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'тремела тримає вологу в шкірі зсередини'
+  claim: 'ВОЛОГА ЗСЕРЕДИНИ, А НЕ З-ПІД КРЕМУ'
+  why: 'Тремела тримає воду в шкірі зсередини. В оглядах її за цією здатністю порівнюють із гіалуроновою кислотою.'
+  extra: ''
+  do: 'Бери курс на місяць'
+
+- key: b6-chaga
+  topic: Курс Beauty Glow
+  day: thu
+  slot: morning
+  layout: poster
+  ref: [beautyglow.jpg]
+  look: white-min
+  subject: >
+    three jars lying flat in a row with a dark chunk of birch chaga beside them
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'чага тут у концентрованій формі'
+  claim: 'ЧАГУ ЗВУТЬ ГРИБОМ ЖІНОЧОЇ КРАСИ'
+  why: 'Так її називають здавна. У курсі вона стоїть у концентрованій формі: одна капсула дорівнює десяти капсулам порошку.'
+  extra: ''
+  do: 'Шукай позначку 10:1'
+
+- key: b6-nails
+  topic: Курс Beauty Glow
+  day: thu
+  slot: noon
+  layout: poster
+  ref: [beautyglow.jpg]
+  look: white-min
+  subject: >
+    a pale cloud-like tremella mushroom, soft and translucent, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'нігтям потрібен час, щоб відрости'
+  claim: 'НІГТІ РОСТУТЬ ПОВІЛЬНО'
+  why: 'Тому догляд за ними — історія місяця, а не тижня. Результат видно, коли відросте нова пластина.'
+  extra: ''
+  do: 'Признач день старту'
+
+- key: b6-three
+  topic: Курс Beauty Glow
+  day: thu
+  slot: evening
+  layout: poster
+  ref: [beautyglow.jpg]
+  look: white-min
+  subject: >
+    three jars standing in a row with a small heap of dried mushroom pieces in front of each
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'у коробці три гриби під одну задачу'
+  claim: 'ТРИ БАНКИ, ОДИН НАПРЯМОК'
+  why: 'Тремела, веселка й чага працюють на шкіру, волосся й нігті. Перші дві мелені, третя — у концентрованій формі.'
+  extra: ''
+  do: 'Порівняй зі своєю полицею'
+
+- key: w6-beauty-sell
+  topic: Курс Beauty Glow
+  day: thu
+  slot: sell
+  layout: offer
+  ref: [beautyglow.jpg]
+  look: white-min
+  subject: >
+    three jars standing side by side on a plain surface, seen straight on
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  product: Курс Beauty Glow
+  claim: 'ДОГЛЯНУТИЙ ВИГЛЯД ЗСЕРЕДИНИ'
+  extra: >-
+    Тремела, веселка, чага-екстракт|180 капсул на 30 днів|1425 грн за коробку
+  why: ''
+  do: 'Замовляй у директі або на сайті'

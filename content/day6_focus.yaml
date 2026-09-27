@@ -1,0 +1,90 @@
+# Тиждень 6, 3 день: Курс Focus Flow.
+# Зміст узято з живої картки товару.
+# product: https://lisovik.com.ua/kurs-focus-flow-kontsentratsiia-ta-produktyvnist-1-misiats/
+thoughts:
+
+- key: f6-thread
+  topic: Курс Focus Flow
+  day: wed
+  slot: dawn
+  layout: poster
+  ref: [focusflow.jpg]
+  look: white-min
+  subject: >
+    three jars standing side by side in a row with an open notebook and a pen beside them
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'увага тримається, робота не розсипається'
+  claim: 'НЕ ПЕРЕЧИТУВАТИ АБЗАЦ УТРЕТЄ'
+  why: 'Нитка роботи тримається довше. За ясну голову в цьому наборі відповідає їжовик — саме його традиційно беруть для роботи головою.'
+  extra: ''
+  do: 'Бери курс на місяць'
+
+- key: f6-after
+  topic: Курс Focus Flow
+  day: wed
+  slot: morning
+  layout: poster
+  ref: [focusflow.jpg]
+  look: white-min
+  subject: >
+    three jars lying flat in a row with an empty coffee cup pushed to the edge
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'після обіду голова ще робоча'
+  claim: 'ПІСЛЯОБІДНІЙ ПРОВАЛ НЕ ОБОВʼЯЗКОВИЙ'
+  why: 'Другу половину дня ти працюєш, а не пережидаєш. За рівну бадьорість тут відповідає кордицепс, і він у коробці першим номером.'
+  extra: ''
+  do: 'Постав коробку на столі'
+
+- key: f6-switch
+  topic: Курс Focus Flow
+  day: wed
+  slot: noon
+  layout: poster
+  ref: [focusflow.jpg]
+  look: white-min
+  subject: >
+    a large dried lion's mane mushroom beside a few dried cordyceps stems, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'перемикання між задачами дається легше'
+  claim: 'ПЕРЕМИКАТИСЯ КОШТУЄ МЕНШЕ'
+  why: "Стрибок із чату в документ і назад більше не з'їдає десять хвилин. Не треба заново згадувати, де спинився."
+  extra: ''
+  do: 'Пий обидва прийоми до обіду'
+
+- key: f6-three
+  topic: Курс Focus Flow
+  day: wed
+  slot: evening
+  layout: poster
+  ref: [focusflow.jpg]
+  look: white-min
+  subject: >
+    three jars standing in a row with a small heap of dried mushroom pieces in front of each
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'у коробці три гриби, кожен за своє'
+  claim: 'ТРИ ГРИБИ ПІД ОДНУ ЗАДАЧУ'
+  why: 'Кордицепс тримає тонус, шиїтаке стоїть щоденною опорою, їжовик відповідає за ясну голову. Разом — 180 капсул на місяць.'
+  extra: ''
+  do: 'Порівняй зі своєю полицею'
+
+- key: w6-focus-sell
+  topic: Курс Focus Flow
+  day: wed
+  slot: sell
+  layout: offer
+  ref: [focusflow.jpg]
+  look: white-min
+  subject: >
+    three jars standing side by side on a plain surface, seen straight on
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  product: Курс Focus Flow
+  claim: 'ТРЕТІЙ ТИЖДЕНЬ — ЧЕСНИЙ ОРІЄНТИР'
+  extra: >-
+    Кордицепс, шиїтаке, їжовик|180 капсул на 30 днів|1275 грн за коробку
+  why: ''
+  do: 'Замовляй у директі або на сайті'

@@ -37,11 +37,6 @@ LEAD = "Товар тижня: −20% на добірку для ясної го
 ABOUT = ("їжовик гребінчастий у капсулах і в екстракті, гінкго білоба та "
          "готовий курс, де вони зібрані разом")
 REFS = ("manecaps.jpg", "mind.jpg", "ginkgo.jpg")
-# Дисклеймер залежить від складу підбірки: чай — харчовий продукт,
-# і формулювання про дієтичну добавку на нього не поширюється
-# (памʼять herbal-teas-niche). Тому він параметр, а не константа.
-DISCLAIMER = ("Дієтична добавка. Не замінює повноцінний раціон харчування. "
-              "Не є лікарським засобом.")
 
 URL = "https://lisovik.com.ua/tovar-tyzhnia/"
 PAGE = OUT_DIR.parent / "tmp" / "week.html"
@@ -126,7 +121,8 @@ def caption(items: list) -> str:
         + "\n\nЩо в добірці: " + ABOUT + ".\n\n"
           "Знижка діє тиждень. Посилання на добірку — в шапці профілю.\n"
           "Питання і замовлення — пиши в директ.\n\n"
-        + DISCLAIMER)
+          "Дієтична добавка. Не замінює повноцінний раціон харчування. "
+          "Не є лікарським засобом.")
 
 
 def draw(items: list) -> None:
@@ -228,11 +224,10 @@ def arg(name: str, default):
 
 
 def main() -> int:
-    global HEADLINE, LEAD, ABOUT, REFS, DISCLAIMER
+    global HEADLINE, LEAD, ABOUT, REFS
     HEADLINE = arg("headline", HEADLINE)
     LEAD = arg("lead", LEAD)
     ABOUT = arg("about", ABOUT)
-    DISCLAIMER = arg("disclaimer", DISCLAIMER)
     refs = arg("refs", None)
     if refs:
         REFS = tuple((x if x.endswith(".jpg") else x + ".jpg")
@@ -240,16 +235,6 @@ def main() -> int:
     if "--fetch" in sys.argv or not PAGE.exists():
         fetch()
     items = products()
-    # Підбірка на сайті і підбірка в пості — не завжди одне й те саме.
-    # Мухомор стоїть у розділі, але в стрічку Meta його нести не можна:
-    # Amanita muscaria під забороною «Drugs and drug-related products»,
-    # а санкція там акаунтна — ляже весь фід разом із курсами.
-    skip = arg("skip", "")
-    if skip:
-        pats = [x.strip().lower() for x in skip.split(",") if x.strip()]
-        keep = [it for it in items if not any(p in it["name"].lower() for p in pats)]
-        print("прибрано з поста: %d позицій за «%s»" % (len(items) - len(keep), skip))
-        items = keep
     if not items:
         print("товарів на сторінці не знайдено")
         return 1

@@ -1,0 +1,90 @@
+# Тиждень 6, 1 день: Рідкий екстракт MIND.
+# Зміст узято з живої картки товару.
+# product: https://lisovik.com.ua/kompleks-ridkykh-ekstraktiv-mind-dlia-rozumovoi-aktyvnosti-50-ml/
+thoughts:
+
+- key: x6-drop
+  topic: Рідкий екстракт MIND
+  day: mon
+  slot: dawn
+  layout: poster
+  ref: [liq_mind.jpg]
+  look: white-min
+  subject: >
+    a dark dropper bottle standing upright with its glass pipette lying beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'рідку форму тримають під язиком, а не ковтають'
+  claim: 'КРАПАЮТЬ, А НЕ КОВТАЮТЬ'
+  why: 'Краплю кладуть під язик і тримають кілька секунд. Слизова тонка, і настоянка заходить звідти, минаючи довгий шлях капсули через шлунок.'
+  extra: ''
+  do: 'Капни під язик'
+
+- key: x6-four
+  topic: Рідкий екстракт MIND
+  day: mon
+  slot: morning
+  layout: poster
+  ref: [liq_mind.jpg]
+  look: white-min
+  subject: >
+    a dark dropper bottle lying flat with four small heaps of different dried mushrooms laid in a row beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'чотири гриби зібрані в один флакон'
+  claim: 'ЧОТИРИ ГРИБИ В ОДНІЙ ПЛЯШЦІ'
+  why: 'Їжовик, рейші, шиїтаке й чага зведені в одну настоянку. Окремо це чотири банки й чотири схеми, тут — одна піпетка.'
+  extra: ''
+  do: 'Порівняй зі своєю полицею'
+
+- key: x6-fog
+  topic: Рідкий екстракт MIND
+  day: mon
+  slot: noon
+  layout: poster
+  ref: [liq_mind.jpg]
+  look: white-min
+  subject: >
+    a large dried lion's mane mushroom, shaggy and white, NO bottle and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'голова працює чіткіше, без туману'
+  claim: 'БЕЗ МЕНТАЛЬНОГО ТУМАНУ'
+  why: 'Саме по це до їжовика й приходять. Думка доходить до кінця з першого разу, а не розсипається на півдорозі.'
+  extra: ''
+  do: 'Постав пляшечку біля ноутбука'
+
+- key: x6-ml
+  topic: Рідкий екстракт MIND
+  day: mon
+  slot: evening
+  layout: poster
+  ref: [liq_mind.jpg]
+  look: white-min
+  subject: >
+    a dark dropper bottle standing beside a smaller bottle of the same kind
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'у великому флаконі повний курс'
+  claim: 'ПʼЯТДЕСЯТ МІЛІЛІТРІВ'
+  why: 'Флакон розрахований на повний курс. Менший, на тридцять, беруть, щоб спершу спробувати формат.'
+  extra: ''
+  do: 'Бери більший флакон'
+
+- key: w6-mind-sell
+  topic: Рідкий екстракт MIND
+  day: mon
+  slot: sell
+  layout: offer
+  ref: [liq_mind.jpg]
+  look: white-min
+  subject: >
+    one dropper bottle standing on a plain surface, seen straight on
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  product: Рідкий екстракт MIND
+  claim: 'ФОРМАТ, ЯКИЙ НЕ ТРЕБА ЗАПИВАТИ'
+  extra: >-
+    Чотири гриби в настоянці|Піпетка замість капсули|625 грн за великий флакон
+  why: ''
+  do: 'Замовляй у директі або на сайті'

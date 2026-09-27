@@ -1,0 +1,90 @@
+# Тиждень 6, 5 день: Курс Heart Power.
+# Зміст узято з живої картки товару.
+# product: https://lisovik.com.ua/kurs-heart-power-dlia-serdtsevo-sudynnoi-systemy-1-misiats/
+thoughts:
+
+- key: h6-three
+  topic: Курс Heart Power
+  day: fri
+  slot: dawn
+  layout: poster
+  ref: [heartpower.jpg]
+  look: white-min
+  subject: >
+    three jars standing side by side in a row on a plain surface
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'після третьої тонус не провалюється'
+  claim: 'ТРЕТЯ ГОДИНА БІЛЬШЕ НЕ ЗАБИРАЄ'
+  why: 'День перестає ділитися на бадьорий ранок і порожній вечір. Сили розходяться рівно, і друга половина зміни лишається робочою.'
+  extra: ''
+  do: 'Бери курс на місяць'
+
+- key: h6-stairs
+  topic: Курс Heart Power
+  day: fri
+  slot: morning
+  layout: poster
+  ref: [heartpower.jpg]
+  look: white-min
+  subject: >
+    three jars lying flat in a row beside a worn pair of walking shoes
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'дихання на зусиллі рівніше'
+  claim: 'ПІДЙОМ СХОДАМИ Й БІГ ЗА АВТОБУСОМ'
+  why: 'Саме там, де потрібен рівний ритм дихання, кордицепс традиційно й застосовують — не разово перед навантаженням, а спокійно.'
+  extra: ''
+  do: 'Постав коробку на видноті'
+
+- key: h6-evening
+  topic: Курс Heart Power
+  day: fri
+  slot: noon
+  layout: poster
+  ref: [heartpower.jpg]
+  look: white-min
+  subject: >
+    a glossy dark red reishi mushroom cap, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'гриби в наборі розведені по часу доби'
+  claim: 'РЕЙШІ ВІДДАЄ ВЕЧІРНЮ ПОЛОВИНУ'
+  why: 'У коробці кожен гриб має свій час доби. Кордицепс тягне день, рейші працює на вечір, агарік стоїть опорою.'
+  extra: ''
+  do: 'Читай схему на коробці'
+
+- key: h6-shift
+  topic: Курс Heart Power
+  day: fri
+  slot: evening
+  layout: poster
+  ref: [heartpower.jpg]
+  look: white-min
+  subject: >
+    three jars standing in a row with a few dried cordyceps stems in front of them
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'навантаження переноситься спокійніше'
+  claim: 'ДОВГА ЗМІНА ДАЄТЬСЯ РІВНІШЕ'
+  why: 'Робота на ногах або тренування переносяться легше. Витривалість збирається тижнями, і саме заради неї кордицепс стоїть тут першим.'
+  extra: ''
+  do: 'Пий обидва прийоми до обіду'
+
+- key: w6-heart-sell
+  topic: Курс Heart Power
+  day: fri
+  slot: sell
+  layout: offer
+  ref: [heartpower.jpg]
+  look: white-min
+  subject: >
+    three jars standing side by side on a plain surface, seen straight on
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  product: Курс Heart Power
+  claim: 'КОРДИЦЕПС, РЕЙШІ, АГАРІК'
+  extra: >-
+    Три гриби, три частини доби|180 капсул на 30 днів|1600 грн за коробку
+  why: ''
+  do: 'Замовляй у директі або на сайті'

@@ -1,0 +1,90 @@
+# Тиждень 6, 7 день: Чай із чорнобривців.
+# Зміст узято з живої картки товару.
+# product: https://lisovik.com.ua/chai-z-chornobryvtsiv-40-h/
+thoughts:
+
+- key: c6-obereh
+  topic: Чай із чорнобривців
+  day: sun
+  slot: dawn
+  layout: poster
+  ref: [tea_chorno.jpg]
+  look: white-min
+  subject: >
+    a heap of dried orange marigold flowers and a paper tea pack beside them
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'чорнобривці садили біля хати не для краси'
+  claim: 'ЇХ САДИЛИ БІЛЯ ХАТИ ЯК ОБЕРІГ'
+  why: 'Чорнобривці — народний символ України. Їх тримали під вікнами не заради краси, а як захист двору, і так було в кожному селі.'
+  extra: ''
+  do: 'Завари три ложки на літр'
+
+- key: c6-gold
+  topic: Чай із чорнобривців
+  day: sun
+  slot: morning
+  layout: poster
+  ref: [tea_chorno.jpg]
+  look: white-min
+  subject: >
+    a glass teapot of golden herbal infusion with dried marigold flowers beside it
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'золотий колір дають самі пелюстки'
+  claim: 'НАСТІЙ ВИХОДИТЬ ЗОЛОТИМ'
+  why: 'Колір дають пігменти самих пелюсток — саме за нього чай і впізнають. Ні барвників, ні ароматизаторів у пачці немає.'
+  extra: ''
+  do: 'Настоюй десять хвилин'
+
+- key: c6-taste
+  topic: Чай із чорнобривців
+  day: sun
+  slot: noon
+  layout: poster
+  ref: [tea_chorno.jpg]
+  look: white-min
+  subject: >
+    a large close-up of dried orange marigold flower heads, NO pack and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'смак квітковий, з легкою цитрусовою ноткою'
+  claim: 'ЦИТРУС І ТОНКА НОТА АНІСУ'
+  why: 'Смак мʼякий, злегка пряний. Квітковий аромат читається одразу, цитрусова кислинка приходить трохи згодом.'
+  extra: ''
+  do: 'Спробуй без цукру'
+
+- key: c6-mono
+  topic: Чай із чорнобривців
+  day: sun
+  slot: evening
+  layout: poster
+  ref: [tea_chorno.jpg]
+  look: white-min
+  subject: >
+    a paper tea pack standing upright with a few dried marigold flowers at its base
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  retell: 'у пачці одна рослина й більше нічого'
+  claim: 'СТО ВІДСОТКІВ КВІТИ'
+  why: 'У пачці лише чорнобривці. Без домішок, без кофеїну — тому його спокійно пʼють і ввечері.'
+  extra: ''
+  do: 'Читай склад на пачці'
+
+- key: w6-tea-sell
+  topic: Чай із чорнобривців
+  day: sun
+  slot: sell
+  layout: offer
+  ref: [tea_chorno.jpg]
+  look: white-min
+  subject: >
+    one paper tea pack standing on a plain surface, seen straight on
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  product: Чай із чорнобривців
+  claim: 'МОНОЗБІР, А НЕ СУМІШ'
+  extra: >-
+    Сто відсотків чорнобривці|Без кофеїну|170 грн за 40 грамів
+  why: ''
+  do: 'Замовляй у директі або на сайті'

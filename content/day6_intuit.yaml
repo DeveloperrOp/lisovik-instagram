@@ -1,0 +1,90 @@
+# Тиждень 6, 6 день: Курс Intuitive Eating.
+# Зміст узято з живої картки товару.
+# product: https://lisovik.com.ua/kurs-intuitive-eating-dlia-usvidomlenoho-kharchuvannia-1-misiats/
+thoughts:
+
+- key: i6-bitter
+  topic: Курс Intuitive Eating
+  day: sat
+  slot: dawn
+  layout: poster
+  ref: [intuitive.jpg]
+  look: white-min
+  subject: >
+    three jars standing side by side in a row with a sprig of dried wormwood beside them
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'гіркі трави готують шлунок заздалегідь'
+  claim: 'ГІРКОТА ПРАЦЮЄ ЩЕ ДО ЇЖІ'
+  why: 'Полин і пижмо традиційно посилюють виділення травних соків. Тому приймають за пʼятнадцять хвилин до столу.'
+  extra: ''
+  do: 'Пий за пʼятнадцять хвилин до їжі'
+
+- key: i6-stone
+  topic: Курс Intuitive Eating
+  day: sat
+  slot: morning
+  layout: poster
+  ref: [intuitive.jpg]
+  look: white-min
+  subject: >
+    three jars lying flat in a row beside an empty plate and a fork
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'після щільної вечері легше'
+  claim: 'ВЕЧЕРЯ НЕ ЛЕЖИТЬ КАМЕНЕМ'
+  why: 'Щільна вечеря переживається легше, а ранок після неї не починається з важкості в животі.'
+  extra: ''
+  do: 'Постав коробку біля столу'
+
+- key: i6-clove
+  topic: Курс Intuitive Eating
+  day: sat
+  slot: noon
+  layout: poster
+  ref: [intuitive.jpg]
+  look: white-min
+  subject: >
+    a heap of dark dried clove buds, NO jar and NO packaging anywhere in the frame
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'гвоздика в зборі відповідає за спокій у животі'
+  claim: 'ГВОЗДИКА Й ЇЇ ЕВГЕНОЛ'
+  why: "Гвоздику здавна кладуть у трав'яні збори для спокійного травлення — щоб після столу не було бурчання й важкості."
+  extra: ''
+  do: 'Читай склад на коробці'
+
+- key: i6-three
+  topic: Курс Intuitive Eating
+  day: sat
+  slot: evening
+  layout: poster
+  ref: [intuitive.jpg]
+  look: white-min
+  subject: >
+    three jars standing in a row with a small heap of dried herbs in front of each
+  compound: ''
+  source: 'жива картка: блок «Що дає курс»'
+  retell: 'у коробці трави й два гриби'
+  claim: 'ТРАВИ І ДВА ГРИБИ'
+  why: 'Гіркий збір закриває травний комфорт, а лисичка з майтаке працюють на кишківник і печінку. 180 капсул на місяць.'
+  extra: ''
+  do: 'Порівняй зі своєю полицею'
+
+- key: w6-intuit-sell
+  topic: Курс Intuitive Eating
+  day: sat
+  slot: sell
+  layout: offer
+  ref: [intuitive.jpg]
+  look: white-min
+  subject: >
+    three jars standing side by side on a plain surface, seen straight on
+  compound: ''
+  source: 'каталог: склад і фасовка'
+  product: Курс Intuitive Eating
+  claim: 'ЛЕГША ВЕЧЕРЯ, СПОКІЙНІШИЙ ВЕЧІР'
+  extra: >-
+    Трійчатка, лисичка, майтаке|180 капсул на 30 днів|1250 грн за коробку
+  why: ''
+  do: 'Замовляй у директі або на сайті'
