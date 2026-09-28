@@ -2808,10 +2808,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0928-mind-evening.jpg",
    "slot_start": "2026-09-28T18:00:00+03:00",
    "slot_end": "2026-09-28T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-28T18:00:20.513514+03:00",
+   "ig_media_id": "17949845001051250",
+   "error": null,
+   "fb_story_id": "2156790414922822"
   },
   {
    "id": "0928-mind-sell",
