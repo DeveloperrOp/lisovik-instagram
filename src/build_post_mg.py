@@ -66,10 +66,13 @@ SCENES = {
         "packaging of any kind in this image — only loose capsules on a plain "
         "surface. The TOP THREE QUARTERS of the frame are plain empty navy "
         "blue, nothing in them at all." + TAIL),
- "k6": (NAVY + "Exactly TWO pale ivory capsules lie side by side, small and "
-        "centred, entirely inside the BOTTOM QUARTER of the frame, sharp and "
-        "detailed, no container anywhere. The TOP THREE QUARTERS of the frame "
-        "are plain empty navy blue, nothing in them at all." + TAIL),
+ "k6": (NAVY + "The bottle from the attached photo stands alone and VERY "
+        "SMALL — barely a fifth of the frame height — low and left of centre, "
+        "with exactly TWO pale ivory capsules lying on the surface to its "
+        "right. Its white lid is WHOLE and sits BELOW the three-quarter line "
+        "of the frame, so the TOP THREE QUARTERS are plain empty navy blue "
+        "with nothing in them at all. There is EXACTLY ONE bottle in the "
+        "frame." + KEEP + TAIL),
  "k8": (NAVY + "The bottle from the attached photo stands alone and VERY "
         "SMALL — barely a fifth of the frame height — low and slightly right "
         "of centre, seen slightly from the side, one long soft shadow to the "
