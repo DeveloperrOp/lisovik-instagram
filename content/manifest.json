@@ -2963,10 +2963,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0930-focus-noon.jpg",
    "slot_start": "2026-09-30T12:00:00+03:00",
    "slot_end": "2026-09-30T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-30T12:00:15.119675+03:00",
+   "ig_media_id": "18193880029353735",
+   "error": null,
+   "fb_story_id": "1136815662183233"
   },
   {
    "id": "0930-focus-evening",
