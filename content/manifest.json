@@ -2935,10 +2935,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/0930-focus-dawn.jpg",
    "slot_start": "2026-09-30T07:00:00+03:00",
    "slot_end": "2026-09-30T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-09-30T07:00:13.036446+03:00",
+   "ig_media_id": "18283889644294928",
+   "error": null,
+   "fb_story_id": "1647236250408784"
   },
   {
    "id": "0930-focus-morning",
