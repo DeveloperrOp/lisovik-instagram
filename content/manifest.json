@@ -3019,10 +3019,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/1001-beauty-dawn.jpg",
    "slot_start": "2026-10-01T07:00:00+03:00",
    "slot_end": "2026-10-01T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-01T07:00:13.219827+03:00",
+   "ig_media_id": "18140493742714365",
+   "error": null,
+   "fb_story_id": "1403259561985709"
   },
   {
    "id": "1001-beauty-morning",
