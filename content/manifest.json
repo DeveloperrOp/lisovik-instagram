@@ -3089,10 +3089,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/1001-beauty-night.jpg",
    "slot_start": "2026-10-01T20:00:00+03:00",
    "slot_end": "2026-10-01T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-01T20:00:17.265715+03:00",
+   "ig_media_id": "18122989318700307",
+   "error": null,
+   "fb_story_id": "2171869807044036"
   },
   {
    "id": "1002-heart-dawn",
