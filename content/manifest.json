@@ -3075,10 +3075,11 @@
    "media_url": "https://storage.googleapis.com/lisovik-ig-media/media/1001-beauty-sell.jpg",
    "slot_start": "2026-10-01T19:00:00+03:00",
    "slot_end": "2026-10-01T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-01T19:00:17.291637+03:00",
+   "ig_media_id": "17997515538009852",
+   "error": null,
+   "fb_story_id": "2127075951351361"
   },
   {
    "id": "1001-beauty-night",
