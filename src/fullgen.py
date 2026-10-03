@@ -108,7 +108,15 @@ def _post(payload: dict, tok: str, dest) -> bool:
             if e.code in (429, 500, 503) and attempt < 5:
                 time.sleep(20 * attempt)
                 continue
-            print(f"      HTTP {e.code}", flush=True)
+            # Голий код нічого не пояснює: 403 тут означав вимкнений
+            # біллінг у GCP, і щоб це побачити, довелось повторювати
+            # запит руками. Тепер причина друкується одразу.
+            try:
+                why = json.loads(e.read())["error"]["message"]
+            except Exception:
+                why = ""
+            print(f"      HTTP {e.code}" + (f": {why[:200]}" if why else ""),
+                  flush=True)
             return False
         except (TimeoutError, urllib.error.URLError, OSError):
             if attempt < 5:
