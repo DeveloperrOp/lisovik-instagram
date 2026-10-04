@@ -98,9 +98,6 @@ def short(name: str) -> str:
     n = re.sub(r"\s*\([^)]*\)", "", n)          # «(1 місяць)» — це фасовка
     n = re.sub(r"\s+для розумової активності", "", n)
     n = re.sub(r"^Гриби?\s+", "", n)            # «Гриб Траметес» = «Траметес»
-    # «WOMEN Natural Power Formula» — найдовший рядок списку, він наповзав
-    # на кришки банок (27.09). На банері цей самий товар — «комплекс WOMEN».
-    n = re.sub(r"^(WOMEN|MEN) Natural Power Formula$", r"Комплекс \1", n)
     n = n.split("/")[0]                         # «Рейші/Трутовик лакований»
     if n.startswith("Курс"):
         n = n.split(":")[0]                     # «Курс Immunity Guard: ...»

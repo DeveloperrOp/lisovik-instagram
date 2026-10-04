@@ -7,8 +7,14 @@
 он прекрасно коммитит файл обратно в репозиторий — и заодно даёт репозиторию
 活ность, из-за отсутствия которой GitHub через 60 дней глушит расписание.
 
-В облаке остаются только медиа: Meta скачивает картинку по прямой ссылке,
-и права на запись для этого не нужны.
+Медиа лежат ТАМ ЖЕ, в репозитории: Meta скачивает картинку по прямой
+ссылке, и raw.githubusercontent отдаёт её с правильным image/jpeg.
+
+Раньше медиа жили в бакете GCS. 04.10.2026 проект GCP оказался помечен
+на удаление — бакет исчез, и публикации встали: Meta получала по ссылке
+404 и отвечала «Only photo or video can be accepted». Девять кадров
+сгорело, пока это не всплыло. Теперь публикация не зависит от облака
+вообще: репозиторий публичный, и этого достаточно.
 
 Статусы элемента:
     approved  — одобрен, ждёт своего окна
@@ -18,24 +24,38 @@
     rejected  — забракован
 """
 import json
+import shutil
 import subprocess
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-from config import CONTENT_DIR, GCS_BUCKET
+from config import CONTENT_DIR
 
 KYIV = ZoneInfo("Europe/Kyiv")
 MANIFEST = CONTENT_DIR / "manifest.json"
+MEDIA = CONTENT_DIR.parent / "media"
+GH_RAW = ("https://raw.githubusercontent.com/DeveloperrOp/"
+          "lisovik-instagram/master/media/")
 
 STATUSES = ("pending", "approved", "published", "rejected", "failed")
 
 
 def token() -> str:
-    """Токен gcloud — нужен только для заливки медиа, локально."""
-    return subprocess.run("gcloud auth print-access-token", shell=True,
-                          capture_output=True, text=True, check=True).stdout.strip()
+    """Больше не нужен: медиа раздаёт GitHub, а не бакет.
+
+    Оставлен как заглушка, потому что его зовут восемь скриптов. Когда
+    gcloud в системе есть, вернёт настоящий токен; когда нет — пустую
+    строку, и это ничего не ломает.
+    """
+    try:
+        return subprocess.run("gcloud auth print-access-token", shell=True,
+                              capture_output=True, text=True,
+                              check=True).stdout.strip()
+    except Exception:
+        return ""
 
 
 def load(tok=None) -> dict:
@@ -52,25 +72,64 @@ def save(manifest: dict, tok=None):
                         encoding="utf-8")
 
 
-def upload_media(path, tok=None) -> str:
-    """Заливает кадр в GCS и возвращает публичный URL.
+def _git(*args) -> subprocess.CompletedProcess:
+    return subprocess.run(["git", *args], cwd=str(CONTENT_DIR.parent),
+                          capture_output=True, text=True)
 
-    Meta скачивает файл сама, поэтому объект обязан быть доступен снаружи —
-    приватная ссылка приведёт к тому, что контейнер зависнет в ERROR.
-    Заливка идёт локально, у Actions прав на бакет нет и не нужно.
+
+def flush_media() -> None:
+    """Отправляет накопленные кадры на сервер.
+
+    Пока файла нет на GitHub, ссылка на него — просто текст: Meta придёт
+    и получит 404.
     """
-    name = f"media/{path.name}"
-    url = (f"https://storage.googleapis.com/upload/storage/v1/b/{GCS_BUCKET}"
-           f"/o?uploadType=media&name={urllib.parse.quote(name, safe='')}")
-    ctype = "image/jpeg" if path.suffix.lower() in (".jpg", ".jpeg") else "video/mp4"
-    req = urllib.request.Request(
-        url, data=path.read_bytes(),
-        headers={"Authorization": f"Bearer {tok or token()}",
-                 "Content-Type": ctype},
-        method="POST")
-    with urllib.request.urlopen(req, timeout=180) as r:
-        r.read()
-    return f"https://storage.googleapis.com/{GCS_BUCKET}/{name}"
+    if not _git("diff", "--cached", "--quiet").returncode:
+        return                      # нечего отправлять
+    _git("commit", "-q", "-m", "медіа: кадри для публікації")
+    r = _git("push", "-q")
+    if r.returncode:
+        raise RuntimeError("медіа не відправлені на GitHub: "
+                           + (r.stderr or r.stdout).strip()[:200])
+
+
+def media_ready(url: str, tries: int = 10) -> bool:
+    """Чекает, пока ссылка реально начнёт отдавать файл."""
+    for n in range(tries):
+        try:
+            req = urllib.request.Request(url, method="HEAD")
+            with urllib.request.urlopen(req, timeout=30) as r:
+                if r.status == 200:
+                    return True
+        except Exception:
+            pass
+        time.sleep(3)
+    return False
+
+
+def upload_media(path, tok=None, push=True) -> str:
+    """Кладёт кадр в репозиторий и возвращает публичную ссылку на него.
+
+    Meta скачивает файл сама, поэтому он обязан быть доступен снаружи.
+    raw.githubusercontent отдаёт .jpg с Content-Type: image/jpeg — это
+    ровно то, что требует Graph API.
+
+    Кириллица в имени — отдельная ловушка Graph API (ошибка 9004), но
+    имена кадров у нас латиницей, и переименовывать нечего.
+
+    push=False нужен тем, кто заливает пачку: тогда файлы только
+    добавляются в индекс, а отправляет их один flush_media() в конце.
+    """
+    MEDIA.mkdir(parents=True, exist_ok=True)
+    dst = MEDIA / path.name
+    if not dst.exists() or dst.read_bytes() != path.read_bytes():
+        shutil.copy2(path, dst)
+    _git("add", str(dst))
+    url = GH_RAW + urllib.parse.quote(path.name)
+    if push:
+        flush_media()
+        if not media_ready(url):
+            raise RuntimeError(f"кадр не роздається за посиланням: {url}")
+    return url
 
 
 def slot_window(date: datetime, slot_times: list) -> tuple:
