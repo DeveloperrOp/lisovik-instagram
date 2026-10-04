@@ -116,7 +116,10 @@ def main() -> int:
                 late += 1
                 continue
             shutil.copy2(src, PENDING / f"{sid}.jpg")
-            url = mf.upload_media(PENDING / f"{sid}.jpg", tok)
+            # push=False: 42 кадри дали б 42 коміти підряд. Файли лише
+            # лягають в індекс, а відправляє їх разом із маніфестом той
+            # самий git push наприкінці.
+            url = mf.upload_media(PENDING / f"{sid}.jpg", tok, push=False)
             # status ОБОВʼЯЗКОВО передається явно. У mf.add за
             # замовчуванням стоїть «pending» — стан для ручного схвалення
             # через бота, а due() бере ТІЛЬКИ «approved». Саме через
@@ -138,7 +141,7 @@ def main() -> int:
     # тепер частина постановки, а не окремий крок, який можна забути.
     if queued and "--no-push" not in sys.argv:
         msg = f"queue: {prefix.rstrip('_')} від {start:%Y-%m-%d}, кадрів {queued}"
-        for cmd in (["git", "add", "content/manifest.json"],
+        for cmd in (["git", "add", "content/manifest.json", "media"],
                     ["git", "commit", "-q", "-m", msg],
                     ["git", "push", "-q"]):
             r = subprocess.run(cmd, cwd=str(CONTENT_DIR.parent),
