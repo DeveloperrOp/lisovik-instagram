@@ -3335,11 +3335,12 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1004-tea-night.jpg",
    "slot_start": "2026-10-04T20:00:00+03:00",
    "slot_end": "2026-10-04T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
+   "status": "published",
+   "published_at": "2026-10-04T22:44:51.094959+03:00",
+   "ig_media_id": "18099127517355148",
    "error": null,
-   "tries": 0
+   "tries": 0,
+   "fb_story_id": "1673726467648392"
   }
  ]
 }
