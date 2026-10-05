@@ -16,9 +16,12 @@ publish.py не чіпає.
 """
 import subprocess
 import sys
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 HERE = Path(__file__).resolve().parent
+LOG = HERE.parent / "logs" / "publish_local.log"
 
 
 def main() -> int:
@@ -29,7 +32,18 @@ def main() -> int:
     r = subprocess.run([sys.executable, str(HERE / "publish.py")],
                        cwd=HERE, capture_output=True, text=True,
                        encoding="utf-8")
-    print(r.stdout or r.stderr)
+    # Під pythonw консолі немає: sys.stdout може бути None, і звичайний
+    # print роняє запуск іще до публікації. Тому пишемо в журнал — і
+    # заодно видно, що відбувалось уночі, коли ніхто не дивився.
+    out = (r.stdout or r.stderr or "").strip()
+    stamp = datetime.now(ZoneInfo("Europe/Kyiv")).strftime("%Y-%m-%d %H:%M")
+    LOG.parent.mkdir(parents=True, exist_ok=True)
+    with LOG.open("a", encoding="utf-8") as f:
+        f.write("\n===== " + stamp + "\n" + out + "\n")
+    try:
+        print(out)
+    except Exception:
+        pass
     if "опубліковано:" in (r.stdout or ""):
         subprocess.run(["git", "add", "content/manifest.json"],
                        cwd=HERE.parent, capture_output=True)
