@@ -3418,10 +3418,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1005-triichatka-night.jpg",
    "slot_start": "2026-10-05T20:00:00+03:00",
    "slot_end": "2026-10-05T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-05T20:00:01.613934+03:00",
+   "ig_media_id": "17904235323356173",
+   "error": null,
+   "fb_story_id": "1462138182432742"
   },
   {
    "id": "1006-men-dawn",
