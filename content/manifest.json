@@ -3432,10 +3432,10 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1006-men-dawn.jpg",
    "slot_start": "2026-10-06T07:00:00+03:00",
    "slot_end": "2026-10-06T09:45:00+03:00",
-   "status": "approved",
+   "status": "failed",
    "published_at": null,
    "ig_media_id": null,
-   "error": null
+   "error": "вікно публікації минуло"
   },
   {
    "id": "1006-men-morning",
@@ -3445,10 +3445,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1006-men-morning.jpg",
    "slot_start": "2026-10-06T10:00:00+03:00",
    "slot_end": "2026-10-06T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-06T11:42:03.203992+03:00",
+   "ig_media_id": "18128874952828944",
+   "error": null,
+   "fb_story_id": "2283297585762380"
   },
   {
    "id": "1006-men-noon",
