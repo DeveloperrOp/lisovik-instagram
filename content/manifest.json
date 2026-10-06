@@ -3459,10 +3459,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1006-men-noon.jpg",
    "slot_start": "2026-10-06T12:00:00+03:00",
    "slot_end": "2026-10-06T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-06T12:00:01.880433+03:00",
+   "ig_media_id": "18197447935381772",
+   "error": null,
+   "fb_story_id": "1507059154593588"
   },
   {
    "id": "1006-men-evening",
