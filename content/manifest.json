@@ -3501,10 +3501,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1006-men-night.jpg",
    "slot_start": "2026-10-06T20:00:00+03:00",
    "slot_end": "2026-10-06T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-06T20:00:02.391488+03:00",
+   "ig_media_id": "17915404191268686",
+   "error": null,
+   "fb_story_id": "1836897273972981"
   },
   {
    "id": "1007-women-dawn",
