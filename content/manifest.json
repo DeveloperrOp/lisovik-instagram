@@ -3542,10 +3542,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1007-women-noon.jpg",
    "slot_start": "2026-10-07T12:00:00+03:00",
    "slot_end": "2026-10-07T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-07T12:05:39.403058+03:00",
+   "ig_media_id": "18115973183062329",
+   "error": null,
+   "fb_story_id": "1380124254105441"
   },
   {
    "id": "1007-women-evening",
