@@ -1,28 +1,42 @@
 name: publish
 
+# Чому довгий цикл, а не просто розклад.
+#
+# GitHub виконує schedule як доведеться. Заміряно на наших же запусках
+# 01-06.10.2026: заявлено 72 запуски на добу, фактично 1-5; медіанний
+# розрив між запусками 326 хвилин, найдовший 12,1 години. Вікно сторіс —
+# від однієї до трьох годин, і такий розрив його просто перестрибує.
+#
+# Але кожен запуск Actions живе до 6 годин. Тому один старт тепер
+# покриває пів дня: job крутиться 5 годин 40 хвилин і кожні 8 хвилин
+# питає чергу. Старти стоять що дві години з перекриттям — навіть якщо
+# GitHub пропустить три поспіль, четвертий підхопить і закриє решту дня.
+#
+# concurrency не дає двом циклам працювати разом: кадр публікує той, хто
+# першим його побачив, а другий job чекає й стартує, коли перший вийде.
+
 on:
-  # Головний вхід — зовнішній пінг. GitHub свій schedule виконує як
-  # доведеться: заявлено кожні 15 хвилин, а заміряні розриви 01-06.10 —
-  # медіана 5,4 години, найдовший 12,1. Вікно сторіс у 2 години він
-  # просто перестрибує. А на подію repository_dispatch запускається
-  # одразу, тому час тримає той, хто цю подію надсилає.
+  schedule:
+    # 03-20 UTC = 06:00-23:00 за Києвом.
+    - cron: '0 3,5,7,9,11,13,15,17,19 * * *'
+
+  # Для зовнішнього пінгувальника, якщо його знову піднімуть, і для
+  # запуску руками.
   repository_dispatch:
     types: [publish]
-
-  schedule:
-    # 03-20 UTC = 06:00-23:00 за Києвом. Було 5-19 UTC, тобто з 08:00,
-    # і ранкове вікно 07:00-08:30 у розклад не потрапляло взагалі:
-    # перший запуск припадав на 08:00, а GitHub зі своєю затримкою
-    # до закриття вікна не встигав. Кожні 15 хвилин замість 20.
-    - cron: '*/15 3-20 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: publish-loop
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -30,18 +44,33 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Publish due stories
+      - name: Publish due stories in a loop
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           PYTHONIOENCODING: utf-8
-        run: python src/publish.py
-
-      - name: Commit queue status
         run: |
           git config user.name "lisovik-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add content/manifest.json
-          git diff --staged --quiet || git commit -m "queue: update publish status"
-          git push
+
+          END=$(( $(date +%s) + 5*3600 + 40*60 ))
+          while [ "$(date +%s)" -lt "$END" ]; do
+            echo "--- $(TZ=Europe/Kyiv date '+%F %H:%M') Київ"
+
+            # Статуси пише і цей цикл, і сусідній job, і локальний
+            # планувальник власника. Без підтягування вони розійдуться,
+            # і кадр піде у стрічку двічі.
+            git pull --rebase -q origin master || true
+
+            python src/publish.py || true
+
+            git add content/manifest.json
+            if ! git diff --staged --quiet; then
+              git commit -q -m "queue: update publish status"
+              git push -q || { git pull --rebase -q origin master; git push -q; }
+            fi
+
+            sleep 480
+          done
+          echo "цикл відпрацював, наступний старт підхопить"
