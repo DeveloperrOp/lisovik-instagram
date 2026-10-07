@@ -3556,10 +3556,10 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1007-women-evening.jpg",
    "slot_start": "2026-10-07T18:00:00+03:00",
    "slot_end": "2026-10-07T18:55:00+03:00",
-   "status": "approved",
+   "status": "failed",
    "published_at": null,
    "ig_media_id": null,
-   "error": null
+   "error": "вікно публікації минуло"
   },
   {
    "id": "1007-women-sell",
@@ -3569,10 +3569,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1007-women-sell.jpg",
    "slot_start": "2026-10-07T19:00:00+03:00",
    "slot_end": "2026-10-07T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-07T19:14:22.572487+03:00",
+   "ig_media_id": "18154500694469308",
+   "error": null,
+   "fb_story_id": "3008206782845258"
   },
   {
    "id": "1007-women-night",
