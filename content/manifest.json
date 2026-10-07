@@ -3515,10 +3515,10 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1007-women-dawn.jpg",
    "slot_start": "2026-10-07T07:00:00+03:00",
    "slot_end": "2026-10-07T09:45:00+03:00",
-   "status": "approved",
+   "status": "failed",
    "published_at": null,
    "ig_media_id": null,
-   "error": null
+   "error": "вікно публікації минуло"
   },
   {
    "id": "1007-women-morning",
@@ -3528,10 +3528,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1007-women-morning.jpg",
    "slot_start": "2026-10-07T10:00:00+03:00",
    "slot_end": "2026-10-07T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-07T10:35:36.632828+03:00",
+   "ig_media_id": "18072567881584879",
+   "error": null,
+   "fb_story_id": "4562803140630018"
   },
   {
    "id": "1007-women-noon",
