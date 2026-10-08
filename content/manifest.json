@@ -3597,10 +3597,10 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1008-ginkgo-dawn.jpg",
    "slot_start": "2026-10-08T07:00:00+03:00",
    "slot_end": "2026-10-08T09:45:00+03:00",
-   "status": "approved",
+   "status": "failed",
    "published_at": null,
    "ig_media_id": null,
-   "error": null
+   "error": "вікно публікації минуло"
   },
   {
    "id": "1008-ginkgo-morning",
@@ -3610,10 +3610,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1008-ginkgo-morning.jpg",
    "slot_start": "2026-10-08T10:00:00+03:00",
    "slot_end": "2026-10-08T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-08T10:10:07.939361+03:00",
+   "ig_media_id": "17885003988503874",
+   "error": null,
+   "fb_story_id": "2358780461598054"
   },
   {
    "id": "1008-ginkgo-noon",
