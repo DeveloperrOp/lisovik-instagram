@@ -2,98 +2,111 @@
 # Усі факти — з живої картки товару.
 # product: https://lisovik.com.ua/palma-serenoa-ekstrakt-kapsuly-60-sht-po-06-h/
 thoughts:
-
 - key: w8-serenoa-dawn
   topic: Пальма сереноа
   day: fri
   slot: dawn
   layout: poster
-  ref: [serenoa.jpg]
-  pack: >
-    a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
-  look: water
-  subject: >
-    the product from the attached photo together with a handful of small dark dried saw palmetto berries
-  compound: ''
-  source: 'жива картка товару'
-  retell: 'семіноли звали ягоди джерелом життя'
-  claim: 'СЕМІНОЛИ ЗВАЛИ ЇХ ДЖЕРЕЛОМ ЖИТТЯ'
-  why: 'Для індіанців Флориди ягоди пальми були їжею: їх їли свіжими й сушеними, товкли, а сік змішували зі солодким.'
-  extra: ''
-  do: 'Дивись склад на банці'
+  ref:
+  - serenoa.jpg
+  pack: 'a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
 
+    '
+  look: water
+  subject: 'the product from the attached photo together with a handful of small dark dried saw palmetto
+    berries
+
+    '
+  compound: ''
+  source: жива картка товару
+  retell: семіноли звали ягоди джерелом життя
+  claim: СЕМІНОЛИ ЗВАЛИ ЇХ ДЖЕРЕЛОМ ЖИТТЯ
+  why: 'Для індіанців Флориди ягоди пальми були їжею: їх їли свіжими й сушеними, товкли, а сік змішували
+    зі солодким.'
+  extra: ''
+  do: Дивись склад на банці
 - key: w8-serenoa-morning
   topic: Пальма сереноа
   day: fri
   slot: morning
   layout: poster
-  ref: [serenoa.jpg]
-  pack: >
-    a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
-  look: water
-  subject: >
-    the product from the attached photo lying flat beside a handful of small dark dried saw palmetto berries
-  compound: ''
-  source: 'жива картка товару'
-  retell: 'ягоди описали у фармацевтичному журналі 1879 року'
-  claim: 'В АПТЕКИ ВОНИ ПОТРАПИЛИ 1879-ГО'
-  why: 'У квітні того року лікар Рід із Саванни описав ягоди в американському фармацевтичному журналі. До середини девʼяностих їх продавали вже відомі компанії.'
-  extra: ''
-  do: 'Читай форму на етикетці'
+  ref: []
+  pack: 'a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
 
+    '
+  look: water
+  subject: a handful of small dark dried saw palmetto berries beside one fan-shaped palm leaf
+  compound: ''
+  source: жива картка товару
+  retell: ягоди описали у фармацевтичному журналі 1879 року
+  claim: В АПТЕКИ ВОНИ ПОТРАПИЛИ 1879-ГО
+  why: У квітні того року лікар Рід із Саванни описав ягоди в американському фармацевтичному журналі.
+    До середини девʼяностих їх продавали вже відомі компанії.
+  extra: ''
+  do: Читай форму на етикетці
 - key: w8-serenoa-noon
   topic: Пальма сереноа
   day: fri
   slot: noon
   layout: poster
-  ref: [serenoa.jpg]
-  pack: >
-    a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
-  look: water
-  subject: >
-    a handful of small dark dried saw palmetto berries
-  compound: ''
-  source: 'жива картка товару'
-  retell: 'у пальми кілька назв'
-  claim: 'SAW PALMETTO — ЦЕ ВОНА Ж'
-  why: 'Так пальму звуть англійською, звідси й українське «со пальметто». Шукаєш під будь-якою з назв — мова про ту саму рослину.'
-  extra: ''
-  do: 'Запиши обидві назви'
+  ref:
+  - serenoa.jpg
+  pack: 'a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
 
+    '
+  look: water
+  subject: 'a handful of small dark dried saw palmetto berries
+
+    '
+  compound: ''
+  source: жива картка товару
+  retell: у пальми кілька назв
+  claim: SAW PALMETTO — ЦЕ ВОНА Ж
+  why: Так пальму звуть англійською, звідси й українське «со пальметто». Шукаєш під будь-якою з назв —
+    мова про ту саму рослину.
+  extra: ''
+  do: Запиши обидві назви
 - key: w8-serenoa-evening
   topic: Пальма сереноа
   day: fri
   slot: evening
   layout: poster
-  ref: [serenoa.jpg]
-  pack: >
-    a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
-  look: water
-  subject: >
-    the product from the attached photo together with a handful of small dark dried saw palmetto berries
-  compound: ''
-  source: 'жива картка товару'
-  retell: 'у банці витяжка, а не ягода'
-  claim: 'ЩО САМЕ ПОТРАПЛЯЄ В КАПСУЛУ'
-  why: 'Не сушений плід, а те, що з нього дістали. Такі банки й порівнюють за часткою жирних кислот.'
-  extra: ''
-  do: 'Порівняй відсоток на банках'
+  ref:
+  - serenoa.jpg
+  pack: 'a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
 
+    '
+  look: water
+  subject: 'the product from the attached photo together with a handful of small dark dried saw palmetto
+    berries
+
+    '
+  compound: ''
+  source: жива картка товару
+  retell: у банці витяжка, а не ягода
+  claim: ЩО САМЕ ПОТРАПЛЯЄ В КАПСУЛУ
+  why: Не сушений плід, а те, що з нього дістали. Такі банки й порівнюють за часткою жирних кислот.
+  extra: ''
+  do: Порівняй відсоток на банках
 - key: w8-serenoa-sell
   topic: Пальма сереноа
   day: fri
   slot: sell
   layout: offer
-  ref: [serenoa.jpg]
-  pack: >
-    a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
+  ref:
+  - serenoa.jpg
+  pack: 'a WHITE opaque plastic bottle with a WHITE lid and a DARK GREEN paper label reading ПАЛЬМА СЕРЕНОА
+
+    '
   look: water
-  subject: >
-    the product from the attached photo together with a handful of small dark dried saw palmetto berries
+  subject: 'the product from the attached photo together with a handful of small dark dried saw palmetto
+    berries
+
+    '
   compound: ''
-  source: 'жива картка товару'
-  retell: 'сереноа є у двох фасовках'
-  claim: 'ЕКСТРАКТ ПЛОДІВ 45%'
+  source: жива картка товару
+  retell: сереноа є у двох фасовках
+  claim: ЕКСТРАКТ ПЛОДІВ 45%
   why: ''
-  extra: 'Витяжка з плодів пальми|60 або 120 капсул|від 445 грн за банку'
-  do: 'Дивись усі форми на сайті'
+  extra: Витяжка з плодів пальми|60 або 120 капсул|від 445 грн за банку
+  do: Дивись усі форми на сайті

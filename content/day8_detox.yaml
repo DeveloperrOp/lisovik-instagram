@@ -2,98 +2,117 @@
 # Усі факти — з живої картки товару.
 # product: https://lisovik.com.ua/kurs-detoks-chaha-triichatka-ta-lysychka-1-misiats/
 thoughts:
-
 - key: w8-detox-dawn
   topic: Курс Детокс
   day: thu
   slot: dawn
   layout: poster
-  ref: [detox_kurs.jpg]
-  pack: >
-    two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС ДЕТОКС
-  look: water
-  subject: >
-    the product from the attached photo together with a rough dark chunk of birch chaga beside a few dried chanterelles
-  compound: ''
-  source: 'жива картка товару'
-  retell: 'у коробці чага й трійчатка з лисичкою'
-  claim: 'ЧАГА Й ТРІЙЧАТКА В ОДНІЙ КОРОБЦІ'
-  why: 'Концентрат березової чаги та класична гірка трійця трав із лисичкою. Збирати по банках нічого не треба.'
-  extra: ''
-  do: 'Дивись, що в коробці'
+  ref:
+  - detox_kurs.jpg
+  pack: 'two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА
+    and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС
+    ДЕТОКС
 
+    '
+  look: water
+  subject: 'the product from the attached photo together with a rough dark chunk of birch chaga beside
+    a few dried chanterelles
+
+    '
+  compound: ''
+  source: жива картка товару
+  retell: у коробці чага й трійчатка з лисичкою
+  claim: ЧАГА Й ТРІЙЧАТКА В ОДНІЙ КОРОБЦІ
+  why: Концентрат березової чаги та класична гірка трійця трав із лисичкою. Збирати по банках нічого не
+    треба.
+  extra: ''
+  do: Дивись, що в коробці
 - key: w8-detox-morning
   topic: Курс Детокс
   day: thu
   slot: morning
   layout: poster
-  ref: [detox_kurs.jpg]
-  pack: >
-    two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС ДЕТОКС
-  look: water
-  subject: >
-    the product from the attached photo lying flat beside a rough dark chunk of birch chaga and a few dried chanterelles
-  compound: ''
-  source: 'жива картка товару'
-  retell: 'трійчатка складається з трьох трав'
-  claim: 'ПИЖМО, ПОЛИН І ГВОЗДИКА'
-  why: 'Це і є трійчатка — формула, якої не міняють десятиліттями. Лисичка стоїть поруч четвертою.'
-  extra: ''
-  do: 'Читай склад на коробці'
+  ref: []
+  pack: 'two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА
+    and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС
+    ДЕТОКС
 
+    '
+  look: water
+  subject: dried tansy flowers, wormwood sprigs and whole clove buds scattered loose
+  compound: ''
+  source: жива картка товару
+  retell: трійчатка складається з трьох трав
+  claim: ПИЖМО, ПОЛИН І ГВОЗДИКА
+  why: Це і є трійчатка — формула, якої не міняють десятиліттями. Лисичка стоїть поруч четвертою.
+  extra: ''
+  do: Читай склад на коробці
 - key: w8-detox-noon
   topic: Курс Детокс
   day: thu
   slot: noon
   layout: poster
-  ref: [detox_kurs.jpg]
-  pack: >
-    two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС ДЕТОКС
-  look: water
-  subject: >
-    a rough dark chunk of birch chaga beside a few dried chanterelles
-  compound: ''
-  source: 'жива картка товару'
-  retell: 'схема курсу — чотири капсули'
-  claim: 'ЧОТИРИ КАПСУЛИ НА ДОБУ'
-  why: 'Схема одна на весь місяць, рахувати нічого не треба. Жодного вечора над каструлею з відваром.'
-  extra: ''
-  do: 'Признач день старту'
+  ref: []
+  pack: 'two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА
+    and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС
+    ДЕТОКС
 
+    '
+  look: water
+  subject: one large rough chunk of birch chaga shot very close, the black crust and the rusty orange
+    broken side both visible
+  compound: ''
+  source: жива картка товару
+  retell: схема курсу — чотири капсули
+  claim: ЧАГА — ЦЕ НАРІСТ НА БЕРЕЗІ
+  why: Гриб живе на стовбурі роками й бере з дерева своє. Тому зовні він як обвуглений шматок кори.
+  extra: ''
+  do: Подивись на злам
 - key: w8-detox-evening
   topic: Курс Детокс
   day: thu
   slot: evening
   layout: poster
-  ref: [detox_kurs.jpg]
-  pack: >
-    two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС ДЕТОКС
+  ref:
+  - detox_kurs.jpg
+  pack: 'two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА
+    and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС
+    ДЕТОКС
+
+    '
   look: water
-  subject: >
-    the product from the attached photo together with a rough dark chunk of birch chaga beside a few dried chanterelles
+  subject: 'the product from the attached photo together with a rough dark chunk of birch chaga beside
+    a few dried chanterelles
+
+    '
   compound: ''
-  source: 'жива картка товару'
-  retell: 'у курсі чага йде концентратом'
-  claim: 'ЧАГУ ТУТ ВЗЯЛИ КОНЦЕНТРАТОМ'
+  source: жива картка товару
+  retell: у курсі чага йде концентратом
+  claim: ЧАГУ ТУТ ВЗЯЛИ КОНЦЕНТРАТОМ
   why: 'Не меленим грибом, а виваркою: так у капсулу вміщується більше того, заради чого її беруть.'
   extra: ''
-  do: 'Порівняй форми на сайті'
-
+  do: Порівняй форми на сайті
 - key: w8-detox-sell
   topic: Курс Детокс
   day: thu
   slot: sell
   layout: offer
-  ref: [detox_kurs.jpg]
-  pack: >
-    two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС ДЕТОКС
+  ref:
+  - detox_kurs.jpg
+  pack: 'two jars standing on a GREEN cardboard box: a white bottle with a dark brown label reading ЧАГА
+    and a clear jar with an ORANGE label reading ТРІЙЧАТКА ТА ЛИСИЧКА, the green box front reading КУРС
+    ДЕТОКС
+
+    '
   look: water
-  subject: >
-    the product from the attached photo together with a rough dark chunk of birch chaga beside a few dried chanterelles
+  subject: 'the product from the attached photo together with a rough dark chunk of birch chaga beside
+    a few dried chanterelles
+
+    '
   compound: ''
-  source: 'жива картка товару'
-  retell: 'у коробці дві банки на місяць'
-  claim: 'ДВІ БАНКИ Й ОДНА СХЕМА'
+  source: жива картка товару
+  retell: у коробці дві банки на місяць
+  claim: ДВІ БАНКИ Й ОДНА СХЕМА
   why: ''
-  extra: 'Чага концентрат і трійчатка|30 днів|від 900 грн за коробку'
-  do: 'Дивись усі форми на сайті'
+  extra: Чага концентрат і трійчатка|30 днів|від 900 грн за коробку
+  do: Дивись усі форми на сайті
