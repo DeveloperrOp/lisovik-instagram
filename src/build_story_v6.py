@@ -74,9 +74,7 @@ def keep_for(t: dict) -> str:
             "and belongs to the Ukrainian brand ЛІСОВИК: " + pack +
             ", carrying the white ЛІСОВИК tree-face logo. It is NOT a glass "
             "dropper bottle, NOT a pump bottle and NOT a cosmetics "
-            "container. The label carries ONLY the big product name and that "
-            "logo: NO small print lines, NO paragraph of fine text, NO "
-            "barcode, NO ingredient list anywhere on the package.")
+            "container, and it carries no other brand's name or logo.")
 
 
 # 🚨 Чужа марка лізе й туди, де нашої упаковки в кадрі немає: на макро
@@ -86,8 +84,7 @@ def keep_for(t: dict) -> str:
 NOBRAND = (" ABSOLUTELY NO brand name, logo, slogan or wording of any other "
            "company anywhere in the image, and no English brand text of any "
            "kind. Capsules, berries, powder and raw material are completely "
-           "bare: nothing is printed or stamped on them. NO barcode, NO QR "
-           "code, NO block of fine print anywhere in the image.")
+           "bare: nothing is printed or stamped on them.")
 
 
 # 🚨 Раніше наявність товару в кадрі шукалась як «jar» у subject. Тремела
@@ -136,9 +133,8 @@ def scene_for(t: dict) -> str:
     return (STONE + own + " SMALL, standing in the LOWER MIDDLE of the frame "
             "but clearly ABOVE the bottom edge, with a clear empty gap of "
             "space between the object and the bottom, seen straight on. The "
-            "package is far from the camera and takes up no more than one "
-            "quarter of the image height; its fine print is too small to "
-            "read." + one + EMPTY + TAIL + keep_for(t) + NOBRAND)
+            "package stands at a calm distance from the camera, not filling "
+            "the frame." + one + EMPTY + TAIL + keep_for(t) + NOBRAND)
 
 
 def esc(s: str) -> str:
