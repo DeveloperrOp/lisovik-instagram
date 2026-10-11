@@ -3891,10 +3891,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1011-vitex-evening.jpg",
    "slot_start": "2026-10-11T18:00:00+03:00",
    "slot_end": "2026-10-11T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-11T18:05:16.384253+03:00",
+   "ig_media_id": "18179784340433170",
+   "error": null,
+   "fb_story_id": "1419929870337221"
   },
   {
    "id": "1011-vitex-sell",
