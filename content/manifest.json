@@ -3877,10 +3877,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1011-vitex-noon.jpg",
    "slot_start": "2026-10-11T12:00:00+03:00",
    "slot_end": "2026-10-11T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-11T12:04:28.208790+03:00",
+   "ig_media_id": "17870985537648504",
+   "error": null,
+   "fb_story_id": "1646600163603483"
   },
   {
    "id": "1011-vitex-evening",
