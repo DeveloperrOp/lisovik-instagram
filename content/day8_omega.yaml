@@ -1,0 +1,99 @@
+# Тиждень 8, день 2: Омега-3. Вайб «вода і скло».
+# Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/omeha-3-rybiachyi-zhyr-kapsuly-60-sht-po-1-h/
+thoughts:
+
+- key: w8-omega-dawn
+  topic: Омега-3
+  day: tue
+  slot: dawn
+  layout: poster
+  ref: [omega.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a TERRACOTTA paper label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР
+  look: water
+  subject: >
+    the product from the attached photo together with two translucent golden fish oil softgel capsules
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'велика цифра на банці — вага капсули'
+  claim: 'ВЕЛИКА ЦИФРА — ЦЕ ВАГА КАПСУЛИ'
+  why: 'А не тих кислот, заради яких її беруть. Скільки всередині ЕПК і ДГК, банка часто взагалі не каже.'
+  extra: ''
+  do: 'Шукай ЕПК і ДГК на етикетці'
+
+- key: w8-omega-morning
+  topic: Омега-3
+  day: tue
+  slot: morning
+  layout: poster
+  ref: [omega.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a TERRACOTTA paper label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР
+  look: water
+  subject: >
+    two translucent golden fish oil softgel capsules
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'дві капсули дають 616 мг'
+  claim: 'ШУКАЙ ДВІ ЛІТЕРИ: ЕПК І ДГК'
+  why: 'Саме за ними банки й порівнюють між собою. Решта напису на етикетці до справи не стосується.'
+  extra: ''
+  do: 'Порівняй із тим, що вдома'
+
+- key: w8-omega-noon
+  topic: Омега-3
+  day: tue
+  slot: noon
+  layout: poster
+  ref: [omega.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a TERRACOTTA paper label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР
+  look: water
+  subject: >
+    two translucent golden fish oil softgel capsules
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'право на формулювання дає доза від 250 мг'
+  claim: 'ПРО СЕРЦЕ МОЖНА КАЗАТИ НЕ ВСІМ'
+  why: 'Європейський реєстр дозволяє це формулювання лише там, де кислот достатньо. У нас поріг перекрито вдвічі з половиною.'
+  extra: ''
+  do: 'Читай цифру, не напис'
+
+- key: w8-omega-evening
+  topic: Омега-3
+  day: tue
+  slot: evening
+  layout: poster
+  ref: [omega.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a TERRACOTTA paper label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР
+  look: water
+  subject: >
+    the product from the attached photo together with two translucent golden fish oil softgel capsules
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'дві капсули на добу разом з їжею'
+  claim: 'ДВІ КАПСУЛИ З ЇЖЕЮ'
+  why: 'Разом з обідом або вечерею, не натщесерце. Банка на 60 капсул — це тридцять днів, на 100 — пʼятдесят.'
+  extra: ''
+  do: 'Постав банку біля столу'
+
+- key: w8-omega-sell
+  topic: Омега-3
+  day: tue
+  slot: sell
+  layout: offer
+  ref: [omega.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a TERRACOTTA paper label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР
+  look: water
+  subject: >
+    the product from the attached photo together with two translucent golden fish oil softgel capsules
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'в банці 60 або 100 капсул'
+  claim: 'ЩО В БАНЦІ'
+  why: ''
+  extra: 'ЕПК і ДГК у кожній капсулі|60 або 100 капсул|від 440 грн за банку'
+  do: 'Дивись усі форми на сайті'

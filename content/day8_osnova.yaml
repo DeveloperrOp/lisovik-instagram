@@ -1,0 +1,99 @@
+# Тиждень 8, день 6: Курс Щоденна основа. Вайб «вода і скло».
+# Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/kurs-shchodenna-osnova-omeha-3-i-mahnii-1-misiats/
+thoughts:
+
+- key: w8-osnova-dawn
+  topic: Курс Щоденна основа
+  day: sat
+  slot: dawn
+  layout: poster
+  ref: [osnova_kurs.jpg]
+  pack: >
+    two WHITE opaque plastic bottles with WHITE lids side by side, one with a TERRACOTTA label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР and one with a DEEP BLUE label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    the product from the attached photo together with two white plastic supplement bottles standing side by side
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'у коробці омега й магній разом'
+  claim: 'БАЗА, ЯКУ ЗБИРАЮТЬ ПО ОДНІЙ'
+  why: "Риб'ячий жир і магній зазвичай купують окремо, і щоразу треба щось перекладати в кошику. Тут вони вже разом."
+  extra: ''
+  do: 'Дивись, що в коробці'
+
+- key: w8-osnova-morning
+  topic: Курс Щоденна основа
+  day: sat
+  slot: morning
+  layout: poster
+  ref: [osnova_kurs.jpg]
+  pack: >
+    two WHITE opaque plastic bottles with WHITE lids side by side, one with a TERRACOTTA label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР and one with a DEEP BLUE label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    two white plastic supplement bottles standing side by side
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'цифри винесені на банки'
+  claim: 'ОБИДВІ ЦИФРИ СТОЯТЬ НА ЕТИКЕТКАХ'
+  why: "І кислоти з риб'ячого жиру, і елементарний магній. Не в описі курсу, а на самих банках."
+  extra: ''
+  do: 'Читай обидві етикетки'
+
+- key: w8-osnova-noon
+  topic: Курс Щоденна основа
+  day: sat
+  slot: noon
+  layout: poster
+  ref: [osnova_kurs.jpg]
+  pack: >
+    two WHITE opaque plastic bottles with WHITE lids side by side, one with a TERRACOTTA label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР and one with a DEEP BLUE label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    two white plastic supplement bottles standing side by side
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'у курсі магній у хелатній формі'
+  claim: 'МАГНІЙ ТУТ БІСГЛІЦИНАТ'
+  why: "Хелатна форма, у якій мінерал зв'язаний із амінокислотою. Її беруть тоді, коли попередні форми виявились заважкими."
+  extra: ''
+  do: 'Порівняй форму на банках'
+
+- key: w8-osnova-evening
+  topic: Курс Щоденна основа
+  day: sat
+  slot: evening
+  layout: poster
+  ref: [osnova_kurs.jpg]
+  pack: >
+    two WHITE opaque plastic bottles with WHITE lids side by side, one with a TERRACOTTA label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР and one with a DEEP BLUE label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    the product from the attached photo together with two white plastic supplement bottles standing side by side
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'курс знімає потребу обирати'
+  claim: 'ТРИДЦЯТЬ ДНІВ БЕЗ ВИБОРУ'
+  why: 'Схема одна, рахувати нічого. Саме цей вибір зазвичай і відкладає старт на наступний понеділок.'
+  extra: ''
+  do: 'Признач день старту'
+
+- key: w8-osnova-sell
+  topic: Курс Щоденна основа
+  day: sat
+  slot: sell
+  layout: offer
+  ref: [osnova_kurs.jpg]
+  pack: >
+    two WHITE opaque plastic bottles with WHITE lids side by side, one with a TERRACOTTA label reading ОМЕГА-3 РИБ'ЯЧИЙ ЖИР and one with a DEEP BLUE label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    the product from the attached photo together with two white plastic supplement bottles standing side by side
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'курс розрахований на місяць'
+  claim: 'ДВІ БАНКИ НА МІСЯЦЬ'
+  why: ''
+  extra: 'Омега-3 і магній гліцинат|Схема на 30 днів|від 1030 грн за коробку'
+  do: 'Дивись усі форми на сайті'

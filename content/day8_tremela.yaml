@@ -1,0 +1,99 @@
+# Тиждень 8, день 1: Тремела. Вайб «вода і скло».
+# Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/tremela-sushenyi-hryb-50-h/
+thoughts:
+
+- key: w8-tremela-dawn
+  topic: Тремела
+  day: mon
+  slot: dawn
+  layout: poster
+  ref: [tremella.jpg]
+  pack: >
+    a brown kraft paper stand-up zip pouch with a clear window at the bottom showing the dried mushrooms inside and a DEEP BLUE paper label across its middle reading ТРЕМЕЛА
+  look: water
+  subject: >
+    the product from the attached photo together with one pale frilly dried tremella mushroom that looks like white coral
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'у Китаї тремелу звуть срібним вухом'
+  claim: 'СРІБНЕ ВУХО З АЗІЙСЬКОЇ КУХНІ'
+  why: 'Так тремелу звуть у Китаї за вигляд. Там сніжний гриб століттями кладуть у солодкі супи й десерти, а не тільки в банку.'
+  extra: ''
+  do: 'Дивись склад на пакеті'
+
+- key: w8-tremela-morning
+  topic: Тремела
+  day: mon
+  slot: morning
+  layout: poster
+  ref: [tremella.jpg]
+  pack: >
+    a brown kraft paper stand-up zip pouch with a clear window at the bottom showing the dried mushrooms inside and a DEEP BLUE paper label across its middle reading ТРЕМЕЛА
+  look: water
+  subject: >
+    one pale frilly dried tremella mushroom that looks like white coral
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'сушена тремела набухає у воді'
+  claim: 'У ВОДІ РОЗКРИВАЄТЬСЯ В КІЛЬКА РАЗІВ'
+  why: 'Сушений гриб схожий на зіжмаканий папірець. Залий окропом — і за кілька хвилин у мисці буде прозоре мереживо.'
+  extra: ''
+  do: 'Залий окропом і подивись'
+
+- key: w8-tremela-noon
+  topic: Тремела
+  day: mon
+  slot: noon
+  layout: poster
+  ref: [tremella.jpg]
+  pack: >
+    a brown kraft paper stand-up zip pouch with a clear window at the bottom showing the dried mushrooms inside and a DEEP BLUE paper label across its middle reading ТРЕМЕЛА
+  look: water
+  subject: >
+    one pale frilly dried tremella mushroom that looks like white coral
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'у пакеті самі плодові тіла'
+  claim: 'У ПАКЕТІ ТІЛЬКИ ГРИБ'
+  why: 'Усередині те, що зветься плодовими тілами, — цілі, сушені. Більше нічого: ні наповнювачів, ні барвників.'
+  extra: ''
+  do: 'Читай склад на пакеті'
+
+- key: w8-tremela-evening
+  topic: Тремела
+  day: mon
+  slot: evening
+  layout: poster
+  ref: [tremella.jpg]
+  pack: >
+    a brown kraft paper stand-up zip pouch with a clear window at the bottom showing the dried mushrooms inside and a DEEP BLUE paper label across its middle reading ТРЕМЕЛА
+  look: water
+  subject: >
+    the product from the attached photo together with one pale frilly dried tremella mushroom that looks like white coral
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'речовина переходить у гарячу воду'
+  claim: 'ГАРЯЧОЇ ВОДИ ВИСТАЧАЄ'
+  why: 'Головна речовина гриба розчиняється у воді. Тому цілий сушений нічим не програє меленому: ні заводського помелу, ні екстракції не потрібно.'
+  extra: ''
+  do: 'Завари й лиши настоятись'
+
+- key: w8-tremela-sell
+  topic: Тремела
+  day: mon
+  slot: sell
+  layout: offer
+  ref: [tremella.jpg]
+  pack: >
+    a brown kraft paper stand-up zip pouch with a clear window at the bottom showing the dried mushrooms inside and a DEEP BLUE paper label across its middle reading ТРЕМЕЛА
+  look: water
+  subject: >
+    the product from the attached photo together with one pale frilly dried tremella mushroom that looks like white coral
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'тремела є цілою й у капсулах'
+  claim: 'ЦІЛИЙ ГРИБ У КРАФТІ'
+  why: ''
+  extra: 'Цілий сушений гриб у крафті|Можна в чай і в десерт|від 437 грн'
+  do: 'Дивись усі форми на сайті'

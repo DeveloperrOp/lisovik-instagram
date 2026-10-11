@@ -1,0 +1,99 @@
+# Тиждень 8, день 7: Магній гліцинат. Вайб «вода і скло».
+# Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/mahnii-hlitsynat-kapsuly-60-sht-po-07-h/
+thoughts:
+
+- key: w8-magniy-dawn
+  topic: Магній гліцинат
+  day: sun
+  slot: dawn
+  layout: poster
+  ref: [magnium.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a DEEP NAVY BLUE paper label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    the product from the attached photo together with a few pale ivory capsules lying on a wet glass surface
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'велика цифра стосується не мінералу'
+  claim: 'ЦИФРА НА БАНЦІ ВАЖИТЬ НЕ ТЕ'
+  why: 'Це вага всієї речовини, яку звуть сполукою. Сам мінерал у ній лише частина, і яка саме — банка часто мовчить.'
+  extra: ''
+  do: 'Шукай слово «елементарний»'
+
+- key: w8-magniy-morning
+  topic: Магній гліцинат
+  day: sun
+  slot: morning
+  layout: poster
+  ref: [magnium.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a DEEP NAVY BLUE paper label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    a few pale ivory capsules lying on a wet glass surface
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'норму рахують за елементарним магнієм'
+  claim: 'ШУКАЙ СЛОВО «ЕЛЕМЕНТАРНИЙ»'
+  why: 'Саме цей магній рахують у нормі, і саме він стоїть у нас на етикетці. Без цього слова цифра нічого не означає.'
+  extra: ''
+  do: 'Порівняй із тим, що вдома'
+
+- key: w8-magniy-noon
+  topic: Магній гліцинат
+  day: sun
+  slot: noon
+  layout: poster
+  ref: [magnium.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a DEEP NAVY BLUE paper label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    a few pale ivory capsules lying on a wet glass surface
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'у хелаті мінерал звʼязаний із гліцином'
+  claim: 'МІНЕРАЛ, ЗАГОРНУТИЙ У ГЛІЦИН'
+  why: "У хелаті магній зв'язаний із двома молекулами амінокислоти. Це друга половина сполуки, і саме через неї форму ставлять у вечірній прийом."
+  extra: ''
+  do: 'Читай форму на етикетці'
+
+- key: w8-magniy-evening
+  topic: Магній гліцинат
+  day: sun
+  slot: evening
+  layout: poster
+  ref: [magnium.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a DEEP NAVY BLUE paper label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    the product from the attached photo together with a few pale ivory capsules lying on a wet glass surface
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'форми магнію різняться переносимістю'
+  claim: 'ДО ТРЕТЬОЇ ФОРМИ ПРИХОДЯТЬ ОСТАННЬОЮ'
+  why: 'Оксид найдешевший і найважчий для шлунка, цитрат помітно послаблює. Бісгліцинат беруть тоді, коли перші дві не підійшли.'
+  extra: ''
+  do: 'Порівняй форму на банках'
+
+- key: w8-magniy-sell
+  topic: Магній гліцинат
+  day: sun
+  slot: sell
+  layout: offer
+  ref: [magnium.jpg]
+  pack: >
+    a WHITE opaque plastic bottle with a WHITE lid and a DEEP NAVY BLUE paper label reading МАГНІЙ ГЛІЦИНАТ
+  look: water
+  subject: >
+    the product from the attached photo together with a few pale ivory capsules lying on a wet glass surface
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'магній є у двох фасовках'
+  claim: 'ОДНА ВРАНЦІ, ОДНА ВВЕЧЕРІ'
+  why: ''
+  extra: 'Елементарний магній на етикетці|60 або 120 капсул|від 590 грн'
+  do: 'Дивись усі форми на сайті'
