@@ -86,13 +86,19 @@ def keep_for(t: dict) -> str:
 NOBRAND = (" ABSOLUTELY NO brand name, logo, slogan or wording of any other "
            "company anywhere in the image, and no English brand text of any "
            "kind. Capsules, berries, powder and raw material are completely "
-           "bare: nothing is printed or stamped on them.")
+           "bare: nothing is printed or stamped on them. NO barcode, NO QR "
+           "code, NO block of fine print anywhere in the image.")
 
 
 # 🚨 Раніше наявність товару в кадрі шукалась як «jar» у subject. Тремела
 # лежить у pouch, детокс у box — для них умова ніколи не спрацьовувала, і
 # обидва дні малювались без референсу взагалі.
-PACKWORDS = ("jar", "bottle", "pouch", "box", "package", "packet", "sachet")
+# «product» тут головне слово: саме ним у файлах дня названа наша
+# упаковка — «the product from the attached photo». Без нього перевірка
+# не бачила товару майже ніде й кадр малювався без референсу: на місці
+# нашого пакета тремели вийшла китайська банка з ієрогліфами.
+PACKWORDS = ("product", "attached photo", "jar", "bottle", "pouch", "box",
+             "package", "packet", "sachet")
 
 
 def shows_pack(t: dict) -> bool:
@@ -129,8 +135,10 @@ def scene_for(t: dict) -> str:
                 EMPTY + TAIL + keep_for(t) + NOBRAND)
     return (STONE + own + " SMALL, standing in the LOWER MIDDLE of the frame "
             "but clearly ABOVE the bottom edge, with a clear empty gap of "
-            "space between the object and the bottom, seen straight on." +
-            one + EMPTY + TAIL + keep_for(t) + NOBRAND)
+            "space between the object and the bottom, seen straight on. The "
+            "package is far from the camera and takes up no more than one "
+            "quarter of the image height; its fine print is too small to "
+            "read." + one + EMPTY + TAIL + keep_for(t) + NOBRAND)
 
 
 def esc(s: str) -> str:
