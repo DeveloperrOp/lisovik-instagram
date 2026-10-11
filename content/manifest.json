@@ -3849,10 +3849,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1011-vitex-dawn.jpg",
    "slot_start": "2026-10-11T07:00:00+03:00",
    "slot_end": "2026-10-11T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-11T07:07:48.493120+03:00",
+   "ig_media_id": "18156817522465039",
+   "error": null,
+   "fb_story_id": "1122063616852445"
   },
   {
    "id": "1011-vitex-morning",
