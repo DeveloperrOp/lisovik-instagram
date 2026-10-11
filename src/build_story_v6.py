@@ -68,14 +68,36 @@ def keep_for(t: dict) -> str:
     забороняються прямо.
     """
     pack = " ".join((t.get("pack") or "").split())
-    if not pack:
+    if not pack or not shows_pack(t):
         return ""
     return (" CRITICAL: the product is EXACTLY the one in the attached photo "
             "and belongs to the Ukrainian brand ЛІСОВИК: " + pack +
             ", carrying the white ЛІСОВИК tree-face logo. It is NOT a glass "
             "dropper bottle, NOT a pump bottle and NOT a cosmetics "
-            "container. ABSOLUTELY NO other brand name, logo or wording "
-            "anywhere in the image — no English brand text of any kind.")
+            "container. The label carries ONLY the big product name and that "
+            "logo: NO small print lines, NO paragraph of fine text, NO "
+            "barcode, NO ingredient list anywhere on the package.")
+
+
+# 🚨 Чужа марка лізе й туди, де нашої упаковки в кадрі немає: на макро
+# капсул магнію модель надрукувала «NATURE'S SERENITY · CALM & FOCUS»
+# просто по оболонці. Тому заборона йде окремим рядком у КОЖЕН кадр, а
+# не тільки в ті, де описана банка.
+NOBRAND = (" ABSOLUTELY NO brand name, logo, slogan or wording of any other "
+           "company anywhere in the image, and no English brand text of any "
+           "kind. Capsules, berries, powder and raw material are completely "
+           "bare: nothing is printed or stamped on them.")
+
+
+# 🚨 Раніше наявність товару в кадрі шукалась як «jar» у subject. Тремела
+# лежить у pouch, детокс у box — для них умова ніколи не спрацьовувала, і
+# обидва дні малювались без референсу взагалі.
+PACKWORDS = ("jar", "bottle", "pouch", "box", "package", "packet", "sachet")
+
+
+def shows_pack(t: dict) -> bool:
+    own = (t.get("subject") or "").lower()
+    return any(w in own for w in PACKWORDS)
 
 
 EMPTY = (" The UPPER TWO THIRDS of the frame are smooth pale blue — no object, "
@@ -91,24 +113,24 @@ def scene_for(t: dict) -> str:
     own = " ".join((t.get("subject") or "").split())
     # Кадр без банки описує саму сировину — тоді й заборона на другу
     # банку ні до чого.
-    one = "" if "jar" not in own.lower() else ONE
+    one = ONE if shows_pack(t) else ""
 
     if slot == "morning":
         return (STONE + "FLAT LAY, camera directly overhead: " + own +
                 " Every object lies flat on the wet glass, nothing stands "
-                "upright." + one + EMPTY + TAIL + keep_for(t))
+                "upright." + one + EMPTY + TAIL + keep_for(t) + NOBRAND)
     if slot == "noon":
         return (STONE + "Extreme macro, razor sharp: " + own + " The object "
                 "fills the MIDDLE of the frame, large and detailed." + EMPTY +
-                TAIL)
+                TAIL + keep_for(t) + NOBRAND)
     if slot == "evening":
         return (STONE + own + " Seen slightly from the side, one long hard "
                 "reflection falling to the right across the wet glass." + one +
-                EMPTY + TAIL + keep_for(t))
+                EMPTY + TAIL + keep_for(t) + NOBRAND)
     return (STONE + own + " SMALL, standing in the LOWER MIDDLE of the frame "
             "but clearly ABOVE the bottom edge, with a clear empty gap of "
             "space between the object and the bottom, seen straight on." +
-            one + EMPTY + TAIL + keep_for(t))
+            one + EMPTY + TAIL + keep_for(t) + NOBRAND)
 
 
 def esc(s: str) -> str:
@@ -204,6 +226,10 @@ def main() -> int:
                               topic=items[0].get("topic", ""),
                               ref=items[0].get("ref"), why="", compound="",
                               subject=items[0].get("subject"),
+                              # Без опису упаковки оферта малювалась як
+                              # косметика з чужим брендом: поле pack до неї
+                              # не доходило, бо кадр додається окремо.
+                              pack=items[0].get("pack"),
                               source="content/offers.yaml")]
 
     outdir = OUT_DIR / path.stem
@@ -219,7 +245,7 @@ def main() -> int:
             prompt = scene_for(t)
             # Кадр без банки малюється без референсу: поки фото
             # прикріплене, модель однаково ставить банку в кадр.
-            if refs and "jar" in (t.get("subject") or "").lower():
+            if refs and shows_pack(t):
                 prompt += " " + " ".join(B.REF_MANY.split())
                 ok = F.draw_ref(prompt, refs, tok, bg, aspect="9:16")
             else:

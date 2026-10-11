@@ -48,6 +48,15 @@ ORDER5 = ["lysychka", "veselka", "maitake", "aharik", "trametes",
 # підбирається оферта дня: mind=пн, gastro=вт, focus=ср, beauty=чт,
 # heart=пт, intuit=сб, tea=нд.
 ORDER6 = ["mind", "gastro", "focus", "beauty", "heart", "intuit", "tea"]
+# Сьомий набір — традиція й історія, вайб «камінь». Зібраний 11.10.2026
+# і відкладений: Ярик попросив спершу взяти те, чого ще не постили.
+ORDER7 = ["maca", "tribulus", "ginseng", "ashwa", "chaha", "reishi",
+          "shii"]
+# Восьмий набір — товари, яких ще не було в сторіс. Порядок обрав Ярик
+# 11.10.2026 і він зашитий у поле day кожного файлу, бо по ньому
+# підбирається оферта дня.
+ORDER8 = ["tremela", "omega", "dlianei", "detox", "serenoa", "osnova",
+          "magniy"]
 
 
 def arg(name, default=None):
@@ -83,12 +92,16 @@ def main() -> int:
         return 0
 
     slots = yaml.safe_load(DEFAULTS.read_text(encoding="utf-8"))["slots"]
-    prefix = ("day6_" if "--week6" in sys.argv else
+    prefix = ("day8_" if "--week8" in sys.argv else
+              "day7_" if "--week7" in sys.argv else
+              "day6_" if "--week6" in sys.argv else
               "day5_" if "--week5" in sys.argv else
               "day4_" if "--week4" in sys.argv else
               "day3_" if "--week3" in sys.argv else
               "day2_" if "--week2" in sys.argv else "day_")
     order = (arg("--order") or ",".join(
+        ORDER8 if "--week8" in sys.argv else
+        ORDER7 if "--week7" in sys.argv else
         ORDER6 if "--week6" in sys.argv else
         ORDER5 if "--week5" in sys.argv else
         ORDER4 if "--week4" in sys.argv else
