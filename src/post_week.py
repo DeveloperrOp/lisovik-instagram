@@ -26,6 +26,7 @@ import generate as gen
 import overlays as O
 import story_text as ST
 from config import OUT_DIR
+from render_html import shot, data_uri
 
 # Тема тижня змінюється щотижня, тому заголовок, рядок «що в добірці» і
 # референси банок задаються аргументами, а не правкою коду:
@@ -47,6 +48,46 @@ URL = "https://lisovik.com.ua/tovar-tyzhnia/"
 PAGE = OUT_DIR.parent / "tmp" / "week.html"
 DEST = OUT_DIR / "post_week"
 W, H = 1080, 1350
+
+FONTS = ("<link rel='preconnect' href='https://fonts.gstatic.com'>"
+         "<link href='https://fonts.googleapis.com/css2?family=Montserrat:"
+         "wght@400;500;600;700;800;900&display=swap' rel='stylesheet'>")
+
+# Подачу обрав Ярик 11.10 з восьми проб: світлий камінь, зелена
+# типографіка, ціни таблицею — стара перекреслена, нова поруч.
+# Попередній стиль (чорне тло, жовта плашка) він забракував цілком.
+CSS = """*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;overflow:hidden;position:relative;
+ font-family:Montserrat;color:#17351f;-webkit-font-smoothing:antialiased}
+.bg{position:absolute;inset:0;background:url('@BG@') center/cover}
+.wash{position:absolute;inset:0;background:linear-gradient(180deg,
+ rgba(255,255,255,.96) 0%,rgba(255,255,255,.82) 42%,rgba(255,255,255,0) 62%)}
+.col{position:absolute;left:7%;right:7%;top:6%}
+.eye{font-weight:700;font-size:20px;letter-spacing:.3em;text-transform:uppercase;
+ color:#2f7d45;margin-bottom:16px}
+h1{font-weight:800;font-size:92px;line-height:.95;letter-spacing:-3px}
+h1 b{color:#2f7d45;font-weight:800}
+table{width:100%;margin-top:30px;border-collapse:collapse}
+td{padding:11px 0;font-size:29px;vertical-align:baseline;
+ border-bottom:1px solid rgba(23,53,31,.14)}
+td.n{font-weight:600}
+td.o{text-align:right;font-weight:500;font-size:25px;color:#8a9c8f;
+ text-decoration:line-through;padding-right:18px;white-space:nowrap}
+td.p{text-align:right;font-weight:800;color:#2f7d45;white-space:nowrap}
+/* Рядок унизу наїжджав на пакет, і «250Г» з етикетки падало просто в
+   нього. Тому під ним власна світла підкладка, як у заголовка. */
+.foot{position:absolute;left:0;right:0;bottom:0;height:16%;
+ background:linear-gradient(0deg,rgba(255,255,255,.97) 0%,
+ rgba(255,255,255,.90) 52%,rgba(255,255,255,0) 100%)}
+.do{position:absolute;left:7%;bottom:5%;font-weight:700;font-size:24px;
+ letter-spacing:.1em;text-transform:uppercase;
+ border-bottom:3px solid #2f7d45;padding-bottom:10px}
+"""
+
+
+def esc(x: str) -> str:
+    return (x or "").replace("&", "&amp;").replace("<", "&lt;")
+
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -98,6 +139,10 @@ def short(name: str) -> str:
     n = re.sub(r"\s*\([^)]*\)", "", n)          # «(1 місяць)» — це фасовка
     n = re.sub(r"\s+для розумової активності", "", n)
     n = re.sub(r"^Гриби?\s+", "", n)            # «Гриб Траметес» = «Траметес»
+    # Фасовка в кадр не йде: вона є в підписі, а на зображенні через неї
+    # одна спіруліна дає шість рядків замість двох і список лізе за край.
+    n = re.sub(r"\s+\d+\s*[+]\s*\d+\s*г", "", n)   # «100+100 г»
+    n = re.sub(r"\s+\d+\s*г", "", n)                 # «250 г»
     # «WOMEN Natural Power Formula» — найдовший рядок списку, він наповзав
     # на кришки банок (27.09). На банері цей самий товар — «комплекс WOMEN».
     n = re.sub(r"^(WOMEN|MEN) Natural Power Formula$", r"Комплекс \1", n)
@@ -137,16 +182,16 @@ def draw(items: list) -> None:
     bg = DEST / "bg.png"
     if not bg.exists():
         prompt = (
-            "Square-ish 4:5 photograph for a Ukrainian wellness brand. "
-            "Several jars and capsule bottles of mushroom and herb powders "
-            "standing together in a tight group on a dark surface, seen "
-            "slightly from above, "
-            "one hard side light carving them out of the dark, deep shadows, "
-            "advertising-grade still life. The objects sit low, in the "
-            "BOTTOM QUARTER of the frame only; everything above them stays "
-            "dark and empty for a headline. "
-            "No text, no letters, no labels with readable words, no "
-            "watermarks, no red-and-white spotted mushrooms.")
+            "FLAT LAY, camera directly overhead, soft daylight on a pale "
+            "stone surface: two of the attached packages lying flat in the "
+            "BOTTOM HALF of the frame beside a wooden spoon heaped with "
+            "bright green powder and a small loose scatter of the same "
+            "powder. The TOP HALF is bare pale stone, completely empty. "
+            "Draw ONLY the kinds of package shown in the attached photos — "
+            "if they are stand-up pouches, every package in the frame is a "
+            "pouch: no jars, no bottles, no tins invented on top of them. "
+            "NO text of your own anywhere in the image, no watermarks, no "
+            "red-and-white spotted mushrooms.")
         # Банки в кадрі мусять бути наші, інакше пост рекламує чужий
         # бренд. Дрібний шрифт на етикетках читати не обовʼязково —
         # див. REF_MANY у build_day.
@@ -177,46 +222,23 @@ def draw(items: list) -> None:
             print("тло не намалювалось")
             return
 
-    img = Image.open(bg).convert("RGBA").resize((W, H))
-    img = O.fade(img, int(H * 0.78), 225, False, tail=int(H * 0.12))
-    d = ImageDraw.Draw(img)
-
-    fk = ST.ImageFont.truetype(ST.FONT_BOLD, int(W * 0.036))
-    track = fk.size * 0.16
-    label = "ТОВАР ТИЖНЯ"
-    wide = sum(d.textlength(c, font=fk) + track for c in label) - track
-    x0, y0 = int(W * 0.08), int(H * 0.07)
-    d.rectangle([x0 - 14, y0 - 10, x0 + wide + 14, y0 + fk.size + 10],
-                fill=O.ACCENT)
-    x = x0
-    for c in label:
-        O.put(d, (x, y0), c, fk, O.INK)
-        x += d.textlength(c, font=fk) + track
-
-    fh = ST.ImageFont.truetype(ST.FONT_BOLD, int(W * 0.105))
-    y = int(H * 0.135)
-    for ln in ST.wrap(d, HEADLINE, fh, int(W * 0.84)):
-        O.put(d, (int(W * 0.08), y), ln, fh, O.WHITE)
-        y += int(fh.size * 1.10)
-
-    fp = ST.ImageFont.truetype(ST.FONT_REG, int(W * 0.040))
-    y += int(H * 0.018)
-    for it in group(items):
-        s = it["name"]
-        dot = int(fp.size * 0.30)
-        d.ellipse([int(W * 0.08), y + fp.size * 0.42,
-                   int(W * 0.08) + dot, y + fp.size * 0.42 + dot],
-                  fill=O.ACCENT)
-        for i, ln in enumerate(ST.wrap(d, s, fp, int(W * 0.70))):
-            O.put(d, (int(W * 0.08) + int(dot * 2.4), y), ln, fp,
-                  (238, 238, 240))
-            y += int(fp.size * 1.32)
-        y += int(H * 0.008)
-
-    img = O.takeaway(img, {"light": False, "fg": O.WHITE},
-                     "Посилання в шапці профілю")
+    # Верстка через HTML: у PIL перекреслена ціна коштувала б окремої
+    # лінії під кожним рядком, а тут це одна властивість тексту.
+    rows = "".join(
+        "<tr><td class='n'>" + esc(it["name"]) + "</td>"
+        "<td class='o'>" + it["old"] + "</td>"
+        "<td class='p'>" + it["new"] + " грн</td></tr>"
+        for it in group(items))
+    html = ("<html><head>" + FONTS + "<style>" +
+            CSS.replace("@BG@", data_uri(bg)) + "</style></head><body>"
+            "<div class='bg'></div><div class='wash'></div>"
+            "<div class='col'><div class='eye'>Товар тижня</div>"
+            "<h1>" + HEADLINE + "</h1>"
+            "<table>" + rows + "</table></div>"
+            "<div class='foot'></div>"
+            "<div class='do'>Посилання в шапці профілю</div></body></html>")
     out = DEST / "post_week.jpg"
-    img.convert("RGB").save(out, "JPEG", quality=93)
+    shot(html, out, w=W, h=H)
     print("кадр:", out)
 
 
