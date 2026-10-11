@@ -1,0 +1,89 @@
+# Тиждень 7, день 7: Шиїтаке. Вайб «камінь».
+# Традиція й історія продукту. Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/hryby-shyitake-susheni-50h/
+thoughts:
+
+- key: s7-shii-dawn
+  topic: Шиїтаке
+  day: sun
+  slot: dawn
+  layout: poster
+  ref: [shii.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a few dried shiitake caps, brown with pale cracks on top and curled edges
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'імʼя шиїтаке складене з дерева й гриба'
+  claim: 'ПІВІМЕНІ — ЦЕ ДЕРЕВО'
+  why: 'Японське слово складене з двох. «Сії» — порода, на якій гриб росте в дикій природі, «таке» — просто гриб.'
+  extra: ''
+  do: 'Дивись склад на банці'
+
+- key: s7-shii-morning
+  topic: Шиїтаке
+  day: sun
+  slot: morning
+  layout: poster
+  ref: [shii.jpg]
+  look: stone
+  subject: >
+    a few dried shiitake caps, brown with pale cracks on top and curled edges
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'у Китаї шиїтаке звуть ароматним грибом'
+  claim: 'У КИТАЇ — АРОМАТНИЙ ГРИБ'
+  why: 'Сян-гу: так його звуть там. Сушений капелюшок легко впізнати за блідими тріщинками зверху й підвернутим краєм.'
+  extra: ''
+  do: 'Бери сушені або капсули'
+
+- key: s7-shii-noon
+  topic: Шиїтаке
+  day: sun
+  slot: noon
+  layout: poster
+  ref: [shii.jpg]
+  look: stone
+  subject: >
+    a few dried shiitake caps, brown with pale cracks on top and curled edges
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'густа сітка тріщин цінується в Японії'
+  claim: 'ЧИМ ГУСТІША СІТКА, ТИМ ЦІННІШИЙ'
+  why: 'У Японії такий шиїтаке звуть квітковим. Тріщини на капелюшку там вважають не браком, а ознакою доброго гриба.'
+  extra: ''
+  do: 'Подивись на капелюшок'
+
+- key: s7-shii-evening
+  topic: Шиїтаке
+  day: sun
+  slot: evening
+  layout: poster
+  ref: [shii.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a few dried shiitake caps, brown with pale cracks on top and curled edges
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'речовину назвали на честь шиїтаке'
+  claim: 'ЛЕНТИНАН НАЗВАЛИ НА ЙОГО ЧЕСТЬ'
+  why: 'Цю речовину вперше виділили саме з шиїтаке — звідси й імʼя. У Японії та Китаї гриб здавна їли восени й узимку.'
+  extra: ''
+  do: 'Постав банку на видноті'
+
+- key: s7-shii-sell
+  topic: Шиїтаке
+  day: sun
+  slot: sell
+  layout: offer
+  ref: [shii.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a few dried shiitake caps, brown with pale cracks on top and curled edges
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'шиїтаке є в кількох формах'
+  claim: 'СУШЕНІ КАПЕЛЮШКИ Й КАПСУЛИ'
+  why: ''
+  extra: 'Цілі, мелені або екстракт|Плодові тіла, не міцелій|від 425 грн'
+  do: 'Дивись усі форми на сайті'

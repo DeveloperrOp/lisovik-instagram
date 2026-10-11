@@ -1,0 +1,89 @@
+# Тиждень 7, день 3: Женьшень. Вайб «камінь».
+# Традиція й історія продукту. Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/zhenshen-ekstrakt-101-kapsuly-60-sht-po-06-h/
+thoughts:
+
+- key: s7-ginseng-dawn
+  topic: Женьшень
+  day: wed
+  slot: dawn
+  layout: poster
+  ref: [ginseng_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with one dried ginseng root shaped like a small human figure with forked legs
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'женьшень звали коренем життя за форму'
+  claim: 'КОРІНЬ ІЗ РУКАМИ Й НОГАМИ'
+  why: 'Panax ginseng росте в горах Кореї та північного Китаю. Корінь, схожий на людську фігурку, там віками звали коренем життя — це переклад самого слова.'
+  extra: ''
+  do: 'Дивись склад на банці'
+
+- key: s7-ginseng-morning
+  topic: Женьшень
+  day: wed
+  slot: morning
+  layout: poster
+  ref: [ginseng_ext.jpg]
+  look: stone
+  subject: >
+    one dried ginseng root shaped like a small human figure with forked legs
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'шукачі кореня мали свій ритуал'
+  claim: 'ЙОГО ШУКАЛИ ЗА РИТУАЛОМ'
+  why: 'Ва-панцуй, далекосхідні копачі, казали знахідці вголос: прийшли з чистими руками. А копати бралися тільки перед заходом сонця.'
+  extra: ''
+  do: 'Читай форму на етикетці'
+
+- key: s7-ginseng-noon
+  topic: Женьшень
+  day: wed
+  slot: noon
+  layout: poster
+  ref: [ginseng_ext.jpg]
+  look: stone
+  subject: >
+    one dried ginseng root shaped like a small human figure with forked legs
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'перша згадка кореня — у давньому трактаті'
+  claim: 'НАЙДАВНІШИЙ ЗАПИС — У ШЕНЬ-НУНА'
+  why: 'Трактат «Шень-нун бень цао цзін» традиція приписує легендарному правителю. Звідти корінь і дійшов до імператорського столу.'
+  extra: ''
+  do: 'Читай форму на етикетці'
+
+- key: s7-ginseng-evening
+  topic: Женьшень
+  day: wed
+  slot: evening
+  layout: poster
+  ref: [ginseng_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with one dried ginseng root shaped like a small human figure with forked legs
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'родіолу на Алтаї ховали від чужинців'
+  claim: 'ЗОЛОТИЙ КОРІНЬ З ІНШОГО БОКУ КАРТИ'
+  why: 'На Алтаї про родіолу чужинцям не розповідали і вірили: хто знайде золотий корінь, той проживе два віки.'
+  extra: ''
+  do: 'Шукай суміш із родіолою'
+
+- key: s7-ginseng-sell
+  topic: Женьшень
+  day: wed
+  slot: sell
+  layout: offer
+  ref: [ginseng_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with one dried ginseng root shaped like a small human figure with forked legs
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'женьшень є окремо і в суміші'
+  claim: 'ЕКСТРАКТ КОРЕНЯ 10:1'
+  why: ''
+  extra: '60 або 120 капсул|Є й суміш із родіолою|від 370 грн за банку'
+  do: 'Дивись усі форми на сайті'

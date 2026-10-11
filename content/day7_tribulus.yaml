@@ -1,0 +1,89 @@
+# Тиждень 7, день 2: Трібулус. Вайб «камінь».
+# Традиція й історія продукту. Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/tribulus-ekstrakt-kapsuly-60-sht-po-06-h/
+thoughts:
+
+- key: s7-tribulus-dawn
+  topic: Трібулус
+  day: tue
+  slot: dawn
+  layout: poster
+  ref: [tribulus_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a few dried spiky tribulus seed pods, small brown burrs with sharp spines
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'якірці названі за чіпкі плоди'
+  claim: 'КОЛЮЧКА, ЩО ЧІПЛЯЄТЬСЯ ДО КОПИТ'
+  why: 'Українська назва рослини — якірці сланкі. Плоди чіпляються до копит і підошов, і саме звідси пішло слово «якірці».'
+  extra: ''
+  do: 'Дивись склад на банці'
+
+- key: s7-tribulus-morning
+  topic: Трібулус
+  day: tue
+  slot: morning
+  layout: poster
+  ref: [tribulus_ext.jpg]
+  look: stone
+  subject: >
+    a few dried spiky tribulus seed pods, small brown burrs with sharp spines
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'в Індії трібулус звали гокшурою'
+  claim: 'У САНСКРИТІ — КОРОВʼЯЧЕ КОПИТО'
+  why: 'Гокшура: так рослину звали в Індії за форму плода. Чарака-самхіта, якій дві з половиною тисячі років, ставить її серед десяти головних.'
+  extra: ''
+  do: 'Читай форму на етикетці'
+
+- key: s7-tribulus-noon
+  topic: Трібулус
+  day: tue
+  slot: noon
+  layout: poster
+  ref: [tribulus_ext.jpg]
+  look: stone
+  subject: >
+    a few dried spiky tribulus seed pods, small brown burrs with sharp spines
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'грецьке слово означало і плід, і зброю'
+  claim: 'ГРЕКИ НАЗВАЛИ НИМ ЗБРОЮ'
+  why: 'Τρίβολος — це і колючий плід, і чотиришипий залізний їжак, який розсипали проти кінноти. Римляни перейняли обидва значення в слові tribulus.'
+  extra: ''
+  do: 'Запиши латинську назву'
+
+- key: s7-tribulus-evening
+  topic: Трібулус
+  day: tue
+  slot: evening
+  layout: poster
+  ref: [tribulus_ext.jpg]
+  look: stone
+  subject: >
+    a few dried spiky tribulus seed pods, small brown burrs with sharp spines
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'трібулус росте на сухих бідних ґрунтах'
+  claim: 'РОСТЕ ТАМ, ДЕ СУХО'
+  why: 'Від Середземноморʼя до Індії, на бідних ґрунтах і вздовж доріг. Невисока рослина, яку легше знайти, ніж виростити.'
+  extra: ''
+  do: 'Постав банку на видноті'
+
+- key: s7-tribulus-sell
+  topic: Трібулус
+  day: tue
+  slot: sell
+  layout: offer
+  ref: [tribulus_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a few dried spiky tribulus seed pods, small brown burrs with sharp spines
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'у банці екстракт за сапонінами'
+  claim: 'ЕКСТРАКТ, А НЕ МЕЛЕНА ТРАВА'
+  why: ''
+  extra: '90% сапонінів|60 або 120 капсул|від 470 грн за банку'
+  do: 'Дивись усі форми на сайті'

@@ -1,0 +1,89 @@
+# Тиждень 7, день 4: Ашваганда. Вайб «камінь».
+# Традиція й історія продукту. Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/ashvahanda-melena-50-h/
+thoughts:
+
+- key: s7-ashwa-dawn
+  topic: Ашваганда
+  day: thu
+  slot: dawn
+  layout: poster
+  ref: [ashwa_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a few dried ashwagandha roots, thin pale woody roots
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'в Індії ашваганду звуть індійським женьшенем'
+  claim: 'ЇЇ ЗВУТЬ ІНДІЙСЬКИМ ЖЕНЬШЕНЕМ'
+  why: 'Так ашваганду називають на батьківщині. В аюрведі корінь тисячоліттями давали тоді, коли на людину лягало більше, ніж зазвичай.'
+  extra: ''
+  do: 'Дивись склад на банці'
+
+- key: s7-ashwa-morning
+  topic: Ашваганда
+  day: thu
+  slot: morning
+  layout: poster
+  ref: [ashwa_ext.jpg]
+  look: stone
+  subject: >
+    a few dried ashwagandha roots, thin pale woody roots
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'імʼя рослини дали за кінський дух'
+  claim: 'САНСКРИТСЬКЕ ІМʼЯ — ЗАПАХ КОНЯ'
+  why: 'Свіжий корінь справді має такий дух. Назва збереглася, хоча в банку йде вже висушений і мелений.'
+  extra: ''
+  do: 'Бери корінь, не листя'
+
+- key: s7-ashwa-noon
+  topic: Ашваганда
+  day: thu
+  slot: noon
+  layout: poster
+  ref: [ashwa_ext.jpg]
+  look: stone
+  subject: >
+    a few dried ashwagandha roots, thin pale woody roots
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'для добавки беруть лише корінь'
+  claim: 'У СПРАВУ ЙДЕ ТІЛЬКИ КОРІНЬ'
+  why: 'Листя та плоди в добавки не беруть. У корені накопичуються речовини, які звуть вітанолідами, — заради них рослину й вирощують.'
+  extra: ''
+  do: 'Читай форму на етикетці'
+
+- key: s7-ashwa-evening
+  topic: Ашваганда
+  day: thu
+  slot: evening
+  layout: poster
+  ref: [ashwa_ext.jpg]
+  look: stone
+  subject: >
+    a few dried ashwagandha roots, thin pale woody roots
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'українська назва ашваганди — вітанія'
+  claim: 'ВІТАНІЯ СНОДІЙНА'
+  why: 'Так рослину звуть українською, латиною Withania somnifera. Росте на сухих камʼянистих ґрунтах Індії, Пакистану й Північної Африки.'
+  extra: ''
+  do: 'Постав банку на видноті'
+
+- key: s7-ashwa-sell
+  topic: Ашваганда
+  day: thu
+  slot: sell
+  layout: offer
+  ref: [ashwa_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a few dried ashwagandha roots, thin pale woody roots
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'ашваганда є в кількох формах'
+  claim: 'КОРІНЬ, А НЕ ТРАВА'
+  why: ''
+  extra: 'Екстракт і мелений корінь|60 або 120 капсул|від 375 грн за банку'
+  do: 'Дивись усі форми на сайті'

@@ -1,0 +1,89 @@
+# Тиждень 7, день 1: Мака перуанська. Вайб «камінь».
+# Традиція й історія продукту. Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/maka-peruanska-ekstrakt-101-kapsuly-60-sht-po-06-h/
+thoughts:
+
+- key: s7-maca-dawn
+  topic: Мака перуанська
+  day: mon
+  slot: dawn
+  layout: poster
+  ref: [maca_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with two dried pale maca roots, beige turnip-shaped tubers
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'маку одомашнили до приходу європейців'
+  claim: 'ПРИРУЧЕНА ДО КОЛУМБА'
+  why: 'Мака — родичка редиски й капусти. І єдина рослина цієї родини, яку одомашнили в Америці ще до того, як туди дійшли європейці.'
+  extra: ''
+  do: 'Дивись склад на банці'
+
+- key: s7-maca-morning
+  topic: Мака перуанська
+  day: mon
+  slot: morning
+  layout: poster
+  ref: [maca_ext.jpg]
+  look: stone
+  subject: >
+    two dried pale maca roots, beige turnip-shaped tubers
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'корінь сушили чергуванням сонця й морозу'
+  claim: 'СУШИЛИ СОНЦЕМ І МОРОЗОМ'
+  why: 'Викопаний корінь розкладали просто неба: удень він сох на сонці, вночі промерзав. За кілька тижнів ставав легким і твердим, як камінь.'
+  extra: ''
+  do: 'Бери мелений або капсули'
+
+- key: s7-maca-noon
+  topic: Мака перуанська
+  day: mon
+  slot: noon
+  layout: poster
+  ref: [maca_ext.jpg]
+  look: stone
+  subject: >
+    two dried pale maca roots, beige turnip-shaped tubers
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'коренів маки багато кольорів, у продажу три'
+  claim: 'ТРИНАДЦЯТЬ ВІДТІНКІВ ОДНОГО ПОЛЯ'
+  why: 'Фермери з Кархуамайо розрізняють до тринадцяти кольорів кореня — від майже білого до чорного. У торгівлі лишилось три назви: жовта, червона й чорна.'
+  extra: ''
+  do: 'Читай колір на етикетці'
+
+- key: s7-maca-evening
+  topic: Мака перуанська
+  day: mon
+  slot: evening
+  layout: poster
+  ref: [maca_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with two dried pale maca roots, beige turnip-shaped tubers
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'макою годували худобу колонізаторів'
+  claim: 'ЇЇ ДАВАЛИ КОНЯМ ІСПАНЦІВ'
+  why: 'Завезена в гори худоба погано плодилася на такій висоті. Місцеві порадили годувати її сушеною макою — і рада спрацювала.'
+  extra: ''
+  do: 'Постав банку на видноті'
+
+- key: s7-maca-sell
+  topic: Мака перуанська
+  day: mon
+  slot: sell
+  layout: offer
+  ref: [maca_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with two dried pale maca roots, beige turnip-shaped tubers
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'мака є в капсулах і меленій'
+  claim: 'КОРІНЬ, ЩО ВИТРИМАВ АНДИ'
+  why: ''
+  extra: 'Екстракт|60 або 120 капсул|від 375 грн за банку'
+  do: 'Дивись усі форми на сайті'

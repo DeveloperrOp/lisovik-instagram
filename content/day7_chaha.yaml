@@ -1,0 +1,89 @@
+# Тиждень 7, день 5: Чага березова. Вайб «камінь».
+# Традиція й історія продукту. Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/hryb-chaha-berezova-tsila-50h/
+thoughts:
+
+- key: s7-chaha-dawn
+  topic: Чага березова
+  day: fri
+  slot: dawn
+  layout: poster
+  ref: [chaha_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a rough dark chunk of birch chaga with its golden inner layer visible
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'чагу знаходять у лісі, а не вирощують'
+  claim: 'ЧАГУ ЗНАХОДЯТЬ У ЛІСІ'
+  why: 'Вона росте на живій березі, і виростити її на грядці ще нікому не вдалося. Тому кожна партія приходить просто звідти.'
+  extra: ''
+  do: 'Дивись склад на банці'
+
+- key: s7-chaha-morning
+  topic: Чага березова
+  day: fri
+  slot: morning
+  layout: poster
+  ref: [chaha_ext.jpg]
+  look: stone
+  subject: >
+    a rough dark chunk of birch chaga with its golden inner layer visible
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'настій чаги традиційно пили перед їдою'
+  claim: 'ТЕПЛИЙ НАСТІЙ ПЕРЕД ОБІДОМ'
+  why: 'Саме так її брали здавна. Колись в аптеках навіть продавали шлункові краплі, зроблені на цьому грибі.'
+  extra: ''
+  do: 'Заварюй теплим, не окропом'
+
+- key: s7-chaha-noon
+  topic: Чага березова
+  day: fri
+  slot: noon
+  layout: poster
+  ref: [chaha_ext.jpg]
+  look: stone
+  subject: >
+    a rough dark chunk of birch chaga with its golden inner layer visible
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'чагу в нас звуть грибом жіночої краси'
+  claim: 'ГРИБ ЖІНОЧОЇ КРАСИ'
+  why: 'Таке імʼя закріпилося за нею в Україні. Беруть чагу тоді, коли втома читається на обличчі раніше, ніж ти її визнаєш.'
+  extra: ''
+  do: 'Признач день старту'
+
+- key: s7-chaha-evening
+  topic: Чага березова
+  day: fri
+  slot: evening
+  layout: poster
+  ref: [chaha_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a rough dark chunk of birch chaga with its golden inner layer visible
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'чагу традиційно заварюють восени й узимку'
+  claim: 'ОСІНЬ І ЗИМА — ЇЇ ЧАС'
+  why: 'Саме тоді чагу традиційно й заварювали: коли навколо всі кашляють. Рівний тонус без кави, помітний не з першої чашки.'
+  extra: ''
+  do: 'Постав банку на видноті'
+
+- key: s7-chaha-sell
+  topic: Чага березова
+  day: fri
+  slot: sell
+  layout: offer
+  ref: [chaha_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with a rough dark chunk of birch chaga with its golden inner layer visible
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'чага є в трьох формах'
+  claim: 'ЗНАЙДЕНА, А НЕ ВИРОЩЕНА'
+  why: ''
+  extra: 'Мелена, подрібнена або екстракт|Плантацій чаги не існує|від 237 грн'
+  do: 'Дивись усі форми на сайті'

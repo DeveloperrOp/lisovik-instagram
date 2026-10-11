@@ -1,0 +1,89 @@
+# Тиждень 7, день 6: Рейші. Вайб «камінь».
+# Традиція й історія продукту. Усі факти — з живої картки товару.
+# product: https://lisovik.com.ua/reishi-trutovyk-lakovanyi-podribneni-plodovi-tila-50-h/
+thoughts:
+
+- key: s7-reishi-dawn
+  topic: Рейші
+  day: sat
+  slot: dawn
+  layout: poster
+  ref: [reishi_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with one glossy dark red reishi mushroom cap, kidney-shaped and lacquered-looking
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'рейші блищить, ніби вкритий лаком'
+  claim: 'КАПЕЛЮШОК, НІБИ ВКРИТИЙ ЛАКОМ'
+  why: 'Звідси й друга назва — трутовик лакований. Смуги йдуть від темно-бордової біля основи до майже кремової по краю.'
+  extra: ''
+  do: 'Дивись склад на банці'
+
+- key: s7-reishi-morning
+  topic: Рейші
+  day: sat
+  slot: morning
+  layout: poster
+  ref: [reishi_ext.jpg]
+  look: stone
+  subject: >
+    one glossy dark red reishi mushroom cap, kidney-shaped and lacquered-looking
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'рейші й лінчжі — той самий гриб'
+  claim: 'ЯПОНЦІ КАЖУТЬ РЕЙШІ, КИТАЙЦІ — ЛІНЧЖІ'
+  why: "Один і той самий гриб під двома іменами. Третє ім'я вже латинське: так зветься рід — ганодерма."
+  extra: ''
+  do: 'Дивись назву на банці'
+
+- key: s7-reishi-noon
+  topic: Рейші
+  day: sat
+  slot: noon
+  layout: poster
+  ref: [reishi_ext.jpg]
+  look: stone
+  subject: >
+    one glossy dark red reishi mushroom cap, kidney-shaped and lacquered-looking
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'рейші росте на старих пнях'
+  claim: 'РОСТЕ НА ПНЯХ ДУБА Й БУКА'
+  why: 'Старі стовбури — його місце. Для банок гриби збирають руками, сушать і лише потім ріжуть, мелють або виварюють.'
+  extra: ''
+  do: 'Читай форму на етикетці'
+
+- key: s7-reishi-evening
+  topic: Рейші
+  day: sat
+  slot: evening
+  layout: poster
+  ref: [reishi_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with one glossy dark red reishi mushroom cap, kidney-shaped and lacquered-looking
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'у рейші знизу пори, а не пластинки'
+  claim: 'ЗНИЗУ НЕ ПЛАСТИНКИ, А ПОРИ'
+  why: 'Через них гриб і записали до трутовиків. А на полиці він стоїть поруч із тими, що йдуть у чай.'
+  extra: ''
+  do: 'Постав банку на видноті'
+
+- key: s7-reishi-sell
+  topic: Рейші
+  day: sat
+  slot: sell
+  layout: offer
+  ref: [reishi_ext.jpg]
+  look: stone
+  subject: >
+    the jar from the attached photo together with one glossy dark red reishi mushroom cap, kidney-shaped and lacquered-looking
+  compound: ''
+  source: 'жива картка товару'
+  retell: 'рейші продається в пʼяти формах'
+  claim: 'ПʼЯТЬ ФОРМ ОДНОГО ГРИБА'
+  why: ''
+  extra: 'Капсули, мелений, подрібнений|Екстракт 10:1|від 425 грн за банку'
+  do: 'Дивись усі форми на сайті'
