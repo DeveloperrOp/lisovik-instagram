@@ -22,7 +22,8 @@ import urllib.request
 import yaml
 
 import theme
-from config import (CONTENT_DIR, GCP_LOCATION, GCP_PROJECT, IMAGE_MODEL,
+from config import (CONTENT_DIR, GCP_ACCOUNT, GCP_LOCATION, GCP_PROJECT,
+                    IMAGE_MODEL,
                     IMAGE_SIZE, OUT_DIR)
 
 PLAN = CONTENT_DIR / "content_plan.yaml"
@@ -75,13 +76,20 @@ MUST NOT CONTAIN: {negative}
 
 
 def token() -> str:
-    """Токен активного gcloud-логина.
+    """Токен того аккаунта, которому принадлежит проект Vertex.
 
-    ADC на машине принадлежит другому аккаунту с quota-проектом, где Vertex
-    выключен, поэтому берём токен напрямую у gcloud.
+    Берём именно у GCP_ACCOUNT, а не у активного логина gcloud: проект с
+    живым биллингом лежит под отдельным аккаунтом, а активный на этой
+    машине нужен для другой работы, и переключать его глобально нельзя.
+
+    ADC тоже не подходит — он принадлежит третьему аккаунту с
+    quota-проектом, где Vertex выключен.
     """
-    return subprocess.run("gcloud auth print-access-token", shell=True,
-                          capture_output=True, text=True, check=True).stdout.strip()
+    cmd = "gcloud auth print-access-token"
+    if GCP_ACCOUNT:
+        cmd += f" --account={GCP_ACCOUNT}"
+    return subprocess.run(cmd, shell=True, capture_output=True,
+                          text=True, check=True).stdout.strip()
 
 
 def fetch_photo(url: str, article: str):

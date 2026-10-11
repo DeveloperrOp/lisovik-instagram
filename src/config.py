@@ -37,7 +37,19 @@ IG_TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
 GRAPH_VERSION = "v26.0"
 
 # Vertex AI
-GCP_PROJECT = "project-b6733216-c1b5-4017-82e"
+#
+# Проєкт змінено 11.10.2026. Старий project-b6733216 на початку жовтня
+# пішов у DELETE_REQUESTED, разом із ним зник бакет і стала генерація.
+# Проєкт відновили, але біллінг на ньому так і лишився вимкненим, тому
+# генерація там досі віддає 403 BILLING_DISABLED.
+#
+# Цей проєкт живе під іншим акаунтом, тому поруч стоїть GCP_ACCOUNT:
+# токен береться саме в нього, а не в активного логіна gcloud. Міняти
+# активний акаунт глобально не варто — від нього залежить решта роботи
+# на цій машині.
+GCP_PROJECT = os.environ.get("LISOVIK_GCP_PROJECT",
+                             "project-920bdc6d-4e87-45a8-b83")
+GCP_ACCOUNT = os.environ.get("LISOVIK_GCP_ACCOUNT", "logicoresofte@gmail.com")
 GCP_LOCATION = "global"
 IMAGE_MODEL = "gemini-3.1-flash-image"   # 2K держит украинский текст без ошибок
 IMAGE_MODEL_FALLBACK = "gemini-3-pro-image"
