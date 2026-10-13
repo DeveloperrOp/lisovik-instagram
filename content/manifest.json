@@ -4073,10 +4073,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1013-omega-sell.jpg",
    "slot_start": "2026-10-13T19:00:00+03:00",
    "slot_end": "2026-10-13T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-13T19:00:57.174691+03:00",
+   "ig_media_id": "18105637550145846",
+   "error": null,
+   "fb_story_id": "1038954885868863"
   },
   {
    "id": "1013-omega-night",
