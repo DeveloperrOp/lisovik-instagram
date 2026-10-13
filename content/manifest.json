@@ -4087,10 +4087,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1013-omega-night.jpg",
    "slot_start": "2026-10-13T20:00:00+03:00",
    "slot_end": "2026-10-13T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-13T20:05:22.525349+03:00",
+   "ig_media_id": "18091234091201983",
+   "error": null,
+   "fb_story_id": "1417329943942068"
   },
   {
    "id": "1014-dlianei-dawn",
