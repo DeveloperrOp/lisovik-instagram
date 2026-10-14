@@ -4101,10 +4101,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1014-dlianei-dawn.jpg",
    "slot_start": "2026-10-14T07:00:00+03:00",
    "slot_end": "2026-10-14T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-14T07:02:41.054310+03:00",
+   "ig_media_id": "17932319805409295",
+   "error": null,
+   "fb_story_id": "28545006798513094"
   },
   {
    "id": "1014-dlianei-morning",
