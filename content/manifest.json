@@ -4130,10 +4130,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1014-dlianei-noon.jpg",
    "slot_start": "2026-10-14T12:00:00+03:00",
    "slot_end": "2026-10-14T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-14T12:07:51.735114+03:00",
+   "ig_media_id": "17893883538611998",
+   "error": null,
+   "fb_story_id": "2346742169419029"
   },
   {
    "id": "1014-dlianei-evening",
