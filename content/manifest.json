@@ -4228,10 +4228,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1015-detox-evening.jpg",
    "slot_start": "2026-10-15T18:00:00+03:00",
    "slot_end": "2026-10-15T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-15T18:04:33.047340+03:00",
+   "ig_media_id": "17956897809260632",
+   "error": null,
+   "fb_story_id": "1858263692212006"
   },
   {
    "id": "1015-detox-sell",
