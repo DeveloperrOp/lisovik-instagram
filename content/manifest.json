@@ -4326,10 +4326,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1016-serenoa-sell.jpg",
    "slot_start": "2026-10-16T19:00:00+03:00",
    "slot_end": "2026-10-16T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-16T19:04:36.912412+03:00",
+   "ig_media_id": "17990339015867412",
+   "error": null,
+   "fb_story_id": "1788588645735029"
   },
   {
    "id": "1016-serenoa-night",
