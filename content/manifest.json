@@ -4284,10 +4284,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1016-serenoa-morning.jpg",
    "slot_start": "2026-10-16T10:00:00+03:00",
    "slot_end": "2026-10-16T11:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-16T10:06:57.047115+03:00",
+   "ig_media_id": "18193907803400473",
+   "error": null,
+   "fb_story_id": "2328634837675020"
   },
   {
    "id": "1016-serenoa-noon",
