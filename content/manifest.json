@@ -4410,10 +4410,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1017-osnova-sell.jpg",
    "slot_start": "2026-10-17T19:00:00+03:00",
    "slot_end": "2026-10-17T19:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-17T19:00:05.539022+03:00",
+   "ig_media_id": "18121732489736436",
+   "error": null,
+   "fb_story_id": "3446420712207048"
   },
   {
    "id": "1017-osnova-night",
