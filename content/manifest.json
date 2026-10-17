@@ -4424,10 +4424,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1017-osnova-night.jpg",
    "slot_start": "2026-10-17T20:00:00+03:00",
    "slot_end": "2026-10-17T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-17T20:04:26.004590+03:00",
+   "ig_media_id": "17904884262604082",
+   "error": null,
+   "fb_story_id": "2055803528404796"
   },
   {
    "id": "1018-magniy-dawn",
