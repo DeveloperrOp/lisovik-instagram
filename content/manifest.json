@@ -4466,10 +4466,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1018-magniy-noon.jpg",
    "slot_start": "2026-10-18T12:00:00+03:00",
    "slot_end": "2026-10-18T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-18T12:06:19.474306+03:00",
+   "ig_media_id": "18110989196332185",
+   "error": null,
+   "fb_story_id": "932646486369806"
   },
   {
    "id": "1018-magniy-evening",
