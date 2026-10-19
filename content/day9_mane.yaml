@@ -1,0 +1,114 @@
+# Тиждень 9, день 1: Їжовик гребінчастий у капсулах. Вайб «шалфей» — світ нового сайту.
+# product: https://lisovik.com.ua/yizhovyk-hrebinchastyi-u-kapsulakh-120-sht-po-04-h/
+# Факти — дослідник 19.10, кожен із джерелом (поле source). Ціни нічного
+# кадру — сторінка «Товар тижня» 19.10, звірити в день постановки в чергу.
+product:
+  name: Їжовик гребінчастий
+  plaque: Ясна голова
+  price: 750
+  old: null
+  ref: w9_jar_yizhovyk.jpg
+  # Опис банки дослівно з промпту сцени сайту (scene-yiz-focus).
+  jar: >
+    a clear plastic jar with a white screw lid, filled with white capsules,
+    with a caramel-brown label with a white tree emblem and the Ukrainian
+    words ЇЖОВИК ГРЕБІНЧАСТИЙ.
+thoughts:
+- key: w9-mane-dawn
+  topic: Їжовик гребінчастий
+  day: tue
+  slot: dawn
+  layout: macro
+  subject: >
+    one fresh wild lion's mane mushroom — a snow-white ball of soft hanging
+    spines, about the size of a fist — lying on the paper beside two green
+    oak leaves and a little green moss.
+  claim: 2021-го його знайшли в Одесі
+  why: Ботаніки Одеського університету імені Мечникова та Інституту ботаніки НАН України вперше знайшли
+    дикий їжовик у степовій зоні країни. Знахідку описали в «Українському ботанічному журналі».
+  do: Побачиш у лісі — сфотографуй і лиши рости
+  source: 'Укр. ботан. журн. 78(5): 365–369, 2021 — ukrbotj.co.ua/archive/78/5/365'
+- key: w9-mane-morning
+  topic: Їжовик гребінчастий
+  day: tue
+  slot: morning
+  layout: giant
+  body: >
+    The giant jar stands upright on the right side of the frame. A WOMAN of
+    about forty-five with short hair streaked with grey, in a light linen
+    shirt and linen trousers, sits on a tiny wooden chair at a tiny wooden
+    desk at the foot of the jar, writing in an open notebook with a pencil,
+    a calm focused face and a faint smile; a small cup of tea stands on the
+    desk. Beside the desk lies a white shaggy lion's mane mushroom as big as
+    the desk — a feeling of a clear quiet morning.
+  details: a few small pieces of white shaggy lion's mane mushroom, a few green oak leaves, a little
+    green moss.
+  claim: Їжак — і латиною, і по-нашому
+  why: 1781 року француз Булльяр дав грибу видову назву erinaceus — «їжак». В українському «їжовику»
+    той самий образ — білі мʼякі голки, що звисають донизу.
+  do: Знайди erinaceus у складі на сайті
+  source: Bulliard, Herbier de la France, pl. 34 (1781) — Hydnum erinaceus; colfungi.org, mycopedia.ch
+- key: w9-mane-noon
+  topic: Їжовик гребінчастий
+  day: tue
+  slot: noon
+  layout: macro
+  subject: >
+    one large fresh lion's mane mushroom seen close from above, round like a
+    fluffy white head, its soft white spines lit by gentle daylight, the
+    mushroom large and detailed.
+  claim: У Китаї це «мавпяча голова»
+  why: Так перекладається хоутоугу. Китайці ставлять цей гриб серед восьми гірських делікатесів —
+    поруч із ведмежою лапою.
+  do: Порівняй сам — голова чи грива?
+  source: stdaily.com 2024-08-26 (八大山珍, 猴头菇); en.wikipedia Hericium erinaceus
+- key: w9-mane-evening
+  topic: Їжовик гребінчастий
+  day: tue
+  slot: evening
+  layout: macro
+  subject: >
+    a few dried pieces of lion's mane mushroom, cream-beige, light and
+    spongy, with matted spines, next to a small heap of pale beige powder and
+    a small wooden spoon.
+  claim: Японці назвали його на честь відлюдників
+  why: Японською він ямабусітаке. Ямабуші — гірські аскети, і японська енциклопедія пояснює назву
+    круглими китицями на їхньому вбранні, на які схожий гриб.
+  do: Як звуть його у вас? Напиши в директ
+  source: ja.wikipedia ヤマブシタケ (Imagawa & Hongo, Kinoko, 1973)
+- key: w9-mane-sell
+  topic: Їжовик гребінчастий
+  day: tue
+  slot: sell
+  layout: sell
+  body: >
+    The giant jar stands upright slightly left of centre. A young woman of
+    about twenty-eight in a cream knitted sweater and light trousers lies on
+    her stomach on top of a white shaggy lion's mane mushroom that is as big
+    as a sofa for her, reading an open book, her bare feet crossed in the
+    air, a soft happy smile — a feeling of an easy calm evening.
+  details: a few small pieces of white shaggy lion's mane mushroom, a few green oak leaves, a little
+    green moss.
+  claim: Всередині — тільки гриб
+  why: Мелений їжовик у вегетаріанській капсулі. У банці 120 штук.
+  do: Шукай посилання в шапці профілю
+  source: 'склад у каталозі LIS-469807: Їжовик гребінчастий (Hericium erinaceus), вегетаріанські капсули'
+offer:
+  topic: Їжовик гребінчастий
+  day: tue
+  layout: offer
+  # Перша проба 19.10: «dried pieces» модель намалювала як гливу з
+  # пластинками — чужий гриб у кадрі про їжовик.
+  subject: >
+    one fresh white lion's mane mushroom — a shaggy ball of soft hanging
+    spines — beside a small heap of pale beige powder and two green oak
+    leaves. The only mushroom in the frame is lion's mane: no other kind of
+    mushroom, nothing with gills or a cap.
+  # Без знижок і «цього тижня»: Ярик 19.10 хоче перевикористовувати
+  # сторіс пізніше, а знижки тоді може не бути. Тому тут фасовки, не ціни.
+  claim: Капсули, порошок чи краплі
+  extra: Капсули — 60 або 120 шт|Мелений — 50 г|Цілі плодові тіла — 50 г|Рідкий екстракт — 30 або 50 мл|Міцелій
+    і екстракт міцелію — у капсулах
+  do: Обери свою форму на сайті
+  source: каталог Horoshop 19.10.2026 — LIS-469806/807, 469808, 469809, 469812/813, 484282/283, 485025/026,
+    усі в наявності
