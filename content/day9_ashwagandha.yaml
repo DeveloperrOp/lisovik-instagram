@@ -1,0 +1,106 @@
+# Тиждень 9, день 5: Ашваганда в капсулах. Вайб «шалфей».
+# product: https://lisovik.com.ua/ashvahanda-u-kapsulakh-120-sht-po-05-h/
+# Факти — дослідник 19.10, кожен із джерелом. «Родичка фізалісу з
+# ліхтариками» вже виходила — тут таксономія з іменами й роками, без того
+# образу. Слова «сон», «стрес», «спокій» не вживаємо; плашка — «Вечір».
+product:
+  name: Ашваганда
+  plaque: Вечір
+  price: 750
+  old: null
+  ref: w9_jar_ashvahanda.jpg
+  # Опис банки дослівно з промпту сцени сайту (scene-ashv-sleep).
+  jar: >
+    a clear plastic jar with a white screw lid, filled with white capsules,
+    with a violet-purple label with a white tree emblem and the Ukrainian
+    word АШВАГАНДА.
+thoughts:
+- key: w9-ashwagandha-dawn
+  topic: Ашваганда
+  day: sat
+  slot: dawn
+  layout: macro
+  subject: >
+    a small bundle of dried ashwagandha roots — pale cream-beige, thin as a
+    pencil, straight and brittle — with one root snapped in two to show a
+    white starchy break.
+  claim: Ашваганда з Нагаура тепер під захистом назви
+  why: У січні 2026 року її внесли в реєстр географічних зазначень Індії. За описом заявки, справжній корінь
+    тонкий, як олівець, ламкий і на зламі білий.
+  do: 'Збережи: так виглядає правильний корінь'
+  source: icar.gov.in Nagori Ashwagandha GI tag; vajiramandravi.com nagauri-ashwagandha
+- key: w9-ashwagandha-morning
+  topic: Ашваганда
+  day: sat
+  slot: morning
+  layout: giant
+  body: >
+    The giant jar stands upright on the left side of the frame. Next to it a
+    tiny MAN of about sixty with a short grey beard, in a cream knitted
+    cardigan and linen trousers, SITS on a tiny wooden stool and waters a
+    small potted ashwagandha bush with green oval leaves and a few red
+    berries in papery husks, using a tiny metal watering can, a calm content
+    face — a feeling of an unhurried morning.
+  details: a few pale ashwagandha roots, a few small green ashwagandha leaves, a few red ashwagandha
+    berries in papery husks.
+  claim: Ашваганду переписав ботанік із Монпельє
+  why: Лінней 1753 року зарахував рослину до фізалісів. 1852-го Мішель Фелікс Дюналь із Монпельє переніс
+    її в рід Withania — під цим імʼям вона відома й досі.
+  do: Знайди Withania у складі на сайті
+  source: IPNI 817574-1 (Physalis somnifera L. 1753); POWO; Dunal in DC. Prodr. 13(1):453 (1852)
+- key: w9-ashwagandha-noon
+  topic: Ашваганда
+  day: sat
+  slot: noon
+  layout: macro
+  subject: >
+    a sprig of ashwagandha with small green oval leaves and a few bright
+    orange-red berries, some of them still inside their papery husks.
+  # Була історія про Вітема — тримається на «ймовірно», check_thought
+  # справедливо вимагав факт без застереження.
+  claim: Індія випустила марку з ашвагандою
+  why: 7 квітня 2003 року пошта Індії випустила блок із чотирьох марок із рослинами — серед них гуггул, брахмі,
+    амла й ашваганда.
+  do: Пошукай цю марку в колекціях філателістів
+  source: indianphilatelics.com item 732 (Medicinal Plants of India, block of four, 2003)
+- key: w9-ashwagandha-evening
+  topic: Ашваганда
+  day: sat
+  slot: evening
+  layout: macro
+  subject: >
+    a few pale ashwagandha roots, a small heap of beige powder and a few
+    dried leaves beside a small terracotta dish.
+  claim: Росте не лише в Індії, а й у Греції
+  why: Джон Сібторп описав її у «Flora Graeca» — третій том вийшов 1819 року, вже після смерті автора. Ашваганда
+    росте й на берегах Середземного моря.
+  do: Розкажи це тому, хто їде в Грецію
+  source: ahpa.org herbs_in_history_ashwagandha (Sibthorp, Flora Graeca vol. 3, 1819)
+- key: w9-ashwagandha-sell
+  topic: Ашваганда
+  day: sat
+  slot: sell
+  layout: sell
+  body: >
+    The giant jar stands upright on the left side of the frame. Next to it a
+    WOMAN of about forty in soft light cotton pajamas sits on a big fluffy
+    cream pillow, wrapped in a light linen blanket, reading a book by the
+    warm light of a tiny table lamp, a calm content face — a feeling of a
+    quiet evening at home.
+  details: a few pale ashwagandha roots, a few small green ashwagandha leaves, a few red ashwagandha
+    berries in papery husks.
+  claim: Ашваганда — і більше нічого
+  why: Мелена ашваганда у вегетаріанській капсулі. У банці 120 штук.
+  do: Шукай посилання в шапці профілю
+  source: 'склад у каталозі LIS-469839: Ашваганда (Withania somnifera), вегетаріанські капсули'
+offer:
+  topic: Ашваганда
+  day: sat
+  layout: offer
+  subject: >
+    a few pale ashwagandha roots, a small heap of beige powder and a few
+    bright red berries in papery husks lying together.
+  claim: Три форми ашваганди
+  extra: Капсули — 60 або 120 шт|Екстракт 10:1 — у капсулах|Мелена — 50 г
+  do: Обери свою форму на сайті
+  source: каталог Horoshop 19.10.2026 — LIS-469838/839, екстракт 10:1 у капсулах, мелена 50 г, у наявності

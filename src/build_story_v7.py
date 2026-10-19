@@ -87,23 +87,36 @@ def giant_prompt(p: dict, t: dict) -> str:
     return (
         BASE + "\n\n"
         "One supplement jar from the attached reference photo: " + jar +
+        # Прозорість і капсули описує поле jar: рейші — непрозора біла
+        # пляшечка, і «see-through plastic» у спільному шаблоні малював би
+        # чужу банку.
         " Reproduce the jar exactly as in the reference: the same shape, "
-        "white screw lid, see-through plastic with white capsules inside, "
-        "the same label design and colors. The jar is oversized, giant "
+        "the same white lid, the same material and transparency, the same "
+        "label design and colors. The jar is oversized, giant "
         "compared to the person, like in a surreal playful advertising photo. "
         "Do not include the glass stand from the reference photo.\n\n" +
         body + " The jar label faces the camera and nothing covers it.\n\n"
+        # 19.10, перша партія: «no taller than half» модель пропускала —
+        # у 4 з 12 сцен людина вийшла на зріст банки. Видимий орієнтир
+        # (маківка нижче середини банки) тримається краще за пропорцію.
         "SCALE IS THE KEY: the person's whole body, seen full-length, is no "
         "taller than half of the jar's height, like a miniature figure next "
-        "to a giant object.\n\n"
+        "to a giant object. The jar is about THREE times taller than the "
+        "person. Check it: the top of the person's head is LOWER than the "
+        "middle of the jar.\n\n"
         # 19.10, перша проба їжовика: «lid stays closed» модель прочитала
         # як необовʼязкове й намалювала банку взагалі без кришки.
         "Strict rules: there is EXACTLY ONE jar in the whole image — never "
         "two. The jar is closed with its white screw lid on top, exactly as "
         "in the reference — the lid is never missing and never off. Not a "
-        "single capsule lies outside the jar.\n\n"
+        "single capsule lies outside the jar — none on the ground, none in "
+        "the air.\n\n"
         "Small natural details scattered sparsely around: " +
-        details + "\n\nComposition for a vertical story: the jar, the person "
+        # Зайве в кадрі продажу читається як склад: бадьян біля трійчатки,
+        # корінь-«женьшень» біля кордицепсу, гриб із шапкою біля рейші.
+        details + " Nothing else: no mushroom, plant, root or spice that is "
+        "not named in this description.\n\nComposition for a vertical "
+        "story: the jar, the person "
         "and the details sit in the middle and lower part of the frame. The "
         "UPPER 38% of the frame is completely empty smooth sage paper with "
         "nothing in it" + low + ".\n\n" +

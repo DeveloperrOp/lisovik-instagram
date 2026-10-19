@@ -1,0 +1,103 @@
+# Тиждень 9, день 6: Чага березова в капсулах. Вайб «шалфей».
+# product: https://lisovik.com.ua/chaha-berezova-kapsuly-120-sht-po-0.3-h/
+# Факти — дослідник 19.10, кожен із джерелом. 🚨 Жодних онко-асоціацій:
+# «Раковий корпус» Солженіцина й «народну медицину хантів» свідомо не беремо
+# (памʼять lisovik-chaga-card-onco-claims). Безпечний кут — «без кофеїну».
+# Міф про Мономаха не беремо.
+product:
+  name: Чага березова
+  plaque: Без кофеїну
+  price: 525
+  old: null
+  ref: w9_jar_chaga_LIS-481434.jpg
+  jar: >
+    a clear plastic jar with a white screw lid, filled with white capsules,
+    with a dark chocolate-brown label with a white tree emblem and the
+    Ukrainian word ЧАГА.
+thoughts:
+- key: w9-chaga-dawn
+  topic: Чага березова
+  day: sun
+  slot: dawn
+  layout: macro
+  subject: >
+    one chunk of chaga — a black, deeply cracked crust like charcoal, broken
+    on one side to show a rust-brown dense woody inside — lying on a curl of
+    white birch bark.
+  claim: Слово «чага» прийшло з мови комі
+  why: Мовою народу комі «тшак» — це гриб або наріст. Від цього слова й пішла назва чорного наросту на березі.
+  do: Збережи — знадобиться в розмові біля вогнища
+  source: en.wikipedia Inonotus obliquus (Needham 2005, Zabel 1976); en.wiktionary chaga; огляд PMC10728660
+- key: w9-chaga-morning
+  topic: Чага березова
+  day: sun
+  slot: morning
+  layout: giant
+  body: >
+    The giant jar stands upright on the right side of the frame. Next to it a
+    tiny WOMAN of about forty with a long braid, in a light knitted sweater and
+    linen trousers, sits cross-legged on the ground at the foot of the giant
+    jar, holding a small cup of dark tea with both hands, a calm content
+    face. Beside her lies a black chaga chunk as big as she is — a feeling
+    of a slow Sunday morning.
+  details: a few small pieces of black chaga with rust-brown inside, a few curls of white birch bark,
+    a few small green birch leaves.
+  claim: Персун назвав її «косою»
+  why: 1801 року міколог Крістіан Генрік Персун описав чагу як Boletus obliquus — латиною «косий». Сучасне
+    імʼя їй дав чех Альберт Пілат 1942-го — Inonotus obliquus.
+  do: Знайди obliquus у складі на сайті
+  source: GBIF Boletus obliquus Pers. 1801 (Syn. Meth. Fung. 2:548); NZOR; en.wikipedia Inonotus obliquus
+- key: w9-chaga-noon
+  topic: Чага березова
+  day: sun
+  slot: noon
+  layout: macro
+  subject: >
+    a broken chunk of chaga seen close, the black cracked crust on top and
+    the rusty orange-brown dense woody interior facing the camera.
+  claim: Справжній гриб чаги ховається під корою
+  why: Чорне на березі — щільна маса грибниці. Плодове тіло зʼявляється лише тоді, коли дерево загине,
+    зазвичай через 2–12 років.
+  do: 'Глянь на злам: усередині чага руда'
+  source: Lee et al. 2008 (Mycobiology); en.wikipedia Inonotus obliquus; огляд PMC10728660
+- key: w9-chaga-evening
+  topic: Чага березова
+  day: sun
+  slot: evening
+  layout: macro
+  subject: >
+    a simple white enamel camp mug of dark brown chaga tea beside a few
+    small pieces of black chaga.
+  claim: Фінські солдати пили її замість кави
+  why: У Другу світову фінські солдати заварювали чагу й звали напій тікка-чаєм. Кофеїну в чазі немає зовсім.
+  do: Розкажи це тому, хто пʼє каву на ніч
+  source: огляд PMC10728660 (Baek et al. 2018; Zabel 1976)
+- key: w9-chaga-sell
+  topic: Чага березова
+  day: sun
+  slot: sell
+  layout: sell
+  body: >
+    The giant jar stands upright on the left side of the frame. Next to it a
+    MAN of about fifty in a light linen shirt and linen trousers sits on top
+    of a large black chaga chunk as on a rock, pouring dark tea from a small
+    thermos into a cup, a calm content smile — a feeling of a quiet walk in
+    a birch forest.
+  details: a few small pieces of black chaga with rust-brown inside, a few curls of white birch bark,
+    a few small green birch leaves.
+  claim: Чага, яку не треба заварювати
+  why: Березова чага, висушена й змелена, у вегетаріанській капсулі. У банці 120 штук.
+  do: Шукай посилання в шапці профілю
+  source: 'склад у каталозі LIS-481434: Чага березова (Inonotus obliquus) сушена, вегетаріанські капсули'
+offer:
+  topic: Чага березова
+  day: sun
+  layout: offer
+  subject: >
+    a few chunks of black chaga with rust-brown inside, a small heap of brown
+    powder and a curl of white birch bark lying together.
+  claim: Пʼять форм чаги
+  extra: Капсули — 60 або 120 шт|Екстракт 10:1 — у капсулах і мелений|Мелена — 50 г|Ціла — 50 г
+  do: Обери свою форму на сайті
+  source: каталог Horoshop 19.10.2026 — капсули, екстракт у капсулах, екстракт мелений, мелена, ціла —
+    усе в наявності

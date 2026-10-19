@@ -1,0 +1,104 @@
+# Тиждень 9, день 2: Трійчатка в капсулах. Вайб «шалфей» — світ нового сайту.
+# product: https://lisovik.com.ua/triichatka-v-kapsulakh-120-sht-po-05-h/
+# Факти — дослідник 19.10, кожен із джерелом (поле source). Сторіс вічнозелені:
+# без знижок і закресленої ціни (Ярик 19.10). Слів «очищення», «паразит»,
+# «детокс» немає навмисно.
+product:
+  name: Трійчатка
+  plaque: Три трави
+  price: 630
+  old: null
+  ref: w9_jar_triichatka.jpg
+  # Опис банки дослівно з промпту сцени сайту (scene-tri-hammock).
+  jar: >
+    a clear plastic jar with a white screw lid, filled with white capsules,
+    with a dark-green label that has a white tree emblem and the Ukrainian
+    word ТРІЙЧАТКА.
+thoughts:
+- key: w9-triichatka-dawn
+  topic: Трійчатка
+  day: wed
+  slot: dawn
+  layout: macro
+  subject: >
+    a few long sprigs of dried silvery-grey wormwood with finely divided
+    feathery leaves and tiny yellowish flower heads, lying loosely on the
+    paper.
+  claim: Вермут — це просто «полин»
+  why: Німецькою полин — Wermut. 1786 року туринський купець Антоніо Бенедетто Карпано першим почав продавати
+    напій, названий цим словом.
+  do: Знайди полин у складі трійчатки на сайті
+  source: en.wikipedia Vermouth (Clarke, SF Chronicle 2008); diffordsguide.com vermouth history
+- key: w9-triichatka-morning
+  topic: Трійчатка
+  day: wed
+  slot: morning
+  layout: giant
+  body: >
+    The giant jar stands upright on the left side of the frame. Next to it
+    grows a tall stem of silvery wormwood, just as giant as the jar. A WOMAN
+    of about fifty-five with silver hair tied in a bun, in a light linen
+    dress, waters the wormwood stem with a tiny metal watering can, a calm
+    happy face — a feeling of a quiet garden morning.
+  details: a few sprigs of silvery wormwood, a few small yellow button flowers of tansy, a few dried
+    cloves, a little green moss.
+  claim: Карл Великий наказав садити пижмо
+  why: Його указ про королівські маєтки, складений близько 800 року, перелічує рослини для кожного саду.
+    Пижмо там є — латиною tanazita.
+  do: Глянь, які ще дві трави в трійчатці
+  source: Capitulare de villis, гл. 70 (zobodat.at VZBG_5_0787-0826.pdf; en.wikipedia Capitulare de villis)
+- key: w9-triichatka-noon
+  topic: Трійчатка
+  day: wed
+  slot: noon
+  layout: macro
+  subject: >
+    a small heap of dark brown dried clove buds, each a slim nail with a
+    round head, with a few loose cloves scattered around it.
+  claim: 1770-го гвоздика втекла з Молукк
+  why: Голландці тримали її під своїм контролем, аж поки експедиція, яку послав Пʼєр Пуавр, не вивезла
+    саджанці на Маврикій. Так монополія почала розвалюватись.
+  do: Понюхай гвоздику з кухні — це той самий бутон
+  source: en.wikipedia Pierre Poivre (Corn, The Scents of Eden); nationaalherbarium.nl FMCollectors Provost
+- key: w9-triichatka-evening
+  topic: Трійчатка
+  day: wed
+  slot: evening
+  layout: macro
+  subject: >
+    a few stems of tansy with flat clusters of bright golden button flowers
+    and dark green fern-like leaves, lying on the paper.
+  claim: Пиріг із пижмом — на 20 яєць
+  why: 1660 року англійський кухар Роберт Мей записав рецепт «тенсі» з яєць і соку пижма. Сторіччя потому
+    журнал «Connoisseur» писав, що пижмо до Великодня — як мінс-пай до Різдва.
+  do: Збережи — розкажеш за великоднім столом
+  source: Robert May, The Accomplisht Cook (1660), gutenberg.org/ebooks/22790; foodsofengland.info/?p=1363
+- key: w9-triichatka-sell
+  topic: Трійчатка
+  day: wed
+  slot: sell
+  layout: sell
+  body: >
+    The giant jar stands upright on the left side of the frame. A cream-white
+    linen hammock is tied between the jar and a tall stem of silvery
+    wormwood standing on the right, just as giant as the jar. In the hammock
+    a MAN of about thirty in a light linen shirt and linen trousers lies
+    relaxed, barefoot, one arm behind his head, eyes closed, a faint happy
+    smile — a feeling of ease. No star anise and no chamomile anywhere.
+  details: a few sprigs of silvery wormwood, a few small yellow button flowers of tansy, a few dried
+    cloves, a little green moss.
+  claim: Три трави в одній капсулі
+  why: Пижмо, полин і гвоздика у вегетаріанській капсулі. У банці 120 штук.
+  do: Шукай посилання в шапці профілю
+  source: 'склад у каталозі LIS-469836: пижмо, полин, гвоздика, вегетаріанські капсули'
+offer:
+  topic: Трійчатка
+  day: wed
+  layout: offer
+  subject: >
+    a few sprigs of silvery wormwood, a small heap of golden tansy button
+    flowers and a small heap of dark brown dried cloves lying together.
+  claim: Капсули чи мелена
+  extra: Капсули — 60 або 120 шт|Мелена — 50 г|Склад — пижмо, полин, гвоздика
+  do: Обери свою форму на сайті
+  source: каталог Horoshop 19.10.2026 — LIS-469835/836, LIS-469837, у наявності

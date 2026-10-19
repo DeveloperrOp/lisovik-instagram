@@ -1,0 +1,104 @@
+# Тиждень 9, день 4: Тремела в капсулах. Вайб «шалфей».
+# product: https://lisovik.com.ua/tremela-tremella-fuciformis-kapsuly-po-120-sht-0.5-h/
+# Факти — дослідник 19.10, кожен із джерелом. Міфи про Цисі та Ян Гуйфей
+# не беремо (памʼять lisovik-history-facts). Без знижок.
+product:
+  name: Тремела
+  plaque: Жінкам і красі
+  price: 825
+  old: null
+  ref: w9_jar_tremela.jpg
+  # Опис банки з промпту сцени сайту (scene-trem-glow); капсули на фото
+  # кремові, не білі.
+  jar: >
+    a clear plastic jar with a white screw lid, filled with pale cream
+    capsules, with a deep teal-blue label with a white tree emblem and the
+    Ukrainian word ТРЕМЕЛА.
+thoughts:
+- key: w9-tremela-dawn
+  topic: Тремела
+  day: fri
+  slot: dawn
+  layout: macro
+  subject: >
+    one fresh white tremella snow fungus — translucent and jelly-like, with
+    wavy frilly lobes like a sea anemone or a piece of seaweed — glistening
+    slightly on the paper.
+  claim: Її описали з Бразилії, а не з Китаю
+  why: 1856 року англійський міколог Майлз Берклі описав тремелу за зразком, який ботанік Річард Спрюс зібрав
+    на Ріо-Негро. Гриб він порівняв із морською водоростю.
+  do: 'Порівняй сама: водорость чи гриб?'
+  source: Hooker's J. Bot. 8:277 (1856), NZOR; nmns.edu.tw Collection-E00477
+- key: w9-tremela-morning
+  topic: Тремела
+  day: fri
+  slot: morning
+  layout: giant
+  body: >
+    The giant jar stands upright on the right side of the frame. A WOMAN of
+    about sixty with short silver hair, in a light linen dress, stands next
+    to it arranging a bouquet of white translucent tremella mushrooms in a
+    small ceramic vase, as if they were flowers, a soft happy smile — a
+    feeling of a calm morning.
+  details: a few small pieces of white translucent tremella snow fungus, a few pale pink rose petals,
+    a few small green leaves.
+  claim: Тремела — від слова «тремтіти»
+  why: Латинське tremere означає «тремтіти». Так рід назвали ще 1753 року — свіжий гриб драглистий, як желе.
+  do: Знайди Tremella fuciformis у складі на сайті
+  source: en.wikipedia Tremella (Rea 1922, British Basidiomycetaceae); Linnaeus Sp. Pl. 1753
+- key: w9-tremela-noon
+  topic: Тремела
+  day: fri
+  slot: noon
+  layout: macro
+  subject: >
+    a few dried tremella fungi, pale cream-yellow, hard and crinkled like
+    crumpled paper, lying on the paper.
+  claim: Почали з пляшок, перейшли на пакети
+  why: 1977 року в повіті Гутянь на півдні Китаю Яо Шусянь виростив тремелу в скляних пляшках. Наступного
+    року Дай Вейхао замінив пляшки пакетами — і Гутянь став столицею тремели.
+  do: Перешли тому, хто вирощує гриби вдома
+  source: news.cn 2025-08-25 (Xinhua); regional.chinadaily.com.cn/fujian 2024-12-06
+- key: w9-tremela-evening
+  topic: Тремела
+  day: fri
+  slot: evening
+  layout: macro
+  subject: >
+    a small white bowl of clear sweet soup with a soft translucent tremella
+    fungus in it, with a few red jujube dates and a few dried longan fruits
+    lying beside the bowl.
+  claim: У Китаї тремелу кладуть у десерт
+  why: Китайською вона іньер — «срібне вухо». У кантонській кухні її варять у солодкому супі з зизифусом
+    і сушеним лонганом.
+  do: Як би назвала її ти? Напиши в директ
+  source: en.wikipedia Tremella fuciformis (Chang & Miles 2004, Mushrooms, p. 329)
+- key: w9-tremela-sell
+  topic: Тремела
+  day: fri
+  slot: sell
+  layout: sell
+  body: >
+    SCALE IS THE KEY: the jar is huge and the woman is tiny. The giant jar
+    stands upright on the right side of the frame. Next to it a tiny WOMAN
+    of about thirty with a white towel wrapped around her hair and a light
+    bathrobe sits relaxed on a white snow fungus (tremella) that is as large
+    as an armchair for her, gently touching her cheek with her fingertips,
+    eyes closed, a soft happy smile — a feeling of self-care.
+  details: a few small pieces of white translucent tremella snow fungus, a few pale pink rose petals,
+    a few small green leaves.
+  claim: Всередині — тільки тремела
+  why: Мелений гриб у вегетаріанській капсулі. У банці 120 штук.
+  do: Шукай посилання в шапці профілю
+  source: 'склад у каталозі LIS-481906: гриб Тремела (Tremella fuciformis), вегетаріанські капсули'
+offer:
+  topic: Тремела
+  day: fri
+  layout: offer
+  subject: >
+    one dried pale cream tremella fungus, one soft translucent soaked
+    tremella beside it and a small heap of pale cream powder lying together.
+  claim: Капсули, порошок чи цілий гриб
+  extra: Капсули — 60 або 120 шт|Мелена — 100 г|Сушений гриб — 50 г
+  do: Обери свою форму на сайті
+  source: каталог Horoshop 19.10.2026 — LIS-481905/906, мелена 100 г, сушений гриб 50 г, у наявності

@@ -1,0 +1,108 @@
+# Тиждень 9, день 7: Рейші, екстракт 10:1 у капсулах. Вайб «шалфей».
+# product: https://lisovik.com.ua/reishi-trutovyk-lakovanyi-ekstrakt-101-kapsuly-120-sht-po-0.4-h/
+# Факти — дослідник 19.10, кожен із джерелом. Не беремо: історію з Мао;
+# «мантентаке — гриб десяти тисяч років» (читається як обіцянка
+# довголіття); дослідження 2018 про ДНК «lucidum» (бʼє по нашій етикетці).
+# «Капелюшок, ніби під лаком» уже виходив — тут лише як підказка до фото.
+# Банка рейші — непрозора біла пляшечка, не прозора банка серії.
+product:
+  name: Рейші
+  plaque: Лакований гриб
+  price: 1375
+  old: null
+  ref: w9_jar_reishi_LIS-481469.jpg
+  jar: >
+    an opaque white plastic bottle with a white screw cap — not see-through —
+    with a mustard-olive label with a white tree emblem, a small round purple
+    badge and the Ukrainian word РЕЙШІ.
+thoughts:
+- key: w9-reishi-dawn
+  topic: Рейші
+  day: mon
+  slot: dawn
+  layout: macro
+  subject: >
+    one glossy reishi mushroom — a kidney-shaped cap, deep red-brown and
+    shiny as if lacquered, with a cream-yellow growing edge and a short side
+    stem — lying on the paper.
+  claim: «Блискуча шкіра» — так грецькою Ganoderma
+  why: Рід 1881 року заснував фінський міколог Петер Адольф Карстен і зробив рейші його головним видом. Ganos
+    — «блиск», derma — «шкіра».
+  do: Глянь на шапку — блищить, наче під лаком
+  source: Karsten, Revue Mycologique 3(9):16–19 (1881); en.wikipedia Ganoderma lucidum, Lingzhi mushroom
+- key: w9-reishi-morning
+  topic: Рейші
+  day: mon
+  slot: morning
+  layout: giant
+  body: >
+    The giant bottle stands upright on the right side of the frame. Next to
+    it a MAN of about sixty-five with white hair, in a cream linen suit,
+    sits on a giant glossy red-brown reishi mushroom cap as on a bench,
+    pouring tea from a small clay teapot into a small cup, a calm content
+    face — a feeling of an unhurried tea ceremony. Every mushroom in the
+    image is glossy red-brown reishi — no other mushroom kind.
+  details: a few small glossy red-brown reishi mushroom caps, a few thin slices of dried reishi, a few
+    small green leaves.
+  claim: 109 рік до н. е. — девʼять стебел у палаці
+  why: «Хань шу» записує, що в палаці Ганьцюань виріс гриб-чжи з девʼятьма стеблами. Імператор У-ді тоді ж
+    оголосив амністію й склав пісню. Цей чжи повʼязують із лінчжі.
+  do: Перекажи це за вечірнім чаєм
+  source: 漢書 卷六 (zh.wikisource.org/zh-hant/漢書/卷006)
+- key: w9-reishi-noon
+  topic: Рейші
+  day: mon
+  slot: noon
+  layout: macro
+  subject: >
+    one reishi cap turned over to show the cream-white pore surface
+    underneath, beside a second glossy red-brown reishi cap lying face up.
+  claim: Латинське імʼя рейші дав англієць
+  why: 1781 року Вільям Кертіс описав гриб в Англії як Boletus lucidus — «блискучий». Тож латинське імʼя
+    азійської зірки — англійське.
+  do: Знайди lucidum у складі на сайті
+  source: en.wikipedia Ganoderma lucidum; Wang et al., PLoS ONE 2012, PMC3401198
+- key: w9-reishi-evening
+  topic: Рейші
+  day: mon
+  slot: evening
+  layout: macro
+  subject: >
+    a few thin slices of dried reishi, light brown and corky, beside a small
+    heap of dark brown powder and a small clay teacup.
+  claim: Слову «лінчжі» — дві тисячі років
+  why: Обидва ієрогліфи разом першим записав історик Бань Гу в І столітті, в оді. Японське «рейші» — те саме
+    слово, тільки японською вимовою.
+  do: Перешли тому, хто вчить китайську
+  source: en.wikipedia Lingzhi mushroom
+- key: w9-reishi-sell
+  topic: Рейші
+  day: mon
+  slot: sell
+  layout: sell
+  body: >
+    The giant bottle stands upright on the left side of the frame. Next to it
+    a WOMAN of about thirty-five in a light linen dress sits on the ground
+    under a giant glossy red-brown reishi mushroom cap, as under an umbrella,
+    reading a book, a soft content smile — a feeling of a quiet afternoon.
+  details: a few small glossy red-brown reishi mushroom caps, a few thin slices of dried reishi, a few
+    small green leaves.
+  claim: Екстракт 10:1 у капсулі
+  why: Половину екстракту становлять полісахариди — так звуть довгі ланцюжки цукрів гриба. У банці 120
+    капсул.
+  do: Шукай посилання в шапці профілю
+  source: 'склад у каталозі LIS-481469: екстракт Рейші (Ganoderma lucidum), вегетаріанські капсули, 50%
+    полісахаридів'
+offer:
+  topic: Рейші
+  day: mon
+  layout: offer
+  subject: >
+    one glossy red-brown reishi cap, a few thin slices of dried reishi and a
+    small heap of dark brown powder lying together.
+  claim: Чотири форми рейші
+  extra: Екстракт у капсулах — 60 або 120 шт|Екстракт мелений — 50 г|Мелені плодові тіла — 50 г|Подрібнені
+    плодові тіла — 50 г
+  do: Обери свою форму на сайті
+  source: каталог Horoshop 19.10.2026 — екстракт у капсулах, екстракт мелений, мелені й подрібнені плодові
+    тіла — усе в наявності

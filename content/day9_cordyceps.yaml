@@ -1,0 +1,116 @@
+# Тиждень 9, день 3: Кордицепс військовий у капсулах. Вайб «шалфей».
+# product: https://lisovik.com.ua/kordytseps-viiskovyi-u-kapsulakh-120-sht-po-05-h/
+# Факти — дослідник 19.10, кожен із джерелом. Ціни на плашці немає — рішення
+# Ярика 19.10. Людина в сценах — чоловік (Ярик: «на кордицепсі чоловік»).
+# Тільки militaris: факти про sinensis і бігунок 1993 не беремо.
+product:
+  name: Кордицепс військовий
+  plaque: Ранок
+  price: null
+  old: null
+  ref: w9_jar_kordytseps.jpg
+  # Опис банки дослівно з промпту сцени сайту (scene-kord-jump).
+  # 19.10, четверта спроба ранку: кришка вийшла металевою — тому
+  # «білий пластик, не метал» названо прямо.
+  jar: >
+    a clear plastic jar with a WHITE PLASTIC screw lid (not metal, not
+    silver), filled with white capsules, with a rust-orange label with a
+    white tree emblem and the Ukrainian words КОРДИЦЕПС ВІЙСЬКОВИЙ.
+thoughts:
+- key: w9-cordyceps-dawn
+  topic: Кордицепс військовий
+  day: thu
+  slot: dawn
+  layout: macro
+  subject: >
+    a small cluster of bright orange club-shaped cordyceps militaris
+    fruiting bodies, each a slim orange club a few centimetres long with a
+    fine grainy surface, lying on the paper.
+  claim: 2007-го його обрали грибом року
+  # Ярик 19.10 спитав, чи справді на метеликах. Перевірено: DGfM, NABU,
+  # de.wikipedia — мертві лялечки лускокрилих. Гусениць не пишемо: їх
+  # згадує лише de.wikipedia («selten»), а «гриб на гусениці» — це інший
+  # вид, Ophiocordyceps sinensis, і фраза плутала б їх. «Лялечкова
+  # булава» — неповний переклад Puppenkernkeule, тому подано як «звідси».
+  why: Німецьке товариство мікології віддало звання кордицепсу військовому. У природі він росте на лялечках
+    метеликів — звідси й німецька назва, «лялечкова булава».
+  do: Збережи, щоб показати знайомим грибникам
+  source: dgfm-ev.de/pilz-des-jahres/2007-puppenkernkeule; nabu.de Puppenkernkeule
+- key: w9-cordyceps-morning
+  topic: Кордицепс військовий
+  day: thu
+  slot: morning
+  layout: giant
+  body: >
+    The giant jar stands upright on the right side of the frame. A tiny MAN
+    of about thirty-five in light comfortable sportswear sits on the ground
+    at the foot of the giant jar, tying the laces of his running shoes, a
+    calm smile — getting ready for a morning run. A few thin bright orange
+    cordyceps militaris stems lie scattered on the ground around him. No
+    map, no paper, no water bottle.
+  details: a few bright orange thin cordyceps militaris mushroom stems, a few golden wheat grains, a
+    few small green leaves.
+  claim: Лінней назвав його булавою
+  why: 1753 року Лінней описав гриб як Clavaria militaris — clava латиною «булава». Рід, що зветься Cordyceps,
+    теж про булаву — грецьке «булава» плюс латинське «голова».
+  do: Знайди militaris у складі на сайті
+  source: GBIF Clavaria militaris L. 1753, Sp. Pl. 2:1182; en.wikipedia Cordyceps (Merriam-Webster)
+- key: w9-cordyceps-noon
+  topic: Кордицепс військовий
+  day: thu
+  slot: noon
+  layout: macro
+  subject: >
+    a bunch of bright orange cordyceps militaris clubs growing upward from a
+    pad of white fluffy mycelium, seen close and detailed.
+  claim: 9684 гени в одному грибі
+  why: Стільки їх налічили вчені Академії наук Китаю в Шанхаї й Університету Меріленду, коли розшифрували
+    геном кордицепсу військового.
+  do: Перешли тому, хто любить науку
+  source: Zheng et al., Genome Biology 12:R116 (2011), PMC3334602
+- key: w9-cordyceps-evening
+  topic: Кордицепс військовий
+  day: thu
+  slot: evening
+  layout: macro
+  subject: >
+    a small heap of dried orange cordyceps militaris stems beside a small
+    heap of golden wheat grains.
+  claim: У Китаї його офіційно визнали їжею
+  why: 2009 року Міністерство охорони здоровʼя Китаю схвалило кордицепс військовий як нову харчову сировину.
+    З усіх видів кордицепсу такий статус має лише він.
+  do: 'Перевір на банці: militaris, а не sinensis'
+  source: tiprpress.com/zcy/article/abstract/20240727 (огляд 2024); en.wikipedia Cordyceps militaris
+- key: w9-cordyceps-sell
+  topic: Кордицепс військовий
+  day: thu
+  slot: sell
+  layout: sell
+  body: >
+    The giant jar stands upright on the left side of the frame. A MAN of
+    about forty-five in light comfortable sportswear jumps joyfully high in
+    mid-air next to it, arms raised, legs bent, a bright happy smile — as if
+    he just jumped over a few bright orange cordyceps mushroom stems, giant
+    like small logs, lying on the ground.
+  details: a few bright orange thin cordyceps militaris mushroom stems, a few golden wheat grains, a
+    few small green leaves.
+  claim: Вирощений на пшениці
+  # «кордицепс» без «військовий» читався як про весь рід — для sinensis
+  # (гусениці Thitarodes) це неправда.
+  why: У природі кордицепс військовий росте на лялечках метеликів. У цій банці він вегетаріанський — 120
+    капсул.
+  do: Шукай посилання в шапці профілю
+  source: 'склад у каталозі LIS-469818: Cordyceps militaris, вирощений на пшениці (вегетаріанський)'
+offer:
+  topic: Кордицепс військовий
+  day: thu
+  layout: offer
+  subject: >
+    a few dried orange cordyceps militaris stems, a small heap of pale
+    orange powder and a few golden wheat grains lying together.
+  claim: Шість форм кордицепсу
+  extra: Капсули — 60 або 120 шт|Мелений і цілий — 50 г|Екстракт 10:1 — у капсулах і мелений|Рідкий
+    екстракт — 30 або 50 мл
+  do: Обери свою форму на сайті
+  source: каталог Horoshop 19.10.2026 — капсули, екстракт у капсулах, екстракт мелений, мелений, цілі
+    плодові тіла, рідкий екстракт — усе в наявності
