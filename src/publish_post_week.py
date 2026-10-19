@@ -12,6 +12,7 @@
 Пост у стрічці — контейнер без media_type (за замовчуванням IMAGE) і з
 підписом; сторіс, на відміну від нього, підпису не має.
 """
+import shutil
 import sys
 from datetime import datetime
 
@@ -67,7 +68,13 @@ def main() -> int:
         print("✖ немає IG_ACCESS_TOKEN / IG_USER_ID")
         return 1
 
-    url = mf.upload_media(IMG, mf.token())
+    # Ім'я з датою: raw.githubusercontent кешує файл на 5 хвилин
+    # (max-age=300), а media_ready дивиться лише на код 200. Під тим самим
+    # post_week.jpg Meta забрала б минулотижневий кадр — спіруліну під
+    # підписом про їжовик (19.10).
+    dated = DEST / f"post_week_{now:%Y-%m-%d}.jpg"
+    shutil.copy2(IMG, dated)
+    url = mf.upload_media(dated, mf.token())
     print("медіа залито:", url)
     mid = publish_feed(url, caption)
     print(f"✔ Instagram {mid}")

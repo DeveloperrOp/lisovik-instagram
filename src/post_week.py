@@ -43,6 +43,18 @@ REFS = ("manecaps.jpg", "mind.jpg", "ginkgo.jpg")
 # (памʼять herbal-teas-niche). Тому він параметр, а не константа.
 DISCLAIMER = ("Дієтична добавка. Не замінює повноцінний раціон харчування. "
               "Не є лікарським засобом.")
+# Сцена теж залежить від тижня: дой-паки спіруліни лежать пласко, а банки
+# їжовика з камери згори — це самі лише кришки. Тому вона параметр
+# (--scene); за замовчуванням — сцена спіруліни, яку Ярик обрав 11.10.
+SCENE = ("FLAT LAY, camera directly overhead, soft daylight on a pale "
+         "stone surface: two of the attached packages lying flat in the "
+         "BOTTOM HALF of the frame beside a wooden spoon heaped with "
+         "bright green powder and a small loose scatter of the same "
+         "powder. The TOP HALF is bare pale stone, completely empty.")
+# Назви на етикетках стоять у родовому відмінку — «МІЦЕЛІЙ ЇЖОВИКА
+# ГРЕБІНЧАСТОГО». Без цього вичитка бачила в правильному «їжовика»
+# спотворене «їжовик» (схожість 0,92) і бракувала кожну спробу.
+LABEL_FORMS = {"їжовика", "гребінчастого"}
 
 URL = "https://lisovik.com.ua/tovar-tyzhnia/"
 PAGE = OUT_DIR.parent / "tmp" / "week.html"
@@ -135,6 +147,9 @@ def products() -> list:
 def short(name: str) -> str:
     """Назва для кадру: без фасовок і дозувань — їх на зображення не
     можна, і вони ж роблять рядок нечитабельним."""
+    # «Рідкий екстракт, Їжовика гребінчастого 30 мл»: тут кома не відділяє
+    # фасовку, а розриває саму назву — у кадр ішло голе «Рідкий екстракт».
+    name = re.sub(r"^(Рідкий екстракт),\s*", r"\1 ", name)
     n = re.split(r",|\s+\d+\s*(шт|капсул)", name)[0]
     n = re.sub(r"\s*\([^)]*\)", "", n)          # «(1 місяць)» — це фасовка
     n = re.sub(r"\s+для розумової активності", "", n)
@@ -143,6 +158,9 @@ def short(name: str) -> str:
     # одна спіруліна дає шість рядків замість двох і список лізе за край.
     n = re.sub(r"\s+\d+\s*[+]\s*\d+\s*г", "", n)   # «100+100 г»
     n = re.sub(r"\s+\d+\s*г", "", n)                 # «250 г»
+    n = re.sub(r"\s+\d+\s*мл", "", n)                # «30 мл»
+    # Сайт пише вид із великої посеред назви: «Екстракт міцелію Їжовика».
+    n = re.sub(r"(?<=\s)Їжовик", "їжовик", n)
     # «WOMEN Natural Power Formula» — найдовший рядок списку, він наповзав
     # на кришки банок (27.09). На банері цей самий товар — «комплекс WOMEN».
     n = re.sub(r"^(WOMEN|MEN) Natural Power Formula$", r"Комплекс \1", n)
@@ -182,16 +200,13 @@ def draw(items: list) -> None:
     bg = DEST / "bg.png"
     if not bg.exists():
         prompt = (
-            "FLAT LAY, camera directly overhead, soft daylight on a pale "
-            "stone surface: two of the attached packages lying flat in the "
-            "BOTTOM HALF of the frame beside a wooden spoon heaped with "
-            "bright green powder and a small loose scatter of the same "
-            "powder. The TOP HALF is bare pale stone, completely empty. "
+            SCENE + " "
             "Draw ONLY the kinds of package shown in the attached photos — "
             "if they are stand-up pouches, every package in the frame is a "
             "pouch: no jars, no bottles, no tins invented on top of them. "
             "NO text of your own anywhere in the image, no watermarks, no "
-            "red-and-white spotted mushrooms.")
+            "red-and-white spotted mushrooms. No brand name, logo or "
+            "wording of any other company anywhere, no English brand text.")
         # Банки в кадрі мусять бути наші, інакше пост рекламує чужий
         # бренд. Дрібний шрифт на етикетках читати не обовʼязково —
         # див. REF_MANY у build_day.
@@ -211,9 +226,10 @@ def draw(items: list) -> None:
             # перевірку на спотворене своє слово.
             seen = V.check(bg, [], tok).get("seen", {})
             words = " ".join(seen.get("text_lines", [])).lower()
+            exact = B.EXACT_LABEL | LABEL_FORMS
             bad = [w for w in re.findall(r"[а-яіїєґ]{5,}", words)
-                   if difflib.get_close_matches(w, B.EXACT_LABEL, 1, 0.80)
-                   and w not in B.EXACT_LABEL]
+                   if difflib.get_close_matches(w, exact, 1, 0.80)
+                   and w not in exact]
             if not bad:
                 break
             print(f"  ~ спотворене слово: {', '.join(bad[:3])}")
@@ -253,8 +269,9 @@ def arg(name: str, default):
 
 
 def main() -> int:
-    global HEADLINE, LEAD, ABOUT, REFS, DISCLAIMER
+    global HEADLINE, LEAD, ABOUT, REFS, DISCLAIMER, SCENE
     HEADLINE = arg("headline", HEADLINE)
+    SCENE = arg("scene", SCENE)
     LEAD = arg("lead", LEAD)
     ABOUT = arg("about", ABOUT)
     DISCLAIMER = arg("disclaimer", DISCLAIMER)
