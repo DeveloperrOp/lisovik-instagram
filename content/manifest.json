@@ -4513,6 +4513,84 @@
    "ig_media_id": "18157315852514038",
    "error": null,
    "fb_story_id": "1565671758578652"
+  },
+  {
+   "id": "1020-mane-dawn",
+   "kind": "STORIES",
+   "theme": "Їжовик гребінчастий",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1020-mane-dawn.jpg",
+   "slot_start": "2026-10-20T07:00:00+03:00",
+   "slot_end": "2026-10-20T09:45:00+03:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1020-mane-morning",
+   "kind": "STORIES",
+   "theme": "Їжовик гребінчастий",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1020-mane-morning.jpg",
+   "slot_start": "2026-10-20T10:00:00+03:00",
+   "slot_end": "2026-10-20T11:45:00+03:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1020-mane-noon",
+   "kind": "STORIES",
+   "theme": "Їжовик гребінчастий",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1020-mane-noon.jpg",
+   "slot_start": "2026-10-20T12:00:00+03:00",
+   "slot_end": "2026-10-20T17:45:00+03:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1020-mane-evening",
+   "kind": "STORIES",
+   "theme": "Їжовик гребінчастий",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1020-mane-evening.jpg",
+   "slot_start": "2026-10-20T18:00:00+03:00",
+   "slot_end": "2026-10-20T18:55:00+03:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1020-mane-sell",
+   "kind": "STORIES",
+   "theme": "Їжовик гребінчастий",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1020-mane-sell.jpg",
+   "slot_start": "2026-10-20T19:00:00+03:00",
+   "slot_end": "2026-10-20T19:55:00+03:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1020-mane-night",
+   "kind": "STORIES",
+   "theme": "Лісовик",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1020-mane-night.jpg",
+   "slot_start": "2026-10-20T20:00:00+03:00",
+   "slot_end": "2026-10-20T23:30:00+03:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
   }
  ]
 }
