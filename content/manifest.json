@@ -4564,10 +4564,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1020-mane-evening.jpg",
    "slot_start": "2026-10-20T18:00:00+03:00",
    "slot_end": "2026-10-20T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-20T18:05:07.365169+03:00",
+   "ig_media_id": "17891277150684438",
+   "error": null,
+   "fb_story_id": "1450215777037318"
   },
   {
    "id": "1020-mane-sell",
