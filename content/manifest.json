@@ -4592,10 +4592,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1020-mane-night.jpg",
    "slot_start": "2026-10-20T20:00:00+03:00",
    "slot_end": "2026-10-20T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-20T20:05:54.489002+03:00",
+   "ig_media_id": "18010928673006272",
+   "error": null,
+   "fb_story_id": "1114943424795624"
   },
   {
    "id": "1021-triichatka-dawn",
