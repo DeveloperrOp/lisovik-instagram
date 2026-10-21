@@ -4648,10 +4648,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1021-triichatka-evening.jpg",
    "slot_start": "2026-10-21T18:00:00+03:00",
    "slot_end": "2026-10-21T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-21T18:00:49.651910+03:00",
+   "ig_media_id": "17896964244414121",
+   "error": null,
+   "fb_story_id": "1095287209928701"
   },
   {
    "id": "1021-triichatka-sell",
