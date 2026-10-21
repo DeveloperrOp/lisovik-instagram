@@ -4606,10 +4606,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1021-triichatka-dawn.jpg",
    "slot_start": "2026-10-21T07:00:00+03:00",
    "slot_end": "2026-10-21T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-21T07:03:05.663693+03:00",
+   "ig_media_id": "18101385803535427",
+   "error": null,
+   "fb_story_id": "1642474157671091"
   },
   {
    "id": "1021-triichatka-morning",
