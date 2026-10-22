@@ -4761,10 +4761,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1022-cordyceps-night.jpg",
    "slot_start": "2026-10-22T20:00:00+03:00",
    "slot_end": "2026-10-22T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-22T20:05:43.556621+03:00",
+   "ig_media_id": "17950006644341362",
+   "error": null,
+   "fb_story_id": "1841437677272208"
   },
   {
    "id": "1023-tremela-dawn",
