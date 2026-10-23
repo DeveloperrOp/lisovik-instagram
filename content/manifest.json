@@ -4775,10 +4775,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1023-tremela-dawn.jpg",
    "slot_start": "2026-10-23T07:00:00+03:00",
    "slot_end": "2026-10-23T09:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-23T07:02:50.407935+03:00",
+   "ig_media_id": "17940305358388535",
+   "error": null,
+   "fb_story_id": "1815307049664028"
   },
   {
    "id": "1023-tremela-morning",
