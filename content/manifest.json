@@ -4817,10 +4817,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1023-tremela-evening.jpg",
    "slot_start": "2026-10-23T18:00:00+03:00",
    "slot_end": "2026-10-23T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-23T18:00:46.309706+03:00",
+   "ig_media_id": "18021386315929870",
+   "error": null,
+   "fb_story_id": "1328028636004620"
   },
   {
    "id": "1023-tremela-sell",
