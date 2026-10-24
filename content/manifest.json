@@ -4902,10 +4902,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1024-ashwagandha-evening.jpg",
    "slot_start": "2026-10-24T18:00:00+03:00",
    "slot_end": "2026-10-24T18:55:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-24T18:04:48.873093+03:00",
+   "ig_media_id": "18116481761084898",
+   "error": null,
+   "fb_story_id": "2303742813813329"
   },
   {
    "id": "1024-ashwagandha-sell",
