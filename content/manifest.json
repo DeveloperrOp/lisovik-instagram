@@ -4888,10 +4888,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1024-ashwagandha-noon.jpg",
    "slot_start": "2026-10-24T12:00:00+03:00",
    "slot_end": "2026-10-24T17:45:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-24T12:03:57.818043+03:00",
+   "ig_media_id": "17979700818139022",
+   "error": null,
+   "fb_story_id": "1931077738301481"
   },
   {
    "id": "1024-ashwagandha-evening",
