@@ -4930,10 +4930,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1024-ashwagandha-night.jpg",
    "slot_start": "2026-10-24T20:00:00+03:00",
    "slot_end": "2026-10-24T23:30:00+03:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-24T20:05:25.358959+03:00",
+   "ig_media_id": "18083856221518883",
+   "error": null,
+   "fb_story_id": "1110594848354114"
   },
   {
    "id": "1025-chaga-dawn",
