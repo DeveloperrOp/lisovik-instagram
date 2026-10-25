@@ -5014,10 +5014,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1025-chaga-night.jpg",
    "slot_start": "2026-10-25T20:00:00+02:00",
    "slot_end": "2026-10-25T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-25T20:05:24.234252+02:00",
+   "ig_media_id": "18643821922055227",
+   "error": null,
+   "fb_story_id": "1651412296509977"
   },
   {
    "id": "1026-reishi-dawn",
