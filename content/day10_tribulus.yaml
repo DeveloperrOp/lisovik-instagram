@@ -1,0 +1,97 @@
+# Тиждень 10, день 4: Трибулус, екстракт у капсулах. Вайб «гербарій на шалфеї».
+# product: https://lisovik.com.ua/tribulus-ekstrakt-kapsuly-60-sht-po-06-h/
+# Факти — дослідник 25.10, кожен із джерелом. Без лібідо, гормонів, спорту:
+# стоп-лист. Із чернетки тижня 7 не взято «звідси слово якірці» (не
+# підтверджено) і Чараку (лікарський контекст). Ціна — за банку на 60, як на фото.
+product:
+  name: Трибулус
+  plaque: Колючка зі степу
+  latin: Tribulus terrestris
+  price: 470
+  ref: w10_jar_tribulus_LIS-N452047.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a dark
+    forest-green label with the white ЛІСОВИК tree-face logo, small yellow
+    flowers on the side panels and the word ТРІБУЛУС.
+thoughts:
+- key: w10-tribulus-dawn
+  topic: Трибулус
+  day: fri
+  slot: dawn
+  layout: specimen
+  subject: >
+    a pressed dried specimen of Tribulus terrestris — a long thin trailing
+    stem with small paired feathery leaves, a few small bright yellow
+    five-petal flowers and a few spiny star-shaped fruits — fixed to the
+    paper with thin strips of paper tape, a small blank cream tag tied with
+    twine beside it.
+  claim: Санскритом — «коровʼяче копито»
+  why: Гокшура складається з «го» — корова і «кшура» — копито. Колючі горішки плоду застрягають між копитами
+    худоби, звідси й імʼя.
+  source: Apte, Monier-Williams — wisdomlib.org/definition/gokshura
+- key: w10-tribulus-morning
+  topic: Трибулус
+  day: fri
+  slot: morning
+  layout: jar
+  subject: >
+    a pressed dried Tribulus terrestris stem with small feathery leaves,
+    yellow flowers and spiny fruits fixed with thin strips of paper tape, and
+    the product lying on the paper in the lower right.
+  claim: Греки звали так і колючку, і зброю
+  why: Слово «триболос» означало і колючу рослину, і залізного «їжака», якого розсипали під ноги кінноті.
+    Латинське tribulus перейняло обидва значення.
+  source: en.wiktionary τρίβολος; en.wikipedia Caltrop (Vegetius, De re militari)
+- key: w10-tribulus-noon
+  topic: Трибулус
+  day: fri
+  slot: noon
+  layout: specimen
+  subject: >
+    five dried spiny fruit segments of Tribulus terrestris, each a hard
+    wedge-shaped nutlet with two sharp horns, laid out in a neat row and
+    fixed with tiny strips of paper tape, a small blank cream tag beside
+    them.
+  claim: В Америці це «козяча голова»
+  why: Кожен горішок плоду схожий на маленьку голову з рогами. Служби боротьби з бурʼянами в Каліфорнії
+    пишуть, що він легко проколює велосипедні шини.
+  source: ipm.ucanr.edu/PMG/WEEDS/puncturevine.html; cal-ipc.org/?p=71514
+- key: w10-tribulus-evening
+  topic: Трибулус
+  day: fri
+  slot: evening
+  layout: specimen
+  subject: >
+    a pressed dried sprig of Tribulus terrestris with small feathery leaves
+    and two spiny fruits, beside a tiny glassine envelope with a little dry
+    sand inside, fixed with paper tape.
+  claim: 1961-го на нього випустили жуків
+  why: У Каліфорнії й Неваді випустили довгоносиків, зібраних у Франції, Індії та Італії. Їх обрали, бо
+    вони розмножуються лише на якірцях і кількох їхніх родичах.
+  source: ipm.ucanr.edu/natural-enemies/puncturevine-weevils; bc4weeds.tamu.edu/puncturevineseedweevil
+- key: w10-tribulus-sell
+  topic: Трибулус
+  day: fri
+  slot: sell
+  layout: sell
+  subject: >
+    a pressed dried Tribulus terrestris stem with yellow flowers and spiny
+    fruits fixed with paper tape on the left, and the product standing
+    upright on the right, both in the middle of the frame.
+  claim: Стандартизований за сапонінами
+  why: Це екстракт якірців сланких — 90% у ньому становлять сапоніни, так звуть мильні речовини рослини.
+    Оболонка капсули рослинна.
+  do: Візьми 60 капсул або одразу 120
+  source: 'склад у каталозі LIS-N452047: екстракт Tribulus terrestris, сапоніни 90%, оболонка HPMC'
+offer:
+  topic: Трибулус
+  day: fri
+  layout: offer
+  subject: >
+    the product lying on the paper with a pressed sprig of Tribulus
+    terrestris and a few spiny fruits beside it, fixed with thin strips of
+    paper tape.
+  claim: Трибулус у банці — екстракт
+  extra: Фасовка — 60 або 120 капсул|Сапоніни — 90% екстракту|Оболонка — рослинна
+  do: Знайди обидві фасовки в шапці профілю
+  source: 'каталог 25.10.2026: LIS-N452047/N452060 у наявності'

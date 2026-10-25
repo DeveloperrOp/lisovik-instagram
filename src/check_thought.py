@@ -124,6 +124,15 @@ ACTION = re.compile(
     # дозволене «запиши», тільки адресат інший
     r"збережи|перешли|розкажи|перекажи|не\s+\w+)\b", re.I)
 
+# Ярик 25.10: «дивись склад на сайті» йшло з тижня в тиждень навіть на
+# товар з одного компонента. За тижні 2–9 у «do» 90 з 287 висновків — про
+# сайт чи склад, «замовляй у директі або на сайті» 35 разів. Правило «кожен
+# кадр дає висновок» вимагало дієслово, і там, де факт поради не дає,
+# дописували відписку. Тепер кадр факту може закінчитись самим фактом, а
+# куди йти купувати — тільки в кадрах продажу й оферти.
+FACT_SLOTS = {"dawn", "morning", "noon", "evening"}
+GENERIC_DO = re.compile(r"сайт|у складі|склад на|шапц\w* профілю|директ", re.I)
+
 # Разделители частей в extra: вертикальная черта, стрелка, слэш, точка
 # с запятой. Запятая сюда НЕ входит намеренно.
 #
@@ -495,9 +504,13 @@ def check(t: dict) -> list:
             bad.append("оферті потрібні щонайменше дві позиції в extra")
         return bad
 
+    fact = t.get("slot") in FACT_SLOTS
     for f in ("claim", "why", "do"):
         v = (t.get(f) or "").strip()
         if not v:
+            # Кадр факту закінчується самим фактом — див. GENERIC_DO.
+            if f == "do" and fact:
+                continue
             bad.append(f"немає «{f}» — думка без нього не закінчена")
             continue
         if len(v) > MAX[f]:
@@ -512,6 +525,9 @@ def check(t: dict) -> list:
     if do and not ACTION.search(do):
         bad.append(f"«do» не містить дії — це ще одне твердження, "
                    f"а не висновок: «{do[:40]}»")
+    if do and fact and GENERIC_DO.search(do):
+        bad.append(f"«do» на кадрі факту — відписка: «{do[:40]}». Або "
+                   f"практична порада саме з цього факту, або нічого")
 
     # why должно объяснять, а не повторять claim другими словами
     claim, why = (t.get("claim") or "").lower(), (t.get("why") or "").lower()
@@ -669,8 +685,30 @@ def main() -> int:
         print()
         print("  ✖ ДЕНЬ ЦІЛКОМ")
         print(f"      {problem}")
+    # Висновок, який уже стояв у будь-якому іншому дні, — шаблон, а не
+    # висновок саме з цього факту.
+    seen = {}
+    for f in sorted(path.parent.glob("day*.yaml")):
+        if f.resolve() == path.resolve():
+            continue
+        try:
+            other = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+        except yaml.YAMLError:
+            print(f"  ⚠ {f.name} не читається як YAML — повтори з ним не звірено")
+            continue
+        rows = other.get("thoughts") if isinstance(other, dict) else None
+        for o in rows or []:
+            k = " ".join(str(o.get("do") or "").lower().split())
+            if k:
+                seen.setdefault(k, f.stem)
     for t in thoughts:
         problems = check(t)
+        k = " ".join(str(t.get("do") or "").lower().split())
+        # Куди йти купувати однаково щодня — посилання в сторіс лише в шапці.
+        # Повтор шукаємо там, де жила відписка: у кадрах факту.
+        if k in seen and t.get("slot") in FACT_SLOTS:
+            problems.append(f"«do» уже був у {seen[k]}: «{t['do'][:40]}» — "
+                            f"висновок має йти з цього факту")
         if problems:
             bad_total += 1
             print(f"\n  ✖ {t.get('key', '?')} — {t.get('topic', '')}")

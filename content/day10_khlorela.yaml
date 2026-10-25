@@ -1,0 +1,87 @@
+# Тиждень 10, день 5: Хлорела в порошку й таблетках. Вайб «гербарій на шалфеї».
+# product: https://lisovik.com.ua/khlorela-u-poroshku-250-h/
+# Факти — дослідник 25.10, кожен із джерелом. Без «детоксу» й «важких
+# металів». Красноярський експеримент 1964–65 свідомо не беремо.
+# Бейерінк 1890 і «Японія з 60-х» уже виходили. Ціна — за пакет 250 г, як на фото.
+product:
+  name: Хлорела
+  plaque: Одна клітина
+  latin: Chlorella vulgaris
+  price: 1190
+  ref: w10_pack_khlorela_LIS-486008.jpg
+  pack: >
+    a matte WHITE stand-up pouch with a zip, a small green ЛІСОВИК tree logo,
+    the green words ХЛОРЕЛА, У ПОРОШКУ and 250Г and a green window.
+thoughts:
+- key: w10-khlorela-dawn
+  topic: Хлорела
+  day: sat
+  slot: dawn
+  layout: specimen
+  subject: >
+    three plain glass microscope slides with no stickers, each with a small
+    dark green smear, a vintage brass magnifying glass beside them, and a
+    small blank cream tag tied with twine.
+  claim: На ній здобули Нобелівську премію
+  why: З 1946 року Мелвін Кальвін у Берклі годував хлорелу вуглекислим газом із міченим вуглецем і простежив,
+    куди той іде. 1961-го — Нобелівська премія з хімії.
+  source: ebsco.com research-starters (Calvin Nobel 1961); en.wikipedia Chlorella
+- key: w10-khlorela-morning
+  topic: Хлорела
+  day: sat
+  slot: morning
+  layout: jar
+  subject: >
+    two glass microscope slides with small dark green smears in the upper
+    left, and the pouch lying flat on the paper in the lower right.
+  claim: Улюблена клітина фотосинтезу
+  why: 1919 року Отто Варбург узяв хлорелу для дослідів із фотосинтезу. Аж до 1960-х вона лишалась головною
+    моделлю в цій науці.
+  source: epub.ub.uni-muenchen.de/53145
+- key: w10-khlorela-noon
+  topic: Хлорела
+  day: sat
+  slot: noon
+  layout: specimen
+  subject: >
+    dark green pressed chlorella tablets laid out on the paper in one perfect
+    circle, with a small heap of dark green powder in the middle.
+  claim: Вся водорость — одна кругла клітина
+  why: Без джгутиків і без гілок. У Chlorella vulgaris така клітина завбільшки 4–10 мікрометрів.
+  source: plantuse.plantnet.org/en/Chlorella_(PROSEA); en.wikipedia Chlorella
+- key: w10-khlorela-evening
+  topic: Хлорела
+  day: sat
+  slot: evening
+  layout: specimen
+  subject: >
+    a small glass laboratory flask with dark green liquid inside, a small
+    heap of dark green powder beside it, and a small blank cream tag.
+  claim: Хлорела вміє ділитися за розкладом
+  why: 1953 року Хіросі Тамія з Інституту Токуґава показав, що за 12 годин світла й 12 темряви клітини хлорели
+    діляться майже одночасно.
+  source: nationalacademies.org/read/11429/chapter/19 (мемуар Ендрю Бенсона)
+- key: w10-khlorela-sell
+  topic: Хлорела
+  day: sat
+  slot: sell
+  layout: sell
+  subject: >
+    two glass microscope slides and a small heap of dark green powder on the
+    left, and the pouch standing upright on the right, both in the middle of
+    the frame.
+  claim: Нічого, крім хлорели
+  why: Порошок або пресовані таблетки — у складі тільки Chlorella vulgaris. У пакеті 250 грамів.
+  do: Візьми порошок чи таблетки — як зручніше
+  source: 'склад у каталозі LIS-486008: Chlorella vulgaris, 100% натуральний продукт без домішок'
+offer:
+  topic: Хлорела
+  day: sat
+  layout: offer
+  subject: >
+    the pouch lying on the paper with a small heap of dark green powder and
+    a few dark green tablets beside it.
+  claim: Дві форми хлорели
+  extra: Порошок — 100, 250 або 500 г|Таблетки — 100, 250 або 500 г|Склад — тільки хлорела
+  do: Знайди обидві форми в шапці профілю
+  source: 'каталог 25.10.2026: LIS-486007…486012 — у наявності'

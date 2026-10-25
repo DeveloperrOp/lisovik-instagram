@@ -1,0 +1,95 @@
+# Тиждень 10, день 7: Агарік бразильський, екстракт 10:1 у капсулах. Вайб «гербарій на шалфеї».
+# product: https://lisovik.com.ua/aharik-brazylskyi-ekstrakt-101-kapsuly-120-sht-po-0.5-h/
+# Факти — дослідник 25.10, кожен із джерелом. 🚨 Японську «онкологічну»
+# історію агаріка свідомо не беремо. Ціна — за банку на 120, як на фото.
+product:
+  name: Агарік бразильський
+  plaque: Мигдалевий гриб
+  latin: Agaricus subrufescens
+  price: 950
+  ref: w10_jar_aharik_LIS-481513.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a deep blue
+    label with the white ЛІСОВИК tree-face logo, mushroom pictures on the
+    side panels, a small round purple badge and the words АГАРІК
+    БРАЗИЛЬСЬКИЙ.
+thoughts:
+- key: w10-aharik-dawn
+  topic: Агарік бразильський
+  day: mon
+  slot: dawn
+  layout: specimen
+  subject: >
+    one dried Agaricus mushroom laid flat as a herbarium specimen — a pale
+    brown cap covered with fine brown scales, a thick pale stem with a ring —
+    fixed to the paper with thin strips of paper tape, a small blank cream
+    tag tied with twine beside it.
+  claim: Імʼя він отримав у Нью-Йорку 1893-го
+  why: Ботанік Чарльз Пек описав гриб як Agaricus subrufescens. Тож «бразильський» агарік уперше назвали
+    в США, задовго до Бразилії.
+  source: 'mykoweb.com Agaricus subrufescens (Peck, Rep. N.Y. St. Mus. 46: 105, 1893)'
+- key: w10-aharik-morning
+  topic: Агарік бразильський
+  day: mon
+  slot: morning
+  layout: jar
+  subject: >
+    two dried Agaricus mushrooms with pale brown scaly caps fixed with thin
+    strips of paper tape, and the product lying on the paper in the lower
+    right.
+  claim: Його їли в Америці ще у XIX столітті
+  why: Наприкінці 1800-х «мигдалевий гриб» вирощували на сході США, а грибницю продавали за каталогами.
+    Потім ринок забрала звичайна печериця.
+  source: Kerrigan 2005, Mycologia (PubMed 16389952); en.wikipedia Agaricus subrufescens
+- key: w10-aharik-noon
+  topic: Агарік бразильський
+  day: mon
+  slot: noon
+  layout: specimen
+  subject: >
+    one dried Agaricus mushroom cut in half lengthwise, showing pale flesh
+    and dark brown gills, fixed with paper tape, with a few small almonds
+    lying beside it.
+  claim: Чому гриб пахне мигдалем
+  why: Аромат дає речовина, яку звуть бензальдегідом, — та сама, що пахне в мигдалі. Ще 1922 року міколог
+    Вільям Меррілл писав, що мʼякоть смакує як зелені горіхи.
+  source: en.wikipedia Agaricus subrufescens (Chen & Wu 1984; Murrill 1922)
+- key: w10-aharik-evening
+  topic: Агарік бразильський
+  day: mon
+  slot: evening
+  layout: specimen
+  subject: >
+    three dried Agaricus mushrooms with pale brown scaly caps in a neat row,
+    each fixed with a strip of paper tape, with a small blank cream tag beside
+    each one.
+  claim: Помилку в назві виправили через 38 років
+  why: 1967 року бельгієць Хайнеман визначив бразильський гриб як Agaricus blazei. Лише 2005-го Роджер
+    Керріган за ДНК показав, що це вид Пека.
+  source: scielo.br/j/sa/a/VvYTnVkRSfyympfpFHdNYDG (Heinemann 1967); Kerrigan 2005, Mycologia
+- key: w10-aharik-sell
+  topic: Агарік бразильський
+  day: mon
+  slot: sell
+  layout: sell
+  subject: >
+    two dried Agaricus mushrooms with pale brown scaly caps fixed with paper
+    tape on the left, and the product standing upright on the right, both in
+    the middle of the frame.
+  claim: Екстракт, а не мелений гриб
+  why: Десять частин гриба виварюють в одну. Половину екстракту становлять полісахариди — так звуть довгі
+    ланцюжки цукрів гриба.
+  do: Обери банку на 60 чи 120 капсул
+  source: 'склад у каталозі LIS-481513: екстракт Agaricus subrufescens, 50% полісахаридів'
+offer:
+  topic: Агарік бразильський
+  day: mon
+  layout: offer
+  subject: >
+    the product lying on the paper with two dried Agaricus mushrooms beside
+    it, fixed with thin strips of paper tape.
+  claim: Пʼять форм агаріка
+  extra: Екстракт 10:1 — 60 або 120 капсул|Екстракт мелений — 50 г|Капсули з грибом — 60 або 120|Мелені
+    плодові тіла — 50 г|Сушений гриб — 50 г
+  do: Шукай усі пʼять у шапці профілю
+  source: 'каталог 25.10.2026: LIS-481512/513, 481514, 481506/507, 481508, 481511 — у наявності'

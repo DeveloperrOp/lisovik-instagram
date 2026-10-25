@@ -1,0 +1,94 @@
+# Тиждень 10, день 2: Спіруліна в порошку й таблетках. Вайб «гербарій на шалфеї».
+# product: https://lisovik.com.ua/spirulina-u-poroshku-250-h/
+# Факти — дослідник 25.10, кожен із джерелом. Без «суперфуду», «детоксу» й
+# «їжі космонавтів». «ООН/ВООЗ — найкраща їжа майбутнього» не взято:
+# першоджерела немає. Ціна — за пакет 250 г, як на фото.
+product:
+  name: Спіруліна
+  plaque: Синьо-зелена
+  latin: Spirulina platensis
+  price: 840
+  ref: w10_pack_spirulina_LIS-486002.jpg
+  pack: >
+    a matte WHITE stand-up pouch with a zip, a small green ЛІСОВИК tree logo,
+    the green words СПІРУЛІНА, У ПОРОШКУ and 250Г and a green powder window.
+thoughts:
+- key: w10-spirulina-dawn
+  topic: Спіруліна
+  day: wed
+  slot: dawn
+  layout: specimen
+  subject: >
+    a small round glass dish with a heap of dark green spirulina powder, a
+    few dark green pressed tablets beside it and a small blank cream
+    specimen tag tied with twine.
+  claim: Іспанцям вона нагадала сир
+  why: Ацтеки збирали на озері Тескоко темно-зелений мул і сушили в коржі. Берналь Діас писав, що на смак
+    вони як сир.
+  source: laphamsquarterly.org/node/9231 (Bernal Díaz); nahuatl.wired-humanities.org/content/tecuitlatl
+- key: w10-spirulina-morning
+  topic: Спіруліна
+  day: wed
+  slot: morning
+  layout: jar
+  subject: >
+    a small round glass dish with a heap of dark green powder and a few dark
+    green tablets in the upper left, and the pouch lying flat on the paper in
+    the lower right.
+  claim: Коржі «дихе» з берегів озера Чад
+  why: 1940 року фіколог Пʼєр Данжар описав темно-зелені коржі з ринку в Канемі — їх їв народ канембу.
+    Згодом ботаніки визначили, що це спіруліна.
+  source: horizon.documentation.ird.fr … 02468.pdf (Delpeuch et al., ORSTOM; Dangeard 1940); Léonard 1966
+- key: w10-spirulina-noon
+  topic: Спіруліна
+  day: wed
+  slot: noon
+  layout: specimen
+  subject: >
+    dark green pressed spirulina tablets laid out on the paper in one neat
+    spiral line, with a small heap of dark green powder at the centre of the
+    spiral.
+  claim: Справжнє імʼя — артроспіра
+  why: 1932 року Гайтлер обʼєднав два роди в один, і назва «спіруліна» пристала до чужого організму. 1989-го
+    Кастенгольц їх розвів знову.
+  source: Tomaselli et al. 1996 (Algological Studies 83); en.wikipedia Limnospira
+- key: w10-spirulina-evening
+  topic: Спіруліна
+  day: wed
+  slot: evening
+  layout: specimen
+  subject: >
+    a small corked glass vial of pale green water and a small heap of dark
+    green powder on a folded glassine envelope, a small blank cream tag
+    beside them.
+  claim: Ферма почалась із випадкової знахідки
+  why: 1967 року працівники мексиканської компанії Sosa Texcoco помітили, що в лужному озері біля їхнього
+    содового заводу сама росте водорость. Там і збудували три перші дослідні установки.
+  source: downloads.unido.org/ot/47/89/4789668 (доповідь ЮНІДО)
+- key: w10-spirulina-sell
+  topic: Спіруліна
+  day: wed
+  slot: sell
+  layout: sell
+  # Друга спроба 25.10 додала цілу «колекцію» трав із підписами й коноплю.
+  # Тому предметів рівно два й названо, що більше нічого.
+  subject: >
+    ONLY two objects on the bare sage paper and nothing else at all: on the
+    left a small round glass dish with dark green spirulina powder and a few
+    dark green tablets; on the right the pouch standing upright. No other
+    plants, no herbs, no cards, no labels, no vials, no envelopes.
+  claim: Сама спіруліна, без домішок
+  why: Порошок або пресовані таблетки — у складі тільки спіруліна. У пакеті 250 грамів.
+  do: Обери порошок або таблетки
+  source: 'склад у каталозі LIS-486002: Spirulina platensis, 100% натуральний продукт без домішок'
+offer:
+  topic: Спіруліна
+  day: wed
+  layout: offer
+  subject: >
+    the pouch lying on the paper with a small heap of dark green powder and
+    a few dark green tablets beside it.
+  claim: Порошок чи таблетки
+  extra: Порошок — 100, 250 або 500 г|Таблетки — 100, 250 або 500 г|Склад — тільки спіруліна
+  do: Шукай обидві форми в шапці профілю
+  source: 'каталог 25.10.2026: LIS-486001…486006 — у наявності'

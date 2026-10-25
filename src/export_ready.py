@@ -40,14 +40,21 @@ def main() -> int:
 
     dest = PROJECT_ROOT / "ГОТОВІ СТОРІС" / f"тиждень-{n}"
     # Тека перезбирається з нуля: якщо кадр перегенерували, стара версія
-    # не має лишитись поруч із новою.
-    if dest.exists():
-        shutil.rmtree(dest)
-    dest.mkdir(parents=True)
+    # не має лишитись поруч із новою. Видаляємо файли, а не саму теку:
+    # 25.10 після rmtree відкрите вікно провідника дивилось на видалену
+    # теку й показувало Ярику порожнечу, хоча кадри вже лежали заново.
+    dest.mkdir(parents=True, exist_ok=True)
+    for old in dest.iterdir():
+        if old.is_file():
+            old.unlink()
 
     copied = 0
     for i, stem in enumerate(order):
         day = DAYS[(start + timedelta(days=i)).weekday()]
+        # Тиждень збирається по дню: пробний день показують раніше за решту.
+        if not (CONTENT_DIR / f"day{n}_{stem}.yaml").exists():
+            print(f"  · {stem}: дня ще немає")
+            continue
         frames = Q.frames(stem, f"day{n}_")
         name = (frames[0][2] or stem).split()[0]
         for slot, src, _ in frames:

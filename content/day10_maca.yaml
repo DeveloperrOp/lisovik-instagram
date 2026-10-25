@@ -1,0 +1,94 @@
+# Тиждень 10, день 1: Мака перуанська, екстракт 10:1 у капсулах. Вайб «гербарій на шалфеї».
+# product: https://lisovik.com.ua/maka-peruanska-ekstrakt-101-kapsuly-60-sht-po-06-h/
+# Факти — дослідник 25.10, кожен із джерелом. Із чернетки тижня 7 не взято:
+# «давали коням іспанців» (прихована обіцянка плодючості), «13 кольорів —
+# три назви» (насправді 13 описали дослідники, основних кольорів чотири).
+# Кадри факту без заклику: жоден із цих фактів чесної практичної поради не дає.
+product:
+  name: Мака перуанська
+  plaque: Корінь з Анд
+  latin: Lepidium meyenii
+  # Ціна — рівно за те, що на фото: на банці «КАПСУЛИ 60 ШТ».
+  price: 375
+  ref: w10_jar_maca_LIS-N452045.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a dark
+    chocolate-brown label with the white ЛІСОВИК tree-face logo and the words
+    МАКА ПЕРУАНСЬКА.
+thoughts:
+- key: w10-maca-dawn
+  topic: Мака перуанська
+  day: tue
+  slot: dawn
+  layout: specimen
+  subject: >
+    a pressed dried maca plant — a flat rosette of thin lacy leaves with a
+    small central cluster of tiny cream-white flowers and a pale yellow
+    pear-shaped root — fixed to the paper with thin strips of paper tape, a
+    small blank cream specimen tag tied with twine beside it.
+  claim: Редиска й капуста — її родичі
+  why: За даними Міжнародного центру картоплі, мака — єдина рослина цієї родини, яку одомашнили в Америці.
+  source: cipotato.org/roots-and-tubers/maca; IPNI 286286-1 (Brassicaceae)
+- key: w10-maca-morning
+  topic: Мака перуанська
+  day: tue
+  slot: morning
+  layout: jar
+  subject: >
+    a pressed dried maca plant with thin lacy leaves and a pale yellow
+    pear-shaped root, fixed with thin strips of paper tape, and the product
+    lying on the paper in the lower right.
+  claim: Поле вдвічі вище за Говерлу
+  why: Маку вирощують на плато Хунін у Перу, на 4000–4500 метрах. Озеро Хунін поруч лежить на висоті 4083
+    метри.
+  source: Gonzales 2012, PMC3184420; en.wikipedia Lake Junín (4082,7 м); Говерла 2061 м
+- key: w10-maca-noon
+  topic: Мака перуанська
+  day: tue
+  slot: noon
+  layout: specimen
+  subject: >
+    four small dried maca roots in a neat row, each a different colour — pale
+    yellow, red, purple and nearly black — shrivelled and hard, each fixed to
+    the paper with a strip of paper tape, a small blank cream tag beside them.
+  claim: До 13 кольорів одного кореня
+  why: Дослідники в Кархуамайо описали до тринадцяти відтінків маки. На ринку ж говорять про чотири — жовту,
+    червону, фіолетову й чорну.
+  source: Gonzales 2012, PMC3184420; Meissner 2016, PMC4841986; огляд 2024, PMC10892513
+- key: w10-maca-evening
+  topic: Мака перуанська
+  day: tue
+  slot: evening
+  layout: specimen
+  subject: >
+    a few hard, shrivelled dried maca roots, pale beige-yellow and deeply
+    wrinkled, with a few dry lacy leaves, fixed to the paper with thin strips
+    of paper tape.
+  claim: Сушать 6–9 тижнів просто неба
+  why: На висоті понад 4000 метрів корінь удень гріє сонце, а вночі прихоплює мороз. Висушений, він твердне
+    так, що перед їжею його варять, а зберігають роками.
+  source: Meissner 2016, PMC4841986; Esparza et al. 2015 (AGRIS/FAO); Gonzales 2012, PMC3184420
+- key: w10-maca-sell
+  topic: Мака перуанська
+  day: tue
+  slot: sell
+  layout: sell
+  subject: >
+    a pressed dried maca plant with lacy leaves and a pale yellow root fixed
+    with paper tape on the left, and the product standing upright on the
+    right, both in the middle of the frame.
+  claim: Корінь, згущений удесятеро
+  why: Екстракт 10:1 — з десяти частин сушеного кореня виходить одна. У капсулі тільки він.
+  do: Обери 60 або 120 капсул
+  source: 'склад у каталозі LIS-N452058: екстракт 10:1 кореня маки перуанської, оболонка HPMC'
+offer:
+  topic: Мака перуанська
+  day: tue
+  layout: offer
+  subject: >
+    the product lying on the paper with two dried pale yellow maca roots
+    beside it, the roots fixed with thin strips of paper tape.
+  claim: Мака в банці — екстракт 10:1
+  extra: Фасовка — 60 або 120 капсул|Оболонка — рослинна, без желатину|Склад — тільки корінь маки
+  do: Шукай обидві фасовки в шапці профілю
+  source: 'каталог 25.10.2026: LIS-N452045/N452058 у наявності; оболонка HPMC'

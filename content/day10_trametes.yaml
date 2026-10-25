@@ -1,0 +1,94 @@
+# Тиждень 10, день 6: Траметес різнобарвний, екстракт 10:1 у капсулах. Вайб «гербарій на шалфеї».
+# product: https://lisovik.com.ua/trametes-riznobarvnyi-ekstrakt-101-kapsuly-120-sht-po-0.5-h/
+# Факти — дослідник 25.10, кожен із джерелом. 🚨 Ні PSK/Krestin, ні PSP, ні
+# онкології: бан BM. Раніше виходило «каваратаке — з берега річки» — це
+# помилка перекладу, правильно «гриб-черепиця»; тут подаємо правильно.
+# Ціна — за банку на 120, як на фото.
+product:
+  name: Траметес різнобарвний
+  plaque: Гриб-черепиця
+  latin: Trametes versicolor
+  price: 950
+  ref: w10_jar_trametes_LIS-481502.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a grey-brown
+    label with the white ЛІСОВИК tree-face logo, mushroom pictures on the side
+    panels, a small round purple badge and the words ТРАМЕТЕС РІЗНОБАРВНИЙ.
+thoughts:
+- key: w10-trametes-dawn
+  topic: Траметес різнобарвний
+  day: sun
+  slot: dawn
+  layout: specimen
+  subject: >
+    a dry twig with many thin fan-shaped turkey tail mushrooms (Trametes
+    versicolor) overlapping in rows, each with concentric bands from grey-blue
+    and black to rust and ochre and a pale edge, fixed to the paper with thin
+    strips of paper tape, a small blank cream tag tied with twine beside it.
+  claim: Лінней назвав його «різнобарвним»
+  why: 1753 року він описав гриб як Boletus versicolor. Кільця на шапках ідуть від сіро-блакитного й чорного
+    до рудого й охристого.
+  source: 'en.wikipedia Trametes versicolor; NZOR (Sp. Pl. 2: 1176)'
+- key: w10-trametes-morning
+  topic: Траметес різнобарвний
+  day: sun
+  slot: morning
+  layout: jar
+  subject: >
+    a dry twig with overlapping thin fan-shaped turkey tail mushrooms with
+    concentric colour bands, fixed with thin strips of paper tape, and the
+    product lying on the paper in the lower right.
+  claim: Японці бачать у ньому черепицю
+  why: Каваратаке означає «гриб-черепиця» — десятки шапок лягають одна на одну, як черепиця на даху.
+  source: ja.wikipedia カワラタケ; kotobank.jp (Всесвітня енциклопедія Хейбонся)
+- key: w10-trametes-noon
+  topic: Траметес різнобарвний
+  day: sun
+  slot: noon
+  layout: specimen
+  subject: >
+    three single turkey tail caps laid in a neat row showing concentric
+    colour bands, one of them turned over to show the fine white pores
+    underneath, each fixed with a strip of paper tape.
+  claim: Хмара, черепиця чи хвіст індика
+  why: Японці звуть його ще кумотаке — «хмарний гриб». В Америці — індичим хвостом, а британці колись казали
+    «багатозонний трутовик».
+  source: kotobank.jp (Britannica Japan, 雲茸); first-nature.com/fungi/trametes-versicolor.php
+- key: w10-trametes-evening
+  topic: Траметес різнобарвний
+  day: sun
+  slot: evening
+  layout: specimen
+  subject: >
+    a small piece of dry grey bark covered with rows of overlapping thin
+    turkey tail fans with concentric colour bands, fixed with paper tape.
+  claim: Його знаходили навіть на 2560 метрах
+  why: Траметес — один із найзвичайніших грибів на мертвій деревині. Європа, Азія, Африка, обидві Америки й
+    Австралазія, а найвище — у горах Колумбії.
+  source: colfungi.org (Index Fungorum 281625); kotobank.jp
+- key: w10-trametes-sell
+  topic: Траметес різнобарвний
+  day: sun
+  slot: sell
+  layout: sell
+  subject: >
+    a dry twig with overlapping turkey tail fans fixed with paper tape on the
+    left, and the product standing upright on the right, both in the middle
+    of the frame.
+  claim: Тонкі віяла — у капсулі
+  why: Шапки траметеса завтовшки 1–3 міліметри. З них роблять екстракт 10:1, половину якого становлять
+    полісахариди — так звуть довгі ланцюжки цукрів.
+  do: Візьми банку на 60 чи на 120
+  source: 'склад у каталозі LIS-481502: екстракт Trametes versicolor, 50% полісахаридів'
+offer:
+  topic: Траметес різнобарвний
+  day: sun
+  layout: offer
+  subject: >
+    the product lying on the paper with a few thin turkey tail fans with
+    concentric colour bands beside it, fixed with thin strips of paper tape.
+  claim: Чотири форми траметеса
+  extra: Екстракт 10:1 — 60 або 120 капсул|Екстракт мелений — 50 г|Мелений гриб — 50 г|Сушений гриб —
+    50 г
+  do: Глянь усі чотири в шапці профілю
+  source: 'каталог 25.10.2026: LIS-481501/502, 481503, 481504, 481505 — у наявності'

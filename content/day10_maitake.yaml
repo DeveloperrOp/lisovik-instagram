@@ -1,0 +1,96 @@
+# Тиждень 10, день 3: Майтаке, екстракт 10:1 у капсулах. Вайб «гербарій на шалфеї».
+# product: https://lisovik.com.ua/maitake-ekstrakt-101-kapsuly-120-sht-po-0.5-h/
+# Факти — дослідник 25.10, кожен із джерелом. 🚨 Не взято: онкологію й
+# D-fraction; казку з «Кондзяку моногатарі», де лісоруби «зʼїли гриби й
+# пустилися в танок» (читається як психоактивний гриб); «срібло по вазі» —
+# легенда без документів (вона вже виходила раніше як факт). Не беремо
+# позицію «Мікродозинг Майтаке». Ціна — за банку на 120, як на фото.
+product:
+  name: Майтаке
+  plaque: Танцюючий гриб
+  latin: Grifola frondosa
+  price: 1150
+  ref: w10_jar_maitake_LIS-481464.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a warm brown
+    label with the white ЛІСОВИК tree-face logo, mushroom pictures on the side
+    panels, a small round purple badge and the word МАЙТАКЕ.
+thoughts:
+- key: w10-maitake-dawn
+  topic: Майтаке
+  day: thu
+  slot: dawn
+  layout: specimen
+  subject: >
+    a pressed dried maitake mushroom cluster — many small overlapping
+    grey-brown frond-like caps growing from one short pale stem — fixed to the
+    paper with thin strips of paper tape, a small blank cream tag tied with
+    twine beside it.
+  claim: Першим його описав шотландець
+  why: 1785 року ботанік Джеймс Діксон назвав гриб Boletus frondosus — «листяний». Сучасний рід, у якому
+    майтаке головний вид, зʼявився 1821-го.
+  source: first-nature.com/fungi/grifola-frondosa.php; en.wikipedia Grifola (S.F. Gray 1821)
+- key: w10-maitake-morning
+  topic: Майтаке
+  day: thu
+  slot: morning
+  layout: jar
+  subject: >
+    a pressed dried maitake cluster of overlapping grey-brown fronds and a
+    dry oak leaf fixed with thin strips of paper tape, and the product lying
+    on the paper in the lower right.
+  claim: Росте біля коренів старих дубів
+  why: Розетка з десятків сірувато-бурих «віял» буває 20–50 сантиметрів. Японці звуть гриб майтаке —
+    «танцюючий гриб».
+  source: first-nature.com/fungi/grifola-frondosa.php; en.wikipedia Grifola frondosa
+- key: w10-maitake-noon
+  topic: Майтаке
+  day: thu
+  slot: noon
+  layout: specimen
+  subject: >
+    four separate dried maitake fronds in a neat row, grey-brown on top, two
+    of them turned over to show the cream-white pore surface underneath, each
+    fixed with a strip of paper tape.
+  claim: Від лісу до фабрики в Ніґаті
+  why: У липні 1983 року компанія «Юкіґуні майтаке» почала вирощувати гриб у селі Ісавадзава. До того майтаке
+    знали як рідкісного лісового гостя.
+  source: edinetdb.jp/company/E00007/history; agri.mynavi.jp/2017_11_09_9523
+- key: w10-maitake-evening
+  topic: Майтаке
+  day: thu
+  slot: evening
+  layout: specimen
+  subject: >
+    one large dried maitake cluster of many overlapping grey-brown fronds
+    beside a dry oak leaf and a small acorn, fixed with paper tape.
+  claim: Три кілограми — не рідкість
+  why: За японською енциклопедією, кущі майтаке понад 3 кілограми трапляються часто. А кожне «віяло» в
+    ньому завширшки 4–10 сантиметрів.
+  source: ja.wikipedia マイタケ; first-nature.com/fungi/grifola-frondosa.php
+- key: w10-maitake-sell
+  topic: Майтаке
+  day: thu
+  slot: sell
+  layout: sell
+  subject: >
+    a pressed dried maitake cluster fixed with paper tape on the left, and
+    the product standing upright on the right, both in the middle of the
+    frame.
+  claim: Екстракт 10:1 у капсулі
+  why: З десяти частин гриба виходить одна. Половину екстракту становлять полісахариди — так звуть довгі
+    ланцюжки цукрів.
+  do: Бери банку на 60 чи на 120 капсул
+  source: 'склад у каталозі LIS-481464: екстракт Grifola frondosa, 50% полісахаридів'
+offer:
+  topic: Майтаке
+  day: thu
+  layout: offer
+  subject: >
+    the product lying on the paper with a few dried grey-brown maitake fronds
+    beside it, fixed with thin strips of paper tape.
+  claim: Чотири форми майтаке
+  extra: Екстракт 10:1 — 60 або 120 капсул|Екстракт мелений — 50 г|Мелений гриб — 50 г|Цілий сушений —
+    50 г
+  do: Знайди всі чотири в шапці профілю
+  source: 'каталог 25.10.2026: LIS-481463/464, 481465, 481459, 481462 — у наявності'
