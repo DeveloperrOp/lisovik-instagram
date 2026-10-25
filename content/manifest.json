@@ -4986,10 +4986,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1025-chaga-evening.jpg",
    "slot_start": "2026-10-25T18:00:00+02:00",
    "slot_end": "2026-10-25T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-25T18:04:32.934405+02:00",
+   "ig_media_id": "18016248390004368",
+   "error": null,
+   "fb_story_id": "1787220369047532"
   },
   {
    "id": "1025-chaga-sell",
