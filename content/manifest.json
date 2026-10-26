@@ -5068,10 +5068,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1026-maca-morning.jpg",
    "slot_start": "2026-10-26T10:00:00+02:00",
    "slot_end": "2026-10-26T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-26T10:07:13.158256+02:00",
+   "ig_media_id": "18448903954130985",
+   "error": null,
+   "fb_story_id": "29503627482596060"
   },
   {
    "id": "1026-reishi-noon",
