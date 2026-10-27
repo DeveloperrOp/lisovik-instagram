@@ -5204,10 +5204,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1027-spirulina-morning.jpg",
    "slot_start": "2026-10-27T10:00:00+02:00",
    "slot_end": "2026-10-27T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-27T10:03:13.963499+02:00",
+   "ig_media_id": "18011778764992003",
+   "error": null,
+   "fb_story_id": "1794170048555005"
   },
   {
    "id": "1027-spirulina-noon",
