@@ -5274,10 +5274,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1028-maitake-dawn.jpg",
    "slot_start": "2026-10-28T07:00:00+02:00",
    "slot_end": "2026-10-28T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-28T07:02:51.054293+02:00",
+   "ig_media_id": "18119370470066952",
+   "error": null,
+   "fb_story_id": "1045535988502466"
   },
   {
    "id": "1028-maitake-morning",
