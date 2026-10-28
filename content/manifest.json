@@ -5316,10 +5316,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1028-maitake-evening.jpg",
    "slot_start": "2026-10-28T18:00:00+02:00",
    "slot_end": "2026-10-28T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-28T18:00:30.803471+02:00",
+   "ig_media_id": "18494610922107143",
+   "error": null,
+   "fb_story_id": "4393356717551635"
   },
   {
    "id": "1028-maitake-sell",
