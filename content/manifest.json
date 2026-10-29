@@ -5428,10 +5428,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1029-tribulus-night.jpg",
    "slot_start": "2026-10-29T20:00:00+02:00",
    "slot_end": "2026-10-29T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-29T20:05:23.012087+02:00",
+   "ig_media_id": "17888974044485120",
+   "error": null,
+   "fb_story_id": "1877465250362827"
   },
   {
    "id": "1030-khlorela-dawn",
