@@ -5372,10 +5372,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1029-tribulus-morning.jpg",
    "slot_start": "2026-10-29T10:00:00+02:00",
    "slot_end": "2026-10-29T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-29T10:03:10.583212+02:00",
+   "ig_media_id": "18131270770757786",
+   "error": null,
+   "fb_story_id": "1102375279074236"
   },
   {
    "id": "1029-tribulus-noon",
