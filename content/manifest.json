@@ -5456,10 +5456,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1030-khlorela-morning.jpg",
    "slot_start": "2026-10-30T10:00:00+02:00",
    "slot_end": "2026-10-30T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-30T10:07:09.580449+02:00",
+   "ig_media_id": "17996484495019341",
+   "error": null,
+   "fb_story_id": "1108052528874409"
   },
   {
    "id": "1030-khlorela-noon",
