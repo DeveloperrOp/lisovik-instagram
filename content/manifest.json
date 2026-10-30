@@ -5498,10 +5498,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1030-khlorela-sell.jpg",
    "slot_start": "2026-10-30T19:00:00+02:00",
    "slot_end": "2026-10-30T19:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-30T19:04:38.095476+02:00",
+   "ig_media_id": "18049386065819491",
+   "error": null,
+   "fb_story_id": "2529618104226853"
   },
   {
    "id": "1030-khlorela-night",
