@@ -5554,10 +5554,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1031-trametes-noon.jpg",
    "slot_start": "2026-10-31T12:00:00+02:00",
    "slot_end": "2026-10-31T17:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-10-31T12:03:24.058606+02:00",
+   "ig_media_id": "17900045418397713",
+   "error": null,
+   "fb_story_id": "1668858734623725"
   },
   {
    "id": "1031-trametes-evening",
