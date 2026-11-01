@@ -1,0 +1,98 @@
+# Тиждень 11, день 1: Гінкго білоба, екстракт у капсулах. Подача «паперова картка».
+# product: https://lisovik.com.ua/hinkho-biloba-ekstrakt-kapsuly-60-sht-po-06-h/
+# Факти — дослідник 01.11, кожен із джерелом. «Опечатка Кемпфера» — спірна
+# версія (Michel 2011 проти Nagata et al. 2015), тому «сперечаються досі».
+# Хіросіму свідомо не беремо. Ціна — за банку на 60, як на фото.
+product:
+  name: Гінкго білоба
+  plaque: Ясна голова
+  latin: Ginkgo biloba
+  price: 330
+  ref: w11_jar_ginkgo_LIS-N452042.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a dark green
+    label with the white ЛІСОВИК tree-face logo, ginkgo leaves on the side
+    panels and the words ГІНКГО БІЛОБА.
+thoughts:
+- key: w11-ginkgo-dawn
+  topic: Гінкго білоба
+  day: mon
+  slot: dawn
+  layout: specimen
+  subject: >
+    five pressed fan-shaped two-lobed ginkgo leaves in pale green and golden
+    yellow arranged in a loose arc in the lower half, each fixed with a thin
+    strip of paper tape, a small blank cream tag tied with twine.
+  claim: Звідки взялося слово ginkgo
+  why: 1712 року Енгельберт Кемпфер першим із західних учених описав дерево з Японії й записав назву як
+    ginkgo. Помилка це чи вимова його перекладача з Нагасакі, вчені не дійшли згоди.
+  source: en.wikipedia Engelbert Kaempfer; Nagata, DuVal & Crane, Taxon 64(1):131–136 (2015)
+- key: w11-ginkgo-morning
+  topic: Гінкго білоба
+  day: mon
+  slot: morning
+  layout: jar
+  subject: >
+    five giant pressed golden ginkgo leaves fixed with strips of paper tape,
+    and the product lying on the paper in the lower right.
+  person: >
+    A tiny WOMAN of about forty in a light linen dress sits cross-legged on
+    one of the ginkgo leaves, reading a small open book, a calm smile.
+  claim: Ґете вклав у лист два листки
+  why: 15 вересня 1815 року у Франкфурті він написав вірш «Gingo biloba» для Маріанни фон Віллемер. Лист
+    із двома листками зберігається в Музеї Ґете в Дюссельдорфі.
+  source: de.wikipedia Gingo biloba; en.wikipedia Gingo biloba
+- key: w11-ginkgo-noon
+  topic: Гінкго білоба
+  day: mon
+  slot: noon
+  layout: specimen
+  subject: >
+    one large pressed two-lobed ginkgo leaf, golden yellow, seen close in the
+    lower half, its fine fan veins clearly visible, fixed with two strips of
+    paper tape.
+  claim: Листок, розділений надвоє
+  why: Лінней 1771 року лишив написання Кемпфера й додав biloba — «дволопатевий». Саме таким і є кожен
+    віялоподібний листок.
+  source: en.wikipedia Ginkgo biloba; kwanten.home.xs4all.nl/europe.htm (Mantissa Plantarum 1771)
+- key: w11-ginkgo-evening
+  topic: Гінкго білоба
+  day: mon
+  slot: evening
+  layout: specimen
+  subject: >
+    a small pressed ginkgo twig with several golden fan-shaped leaves in the
+    lower half, fixed with thin strips of paper tape, beside a small blank
+    cream tag.
+  claim: Найстарішому лондонському — 264
+  why: Дерево в Королівських ботанічних садах посадили 1762 року, через три роки після їх заснування. Його
+    зараховують до «старих левів» саду.
+  source: kew.org ginkgo-biloba-maidenhair-tree; kew.org kews-old-lions
+- key: w11-ginkgo-sell
+  topic: Гінкго білоба
+  day: mon
+  slot: sell
+  layout: sell
+  subject: >
+    a few giant pressed golden and green ginkgo leaves on the left, and the
+    product standing upright on the right, both in the middle of the frame.
+  person: >
+    A tiny MAN of about fifty-five with grey hair, in a cream knitted
+    sweater, presses a strip of paper tape onto one of the ginkgo leaves, as
+    if mounting it on the herbarium sheet.
+  claim: Флавоноїдів не менш як 24%
+  why: Так звуть рослинні пігменти, за якими стандартизують екстракт листя гінкго. Оболонка капсули
+    рослинна.
+  do: Візьми 60 капсул або одразу 120
+  source: 'склад у каталозі LIS-N452042: екстракт листя Ginkgo biloba, флавоноїди ≥ 24%, оболонка HPMC'
+offer:
+  topic: Гінкго білоба
+  day: mon
+  layout: offer
+  subject: >
+    the product lying on the paper with three pressed golden ginkgo leaves
+    beside it, fixed with thin strips of paper tape.
+  claim: Гінкго в банці — екстракт листя
+  extra: Фасовка — 60 або 120 капсул|Флавоноїди — не менш як 24%|Оболонка — рослинна
+  do: Знайди обидві фасовки в шапці профілю
+  source: 'каталог 01.11.2026: LIS-N452042/N452055 у наявності'
