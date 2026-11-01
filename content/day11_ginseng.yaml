@@ -1,0 +1,102 @@
+# Тиждень 11, день 2: Женьшень, екстракт 10:1 у капсулах. Подача «паперова картка» + маленькі люди.
+# product: https://lisovik.com.ua/zhenshen-ekstrakt-101-kapsuly-60-sht-po-06-h/
+# Факти — дослідник 01.11. «Panax — панацея» свідомо не беремо: читається як
+# обіцянка. «Людина-корінь» уже виходила. Ціна — за банку на 60, як на фото.
+product:
+  name: Женьшень
+  plaque: Корінь з гір
+  latin: Panax ginseng
+  price: 370
+  ref: w11_jar_ginseng_LIS-N452044.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a dark
+    reddish-brown label with the white ЛІСОВИК tree-face logo and the word
+    ЖЕНЬШЕНЬ.
+thoughts:
+- key: w11-ginseng-dawn
+  topic: Женьшень
+  day: tue
+  slot: dawn
+  layout: specimen
+  subject: >
+    a pressed dried ginseng plant in the lower half — a pale spindle-shaped
+    forked root, a stem with palmate leaves of five toothed leaflets and a
+    small cluster of red berries — fixed with thin strips of paper tape, a
+    small blank cream tag tied with twine.
+  claim: Десять тисяч збирачів на одного імператора
+  why: 1709 року єзуїт Пʼєр Жартру бачив біля кордону з Кореєю, як корінь шукали за наказом двору. Кращий
+    віддавали в скарбницю, решту викупали на вагу срібла.
+  source: Jartoux, Phil. Trans. (лист із Пекіна), OCR jimclifford.ca jstor-103199
+- key: w11-ginseng-morning
+  topic: Женьшень
+  day: tue
+  slot: morning
+  layout: jar
+  subject: >
+    a giant pressed ginseng stem with palmate leaves of five toothed
+    leaflets and one round cluster of glossy BRIGHT RED berries (fresh red,
+    not brown, not dried), fixed with strips of paper tape, and the product
+    lying on the paper in the lower right. No other plants, seaweed or
+    pressed specimens anywhere.
+  person: >
+    A tiny WOMAN of about sixty with short grey hair, in a light linen
+    shirt, kneels beside the giant cluster of red berries and looks at it
+    through a small magnifying glass, a curious smile. She is VERY small:
+    her whole figure is shorter than the label band of the jar, and the
+    berry cluster is wider than she is tall.
+  claim: Його знайшли за червоними ягодами
+  why: 1716 року місіонер Жозеф-Франсуа Лафіто після довгих пошуків помітив рослину біля місії Кахнаваке в
+    Канаді. Так у Північній Америці знайшли власний женьшень.
+  source: jcblibrary.org/news/ginseng-canada; biographi.ca Lafitau
+- key: w11-ginseng-noon
+  topic: Женьшень
+  day: tue
+  slot: noon
+  layout: specimen
+  subject: >
+    two pressed dried pale ginseng roots, spindle-shaped and forked, laid
+    side by side in the lower half, fixed with strips of paper tape, a small
+    blank cream tag beside them.
+  claim: Перший корабель зі США віз женьшень
+  why: 22 лютого 1784 року «Імператриця Китаю» вийшла з Нью-Йорка до Кантона. Головним вантажем був
+    американський женьшень — майже 30 тонн.
+  source: newenglandhistoricalsociety.com boatload-ginseng; en.wikipedia Old China Trade
+- key: w11-ginseng-evening
+  topic: Женьшень
+  day: tue
+  slot: evening
+  layout: specimen
+  subject: >
+    one pressed dried pale ginseng root with fine root hairs in the lower
+    half, beside a few pressed palmate leaves, fixed with thin strips of
+    paper tape.
+  claim: Корінь чекають шість років
+  why: У Кореї женьшень зазвичай викопують на пʼятий-шостий рік, і шестирічний корінь там цінують найвище.
+  source: en.wikipedia Panax ginseng; koreascience JAKO201725150298932
+- key: w11-ginseng-sell
+  topic: Женьшень
+  day: tue
+  slot: sell
+  layout: sell
+  subject: >
+    a giant pressed dried ginseng root with palmate leaves on the left, and
+    the product standing upright on the right, both in the middle of the
+    frame.
+  person: >
+    A tiny MAN of about thirty-five in a light linen shirt carries a small
+    woven basket of red ginseng berries along the edge of the giant root.
+  claim: Екстракт кореня 10:1
+  why: З десяти частин сухої сировини виходить одна частина екстракту. Оболонка капсули рослинна.
+  do: Обери банку на 60 чи на 120 капсул
+  source: 'склад у каталозі LIS-N452044: екстракт кореня Panax ginseng 10:1, оболонка HPMC'
+offer:
+  topic: Женьшень
+  day: tue
+  layout: offer
+  subject: >
+    the product lying on the paper with a pressed dried ginseng root and a
+    few red berries beside it, fixed with thin strips of paper tape.
+  claim: Женьшень у банці — екстракт 10:1
+  extra: Фасовка — 60 або 120 капсул|Екстракт — 10:1|Оболонка — рослинна
+  do: Знайди обидві фасовки в шапці профілю
+  source: 'каталог 01.11.2026: LIS-N452044/N452057 у наявності'

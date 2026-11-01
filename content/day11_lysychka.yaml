@@ -1,0 +1,96 @@
+# Тиждень 11, день 3: Лисичка справжня, мелена 50 г. Подача «паперова картка» + маленькі люди.
+# product: https://lisovik.com.ua/lysychka-spravzhnia-meleni-plodovi-tila-50-h/
+# Факти — дослідник 01.11. Лінней 1753 і Фріз 1821 уже виходили. Капсули не
+# беремо: у назві на сайті «мікродозинг». Без «отруйності» несправжньої.
+product:
+  name: Лисичка справжня
+  plaque: Лісова кухня
+  latin: Cantharellus cibarius
+  price: 437
+  ref: w11_jar_lysychka_LIS-481428.jpg
+  pack: >
+    a clear plastic jar with a white screw lid, filled with light brown
+    powder, with a dark brown label with the white ЛІСОВИК tree-face logo and
+    the words ЛИСИЧКА, МЕЛЕНА - 50 Г.
+thoughts:
+- key: w11-lysychka-dawn
+  topic: Лисичка справжня
+  day: wed
+  slot: dawn
+  layout: specimen
+  subject: >
+    three dried golden-orange chanterelle mushrooms with funnel-shaped wavy
+    caps laid in the lower half, fixed with thin strips of paper tape, a
+    small blank cream tag tied with twine.
+  claim: Назва — від грецького «кубок»
+  why: Шапка лисички лійкою схожа на чашу. 1763 року Мішель Адансон першим ужив для роду назву «Chanterel»,
+    а kantharos і означає таку чашу.
+  source: GBIF 9623860; en.wikipedia Chanterelle
+- key: w11-lysychka-morning
+  topic: Лисичка справжня
+  day: wed
+  slot: morning
+  layout: jar
+  subject: >
+    two giant dried golden-orange chanterelle mushrooms and a small pine
+    sprig fixed with strips of paper tape, and the product lying on the paper
+    in the lower right.
+  person: >
+    A tiny WOMAN of about thirty in a light knitted sweater kneels beside
+    one of the giant chanterelles and touches its wavy edge, a soft smile.
+  claim: Лисичку не вирощують на фермах
+  why: Вона живе лише в парі з корінням дерева. 1997 року в журналі Nature описали, як плодові тіла вперше
+    вийшли в теплиці на саджанцях сосни.
+  source: Danell & Camacho, Nature 385:303 (1997); PMC11717058
+- key: w11-lysychka-noon
+  topic: Лисичка справжня
+  day: wed
+  slot: noon
+  layout: specimen
+  subject: >
+    one dried golden-orange chanterelle turned over to show the soft
+    vein-like ridges running down the stem, fixed with two strips of paper
+    tape in the lower half.
+  claim: Під шапкою — мʼякі жилки
+  why: У справжньої лисички там складки, що збігають на ніжку. У несправжньої — тонкі пластинки, які багато
+    разів галузяться.
+  source: en.wikipedia Chanterelle; False chanterelle (Persson 1997)
+- key: w11-lysychka-evening
+  topic: Лисичка справжня
+  day: wed
+  slot: evening
+  layout: specimen
+  subject: >
+    a few dried golden-orange chanterelles and a small heap of light brown
+    powder in the lower half, fixed with paper tape, a small blank cream tag.
+  claim: Австрія випустила марку з лисичками
+  why: 2020 року в серії «Австрійські гриби» вийшла марка з лисичками — австрійці звуть їх Eierschwammerl.
+    Номінал 85 євроцентів, наклад 350 000.
+  source: post.at featured-commemorative-stamp-august-2020
+- key: w11-lysychka-sell
+  topic: Лисичка справжня
+  day: wed
+  slot: sell
+  layout: sell
+  subject: >
+    two giant dried golden-orange chanterelles on the left, and the product
+    standing upright on the right, both in the middle of the frame.
+  person: >
+    A tiny MAN of about forty-five in a cream knitted sweater carries a giant
+    chanterelle on his shoulder like an umbrella, a cheerful smile. He is
+    VERY small: his whole figure is shorter than the label band of the jar.
+  claim: Тільки лисичка, змелена
+  why: У банці 50 грамів мелених плодових тіл лисички справжньої — без домішок.
+  do: Обери мелену або сушену цілою
+  source: 'склад у каталозі LIS-481428: Лисичка справжня (Cantharellus cibarius)'
+offer:
+  topic: Лисичка справжня
+  day: wed
+  layout: offer
+  subject: >
+    the product lying on the paper with a few dried golden-orange
+    chanterelles beside it, fixed with thin strips of paper tape.
+  claim: Мелена чи сушена
+  extra: Мелені плодові тіла — 50 г|Сушений гриб — 50 г
+  do: Знайди обидві в шапці профілю
+  source: 'каталог 01.11.2026: LIS-481428, LIS-481431 у наявності'

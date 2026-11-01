@@ -1,0 +1,100 @@
+# Тиждень 11, день 7: Рейші, екстракт 10:1 у капсулах. Подача «паперова картка» + маленькі люди.
+# product: https://lisovik.com.ua/reishi-trutovyk-lakovanyi-ekstrakt-101-kapsuly-120-sht-po-0.4-h/
+# Факти — дослідник 19.10 (день тижня 9, знятий 26.10 і не показаний). Не
+# беремо Мао, «десять тисяч років» і ДНК-дослідження «lucidum».
+# Ціна — за банку на 120, як на фото.
+product:
+  name: Рейші
+  plaque: Лакований гриб
+  latin: Ganoderma lucidum
+  price: 1375
+  ref: w9_jar_reishi_LIS-481469.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white screw cap and a
+    mustard-olive label with the white ЛІСОВИК tree-face logo, a small round
+    purple badge and the word РЕЙШІ.
+thoughts:
+- key: w11-reishi-dawn
+  topic: Рейші
+  day: sun
+  slot: dawn
+  layout: specimen
+  subject: >
+    one dried glossy reishi mushroom in the lower half — a kidney-shaped
+    cap, deep red-brown and shiny as if lacquered, with a cream-yellow edge
+    and a short side stem — fixed with thin strips of paper tape, a small
+    blank cream tag tied with twine.
+  claim: «Блискуча шкіра» — так грецькою Ganoderma
+  why: Рід 1881 року заснував фінський міколог Петер Адольф Карстен і зробив рейші його головним видом. Ganos
+    — «блиск», derma — «шкіра».
+  source: 'Karsten, Revue Mycologique 3(9):16–19 (1881); en.wikipedia Ganoderma lucidum'
+- key: w11-reishi-morning
+  topic: Рейші
+  day: sun
+  slot: morning
+  layout: jar
+  subject: >
+    two giant dried glossy red-brown reishi caps fixed with strips of paper
+    tape, and the product lying on the paper in the lower right.
+  person: >
+    A tiny MAN of about sixty-five with white hair, in a cream linen suit,
+    sits on one of the giant reishi caps as on a bench, pouring tea from a
+    small clay teapot into a cup.
+  claim: 109 рік до н. е. — девʼять стебел у палаці
+  why: «Хань шу» записує, що в палаці Ганьцюань виріс гриб-чжи з девʼятьма стеблами. Імператор У-ді тоді ж
+    оголосив амністію й склав пісню. Цей чжи повʼязують із лінчжі.
+  source: 漢書 卷六 (zh.wikisource.org/zh-hant/漢書/卷006)
+- key: w11-reishi-noon
+  topic: Рейші
+  day: sun
+  slot: noon
+  layout: specimen
+  subject: >
+    one dried reishi cap turned over to show the cream-white pore surface
+    underneath, beside a second glossy red-brown cap lying face up, in the
+    lower half, fixed with paper tape.
+  claim: Латинське імʼя рейші дав англієць
+  why: 1781 року Вільям Кертіс описав гриб в Англії як Boletus lucidus — «блискучий». Тож латинське імʼя
+    азійської зірки — англійське.
+  source: en.wikipedia Ganoderma lucidum; Wang et al., PLoS ONE 2012, PMC3401198
+- key: w11-reishi-evening
+  topic: Рейші
+  day: sun
+  slot: evening
+  layout: specimen
+  subject: >
+    a few thin slices of dried reishi, light brown and corky, and a small
+    heap of dark brown powder in the lower half, fixed with paper tape.
+  claim: Слову «лінчжі» — дві тисячі років
+  why: Обидва ієрогліфи разом першим записав історик Бань Гу в І столітті, в оді. Японське «рейші» — те саме
+    слово, тільки японською вимовою.
+  source: en.wikipedia Lingzhi mushroom
+- key: w11-reishi-sell
+  topic: Рейші
+  day: sun
+  slot: sell
+  layout: sell
+  subject: >
+    a giant dried glossy red-brown reishi cap on the left, and the product
+    standing upright on the right, both in the middle of the frame.
+  person: >
+    A tiny WOMAN of about thirty-five in a light linen dress sits under the
+    giant reishi cap as under an umbrella, reading a book.
+  claim: Екстракт 10:1 у капсулі
+  why: Половину екстракту становлять полісахариди — так звуть довгі ланцюжки цукрів гриба. У банці 120
+    капсул.
+  do: Обери банку на 60 чи на 120 капсул
+  source: 'склад у каталозі LIS-481469: екстракт Ganoderma lucidum, 50% полісахаридів'
+offer:
+  topic: Рейші
+  day: sun
+  layout: offer
+  subject: >
+    the product lying on the paper with a glossy reishi cap, a few thin
+    slices and a small heap of dark powder beside it. The background paper
+    is plain and empty, with no drawings, patterns, logos or printing.
+  claim: Чотири форми рейші
+  extra: Екстракт у капсулах — 60 або 120 шт|Екстракт мелений — 50 г|Мелені плодові тіла — 50 г|Подрібнені
+    плодові тіла — 50 г
+  do: Знайди всі чотири в шапці профілю
+  source: 'каталог 01.11.2026 — у наявності'

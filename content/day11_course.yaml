@@ -1,0 +1,99 @@
+# Тиждень 11, день 6: Курс «Ясна голова 45+»: гінкго та екстракт їжовика. Подача «паперова картка» + люди.
+# product: https://lisovik.com.ua/kurs-yasna-holova-45-hinkho-ta-yizhovyk-1-misiats/
+# Факти — дослідник 01.11. Фото курсу перевірено очима: дві банки, гінкго й
+# екстракт їжовика, мухомора немає. Дозувань зі складу (мг) не беремо.
+product:
+  name: Курс «Ясна голова 45+»
+  plaque: Ясна голова
+  latin: Ginkgo biloba · Hericium erinaceus
+  price: 930
+  ref: w11_pair_course_LIS-K2605.jpg
+  pack: >
+    TWO opaque WHITE plastic bottles with white snap caps standing side by
+    side: one with a dark green label and the words ГІНКГО БІЛОБА, the other
+    with a light orange-beige label and the words ЕКСТРАКТ ЇЖОВИК
+    ГРЕБІНЧАСТИЙ, both with the white ЛІСОВИК tree-face logo. EXACTLY these
+    two bottles, together.
+thoughts:
+- key: w11-course-dawn
+  topic: Курс «Ясна голова 45+»
+  day: sat
+  slot: dawn
+  layout: specimen
+  subject: >
+    two pressed golden ginkgo leaves and one dried creamy-white shaggy lion's
+    mane mushroom in the lower half, fixed with thin strips of paper tape, a
+    small blank cream tag tied with twine.
+  claim: Дерева гінкго бувають чоловічі й жіночі
+  why: Насіння жіночого дерева пахне прогірклим маслом через масляну кислоту. Тому в містах садять переважно
+    чоловічі.
+  source: en.wikipedia Ginkgo biloba
+- key: w11-course-morning
+  topic: Курс «Ясна голова 45+»
+  day: sat
+  slot: morning
+  layout: jar
+  subject: >
+    a few giant pressed golden ginkgo leaves and a giant dried shaggy lion's
+    mane mushroom fixed with strips of paper tape, and the two products lying
+    on the paper in the lower right.
+  person: >
+    A tiny WOMAN of about fifty in a light linen dress sits on the paper
+    between the two giant bottles, reading a small open book, a calm smile.
+  claim: У Європі їжовик беруть під охорону
+  why: Глобально гриб не під загрозою, але він у національних червоних списках Австрії, Чехії, Німеччини,
+    Польщі, Швеції й ще десятка країн.
+  source: IUCN Red List 356812 (Kałucka & Olariaga, 2019)
+- key: w11-course-noon
+  topic: Курс «Ясна голова 45+»
+  day: sat
+  slot: noon
+  layout: specimen
+  subject: >
+    one dried creamy-white shaggy lion's mane mushroom with long hanging
+    spines and a small piece of beech bark in the lower half, fixed with
+    paper tape.
+  claim: У Британії його заборонено зривати
+  why: Закон про дику природу 1981 року вніс їжовик до списку захищених грибів. Росте він на старих буках і
+    дубах.
+  source: Wildlife and Countryside Act 1981, Schedule 8 (wildfooduk.com/?p=59099)
+- key: w11-course-evening
+  topic: Курс «Ясна голова 45+»
+  day: sat
+  slot: evening
+  layout: specimen
+  subject: >
+    three pressed golden ginkgo leaves and a small flat grey stone with a
+    fossil leaf imprint in the lower half, fixed with paper tape.
+  claim: Гінкго знали ще за юрського періоду
+  why: Скамʼянілі листки роду гінкго знаходять у шарах середньої юри — їм близько 170 мільйонів років.
+    Сьогодні це єдиний живий вид свого порядку.
+  source: en.wikipedia Ginkgo biloba
+- key: w11-course-sell
+  topic: Курс «Ясна голова 45+»
+  day: sat
+  slot: sell
+  layout: sell
+  subject: >
+    giant pressed golden ginkgo leaves and a giant dried lion's mane mushroom
+    on the left, and the two products standing upright side by side on the
+    right, both in the middle of the frame.
+  person: >
+    A tiny MAN of about sixty and a tiny WOMAN of about fifty-five walk hand
+    in hand along the paper past the giant bottles, smiling.
+  claim: Два екстракти в одному курсі
+  why: Екстракт листя гінкго з флавоноїдами не менш як 24% і екстракт плодового тіла їжовика, половину якого
+    становлять полісахариди — так звуть довгі ланцюжки цукрів.
+  do: Обери курс на місяць або на два
+  source: 'склад у каталозі LIS-K2605: гінкго — екстракт листя, флавоноїди ≥24%; їжовик — екстракт плодового тіла, 50% полісахаридів'
+offer:
+  topic: Курс «Ясна голова 45+»
+  day: sat
+  layout: offer
+  subject: >
+    the two products lying on the paper with pressed golden ginkgo leaves
+    and a small piece of lion's mane beside them, fixed with paper tape.
+  claim: Що входить у курс
+  extra: Тривалість — 1 або 2 місяці|Гінкго — екстракт листя|Їжовик — екстракт плодового тіла
+  do: Знайди курс у шапці профілю
+  source: 'каталог 01.11.2026: LIS-K2605/K2615 у наявності'

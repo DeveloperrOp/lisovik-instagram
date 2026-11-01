@@ -1,0 +1,103 @@
+# Тиждень 11, день 4: Іван-чай ферментований, 40 г. Подача «паперова картка» + маленькі люди.
+# product: https://lisovik.com.ua/chai-ivan-chai-40-h/
+# Факти — дослідник 01.11. Не беремо «копорський чай» (Росія) і Лондон 1944
+# (воєнна тема) — замість нього Сент-Геленс 1980.
+product:
+  name: Іван-чай
+  plaque: Травʼяний чай
+  latin: Chamaenerion angustifolium
+  price: 170
+  ref: w11_box_ivan_LIS-CHAI-006.jpg
+  pack: >
+    a pale pinkish-beige matte cardboard tea box with faint grey line
+    drawings of mushrooms and leaves printed on it, a copper-brown ЛІСОВИК
+    tree-face logo, the words ЧАЙ ІВАН-ЧАЙ, a wide band with a photo of
+    pink-purple fireweed near the bottom and a small green panel with a QR
+    code in the top right corner.
+thoughts:
+- key: w11-ivan-dawn
+  topic: Іван-чай
+  day: thu
+  slot: dawn
+  layout: specimen
+  subject: >
+    a pressed dried fireweed stem in the lower half — narrow willow-like
+    leaves and a spike of small pink-purple four-petal flowers — fixed with
+    thin strips of paper tape, a small blank cream tag tied with twine.
+  claim: Одна рослина в кількох родах
+  why: Лінней 1753 року назвав її Epilobium angustifolium. Відтоді ботаніки кілька разів переносили її між
+    родами — зокрема Йозеф Голуб у Празі 1972-го.
+  source: IPNI 55479-2; en.wikipedia Chamaenerion angustifolium
+- key: w11-ivan-morning
+  topic: Іван-чай
+  day: thu
+  slot: morning
+  layout: jar
+  subject: >
+    a giant pressed fireweed stem with pink-purple flowers fixed with strips
+    of paper tape and a small heap of dark dried tea leaves, and the product
+    lying on the paper in the lower right. The background paper is plain,
+    with no drawings or patterns on it.
+  person: >
+    A tiny MAN of about fifty in a light field jacket crouches beside the
+    giant flower spike and looks at it closely, as a scientist would.
+  claim: 'Сент-Геленс, 1980: хто виріс першим'
+  why: Через кілька тижнів після виверження вулкана еколог Джеррі Франклін помітив у мертвій зоні зелений
+    паросток — іван-чай заввишки 5–7 сантиметрів.
+  source: magazine.washington.edu life's-resilience-on-mount-st-helens
+- key: w11-ivan-noon
+  topic: Іван-чай
+  day: thu
+  slot: noon
+  layout: specimen
+  subject: >
+    a few pressed pink-purple fireweed flowers and narrow leaves arranged in
+    a neat row in the lower half, fixed with paper tape.
+  claim: Квітка на прапорі Юкону
+  why: 1957 року канадська територія Юкон обрала іван-чай своєю квіткою-символом. Він і досі в центрі її
+    прапора.
+  source: canada.ca provincial-territorial-symbols yukon; thecanadianencyclopedia.ca fireweed
+- key: w11-ivan-evening
+  topic: Іван-чай
+  day: thu
+  slot: evening
+  layout: specimen
+  subject: >
+    one pressed dried fireweed stem in late autumn in the lower half, its
+    whole upper part turned into a soft fluffy plume of white silky seed
+    hairs, like a white feather duster, with a few narrow reddish-brown
+    leaves lower on the stem, fixed with paper tape, beside a small blank
+    cream tag. No separate seed pods.
+  claim: Пух насіння йшов у ковдри
+  why: Корінні народи північного заходу Америки змішували пух іван-чаю з вовною гірського козла для ковдр і
+    набивали ним подушки.
+  source: nps.gov/kefj useful-plants; royalbcmuseum.bc.ca
+- key: w11-ivan-sell
+  topic: Іван-чай
+  day: thu
+  slot: sell
+  layout: sell
+  subject: >
+    a giant pressed fireweed stem with pink-purple flowers on the left, and
+    the product standing upright on the right, both in the middle of the
+    frame.
+  person: >
+    A tiny WOMAN of about sixty-five with silver hair, in a cream cardigan,
+    sits on a small cushion beside the giant box and pours tea from a small
+    clay teapot into a cup.
+  claim: Лише ферментований лист
+  why: Усе в пачці — листя іван-чаю, ферментоване й висушене. Вага 40 грамів.
+  do: Заварюй як звичайний чай
+  source: 'склад у каталозі LIS-CHAI-006: 100% ферментований лист іван-чаю'
+offer:
+  topic: Іван-чай
+  day: thu
+  layout: offer
+  subject: >
+    the product lying on the paper with a pressed fireweed flower spike and a
+    small heap of dark dried tea leaves beside it. The background paper is plain,
+    with no drawings or illustrations on it.
+  claim: Іван-чай у пачці
+  extra: Вага — 40 г|Склад — лист іван-чаю|Обробка — ферментований
+  do: Шукай пачку в шапці профілю
+  source: 'каталог 01.11.2026: LIS-CHAI-006 у наявності'

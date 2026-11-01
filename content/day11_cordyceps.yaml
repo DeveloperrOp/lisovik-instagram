@@ -1,0 +1,92 @@
+# Тиждень 11, день 5: Кордицепс військовий у краплях, рідкий екстракт 10:1. Подача «паперова картка» + люди.
+# product: https://lisovik.com.ua/ridkyi-ekstrakt-kordytsepsa-viiskovoho-30-ml/
+# Факти — дослідник 01.11, нові відносно тижнів 2 і 9. Ціна — за флакон 30 мл, як на фото.
+product:
+  name: Кордицепс військовий
+  plaque: Краплі
+  latin: Cordyceps militaris
+  price: 400
+  ref: w11_drop_cordyceps_LIS-484284.jpg
+  pack: >
+    a small amber glass dropper bottle with a black pipette cap and a dark
+    label with an orange cordyceps picture and the words КОРДИЦЕПС
+    ВІЙСЬКОВИЙ.
+thoughts:
+- key: w11-cordyceps-dawn
+  topic: Кордицепс військовий
+  day: fri
+  slot: dawn
+  layout: specimen
+  subject: >
+    a small cluster of dried bright orange club-shaped cordyceps militaris
+    fruiting bodies in the lower half, fixed with thin strips of paper tape,
+    a small blank cream tag tied with twine.
+  claim: Головний вид свого роду
+  why: 2007 року мікологи перекроїли рід за даними ДНК. Гімалайського родича перенесли до роду,
+    що зветься Ophiocordyceps, а військовий лишився взірцем роду Cordyceps.
+  source: 'Sung et al., Studies in Mycology 57:5–59 (2007); en.wikipedia Cordyceps militaris (type species)'
+- key: w11-cordyceps-morning
+  topic: Кордицепс військовий
+  day: fri
+  slot: morning
+  layout: jar
+  subject: >
+    a few giant dried bright orange cordyceps clubs fixed with strips of
+    paper tape, and the product lying on the paper in the lower right.
+  person: >
+    A tiny MAN of about thirty in light sportswear sits on the paper leaning
+    his back against one of the giant orange clubs, tying the laces of his
+    running shoes.
+  claim: Колір залежить від світла
+  why: 2013 року в плодовому тілі знайшли чотири нові жовто-оранжеві пігменти — кордиксантини. Під рожевим
+    світлом при вирощуванні їх ставало більше.
+  source: doaj.org/article/71c66667fb844988a062b53583308d66 (J. Functional Foods, 2013)
+- key: w11-cordyceps-noon
+  topic: Кордицепс військовий
+  day: fri
+  slot: noon
+  layout: specimen
+  subject: >
+    dried bright orange cordyceps clubs laid in a neat row in the lower half,
+    each fixed with a tiny strip of paper tape, a small blank cream tag.
+  claim: У Європі — з серпня по листопад
+  why: Саме тоді з похованих у ґрунті лялечок метеликів виростають його оранжеві булави.
+  source: en.wikipedia Cordyceps militaris (Distribution and habitat)
+- key: w11-cordyceps-evening
+  topic: Кордицепс військовий
+  day: fri
+  slot: evening
+  layout: specimen
+  subject: >
+    a few dried bright orange cordyceps clubs and two small blank cream tags
+    in the lower half, fixed with thin strips of paper tape.
+  claim: Як відрізнити від гімалайського родича
+  why: Гімалайський кордицепс росте з голови гусениці на 3000–5000 метрах і темно-бурий. Військовий — з
+    лялечки, яскраво-оранжевий і мʼясистий.
+  source: en.wikipedia Ophiocordyceps sinensis; Cordyceps militaris
+- key: w11-cordyceps-sell
+  topic: Кордицепс військовий
+  day: fri
+  slot: sell
+  layout: sell
+  subject: >
+    a few giant dried bright orange cordyceps clubs on the left, and the
+    product standing upright on the right, both in the middle of the frame.
+  person: >
+    A tiny WOMAN of about fifty in a light linen shirt carries a giant glass
+    pipette in both arms along the paper, a cheerful smile.
+  claim: Краплі без спирту
+  why: Екстракт 10:1 на воді й харчовому гліцерині. У флаконі з піпеткою 30 мілілітрів.
+  do: Обери менший чи більший флакон
+  source: 'склад у каталозі LIS-484284: екстракт 10:1, вода, сорбат калію, харчовий гліцерин'
+offer:
+  topic: Кордицепс військовий
+  day: fri
+  layout: offer
+  subject: >
+    the product lying on the paper with a few dried bright orange cordyceps
+    clubs beside it, fixed with thin strips of paper tape.
+  claim: Кордицепс у краплях — екстракт 10:1
+  extra: Флакон — 30 або 50 мл|Екстракт — 10:1|Основа — вода й гліцерин
+  do: Знайди обидва флакони в шапці профілю
+  source: 'каталог 01.11.2026: LIS-484284/484286 у наявності'
