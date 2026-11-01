@@ -5685,6 +5685,84 @@
    "published_at": null,
    "ig_media_id": null,
    "error": null
+  },
+  {
+   "id": "1102-ginkgo-dawn",
+   "kind": "STORIES",
+   "theme": "Гінкго білоба",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1102-ginkgo-dawn.jpg",
+   "slot_start": "2026-11-02T07:00:00+02:00",
+   "slot_end": "2026-11-02T09:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1102-ginkgo-morning",
+   "kind": "STORIES",
+   "theme": "Гінкго білоба",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1102-ginkgo-morning.jpg",
+   "slot_start": "2026-11-02T10:00:00+02:00",
+   "slot_end": "2026-11-02T11:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1102-ginkgo-noon",
+   "kind": "STORIES",
+   "theme": "Гінкго білоба",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1102-ginkgo-noon.jpg",
+   "slot_start": "2026-11-02T12:00:00+02:00",
+   "slot_end": "2026-11-02T17:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1102-ginkgo-evening",
+   "kind": "STORIES",
+   "theme": "Гінкго білоба",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1102-ginkgo-evening.jpg",
+   "slot_start": "2026-11-02T18:00:00+02:00",
+   "slot_end": "2026-11-02T18:55:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1102-ginkgo-sell",
+   "kind": "STORIES",
+   "theme": "Гінкго білоба",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1102-ginkgo-sell.jpg",
+   "slot_start": "2026-11-02T19:00:00+02:00",
+   "slot_end": "2026-11-02T19:55:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1102-ginkgo-night",
+   "kind": "STORIES",
+   "theme": "Лісовик",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1102-ginkgo-night.jpg",
+   "slot_start": "2026-11-02T20:00:00+02:00",
+   "slot_end": "2026-11-02T23:30:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
   }
  ]
 }
