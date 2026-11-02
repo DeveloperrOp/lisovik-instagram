@@ -5724,10 +5724,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1102-ginkgo-noon.jpg",
    "slot_start": "2026-11-02T12:00:00+02:00",
    "slot_end": "2026-11-02T17:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-02T12:02:26.062911+02:00",
+   "ig_media_id": "18111013847628216",
+   "error": null,
+   "fb_story_id": "1598567398137798"
   },
   {
    "id": "1102-ginkgo-evening",
