@@ -5766,10 +5766,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1102-ginkgo-night.jpg",
    "slot_start": "2026-11-02T20:00:00+02:00",
    "slot_end": "2026-11-02T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-02T20:04:21.698145+02:00",
+   "ig_media_id": "18141606397627673",
+   "error": null,
+   "fb_story_id": "1443829211192886"
   },
   {
    "id": "1103-ginseng-dawn",
