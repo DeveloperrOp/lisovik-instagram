@@ -5822,10 +5822,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1103-ginseng-evening.jpg",
    "slot_start": "2026-11-03T18:00:00+02:00",
    "slot_end": "2026-11-03T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-03T18:00:03.478436+02:00",
+   "ig_media_id": "18437611438145473",
+   "error": null,
+   "fb_story_id": "2181256942527324"
   },
   {
    "id": "1103-ginseng-sell",
