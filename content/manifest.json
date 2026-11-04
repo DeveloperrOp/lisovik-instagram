@@ -5864,10 +5864,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1104-lysychka-dawn.jpg",
    "slot_start": "2026-11-04T07:00:00+02:00",
    "slot_end": "2026-11-04T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-04T07:00:32.784868+02:00",
+   "ig_media_id": "17907681759666091",
+   "error": null,
+   "fb_story_id": "1494036679260078"
   },
   {
    "id": "1104-lysychka-morning",
