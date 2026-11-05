@@ -5963,10 +5963,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1105-ivan-morning.jpg",
    "slot_start": "2026-11-05T10:00:00+02:00",
    "slot_end": "2026-11-05T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-05T10:01:06.954286+02:00",
+   "ig_media_id": "18375058933244157",
+   "error": null,
+   "fb_story_id": "1107669648810048"
   },
   {
    "id": "1105-ivan-noon",
