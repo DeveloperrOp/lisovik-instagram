@@ -5977,10 +5977,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1105-ivan-noon.jpg",
    "slot_start": "2026-11-05T12:00:00+02:00",
    "slot_end": "2026-11-05T17:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-05T12:01:26.923797+02:00",
+   "ig_media_id": "18132691948688077",
+   "error": null,
+   "fb_story_id": "1682678676559944"
   },
   {
    "id": "1105-ivan-evening",
