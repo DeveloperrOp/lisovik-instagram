@@ -6159,10 +6159,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1107-course-evening.jpg",
    "slot_start": "2026-11-07T18:00:00+02:00",
    "slot_end": "2026-11-07T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-07T18:01:56.816007+02:00",
+   "ig_media_id": "18116302307037942",
+   "error": null,
+   "fb_story_id": "2370730506998635"
   },
   {
    "id": "1107-course-sell",
