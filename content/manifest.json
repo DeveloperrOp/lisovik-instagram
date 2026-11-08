@@ -6257,10 +6257,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1108-reishi-sell.jpg",
    "slot_start": "2026-11-08T19:00:00+02:00",
    "slot_end": "2026-11-08T19:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-08T19:02:03.558310+02:00",
+   "ig_media_id": "17999067567021086",
+   "error": null,
+   "fb_story_id": "3675839085913228"
   },
   {
    "id": "1108-reishi-night",
