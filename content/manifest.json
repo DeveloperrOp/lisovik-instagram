@@ -6229,10 +6229,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1108-reishi-noon.jpg",
    "slot_start": "2026-11-08T12:00:00+02:00",
    "slot_end": "2026-11-08T17:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-08T12:04:54.697604+02:00",
+   "ig_media_id": "18117466885837672",
+   "error": null,
+   "fb_story_id": "1161358906315315"
   },
   {
    "id": "1108-reishi-evening",
