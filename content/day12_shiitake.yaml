@@ -1,0 +1,117 @@
+# Тиждень 12, день 1: Шиїтаке, екстракт 10:1 у капсулах. Подача «фотостудія» (v10).
+# product: https://lisovik.com.ua/shyitake-ekstrakt-101-kapsuly-60-sht-po-0.5-h/
+# Факти — дослідник 09.11. 1209 рік джерела оспорюють (є версія 1313), тому
+# «один із найдавніших». У Саньгун — лише як легенда. Звичайні капсули
+# шиїтаке (0.4 г) в оферту не беремо: в описі на сайті «мікродозинг».
+# Ціна — за банку на 60, як на фото.
+product:
+  name: Шиїтаке
+  plaque: Гриб із колоди
+  latin: Lentinula edodes
+  price: 500
+  ref: w12c_jar_shiitake_LIS-481454.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a bright
+    orange label with the white ЛІСОВИК tree-face logo, a small purple round
+    badge, a band with a photo of dried shiitake caps and the word ШИЇТАКЕ.
+thoughts:
+- key: w12-shiitake-dawn
+  topic: Шиїтаке
+  day: tue
+  slot: dawn
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies a short
+    section of an oak log with grey bark, and three fresh brown shiitake
+    mushrooms grow out of its side.
+  crew: >
+    Five tiny people: a photographer with a camera on a tripod, an
+    assistant holding a round white reflector, a lighting tech next to a
+    softbox on a stand, a stylist brushing the bark with a soft brush, a
+    director pointing at the mushrooms.
+  claim: Один із найдавніших записів — 1209 рік
+  why: Тоді в Китаї, за династії Сун, склали «Записи повіту Лунцюань». Там описано, як шиїтаке розводять на колодах.
+  source: en.wikipedia Shiitake (He Dan, 1209); maxapress.com panfungi-0026-0003 (версія 1313)
+- key: w12-shiitake-morning
+  topic: Шиїтаке
+  day: tue
+  slot: morning
+  layout: jar
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, two dried shiitake caps (brown with pale cracks) lie on the floor
+    beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    with a reflector, a man reading a big open blank book while sitting on
+    one dried cap, a stylist on a tiny step ladder wiping the lid, a
+    director in a folding chair.
+  claim: Його латинське імʼя — «їстівний»
+  why: Гриб зветься Lentinula edodes, і друге слово латиною означає «їстівний». 1976 року міколог Девід Пеґлер переніс його в рід Lentinula.
+  source: en.wikipedia Shiitake (Pegler 1976, edodes = edible)
+- key: w12-shiitake-noon
+  topic: Шиїтаке
+  day: tue
+  slot: noon
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies one
+    closed old blank book with a plain brown cover and, on top of it, two
+    dried shiitake caps with pale cracks.
+  crew: >
+    Four tiny people: a photographer on a tiny ladder shooting from above,
+    an assistant holding a reflector, a woman turning a giant page of a
+    second open blank book on the floor, a director with a blank clipboard.
+  claim: Перша японська книга — 1796 рік
+  why: Того року Сато Тюрьо видав першу в Японії книгу про вирощування шиїтаке. Частину знань він узяв із китайських записів.
+  source: en.wikipedia Shiitake (Satō Chūryō, 1796)
+- key: w12-shiitake-evening
+  topic: Шиїтаке
+  day: tue
+  slot: evening
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies a short
+    oak log with a few shallow axe notches in its bark and small shiitake
+    mushrooms growing out of the notches; a tiny axe rests against it.
+  crew: >
+    Four tiny people: a woodcutter in a plain shirt resting his hand on the
+    log, a photographer with a camera on a tripod, an assistant with a
+    reflector, a lighting tech next to a softbox. Warm evening light.
+  claim: За легендою, його «відкрив» лісоруб
+  why: Китайський переказ каже, що лісоруб У Саньгун помітив, як гриби краще ростуть на надрубаних колодах. Тому в Китаї його шанують як батька методу.
+  source: maxapress.com panfungi-0026-0003 (легенда, низька впевненість — подано як переказ)
+- key: w12-shiitake-sell
+  topic: Шиїтаке
+  day: tue
+  slot: sell
+  layout: sell
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a few dried shiitake caps (brown caps with pale cracks) lie on
+    the floor beside the pedestal.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    holding a round white reflector, a stylist on a tiny step ladder wiping
+    the lid with a cloth, a man carrying one dried shiitake cap on his back
+    like a big round shield, a director in a folding chair.
+  claim: Екстракт шиїтаке 10:1
+  why: З десяти частин сушеного гриба виходить одна частина екстракту. У банці 60 капсул, оболонка рослинна.
+  do: Обери банку на 60 чи на 120 капсул
+  source: 'склад у каталозі LIS-481454: екстракт шиїтаке (Lentinula edodes), вегетаріанські капсули'
+offer:
+  topic: Шиїтаке
+  day: tue
+  layout: offer
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a few dried shiitake caps and a small heap of light brown powder
+    on the floor beside it.
+  crew: >
+    Four tiny people wrap up the shoot: one rolls up a black cable, one
+    carries a softbox on his shoulder, one checks a blank clipboard, one
+    waves at the camera.
+  claim: Чотири форми шиїтаке
+  extra: Екстракт у капсулах — 60 або 120 шт|Екстракт мелений — 50 г|Мелений гриб — 50 г|Сушені гриби — 50 г
+  do: Знайди всі чотири в шапці профілю
+  source: 'каталог 09.11.2026: LIS-481454/481455, 481456, 481450, 481453 у наявності'

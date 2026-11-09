@@ -8,7 +8,8 @@ import json
 import re
 from collections import Counter
 
-from config import CONTENT_DIR, in_stock, is_ig_safe, safe_display_name
+from config import (CONTENT_DIR, IG_BANNED_ARTICLES, in_stock, is_ig_safe,
+                    safe_display_name)
 
 SHOP = "https://lisovik.com.ua"
 
@@ -49,7 +50,8 @@ def normalize(p: dict) -> dict:
     display = safe_display_name(name)
     # Товар годится для Instagram, только если он не в бан-списке
     # И его удалось безопасно назвать
-    ig_ok = is_ig_safe(f"{name} {category}") and bool(display)
+    ig_ok = (is_ig_safe(f"{name} {category}") and bool(display)
+             and (p.get("article") or "") not in IG_BANNED_ARTICLES)
 
     return {
         "article": p.get("article") or "",

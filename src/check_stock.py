@@ -22,7 +22,7 @@ from pathlib import Path
 
 import yaml
 
-from config import CONTENT_DIR
+from config import CONTENT_DIR, IG_BANNED_ARTICLES
 
 # Слова, за якими topic звести до кореня назви в каталозі. Каталог веде
 # назви російською, а topic — українською, тому зіставляємо вручну.
@@ -99,6 +99,11 @@ def main() -> int:
             print(f"       {url}")
             continue
         t = ((p.get("title") or {}).get("ru") or "")[:52]
+        if (p.get("article") or "") in IG_BANNED_ARTICLES:
+            bad += 1
+            print(f"  ⛔ {name:18} {topic}: позицію заборонив власник")
+            print(f"       {t}")
+            continue
         if not in_stock(p):
             bad += 1
             pres = ((p.get("presence") or {}).get("value") or {}).get("ua", "")
