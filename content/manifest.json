@@ -6285,10 +6285,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-dawn.jpg",
    "slot_start": "2026-11-09T10:00:00+02:00",
    "slot_end": "2026-11-09T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-09T11:12:00.295692+02:00",
+   "ig_media_id": "17955717999314602",
+   "error": null,
+   "fb_story_id": "1799459751263334"
   },
   {
    "id": "1109-shiitake-morning",
@@ -6298,10 +6299,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-morning.jpg",
    "slot_start": "2026-11-09T10:00:00+02:00",
    "slot_end": "2026-11-09T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-09T11:12:00.295692+02:00",
+   "ig_media_id": "18146394847585190",
+   "error": null,
+   "fb_story_id": "1461310559290702"
   },
   {
    "id": "1109-shiitake-noon",
