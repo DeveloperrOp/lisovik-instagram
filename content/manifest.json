@@ -6355,10 +6355,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-night.jpg",
    "slot_start": "2026-11-09T20:00:00+02:00",
    "slot_end": "2026-11-09T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-09T20:02:17.320143+02:00",
+   "ig_media_id": "18189663133422600",
+   "error": null,
+   "fb_story_id": "2035155120500226"
   },
   {
    "id": "1110-omega-dawn",
