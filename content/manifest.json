@@ -6276,6 +6276,84 @@
    "ig_media_id": "18403512943200230",
    "error": null,
    "fb_story_id": "1142707424842857"
+  },
+  {
+   "id": "1109-shiitake-dawn",
+   "kind": "STORIES",
+   "theme": "Шиїтаке",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-dawn.jpg",
+   "slot_start": "2026-11-09T10:00:00+02:00",
+   "slot_end": "2026-11-09T11:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1109-shiitake-morning",
+   "kind": "STORIES",
+   "theme": "Шиїтаке",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-morning.jpg",
+   "slot_start": "2026-11-09T10:00:00+02:00",
+   "slot_end": "2026-11-09T11:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1109-shiitake-noon",
+   "kind": "STORIES",
+   "theme": "Шиїтаке",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-noon.jpg",
+   "slot_start": "2026-11-09T12:00:00+02:00",
+   "slot_end": "2026-11-09T17:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1109-shiitake-evening",
+   "kind": "STORIES",
+   "theme": "Шиїтаке",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-evening.jpg",
+   "slot_start": "2026-11-09T18:00:00+02:00",
+   "slot_end": "2026-11-09T18:55:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1109-shiitake-sell",
+   "kind": "STORIES",
+   "theme": "Шиїтаке",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-sell.jpg",
+   "slot_start": "2026-11-09T19:00:00+02:00",
+   "slot_end": "2026-11-09T19:55:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1109-shiitake-night",
+   "kind": "STORIES",
+   "theme": "Лісовик",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1109-shiitake-night.jpg",
+   "slot_start": "2026-11-09T20:00:00+02:00",
+   "slot_end": "2026-11-09T23:30:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
   }
  ]
 }
