@@ -1,0 +1,124 @@
+# Тиждень 12, день 3: Магній гліцинат, 60 капсул. Подача «фотостудія» (v10).
+# product: https://lisovik.com.ua/mahnii-hlitsynat-kapsuly-60-sht-po-07-h/
+# Факти — дослідник 09.11, нові відносно тижня 8 (Епсом, Деві, форми).
+# Магнієвий спалах — у тему студії. Магнесія: дві версії місця, тому без
+# «точно Фессалія».
+product:
+  name: Магній гліцинат
+  plaque: Мінерал
+  latin: Magnesium bisglycinate
+  price: 590
+  ref: w12_jar_magniy_LIS-N452050.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a deep royal
+    blue label with the white ЛІСОВИК tree-face logo and the words МАГНІЙ
+    ГЛІЦИНАТ.
+thoughts:
+- key: w12-magniy-dawn
+  topic: Магній гліцинат
+  day: thu
+  slot: dawn
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lie three rough
+    chunks of white mineral rock with a chalky surface.
+  crew: >
+    Five tiny people: a photographer with a camera on a tripod, an
+    assistant holding a round white reflector, a lighting tech next to a
+    softbox, a geologist tapping one chunk with a tiny hammer, a director
+    pointing.
+  claim: Магній назвали на честь місцевості
+  why: >
+    Слово походить від Магнесії — області в Стародавній Греції, звідки брали
+    каміння з цим металом. Звідти ж і слова «магніт» та «манган».
+  source: en.wikipedia Magnesium (etymology)
+- key: w12-magniy-morning
+  topic: Магній гліцинат
+  day: thu
+  slot: morning
+  layout: jar
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame.
+  crew: >
+    Five tiny people in 19th-century clothes: a photographer behind an old
+    wooden box camera on a tripod, his assistant holding up a small metal
+    flash pan that bursts with a bright white flash and a puff of white
+    smoke, a lady posing beside the pedestal, a boy covering his ears, a
+    man with a top hat watching.
+  claim: Магній — перший фотоспалах
+  why: >
+    Коли магній горить, він дає яскраве біле світло, схоже на денне. 1859 року
+    це показали хіміки Бунзен і Роско, а вже за кілька років фотографи
+    підпалювали магнієву стрічку, щоб знімати без сонця.
+  source: en.wikipedia Flash (photography); britannica flash-powder
+- key: w12-magniy-noon
+  topic: Магній гліцинат
+  day: thu
+  slot: noon
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame stands an old
+    brass flash lamp on a short handle, with a small heap of fine grey
+    powder in its tray and a thin wisp of white smoke above it.
+  crew: >
+    Four tiny people in 19th-century clothes: a photographer behind an old
+    wooden box camera on a tripod, an assistant holding a long match
+    towards the tray, a man reading a blank paper, a woman watching.
+  claim: Спалах у порошку — 1887 рік
+  why: >
+    Німці Адольф Міте і Йоганнес Гедіке змішали магнієвий порошок із сіллю,
+    яка підсилює горіння. Суміш спалахувала за мить, і фотографи змогли
+    знімати в темних приміщеннях.
+  source: en.wikipedia Flash (photography); britannica flash-powder
+- key: w12-magniy-evening
+  topic: Магній гліцинат
+  day: thu
+  slot: evening
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame stands a small
+    clear glass dish with a heap of fine white sparkling crystals, like
+    sugar, and a tiny glass spoon.
+  crew: >
+    Four tiny people: a chemist in a white coat tasting one crystal from the
+    tiny spoon, a photographer with a camera on a tripod, an assistant with
+    a reflector, a lighting tech next to a softbox. Warm evening light.
+  claim: 'Гліцин спершу звали «цукром із желатину»'
+  why: >
+    1820 року француз Анрі Браконно кипʼятив желатин із кислотою й отримав
+    солодкі кристали. Це був гліцин. Саме з ним поєднаний магній у цій банці —
+    тому в назві й стоїть «гліцинат».
+  source: en.wikipedia Glycine (Braconnot 1820)
+- key: w12-magniy-sell
+  topic: Магній гліцинат
+  day: thu
+  slot: sell
+  layout: sell
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a small dish of white crystals on the floor beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    holding a round white reflector, a stylist on a tiny step ladder wiping
+    the lid, a lighting tech next to a softbox, a director in a folding
+    chair.
+  claim: Магній у хелатній формі
+  why: Бісгліцинат — мінерал, звʼязаний із гліцином. Оболонка капсули рослинна, у банці 60 штук.
+  do: Обери банку на 60 чи на 120 капсул
+  source: 'склад у каталозі LIS-N452050: магній бісгліцинат хелатний, оболонка HPMC'
+offer:
+  topic: Магній гліцинат
+  day: thu
+  layout: offer
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a small dish of white crystals beside it.
+  crew: >
+    Four tiny people wrap up the shoot: one rolls up a black cable, one
+    carries a softbox on his shoulder, one checks a blank clipboard, one
+    waves at the camera.
+  claim: Магній гліцинат у банці
+  extra: Фасовка — 60 або 120 капсул|Форма — бісгліцинат хелат|Оболонка — рослинна
+  do: Знайди обидві фасовки в шапці профілю
+  source: 'каталог 09.11.2026: LIS-N452050/N452062 у наявності'

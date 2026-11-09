@@ -1,0 +1,126 @@
+# Тиждень 12, день 4: Курс «Щоденна основа» — омега-3 і магній. Подача «фотостудія» (v10).
+# product: https://lisovik.com.ua/kurs-shchodenna-osnova-omeha-3-i-mahnii-1-misiats/
+# Факти — дослідник 09.11: історія капсули, щоб не повторювати дні омеги й
+# магнію. Рік машини Шерера джерела дають по-різному (1930–1934), тому
+# «на початку 1930-х». Дозувань зі складу курсу не беремо.
+product:
+  name: Курс «Щоденна основа»
+  plaque: Щоденна основа
+  latin: Omega-3 · Magnesium
+  price: 1030
+  ref: w12_pair_osnova_LIS-K2601.jpg
+  pack: >
+    TWO opaque WHITE plastic bottles with white snap caps standing side by
+    side: one with a rusty orange label and the words ОМЕГА-3 РИБ'ЯЧИЙ ЖИР,
+    the other with a deep royal blue label and the words МАГНІЙ ГЛІЦИНАТ,
+    both with the white ЛІСОВИК tree-face logo. EXACTLY these two bottles,
+    together.
+thoughts:
+- key: w12-osnova-dawn
+  topic: Курс «Щоденна основа»
+  day: fri
+  slot: dawn
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies an old
+    small iron mould plate with rows of round hollows, and a thin glass
+    pipette rests across it.
+  crew: >
+    Five tiny people in 19th-century apothecary clothes: one fills a hollow
+    with the glass pipette, a photographer with a camera on a tripod, an
+    assistant holding a round white reflector, a lighting tech next to a
+    softbox, a director pointing.
+  claim: 'Капсулу запатентували ще 1833 року'
+  why: >
+    Аптекарі Мот і Дюбланк запатентували желатинову оболонку. Робили її без
+    машин: наповнювали піпеткою, а отвір закривали краплею того самого
+    желатину.
+  source: en.wikipedia Capsule (pharmacy) (1833; є версія 1834)
+- key: w12-osnova-morning
+  topic: Курс «Щоденна основа»
+  day: fri
+  slot: morning
+  layout: jar
+  subject: >
+    The two products stand side by side on a low white round pedestal in
+    the middle of the frame.
+  crew: >
+    Five tiny people: an engineer in overalls turning the crank of a small
+    old metal machine with two rollers, a photographer kneeling with a
+    camera, an assistant with a reflector, a stylist wiping a lid, a
+    director in a folding chair.
+  claim: 'Винахід із детройтського підвалу'
+  why: >
+    На початку 1930-х американець Роберт Шерер зібрав удома машину, яка сама
+    формує мʼякі капсули. Такими машинами їх роблять і сьогодні.
+  source: en.wikipedia Robert_Pauli_Scherer; detroithistorical.org scherer-robert-pauli
+- key: w12-osnova-noon
+  topic: Курс «Щоденна основа»
+  day: fri
+  slot: noon
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame two long
+    translucent amber ribbons curve down from above and meet between two
+    polished brass rollers lying side by side.
+  crew: >
+    Four tiny people: an engineer in overalls guiding one ribbon, a
+    photographer with a camera on a tripod, an assistant with a reflector,
+    a director with a blank clipboard.
+  claim: 'Як машина робить капсулу за мить'
+  why: >
+    Дві стрічки желатину проходять між валами з виїмками. Вали стискають
+    стрічки, а насос упорскує між ними олію — і готову оболонку відразу
+    наповнено й запаяно.
+  source: en.wikipedia Softgel
+- key: w12-osnova-evening
+  topic: Курс «Щоденна основа»
+  day: fri
+  slot: evening
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lie a few
+    curled strips of plain pale wood shavings and a small heap of fine white
+    fibrous powder beside them.
+  crew: >
+    Four tiny people: a woman in a white coat sifting the powder through a
+    tiny sieve, a photographer with a camera on a tripod, an assistant with
+    a reflector, a lighting tech next to a softbox. Warm evening light.
+  claim: 'Оболонка з рослин — з 1989-го'
+  why: >
+    Тоді тверді капсули почали робити не лише з желатину, а й із гіпромелози —
+    її отримують із целюлози. Саме з неї зроблені капсули магнію в цьому
+    курсі.
+  source: en.wikipedia Capsule (pharmacy); склад LIS-N452050 (оболонка HPMC)
+- key: w12-osnova-sell
+  topic: Курс «Щоденна основа»
+  day: fri
+  slot: sell
+  layout: sell
+  subject: >
+    The two products stand side by side on a low white round pedestal in
+    the middle of the frame.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    holding a round white reflector, a stylist on a tiny step ladder wiping
+    one lid, a lighting tech next to a softbox, a director in a folding
+    chair.
+  claim: Курс із двох банок
+  why: Омега-3 риб'ячий жир і магній бісгліцинат, по 60 капсул у кожній банці.
+  do: Візьми обидві банки одним курсом
+  source: 'опис у каталозі LIS-K2601: омега-3 і магній гліцинат, по 60 капсул'
+offer:
+  topic: Курс «Щоденна основа»
+  day: fri
+  layout: offer
+  subject: >
+    The two products stand side by side on a low white round pedestal in
+    the middle of the frame.
+  crew: >
+    Four tiny people wrap up the shoot: one rolls up a black cable, one
+    carries a softbox on his shoulder, one checks a blank clipboard, one
+    waves at the camera.
+  claim: Що в курсі
+  extra: Омега-3 риб'ячий жир — 60 капсул|Магній гліцинат — 60 капсул
+  do: Знайди курс у шапці профілю
+  source: 'каталог 09.11.2026: LIS-K2601 у наявності'

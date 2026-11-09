@@ -1,0 +1,127 @@
+# Тиждень 12, день 7: Комплекс рідких екстрактів MIND, 30 мл. Подача «фотостудія» (v10).
+# product: https://lisovik.com.ua/kompleks-ridkykh-ekstraktiv-mind-dlia-rozumovoi-aktyvnosti-30-ml/
+# Факти — дослідник 09.11. У назві на сайті «для розумової активності» —
+# у кадр не беремо, лише «MIND». Чага тут — екстракт у складі, бан
+# звичайної чаги в капсулах цього не стосується. Ціна — за флакон 30 мл.
+product:
+  name: Комплекс MIND
+  plaque: Чотири гриби
+  latin: Hericium · Ganoderma · Lentinula · Inonotus
+  price: 400
+  ref: w12_drop_mind_LIS-484384.jpg
+  pack: >
+    a small amber glass dropper bottle with a black pipette cap and a dark
+    label with a photo of mushrooms and the words РЕЙШІ, ЧАГА, ЇЖОВИК,
+    ШИЇТАКЕ.
+thoughts:
+- key: w12-mind-dawn
+  topic: Комплекс MIND
+  day: mon
+  slot: dawn
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies one big
+    creamy-white lion's mane mushroom, a shaggy ball of long hanging soft
+    spines.
+  crew: >
+    Five tiny people: a photographer with a camera on a tripod, an
+    assistant holding a round white reflector, a lighting tech next to a
+    softbox, a woman measuring one spine with a tiny ruler, a director
+    pointing.
+  claim: Їжовик — гриб із шипами
+  why: >
+    У більшості грибів під шапкою тонкі пластинки. У їжовика замість них
+    звисають мʼякі шипи завдовжки до пʼяти сантиметрів, тому він схожий на
+    білу кудлату кульку.
+  source: en.wikipedia Hericium erinaceus
+- key: w12-mind-morning
+  topic: Комплекс MIND
+  day: mon
+  slot: morning
+  layout: jar
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a small creamy-white lion's mane mushroom on the floor beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    with a reflector, a hiker with a walking staff and a small backpack
+    resting on the lion's mane, a stylist on a tiny step ladder wiping the
+    cap, a director in a folding chair.
+  claim: 'Їжовика японці звуть ямабусітаке'
+  why: >
+    Ямабусі — гірські відлюдники-аскети, що жили в лісах Японії, а «таке»
+    означає гриб. Виходить «гриб гірського відлюдника».
+  source: en.wikipedia Hericium erinaceus (yamabushitake)
+- key: w12-mind-noon
+  topic: Комплекс MIND
+  day: mon
+  slot: noon
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies one glossy
+    kidney-shaped reddish-brown reishi cap, shiny as if lacquered, with a
+    cream edge.
+  crew: >
+    Four tiny people: a botanist holding up a blank card with one hand and
+    counting on fingers with the other, a photographer with a camera on a
+    tripod, an assistant with a reflector, a director with a blank
+    clipboard.
+  claim: 'Рейші: один гриб, що став родиною'
+  why: >
+    1881 року фінський міколог — учений, що вивчає гриби, — Карстен виділив
+    блискучі трутовики в окрему групу, і рейші був у ній один. Уже 1889-го
+    француз Патуйяр нарахував у ній 48 видів.
+  source: en.wikipedia Ganoderma lucidum (taxonomy)
+- key: w12-mind-evening
+  topic: Комплекс MIND
+  day: mon
+  slot: evening
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lie three short
+    log sections side by side: white birch with black marks, grey smooth
+    beech and dark alder, and a black cracked chaga chunk rests on the birch
+    one.
+  crew: >
+    Four tiny people: a forester pointing from one log to another, a
+    photographer with a camera on a tripod, an assistant with a reflector,
+    a lighting tech next to a softbox. Warm evening light.
+  claim: 'Чага росте не лише на березах'
+  why: >
+    Найвідоміша чага — березова, та трапляється вона й на вільсі, буку й
+    тополі. Гриб живе всередині живого дерева десятки років, а назовні видно
+    тільки чорний наріст.
+  source: en.wikipedia Chaga mushroom (hosts; 10–80+ years)
+- key: w12-mind-sell
+  topic: Комплекс MIND
+  day: mon
+  slot: sell
+  layout: sell
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a small lion's mane, a glossy reishi cap, a dried shiitake cap
+    and a black chaga chunk lie on the floor around it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    holding a round white reflector, a stylist on a tiny step ladder wiping
+    the pipette cap, a lighting tech next to a softbox, a director in a
+    folding chair.
+  claim: Чотири гриби в одному флаконі
+  why: Їжовик — 40%, рейші — 30%, шиїтаке — 20%, чага — 10%. Основа — вода й гліцерин, без спирту.
+  do: Обери менший чи більший флакон
+  source: 'склад у каталозі LIS-484384: їжовик 40%, рейші 30%, шиїтаке 20%, чага 10%, вода, сорбат калію, гліцерин'
+offer:
+  topic: Комплекс MIND
+  day: mon
+  layout: offer
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a small lion's mane and a glossy reishi cap beside it.
+  crew: >
+    Four tiny people wrap up the shoot: one rolls up a black cable, one
+    carries a softbox on his shoulder, one checks a blank clipboard, one
+    waves at the camera.
+  claim: MIND у флаконі
+  extra: Флакон — 30 або 50 мл|Гриби — 4|Основа — вода й гліцерин
+  do: Знайди обидва флакони в шапці профілю
+  source: 'каталог 09.11.2026: LIS-484384/484385 у наявності'

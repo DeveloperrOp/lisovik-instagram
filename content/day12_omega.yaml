@@ -1,0 +1,123 @@
+# Тиждень 12, день 2: Омега-3 риб'ячий жир, 60 капсул. Подача «фотостудія» (v10).
+# product: https://lisovik.com.ua/omeha-3-rybiachyi-zhyr-kapsuly-60-sht-po-1-h/
+# Факти — дослідник 09.11. Мьоллер: тримаємося норвезького джерела (1854,
+# 20 бочок); це історія олії з печінки тріски, не нашого продукту. Жодних
+# тверджень про серце й «інуїтів». Капсул россипом у кадрі немає.
+product:
+  name: Омега-3
+  plaque: Риб'ячий жир
+  latin: Omega-3 · EPA · DHA
+  price: 440
+  ref: w12c_jar_omega_LIS-N452051.jpg
+  pack: >
+    an opaque WHITE plastic bottle with a white snap cap and a rusty orange
+    label with the white ЛІСОВИК tree-face logo and the words ОМЕГА-3
+    РИБ'ЯЧИЙ ЖИР.
+thoughts:
+- key: w12-omega-dawn
+  topic: Омега-3
+  day: wed
+  slot: dawn
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame stands a small
+    clear glass dish with a pool of clear golden oil; a single big golden
+    drop hangs from a glass rod above it.
+  crew: >
+    Five tiny people: a photographer with a camera on a tripod, an
+    assistant holding a round white reflector, a lighting tech next to a
+    softbox, a stylist holding the glass rod, a director pointing.
+  claim: 'Цифра в «омега-3» — номер місця'
+  why: >
+    Жирна кислота — довгий ланцюжок атомів вуглецю. Один його кінець називають
+    омегою, останньою літерою грецької абетки. Цифра 3 каже, що особливе
+    зʼєднання атомів стоїть на третьому місці від цього кінця.
+  source: en.wikipedia Omega-3 fatty acid
+- key: w12-omega-morning
+  topic: Омега-3
+  day: wed
+  slot: morning
+  layout: jar
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a small clear glass dish with golden oil on the floor beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    with a reflector, two people carrying a long chain of big wooden beads
+    like a molecule model, a director in a folding chair.
+  claim: 'Назви цих двох кислот — числа'
+  why: >
+    EPA — від грецького «ейкоза», тобто «двадцять»: стільки атомів вуглецю в
+    ланцюжку. DHA — від «докоза», двадцять два. Кислоти різні, тому на
+    етикетці їх вказують окремо.
+  source: en.wikipedia Omega-3 fatty acid (20:5, 22:6)
+- key: w12-omega-noon
+  topic: Омега-3
+  day: wed
+  slot: noon
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame stand three
+    small old wooden barrels with iron hoops, one with its lid open showing
+    golden oil inside.
+  crew: >
+    Four tiny people: a man in an old-fashioned apron rolling a fourth tiny
+    barrel, a photographer with a camera on a tripod, an assistant with a
+    reflector, a director with a blank clipboard.
+  claim: 'Олія з печінки тріски: 1854 рік'
+  why: >
+    Раніше печінку складали в бочки й чекали, поки вона розкладеться. Олія, що
+    спливала, була бурою й тхнула. Норвезький аптекар Петер Мьоллер нагрів
+    свіжу печінку до 100 градусів — і отримав перші двадцять бочок олії.
+  source: lokalhistoriewiki.no Peter_Møller_(1793–1869)
+- key: w12-omega-evening
+  topic: Омега-3
+  day: wed
+  slot: evening
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame stands a clear
+    glass laboratory flask filled with bright green water full of tiny
+    algae, a small silver fish lying on a white dish beside it.
+  crew: >
+    Four tiny people: a marine biologist in a white coat looking into a
+    small microscope, a photographer with a camera on a tripod, an
+    assistant with a reflector, a lighting tech next to a softbox. Warm
+    evening light.
+  claim: 'Омега-3 роблять не риби'
+  why: >
+    Ці кислоти виробляють мікроскопічні водорості в морі. Звідти вони
+    переходять у планктон, з планктону — в рибу, а з неї — в риб'ячий жир.
+  source: en.wikipedia Omega-3 fatty acid (dietary sources — fish obtain EPA/DHA from algae)
+- key: w12-omega-sell
+  topic: Омега-3
+  day: wed
+  slot: sell
+  layout: sell
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a small clear glass dish with golden oil on the floor beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    holding a round white reflector, a stylist on a tiny step ladder wiping
+    the lid, a lighting tech next to a softbox, a director in a folding
+    chair.
+  claim: Риб'ячий жир у капсулі
+  why: У банці 60 капсул. EPA і DHA на етикетці пораховані окремо від ваги олії.
+  do: Обери банку на 60 чи на 100 капсул
+  source: "склад у каталозі LIS-N452051: риб'ячий жир, EPA, DHA"
+offer:
+  topic: Омега-3
+  day: wed
+  layout: offer
+  subject: >
+    The product stands on a low white round pedestal in the middle of the
+    frame, a small clear glass dish with golden oil beside it.
+  crew: >
+    Four tiny people wrap up the shoot: one rolls up a black cable, one
+    carries a softbox on his shoulder, one checks a blank clipboard, one
+    waves at the camera.
+  claim: Омега-3 у банці
+  extra: Фасовка — 60 або 100 капсул|Склад — риб'ячий жир|Кислоти — EPA і DHA
+  do: Знайди обидві фасовки в шапці профілю
+  source: 'каталог 09.11.2026: LIS-N452051/N452063 у наявності'

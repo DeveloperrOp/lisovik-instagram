@@ -1,0 +1,128 @@
+# Тиждень 12, день 5: Чай «Липа», 40 г. Подача «фотостудія» (v10).
+# product: https://lisovik.com.ua/chai-lypa-40-h/
+# Факти — дослідник 09.11. Лейпциг від «липи» не беремо: версія оспорена й
+# тягне Липецьк. Вид липи в каталозі не вказаний, тому латинь — лише рід.
+product:
+  name: Чай «Липа»
+  plaque: Травʼяний чай
+  latin: Tilia
+  price: 170
+  ref: w12c_box_lypa_LIS-CHAI-003.jpg
+  pack: >
+    a cream-white matte cardboard tea box with faint grey line drawings of
+    mushrooms and leaves, a brown ЛІСОВИК tree-face logo, the words ЧАЙ
+    ЛИПА, a window band with a photo of yellow linden blossoms near the
+    bottom and a small green panel with a QR code in the top right corner.
+thoughts:
+- key: w12-lypa-dawn
+  topic: Чай «Липа»
+  day: sat
+  slot: dawn
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies one fresh
+    linden twig with heart-shaped green leaves and a few clusters of small
+    pale yellow flowers hanging from long pale-green bracts.
+  crew: >
+    Five tiny people: a photographer with a camera on a tripod, an
+    assistant holding a round white reflector, a lighting tech next to a
+    softbox, a man in an 18th-century coat and wig holding a small open
+    blank notebook, a director pointing.
+  claim: Лінней узяв прізвище від липи
+  why: >
+    Батько Карла Ліннея мав обрати прізвище, вступаючи до університету. Біля
+    родинної садиби росла величезна липа — шведською lind, — і він назвався
+    Linnæus. Так найвідоміший ботанік отримав прізвище від дерева.
+  source: en.wikipedia Carl Linnaeus
+- key: w12-lypa-morning
+  topic: Чай «Липа»
+  day: sat
+  slot: morning
+  layout: jar
+  subject: >
+    The product is a SMALL tea box, only about one quarter of the frame
+    height, standing on a low white round pedestal in the middle of the
+    frame, a small linden twig with yellow blossoms lies on the floor
+    beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    with a reflector, a woman carrying a small basket of linden blossoms, a
+    stylist on a tiny step ladder dusting the box, a director in a folding
+    chair.
+  claim: Липа англійською — lime
+  why: >
+    Це не родич лайма. Слово виросло зі староанглійського lind, яким звали
+    липу, а назва цитруса прийшла з арабської через французьку. Збіглося лише
+    звучання.
+  source: en.wikipedia Tilia
+- key: w12-lypa-noon
+  topic: Чай «Липа»
+  day: sat
+  slot: noon
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lie three dry
+    linden seed clusters, each hanging from a long narrow pale-green leafy
+    wing (bract), like little propellers.
+  crew: >
+    Four tiny people: a girl holding one bract above her head as if it is
+    about to fly, a photographer with a camera on a tripod, an assistant
+    with a reflector, a lighting tech next to a small fan.
+  claim: 'Липа дає насінню крило'
+  why: >
+    Горішки липи ростуть китицею на довгому світлому листку. Схоже, цей листок
+    працює як крило: допомагає вітру віднести насіння трохи далі від дерева.
+  source: en.wikipedia Tilia
+- key: w12-lypa-evening
+  topic: Чай «Липа»
+  day: sat
+  slot: evening
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame stands a
+    smooth block of pale linden wood with a half-carved simple leaf relief
+    on its front, fine curled wood shavings around it.
+  crew: >
+    Four tiny people: a woodcarver with a tiny chisel working on the block,
+    a photographer with a camera on a tripod, an assistant with a
+    reflector, a lighting tech next to a softbox. Warm evening light.
+  claim: 'Улюблене дерево різьбярів'
+  why: >
+    Деревина липи мʼяка й рівна, майже без візерунка, — ніж іде легко. Тому
+    середньовічні майстри Тільман Ріменшнайдер і Віт Ствош робили з неї
+    вівтарі й статуї.
+  source: en.wikipedia Tilia (wood)
+- key: w12-lypa-sell
+  topic: Чай «Липа»
+  day: sat
+  slot: sell
+  layout: sell
+  subject: >
+    The product is a SMALL tea box, only about one quarter of the frame
+    height, standing on a low white round pedestal in the middle of the
+    frame, a small linden twig with yellow blossoms on the floor beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    holding a round white reflector, a woman pouring tea from a small clay
+    teapot into a cup, a lighting tech next to a softbox, a director in a
+    folding chair.
+  claim: Лише липовий цвіт
+  why: У пачці 40 грамів сушеного цвіту липи — без домішок і без кофеїну.
+  do: Заварюй як звичайний чай
+  source: 'склад у каталозі LIS-CHAI-003: 100% цвіт липи'
+offer:
+  topic: Чай «Липа»
+  day: sat
+  layout: offer
+  subject: >
+    The product is a SMALL tea box, only about one quarter of the frame
+    height, standing on a low white round pedestal in the middle of the
+    frame, a small linden twig with yellow blossoms beside it.
+  crew: >
+    Four tiny people wrap up the shoot: one rolls up a black cable, one
+    carries a softbox on his shoulder, one checks a blank clipboard, one
+    waves at the camera.
+  claim: Липа в пачці
+  extra: Вага — 40 г|Склад — цвіт липи|Кофеїн — немає
+  do: Шукай пачку в шапці профілю
+  source: 'каталог 09.11.2026: LIS-CHAI-003 у наявності'

@@ -1,0 +1,127 @@
+# Тиждень 12, день 6: Чай «Сонне зілля», 40 г — сім трав. Подача «фотостудія» (v10).
+# product: https://lisovik.com.ua/chai-sonne-zillia-40-h/
+# Факти — дослідник 09.11, по одній рослині на кадр. Жодного слова про сон
+# чи заспокоєння: лише ботаніка й назви. Німфу Мінту й «радість гір» не
+# беремо (не підтверджено).
+product:
+  name: Чай «Сонне зілля»
+  plaque: Вечірній чай
+  latin: 7 трав
+  price: 180
+  ref: w12c_box_sonne_LIS-CHAI-002.jpg
+  pack: >
+    a cream-white matte cardboard tea box with faint grey line drawings of
+    mushrooms and leaves, a dark brown ЛІСОВИК tree-face logo, the words
+    ЧАЙ СОННЕ ЗІЛЛЯ, a window band with a photo of purple and white dried
+    flowers near the bottom and a small green panel with a QR code in the
+    top right corner.
+thoughts:
+- key: w12-sonne-dawn
+  topic: Чай «Сонне зілля»
+  day: sun
+  slot: dawn
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies a small
+    heap of fresh chamomile flowers (white petals, yellow centres) next to
+    one small green apple.
+  crew: >
+    Five tiny people: a photographer with a camera on a tripod, an
+    assistant holding a round white reflector, a lighting tech next to a
+    softbox, a stylist sniffing one chamomile flower, a director pointing.
+  claim: Ромашка — «земне яблуко»
+  why: >
+    Назва ромашки в багатьох мовах — від грецького chamaimēlon: «на землі» й
+    «яблуко». Квітка низенька, а пахне яблуком.
+  source: en.wikipedia Matricaria chamomilla (etymology)
+- key: w12-sonne-morning
+  topic: Чай «Сонне зілля»
+  day: sun
+  slot: morning
+  layout: jar
+  subject: >
+    The product is a SMALL tea box, only about one quarter of the frame
+    height, standing on a low white round pedestal in the middle of the
+    frame, a small juniper sprig with blue-black berries lies on the floor
+    beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    with a reflector, a botanist holding one giant blue juniper berry cut in
+    half to show seeds, a stylist on a tiny step ladder dusting the box, a
+    director in a folding chair.
+  claim: 'Ягода ялівцю — насправді шишка'
+  why: >
+    Ялівець — хвойна рослина, як сосна. Його синя кулька — це луски, що стали
+    мʼясистими й зрослися. Дозріває вона довго: від пів року до півтора.
+  source: en.wikipedia Juniper
+- key: w12-sonne-noon
+  topic: Чай «Сонне зілля»
+  day: sun
+  slot: noon
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lies a small
+    old-fashioned broom made of dry heather twigs with tiny pink-purple
+    flowers, tied with twine.
+  crew: >
+    Four tiny people: a woman sweeping the pedestal edge with a tiny
+    heather broom, a photographer with a camera on a tripod, an assistant
+    with a reflector, a director with a blank clipboard.
+  claim: 'Верес — трава для віника'
+  why: >
+    З жорстких гілочок вересу здавна вʼязали мітли. Навіть латинська назва
+    вересу — Calluna — імовірно, від грецького слова «мести, чистити».
+  source: en.wikipedia Calluna
+- key: w12-sonne-evening
+  topic: Чай «Сонне зілля»
+  day: sun
+  slot: evening
+  layout: specimen
+  subject: >
+    On a low white round pedestal in the middle of the frame lie three fresh
+    mint sprigs side by side: one with smooth dark leaves, one with
+    rounded water-mint leaves, one with narrow spear-shaped leaves.
+  crew: >
+    Four tiny people: a botanist comparing two sprigs, a photographer with a
+    camera on a tripod, an assistant with a reflector, a lighting tech next
+    to a softbox. Warm evening light.
+  claim: Перцева мʼята — гібрид
+  why: >
+    Її не знайшли в природі як окремий вид: вона виникла, коли схрестилися дві
+    інші мʼяти — водяна й колосиста.
+  source: en.wikipedia Mentha (peppermint = water mint × spearmint)
+- key: w12-sonne-sell
+  topic: Чай «Сонне зілля»
+  day: sun
+  slot: sell
+  layout: sell
+  subject: >
+    The product is a SMALL tea box, only about one quarter of the frame
+    height, standing on a low white round pedestal in the middle of the
+    frame, a few dried lavender stems and chamomile flowers on the floor
+    beside it.
+  crew: >
+    Five tiny people: a photographer kneeling with a camera, an assistant
+    holding a round white reflector, a woman pouring tea from a small clay
+    teapot into a cup, a lighting tech next to a softbox, a director in a
+    folding chair.
+  claim: Сім трав в одній пачці
+  why: Ромашка, мʼята, лаванда, цвіт глоду, верес, ялівець і материнка. 40 грамів, без кофеїну.
+  do: Заварюй як звичайний чай
+  source: 'склад у каталозі LIS-CHAI-002: ромашка, мʼята, лаванда, цвіт глоду, верес, ялівець, материнка'
+offer:
+  topic: Чай «Сонне зілля»
+  day: sun
+  layout: offer
+  subject: >
+    The product is a SMALL tea box, only about one quarter of the frame
+    height, standing on a low white round pedestal in the middle of the
+    frame, a few dried lavender stems beside it.
+  crew: >
+    Four tiny people wrap up the shoot: one rolls up a black cable, one
+    carries a softbox on his shoulder, one checks a blank clipboard, one
+    waves at the camera.
+  claim: Сонне зілля в пачці
+  extra: Вага — 40 г|Трав у зборі — 7|Кофеїн — немає
+  do: Шукай пачку в шапці профілю
+  source: 'каталог 09.11.2026: LIS-CHAI-002 у наявності'
