@@ -6411,10 +6411,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1110-omega-evening.jpg",
    "slot_start": "2026-11-10T18:00:00+02:00",
    "slot_end": "2026-11-10T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-10T18:05:42.730509+02:00",
+   "ig_media_id": "18093254021224390",
+   "error": null,
+   "fb_story_id": "1429622232483952"
   },
   {
    "id": "1110-omega-sell",
