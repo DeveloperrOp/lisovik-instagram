@@ -6565,10 +6565,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1112-osnova-noon.jpg",
    "slot_start": "2026-11-12T12:00:00+02:00",
    "slot_end": "2026-11-12T17:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-12T12:03:57.649250+02:00",
+   "ig_media_id": "18116738843594734",
+   "error": null,
+   "fb_story_id": "2196180320969706"
   },
   {
    "id": "1112-osnova-evening",
