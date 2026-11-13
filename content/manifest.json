@@ -6677,10 +6677,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1113-lypa-sell.jpg",
    "slot_start": "2026-11-13T19:00:00+02:00",
    "slot_end": "2026-11-13T19:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-13T19:05:37.367644+02:00",
+   "ig_media_id": "18156307273532854",
+   "error": null,
+   "fb_story_id": "1178450221790536"
   },
   {
    "id": "1113-lypa-night",
