@@ -6775,10 +6775,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1114-sonne-night.jpg",
    "slot_start": "2026-11-14T20:00:00+02:00",
    "slot_end": "2026-11-14T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-14T20:05:38.069024+02:00",
+   "ig_media_id": "17967339786238955",
+   "error": null,
+   "fb_story_id": "1784309076130904"
   },
   {
    "id": "1115-mind-dawn",
