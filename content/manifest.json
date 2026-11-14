@@ -6705,10 +6705,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1114-sonne-dawn.jpg",
    "slot_start": "2026-11-14T07:00:00+02:00",
    "slot_end": "2026-11-14T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-14T07:07:04.887297+02:00",
+   "ig_media_id": "18181069072452421",
+   "error": null,
+   "fb_story_id": "4745671792332755"
   },
   {
    "id": "1114-sonne-morning",
