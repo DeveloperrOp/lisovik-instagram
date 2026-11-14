@@ -6733,10 +6733,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1114-sonne-noon.jpg",
    "slot_start": "2026-11-14T12:00:00+02:00",
    "slot_end": "2026-11-14T17:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-14T12:04:10.492140+02:00",
+   "ig_media_id": "18172795027481284",
+   "error": null,
+   "fb_story_id": "1779608470000309"
   },
   {
    "id": "1114-sonne-evening",
