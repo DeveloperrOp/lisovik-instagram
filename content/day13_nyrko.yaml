@@ -1,0 +1,75 @@
+# Тиждень 13: Нирколайт. Подача «осіння веранда» (build_story_v11).
+# product: https://lisovik.com.ua/nyrkolait-v-kapsulakh-60-sht-po-05-h/
+# Нирколайт: спориш, шипшина, лист брусниці. Ціна — за 60. Назву не пояснюємо.
+product:
+  name: Нирколайт
+  plaque: Шипшина й брусниця
+  latin: Polygonum · Rosa · Vaccinium
+  price: 363
+  ref: w13_jar_nyrko_LIS-N452076.jpg
+  pack: a clear plastic jar with a wide white screw lid, filled with beige capsules, with a coral-red
+    label with the white ЛІСОВИК tree-face logo and the words ДІЄТИЧНА ДОБАВКА НИРКОЛАЙТ, КАПСУЛИ 60 ШТ
+    - 30 Г.
+thoughts:
+- key: w13-nyrko-dawn
+  topic: Нирколайт
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the table lies one big red rose hip cut in half, showing many small pale hairy
+    seeds inside, with a few whole rose hips beside it.
+  claim: Ягода, яка не ягода
+  why: Червоний плід шипшини — це розросле квітколоже. Справжні плоди — дрібні горішки всередині. Їх вкривають
+    колючі волоски, з яких колись робили «порошок для свербіння».
+  source: en.wikipedia Rose hip; Rosa canina
+- key: w13-nyrko-morning
+  topic: Нирколайт
+  slot: morning
+  layout: jar
+  subject: The product stands on the knitted blanket in the middle of the table, a small sprig of lingonberry
+    with glossy green leaves and red berries lies beside it.
+  claim: Брусниця зимує із зеленим листям
+  why: Навіть у найсуворіші зими брусниця не скидає листя — її береже сніг. А у Швеції брусничне варення
+    традиційно подають до фрикадельок.
+  source: en.wikipedia Vaccinium vitis-idaea
+- key: w13-nyrko-noon
+  topic: Нирколайт
+  slot: noon
+  layout: specimen
+  subject: In the middle of the table lies a small sprig of lingonberry with glossy dark-green oval leaves
+    and bright red berries, next to a tiny grapevine leaf.
+  claim: Що зашифровано в імені брусниці
+  why: Наукове Vaccinium vitis-idaea складене зі слів «лоза» та «з гори Іда». А англійське lingonberry
+    прийшло від шведського lingon.
+  source: en.wikipedia Vaccinium vitis-idaea
+- key: w13-nyrko-evening
+  topic: Нирколайт
+  slot: evening
+  layout: specimen
+  subject: In the middle of the table lies a small patch of low creeping knotgrass with tiny leaves and
+    knotty stems, growing between a few flat paving stones.
+  claim: Чому спориш росте біля доріг
+  why: 'Його насінню потрібне світло, щоб прорости. Тому спориш першим займає розриту землю: узбіччя,
+    двори, пустирі. Латинське Polygonum означає «багатоколінець» — за вузлики на стеблі.'
+  source: en.wikipedia Polygonum aviculare
+- key: w13-nyrko-sell
+  topic: Нирколайт
+  slot: sell
+  layout: sell
+  subject: The product stands on the knitted blanket in the middle of the table, a few red rose hips and
+    a lingonberry sprig lie beside it.
+  crew: 'Five tiny people: one wrapped in a corner of the blanket, two carrying a big orange maple leaf,
+    one climbing a tiny ladder to the lid, one pouring tea from a small teapot into a cup.'
+  claim: Спориш, шипшина й брусниця
+  why: 'Три рослини: трава спориша — 37%, плоди шипшини — 33%, лист брусниці — 30%. У банці 60 капсул.'
+  do: Обери банку на 60 чи на 120 капсул
+  source: склад у каталозі (https://lisovik.com.ua/nyrkolait-v-kapsulakh-60-sht-po-05-h/)
+offer:
+  topic: Нирколайт
+  layout: offer
+  subject: The product stands on the knitted blanket in the middle of the table.
+  crew: 'Four tiny people: one folding the corner of the blanket, one sweeping leaves with a tiny broom,
+    one reading, one waving at the camera.'
+  claim: Нирколайт у банці
+  extra: Фасовка — 60 або 120 капсул|Спориш — 37%|Шипшина — 33%|Лист брусниці — 30%
+  do: Знайди обидві фасовки в шапці профілю
+  source: 'каталог 16.11.2026: LIS-N452076/N452086 у наявності'

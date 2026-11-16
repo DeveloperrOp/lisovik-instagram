@@ -1,0 +1,75 @@
+# Тиждень 13: Гепатолайт. Подача «осіння веранда» (build_story_v11).
+# product: https://lisovik.com.ua/hepatolait-v-kapsulakh-60-sht-po-05-h/
+# Гепатолайт: артишок, розторопша, чага, рейші. Ціна — за 60. Назву не пояснюємо — лише імʼя товару.
+product:
+  name: Гепатолайт
+  plaque: Артишок і розторопша
+  latin: Cynara · Silybum · Inonotus · Ganoderma
+  price: 625
+  ref: w13_jar_hepato_LIS-N452075.jpg
+  pack: a clear plastic jar with a wide white screw lid, filled with beige capsules, with a deep wine-red
+    label with the white ЛІСОВИК tree-face logo and the words ДІЄТИЧНА ДОБАВКА ГЕПАТОЛАЙТ, КАПСУЛИ 60
+    ШТ - 30 Г.
+thoughts:
+- key: w13-hepato-dawn
+  topic: Гепатолайт
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the table stands one tall wild cardoon stalk with a spiky purple thistle-like
+    flower head, next to one green artichoke bud.
+  claim: У артишока є дикий родич — кардон
+  why: Артишок — одомашнений кардон, схожий на великий будяк. У кардона їдять соковиті стебла, а в Середземномор'ї
+    його квітками навіть згортають молоко для сиру.
+  source: en.wikipedia Artichoke; Cynara
+- key: w13-hepato-morning
+  topic: Гепатолайт
+  slot: morning
+  layout: jar
+  subject: The product stands on the knitted blanket in the middle of the table, one green-purple artichoke
+    bud lies beside it.
+  claim: Артишок, який їдять, — це бутон
+  why: Їстівна частина — нерозкритий квітковий кошик. Якщо його не зірвати, він розкриється великою фіолетовою
+    квіткою, як у будяка. У банку ж іде екстракт листя.
+  source: en.wikipedia Artichoke
+- key: w13-hepato-noon
+  topic: Гепатолайт
+  slot: noon
+  layout: specimen
+  subject: In the middle of the table lies one large spiny milk thistle leaf with bright milky-white veins,
+    and a purple milk thistle flower beside it.
+  claim: Легенда в білих прожилках
+  why: На листі розторопші видно молочно-світлі смуги. За давнім переказом, це краплі молока Діви Марії,
+    тому рослину звуть Маріїним будяком. Ботаніки ж шукають причину в будові листка.
+  source: en.wikipedia Milk thistle; rhs.org.uk 17359
+- key: w13-hepato-evening
+  topic: Гепатолайт
+  slot: evening
+  layout: specimen
+  subject: In the middle of the table lies one black cracked chaga chunk with a thin wisp of smoke rising
+    from one glowing orange edge, resting safely on a small flat stone.
+  claim: Гриб, що зберігав жар
+  why: 'Північноамериканські індіанці потаватомі брали чагу як трут: від іскри вона не гасне, а повільно
+    тліє годинами. Так вогонь переносили з місця на місце.'
+  source: en.wikipedia Inonotus obliquus (Kimmerer)
+- key: w13-hepato-sell
+  topic: Гепатолайт
+  slot: sell
+  layout: sell
+  subject: The product stands on the knitted blanket in the middle of the table, an artichoke bud and
+    a glossy reishi cap lie beside it.
+  crew: 'Five tiny people: one wrapped in a corner of the blanket, two carrying a big orange maple leaf,
+    one climbing a tiny ladder to the lid, one pouring tea from a small teapot into a cup.'
+  claim: Чотири екстракти разом
+  why: Листя артишоку — 35%, насіння розторопші й чага — по 25%, рейші — 15%. У банці 60 капсул.
+  do: Обери банку на 60 чи на 120 капсул
+  source: склад у каталозі (https://lisovik.com.ua/hepatolait-v-kapsulakh-60-sht-po-05-h/)
+offer:
+  topic: Гепатолайт
+  layout: offer
+  subject: The product stands on the knitted blanket in the middle of the table.
+  crew: 'Four tiny people: one folding the corner of the blanket, one sweeping leaves with a tiny broom,
+    one reading, one waving at the camera.'
+  claim: Гепатолайт у банці
+  extra: Фасовка — 60 або 120 капсул|Артишок — 35%|Розторопша й чага — по 25%|Рейші — 15%
+  do: Знайди обидві фасовки в шапці профілю
+  source: 'каталог 16.11.2026: LIS-N452075/N452085 у наявності'
