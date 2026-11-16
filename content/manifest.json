@@ -6887,10 +6887,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1116-gastro-morning.jpg",
    "slot_start": "2026-11-16T14:00:00+02:00",
    "slot_end": "2026-11-16T17:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-16T14:03:34.744257+02:00",
+   "ig_media_id": "18354978883270076",
+   "error": null,
+   "fb_story_id": "29378658158465118"
   },
   {
    "id": "1116-gastro-noon",
