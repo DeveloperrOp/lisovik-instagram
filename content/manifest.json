@@ -6864,6 +6864,84 @@
    "ig_media_id": "17919964596466576",
    "error": null,
    "fb_story_id": "2403550617078679"
+  },
+  {
+   "id": "1116-gastro-dawn",
+   "kind": "STORIES",
+   "theme": "Гастролайт",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1116-gastro-dawn.jpg",
+   "slot_start": "2026-11-16T12:50:00+02:00",
+   "slot_end": "2026-11-16T17:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1116-gastro-morning",
+   "kind": "STORIES",
+   "theme": "Гастролайт",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1116-gastro-morning.jpg",
+   "slot_start": "2026-11-16T14:00:00+02:00",
+   "slot_end": "2026-11-16T17:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1116-gastro-noon",
+   "kind": "STORIES",
+   "theme": "Гастролайт",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1116-gastro-noon.jpg",
+   "slot_start": "2026-11-16T16:00:00+02:00",
+   "slot_end": "2026-11-16T17:45:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1116-gastro-evening",
+   "kind": "STORIES",
+   "theme": "Гастролайт",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1116-gastro-evening.jpg",
+   "slot_start": "2026-11-16T18:00:00+02:00",
+   "slot_end": "2026-11-16T18:55:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1116-gastro-sell",
+   "kind": "STORIES",
+   "theme": "Гастролайт",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1116-gastro-sell.jpg",
+   "slot_start": "2026-11-16T19:00:00+02:00",
+   "slot_end": "2026-11-16T19:55:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
+  },
+  {
+   "id": "1116-gastro-night",
+   "kind": "STORIES",
+   "theme": "Лісовик",
+   "headline": "",
+   "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1116-gastro-night.jpg",
+   "slot_start": "2026-11-16T20:00:00+02:00",
+   "slot_end": "2026-11-16T23:30:00+02:00",
+   "status": "approved",
+   "published_at": null,
+   "ig_media_id": null,
+   "error": null
   }
  ]
 }
