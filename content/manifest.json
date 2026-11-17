@@ -6971,10 +6971,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1117-inulin-morning.jpg",
    "slot_start": "2026-11-17T10:00:00+02:00",
    "slot_end": "2026-11-17T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-17T10:06:58.715316+02:00",
+   "ig_media_id": "17896393602435503",
+   "error": null,
+   "fb_story_id": "982043804528725"
   },
   {
    "id": "1117-inulin-noon",
