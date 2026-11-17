@@ -7027,10 +7027,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1117-inulin-night.jpg",
    "slot_start": "2026-11-17T20:00:00+02:00",
    "slot_end": "2026-11-17T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-17T20:01:10.443246+02:00",
+   "ig_media_id": "18020196863978615",
+   "error": null,
+   "fb_story_id": "1668120614963752"
   },
   {
    "id": "1118-hepato-dawn",
