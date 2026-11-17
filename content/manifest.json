@@ -6999,10 +6999,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1117-inulin-evening.jpg",
    "slot_start": "2026-11-17T18:00:00+02:00",
    "slot_end": "2026-11-17T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-17T18:00:07.476872+02:00",
+   "ig_media_id": "17912726025581866",
+   "error": null,
+   "fb_story_id": "2371835960325441"
   },
   {
    "id": "1117-inulin-sell",
