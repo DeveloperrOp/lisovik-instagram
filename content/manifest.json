@@ -7055,10 +7055,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1118-hepato-morning.jpg",
    "slot_start": "2026-11-18T10:00:00+02:00",
    "slot_end": "2026-11-18T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-18T10:02:58.326168+02:00",
+   "ig_media_id": "17872261086660299",
+   "error": null,
+   "fb_story_id": "2663338820765606"
   },
   {
    "id": "1118-hepato-noon",
