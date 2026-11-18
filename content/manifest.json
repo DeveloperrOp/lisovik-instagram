@@ -7041,10 +7041,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1118-hepato-dawn.jpg",
    "slot_start": "2026-11-18T07:00:00+02:00",
    "slot_end": "2026-11-18T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-18T07:06:25.523644+02:00",
+   "ig_media_id": "18142366582689323",
+   "error": null,
+   "fb_story_id": "2241918786729558"
   },
   {
    "id": "1118-hepato-morning",
