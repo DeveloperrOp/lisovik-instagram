@@ -7083,10 +7083,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1118-hepato-evening.jpg",
    "slot_start": "2026-11-18T18:00:00+02:00",
    "slot_end": "2026-11-18T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-18T18:04:20.680476+02:00",
+   "ig_media_id": "18125531005953048",
+   "error": null,
+   "fb_story_id": "1800524177847699"
   },
   {
    "id": "1118-hepato-sell",
