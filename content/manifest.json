@@ -7167,10 +7167,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1119-nyrko-evening.jpg",
    "slot_start": "2026-11-19T18:00:00+02:00",
    "slot_end": "2026-11-19T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-19T18:00:11.455026+02:00",
+   "ig_media_id": "18122007080160407",
+   "error": null,
+   "fb_story_id": "2965405287152306"
   },
   {
    "id": "1119-nyrko-sell",
