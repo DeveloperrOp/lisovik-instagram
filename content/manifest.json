@@ -7195,10 +7195,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1119-nyrko-night.jpg",
    "slot_start": "2026-11-19T20:00:00+02:00",
    "slot_end": "2026-11-19T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-19T20:00:52.370705+02:00",
+   "ig_media_id": "18131166169860076",
+   "error": null,
+   "fb_story_id": "1318182910433961"
   },
   {
    "id": "1120-limfo-dawn",
