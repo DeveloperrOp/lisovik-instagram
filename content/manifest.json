@@ -7125,10 +7125,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1119-nyrko-dawn.jpg",
    "slot_start": "2026-11-19T07:00:00+02:00",
    "slot_end": "2026-11-19T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-19T07:02:27.009947+02:00",
+   "ig_media_id": "17956488936335178",
+   "error": null,
+   "fb_story_id": "975049658659353"
   },
   {
    "id": "1119-nyrko-morning",
