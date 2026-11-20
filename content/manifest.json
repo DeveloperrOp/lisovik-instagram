@@ -7251,10 +7251,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1120-limfo-evening.jpg",
    "slot_start": "2026-11-20T18:00:00+02:00",
    "slot_end": "2026-11-20T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-20T18:03:53.496707+02:00",
+   "ig_media_id": "18098756072694874",
+   "error": null,
+   "fb_story_id": "1120018594189791"
   },
   {
    "id": "1120-limfo-sell",
