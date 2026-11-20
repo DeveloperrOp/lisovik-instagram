@@ -7209,10 +7209,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1120-limfo-dawn.jpg",
    "slot_start": "2026-11-20T07:00:00+02:00",
    "slot_end": "2026-11-20T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-20T07:06:03.917065+02:00",
+   "ig_media_id": "18018291023976484",
+   "error": null,
+   "fb_story_id": "1633522131846181"
   },
   {
    "id": "1120-limfo-morning",
