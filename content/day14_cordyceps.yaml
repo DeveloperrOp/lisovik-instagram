@@ -1,0 +1,93 @@
+# Тиждень 14: Кордицепс військовий. Подача «зимовий ярмарок» (build_story_v12).
+# product: https://lisovik.com.ua/kordytseps-viiskovyi-u-kapsulakh-120-sht-po-05-h/
+# Кордицепс військовий у капсулах, 120 шт, вирощений на пшениці. Ціна — за 120, як на фото.
+product:
+  name: Кордицепс військовий
+  plaque: Помаранчева булава
+  latin: Cordyceps militaris
+  price: 800
+  ref: w14c_jar_cordyceps.jpg
+  pack: a clear plastic jar CLOSED with a wide WHITE screw lid on top (the lid is always fully visible),
+    filled with white capsules, with a rusty orange-brown label with the white ЛІСОВИК tree-face logo
+    and the words КОРДИЦЕПС ВІЙСЬКОВИЙ.
+thoughts:
+- key: w14-cordyceps-dawn
+  topic: Кордицепс військовий
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the fair, on a small wooden stand, stand a few bright orange club-shaped cordyceps
+    fruiting bodies next to a small old wooden medieval mace with a round head, and a big open old dictionary
+    book with blank pages.
+  crew: 'Five tiny people: a knight in a toy helmet comparing the wooden mace with an orange club, a teacher
+    pointing at the open dictionary, a girl writing in the air with her finger, a boy trying to lift the
+    wooden mace, a woman laughing with a hot cup in her hands.'
+  claim: Кордицепс — це «голова-булава»
+  why: 'Назву склали з двох слів: грецьке «кордиле» означає булаву, а латинське «-цепс» — голову. Виходить
+    «булавоголовий» — і справді, кожен гриб схожий на маленьку помаранчеву булаву.'
+  source: 'en.wikipedia Cordyceps (etymology: kordylē + -ceps)'
+- key: w14-cordyceps-morning
+  topic: Кордицепс військовий
+  slot: morning
+  layout: jar
+  subject: The product stands in front of the stalls, about one quarter of the frame height, fully visible
+    with empty space on both sides; beside it stand three small clear glass jars with white rice at the
+    bottom and small bright orange cordyceps clubs growing up from the rice.
+  crew: 'Five tiny people: a farmer in a knitted vest lifting the lid of one glass jar, a girl counting
+    the orange clubs through the glass, a man carrying a sack of rice on his shoulder, a woman wiping
+    a jar with a cloth, a boy pressing his ear to a jar as if listening.'
+  claim: Город у банці з рисом
+  why: Цей кордицепс вирощують у скляних банках чи лотках, найчастіше на рисі. Перші тиждень-два він росте
+    в темряві й теплі, а потім його «будять» світлом — і з рису підіймаються помаранчеві булави.
+  source: PMC12523487 (Foods 2025, culture conditions of Cordyceps militaris)
+- key: w14-cordyceps-noon
+  topic: Кордицепс військовий
+  slot: noon
+  layout: specimen
+  subject: In the middle of the fair stand a few bright orange club-shaped cordyceps fruiting bodies,
+    their rough surface dotted with tiny bumps, like little orange maces.
+  crew: 'Five tiny people: a girl holding a big magnifying glass to the bumpy orange surface, a man tapping
+    one club with a tiny hammer like a doctor, a woman hugging one orange club, a boy climbing one club
+    with a rope, a man taking a photo with an old camera.'
+  claim: Що ховається в помаранчевій булаві
+  why: Помаранчева булава заввишки 1–8 сантиметрів — щільна тканина гриба, яку звуть стромою. У її поверхні
+    сховані мікроскопічні кишеньки, де дозрівають спори. Тому вона й шорстка, в цятках.
+  source: en.wikipedia Cordyceps militaris
+- key: w14-cordyceps-evening
+  topic: Кордицепс військовий
+  slot: evening
+  layout: specimen
+  subject: In the middle of the fair stands a small old 1950s chemistry laboratory table with glass flasks,
+    a small brass microscope and a stack of old journals with plain covers, a few orange cordyceps clubs
+    in a glass dish.
+  crew: 'Four tiny people: a scientist in a 1950s white coat and round glasses looking into the microscope,
+    a woman typing on a tiny old typewriter, a man holding a glass flask up to the light, a young assistant
+    stacking the journals.'
+  claim: '1950 рік: перше відкриття в цьому грибі'
+  why: Саме з кордицепса військового 1950 року вчені вперше виділили нову речовину. На честь гриба її
+    так і звуть — кордицепін.
+  source: 'PMC8510467 (Molecules 2021): first isolated from C. militaris and characterised in 1950'
+- key: w14-cordyceps-sell
+  topic: Кордицепс військовий
+  slot: sell
+  layout: sell
+  subject: The product stands in front of the stalls, a few bright orange cordyceps clubs in the snow
+    beside it.
+  crew: 'Five tiny people: a woman selling hot pretzels from a tray, a man ringing a big hand bell, a
+    girl feeding a tiny bird crumbs, a man fixing a loose garland bulb, an old couple dancing slowly.'
+  claim: Цілий гриб у капсулі
+  why: Цілий кордицепс військовий, вирощений на пшениці й змелений у капсули. Оболонка рослинна, у банці
+    120 штук.
+  do: Обери банку на 60 чи на 120 капсул
+  source: склад у каталозі (https://lisovik.com.ua/kordytseps-viiskovyi-u-kapsulakh-120-sht-po-05-h/)
+offer:
+  topic: Кордицепс військовий
+  layout: offer
+  subject: The product stands in front of the stalls.
+  crew: 'Four tiny people: a man loading boxes onto a small wooden sleigh, a woman hanging a wreath on
+    a stall door, a child sitting on a big sack eating an apple, a man lighting a lantern with a long
+    stick (the lantern is closed glass, no open flame).'
+  claim: Кордицепс у шести формах
+  extra: Капсули — 60 або 120 шт|Екстракт у капсулах — 60 або 120 шт|Краплі — 30 або 50 мл|Ціле й мелене
+    — по 50 г
+  do: Знайди всі форми в шапці профілю
+  source: 'каталог 22.11.2026: LIS-469817/469818, 469826/469827, 484284/484286, 469819, 469820 у наявності'

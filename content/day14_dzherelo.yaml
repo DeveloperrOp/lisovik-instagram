@@ -1,0 +1,89 @@
+# Тиждень 14: Чай «Джерело сил». Подача «зимовий ярмарок» (build_story_v12).
+# product: https://lisovik.com.ua/chai-dzherelo-syl-40-h/
+# Чай «Джерело сил» 40 г: лист малини, лист і цвіт липи, шипшина, волошка, календула, верес. Без слів про тонус і вітаміни.
+product:
+  name: Чай «Джерело сил»
+  plaque: Шість трав
+  latin: Rosa · Rubus · Tilia · Calendula
+  price: 180
+  ref: w14c_box_dzherelo_LIS-CHAI-004.jpg
+  pack: a cream-white matte cardboard tea box with faint grey line drawings of mushrooms and leaves, a
+    dark green ЛІСОВИК tree-face logo, the words ЧАЙ ДЖЕРЕЛО СИЛ, a window band with a photo of orange,
+    blue and purple dried flowers near the bottom, and a small green panel with a QR code in the top right
+    corner.
+thoughts:
+- key: w14-dzherelo-dawn
+  topic: Чай «Джерело сил»
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the fair stands a small rose bush covered with frost and snow, with bright
+    red rose hips glittering with ice crystals.
+  crew: 'Four tiny people: a woman picking a frosted rose hip into a wicker basket, a man scraping frost
+    off a branch with a tiny spatula, a boy shaking snow off a branch onto his friend, a girl sliding
+    on an icy path.'
+  claim: Шипшина солодшає після морозу
+  why: Мʼясиста червона частина шипшини — розросла основа квітки, а справжні плоди — дрібні горішки всередині.
+    Після першого морозу мʼякоть стає мʼякшою й солодшою, тому збирати її не поспішають.
+  source: en.wikipedia Rose hip
+- key: w14-dzherelo-morning
+  topic: Чай «Джерело сил»
+  slot: morning
+  layout: jar
+  subject: The product stands in front of the stalls; a small bowl of red raspberries lies beside it.
+    The scene is the winter FAIR with wooden stalls; the product is a SMALL tea box, no taller than one
+    quarter of the frame. No mushrooms anywhere.
+  crew: 'Four tiny people: a man counting raspberries out loud on his fingers, a woman stringing raspberries
+    like beads on a thread, a child carrying one raspberry with both arms, a man weighing raspberries
+    on tiny brass scales.'
+  claim: Одна малинка — сотня намистин
+  why: Ягода малини — не один плід, а близько сотні дрібних соковитих «намистин», кожна зі своїм зернятком.
+    Усі вони виростають з однієї квітки.
+  source: en.wikipedia Raspberry
+- key: w14-dzherelo-noon
+  topic: Чай «Джерело сил»
+  slot: noon
+  layout: specimen
+  subject: In the middle of the fair lies a bunch of bright orange calendula flowers next to a large old
+    paper wall calendar with blank pages and no printed numbers.
+  crew: 'Five tiny people: a man flipping a huge blank calendar page, a woman arranging orange calendula
+    flowers in a vase, a boy wearing a calendula flower as a hat, an old woman pointing at the calendar
+    with her cane, a girl making a flower wreath.'
+  claim: Календула названа на честь календаря
+  why: 'Латинське Calendula походить від calendae — так у Давньому Римі звали перший день місяця. Одне
+    з пояснень: вона цвіте майже щомісяця. Але це лише версія.'
+  source: merriam-webster calendula; ahpa.org herbs_in_history_calendula
+- key: w14-dzherelo-evening
+  topic: Чай «Джерело сил»
+  slot: evening
+  layout: specimen
+  subject: In the middle of the fair lies a bunch of bright blue cornflowers next to a small loaf of rye
+    bread on a wooden board.
+  crew: 'Four tiny people: a baker in an apron slicing the loaf with a big knife, a girl in a blue scarf
+    holding a cornflower bouquet, a man in a cap waving a small plain blue flag without any symbols, an
+    old man breaking bread and sharing it.'
+  claim: Квітка з пшеничного поля
+  why: Синя волошка — символ Естонії, де вона означає щоденний хліб, і один із символів Німеччини. Колись
+    вона росла серед збіжжя як звичайний бурʼян.
+  source: en.wikipedia Centaurea cyanus
+- key: w14-dzherelo-sell
+  topic: Чай «Джерело сил»
+  slot: sell
+  layout: sell
+  subject: The product is a SMALL tea box standing in front of the stalls, a few rose hips and blue cornflowers
+    in the snow beside it.
+  crew: 'Five tiny people: a woman pouring tea from a big kettle into a row of cups, a man warming his
+    hands around a mug, two friends clinking cups, a child carrying a teapot carefully with both hands.'
+  claim: Шість трав в одній пачці
+  why: Лист малини, лист і цвіт липи, шипшина, волошка, календула й верес. 40 грамів, без кофеїну.
+  do: Заварюй як звичайний чай
+  source: склад у каталозі (https://lisovik.com.ua/chai-dzherelo-syl-40-h/)
+offer:
+  topic: Чай «Джерело сил»
+  layout: offer
+  subject: The product is a SMALL tea box standing in front of the stalls.
+  crew: 'Four tiny people: a man tying a big bow on a gift box, a woman reading a long blank scroll, a
+    boy building a tower of tiny tea cups, a man shovelling snow from the path.'
+  claim: Джерело сил у пачці
+  extra: Вага — 40 г|Трав у зборі — 6|Кофеїн — немає
+  do: Шукай пачку в шапці профілю
+  source: 'каталог 22.11.2026: LIS-CHAI-004 у наявності'

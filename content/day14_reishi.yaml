@@ -1,0 +1,90 @@
+# Тиждень 14: Рейші. Подача «зимовий ярмарок» (build_story_v12).
+# product: https://lisovik.com.ua/reishi-trutovyk-lakovanyi-ekstrakt-101-kapsuly-120-sht-po-0.4-h/
+# Рейші, екстракт 10:1. Ціна — за 120, як на фото. Символіку довголіття не беремо.
+product:
+  name: Рейші
+  plaque: Лакований гриб
+  latin: Ganoderma lucidum
+  price: 1375
+  ref: w14c_jar_reishi_LIS-481469.jpg
+  pack: an opaque WHITE plastic bottle with a white screw cap and a mustard-olive label with the white
+    ЛІСОВИК tree-face logo, a small round purple badge and the word РЕЙШІ.
+thoughts:
+- key: w14-reishi-dawn
+  topic: Рейші
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the fair stands one reishi mushroom grown in the shape of glossy red-brown
+    branching antlers, like a small deer's horns, on a wooden block.
+  crew: 'Four tiny people: a man holding a big round fan blowing air at the antlers, a woman hanging a
+    tiny wool scarf on one antler tip, a boy pretending to be a deer with his hands on his head, a girl
+    measuring the antler height with a folding ruler.'
+  claim: Гриб, що міняє фігуру
+  why: Якщо в теплиці застоюється вуглекислий газ, рейші замість віяла витягується вгору «оленячими рогами».
+    Тож вирощувачі провітрюють, коли хочуть класичну шапку.
+  source: Sudheer et al., Fungal Biology 2018; paulstamets.com paul-reishi
+- key: w14-reishi-morning
+  topic: Рейші
+  slot: morning
+  layout: jar
+  subject: The product stands in front of the stalls; beside it lies a small pale-green jade sceptre with
+    a curved head shaped like a reishi cap.
+  crew: 'Four tiny people: a man in a long coat bowing politely in front of the jade sceptre, a woman
+    polishing the sceptre with a soft cloth, a child carrying a small red paper lantern without any writing,
+    a man playing a small flute.'
+  claim: Китайський скіпетр і гриб
+  why: У Китаї є церемоніальний жезл жуї — його назва означає «як побажаєш». Голівку жезла часто роблять
+    у формі лінчжі, як там звуть рейші. Такий нефритовий жезл XVIII століття є навіть у королівській колекції
+    Британії.
+  source: en.wikipedia Ruyi (scepter); rct.uk ruyi-sceptre
+- key: w14-reishi-noon
+  topic: Рейші
+  slot: noon
+  layout: specimen
+  subject: In the middle of the fair stand three small wooden shelves with clear cultivation bags of sawdust,
+    glossy red-brown reishi caps growing out of the bag tops.
+  crew: 'Five tiny people: a grower in a white apron spraying the bags with a tiny mister, a woman writing
+    the date on a blank tag, a man stacking a new bag on the shelf, a girl holding a tiny thermometer
+    up, a man checking his pocket watch.'
+  claim: Довгий шлях до теплиці
+  why: Його віками малювали й шукали в лісі, а виростити штучно змогли лише наприкінці 1960-х — на початку
+    1970-х. Тепер рейші вирощують на колодах, тирсі й зерні.
+  source: en.wikipedia Lingzhi mushroom (cultivation)
+- key: w14-reishi-evening
+  topic: Рейші
+  slot: evening
+  layout: specimen
+  subject: In the middle of the fair lies one short hardwood log half-buried in snow with small white
+    threads of mycelium on its cut end, and one tiny young reishi cap just appearing on its side.
+  crew: 'Four tiny people: an old man sitting on a folding stool waiting with a thermos, a woman crossing
+    off days on a big blank wall calendar leaning on a stall, a boy asleep on a pile of hay next to the
+    log, a man winding a large old clock.'
+  claim: Рейші на колоді — рік чекання
+  why: Колоду заражають грибницею, і вона 9–12 місяців вростає в деревину. Лише після цього з'являються
+    перші шапки. Тож рейші на колодах — повільне ремесло, а не швидкий урожай.
+  source: extension.oregonstate.edu em-9364
+- key: w14-reishi-sell
+  topic: Рейші
+  slot: sell
+  layout: sell
+  subject: The product stands in front of the stalls, a glossy red-brown reishi cap in the snow beside
+    it.
+  crew: 'Five tiny people: a juggler tossing three small red balls, a woman roasting chestnuts on a tiny
+    brazier with glowing coals far from the jar, a man lifting a child to see the jar, a girl skipping
+    with a rope, an old woman knitting on a bench.'
+  claim: Екстракт рейші 10:1
+  why: Половину екстракту становлять полісахариди — так звуть довгі ланцюжки цукрів гриба. Оболонка капсули
+    рослинна, у банці 120 штук.
+  do: Обери банку на 60 чи на 120 капсул
+  source: склад у каталозі (https://lisovik.com.ua/reishi-trutovyk-lakovanyi-ekstrakt-101-kapsuly-120-sht-po-0.4-h/)
+offer:
+  topic: Рейші
+  layout: offer
+  subject: The product stands in front of the stalls.
+  crew: 'Four tiny people: a man carrying a small Christmas tree on his shoulder, a woman pushing a pram
+    through the snow, two children having a snowball fight.'
+  claim: Рейші в чотирьох формах
+  extra: Екстракт у капсулах — 60 або 120 шт|Екстракт мелений — 50 г|Мелені плодові тіла — 50 г|Подрібнені
+    плодові тіла — 50 г
+  do: Знайди всі чотири в шапці профілю
+  source: 'каталог 22.11.2026: LIS-481468/481469 та інші форми у наявності'

@@ -1,0 +1,88 @@
+# Тиждень 14: Чай «Квітковий оберіг». Подача «зимовий ярмарок» (build_story_v12).
+# product: https://lisovik.com.ua/chai-kvitkovyi-oberih-40-h/
+# Чай «Квітковий оберіг» 40 г: листя ожини, ехінацея, чорнобривці, волошка, троянда, соняшник, кропива. Ехінацея без слів про «опору».
+product:
+  name: Чай «Квітковий оберіг»
+  plaque: Сім трав
+  latin: Tagetes · Rosa · Helianthus
+  price: 180
+  ref: w14c_box_oberig_LIS-CHAI-005.jpg
+  pack: a cream-white matte cardboard tea box with faint grey line drawings of mushrooms and leaves, a
+    dark green ЛІСОВИК tree-face logo, the words ЧАЙ КВІТКОВИЙ ОБЕРІГ, a window band with a photo of colourful
+    flowers near the bottom, and a small green panel with a QR code in the top right corner.
+thoughts:
+- key: w14-oberig-dawn
+  topic: Чай «Квітковий оберіг»
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the fair stands a small clay pot with bright orange and yellow marigolds,
+    next to a tiny straw sombrero hat.
+  crew: 'Four tiny people: a man in a poncho playing a small guitar, a woman in an embroidered blouse
+    watering the marigolds from a jug, a boy trying on the tiny sombrero, a girl smelling a marigold.'
+  claim: Чорнобривці родом із Мексики
+  why: Чорнобривці — один із символів України, але батьківщина їхня — Мексика. Латинська назва Tagetes
+    — від Тагеса, героя етруських міфів, що, за легендою, зʼявився зі свіжозораної землі.
+  source: en.wikipedia Tagetes
+- key: w14-oberig-morning
+  topic: Чай «Квітковий оберіг»
+  slot: morning
+  layout: jar
+  subject: The product stands in front of the stalls; a single red rose with a long stem and visible prickles
+    lies in the snow beside it. The product is a SMALL tea box, no taller than one quarter of the frame,
+    standing LOW in the frame between 50% and 76% of its height, its top edge clearly below the upper
+    45% of the frame and fully visible.
+  crew: 'Four tiny people: a gardener wearing thick gloves holding the rose stem carefully, a man reading
+    a big open book of plants with blank pages, a woman pointing at one prickle with a pencil, a girl
+    with a bandage on her finger making a face.'
+  claim: Чим насправді коле троянда
+  why: Ботаніки звуть це шипами — вирости шкірки стебла. Справжні колючки — видозмінені гілки, як у глоду,
+    а таких у неї немає.
+  source: en.wikipedia Rose
+- key: w14-oberig-noon
+  topic: Чай «Квітковий оберіг»
+  slot: noon
+  layout: specimen
+  subject: In the middle of the fair stands one big sunflower head seen from the front, its centre showing
+    clear spiral patterns of seeds, golden petals around it.
+  crew: 'Five tiny people: a mathematician drawing a spiral with chalk on a small blackboard, a girl following
+    the spiral with her finger, a man counting seeds with an abacus, a woman photographing the spirals,
+    a boy sitting on the edge of the sunflower petals.'
+  claim: Соняшник — це сотні квіточок
+  why: Те, що звуть квіткою соняшника, — кошик із сотень дрібних квіточок. Жовті «пелюстки» по краю —
+    окремі квіточки, а в центрі вони лягають спіралями, зазвичай 34 і 55.
+  source: en.wikipedia Sunflower
+- key: w14-oberig-evening
+  topic: Чай «Квітковий оберіг»
+  slot: evening
+  layout: specimen
+  subject: In the middle of the fair stands a small old wooden spinning wheel with a bundle of greenish
+    nettle fibre, a folded piece of rough linen-like cloth and a few nettle stems beside it.
+  crew: 'Four tiny people: an old woman spinning thread at the spinning wheel, a man weaving on a tiny
+    wooden loom, a girl holding up the folded cloth to show it, a woman in thick gloves bundling nettle
+    stems.'
+  claim: Одяг із жалкої трави
+  why: З волокна кропиви здавна ткали полотно, схоже на лляне. У Данії знайшли кропивʼяні тканини ще з
+    бронзової доби — їм кілька тисяч років.
+  source: en.wikipedia Urtica dioica
+- key: w14-oberig-sell
+  topic: Чай «Квітковий оберіг»
+  slot: sell
+  layout: sell
+  subject: The product is a SMALL tea box standing in front of the stalls, a few orange marigolds and
+    a sunflower head in the snow beside it.
+  crew: 'Five tiny people: a woman serving tea from a big plain metal teapot, a man sitting on a barrel
+    blowing on his hot cup, a boy and girl sharing a blanket on a bench, a man stamping snow off his boots.'
+  claim: Сім трав в одній пачці
+  why: Листя ожини, ехінацея, чорнобривці, волошка, троянда, соняшник і кропива. 40 грамів, без кофеїну.
+  do: Заварюй як звичайний чай
+  source: склад у каталозі (https://lisovik.com.ua/chai-kvitkovyi-oberih-40-h/)
+offer:
+  topic: Чай «Квітковий оберіг»
+  layout: offer
+  subject: The product is a SMALL tea box standing in front of the stalls.
+  crew: 'Four tiny people: a florist arranging dried flowers in a bucket, a man painting a tiny wooden
+    toy, a girl hugging a big teddy bear, a man hanging a paper star without any writing.'
+  claim: Квітковий оберіг у пачці
+  extra: Вага — 40 г|Трав у зборі — 7|Кофеїн — немає
+  do: Шукай пачку в шапці профілю
+  source: 'каталог 22.11.2026: LIS-CHAI-005 у наявності'

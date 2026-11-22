@@ -1,0 +1,88 @@
+# Тиждень 14: Їжовик гребінчастий. Подача «зимовий ярмарок» (build_story_v12).
+# product: https://lisovik.com.ua/yizhovyk-hrebinchastyi-u-kapsulakh-120-sht-po-04-h/
+# Їжовик гребінчастий у капсулах, 120 шт. Ціна — за 120, як на фото.
+product:
+  name: Їжовик гребінчастий
+  plaque: Білий гриб-бурулька
+  latin: Hericium erinaceus
+  price: 750
+  ref: w14c_jar_mane.jpg
+  pack: a clear plastic jar with a wide white screw lid, filled with white capsules, with a rusty orange
+    label with the white ЛІСОВИК tree-face logo and the words ЇЖОВИК ГРЕБІНЧАСТИЙ, КАПСУЛИ 120 ШТ - 48
+    Г.
+thoughts:
+- key: w14-mane-dawn
+  topic: Їжовик гребінчастий
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the fair hangs one big creamy-white lion's mane mushroom from a short beech
+    log, its long soft spines hanging down like a frozen waterfall of icicles.
+  crew: 'Four tiny people: an ice climber with crampons climbing the hanging white spines, a man counting
+    the spines with his finger, a woman taking a selfie with a tiny phone, a child licking a real icicle
+    hanging from a stall roof.'
+  claim: Гриб, схожий на застиглий водоспад
+  why: З білої «подушки» звисають крихкі шипи-бурульки завдовжки 1–5 сантиметрів. Уся подушка буває до
+    40 сантиметрів упоперек — наче замерзлий водоспад на стовбурі.
+  source: en.wikipedia Hericium erinaceus
+- key: w14-mane-morning
+  topic: Їжовик гребінчастий
+  slot: morning
+  layout: jar
+  subject: The product stands in front of the stalls; a small white lion's mane mushroom lies on a plate
+    beside a small cooked red lobster on another plate.
+  crew: 'Four tiny people: a chef in a tall white hat tasting from a big spoon, a waiter carrying a tray
+    above his head, a man tying a napkin around his neck, a woman reading a blank menu card.'
+  claim: Що кажуть кухарі про їжовик
+  why: За смаком його порівнюють з омаром чи іншими морепродуктами. Мʼякоть щільна й «мʼясна», тому його
+    смажать навіть як стейк.
+  source: smallfarms.cornell.edu lions-mane; en.wikipedia Hericium erinaceus
+- key: w14-mane-noon
+  topic: Їжовик гребінчастий
+  slot: noon
+  layout: specimen
+  subject: In the middle of the fair lies a small stack of short beech logs, a few of them with small
+    white lion's mane mushrooms appearing on their sides.
+  crew: 'Five tiny people: a farmer drilling a small hole in a log with a hand drill, a woman hammering
+    a wooden plug into a hole, a man carrying a log on his back, a girl painting a log end with a brush,
+    a boy sitting on top of the stack with a hot drink.'
+  claim: Урожай, якого чекають роками
+  why: Колоди бука складають стосом і заражають грибницею. Перші їжовики зʼявляються за два роки, а найщедріше
+    колода родить на третій-четвертий рік.
+  source: smallfarms.cornell.edu 2015 lions-mane
+- key: w14-mane-evening
+  topic: Їжовик гребінчастий
+  slot: evening
+  layout: specimen
+  subject: In the middle of the fair lies one creamy-white lion's mane mushroom on a snowy oak log, covered
+    with a light dusting of fresh snow.
+  crew: 'Four tiny people: a woman brushing fresh snow off the white mushroom with a feather, a man holding
+    up a big blank calendar page, a boy jumping over the log, a man pulling a sled with a small spruce
+    tree.'
+  claim: Білу бороду знаходять і взимку
+  why: У Європі їжовик шукають із серпня по листопад. А на заході Північної Америки він плодоносить із
+    жовтня до лютого — тобто посеред зими.
+  source: en.wikipedia Hericium erinaceus (distribution, season)
+- key: w14-mane-sell
+  topic: Їжовик гребінчастий
+  slot: sell
+  layout: sell
+  subject: The product stands in front of the stalls, a small white lion's mane mushroom in the snow beside
+    it.
+  crew: 'Five tiny people: a man carving a small wooden spoon with a knife, a woman blowing soap bubbles,
+    a boy feeding a small toy reindeer, a man in a fur coat reading a newspaper with blank pages, a woman
+    wrapping a scarf around a snowman.'
+  claim: Тільки їжовик у капсулі
+  why: Сушений мелений їжовик гребінчастий без домішок. Оболонка капсули рослинна, у банці 120 штук.
+  do: Обери банку на 60 чи на 120 капсул
+  source: склад у каталозі (https://lisovik.com.ua/yizhovyk-hrebinchastyi-u-kapsulakh-120-sht-po-04-h/)
+offer:
+  topic: Їжовик гребінчастий
+  layout: offer
+  subject: The product stands in front of the stalls.
+  crew: 'Four tiny people: a man pulling a small cart of firewood, a woman shaking snow out of a rug,
+    a girl spinning around with arms open catching snowflakes, a man climbing down a ladder from a stall
+    roof.'
+  claim: Їжовик у формах
+  extra: Капсули — 60 або 120 шт|Екстракт у капсулах — 60 або 120 шт|Мелений гриб — 50 г
+  do: Знайди всі форми в шапці профілю
+  source: 'каталог 22.11.2026: LIS-469806/469807 та інші форми у наявності'

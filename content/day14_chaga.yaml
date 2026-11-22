@@ -1,0 +1,95 @@
+# Тиждень 14: Чага, екстракт 10:1. Подача «зимовий ярмарок» (build_story_v12).
+# product: https://lisovik.com.ua/chaha-berezova-ekstrakt-101-kapsuly-60-sht-po-0.5-h/
+# Чага березова, екстракт 10:1 у капсулах (не звичайні капсули — ті в бані). Ціна — за 60, як на фото.
+product:
+  name: Чага, екстракт 10:1
+  plaque: Березовий гриб
+  latin: Inonotus obliquus
+  price: 500
+  ref: w14c_jar_chaga_ext_LIS-481439.jpg
+  pack: an opaque WHITE plastic bottle with a white snap cap and a dark chocolate-brown label with the
+    white ЛІСОВИК tree-face logo, a small purple round badge, a band with a photo of chaga chunks and
+    the words ЧАГА, КАПСУЛИ 60 ШТ - 30 Г.
+thoughts:
+- key: w14-chaga-dawn
+  topic: Чага, екстракт 10:1
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the fair stands a big translucent block of blue glacier ice with snow on top;
+    on it stands a tiny figure of an ancient iceman in fur clothes and a grass cape, with a small leather
+    pouch on his belt and two small pale round fungus pieces hanging on leather cords from his neck. The
+    scene is bright, warm string lights glow around it.
+  crew: 'Five tiny people around the ice block: a girl peering at the fungus pieces through a lens, a
+    man carefully chipping ice with a tiny pickaxe, a woman wrapping a warm scarf around her son, a tour
+    guide raising a small blank flag on a stick, an old man pointing at the leather pouch.'
+  claim: Які гриби носив із собою Ецці
+  why: Льодова людина Ецці жила близько 5300 років тому. У сумці на поясі в нього був гриб-трутовик для
+    розпалювання вогню, а на шкіряних шнурках — два шматки березового трутовика. Навіщо вони, вчені досі
+    сперечаються.
+  source: cambridge.org Iceman's fungi (Peintner 1998); PMC5380686
+- key: w14-chaga-morning
+  topic: Чага, екстракт 10:1
+  slot: morning
+  layout: jar
+  subject: The product stands in front of the stalls; a short white birch log with peeling bark lies beside
+    it in the snow.
+  crew: 'Four tiny people: an artist at a small easel painting the white birch log, a woman peeling a
+    thin curl of white birch bark to look at it, a man with a magnifying glass examining the bark, a child
+    making a snow angel.'
+  claim: Чому кора берези біла
+  why: У зовнішніх шарах кори лежить речовина бетулін — дрібними кристалами, наче іній. Саме вона робить
+    березу білою. Є гіпотеза, що світла кора відбиває зимове сонце й менше нагрівається, — поки це лише
+    припущення.
+  source: northernwoodlands.org why-are-paper-birches-so-white; en.wikipedia Betulin
+- key: w14-chaga-noon
+  topic: Чага, екстракт 10:1
+  slot: noon
+  layout: specimen
+  subject: In the middle of the fair stands one tall section of an old birch trunk; a strip of its bark
+    is lifted like a little door, showing a thin flat brown fungal layer underneath; a black cracked chaga
+    growth sits higher on the trunk.
+  crew: 'Four tiny people: a woman holding the lifted strip of bark open like a door, a man shining a
+    small torch under it, a girl on tiptoe peeking inside, a man in a scarf taking notes on a clipboard.'
+  claim: Де ховається справжня чага
+  why: Чорний наріст — це щільна грудка грибниці, а не звичний гриб. Тонкий плоский шар, що дає спори,
+    зʼявляється під корою вже після загибелі дерева, через кілька років.
+  source: canr.msu.edu inonotus-obliquus; messiah.edu Inonotus obliquus
+- key: w14-chaga-evening
+  topic: Чага, екстракт 10:1
+  slot: evening
+  layout: specimen
+  subject: In the middle of the fair lies a patch of dark ash-grey ground melting through the snow, with
+    several tiny young birch saplings and a few small winged birch seeds on it.
+  crew: 'Four tiny people: a man in a forester''s jacket planting a tiny sapling with a trowel, a woman
+    catching a falling winged birch seed in her mitten, a boy watering a sapling from a toy watering can,
+    an old man leaning on a walking stick watching.'
+  claim: Хто першим росте на попелищі
+  why: Насіння берези легке, з крильцями, і летить за вітром. На оголеній після вогню землі воно швидко
+    проростає, тож молодий березняк часто вкриває згарище раніше за інші дерева.
+  source: natural-resources.canada.ca fire-ecology; fs.usda.gov lhdr_375
+- key: w14-chaga-sell
+  topic: Чага, екстракт 10:1
+  slot: sell
+  layout: sell
+  subject: The product stands in front of the stalls, a few black chaga chunks in the snow beside it.
+    The product is SMALL — no taller than one quarter of the frame — and stands among the stalls, with
+    the whole fair clearly visible around it.
+  crew: 'Five tiny people: a stall keeper wrapping a small parcel in brown paper, a customer counting
+    coins, a teenager carrying a wooden crate of chaga chunks, a woman tying a red ribbon on the stall
+    post, a boy pulling a toy wooden horse on a string.'
+  claim: Екстракт чаги 10:1
+  why: Половину екстракту становлять полісахариди — так звуть довгі ланцюжки цукрів гриба. Оболонка капсули
+    рослинна, у банці 60 штук.
+  do: Обери банку на 60 чи на 120 капсул
+  source: склад у каталозі (https://lisovik.com.ua/chaha-berezova-ekstrakt-101-kapsuly-60-sht-po-0.5-h/)
+offer:
+  topic: Чага, екстракт 10:1
+  layout: offer
+  subject: The product stands in front of the stalls.
+  crew: 'Four tiny people: a man closing the shutters of a stall, a woman waving goodbye from a stall
+    window, a child riding a small sledge pulled by her father, a man sweeping snow from the stall roof
+    with a broom.'
+  claim: Чага в трьох формах
+  extra: Екстракт у капсулах — 60 або 120 шт|Екстракт мелений — 50 г|Ціла й мелена чага — по 50 г
+  do: Знайди всі форми в шапці профілю
+  source: 'каталог 22.11.2026: LIS-481439/481440, 481441, 481438, 481435 у наявності'

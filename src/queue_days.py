@@ -71,6 +71,7 @@ ORDER11 = ["ginkgo", "ginseng", "lysychka", "ivan", "cordyceps", "course",
            "reishi"]
 ORDER12 = ["shiitake", "omega", "magniy", "osnova", "lypa", "sonne", "mind"]
 ORDER13 = ["gastro", "inulin", "hepato", "nyrko", "limfo", "triich", "baza"]
+ORDER14 = ["chaga", "reishi", "cordyceps", "mane", "dzherelo", "oberig", "osnova"]
 
 
 def arg(name, default=None):
@@ -106,7 +107,8 @@ def main() -> int:
         return 0
 
     slots = yaml.safe_load(DEFAULTS.read_text(encoding="utf-8"))["slots"]
-    prefix = ("day13_" if "--week13" in sys.argv else
+    prefix = ("day14_" if "--week14" in sys.argv else
+              "day13_" if "--week13" in sys.argv else
               "day12_" if "--week12" in sys.argv else
               "day11_" if "--week11" in sys.argv else
               "day10_" if "--week10" in sys.argv else
@@ -119,6 +121,7 @@ def main() -> int:
               "day3_" if "--week3" in sys.argv else
               "day2_" if "--week2" in sys.argv else "day_")
     order = (arg("--order") or ",".join(
+        ORDER14 if "--week14" in sys.argv else
         ORDER13 if "--week13" in sys.argv else
         ORDER12 if "--week12" in sys.argv else
         ORDER11 if "--week11" in sys.argv else

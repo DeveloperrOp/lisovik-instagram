@@ -1,0 +1,86 @@
+# Тиждень 14: Курс «Щоденна основа». Подача «зимовий ярмарок» (build_story_v12).
+# product: https://lisovik.com.ua/kurs-shchodenna-osnova-omeha-3-i-mahnii-1-misiats/
+# Курс «Щоденна основа»: омега-3 і магній гліцинат, по 60 капсул. Дозувань зі складу не беремо.
+product:
+  name: Курс «Щоденна основа»
+  plaque: Дві банки
+  latin: Omega-3 · Magnesium
+  price: 1030
+  ref: w14c_pair_osnova_LIS-K2601.jpg
+  pack: 'TWO opaque WHITE plastic bottles with white snap caps standing side by side: one with a rusty
+    orange label and the words ОМЕГА-3 РИБ''ЯЧИЙ ЖИР, the other with a deep royal blue label and the words
+    МАГНІЙ ГЛІЦИНАТ, both with the white ЛІСОВИК tree-face logo. EXACTLY these two bottles, together.'
+thoughts:
+- key: w14-osnova-dawn
+  topic: Курс «Щоденна основа»
+  slot: dawn
+  layout: specimen
+  subject: In the middle of the fair lies a small snowy wooden pier with a tiny red fishing boat, and
+    one big silver-green cod fish on the pier.
+  crew: 'Four tiny people: a fisherman in a yellow oilskin coat pulling a net, a woman waving from the
+    boat, a boy holding up a tiny fish proudly, an old sailor looking at the sea through a brass spyglass.'
+  claim: Тріска, що приходить узимку
+  why: Щозими доросла тріска пливе з холодного Баренцевого моря до берегів Норвегії. Норвежці звуть її
+    «скрей». Найбільше її біля Лофотенських островів — із січня по квітень.
+  source: visitnorway.com skrei; visitlofoten.com skrei-and-stockfish
+- key: w14-osnova-morning
+  topic: Курс «Щоденна основа»
+  slot: morning
+  layout: jar
+  subject: The two products stand side by side in front of the stalls; beside them stands a small wooden
+    drying rack with several dried fish hanging on it.
+  crew: 'Four tiny people: a man hanging a pair of fish on the wooden rack, a woman tying the fish tails
+    together with string, a girl holding her nose and laughing, a man feeling the wind with a raised wet
+    finger.'
+  claim: Тріска, що сохне на вітрі
+  why: На Лофотенах тріску сушать без солі на відкритих дерев'яних рамах — у холодному повітрі, з лютого
+    по травень. Такою рибою торгують уже понад тисячу років.
+  source: visitlofoten.com skrei-and-stockfish; PGI Torrfisk fra Lofoten
+- key: w14-osnova-noon
+  topic: Курс «Щоденна основа»
+  slot: noon
+  layout: specimen
+  subject: In the middle of the fair stand a few small dark amber glass bottles and one small clear glass
+    bottle with golden oil inside, a soft beam of light falling on the clear one.
+  crew: 'Five tiny people: a man holding a big umbrella to shade the clear bottle, a woman closing a tiny
+    window curtain, a boy wrapping a bottle in a wool sock, a pharmacist in a white coat placing a bottle
+    into a wooden cupboard, a girl pointing at the light beam.'
+  claim: Чому риб'ячий жир ховають від світла
+  why: У ньому багато жирних кислот, які легко зʼєднуються з киснем. Світло, тепло й повітря цей процес
+    прискорюють. Тому капсули продають у непрозорих банках і радять тримати в прохолоді та темряві.
+  source: repository.library.noaa.gov 9156; newhope.com fish-oil-fresh
+- key: w14-osnova-evening
+  topic: Курс «Щоденна основа»
+  slot: evening
+  layout: specimen
+  subject: In the middle of the fair lies one big bright green leaf, and above it floats a simple large
+    model of a molecule made of green balls with one bigger silver ball in the centre.
+  crew: 'Four tiny people: a chemist with round glasses holding the silver centre ball up, a woman painting
+    the green leaf with a brush, a man reading an old letter with a wax seal, a child balancing a green
+    ball on his head.'
+  claim: Магній — у серці зеленого листка
+  why: Зелений барвник листя, хлорофіл, має в центрі молекули атом магнію. Німецький хімік Ріхард Вільштеттер
+    досліджував хлорофіл і 1915 року отримав за це Нобелівську премію.
+  source: nobelprize.org willstatter; en.wikipedia Magnesium
+- key: w14-osnova-sell
+  topic: Курс «Щоденна основа»
+  slot: sell
+  layout: sell
+  subject: The two products stand side by side in front of the stalls.
+  crew: 'Five tiny people: a postman delivering a parcel, a woman putting a coin into a tiny charity box
+    with no writing, a man playing a drum, a girl dancing in a red coat, a man holding the door of a stall
+    open for an old lady.'
+  claim: Дві банки на щодень
+  why: Омега-3 риб'ячий жир і магній бісгліцинат, по 60 капсул у кожній банці.
+  do: Візьми обидві банки одним курсом
+  source: склад у каталозі (https://lisovik.com.ua/kurs-shchodenna-osnova-omeha-3-i-mahnii-1-misiats/)
+offer:
+  topic: Курс «Щоденна основа»
+  layout: offer
+  subject: The two products stand side by side in front of the stalls.
+  crew: 'Four tiny people: a man writing a wish on a blank paper card and tying it to a tree, a woman
+    ice-skating backwards, a boy making a snowball, a grandfather holding a grandchild''s hand.'
+  claim: Що в курсі
+  extra: Омега-3 риб'ячий жир — 60 капсул|Магній гліцинат — 60 капсул
+  do: Знайди курс у шапці профілю
+  source: 'каталог 22.11.2026: LIS-K2601 у наявності'
