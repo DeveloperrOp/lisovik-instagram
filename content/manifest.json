@@ -7419,10 +7419,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1122-baza-evening.jpg",
    "slot_start": "2026-11-22T18:00:00+02:00",
    "slot_end": "2026-11-22T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-22T18:03:14.233807+02:00",
+   "ig_media_id": "18111240143249392",
+   "error": null,
+   "fb_story_id": "1800081164560361"
   },
   {
    "id": "1122-baza-sell",
