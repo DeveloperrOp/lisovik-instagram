@@ -7391,10 +7391,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1122-baza-morning.jpg",
    "slot_start": "2026-11-22T10:00:00+02:00",
    "slot_end": "2026-11-22T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-22T10:02:00.422490+02:00",
+   "ig_media_id": "18033306902915491",
+   "error": null,
+   "fb_story_id": "1137588651963210"
   },
   {
    "id": "1122-baza-noon",
