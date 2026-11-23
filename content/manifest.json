@@ -7461,10 +7461,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1123-chaga-dawn.jpg",
    "slot_start": "2026-11-23T07:00:00+02:00",
    "slot_end": "2026-11-23T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-23T07:01:18.071504+02:00",
+   "ig_media_id": "18195520156407354",
+   "error": null,
+   "fb_story_id": "965595486383985"
   },
   {
    "id": "1123-chaga-morning",
