@@ -7503,11 +7503,12 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1123-chaga-evening.jpg",
    "slot_start": "2026-11-23T18:00:00+02:00",
    "slot_end": "2026-11-23T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
+   "status": "published",
+   "published_at": "2026-11-23T18:15:25.635696+02:00",
+   "ig_media_id": "18131775566477881",
    "error": "Graph API 400: {\"error\":{\"message\":\"The requested resource does not exist\",\"code\":24,\"type\":\"OAuthException\",\"error_subcode\":2207006,\"is_transient\":false,\"error_user_msg\":\"Медіафайл з ідентифікатором 18 114 051 806 236 930 не знайдено.\",\"error_user_title\":\"Медіафайл не знайдено\",\"fbtrace_id\":\"ABMSL-",
-   "tries": 1
+   "tries": 1,
+   "fb_story_id": "2029554744393653"
   },
   {
    "id": "1123-chaga-sell",
