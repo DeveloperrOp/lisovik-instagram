@@ -7506,7 +7506,8 @@
    "status": "approved",
    "published_at": null,
    "ig_media_id": null,
-   "error": null
+   "error": "Graph API 400: {\"error\":{\"message\":\"The requested resource does not exist\",\"code\":24,\"type\":\"OAuthException\",\"error_subcode\":2207006,\"is_transient\":false,\"error_user_msg\":\"Медіафайл з ідентифікатором 18 114 051 806 236 930 не знайдено.\",\"error_user_title\":\"Медіафайл не знайдено\",\"fbtrace_id\":\"ABMSL-",
+   "tries": 1
   },
   {
    "id": "1123-chaga-sell",
