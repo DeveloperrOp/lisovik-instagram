@@ -7630,10 +7630,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1125-cordyceps-dawn.jpg",
    "slot_start": "2026-11-25T07:00:00+02:00",
    "slot_end": "2026-11-25T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-25T07:02:07.309815+02:00",
+   "ig_media_id": "18125836597939777",
+   "error": null,
+   "fb_story_id": "1537418361777303"
   },
   {
    "id": "1125-cordyceps-morning",
