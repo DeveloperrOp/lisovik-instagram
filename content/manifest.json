@@ -7672,10 +7672,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1125-cordyceps-evening.jpg",
    "slot_start": "2026-11-25T18:00:00+02:00",
    "slot_end": "2026-11-25T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-25T18:07:45.060272+02:00",
+   "ig_media_id": "18184264021440263",
+   "error": null,
+   "fb_story_id": "1192245093332710"
   },
   {
    "id": "1125-cordyceps-sell",
