@@ -7784,10 +7784,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1126-mane-night.jpg",
    "slot_start": "2026-11-26T20:00:00+02:00",
    "slot_end": "2026-11-26T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-26T20:04:16.839750+02:00",
+   "ig_media_id": "17962399740271034",
+   "error": null,
+   "fb_story_id": "1348092194030326"
   },
   {
    "id": "1127-dzherelo-dawn",
