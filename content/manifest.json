@@ -7728,10 +7728,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1126-mane-morning.jpg",
    "slot_start": "2026-11-26T10:00:00+02:00",
    "slot_end": "2026-11-26T11:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-26T10:02:19.034229+02:00",
+   "ig_media_id": "18110671223361337",
+   "error": null,
+   "fb_story_id": "1198081505904866"
   },
   {
    "id": "1126-mane-noon",
