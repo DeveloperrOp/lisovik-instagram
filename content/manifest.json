@@ -7868,10 +7868,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1127-dzherelo-night.jpg",
    "slot_start": "2026-11-27T20:00:00+02:00",
    "slot_end": "2026-11-27T23:30:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-27T20:07:51.353485+02:00",
+   "ig_media_id": "18124598203943251",
+   "error": null,
+   "fb_story_id": "1032352579898510"
   },
   {
    "id": "1128-oberig-dawn",
