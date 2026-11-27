@@ -7854,10 +7854,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1127-dzherelo-sell.jpg",
    "slot_start": "2026-11-27T19:00:00+02:00",
    "slot_end": "2026-11-27T19:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-27T19:03:36.509677+02:00",
+   "ig_media_id": "18449291644179437",
+   "error": null,
+   "fb_story_id": "1637894935034753"
   },
   {
    "id": "1127-dzherelo-night",
