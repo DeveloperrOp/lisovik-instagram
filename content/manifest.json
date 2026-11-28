@@ -7924,10 +7924,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1128-oberig-evening.jpg",
    "slot_start": "2026-11-28T18:00:00+02:00",
    "slot_end": "2026-11-28T18:55:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-28T18:02:30.382335+02:00",
+   "ig_media_id": "17979279840146044",
+   "error": null,
+   "fb_story_id": "4691151147831952"
   },
   {
    "id": "1128-oberig-sell",
