@@ -7882,10 +7882,11 @@
    "media_url": "https://raw.githubusercontent.com/DeveloperrOp/lisovik-instagram/master/media/1128-oberig-dawn.jpg",
    "slot_start": "2026-11-28T07:00:00+02:00",
    "slot_end": "2026-11-28T09:45:00+02:00",
-   "status": "approved",
-   "published_at": null,
-   "ig_media_id": null,
-   "error": null
+   "status": "published",
+   "published_at": "2026-11-28T07:04:56.694677+02:00",
+   "ig_media_id": "17994381773859418",
+   "error": null,
+   "fb_story_id": "2051360135548939"
   },
   {
    "id": "1128-oberig-morning",
